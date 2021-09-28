@@ -1,0 +1,48 @@
+﻿<div class="upload-popover">
+    <i ng-click="hidePopover()" class="pop-close pop-close-img emr-image"></i>
+    <div class="upload-tabs">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#upmenu1" data-toggle="tab">Patient History</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="myPopover" class="col-md-12 padding0">
+                <div class="col-md-6 padding0 line-height33">
+                    <div>
+                        PatientHistory
+                    </div>
+                    <div>
+                        Remarks
+                    </div>
+                    <div>
+                        Refering Doctor
+                    </div>
+                    <div>
+                        Refering Hospital
+                    </div>
+                </div>
+                <div class="col-md-6 padding0">
+                    <textarea class="form-control" ng-model="objPatient.PatientHistory" rows="1"></textarea>
+                    <textarea class="form-control" ng-model="objPatient.RegistrationRemarks" rows="1"></textarea>
+                    <input type="text" autocomplete="off" class="form-control input-sm" readonly="readonly" ng-model="objPatient.ReferingPhysicianName">
+                    <input type="text" autocomplete="off" class="form-control input-sm" readonly="readonly" ng-model="objPatient.HospitalName">
+                </div>
+            </div>
+            <div class="tab-footer">
+                <input class="btn-success" ng-click="savePatientHistory();" type="button" value="Save">
+                <input class="btn-default" ng-click="hidePopover();AddHis=false;" type="button" value="close">
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-valign">
+                    <tr ng-repeat="obj in lstPatientHistory">
+                        <td colspan="3">
+                            History : {{::obj.PatientHistory}}
+                        </td>
+                        <td colspan="3">
+                            Remarks : {{::obj.RegistrationRemarks}}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

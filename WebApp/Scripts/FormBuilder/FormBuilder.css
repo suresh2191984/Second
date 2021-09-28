@@ -1,0 +1,165 @@
+﻿#controls-content .options .sortable-options-wrap {
+    width: 81.33333333%;
+    display: inline-block;
+}
+
+
+#controls-content * {
+    box-sizing: border-box;
+}
+
+#controls-content .options .sortable-options {
+    display: inline-block;
+    width: 100%;
+    margin-left: 2%;
+    background: #c5c5c5;
+    margin-bottom: 0;
+   /* border-radius: 5px;*/
+    list-style: none;
+    padding: 0;
+}
+
+#controls-content .options .sortable-options>li {
+    cursor: move;
+    margin: 1px;
+}
+
+#controls-content .options li:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#controls-content .options li {
+    position: relative;
+    padding: 6px;
+    clear: both;
+    margin-left: 0;
+    margin-bottom: 3px;
+    background-color: #fff;
+    transition: background-color .25s ease-in-out,margin-top .4s;
+}
+#controls-content .options>li:hover li :hover {
+    background: #fefefe;
+}
+
+
+#controls-content .options .sortable-options .option-selected {
+    margin: 0;
+    width: 5%;
+}
+
+
+#controls-content .options .form-elements input[type=color], #controls-content .options .form-elements input[type=date], #controls-content .options .form-elements input[type=number], #controls-content .options .form-elements input[type=text], #controls-content .options .form-elements select, #controls-content .options .form-elements textarea {
+    transition: background .25s ease-in-out;
+    padding: 6px 12px;
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+}
+
+
+#controls-content .options .sortable-options input[type=text] {
+    width: calc(44.5% - 17px);
+    margin: 0 1%;
+    float: none;
+}
+
+.#controls-content  button, #controls-content  input, #controls-content  select, #controls-content textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#controls-content button, #controls-content input, #controls-content optgroup, #controls-content select, #controls-content textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.close-field {
+    position: inherit;
+    color: #666;
+    left: 50%;
+    bottom: 6px;
+    background: #fff;
+    border-top: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    transform: translateX(-50%);
+    padding: 0 5px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    cursor: pointer;
+    transition: background-color .25s ease-in-out;
+    margin-left: 45%;
+}
+#controls-content .option-actions {
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 2%;
+}
+
+#controls-content  .option-actions a,.option-actions button {
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #c5c5c5;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+#controls-content input[type="text"].NwithUnits
+{
+    width:70%;
+ }
+ #controls-content select.NwithUnits
+{
+    display: initial;width: 20%;margin-left: 30px;float: right;margin-top: -35px;
+ }
+ #controls-content .fb-radio-group .radio, #controls-content .fb-radio-group .radio-inline {
+    padding-left: 0;
+}
+.panel h1,.panel h2,.panel h3
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42857143;
+    }
+ #preview-content .fb-radio-group .radio, #preview-content .fb-radio-group .radio-inline {
+    padding-left: 0;
+}
+#preview-content input[type=radio]
+{
+    margin-left: 0px;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ #controls-content .options .prev-holder label {
+    font-weight: 400;
+}
+
+/* #controls-content .panel
+{
+    color: #666;
+    
+    }
+#controls-content .radio label
+{
+   margin-top:-3px; 
+}
+
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}*/
+
+
+

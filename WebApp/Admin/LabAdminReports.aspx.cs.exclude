@@ -1,0 +1,160 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Data.SqlClient;
+using Attune.Podium.BusinessEntities;
+using Attune.Solution.BusinessComponent;
+using System.Collections.Generic;
+using Attune.Podium.Common;
+
+public partial class Admin_LabAdminReports : BasePage
+{
+    string pClientID;
+    long returnCode = 0;
+    string key;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            LoadInvClientMaster();
+        }
+    }
+    public void LoadInvClientMaster()
+    {
+        try
+        {
+            string type = "Master";
+            long retCode = -1;
+            Patient_BL patBL = new Patient_BL(base.ContextInfo);
+            List<InvClientMaster> getInvClientMaster = new List<InvClientMaster>();
+            retCode = patBL.GetInvClientMaster(OrgID, type,out getInvClientMaster);
+            if (retCode == 0)
+            {
+                ddlClient.DataSource = getInvClientMaster;
+                ddlClient.DataTextField = "ClientName";
+                ddlClient.DataValueField = "ClientID";
+                ddlClient.DataBind();
+                ddlClient.Items.Insert(0, "-----Select-----");
+                ddlClient.Items[0].Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            CLogger.LogError("Error While Loading InvClientMaster Details.", ex);
+            ErrorDisplay1.ShowError = true;
+            ErrorDisplay1.Status = "There was a problem in page load. Please contact system administrator";
+        }
+    }
+    protected void ddlClient_SelectedIndexChanged(object sender, EventArgs e)
+    {
+    }
+    protected void btnGo_Click(object sender, EventArgs e)
+    {
+        string fDate=txtFrom.Text;
+        string clientName=ddlClient.SelectedItem.ToString();
+        string tDate = txtTo.Text;
+        // string fDate = string.Empty;
+        // string tDate = string.Empty;
+        //pType = Request.QueryString["type"].ToString();
+        string windowFeatures = "toolbar=no,status=no,menubar=no,location=no,scrollbars=yes,resizable=yes,height=700,width=1024,left=150,top=250";
+        key = "window.open('LabAdminReportsPrint.aspx?cid=" + pClientID + "&frmdate=" + fDate + "&toDate=" + tDate +"&cname="+clientName+ "','demo','" + windowFeatures + "','');";
+        //Response.Redirect("LabAdminReportsPrint.aspx?cid=" + pClientID + "&frmdate=" + fDate + "toDate=" + tDate + "", true);
+        imgPrint.Attributes.Add("OnClick", key);
+        printIt.Attributes.Add("OnClick", key);
+        string clientID = string.Empty; ;
+        string  strPatientName = string.Empty;
+        string dtBillFromDate = string.Empty; ;
+        string dtBillToDate = string.Empty; ;
+        string strBillNo = string.Empty; ;
+        string strDrName = string.Empty;
+        string strHospitalName = string.Empty;       
+        long returnCode = -1;
+
+        clientID = ddlClient.SelectedValue.ToString();
+        dtBillFromDate = txtFrom.Text;
+        dtBillToDate = txtTo.Text;
+        List<BillSearch> billSearch = new List<BillSearch>();
+        Patient_BL patientBL = new Patient_BL(base.ContextInfo);
+        try
+        {
+            returnCode = patientBL.SearchBill(strBillNo, dtBillFromDate, dtBillToDate, strPatientName, strDrName, strHospitalName, clientID, OrgID, out billSearch);
+        }
+        catch
+        {
+            //Do nothing
+        }
+        if (returnCode == 0 && billSearch.Count > 0)
+        {
+            grdResult.Visible = true;
+            lblResult.Visible = false;
+            printIt.Visible = true;
+            imgPrint.Visible = true;
+            lblResult.Text = "";
+            grdResult.DataSource = billSearch;
+            grdResult.DataBind();
+        }
+        else
+        {
+            grdResult.Visible = false;
+            lblResult.Visible = true;
+            printIt.Visible = false;
+            imgPrint.Visible = false;
+            lblResult.Text = "No Matching Records Found!";
+        }
+    }
+    protected void grdResult_RowDataBound(Object sender, GridViewRowEventArgs e)
+    {
+        try
+        {
+        }
+        catch (Exception Ex)
+        {
+            //report error
+        }
+    }
+    protected void grdResult_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        GridViewRow row = grdResult.SelectedRow;
+    }
+    protected void dList_SelectedIndexChanged(object sender, EventArgs e)
+    {
+    }
+    protected void grdResult_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        if (e.NewPageIndex != -1)
+        {
+            grdResult.PageIndex = e.NewPageIndex;
+            btnGo_Click(sender, e);
+        }
+    }
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            List<Role> lstUserRole = new List<Role>();
+            string path = string.Empty;
+            Role role = new Role();
+            role.RoleID = RoleID;
+            lstUserRole.Add(role);
+            returnCode = new Navigation().GetLandingPage(lstUserRole, out path);
+            Response.Redirect(Request.ApplicationPath  + path, true);
+        }
+        catch (System.Threading.ThreadAbortException tae)
+        {
+            string thread = tae.ToString();
+        }
+    }
+    protected void imgPrint_Click(object sender, EventArgs e)
+    {
+    }
+    protected void printIt_Click(object sender, EventArgs e)
+    {
+    }
+}

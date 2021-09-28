@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_AuditHistory_ascx_06" xml:space="preserve">
+    <value>Login Details</value>
+  </data>
+  <data name="CommonControls_AuditHistory_ascx_07" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>Discount Amount Greater than 100%.</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>Referring Doctor discount limit is exceeded for this period, will not be able to provide further discounts.</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value>Employee discount limit is exceeded for this period, will not be able to provide further discounts.</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>Please enter the mobile number</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>Please enter the card number</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_01" xml:space="preserve">
+    <value>Please Select FromDate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_02" xml:space="preserve">
+    <value>Please Select ToDate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_03" xml:space="preserve">
+    <value>Selected Date Must Be Greater than CurrentDate or CurrentDate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_04" xml:space="preserve">
+    <value>Selected Date Must Be Less than CurrentDate or CurrentDate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_05" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_06" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_07" xml:space="preserve">
+    <value>Invoice Scheduled Successfully</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_08" xml:space="preserve">
+    <value>No Bills Added to this Client</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_09" xml:space="preserve">
+    <value>Its Only for Manual Invoice</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>Invalid ICD Code. Do you wish to continue?</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_02" xml:space="preserve">
+    <value>Enter medical problem</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_03" xml:space="preserve">
+    <value>Complaint Already Added!</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_02" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_03" xml:space="preserve">
+    <value>Please select a file to add.</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_04" xml:space="preserve">
+    <value>Please select valid file format (gif/jpg/png/bmp/jpeg/pdf)</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_05" xml:space="preserve">
+    <value>Please browse at least one file to upload.</value>
+  </data>
+  <data name="CommonControls_Header_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_01" xml:space="preserve">
+    <value>Investigation already added!</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_02" xml:space="preserve">
+    <value>Please Select Investigation</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_03" xml:space="preserve">
+    <value>You Cannot delfete the item which is already billed</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_04" xml:space="preserve">
+    <value>Enter Investigation Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>Please Select Client Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_02" xml:space="preserve">
+    <value>Please Select Ratecard Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_03" xml:space="preserve">
+    <value>Select Co-Payment Logic</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_04" xml:space="preserve">
+    <value>Select Co-Payment to be deducted from</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_05" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_06" xml:space="preserve">
+    <value>Clicking 'Yes' will change all the previous bills of this visit to the new tariff; Clicking 'No' will cause the subsequent bills to have the new tariff. Click 'Cancel' if you do not want to change anything</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_07" xml:space="preserve">
+    <value>Copayment percentage must between 0 to 100</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_08" xml:space="preserve">
+    <value>Please Register InPatient Details..</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_09" xml:space="preserve">
+    <value>Please select Eligible Client Name...</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_10" xml:space="preserve">
+    <value>Please select Eligible Rate Name...</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_11" xml:space="preserve">
+    <value>Please Select Client Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_12" xml:space="preserve">
+    <value>Please Select Ratecard Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_13" xml:space="preserve">
+    <value>Select Co-Payment Logic</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_14" xml:space="preserve">
+    <value>Select Co-Payment to be deducted from</value>
+  </data>
+  <data name="CommonControls_OrgHeader_aspx_01" xml:space="preserve">
+    <value>Are you sure you want to logout?</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>Saved Successfully!</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>Please enter remark to save</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>Please Enter Preference To Add</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>Please Enter Cheque/Card Number</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>Please Enter Bank Name/Card Type</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_03" xml:space="preserve">
+    <value>Please Enter Coupon Units</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_04" xml:space="preserve">
+    <value>Amount should be greater than zero</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_05" xml:space="preserve">
+    <value>Please Enter Amount greater than 0</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_06" xml:space="preserve">
+    <value>Payment Type and Amount Required</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_07" xml:space="preserve">
+    <value>Please enter Rate of Interest for EMI</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_08" xml:space="preserve">
+    <value>Please enter the Tenor of Interest</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_09" xml:space="preserve">
+    <value>Cheque no should be last</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_10" xml:space="preserve">
+    <value>numbers</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_11" xml:space="preserve">
+    <value>Card no should be last</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_12" xml:space="preserve">
+    <value>Please enter the cheque valid Date</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_13" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_14" xml:space="preserve">
+    <value>Cash Payment mode already exists, Kindly edit then add amount</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_15" xml:space="preserve">
+    <value>Payment Name already exists</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>Advance Amount cannot be Refund</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>Co payment Amount cannot be Refund</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>Discharged Patient Receipt Cannot be Refund</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_06" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>Sample already exists</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>Select department name !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>Provide department name !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>Provide department Code !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>Please Select The Role</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value>Please select the department</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_06" xml:space="preserve">
+    <value>Select the department</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_07" xml:space="preserve">
+    <value>Changes saved successfully.</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_08" xml:space="preserve">
+    <value>Content Moved UP !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_09" xml:space="preserve">
+    <value>Content Moved !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_10" xml:space="preserve">
+    <value>Content Moved DOWN !!</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_01" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_02" xml:space="preserve">
+    <value>Are you sure you want to Logout?</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_03" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_04" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CommonControls_Footer_ascx_01" xml:space="preserve">
+    <value>Only</value>
+  </data>
+  <data name="CommonControls_Footer_ascx_02" xml:space="preserve">
+    <value>characters allowed.</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_01" xml:space="preserve">
+    <value>Selected Date Must Be Greater than CurrentDate or CurrentDate</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_02" xml:space="preserve">
+    <value>Select Role</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>select an item to remove</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>select an item to add</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_04" xml:space="preserve">
+    <value>Enter minimum 2 letters</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_05" xml:space="preserve">
+    <value>Enter minimum 3 letters</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_06" xml:space="preserve">
+    <value>Select the items in investigation master</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_07" xml:space="preserve">
+    <value>Select the items in group mapping</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_08" xml:space="preserve">
+    <value>Create New Package</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_09" xml:space="preserve">
+    <value>Add content to Package</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_10" xml:space="preserve">
+    <value>Enter the Package Name</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_11" xml:space="preserve">
+    <value>Consultation Already Added!</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_12" xml:space="preserve">
+    <value>Health Checkup Already Added!</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_01" xml:space="preserve">
+    <value>Please select visit detail</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_02" xml:space="preserve">
+    <value>Please Proceed via Todays Patient Link</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_03" xml:space="preserve">
+    <value>This action cannot be performed for New born baby</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_04" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_05" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_06" xml:space="preserve">
+    <value>Please Select Visit Detail</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_07" xml:space="preserve">
+    <value>This Visit Bill is Already Merged</value>
+  </data>
+  <data name="CommonControls_ReminderDisplay_ascx_01" xml:space="preserve">
+    <value>Enter The Defer Date</value>
+  </data>
+  <data name="CommonControls_TaskEscalation_ascx_01" xml:space="preserve">
+    <value>Are You Sure To Delete? This Action Will Delete The Task Also</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_01" xml:space="preserve">
+    <value>Unable to save test master details!,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_02" xml:space="preserve">
+    <value>Select remarks type,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_03" xml:space="preserve">
+    <value>Select Remark,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_04" xml:space="preserve">
+    <value>Selected Test is Not Orderable,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_05" xml:space="preserve">
+    <value>Selected Test already exists,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_06" xml:space="preserve">
+    <value>Select a Test,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_07" xml:space="preserve">
+    <value>Unable to delete,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_08" xml:space="preserve">
+    <value>Selected remarks already exists,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_09" xml:space="preserve">
+    <value>Kindly provide  Reason,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_10" xml:space="preserve">
+    <value>Enter Processing Time Value,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_11" xml:space="preserve">
+    <value>Enter display text,</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_12" xml:space="preserve">
+    <value>Enter Remark Code</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_13" xml:space="preserve">
+    <value>Enter New Remark</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_14" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_15" xml:space="preserve">
+    <value>Code already exists</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_16" xml:space="preserve">
+    <value>Error! Not Inserted</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_17" xml:space="preserve">
+    <value>Updated Successfully</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_18" xml:space="preserve">
+    <value>Already exists</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_19" xml:space="preserve">
+    <value>Oops! Error Occured</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_20" xml:space="preserve">
+    <value>Select range type</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_21" xml:space="preserve">
+    <value>Range already Exist</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_22" xml:space="preserve">
+    <value>Only one primary record is possible</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_23" xml:space="preserve">
+    <value>Select RoleName First</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_24" xml:space="preserve">
+    <value>Select Doctor</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_25" xml:space="preserve">
+    <value>Test code can't be mapped without device</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_26" xml:space="preserve">
+    <value>Atleast one value required</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_27" xml:space="preserve">
+    <value>Reason is required while changing the details</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_28" xml:space="preserve">
+    <value>Select Register Location</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_29" xml:space="preserve">
+    <value>Select the Processing Location Values</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_30" xml:space="preserve">
+    <value>Unable to delete</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_31" xml:space="preserve">
+    <value>Register Location Already Exists</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_001" xml:space="preserve">
+    <value>Please provide your acknowledgement by checking - I have read this message.</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_002" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_003" xml:space="preserve">
+    <value>Please enter correct visit number</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_004" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_005" xml:space="preserve">
+    <value>Visit Number :</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>Check whether Smart Card issued to Patient</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_01" xml:space="preserve">
+    <value>Please Check The Employee Number</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_02" xml:space="preserve">
+    <value>Please Enter the Employee No</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_03" xml:space="preserve">
+    <value>Provide the External patient number ID</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_04" xml:space="preserve">
+    <value>Provide the Dependents number</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_05" xml:space="preserve">
+    <value>Provide the relation Type</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_06" xml:space="preserve">
+    <value>External to external not add</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_07" xml:space="preserve">
+    <value>Please associate dependents for External Patient</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_08" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_09" xml:space="preserve">
+    <value>Update Faild.</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_10" xml:space="preserve">
+    <value>External and dependents patient name is same"</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_11" xml:space="preserve">
+    <value>Employee number already exists. Please re-enter</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_12" xml:space="preserve">
+    <value>Selected individual is already registered as patient. Please proceed to Make Visit</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>please check the Discount</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>please check the Amount Received</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>If Credit Bill, Please Select Hospital</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>Total is Incorrect</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>Amount Entered is greater than Net Amount</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_32" xml:space="preserve">
+    <value>Enter display text</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_02" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_03" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_04" xml:space="preserve">
+    <value>No Physician Found</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_05" xml:space="preserve">
+    <value>Please select from the list</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_sel" xml:space="preserve">
+    <value>Select Type</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_05" xml:space="preserve">
+    <value>Press to close</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_06" xml:space="preserve">
+    <value>You Are Using Test URL !!</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_07" xml:space="preserve">
+    <value>No Visit For This Patient</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_08" xml:space="preserve">
+    <value>Room Details</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_09" xml:space="preserve">
+    <value>Visit Purpose</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_10" xml:space="preserve">
+    <value>Visit Type</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_11" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_12" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_13" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_14" xml:space="preserve">
+    <value>P.NO</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_15" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_16" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_17" xml:space="preserve">
+    <value>Press to close</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_18" xml:space="preserve">
+    <value>Help Video</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_19" xml:space="preserve">
+    <value>Patient Search</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_01" xml:space="preserve">
+    <value>Please Choose Atleast one Search Criteria.</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_02" xml:space="preserve">
+    <value>Please Enter the Search Text to find the Physician</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_03" xml:space="preserve">
+    <value>Please Enter Physician Name'</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_04" xml:space="preserve">
+    <value>Amount Entered is greater than bill amount</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_06" xml:space="preserve">
+    <value>Paymentmode is updated successfully</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_001" xml:space="preserve">
+    <value>Don't add same test as reflex test!</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_34" xml:space="preserve">
+    <value>Updated Successfully</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_35" xml:space="preserve">
+    <value>Already exists</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_36" xml:space="preserve">
+    <value>Oops! Error Occured</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_16" xml:space="preserve">
+    <value>The Payment details already exists, Kindly change Card details</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_17" xml:space="preserve">
+    <value>AmtReceivedID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_18" xml:space="preserve">
+    <value>AmountReceivedID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_19" xml:space="preserve">
+    <value>Select Currency Type</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_20" xml:space="preserve">
+    <value>Sorry Given Bank/CardHolder Name &amp; Card/cheque Number Already exist.\n Please try different Card/cheque Number.</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_37" xml:space="preserve">
+    <value>Test master details loaded successfully!</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_38" xml:space="preserve">
+    <value>Unable to load test master details!</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_39" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_40" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+    <data name="CommonControls_PaymentTypeDetails_ascx_21" xml:space="preserve">
+    <value>---Select----</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_20" xml:space="preserve">
+    <value>Do you really want to Logout?</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_21" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_22" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_23" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value>Select Date Range</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_01" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_02" xml:space="preserve">
+    <value>Given sample details exists</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_03" xml:space="preserve">
+    <value>Given sample details not exists</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_04" xml:space="preserve">
+    <value>Provide sample detail</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_05" xml:space="preserve">
+    <value>There is no sample details to checkin</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_06" xml:space="preserve">
+    <value>Checked-In Successfully</value>
+  </data>
+  <data name="CommonControls_SampleArchival_ascx_07" xml:space="preserve">
+    <value>Unable to Checkin the details</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_12" xml:space="preserve">
+    <value>--Select Role--</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_13" xml:space="preserve">
+    <value>Successfully updated !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0081" xml:space="preserve">
+    <value>Select Department</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0082" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0044" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0045" xml:space="preserve">
+    <value>Select department name !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0046" xml:space="preserve">
+    <value>Provide department name !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0047" xml:space="preserve">
+    <value>Provide department Code !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0048" xml:space="preserve">
+    <value>Please Select The Role</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0049" xml:space="preserve">
+    <value>Please select the department</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0034" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0035" xml:space="preserve">
+    <value>Changes saved successfully.</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0037" xml:space="preserve">
+    <value>Select the department</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0038" xml:space="preserve">
+    <value>Content Moved UP !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0039" xml:space="preserve">
+    <value>Content Moved down !!</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_0040" xml:space="preserve">
+    <value>Content Moved</value>
+  </data>
+  <data name="CommonControls_PatientFileUploader_ascx_03" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_PatientFileUploader_ascx_08" xml:space="preserve">
+    <value>Please select a file to add.</value>
+  </data>
+  <data name="CommonControls_PatientFileUploader_ascx_09" xml:space="preserve">
+    <value>Please select valid file format (gif/jpg/png/bmp/jpeg/pdf)</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_22" xml:space="preserve">
+    <value>Please Enter the Cheque/Card/DDNo</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_23" xml:space="preserve">
+    <value>Please Enter Card Holder Name</value>
+  </data>
+</root>

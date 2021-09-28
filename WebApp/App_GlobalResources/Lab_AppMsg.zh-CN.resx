@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lab_Pendinglist_aspx_01" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_02" xml:space="preserve">
+    <value>ATLEAST一个状态是强制性</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_03" xml:space="preserve">
+    <value>ATLEAST一个过滤器是强制性的协议组/分析仪名称/测试名称/部门</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_04" xml:space="preserve">
+    <value>选择从日期和结束日期</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_05" xml:space="preserve">
+    <value>选择测试人</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_01" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_02" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_03" xml:space="preserve">
+    <value>选择迄今为止</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_04" xml:space="preserve">
+    <value>请确保终止日期大于或等于开始日期。</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_05" xml:space="preserve">
+    <value>选择异常采样状态</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_06" xml:space="preserve">
+    <value>输入条形码从</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_07" xml:space="preserve">
+    <value>输入条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_08" xml:space="preserve">
+    <value>输入条形码为大于条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_09" xml:space="preserve">
+    <value>选择分装样品</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_10" xml:space="preserve">
+    <value>选择操作</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_11" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_12" xml:space="preserve">
+    <value>不要选择超过一个采样多</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_13" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_14" xml:space="preserve">
+    <value>分装值不等于零</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_15" xml:space="preserve">
+    <value>进入分装的价值</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_16" xml:space="preserve">
+    <value>输入NewBarcode号码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_17" xml:space="preserve">
+    <value>请输入八位条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_18" xml:space="preserve">
+    <value>由于条码已存在</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_19" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_20" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_21" xml:space="preserve">
+    <value>选择Specimenbarcode</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_22" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_24" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_25" xml:space="preserve">
+    <value>不要选择超过一个采样多</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_26" xml:space="preserve">
+    <value>选择分装操作</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_01" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_02" xml:space="preserve">
+    <value>选择结束日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_03" xml:space="preserve">
+    <value>进入更新由于不是从大的日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_04" xml:space="preserve">
+    <value>选择目的地</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_05" xml:space="preserve">
+    <value>输入批号</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_06" xml:space="preserve">
+    <value>至少选择一个</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_27" xml:space="preserve">
+    <value>保存成功..</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_28" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_29" xml:space="preserve">
+    <value>样品已被拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_30" xml:space="preserve">
+    <value>样品被成功拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_31" xml:space="preserve">
+    <value>此示例是已经拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_32" xml:space="preserve">
+    <value>该样品已经发送到处理，无法拒绝！</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_01" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_02" xml:space="preserve">
+    <value>选择分装样品</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_03" xml:space="preserve">
+    <value>这个动作只执行对外包Sample.So请选择捕捉外包详细信息外包样品</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_04" xml:space="preserve">
+    <value>此操作不适合外包样品。</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_05" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_06" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_07" xml:space="preserve">
+    <value>选择操作</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_08" xml:space="preserve">
+    <value>分装值不等于零</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_09" xml:space="preserve">
+    <value>进入分装的价值</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_10" xml:space="preserve">
+    <value>选择正确的日期和时间</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_11" xml:space="preserve">
+    <value>选择一处地点转移</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_12" xml:space="preserve">
+    <value>选择不同的处理地点，以转移</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_13" xml:space="preserve">
+    <value>选择一个样本转移</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_07" xml:space="preserve">
+    <value>批片成功生成</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_08" xml:space="preserve">
+    <value>批片更新成功</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_09" xml:space="preserve">
+    <value>问题批次表代</value>
+  </data>
+  <data name="Lab_Header_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_01" xml:space="preserve">
+    <value>选择结束日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_02" xml:space="preserve">
+    <value>输入要日期不超过当前日期大</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_03" xml:space="preserve">
+    <value>进入更新由于不是从大的日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_04" xml:space="preserve">
+    <value>选择状态</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_05" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_06" xml:space="preserve">
+    <value>批量成功接收</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_01" xml:space="preserve">
+    <value>此任务已经被其他用户挑！</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_02" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_03" xml:space="preserve">
+    <value>提供患者就诊号码进行搜索</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_04" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_05" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_06" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_07" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_08" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_09" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_01" xml:space="preserve">
+    <value>请从列表中选择审批</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_02" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_03" xml:space="preserve">
+    <value>请选择一个记录，然后保存。</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_04" xml:space="preserve">
+    <value>提供有效的患者姓名</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_05" xml:space="preserve">
+    <value>输入通过授权</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_01" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_02" xml:space="preserve">
+    <value>提供样品的详细信息</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_03" xml:space="preserve">
+    <value>没有样品细节签</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_04" xml:space="preserve">
+    <value>鉴于样品的详细信息已经存在</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_05" xml:space="preserve">
+    <value>无法签入的细节</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_06" xml:space="preserve">
+    <value>签成功</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_07" xml:space="preserve">
+    <value>签出成功</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_08" xml:space="preserve">
+    <value>无法检出的细节</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_09" xml:space="preserve">
+    <value>没有样品结帐</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_10" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_11" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Lab_Home_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_Home_aspx_01" xml:space="preserve">
+    <value>提供页码</value>
+  </data>
+  <data name="Lab_Home_aspx_02" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Lab_Home_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Lab_Home_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_011" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_021" xml:space="preserve">
+    <value>选择结束日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_031" xml:space="preserve">
+    <value>进入更新由于不是从大的日期</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_041" xml:space="preserve">
+    <value>选择目的地</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_051" xml:space="preserve">
+    <value>输入批号</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_061" xml:space="preserve">
+    <value>至少选择一个</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_071" xml:space="preserve">
+    <value>批片成功生成</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_081" xml:space="preserve">
+    <value>批片更新成功</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_091" xml:space="preserve">
+    <value>问题批次表代</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_01" xml:space="preserve">
+    <value>选择部门</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_02" xml:space="preserve">
+    <value>选择一个测试</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_03" xml:space="preserve">
+    <value>选择用户</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_04" xml:space="preserve">
+    <value>选择角色</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_011" xml:space="preserve">
+    <value>此任务已经被其他用户挑！</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_021" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_031" xml:space="preserve">
+    <value>提供患者就诊号码进行搜索</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_041" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_051" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_061" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_071" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_081" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_091" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Lab_Header_Alert1" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_homecollection_aspx_01" xml:space="preserve">
+    <value>不要选择采集日期为过去的日期。</value>
+  </data>
+  <data name="Lab_homecollection_aspx_02" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_homecollection_aspx_03" xml:space="preserve">
+    <value>家收集该病人已经完成</value>
+  </data>
+  <data name="Lab_homecollection_aspx_04" xml:space="preserve">
+    <value>进入预订寄件者</value>
+  </data>
+  <data name="Lab_homecollection_aspx_05" xml:space="preserve">
+    <value>进入预订TODATE</value>
+  </data>
+  <data name="Lab_homecollection_aspx_06" xml:space="preserve">
+    <value>进入收藏寄件者</value>
+  </data>
+  <data name="Lab_homecollection_aspx_07" xml:space="preserve">
+    <value>进入收藏TODATE</value>
+  </data>
+  <data name="Lab_homecollection_aspx_08" xml:space="preserve">
+    <value>患者已被注册，您不能编辑</value>
+  </data>
+  <data name="Lab_homecollection_aspx_09" xml:space="preserve">
+    <value>选择患者姓名</value>
+  </data>
+  <data name="Lab_homecollection_aspx_10" xml:space="preserve">
+    <value>选定的病人已被调查的</value>
+  </data>
+  <data name="Lab_homecollection_aspx_11" xml:space="preserve">
+    <value>选择的病人已经预订取消</value>
+  </data>
+  <data name="Lab_homecollection_aspx_12" xml:space="preserve">
+    <value>选择的病人已被取消</value>
+  </data>
+  <data name="Lab_homecollection_aspx_13" xml:space="preserve">
+    <value>请输入病人姓名</value>
+  </data>
+  <data name="Lab_homecollection_aspx_14" xml:space="preserve">
+    <value>选择患者性别</value>
+  </data>
+  <data name="Lab_homecollection_aspx_15" xml:space="preserve">
+    <value>请输入患者年龄</value>
+  </data>
+  <data name="Lab_homecollection_aspx_16" xml:space="preserve">
+    <value>请输入城市</value>
+  </data>
+  <data name="Lab_homecollection_aspx_17" xml:space="preserve">
+    <value>请输入病人\的收藏地址</value>
+  </data>
+  <data name="Lab_homecollection_aspx_18" xml:space="preserve">
+    <value>输入手机号码</value>
+  </data>
+  <data name="Lab_homecollection_aspx_19" xml:space="preserve">
+    <value>请选择一个组织</value>
+  </data>
+  <data name="Lab_homecollection_aspx_20" xml:space="preserve">
+    <value>请选择一个地点</value>
+  </data>
+  <data name="Lab_homecollection_aspx_21" xml:space="preserve">
+    <value>请选择一个角色</value>
+  </data>
+  <data name="Lab_homecollection_aspx_22" xml:space="preserve">
+    <value>请选择一个用户</value>
+  </data>
+  <data name="Lab_homecollection_aspx_23" xml:space="preserve">
+    <value>加入测试以书</value>
+  </data>
+  <data name="Lab_homecollection_aspx_24" xml:space="preserve">
+    <value>请输入样本采集时间</value>
+  </data>
+  <data name="Lab_homecollection_aspx_25" xml:space="preserve">
+    <value>选择起始日期！</value>
+  </data>
+  <data name="Lab_homecollection_aspx_26" xml:space="preserve">
+    <value>选择最新消息！</value>
+  </data>
+  <data name="Lab_homecollection_aspx_27" xml:space="preserve">
+    <value>不匹配日间电流和终止日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_28" xml:space="preserve">
+    <value>不匹配日间从与结束日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_29" xml:space="preserve">
+    <value>不匹配月间电流和终止日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_30" xml:space="preserve">
+    <value>不匹配月间从与结束日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_31" xml:space="preserve">
+    <value>不匹配年间电流和终止日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_32" xml:space="preserve">
+    <value>不匹配年期间从与结束日期</value>
+  </data>
+  <data name="Lab_homecollection_aspx_33" xml:space="preserve">
+    <value>预订病人不能改为注册在这里！</value>
+  </data>
+  <data name="Lab_homecollection_aspx_34" xml:space="preserve">
+    <value>成功保存病人的详细信息，预订无是</value>
+  </data>
+  <data name="Lab_homecollection_aspx_35" xml:space="preserve">
+    <value>成功更新</value>
+  </data>
+  <data name="Lab_homecollection_aspx_36" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Lab_homecollection_aspx_37" xml:space="preserve">
+    <value>没有匹配找到记录</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_011" xml:space="preserve">
+    <value>请从列表中选择审批</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_021" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_031" xml:space="preserve">
+    <value>请选择一个记录，然后保存。</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_041" xml:space="preserve">
+    <value>提供有效的患者姓名</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_051" xml:space="preserve">
+    <value>输入通过授权</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_011" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_021" xml:space="preserve">
+    <value>ATLEAST一个状态是强制性</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_031" xml:space="preserve">
+    <value>ATLEAST一个过滤器是强制性的协议组/分析仪名称/测试名称/部门</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_041" xml:space="preserve">
+    <value>选择从日期和结束日期</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_051" xml:space="preserve">
+    <value>选择测试人</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_011" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_021" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_031" xml:space="preserve">
+    <value>选择迄今为止</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_041" xml:space="preserve">
+    <value>请确保终止日期大于或等于开始日期。</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_051" xml:space="preserve">
+    <value>选择异常采样状态</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_061" xml:space="preserve">
+    <value>输入条形码从</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_071" xml:space="preserve">
+    <value>输入条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_081" xml:space="preserve">
+    <value>输入条形码为大于条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_091" xml:space="preserve">
+    <value>选择分装样品</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_101" xml:space="preserve">
+    <value>选择操作</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_111" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_121" xml:space="preserve">
+    <value>不要选择超过一个采样多</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_131" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_141" xml:space="preserve">
+    <value>分装值不等于零</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_151" xml:space="preserve">
+    <value>进入分装的价值</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_161" xml:space="preserve">
+    <value>输入NewBarcode号码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_171" xml:space="preserve">
+    <value>请输入八位条形码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_181" xml:space="preserve">
+    <value>由于条码已存在</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_191" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_201" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_211" xml:space="preserve">
+    <value>选择Specimenbarcode</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_221" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_241" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_251" xml:space="preserve">
+    <value>不要选择超过一个采样多</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_261" xml:space="preserve">
+    <value>选择分装操作</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_271" xml:space="preserve">
+    <value>保存成功..</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_281" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_291" xml:space="preserve">
+    <value>样品已被拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_301" xml:space="preserve">
+    <value>样品被成功拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_311" xml:space="preserve">
+    <value>此示例是已经拒绝</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_321" xml:space="preserve">
+    <value>该样品已经发送到处理，无法拒绝！</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_011" xml:space="preserve">
+    <value>选择结束日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_021" xml:space="preserve">
+    <value>输入要日期不超过当前日期大</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_031" xml:space="preserve">
+    <value>进入更新由于不是从大的日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_041" xml:space="preserve">
+    <value>选择状态</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_051" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_061" xml:space="preserve">
+    <value>批量成功接收</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_011" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_021" xml:space="preserve">
+    <value>提供样品的详细信息</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_031" xml:space="preserve">
+    <value>没有样品细节签</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_041" xml:space="preserve">
+    <value>鉴于样品的详细信息已经存在</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_051" xml:space="preserve">
+    <value>无法签入的细节</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_061" xml:space="preserve">
+    <value>签成功</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_071" xml:space="preserve">
+    <value>签出成功</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_081" xml:space="preserve">
+    <value>无法检出的细节</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_091" xml:space="preserve">
+    <value>没有样品结帐</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_101" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_111" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_011" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_021" xml:space="preserve">
+    <value>选择分装样品</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_031" xml:space="preserve">
+    <value>这个动作只执行对外包Sample.So请选择捕捉外包详细信息外包样品</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_041" xml:space="preserve">
+    <value>此操作不适合外包样品。</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_051" xml:space="preserve">
+    <value>选择理由</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_061" xml:space="preserve">
+    <value>选择一个示例</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_071" xml:space="preserve">
+    <value>选择操作</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_081" xml:space="preserve">
+    <value>分装值不等于零</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_091" xml:space="preserve">
+    <value>进入分装的价值</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_101" xml:space="preserve">
+    <value>选择正确的日期和时间</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_111" xml:space="preserve">
+    <value>选择一处地点转移</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_121" xml:space="preserve">
+    <value>选择不同的处理地点，以转移</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_131" xml:space="preserve">
+    <value>选择一个样本转移</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_10" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_01" xml:space="preserve">
+    <value>选择病人</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_02" xml:space="preserve">
+    <value>至少选择逐一排查，然后按OK</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_Information" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_01" xml:space="preserve">
+    <value>提供条形码</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_02" xml:space="preserve">
+    <value>未找到结果</value>
+  </data>
+  <data name="Lab_homecollection_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Lab_homecollection_Confirm" xml:space="preserve">
+    <value>你确定要清除</value>
+  </data>
+  <data name="Lab_homecollection_ok" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_result" xml:space="preserve">
+    <value>未找到结果</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_23" xml:space="preserve">
+    <value>标本计数</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_231" xml:space="preserve">
+    <value>标本计数</value>
+  </data>
+</root>

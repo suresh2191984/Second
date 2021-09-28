@@ -1,0 +1,3231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_01" xml:space="preserve">
+    <value>成功创建的LoginName：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_02" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_03" xml:space="preserve">
+    <value>新的。参见医师添加成功！</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_09" xml:space="preserve">
+    <value>点击这里</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_10" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_11" xml:space="preserve">
+    <value>抽血者</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_12" xml:space="preserve">
+    <value>（全部）_ALL_（今天）_ToDay</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_13" xml:space="preserve">
+    <value>偏爱</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_14" xml:space="preserve">
+    <value>莱伯泰科</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_16" xml:space="preserve">
+    <value>BloodBank技术员</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_17" xml:space="preserve">
+    <value>实验室出纳</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_19" xml:space="preserve">
+    <value>实验室技术员</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_20" xml:space="preserve">
+    <value>护士</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_21" xml:space="preserve">
+    <value>接待员</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_22" xml:space="preserve">
+    <value>医师</value>
+  </data>
+  <data name="PlatForm_CommonControls_Topheader_ascx_03" xml:space="preserve">
+    <value>INV运算计费</value>
+  </data>
+  <data name="PlatForm_CommonControls_Topheader_ascx_04" xml:space="preserve">
+    <value>比尔取消</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_01" xml:space="preserve">
+    <value>&lt;br /&gt;病人编号：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_02" xml:space="preserve">
+    <value>，&lt;br /&gt;年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_03" xml:space="preserve">
+    <value>年份</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_04" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_05" xml:space="preserve">
+    <value>男，</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_07" xml:space="preserve">
+    <value>女，</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_08" xml:space="preserve">
+    <value>被发现的诊断</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_09" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_10" xml:space="preserve">
+    <value>她</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_11" xml:space="preserve">
+    <value>被发现是与当前疗程因此的和兼容的，正在被通知继续相同的。</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_12" xml:space="preserve">
+    <value>名称 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_13" xml:space="preserve">
+    <value>&lt;br /&gt;日期/时间：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_14" xml:space="preserve">
+    <value>年龄：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_15" xml:space="preserve">
+    <value>规定的：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_16" xml:space="preserve">
+    <value>处方的</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_17" xml:space="preserve">
+    <value>处方不适用于所选访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_cs_01" xml:space="preserve">
+    <value>一世</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_cs_02" xml:space="preserve">
+    <value>Ë</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_cs_01" xml:space="preserve">
+    <value> - -选择 - -</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_01" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_02" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_05" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_01" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_03" xml:space="preserve">
+    <value>星期日，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_04" xml:space="preserve">
+    <value>星期一，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_05" xml:space="preserve">
+    <value>星期二，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_06" xml:space="preserve">
+    <value>星期三，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_07" xml:space="preserve">
+    <value>星期四，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_08" xml:space="preserve">
+    <value>星期五，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_09" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_10" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_19" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_21" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_22" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_23" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_24" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_25" xml:space="preserve">
+    <value>官登陆</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_27" xml:space="preserve">
+    <value>折扣类型：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_02" xml:space="preserve">
+    <value>重新打印智能卡</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_03" xml:space="preserve">
+    <value>Smard卡没有：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_04" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_03" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_04" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_05" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_06" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_07" xml:space="preserve">
+    <value>发布：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_08" xml:space="preserve">
+    <value>出生日期：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_09" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_10" xml:space="preserve">
+    <value>- 有效 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_11" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_12" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_13" xml:space="preserve">
+    <value>补发</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_14" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_01" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_02" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_03" xml:space="preserve">
+    <value>详细信息ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_04" xml:space="preserve">
+    <value>处理名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_05" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_06" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_07" xml:space="preserve">
+    <value>支票/卡/ DD号</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_08" xml:space="preserve">
+    <value>银行/卡类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_09" xml:space="preserve">
+    <value>服务费（％）</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_10" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_11" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_12" xml:space="preserve">
+    <value>行ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_13" xml:space="preserve">
+    <value>银行支行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_15" xml:space="preserve">
+    <value>持卡人姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_20" xml:space="preserve">
+    <value>支付金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_28" xml:space="preserve">
+    <value>服务费</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_29" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_31" xml:space="preserve">
+    <value>银行支行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_33" xml:space="preserve">
+    <value>持卡人姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_36" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_37" xml:space="preserve">
+    <value>即期汇票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_38" xml:space="preserve">
+    <value>信用卡/借记卡</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_39" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_40" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_41" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_cs_01" xml:space="preserve">
+    <value>金额（</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_cs_01" xml:space="preserve">
+    <value>登录为</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_01" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_02" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_03" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_04" xml:space="preserve">
+    <value>单价</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_05" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_06" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_07" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_08" xml:space="preserve">
+    <value>付款收据（复印件）</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_10" xml:space="preserve">
+    <value>存款</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_11" xml:space="preserve">
+    <value>存款用量 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_12" xml:space="preserve">
+    <value>存款收据（复印件）</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_13" xml:space="preserve">
+    <value>存款收据</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_14" xml:space="preserve">
+    <value>存款付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_15" xml:space="preserve">
+    <value>上一页收据金额：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_16" xml:space="preserve">
+    <value>存款</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_17" xml:space="preserve">
+    <value>存款金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_18" xml:space="preserve">
+    <value>提前</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_19" xml:space="preserve">
+    <value>预付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_20" xml:space="preserve">
+    <value>预收</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_21" xml:space="preserve">
+    <value>DUE COLLECTION</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_22" xml:space="preserve">
+    <value>由于集合</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_24" xml:space="preserve">
+    <value>生成比尔收据</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_25" xml:space="preserve">
+    <value>部分负担</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_26" xml:space="preserve">
+    <value>共付款收据（复印件）</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_27" xml:space="preserve">
+    <value>共付款收据</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_28" xml:space="preserve">
+    <value>共付额收据</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_30" xml:space="preserve">
+    <value>部分负担</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_32" xml:space="preserve">
+    <value>总到期金额：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_33" xml:space="preserve">
+    <value>只有零</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_34" xml:space="preserve">
+    <value>通过帐单（</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_35" xml:space="preserve">
+    <value>共同支付费用卢比。</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_36" xml:space="preserve">
+    <value>收到的金额从最终的账单收据是：</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_01" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_02" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_03" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_04" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_05" xml:space="preserve">
+    <value>路线</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_06" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_07" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_08" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_09" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_10" xml:space="preserve">
+    <value>以下的处方药（S）将过期于：</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_ADD" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_01" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_02" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_03" xml:space="preserve">
+    <value>访问目的</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_04" xml:space="preserve">
+    <value>审批状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_05" xml:space="preserve">
+    <value>批准类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_06" xml:space="preserve">
+    <value>有待</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_07" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_08" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_09" xml:space="preserve">
+    <value>支票日期有效</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_10" xml:space="preserve">
+    <value>银行名</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_11" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_12" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_13" xml:space="preserve">
+    <value>检查状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_14" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_16" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_17" xml:space="preserve">
+    <value>审批状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_18" xml:space="preserve">
+    <value>审批状态待定</value>
+  </data>
+  <data name="PlatForm_CommonControls_Department_ascx_01" xml:space="preserve">
+    <value> - 选择Department--</value>
+  </data>
+  <data name="PlatForm_CommonControls_DiagnoseWithICD_ascx_01" xml:space="preserve">
+    <value>诊断/医疗问题</value>
+  </data>
+  <data name="PlatForm_CommonControls_DiagnoseWithICD_ascx_02" xml:space="preserve">
+    <value>ICD 10码</value>
+  </data>
+  <data name="PlatForm_CommonControls_DialysisOnFlow_ascx_01" xml:space="preserve">
+    <value>BP（毫米汞柱）</value>
+  </data>
+  <data name="PlatForm_CommonControls_DialysisOnFlow_ascx_02" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PlatForm_CommonControls_DialysisOnFlow_ascx_03" xml:space="preserve">
+    <value>时间捕捉</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_01" xml:space="preserve">
+    <value>只有零</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_02" xml:space="preserve">
+    <value>S.NO</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_03" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_04" xml:space="preserve">
+    <value>单价</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_05" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_06" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_07" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_DueChartList_ascx_08" xml:space="preserve">
+    <value>上调：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_01" xml:space="preserve">
+    <value>添加新的因果</value>
+  </data>
+  <data name="PlatForm_CommonControls_Information" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_01" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_02" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_03" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_04" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_05" xml:space="preserve">
+    <value>房间/床无</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_06" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_07" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_08" xml:space="preserve">
+    <value>医师姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_09" xml:space="preserve">
+    <value>目的入院</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_10" xml:space="preserve">
+    <value>日入院</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_11" xml:space="preserve">
+    <value>当前由于</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_12" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_13" xml:space="preserve">
+    <value>预验证金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_14" xml:space="preserve">
+    <value>由......推荐</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_15" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_OK" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_01" xml:space="preserve">
+    <value>通用名</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_02" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_03" xml:space="preserve">
+    <value>可用数量</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_04" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_05" xml:space="preserve">
+    <value>-其他-</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_06" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_07" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_08" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_09" xml:space="preserve">
+    <value>路线</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_10" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_11" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_12" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_13" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_14" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_15" xml:space="preserve">
+    <value>总金额 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_16" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_cs_01" xml:space="preserve">
+    <value>该处方有效期至：</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_cs_02" xml:space="preserve">
+    <value> - 所有 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationControl_ascx_01" xml:space="preserve">
+    <value>没有匹配符合条件的记录！</value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationReportViewer_ascx_01" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_01" xml:space="preserve">
+    <value>实验室研究</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_02" xml:space="preserve">
+    <value>会诊</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_03" xml:space="preserve">
+    <value>治疗程序</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_04" xml:space="preserve">
+    <value>一般健康检查</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_05" xml:space="preserve">
+    <value>（咨询）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_06" xml:space="preserve">
+    <value>（程序）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_07" xml:space="preserve">
+    <value>（调查）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_08" xml:space="preserve">
+    <value>（组）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_09" xml:space="preserve">
+    <value>（体检）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_cs_01" xml:space="preserve">
+    <value>健康套餐</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_cs_02" xml:space="preserve">
+    <value>设置为默认项目以</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_01" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_02" xml:space="preserve">
+    <value>手机：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_03" xml:space="preserve">
+    <value>PH值：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_04" xml:space="preserve">
+    <value>OCountry：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_05" xml:space="preserve">
+    <value>OState：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ascx_01" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ascx_02" xml:space="preserve">
+    <value>手机：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ascx_03" xml:space="preserve">
+    <value>PH值：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ascx_04" xml:space="preserve">
+    <value>OCountry：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ascx_05" xml:space="preserve">
+    <value>OState：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_01" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_02" xml:space="preserve">
+    <value>手机：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_03" xml:space="preserve">
+    <value>PH值：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_04" xml:space="preserve">
+    <value>OCountry：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_05" xml:space="preserve">
+    <value>OState：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_01" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_02" xml:space="preserve">
+    <value>手机：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_03" xml:space="preserve">
+    <value>PH值：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_04" xml:space="preserve">
+    <value>OCountry：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_05" xml:space="preserve">
+    <value>OState：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_01" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_02" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_03" xml:space="preserve">
+    <value>单</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_04" xml:space="preserve">
+    <value>已婚</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_05" xml:space="preserve">
+    <value>离婚</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_06" xml:space="preserve">
+    <value>寡妇</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_07" xml:space="preserve">
+    <value>过敏类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientHeader_ascx_cs_08" xml:space="preserve">
+    <value>过敏名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_01" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_02" xml:space="preserve">
+    <value>印度</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_03" xml:space="preserve">
+    <value>占用</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_04" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_05" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_06" xml:space="preserve">
+    <value>座机</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_07" xml:space="preserve">
+    <value>任何</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_08" xml:space="preserve">
+    <value>客户</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_09" xml:space="preserve">
+    <value>保险</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_10" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_11" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_12" xml:space="preserve">
+    <value>病人{0}是尚未被诊断</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_13" xml:space="preserve">
+    <value>开帐单的项目不更新</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_14" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_20" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_22" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_23" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_24" xml:space="preserve">
+    <value>宗教</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_25" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_29" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_30" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_31" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_32" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_34" xml:space="preserve">
+    <value>合格</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_35" xml:space="preserve">
+    <value>占用</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_36" xml:space="preserve">
+    <value>婚姻状况</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_38" xml:space="preserve">
+    <value>保险</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_39" xml:space="preserve">
+    <value>部</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_41" xml:space="preserve">
+    <value>专业</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_42" xml:space="preserve">
+    <value>过敏</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_43" xml:space="preserve">
+    <value>当前日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_44" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_45" xml:space="preserve">
+    <value>官登陆</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_47" xml:space="preserve">
+    <value>部</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_51" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_56" xml:space="preserve">
+    <value>推荐</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_58" xml:space="preserve">
+    <value>PatientSPcc1</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_59" xml:space="preserve">
+    <value>PatientSPcc2</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_60" xml:space="preserve">
+    <value>PatientSPcc3</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_61" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_62" xml:space="preserve">
+    <value>首席</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_63" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_64" xml:space="preserve">
+    <value>专家</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_65" xml:space="preserve">
+    <value>补充</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_66" xml:space="preserve">
+    <value>医疗</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_67" xml:space="preserve">
+    <value>现场</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_68" xml:space="preserve">
+    <value>辐射</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_69" xml:space="preserve">
+    <value>字符</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_71" xml:space="preserve">
+    <value>颞</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_72" xml:space="preserve">
+    <value>恼人的</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_80" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_81" xml:space="preserve">
+    <value>受审</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_82" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_83" xml:space="preserve">
+    <value>补偿</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_86" xml:space="preserve">
+    <value>评定</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_87" xml:space="preserve">
+    <value>程序</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_90" xml:space="preserve">
+    <value>教育</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>支票/卡/ DD号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>银行/卡类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_03" xml:space="preserve">
+    <value>优惠券号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_04" xml:space="preserve">
+    <value>优惠券</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_05" xml:space="preserve">
+    <value>优惠券名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_06" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_07" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_08" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_09" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_10" xml:space="preserve">
+    <value>信用卡/借记卡</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_11" xml:space="preserve">
+    <value>无卡应该是最后一次</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_12" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_13" xml:space="preserve">
+    <value>支票号码应该是最后一次</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_14" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_15" xml:space="preserve">
+    <value>即期汇票</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_16" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_17" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_18" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_19" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_20" xml:space="preserve">
+    <value>EMI的投资回报率</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_21" xml:space="preserve">
+    <value>EMI任期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_22" xml:space="preserve">
+    <value>EMI值</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_23" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_24" xml:space="preserve">
+    <value>支票/卡/ DD号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_25" xml:space="preserve">
+    <value>银行/卡类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_26" xml:space="preserve">
+    <value>服务费（％）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_27" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_28" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_29" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_30" xml:space="preserve">
+    <value>参考ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_31" xml:space="preserve">
+    <value>引用类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_32" xml:space="preserve">
+    <value>持卡人姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_33" xml:space="preserve">
+    <value>事务ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_34" xml:space="preserve">
+    <value>分店名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_35" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_36" xml:space="preserve">
+    <value>支票/卡/ DD号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_40" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_41" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_42" xml:space="preserve">
+    <value>{0}范围从{1}摄氏度到{2}摄氏度</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_43" xml:space="preserve">
+    <value>{0}范围从{1}到{2}</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_44" xml:space="preserve">
+    <value>{0}输入有效的值{1}</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_45" xml:space="preserve">
+    <value>请输入用于至少一个值</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_46" xml:space="preserve">
+    <value>负值无效</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_47" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_48" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_49" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_50" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_51" xml:space="preserve">
+    <value>腰部</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_52" xml:space="preserve">
+    <value>髋关节</value>
+  </data>
+  <data name="PlatForm_CommonControls_PendingVitals_ascx_cs_01" xml:space="preserve">
+    <value>无重要统计等待被抓获！</value>
+  </data>
+  <data name="PlatForm_CommonControls_PendingVitals_ascx_cs_02" xml:space="preserve">
+    <value>红</value>
+  </data>
+  <data name="PlatForm_CommonControls_PendingVitals_ascx_cs_04" xml:space="preserve">
+    <value>收集重要统计</value>
+  </data>
+  <data name="PlatForm_CommonControls_PendingVitals_ascx_cs_05" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_01" xml:space="preserve">
+    <value>按键</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_01" xml:space="preserve">
+    <value>假</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_02" xml:space="preserve">
+    <value>真正</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_03" xml:space="preserve">
+    <value>博士</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_05" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_06" xml:space="preserve">
+    <value>lnkWeek1</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_07" xml:space="preserve">
+    <value>lnkWeek2</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_08" xml:space="preserve">
+    <value>lnkWeek3</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_09" xml:space="preserve">
+    <value>lnkWeek4</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_10" xml:space="preserve">
+    <value>lnkWeek5</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_11" xml:space="preserve">
+    <value>lnkWeek6</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_12" xml:space="preserve">
+    <value> - 所有 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_13" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_14" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhysicianHeader_ascx_01" xml:space="preserve">
+    <value>登录为</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_01" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_02" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_03" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_04" xml:space="preserve">
+    <value>结果电话：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_06" xml:space="preserve">
+    <value>N.A</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_011" xml:space="preserve">
+    <value>&lt;br /&gt;病人编号：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_021" xml:space="preserve">
+    <value>，&lt;br /&gt;年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_031" xml:space="preserve">
+    <value>年份</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_041" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_051" xml:space="preserve">
+    <value>男，</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_071" xml:space="preserve">
+    <value>女，</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_081" xml:space="preserve">
+    <value>被发现的诊断</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_091" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_101" xml:space="preserve">
+    <value>她</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_111" xml:space="preserve">
+    <value>被发现是与当前疗程因此的和兼容的，正在被通知继续相同的。</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_121" xml:space="preserve">
+    <value>名称 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_131" xml:space="preserve">
+    <value>&lt;br /&gt;日期/时间：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_141" xml:space="preserve">
+    <value>年龄：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_151" xml:space="preserve">
+    <value>规定的：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_161" xml:space="preserve">
+    <value>处方的</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_171" xml:space="preserve">
+    <value>处方不适用于所选访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_cs_011" xml:space="preserve">
+    <value>一世</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_cs_021" xml:space="preserve">
+    <value>Ë</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_cs_011" xml:space="preserve">
+    <value> - -选择 - -</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_011" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_021" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_051" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_011" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_031" xml:space="preserve">
+    <value>星期日，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_041" xml:space="preserve">
+    <value>星期一，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_051" xml:space="preserve">
+    <value>星期二，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_061" xml:space="preserve">
+    <value>星期三，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_071" xml:space="preserve">
+    <value>星期四，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_081" xml:space="preserve">
+    <value>星期五，</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_091" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_101" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_191" xml:space="preserve">
+    <value>电话号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_211" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_221" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_231" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_241" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_251" xml:space="preserve">
+    <value>官登陆</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_271" xml:space="preserve">
+    <value>折扣类型：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_021" xml:space="preserve">
+    <value>重新打印智能卡</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_031" xml:space="preserve">
+    <value>Smard卡没有：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_041" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_031" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_041" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_051" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_061" xml:space="preserve">
+    <value>区：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_071" xml:space="preserve">
+    <value>发布：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_081" xml:space="preserve">
+    <value>出生日期：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_091" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_101" xml:space="preserve">
+    <value>- 有效 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_111" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_121" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_131" xml:space="preserve">
+    <value>补发</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_141" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_011" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_021" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_031" xml:space="preserve">
+    <value>详细信息ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_041" xml:space="preserve">
+    <value>处理名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_051" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_061" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_071" xml:space="preserve">
+    <value>支票/卡/ DD号</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_081" xml:space="preserve">
+    <value>银行/卡类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_091" xml:space="preserve">
+    <value>服务费（％）</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_101" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_111" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_121" xml:space="preserve">
+    <value>行ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_131" xml:space="preserve">
+    <value>银行支行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_151" xml:space="preserve">
+    <value>持卡人姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_201" xml:space="preserve">
+    <value>支付金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_281" xml:space="preserve">
+    <value>服务费</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_291" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_311" xml:space="preserve">
+    <value>银行支行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_331" xml:space="preserve">
+    <value>持卡人姓名</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_361" xml:space="preserve">
+    <value>现金</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_371" xml:space="preserve">
+    <value>即期汇票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_381" xml:space="preserve">
+    <value>信用卡/借记卡</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_391" xml:space="preserve">
+    <value>支票</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_401" xml:space="preserve">
+    <value>ÿ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_411" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_cs_011" xml:space="preserve">
+    <value>金额（</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_cs_011" xml:space="preserve">
+    <value>登录为</value>
+  </data>
+  <data name="PlatForm_Scripts_QuickBill_js_01" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="PlatForm_Scripts_QuickBill_js_02" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_01" xml:space="preserve">
+    <value>该</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_02" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_03" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_cs_23" xml:space="preserve">
+    <value>组件列表</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_cs_24" xml:space="preserve">
+    <value>单位数目</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_cs_25" xml:space="preserve">
+    <value>调查名单</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_cs_26" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_cs_01" xml:space="preserve">
+    <value>大写金额收稿日期：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_cs_02" xml:space="preserve">
+    <value>帐单方式：</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_11" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_01" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_02" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_17" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_18" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_MasterControl_ascx_cs_01" xml:space="preserve">
+    <value>因果scucessfully保存。</value>
+  </data>
+  <data name="PlatForm_CommonControls_MasterControl_ascx_cs_02" xml:space="preserve">
+    <value>错误，同时节省因果。</value>
+  </data>
+  <data name="PlatForm_CommonControls_MasterControl_ascx_cs_03" xml:space="preserve">
+    <value>MedicalIndents scucessfully保存。</value>
+  </data>
+  <data name="PlatForm_CommonControls_MasterControl_ascx_cs_04" xml:space="preserve">
+    <value>同时节省MedicalIndents错误。</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_100" xml:space="preserve">
+    <value>调查名单</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_101" xml:space="preserve">
+    <value>放射科医生报告</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_102" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_42" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_43" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_44" xml:space="preserve">
+    <value>处理名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_45" xml:space="preserve">
+    <value>估计数量</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_46" xml:space="preserve">
+    <value>已付金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_47" xml:space="preserve">
+    <value>支付日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_50" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_51" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_52" xml:space="preserve">
+    <value>手术名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_53" xml:space="preserve">
+    <value>去掉</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_54" xml:space="preserve">
+    <value>估计量</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_55" xml:space="preserve">
+    <value>已付金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_56" xml:space="preserve">
+    <value>帐单日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_02" xml:space="preserve">
+    <value>他们是医疗用品？</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_03" xml:space="preserve">
+    <value>预验证金额</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_04" xml:space="preserve">
+    <value>预验证批准文号</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_05" xml:space="preserve">
+    <value>要从中扣除共同支付</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_06" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_07" xml:space="preserve">
+    <value>共同支付（％）</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_08" xml:space="preserve">
+    <value>符合条件的客户端名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_09" xml:space="preserve">
+    <value>合格率类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_10" xml:space="preserve">
+    <value>共同支付逻辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_11" xml:space="preserve">
+    <value>从政策</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_12" xml:space="preserve">
+    <value>政策：</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_13" xml:space="preserve">
+    <value>策略要</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_15" xml:space="preserve">
+    <value>部分负担</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_16" xml:space="preserve">
+    <value>付款方式</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_17" xml:space="preserve">
+    <value>-选择-</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_01" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_03" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_04" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_05" xml:space="preserve">
+    <value>路线</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_06" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_07" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_08" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_09" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_10" xml:space="preserve">
+    <value>至今</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_11" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferDoctor_ascx_01" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferDoctor_ascx_02" xml:space="preserve">
+    <value>自</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferDoctor_ascx_03" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferDoctor_ascx_04" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_01" xml:space="preserve">
+    <value>博士咨询</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_02" xml:space="preserve">
+    <value>在（日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_03" xml:space="preserve">
+    <value>在这次访问没有处方。</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_04" xml:space="preserve">
+    <value>让患者</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_05" xml:space="preserve">
+    <value>患者是</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_06" xml:space="preserve">
+    <value>初产妇及有害Obstretic历史</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_07" xml:space="preserve">
+    <value>初产的孕妇</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_08" xml:space="preserve">
+    <value>坏Obstretic历史</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_09" xml:space="preserve">
+    <value>妊娠超声</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_10" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_11" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_12" xml:space="preserve">
+    <value>老</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_13" xml:space="preserve">
+    <value>男，</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_14" xml:space="preserve">
+    <value>女，</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_15" xml:space="preserve">
+    <value>儿童，</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_16" xml:space="preserve">
+    <value>尚未顺应孕。</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_17" xml:space="preserve">
+    <value>周妊娠通过</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_18" xml:space="preserve">
+    <value>随着历史</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_19" xml:space="preserve">
+    <value>随着历史，呈现在无症状状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_20" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_21" xml:space="preserve">
+    <value>她</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_22" xml:space="preserve">
+    <value>检查发现，她</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_23" xml:space="preserve">
+    <value>被发现有</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_24" xml:space="preserve">
+    <value>检查发现，她被认为是</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_25" xml:space="preserve">
+    <value>临床正常</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_26" xml:space="preserve">
+    <value>临床正常为她胎龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_27" xml:space="preserve">
+    <value>她已被诊断为</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_28" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_29" xml:space="preserve">
+    <value>介绍</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_30" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_31" xml:space="preserve">
+    <value>胎儿心脏的声音</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_32" xml:space="preserve">
+    <value>胎动和</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_33" xml:space="preserve">
+    <value>胎动</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_34" xml:space="preserve">
+    <value>同</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_35" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="PlatForm_CommonControls_ANCCaseSheet_ascx_36" xml:space="preserve">
+    <value>任何情况下，板材可用于所选访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_01" xml:space="preserve">
+    <value>任何情况下，板材可用于所选访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_02" xml:space="preserve">
+    <value>情况表</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_03" xml:space="preserve">
+    <value>患者无：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_04" xml:space="preserve">
+    <value>老</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_05" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_06" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_07" xml:space="preserve">
+    <value>儿童</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_08" xml:space="preserve">
+    <value>被确诊的</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_09" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_10" xml:space="preserve">
+    <value>她</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_11" xml:space="preserve">
+    <value>被发现是与目前的治疗过程相容并且是应继续相同的。</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_12" xml:space="preserve">
+    <value>命脉</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_13" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_14" xml:space="preserve">
+    <value>重量：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_15" xml:space="preserve">
+    <value>身高：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_16" xml:space="preserve">
+    <value>脉冲：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_17" xml:space="preserve">
+    <value>您的位置：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_18" xml:space="preserve">
+    <value>部分：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_19" xml:space="preserve">
+    <value>方法：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_20" xml:space="preserve">
+    <value>治疗</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_21" xml:space="preserve">
+    <value>处方编号：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_22" xml:space="preserve">
+    <value>注：由于这是生成CaseSheet计算机没有签名要求</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_23" xml:space="preserve">
+    <value>医生的签名</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_24" xml:space="preserve">
+    <value>在咨询</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_25" xml:space="preserve">
+    <value>对于问题</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_26" xml:space="preserve">
+    <value>是在无症状演示</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_27" xml:space="preserve">
+    <value>被发现有</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_28" xml:space="preserve">
+    <value>被认为是临床上正常</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_29" xml:space="preserve">
+    <value>患的是</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_30" xml:space="preserve">
+    <value>已被诊断有</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_31" xml:space="preserve">
+    <value>患的是</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_32" xml:space="preserve">
+    <value>已被诊断有</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_33" xml:space="preserve">
+    <value>以下建议和治疗为患者作了：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_34" xml:space="preserve">
+    <value>是处方治疗和咨询的过程如下：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_35" xml:space="preserve">
+    <value>命脉，POCT</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_36" xml:space="preserve">
+    <value>没有处方可供选择的访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_37" xml:space="preserve">
+    <value>有序的调查</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_38" xml:space="preserve">
+    <value>忠告</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_39" xml:space="preserve">
+    <value>理疗咨询/有序过程</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_40" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_41" xml:space="preserve">
+    <value>下一次检查（开/后）：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_42" xml:space="preserve">
+    <value>推荐入学：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_43" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_44" xml:space="preserve">
+    <value>主观</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_45" xml:space="preserve">
+    <value>目的</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_47" xml:space="preserve">
+    <value>规划</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_48" xml:space="preserve">
+    <value>录取状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_49" xml:space="preserve">
+    <value>呈现</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_50" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_51" xml:space="preserve">
+    <value>被确诊的</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_52" xml:space="preserve">
+    <value>录取重要统计</value>
+  </data>
+  <data name="PlatForm_CommonControls_BioChemistryDisplay_ascx_01" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="PlatForm_CommonControls_BioChemistryDisplay_ascx_02" xml:space="preserve">
+    <value>血糖</value>
+  </data>
+  <data name="PlatForm_CommonControls_BioChemistryDisplay_ascx_03" xml:space="preserve">
+    <value>尿糖</value>
+  </data>
+  <data name="PlatForm_CommonControls_HemotologyDisplay_ascx_01" xml:space="preserve">
+    <value>控制</value>
+  </data>
+  <data name="PlatForm_CommonControls_HemotologyDisplay_ascx_02" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_01" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_02" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_03" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_06" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>BloodGroup：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>（NuLife ID-</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>（患者ID-</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientDetails_ascx_04" xml:space="preserve">
+    <value>（IP号 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_TreatmentPlan_ascx_01" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_TreatmentPlan_ascx_02" xml:space="preserve">
+    <value>处理名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_TreatmentPlan_ascx_03" xml:space="preserve">
+    <value>假体</value>
+  </data>
+  <data name="PlatForm_CommonControls_TreatmentPlan_ascx_04" xml:space="preserve">
+    <value>TreatmentPlan日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_TreatmentPlan_ascx_05" xml:space="preserve">
+    <value>稍后会计划</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_01" xml:space="preserve">
+    <value>任何情况下，板材可用于所选访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_02" xml:space="preserve">
+    <value>患者姓名：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_03" xml:space="preserve">
+    <value>患者无：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_04" xml:space="preserve">
+    <value>年龄/性别：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_05" xml:space="preserve">
+    <value>男/</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_06" xml:space="preserve">
+    <value>女/</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_07" xml:space="preserve">
+    <value>地址 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_08" xml:space="preserve">
+    <value>顾问名称：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_09" xml:space="preserve">
+    <value>参观日期和时间：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_10" xml:space="preserve">
+    <value>儿童</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_11" xml:space="preserve">
+    <value>命脉：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_12" xml:space="preserve">
+    <value>BP：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_13" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_14" xml:space="preserve">
+    <value>重量：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_15" xml:space="preserve">
+    <value>身高：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_16" xml:space="preserve">
+    <value>BMI：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_17" xml:space="preserve">
+    <value>厕所 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_18" xml:space="preserve">
+    <value>慧聪网：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_19" xml:space="preserve">
+    <value>WHR：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_20" xml:space="preserve">
+    <value>脉冲：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_21" xml:space="preserve">
+    <value>血氧饱和度：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_22" xml:space="preserve">
+    <value>处方：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_23" xml:space="preserve">
+    <value>注：由于这是生成CaseSheet计算机没有签名要求</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_24" xml:space="preserve">
+    <value>Diagonosis：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_25" xml:space="preserve">
+    <value>医生点评：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_26" xml:space="preserve">
+    <value>没有处方可供选择的访问</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_27" xml:space="preserve">
+    <value>调查排序：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_28" xml:space="preserve">
+    <value>建议：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_29" xml:space="preserve">
+    <value>评论：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_30" xml:space="preserve">
+    <value>下一次检查（开/后）：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_31" xml:space="preserve">
+    <value>录取状态：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_32" xml:space="preserve">
+    <value>推荐入学</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_33" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_34" xml:space="preserve">
+    <value>治疗：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_35" xml:space="preserve">
+    <value>名称 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_EMROPCaseSheet_ascx_36" xml:space="preserve">
+    <value>博士</value>
+  </data>
+  <data name="PlatForm_Controls_RakshithBillPrint_ascx_01" xml:space="preserve">
+    <value>零只...</value>
+  </data>
+  <data name="PlatForm_Controls_RakshithBillPrint_ascx_02" xml:space="preserve">
+    <value>只要...</value>
+  </data>
+  <data name="PlatForm_Controls_RakshithBillPrint_ascx_03" xml:space="preserve">
+    <value>大写金额收稿日期：</value>
+  </data>
+  <data name="PlatForm_Controls_RakshithBillPrint_ascx_04" xml:space="preserve">
+    <value>由于大写金额：</value>
+  </data>
+  <data name="PlatForm_Controls_RakshithBillPrint_ascx_05" xml:space="preserve">
+    <value>帐单方式：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_01" xml:space="preserve">
+    <value>NuLife ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_02" xml:space="preserve">
+    <value>病人ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_03" xml:space="preserve">
+    <value>金额退还给病人：卢比。</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_04" xml:space="preserve">
+    <value>只要</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_05" xml:space="preserve">
+    <value>退款金额againest应付金额的病人：卢比。</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_06" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_07" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_08" xml:space="preserve">
+    <value>手机号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_09" xml:space="preserve">
+    <value>座机号</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_10" xml:space="preserve">
+    <value>参考医生</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_11" xml:space="preserve">
+    <value>文献中心</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_12" xml:space="preserve">
+    <value>没有参观</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_13" xml:space="preserve">
+    <value>由于汇票否</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_14" xml:space="preserve">
+    <value>*此数额将</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_15" xml:space="preserve">
+    <value>％消费税</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_16" xml:space="preserve">
+    <value>只有零</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_17" xml:space="preserve">
+    <value>参观人数</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_18" xml:space="preserve">
+    <value>请您在报告中收集的：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_19" xml:space="preserve">
+    <value>支付货币：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_20" xml:space="preserve">
+    <value>客户端/保险提供商：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_21" xml:space="preserve">
+    <value>参考。医师姓名：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_22" xml:space="preserve">
+    <value>（复印件）</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_23" xml:space="preserve">
+    <value>帐单方式：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_24" xml:space="preserve">
+    <value>付账单</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_25" xml:space="preserve">
+    <value>抵减法案</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_26" xml:space="preserve">
+    <value>DUE BILL</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_27" xml:space="preserve">
+    <value>存款用量 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_01" xml:space="preserve">
+    <value>左耳：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_02" xml:space="preserve">
+    <value>右耳：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_03" xml:space="preserve">
+    <value>右IOP：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_04" xml:space="preserve">
+    <value>左IOP：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_05" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_06" xml:space="preserve">
+    <value>右脚 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_07" xml:space="preserve">
+    <value>左脚 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_08" xml:space="preserve">
+    <value>右脚;</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_09" xml:space="preserve">
+    <value>左脚;</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_13" xml:space="preserve">
+    <value>血氧饱和度</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_14" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_16" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_19" xml:space="preserve">
+    <value>厕所</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_22" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_23" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_24" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_01" xml:space="preserve">
+    <value>收到来自{姓名}谢谢，（数数{}），{} AmtWords的总和[{AmtNo}] {对投诉处理}</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_02" xml:space="preserve">
+    <value>只派士</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_03" xml:space="preserve">
+    <value>亿卢比</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_04" xml:space="preserve">
+    <value>万卢比</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_05" xml:space="preserve">
+    <value>千</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_06" xml:space="preserve">
+    <value>百</value>
+  </data>
+  <data name="PlatForm_CommonControls_Receipt_ascx_07" xml:space="preserve">
+    <value>卢比</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_01" xml:space="preserve">
+    <value>，射血分数：</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_02" xml:space="preserve">
+    <value>当下</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_03" xml:space="preserve">
+    <value>目前积液</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_04" xml:space="preserve">
+    <value>MPHR  - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_05" xml:space="preserve">
+    <value>MAHR  - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_06" xml:space="preserve">
+    <value>工作量 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_07" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_08" xml:space="preserve">
+    <value>没有RWMA</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_09" xml:space="preserve">
+    <value>无压力相关的心电图改变</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_10" xml:space="preserve">
+    <value>应激时指出</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_11" xml:space="preserve">
+    <value>在测试过程中Asymptomatc</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintDiagnostics_ascx_12" xml:space="preserve">
+    <value>在excertion指出</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_01" xml:space="preserve">
+    <value>手术名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_02" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_03" xml:space="preserve">
+    <value>医院名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_04" xml:space="preserve">
+    <value>关系</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_05" xml:space="preserve">
+    <value>紊乱</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_06" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_07" xml:space="preserve">
+    <value>治疗： - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_08" xml:space="preserve">
+    <value>医学史</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_09" xml:space="preserve">
+    <value>当下</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_10" xml:space="preserve">
+    <value>其他疾病</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_11" xml:space="preserve">
+    <value>CVA类型： - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_12" xml:space="preserve">
+    <value>区/叶受到影响： - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_13" xml:space="preserve">
+    <value>癌症，</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_14" xml:space="preserve">
+    <value>急性发作 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_15" xml:space="preserve">
+    <value>目前特质。</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_16" xml:space="preserve">
+    <value>过敏</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_17" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_18" xml:space="preserve">
+    <value>反应</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_19" xml:space="preserve">
+    <value>正在进行</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_20" xml:space="preserve">
+    <value>治疗</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_21" xml:space="preserve">
+    <value>对于</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_22" xml:space="preserve">
+    <value>对于</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_23" xml:space="preserve">
+    <value>放弃</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_24" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_25" xml:space="preserve">
+    <value>有氧： - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_26" xml:space="preserve">
+    <value>厌氧 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintHistory_ascx_27" xml:space="preserve">
+    <value>家史</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddressControl_ascx_01" xml:space="preserve">
+    <value>手机：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddressControl_ascx_02" xml:space="preserve">
+    <value>PH值：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddressControl_ascx_04" xml:space="preserve">
+    <value>OState：</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddressControl_ascx_05" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_06" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_07" xml:space="preserve">
+    <value>服务报价详情</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_08" xml:space="preserve">
+    <value>设为首页加入收藏</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_01" xml:space="preserve">
+    <value>分类计数</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_02" xml:space="preserve">
+    <value>免疫</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_03" xml:space="preserve">
+    <value>细胞学</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_05" xml:space="preserve">
+    <value>肥达氏反应</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_06" xml:space="preserve">
+    <value>胶原血管</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_08" xml:space="preserve">
+    <value>镜检</value>
+  </data>
+  <data name="PlatForm_CommonControls_DialysisCaseSheet_ascx_01" xml:space="preserve">
+    <value>当透析完整请尝试。</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_01" xml:space="preserve">
+    <value>BP：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_02" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_03" xml:space="preserve">
+    <value>重量：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_04" xml:space="preserve">
+    <value>脉冲：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_05" xml:space="preserve">
+    <value>身高：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_06" xml:space="preserve">
+    <value>RR：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHAdmissionVitals_ascx_07" xml:space="preserve">
+    <value>血氧饱和度：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHPatientDetails_ascx_01" xml:space="preserve">
+    <value>手机号码 ：</value>
+  </data>
+  <data name="PlatForm_CommonControls_KMHPatientDetails_ascx_02" xml:space="preserve">
+    <value>座机号码：</value>
+  </data>
+  <data name="PlatForm_CommonControls_RoomSummary_ascx_01" xml:space="preserve">
+    <value>房间名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_RoomSummary_ascx_02" xml:space="preserve">
+    <value>床名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_RoomSummary_ascx_03" xml:space="preserve">
+    <value>从日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_RoomSummary_ascx_04" xml:space="preserve">
+    <value>至今</value>
+  </data>
+  <data name="PlatForm_CommonControls_RoomSummary_ascx_05" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_01" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_02" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_03" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_04" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_01" xml:space="preserve">
+    <value>病人属性</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_02" xml:space="preserve">
+    <value>属性1：</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_03" xml:space="preserve">
+    <value>属性2：</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_04" xml:space="preserve">
+    <value>属性3：</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_05" xml:space="preserve">
+    <value>属性4：</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_06" xml:space="preserve">
+    <value>属性5：</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_07" xml:space="preserve">
+    <value>报告日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_08" xml:space="preserve">
+    <value>报告评论</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_09" xml:space="preserve">
+    <value>身高（cm）</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_10" xml:space="preserve">
+    <value>重量（Kg）</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_11" xml:space="preserve">
+    <value>厘米</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_12" xml:space="preserve">
+    <value>公斤</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_13" xml:space="preserve">
+    <value>没有历史记录这名患者</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_01" xml:space="preserve">
+    <value>金额退还给病人：卢比。</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_02" xml:space="preserve">
+    <value>只要</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_03" xml:space="preserve">
+    <value>*此数额将</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_04" xml:space="preserve">
+    <value>％消费税</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_05" xml:space="preserve">
+    <value>请您在报告中收集的：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_06" xml:space="preserve">
+    <value>客户端/保险提供商：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_07" xml:space="preserve">
+    <value>参考。医师姓名：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_08" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_09" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_10" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_11" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_12" xml:space="preserve">
+    <value>帐单方式：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_13" xml:space="preserve">
+    <value>咨询1日访问 -  CGHS S.NO  -  1.4.2（通过专家）</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_14" xml:space="preserve">
+    <value>折射 -  CGHS S.NO  -  4.6</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_15" xml:space="preserve">
+    <value>咨询 -  CGHS S.NO  -  50</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_16" xml:space="preserve">
+    <value>折射 -  CGHS S.NO  -  63</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_17" xml:space="preserve">
+    <value>NCT  -  CGHS S.NO  -  50</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_18" xml:space="preserve">
+    <value>间接眼底镜 -  CGHS S.NO  -  64</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_19" xml:space="preserve">
+    <value>只有零</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_20" xml:space="preserve">
+    <value>抵减法案</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_21" xml:space="preserve">
+    <value>DUE BILL</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_22" xml:space="preserve">
+    <value>付账单</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_23" xml:space="preserve">
+    <value>副本</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_24" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_25" xml:space="preserve">
+    <value>大写金额收稿日期：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_26" xml:space="preserve">
+    <value>由于大写金额：</value>
+  </data>
+  <data name="PlatForm_Controls_SanglahOPBillFormat_ascx_27" xml:space="preserve">
+    <value>剩余存款金额：</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_27" xml:space="preserve">
+    <value>进行快速诊断</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_28" xml:space="preserve">
+    <value>这名患者是专门分配给您</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_29" xml:space="preserve">
+    <value>尚未执行的BaseLine筛选</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_30" xml:space="preserve">
+    <value>删除此任务</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_31" xml:space="preserve">
+    <value>然而，执行实验室调查</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_32" xml:space="preserve">
+    <value>然而，执行升起</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientPoct_ascx_03" xml:space="preserve">
+    <value>毛细血管血糖（CBG）</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientPoct_ascx_04" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_57" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_58" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_19" xml:space="preserve">
+    <value>折扣批准</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_20" xml:space="preserve">
+    <value>批准</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_05" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_18" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_19" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_20" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_21" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_22" xml:space="preserve">
+    <value>生成SEP号码</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_20" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_12" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_01" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_02" xml:space="preserve">
+    <value>年龄：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_03" xml:space="preserve">
+    <value>性别：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_04" xml:space="preserve">
+    <value>患者无：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_05" xml:space="preserve">
+    <value>顾问。：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_06" xml:space="preserve">
+    <value>右眼</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_09" xml:space="preserve">
+    <value>轴</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_10" xml:space="preserve">
+    <value>最佳矫正视力</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_11" xml:space="preserve">
+    <value>备注：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_12" xml:space="preserve">
+    <value>材料：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_13" xml:space="preserve">
+    <value>其他特性：</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_14" xml:space="preserve">
+    <value>LenseType：</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_02" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_03" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_04" xml:space="preserve">
+    <value>拍摄日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_05" xml:space="preserve">
+    <value>厕所</value>
+  </data>
+  <data name="PlatForm_Scripts_InPatientSearch_js_01" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="PlatForm_Scripts_InPatientSearch_js_02" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_02" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_28" xml:space="preserve">
+    <value>大写金额收稿日期：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_29" xml:space="preserve">
+    <value>由于大写金额：</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillPrint_ascx_30" xml:space="preserve">
+    <value>剩余存款金额：</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_53" xml:space="preserve">
+    <value>拍摄日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_54" xml:space="preserve">
+    <value>CBG值</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_55" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_56" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_57" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_58" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_59" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_60" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_61" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_16" xml:space="preserve">
+    <value>显示结果定制</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_17" xml:space="preserve">
+    <value>隐藏结果定制</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_18" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_14" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_15" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_01" xml:space="preserve">
+    <value>耐心处方</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_02" xml:space="preserve">
+    <value>捕获症状</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_03" xml:space="preserve">
+    <value>执行诊断</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_04" xml:space="preserve">
+    <value>放射学付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_05" xml:space="preserve">
+    <value>调查付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_06" xml:space="preserve">
+    <value>收集付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_07" xml:space="preserve">
+    <value>调查收集付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_08" xml:space="preserve">
+    <value>放射学收集付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_15" xml:space="preserve">
+    <value>Sr实验室技术</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_18" xml:space="preserve">
+    <value>实验室招待会</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_06" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_03" xml:space="preserve">
+    <value>pnlDefer</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_04" xml:space="preserve">
+    <value>显示顺从</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_02" xml:space="preserve">
+    <value>NulifeId</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_11" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_12" xml:space="preserve">
+    <value>MrdCardNo</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_13" xml:space="preserve">
+    <value>倒栽跳水商标</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_14" xml:space="preserve">
+    <value>倒栽跳水名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_15" xml:space="preserve">
+    <value>倒栽跳水地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_16" xml:space="preserve">
+    <value>电话号码倒栽跳水的</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_17" xml:space="preserve">
+    <value>倒栽跳水电子邮件</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_18" xml:space="preserve">
+    <value>耐心数字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_20" xml:space="preserve">
+    <value>耐心名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_26" xml:space="preserve">
+    <value>折扣原因</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>cetak</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_01" xml:space="preserve">
+    <value>门诊病人</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_02" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_14" xml:space="preserve">
+    <value>交易ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_16" xml:space="preserve">
+    <value>钞票日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_17" xml:space="preserve">
+    <value>是设地边远地区的分站</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_18" xml:space="preserve">
+    <value>赶走</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_19" xml:space="preserve">
+    <value>付款名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_21" xml:space="preserve">
+    <value>付款数字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_22" xml:space="preserve">
+    <value>付款银行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_23" xml:space="preserve">
+    <value>付款评论</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_24" xml:space="preserve">
+    <value>付款TypeID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_25" xml:space="preserve">
+    <value>手术细节ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_26" xml:space="preserve">
+    <value>手术名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_27" xml:space="preserve">
+    <value>选择的行ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_30" xml:space="preserve">
+    <value>其他当前数额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_32" xml:space="preserve">
+    <value>交易ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_34" xml:space="preserve">
+    <value>钞票日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_35" xml:space="preserve">
+    <value>是设地边远地区的分站</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_09" xml:space="preserve">
+    <value>住院病人付款</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_23" xml:space="preserve">
+    <value>引起比尔</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_29" xml:space="preserve">
+    <value>光学</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_31" xml:space="preserve">
+    <value>引起比尔</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_15" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_15" xml:space="preserve">
+    <value>耐心证明板料</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_16" xml:space="preserve">
+    <value>参观没有</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_17" xml:space="preserve">
+    <value>参观日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_18" xml:space="preserve">
+    <value>没有的病历</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_19" xml:space="preserve">
+    <value>耐心名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_21" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_26" xml:space="preserve">
+    <value>RTRW</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_27" xml:space="preserve">
+    <value>Kelurahan</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_28" xml:space="preserve">
+    <value>Kecamatan</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_33" xml:space="preserve">
+    <value>没有KTP</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_37" xml:space="preserve">
+    <value>最后参观日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_40" xml:space="preserve">
+    <value>次级部门</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_46" xml:space="preserve">
+    <value>引起参观</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_48" xml:space="preserve">
+    <value>参观目的</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_49" xml:space="preserve">
+    <value>参观没有</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_50" xml:space="preserve">
+    <value>参观日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_52" xml:space="preserve">
+    <value>没有Mediacal的纪录</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_53" xml:space="preserve">
+    <value>耐心名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_54" xml:space="preserve">
+    <value>保险名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_55" xml:space="preserve">
+    <value>从展示的推举</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_57" xml:space="preserve">
+    <value>SRC</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_70" xml:space="preserve">
+    <value>脉管</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_73" xml:space="preserve">
+    <value>安心因素</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_74" xml:space="preserve">
+    <value>伴生的症状</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_75" xml:space="preserve">
+    <value>受影响的睡眠工作</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_76" xml:space="preserve">
+    <value>局限活动</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_77" xml:space="preserve">
+    <value>耐心信仰关于</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_78" xml:space="preserve">
+    <value>耐心期望</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_79" xml:space="preserve">
+    <value>药物过敏</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_84" xml:space="preserve">
+    <value>黄旗</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_85" xml:space="preserve">
+    <value>临床检查</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_88" xml:space="preserve">
+    <value>疗程</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_89" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_cs_91" xml:space="preserve">
+    <value>TCU</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_37" xml:space="preserve">
+    <value>是设地边远地区的分站</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_38" xml:space="preserve">
+    <value>数额接受了ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_39" xml:space="preserve">
+    <value>授权码</value>
+  </data>
+  <data name="PlatForm_CommonControls_PendingVitals_ascx_cs_03" xml:space="preserve">
+    <value>耐心查寻</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_02" xml:space="preserve">
+    <value>btnSel</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_03" xml:space="preserve">
+    <value>BTN</value>
+  </data>
+  <data name="PlatForm_CommonControls_PhySchedule_ascx_cs_04" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintIPAdmissionDetails_ascx_05" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintPrescription_ascx_cs_061" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_031" xml:space="preserve">
+    <value>pnlDefer</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_cs_041" xml:space="preserve">
+    <value>显示顺从</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_021" xml:space="preserve">
+    <value>NulifeId</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_111" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_121" xml:space="preserve">
+    <value>MrdCardNo</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_131" xml:space="preserve">
+    <value>倒栽跳水商标</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_141" xml:space="preserve">
+    <value>倒栽跳水名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_151" xml:space="preserve">
+    <value>倒栽跳水地址</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_161" xml:space="preserve">
+    <value>电话号码倒栽跳水的</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_171" xml:space="preserve">
+    <value>倒栽跳水电子邮件</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_181" xml:space="preserve">
+    <value>耐心数字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_201" xml:space="preserve">
+    <value>耐心名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SecPrescriptionPage_ascx_cs_261" xml:space="preserve">
+    <value>折扣原因</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_011" xml:space="preserve">
+    <value>cetak</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_011" xml:space="preserve">
+    <value>门诊病人</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_cs_021" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_141" xml:space="preserve">
+    <value>交易ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_161" xml:space="preserve">
+    <value>钞票日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_171" xml:space="preserve">
+    <value>是设地边远地区的分站</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_181" xml:space="preserve">
+    <value>赶走</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_191" xml:space="preserve">
+    <value>付款名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_211" xml:space="preserve">
+    <value>付款数字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_221" xml:space="preserve">
+    <value>付款银行</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_231" xml:space="preserve">
+    <value>付款评论</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_241" xml:space="preserve">
+    <value>付款TypeID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_251" xml:space="preserve">
+    <value>手术细节ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_261" xml:space="preserve">
+    <value>手术名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_271" xml:space="preserve">
+    <value>选择的行ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_301" xml:space="preserve">
+    <value>其他当前数额</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_321" xml:space="preserve">
+    <value>交易ID</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_341" xml:space="preserve">
+    <value>钞票日期</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_351" xml:space="preserve">
+    <value>是设地边远地区的分站</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_14" xml:space="preserve">
+    <value>率类型</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_02" xml:space="preserve">
+    <value>药物名字</value>
+  </data>
+  <data name="PlatForm_CommonControls_OPCaseSheet_ascx_46" xml:space="preserve">
+    <value>Assesment</value>
+  </data>
+  <data name="PlatForm_CommonControls_HemotologyDisplay_ascx_03" xml:space="preserve">
+    <value>INR</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_04" xml:space="preserve">
+    <value>罗阿</value>
+  </data>
+  <data name="PlatForm_CommonControls_CourseInHospital_ascx_05" xml:space="preserve">
+    <value>药物频率</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_10" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_11" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_12" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_15" xml:space="preserve">
+    <value>HT</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_17" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_18" xml:space="preserve">
+    <value>HC</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_20" xml:space="preserve">
+    <value>HC</value>
+  </data>
+  <data name="PlatForm_CommonControls_PrintExam_ascx_21" xml:space="preserve">
+    <value>WHR</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddressControl_ascx_03" xml:space="preserve">
+    <value>OCountry</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_04" xml:space="preserve">
+    <value>AFB</value>
+  </data>
+  <data name="PlatForm_CommonControls_ClinicalDisplay_ascx_07" xml:space="preserve">
+    <value>ANCA</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_07" xml:space="preserve">
+    <value>SPH</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_08" xml:space="preserve">
+    <value>CYL</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_aspx_06" xml:space="preserve">
+    <value>HC</value>
+  </data>
+</root>

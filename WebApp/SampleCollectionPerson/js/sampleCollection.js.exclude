@@ -1,0 +1,125 @@
+﻿
+//Script para incluir en el ComboBox1 cada item chekeado del chkListMateriales
+//function CheckItem(checkBoxList)
+//{
+//    var options = checkBoxList.getElementsByTagName('input');
+//    var arrayOfCheckBoxLabels= checkBoxList.getElementsByTagName("label");
+//    var s = "";
+//    
+//    for(i=0;i<options.length;i++)
+//    {
+//        var opt = options[i];
+//        if(opt.checked)
+//        {
+//            s = s + ", "+ arrayOfCheckBoxLabels[i].innerText; 
+//        } 
+//    }
+//    if(s.length > 0) 
+//    {       
+//       s = s.substring(2, s.length); //sacar la primer 'coma'
+//    }
+//    var TxtBox = document.getElementById("<%=txtCombo.ClientID%>");       
+//    TxtBox.value = s;
+//    document.getElementById('<%=hidVal.ClientID %>').value = s;
+//}
+
+
+
+//    function BindControls() {
+//        $("#txtname").autocomplete({  
+//       
+//            source: function (request, response) {
+//             var val = request.term;
+//             var limsapiurl="http://localhost/LIMS_API/api/HomeCollection/GetSampleCollectionPersonList?PrefixText";
+//                 limsapiurl = limsapiurl + val;
+//               
+//                alert(val);
+//                var objPrefixText="test";
+//                $.ajax({
+//                    url: limsapiurl,                   
+//                    type: "GET",
+//                    contentType: "application/json",
+//                    dataType: 'json',
+//                    headers:{"Authorization" :"bearer S88xJvxuWZwW5W3VciXOcINVWKTk-9lZmdexUtPe5zyELI_iR0lBoTkvemzdN1yDznpv8CgYOJWKtzb04CSmcWhL3Ldbpz57Y6DLrSwhIZzG95jrhC_-hwy2A-mRQvhs8v_SLS8mZPyP4aWWoA25_J3_dgTsjvQPcnPq5Kdj186LOUCwbrdxPI2KfBZjeCXJLVVaaGCvawYJpP2sVoMK3lEjed235eYmEKWSv4egBCt7eX6B20G8-SDLP-5yOBzb6WrzGDcBSbfqyv7RePO7jzbfH7AqBCLxXi_ANXtGuOHUnaKr3524fkut9XZgrYeVkO5xwRfowan_hJ01Cje6fIqPDuO1vliuuxyJe1IHfULvAomUwa5yizStN_qSPOAevttBUUF6QfKyrYjwV1NWjEN7rfKSKWUovztc2R49bUNGM567ypQv6Hy4PXocQth-"},
+//                    success: function (data) {
+//                    alert(data);
+//                        response($.map(data, function (item) {
+//                            return { value: item.Name }
+//                        }))
+//                    },
+//                    error: function (err) {
+//                        alert(err.status);
+//                       
+//                       switch(err.status){
+//                       case "404":
+//                       alert("404");
+//                       break;
+//                       case "401":
+//                       alert("401");
+//                       break;
+//                       case "403":
+//                       alert("403");
+//                       break;
+//                      default:
+//                       alert("default");
+//                       break;
+//                        case "402":
+//                       alert("402");
+//                       break;
+//                       }
+//                    }
+//                });
+//            },
+//            minLength: 1   // MINIMUM 1 CHARACTER TO START WITH.
+//        });
+//    }
+//    
+//    
+//    
+//    function GetPatientAppointmentSearchList() {
+//           // var vurl = $("#hdnserviceurl").val();
+//           alert();
+//           var vurl = "http://localhost/LIMS_API/api/";
+//            vurl = vurl + 'HomeCollection/GetSampleCollectionPersonList?PrefixText=' + $('#txtname').val() ;
+//            var jdata = {};
+//            jdata.prefixText = $('#txtname').val();          
+//           // jdata.cntx = ContextInfo;
+//          //  monkeyPatchAutocompleteTableApp();
+//            $('#txtname').autocomplete({
+//                source: function(request, response) {
+//                    $.ajax({
+//                        type: "POST",
+//                        url: vurl,
+//                        //data: JSON.stringify(jdata),
+//                        contentType: 'application/json; charset=utf-8',
+//                        dataType: "json",
+//                        crossDomain: true,
+//                        success: function(result) {
+//                            index = 0;
+//                            var autoCompleteArray = new Array();
+//                            autoCompleteArray = $.map(result, function(item) {
+//                                return {
+//                                    Name: item.Name
+//                                    
+//                                };
+//                            });
+//                            
+//                            response(autoCompleteArray);
+//                        }
+//                    });
+//                },
+//                error: function (err) {
+//                        alert(err.status);
+//                        },
+//                minlength: 0,
+//                select: function(event, ui) {
+//                    $('#txtname').val(ui.item.Name);
+//                   
+//                   // PatientSelected(ui.item.EMail, ui.item.label, ui.item.Description, ui.item.ResourceTemplateID);
+//                    return false;
+//                }
+//            });
+//        }
+//    
+
+// 

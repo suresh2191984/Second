@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nutrition_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Nutrition_CND_aspx_05" xml:space="preserve">
+    <value>Select Order To Take Print</value>
+  </data>
+  <data name="Nutrition_CND_aspx_06" xml:space="preserve">
+    <value>Food Not Mapped For This Menu...</value>
+  </data>
+  <data name="Nutrition_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Nutrition_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Nutrition_NutritionForStaff_aspx_01" xml:space="preserve">
+    <value>choose a date</value>
+  </data>
+  <data name="Nutrition_NutritionForStaff_aspx_02" xml:space="preserve">
+    <value>choose a proper from order date</value>
+  </data>
+  <data name="Nutrition_NutritionForStaff_aspx_03" xml:space="preserve">
+    <value>Invalid Date Range!\nStart Date cannot be after End Date!</value>
+  </data>
+  <data name="Nutrition_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Nutrition_RatewiseNutritionReport_aspx_01" xml:space="preserve">
+    <value>No Records to Export</value>
+  </data>
+  <data name="Nutrition_RatewiseNutritionReport_aspx_02" xml:space="preserve">
+    <value>Select the From Date</value>
+  </data>
+  <data name="Nutrition_RatewiseNutritionReport_aspx_03" xml:space="preserve">
+    <value>Select the To Date</value>
+  </data>
+  <data name="Nutrition_RatewiseNutritionReport_aspx_04" xml:space="preserve">
+    <value>Select the Search Type</value>
+  </data>
+  <data name="Nutrition_ReceivedInWard_aspx_01" xml:space="preserve">
+    <value>Select A Order To Print</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_01" xml:space="preserve">
+    <value>select the Building Name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_02" xml:space="preserve">
+    <value>select the Ward Name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_03" xml:space="preserve">
+    <value>select the RoomType Name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_04" xml:space="preserve">
+    <value>select the Foodmenu Name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_01" xml:space="preserve">
+    <value>Provide Menu name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_02" xml:space="preserve">
+    <value>Menu tagged against the product cannot be deleted</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_03" xml:space="preserve">
+    <value>Select the Menu to delete</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_04" xml:space="preserve">
+    <value>Menu does not exist</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_01" xml:space="preserve">
+    <value>Provide Session name</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_02" xml:space="preserve">
+    <value>Session tagged against the product cannot be deleted</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_03" xml:space="preserve">
+    <value>Select the Session to delete</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_04" xml:space="preserve">
+    <value>Session does not exist</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_01" xml:space="preserve">
+    <value>Food Not Mapped For This Menu...</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_02" xml:space="preserve">
+    <value>Start Date is not less then current Date.</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_03" xml:space="preserve">
+    <value>Start Date must less then or Equal End date</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_04" xml:space="preserve">
+    <value>End Date must greater then or Equal start date</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_05" xml:space="preserve">
+    <value>Please Select Start Date.</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_06" xml:space="preserve">
+    <value>Are you want to delete this order !!!</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_07" xml:space="preserve">
+    <value>do you want to place your order in CND</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_08" xml:space="preserve">
+    <value>Select A Order To Print</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodCategory_ascx_01" xml:space="preserve">
+    <value>Provide FoodCategory Name</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_01" xml:space="preserve">
+    <value>choose a date</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_02" xml:space="preserve">
+    <value>choose a proper from order date</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_03" xml:space="preserve">
+    <value>Invalid Date Range!\nStart Date cannot be after End Date!</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_04" xml:space="preserve">
+    <value>select food list</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_05" xml:space="preserve">
+    <value>choose a proper To order date</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_06" xml:space="preserve">
+    <value>Select A Menu</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_07" xml:space="preserve">
+    <value>Select a Session</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_08" xml:space="preserve">
+    <value>No Food Mapped For this Menu</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_09" xml:space="preserve">
+    <value>select patient list</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_10" xml:space="preserve">
+    <value>select atleast one food item!</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_11" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_12" xml:space="preserve">
+    <value>Invalid date. Provide only a future date</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_01" xml:space="preserve">
+    <value>Provide Food Menu name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_02" xml:space="preserve">
+    <value>Provide Food Ingredients name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_03" xml:space="preserve">
+    <value>Provide Food Quantity name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_04" xml:space="preserve">
+    <value>Please Select the Food UOM</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_05" xml:space="preserve">
+    <value>The Ingredient Name already in list</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodList_ascx_01" xml:space="preserve">
+    <value>Provide  FoodList Name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionIngredients_ascx_01" xml:space="preserve">
+    <value>Provide Ingredient Name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_01" xml:space="preserve">
+    <value>Provide Food Menu name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_02" xml:space="preserve">
+    <value>Provide Food Name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_03" xml:space="preserve">
+    <value>Provide Food Session Menu name</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_04" xml:space="preserve">
+    <value>Provide the Quantity</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_05" xml:space="preserve">
+    <value>Please Select the UOM</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_01" xml:space="preserve">
+    <value>End Date must greater then or Equal start date</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_02" xml:space="preserve">
+    <value>Please Select Start Date.</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionIngredients_ascx_02" xml:space="preserve">
+    <value>Changes Saved Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionIngredients_ascx_03" xml:space="preserve">
+    <value>Saved Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_05" xml:space="preserve">
+    <value>Do you wish to delete this Menu?</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_05" xml:space="preserve">
+    <value>Do you wish to delete this Session?</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_13" xml:space="preserve">
+    <value>Enter FoodName</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_14" xml:space="preserve">
+    <value>Enter Quantity</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_15" xml:space="preserve">
+    <value>Enter unit of measurement</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_16" xml:space="preserve">
+    <value>Already Added this subsession</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_03" xml:space="preserve">
+    <value>Are you want to delete this order !!!</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_01" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_01" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_01" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_05" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_06" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+</root>

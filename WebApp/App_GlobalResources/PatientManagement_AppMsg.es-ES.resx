@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PatientManagement_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PatientManagement_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PatientManagement_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PatientManagement_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_01" xml:space="preserve">
+    <value>nombre del medicamento ya existe</value>
+  </data>
+  <data name="PatientManagement_Controls_NutritionAdvice_ascx_01" xml:space="preserve">
+    <value>recomendación ya existe</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_01" xml:space="preserve">
+    <value>Select the body part</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_02" xml:space="preserve">
+    <value>ya agregado</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_03" xml:space="preserve">
+    <value>introduzca una fecha</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_01" xml:space="preserve">
+    <value>escribir fecha válida</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_02" xml:space="preserve">
+    <value>Tha Values {0} cannot be Empty</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_03" xml:space="preserve">
+    <value>Already Exists</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_04" xml:space="preserve">
+    <value>por favor introduzca un valor</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_05" xml:space="preserve">
+    <value>introduzca una fecha</value>
+  </data>
+  <data name="PatientManagement_Controls_ProcedureICD9_ascx_01" xml:space="preserve">
+    <value>seleccionar nombre del producto</value>
+  </data>
+  <data name="PatientManagement_Controls_ProcedureICD9_ascx_02" xml:space="preserve">
+    <value>artículo ya agregado!</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_01" xml:space="preserve">
+    <value>Provide the date and time of discharge</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_02" xml:space="preserve">
+    <value>Discharge date should be greater than admission date</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_03" xml:space="preserve">
+    <value>Provide the valid IP number</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_04" xml:space="preserve">
+    <value>Please Enter General Advice</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_05" xml:space="preserve">
+    <value>Diagnosis already added</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_06" xml:space="preserve">
+    <value>Prosthesis already exist</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_07" xml:space="preserve">
+    <value>Enter valid Next Review Date</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_08" xml:space="preserve">
+    <value>Enter valid Next Review Date, it should be greater than Today</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_09" xml:space="preserve">
+    <value>Please Enter HospitalCourse</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_10" xml:space="preserve">
+    <value>Select DischargeSummary Templete Type</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_11" xml:space="preserve">
+    <value>No Master Templete for {0}</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_12" xml:space="preserve">
+    <value>Add Master Templete to Dischargesummary</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_01" xml:space="preserve">
+    <value>Select a discharge summary for viewing</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_01" xml:space="preserve">
+    <value>seleccione los detalles de visita</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_02" xml:space="preserve">
+    <value>Provide 'On Behalf of'</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_03" xml:space="preserve">
+    <value>Provide event date</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_04" xml:space="preserve">
+    <value>Provide event  location</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_05" xml:space="preserve">
+    <value>The ordered investigation part cannot be altered as the task in lab is already finsh.Go to Make Visit.</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_06" xml:space="preserve">
+    <value>The ordered investigation part cannot be altered as the task in lab is already picked.</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_07" xml:space="preserve">
+    <value>Enter History</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_08" xml:space="preserve">
+    <value>escribir duración</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_09" xml:space="preserve">
+    <value>Select Duration Type</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_10" xml:space="preserve">
+    <value>History already added</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_11" xml:space="preserve">
+    <value>Diagnosis already added</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_12" xml:space="preserve">
+    <value>fecha de plan de tratamiento</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_13" xml:space="preserve">
+    <value>Prosthesis already exist</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_14" xml:space="preserve">
+    <value>Provide other backround problem</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_15" xml:space="preserve">
+    <value>Other backround problem already added</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_16" xml:space="preserve">
+    <value>Enter valid Next Review Date</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_17" xml:space="preserve">
+    <value>Enter valid Next Review Date, it should be greater than Today.</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_18" xml:space="preserve">
+    <value>la parte de la receta no puede ser alterada ya que la tarea fue recogida en farmacia.</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_19" xml:space="preserve">
+    <value>Please Enter Procedure Name</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_20" xml:space="preserve">
+    <value>Please Enter the Sitting</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_21" xml:space="preserve">
+    <value>Please Enter Atleast One Sitting</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_22" xml:space="preserve">
+    <value>Procedure already in progress..! You cannot order this procedure</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_23" xml:space="preserve">
+    <value>Already this procedure was added</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_24" xml:space="preserve">
+    <value>Are you sure you wish to cancel?</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_25" xml:space="preserve">
+    <value>Ordered Investigation Added  successfully.</value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_01" xml:space="preserve">
+    <value>Add drugs first</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_01" xml:space="preserve">
+    <value>Provide surgery / procedure  details</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_02" xml:space="preserve">
+    <value>Select the chief doctor</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_03" xml:space="preserve">
+    <value>Provide From Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_04" xml:space="preserve">
+    <value>Provide the Arrival time to OT</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_05" xml:space="preserve">
+    <value>Provide the Surgeon Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_06" xml:space="preserve">
+    <value>Provide the Anesthesia Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_07" xml:space="preserve">
+    <value>Provide the Operation Start Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_08" xml:space="preserve">
+    <value>Provide the Operation End Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_09" xml:space="preserve">
+    <value>Provide the Departure Time</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_10" xml:space="preserve">
+    <value>Date Mismatch</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_11" xml:space="preserve">
+    <value>Start time is greater or equal</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_12" xml:space="preserve">
+    <value>From time should not be less than current time.</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_13" xml:space="preserve">
+    <value>To time should not be less than from time.</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_14" xml:space="preserve">
+    <value>Select treatment plan</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_15" xml:space="preserve">
+    <value>Complication already added</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_16" xml:space="preserve">
+    <value>por favor seleccione nombre del médico</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_17" xml:space="preserve">
+    <value>ya agregado</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_18" xml:space="preserve">
+    <value>Free text not allowed .Please select from surgery list</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_19" xml:space="preserve">
+    <value>Prosthesis already exist</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_20" xml:space="preserve">
+    <value>Operation Date is before Patient's Admission Date!</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_21" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PatientManagement_PatientVitals_aspx_01" xml:space="preserve">
+    <value>guardado exitosamente.</value>
+  </data>
+  <data name="PatientManagement_PatientVitals_aspx_02" xml:space="preserve">
+    <value>POCT is Pending.Click Ok to Capture POCT,Cancel to close the task</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_04" xml:space="preserve">
+    <value>Select the body position</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_05" xml:space="preserve">
+    <value>Select the body findings</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_06" xml:space="preserve">
+    <value>Select the reflex name</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_07" xml:space="preserve">
+    <value>Select the reflex position</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_08" xml:space="preserve">
+    <value>Select the reflex status</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_09" xml:space="preserve">
+    <value>Select the muscle type</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_10" xml:space="preserve">
+    <value>Select the muscle power</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_11" xml:space="preserve">
+    <value>Select the muscle tone</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_26" xml:space="preserve">
+    <value>In Patient Examination Musculoskeletal is Marked but Values not Entered!</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_01" xml:space="preserve">
+    <value>Complication already added</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_02" xml:space="preserve">
+    <value>Instruction already added</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_03" xml:space="preserve">
+    <value>Select generation type</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_04" xml:space="preserve">
+    <value>Provide name for the child</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_05" xml:space="preserve">
+    <value>Provide the date of birth</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_06" xml:space="preserve">
+    <value>fecha invalida</value>
+  </data>
+</root>

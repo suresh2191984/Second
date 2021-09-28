@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_01" xml:space="preserve">
+    <value>（患者ID-</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_02" xml:space="preserve">
+    <value>（IP NO-</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_03" xml:space="preserve">
+    <value>（单位/沃德： - </value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_04" xml:space="preserve">
+    <value>BloodGroup：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_05" xml:space="preserve">
+    <value>博士</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_06" xml:space="preserve">
+    <value>后</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_07" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_08" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_09" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_12" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_13" xml:space="preserve">
+    <value>过期</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_14" xml:space="preserve">
+    <value>死亡摘要</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_15" xml:space="preserve">
+    <value>出院小结</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_16" xml:space="preserve">
+    <value>无历史</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_17" xml:space="preserve">
+    <value>无迹象</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_18" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_19" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_20" xml:space="preserve">
+    <value>处理名称</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_21" xml:space="preserve">
+    <value>假体</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_22" xml:space="preserve">
+    <value>TreatmentPlan日期</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_23" xml:space="preserve">
+    <value>稍后会计划</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_24" xml:space="preserve">
+    <value>男子表现为史</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_25" xml:space="preserve">
+    <value>老男孩呈现的历史</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_26" xml:space="preserve">
+    <value>老太太呈现的历史</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_27" xml:space="preserve">
+    <value>呈现的历史岁女孩</value>
+  </data>
+  <data name="VisitInfo_Controls_BackrounMedicalProblem_ascx_01" xml:space="preserve">
+    <value>无历史</value>
+  </data>
+  <data name="VisitInfo_Controls_DialysisCaseSheet_ascx_01" xml:space="preserve">
+    <value>透析正在运行。当透析完整请尝试。</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_01" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_02" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_03" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_05" xml:space="preserve">
+    <value>药物频率</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_06" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_07" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_01" xml:space="preserve">
+    <value>男子表现为史</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_02" xml:space="preserve">
+    <value>老男孩呈现的历史</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_03" xml:space="preserve">
+    <value>老太太呈现的历史</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_04" xml:space="preserve">
+    <value>呈现的历史岁女孩</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientAddress_ascx_01" xml:space="preserve">
+    <value>手机号码 ：</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientAddress_ascx_02" xml:space="preserve">
+    <value>座机号码：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheetDynamic_ascx_01" xml:space="preserve">
+    <value>死亡摘要</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheetDynamic_ascx_02" xml:space="preserve">
+    <value>出院小结</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_01" xml:space="preserve">
+    <value>后</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_02" xml:space="preserve">
+    <value>死亡摘要</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_03" xml:space="preserve">
+    <value>出院小结</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_04" xml:space="preserve">
+    <value>BP：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_05" xml:space="preserve">
+    <value>温度：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_06" xml:space="preserve">
+    <value>重量：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_07" xml:space="preserve">
+    <value>脉冲：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_08" xml:space="preserve">
+    <value>身高：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_09" xml:space="preserve">
+    <value>RR：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_10" xml:space="preserve">
+    <value>血氧饱和度：</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_11" xml:space="preserve">
+    <value>无迹象</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_01" xml:space="preserve">
+    <value>在1分钟</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_02" xml:space="preserve">
+    <value>在5分钟</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_03" xml:space="preserve">
+    <value>药品名称</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_04" xml:space="preserve">
+    <value>剂量</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_05" xml:space="preserve">
+    <value>公式</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_08" xml:space="preserve">
+    <value>为期</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_09" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_10" xml:space="preserve">
+    <value>名称 ：</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_11" xml:space="preserve">
+    <value>性别：</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_12" xml:space="preserve">
+    <value>患者ID：</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_13" xml:space="preserve">
+    <value>患者ID-</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_14" xml:space="preserve">
+    <value>IP NO：</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_15" xml:space="preserve">
+    <value>后</value>
+  </data>
+  <data name="VisitInfo_Controls_EventChart_ascx_01" xml:space="preserve">
+    <value>无事件图</value>
+  </data>
+  <data name="VisitInfo_Controls_EventChart_ascx_02" xml:space="preserve">
+    <value>透析技术员</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>TRF图片上​​传</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_01" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_02" xml:space="preserve">
+    <value>任务分配给护士</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_03" xml:space="preserve">
+    <value>任务分配给医生</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_01" xml:space="preserve">
+    <value>通过今天/的病人进行链接</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_02" xml:space="preserve">
+    <value>这不能对新生儿进行</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_03" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_04" xml:space="preserve">
+    <value>编辑入场患者详细</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_05" xml:space="preserve">
+    <value>出院</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_07" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_08" xml:space="preserve">
+    <value>费用类型</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_09" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_12" xml:space="preserve">
+    <value>OP（后续访问）</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_13" xml:space="preserve">
+    <value>OP（新的访问）</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_14" xml:space="preserve">
+    <value>IP（后续访问）</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_15" xml:space="preserve">
+    <value>IP（新的访问）</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_16" xml:space="preserve">
+    <value>都</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_17" xml:space="preserve">
+    <value>通过今天/的病人进行链接</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_18" xml:space="preserve">
+    <value>这不能对新生儿进行</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_19" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_20" xml:space="preserve">
+    <value>是尚未被诊断</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_21" xml:space="preserve">
+    <value>请定居OP上一页付款</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_22" xml:space="preserve">
+    <value>请结算前支付</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_23" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_24" xml:space="preserve">
+    <value>已成功更新</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_25" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_26" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_27" xml:space="preserve">
+    <value>NO九月号</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_28" xml:space="preserve">
+    <value>担心</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_29" xml:space="preserve">
+    <value>可怕</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_30" xml:space="preserve">
+    <value>伤心</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_31" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_32" xml:space="preserve">
+    <value>独立</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_33" xml:space="preserve">
+    <value>疼痛轻，analgetik口腔</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_34" xml:space="preserve">
+    <value>中等疼痛，需要analgetik注入</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_35" xml:space="preserve">
+    <value>硬疼痛，疼痛问问团队</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_36" xml:space="preserve">
+    <value>不确定</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_37" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_41" xml:space="preserve">
+    <value>这次访问有没有医生的名字，请您及时更新的医生的名字。</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_01" xml:space="preserve">
+    <value>健康套餐</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_02" xml:space="preserve">
+    <value>会诊</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_03" xml:space="preserve">
+    <value>透析技术员</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_04" xml:space="preserve">
+    <value>治疗程序</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_05" xml:space="preserve">
+    <value>入场</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_06" xml:space="preserve">
+    <value>上传患者旧笔记</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_07" xml:space="preserve">
+    <value>实验室研究</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_39" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_01" xml:space="preserve">
+    <value>总等待办理入住手续的文件：</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_02" xml:space="preserve">
+    <value>访问是已经越过1日，请办理入住手续，并创造新的访问</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_01" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_02" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="VisitInfo_PatientdetailsUpload_aspx_cs_01" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="VisitInfo_PatientdetailsUpload_aspx_cs_02" xml:space="preserve">
+    <value>文件上传成功</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_04" xml:space="preserve">
+    <value>隐藏结果定制</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_05" xml:space="preserve">
+    <value>显示结果定制</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_06" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_40" xml:space="preserve">
+    <value>没有找到MatchingRecords</value>
+  </data>
+  <data name="VisitInfo_PrintBarCode_aspx_01" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_10" xml:space="preserve">
+    <value>罗阿</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_11" xml:space="preserve">
+    <value>药物频率</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_04" xml:space="preserve">
+    <value>罗阿</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_06" xml:space="preserve">
+    <value>罗阿</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_07" xml:space="preserve">
+    <value>药物频率</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_10" xml:space="preserve">
+    <value>门诊病人</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_11" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_38" xml:space="preserve">
+    <value>现有的患者</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_08" xml:space="preserve">
+    <value>继续同样治疗</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_09" xml:space="preserve">
+    <value>修改处方</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_10" xml:space="preserve">
+    <value>进一步调查</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_11" xml:space="preserve">
+    <value>改变诊断</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_12" xml:space="preserve">
+    <value>修改健康信息</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_13" xml:space="preserve">
+    <value>增加推荐</value>
+  </data>
+</root>

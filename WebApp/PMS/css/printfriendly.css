@@ -1,0 +1,24 @@
+﻿/* -----  Examples ------ */
+
+
+
+/* Changes font family and size */
+
+#printfriendly {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+
+/* Hides the Page Title and Source URL */
+
+#pf-print-area #pf-src {
+    display:none;
+}
+
+#pf-tagline
+{
+        font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}

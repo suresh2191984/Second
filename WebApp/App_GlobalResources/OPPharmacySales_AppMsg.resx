@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OPPharmacySales_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OPPharmacySales_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="OPPharmacySales_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_01" xml:space="preserve">
+    <value>This patient already registered in IP.</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_02" xml:space="preserve">
+    <value>Task Reassign Successfully.</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_03" xml:space="preserve">
+    <value>Error While Saving Billing Items.</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_04" xml:space="preserve">
+    <value>Please Close your previous day cash and do Billing</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_05" xml:space="preserve">
+    <value>Saved Successfully.</value>
+  </data>
+  <data name="OPPharmacySales_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  
+  <data name="OPPharmacySales_InvOpBilling_aspx_06" xml:space="preserve">
+    <value>Task Reassign Successfully.</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_07" xml:space="preserve">
+    <value>Error While Saving Billing Items.</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_01" xml:space="preserve">
+    <value>Provide the product list</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_02" xml:space="preserve">
+    <value>Provide consumed by or patient number</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_03" xml:space="preserve">
+    <value>Provide minimum two characters</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_04" xml:space="preserve">
+    <value>Provide the batch number</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_05" xml:space="preserve">
+    <value>Provide issue quantity</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_06" xml:space="preserve">
+    <value>Ensure items added/quantity are provided properly</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_07" xml:space="preserve">
+    <value>Discount Amount should not exceed than the total amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_08" xml:space="preserve">
+    <value>Copay Amount should not exceed than the total amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_09" xml:space="preserve">
+    <value>Please Enter valid date</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_10" xml:space="preserve">
+    <value>Product number and batch number combination already exist</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_11" xml:space="preserve">
+    <value>Item can not ordered because  no Of drugs already exists this mapped client ,balance drug count : ' + BalanceOfDrug + '..</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_12" xml:space="preserve">
+    <value>This Item Will be Expired with in {0} Months.Please select any other Batch (if available)</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_13" xml:space="preserve">
+    <value>This Item is Alredy Expired.Please select any other Batch (if available)</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_14" xml:space="preserve">
+    <value>Provide received amount less than or equal to net amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_15" xml:space="preserve">
+    <value>Discount Percent should be below 100!</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_16" xml:space="preserve">
+    <value>Select the Discount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_17" xml:space="preserve">
+    <value>Discount should not more than patientpayable amount!</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_18" xml:space="preserve">
+    <value>Patient payable amount is zero !</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_19" xml:space="preserve">
+    <value>Amount provided is greater than net amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_20" xml:space="preserve">
+    <value>Enter Reason for Discount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_21" xml:space="preserve">
+    <value>Enter Amount for Discount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_22" xml:space="preserve">
+    <value>Provide  patient name</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_23" xml:space="preserve">
+    <value>Provide Prescribed By</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_24" xml:space="preserve">
+    <value>Provide Patient Age</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_25" xml:space="preserve">
+    <value>Provide Mobile Patient or Land Line Number</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_26" xml:space="preserve">
+    <value>Select Patient State</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_27" xml:space="preserve">
+    <value>Provide Patient Address</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_28" xml:space="preserve">
+    <value>Select the product</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_29" xml:space="preserve">
+    <value>Bill To Walk-in Patients Are Not Allowed</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_30" xml:space="preserve">
+    <value>For Walk-in Patient Due not Allowed.So Collect the Bill Amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_31" xml:space="preserve">
+    <value>Please Enter Due Reason</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_32" xml:space="preserve">
+    <value>Amount received should not more than patient payable amount</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_33" xml:space="preserve">
+    <value>Provide valid date</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_34" xml:space="preserve">
+    <value>Percentage should be less than 100</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_35" xml:space="preserve">
+    <value>Free Text not allowed</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_36" xml:space="preserve">
+    <value>This BillAmount will be added to due.\n Do you want to continue</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_37" xml:space="preserve">
+    <value>This Item Will be Expired with in  {0}  Months</value>
+  </data>
+  <data name="Scripts_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Scripts_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Scripts_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_39" xml:space="preserve">
+    <value>This product have return sub store stock</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_40" xml:space="preserve">
+    <value>You can use remaining stock</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_01" xml:space="preserve">
+    <value>Select atleast one Bill Item</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_02" xml:space="preserve">
+    <value>Enter the selected items amount</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_03" xml:space="preserve">
+    <value>Select the amount enter items</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_04" xml:space="preserve">
+    <value>Add the refund amount!</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_05" xml:space="preserve">
+    <value>Enter amount is cannot less than refundable amount!</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_06" xml:space="preserve">
+    <value>Amount provided is greater than the net amount</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_07" xml:space="preserve">
+    <value>Provide return quantity less than or equal to issued quantity</value>
+  </data>
+  <data name="OPPharmacySales_UserStockReturn_aspx_08" xml:space="preserve">
+    <value>Provide return amount less than or equal to issued amount</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_08" xml:space="preserve">
+    <value>S No.</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_09" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_13" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_14" xml:space="preserve">
+    <value>Issued Qty</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_15" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_17" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_16" xml:space="preserve">
+    <value>MRP</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_18" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_19" xml:space="preserve">
+    <value>Discount Value</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_20" xml:space="preserve">
+    <value>Is Reimbursable</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_21" xml:space="preserve">
+    <value>Action</value>
+  </data>
+
+  <data name="OPPharmacySales_InvOpBilling_aspx_22" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_23" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_24" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBillsing_aspx_25" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_10" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_11" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="OPPharmacySales_InvOpBilling_aspx_12" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="OPPharmacySales_Scripts_InvOpBilling_js_41" xml:space="preserve">
+    <value>The Selected drug alreay avaliable in previousPrescription</value>
+  </data>
+
+</root>

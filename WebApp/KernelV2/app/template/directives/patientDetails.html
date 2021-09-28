@@ -1,0 +1,79 @@
+﻿<div class="table-responsive">
+    <table class="table table-bordered table-valign">
+        <tr>
+            <td>
+                <label>
+                    <span>Visit No: </span>{{::objPatient.VisitNumber}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Lab Number: </span>{{::objPatient.PatientNumber}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Patient Name: </span>{{::objPatient.PatientName}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Gender/Age: </span><span ng-show="objPatient.Sex=='M'">Male </span><span ng-show="objPatient.Sex=='F'">
+                        Female
+                    </span>/ {{::objPatient.ReferenceRangeAge}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Visit Date: </span><span ng-bind="objPatient.VisitDate | date:'dd/MM/yyyy HH:mm:ss'">
+                    </span>
+                </label>
+            </td>
+            <td rowspan="2">
+                <span pop-dyncss="clinicAttr-tablist" title="Patient History" class="btn btn-primary"
+                      pop-template="patientHistory" custom-popover ng-click="showPopover();" pop-grouping="imgUPload"
+                      pop-placement="left">
+                    <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <span>Patient No: </span>{{::objPatient.PatientNumber}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Reg.Location: </span>{{::objPatient.AccompaniedBy}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Ref. Doctor: </span>{{::objPatient.ReferingPhysicianName}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <span>Client Name: </span>{{::objPatient.ClientName}}
+                </label>
+            </td>
+            <td>
+                <label>
+                    <!--<span>Collected Date: </span><span ng-bind="objPatient.CollectedDate | date:'dd/MM/yyyy HH:mm:ss'">
+                    </span>-->
+                    <span>Collected Date: </span><label ng-bind="objPatient.VisitDate | date:'dd/MM/yyyy HH:mm:ss'">
+                    </label>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                History : {{objPatient.PatientHistory}}
+            </td>
+            <td colspan="3">
+                Remarks : {{objPatient.RegistrationRemarks}}
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Action" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Add" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_AttributeName" xml:space="preserve">
+    <value>AttributeName</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_AttributeStatus" xml:space="preserve">
+    <value>AttributeStatus</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_ControlType" xml:space="preserve">
+    <value>Loại điều khiển</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_DataType" xml:space="preserve">
+    <value>Loại dữ liệu</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_IsMandatory" xml:space="preserve">
+    <value>Bắt buộc</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_IsPredefined" xml:space="preserve">
+    <value>Được xác định trước</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Length" xml:space="preserve">
+    <value>Chiều dài</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_LocationUpdateFail" xml:space="preserve">
+    <value>Không thể cập nhật vị trí</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_LocationUpdateMsg" xml:space="preserve">
+    <value>Đã lưu vị trí thành công</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_Save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_BufferedQty" xml:space="preserve">
+    <value>Số lượng bộ đệm</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_BUnits" xml:space="preserve">
+    <value>B-đơn vị</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Device" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_EstQuantity" xml:space="preserve">
+    <value>Số lượng ước tính</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Eunits" xml:space="preserve">
+    <value>Đơn vị điện tử</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Investigation" xml:space="preserve">
+    <value>Tên điều tra</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_ProductName" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Select" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Sno" xml:space="preserve">
+    <value>Số sê-ri</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_InputTax" xml:space="preserve">
+    <value>Thuế đầu vào</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_InputTaxtype" xml:space="preserve">
+    <value>Loại thuế đầu vào</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_OutputTax" xml:space="preserve">
+    <value>Thuế đầu ra</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_OutputTaxtype" xml:space="preserve">
+    <value>Loại thuế đầu ra</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_State" xml:space="preserve">
+    <value>Tiểu bang</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Attributes" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Ismandatory" xml:space="preserve">
+    <value>Bắt buộc</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_01" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_02" xml:space="preserve">
+    <value>Tên chung</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_03" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_01" xml:space="preserve">
+    <value>tên nhà sản xuất</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_02" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_03" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_04" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_05" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_06" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_07" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_01" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_02" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_03" xml:space="preserve">
+    <value>Số sê-ri</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_04" xml:space="preserve">
+    <value>tên tổ chức</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_05" xml:space="preserve">
+    <value>Tên địa phương</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_06" xml:space="preserve">
+    <value>Số lượng cấp lại đơn đặt hàng</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_07" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_08" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_09" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_10" xml:space="preserve">
+    <value>Đã cập nhật thành công sản phẩm</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_11" xml:space="preserve">
+    <value>Đã tạo thành công sản phẩm</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_12" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_13" xml:space="preserve">
+    <value>Cập nhật sản phẩm không thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_14" xml:space="preserve">
+    <value>Sản phẩm đã tồn tại</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_15" xml:space="preserve">
+    <value>Lỗi khi lưu sản phẩm</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_16" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_17" xml:space="preserve">
+    <value>Nhà cung cấp bất hoạt</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_18" xml:space="preserve">
+    <value>Nhà cung cấp đã xóa thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_19" xml:space="preserve">
+    <value>Nhà cung cấp đã cập nhật thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_20" xml:space="preserve">
+    <value>Đã thêm nhà cung cấp thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_21" xml:space="preserve">
+    <value>Nhà cung cấp đã xóa không thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_22" xml:space="preserve">
+    <value>Cập nhật nhà cung cấp không thành công</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_23" xml:space="preserve">
+    <value>Nhà cung cấp đã thêm không thành công</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_01" xml:space="preserve">
+    <value>Đã cập nhật vị trí thành công</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_02" xml:space="preserve">
+    <value>Không thể lưu vị trí</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_02" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_03" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_04" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_05" xml:space="preserve">
+    <value>Số sê-ri</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_06" xml:space="preserve">
+    <value>Vị trí khách hàng</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_07" xml:space="preserve">
+    <value>Địa chỉ của khách hàng</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_08" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_09" xml:space="preserve">
+    <value>LocationID</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_10" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_11" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_12" xml:space="preserve">
+    <value>Khách hàng cập nhật thành công</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_13" xml:space="preserve">
+    <value>Đã thêm khách hàng thành công</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_14" xml:space="preserve">
+    <value>Khách hàng đã cập nhật không thành công</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_15" xml:space="preserve">
+    <value>Khách hàng đã thêm không thành công</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_01" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_02" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_03" xml:space="preserve">
+    <value>Chỉnh sửa bảo trì</value>
+  </data>
+  <data name="InventoryMster_EquipmentMaintenanceMaster_aspx_03" xml:space="preserve">
+    <value>Chỉnh sửa bảo trì</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_01" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_24" xml:space="preserve">
+    <value>Số lượng tối đa</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_08" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_04" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_05" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_06" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_09" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_02" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_03" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_10" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_01" xml:space="preserve">
+    <value>Thuộc tính được xác định trước</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_25" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_01" xml:space="preserve">
+    <value>Danh mục được cập nhật thành công</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_02" xml:space="preserve">
+    <value>Danh mục được thêm thành công</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_03" xml:space="preserve">
+    <value>Không thể cập nhật danh mục</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_04" xml:space="preserve">
+    <value>Bổ sung danh mục không thành công</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_05" xml:space="preserve">
+    <value>Danh mục đã xóa thành công</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_06" xml:space="preserve">
+    <value>Xóa danh mục không thành công</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_04" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_07" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_26" xml:space="preserve">
+    <value>Số lượng tối đa</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_1" xml:space="preserve">
+    <value>Vâng</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_2" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_3" xml:space="preserve">
+    <value>Mỗi lượt truy cập</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_4" xml:space="preserve">
+    <value>Ngày khôn ngoan</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_5" xml:space="preserve">
+    <value>Hàng tuần</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_6" xml:space="preserve">
+    <value>Hàng tháng</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_7" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="InventoryMaster_ClientProductMapping_aspx_8" xml:space="preserve">
+    <value>Hàng năm</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_27" xml:space="preserve">
+    <value>DefaultIntendLocation</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_28" xml:space="preserve">
+    <value>StockTakingFrequency</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_29" xml:space="preserve">
+    <value>Đơn đặt hàng</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_30" xml:space="preserve">
+    <value>Chuyển đổi số lượng</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_31" xml:space="preserve">
+    <value>Đơn vị bán rẻ nhất</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_32" xml:space="preserve">
+    <value>Sno</value>
+  </data>
+</root>

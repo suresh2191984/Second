@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InventoryBillingCommon_BillSearch_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_05" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_06" xml:space="preserve">
+    <value>Name must have atleast three characters</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_07" xml:space="preserve">
+    <value>Click Edit Button.</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_08" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_09" xml:space="preserve">
+    <value>esta factura ha sido cancelado</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_10" xml:space="preserve">
+    <value>Selected patient unable to refund in the location, this is not Issue Location</value>
+  </data>
+  <data name="InventoryBillingCommon_BillSearch_aspx_11" xml:space="preserve">
+    <value>Cannot perform action for write-off bill !</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_INVBillPrint_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_INVBillPrint_ascx_02" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_INVBillPrint_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_INVBillPrint_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_05" xml:space="preserve">
+    <value>por favor introduzca cualquier categoría de búsqueda</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_06" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_05" xml:space="preserve">
+    <value>Provide one search category</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_01" xml:space="preserve">
+    <value>select the products</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_02" xml:space="preserve">
+    <value>provide the drugName</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_03" xml:space="preserve">
+    <value>proporcione la frecuencia</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_04" xml:space="preserve">
+    <value>provide the Dose</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_05" xml:space="preserve">
+    <value>provide the Duration</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_CompoundDrugs_js_06" xml:space="preserve">
+    <value>proporcione la instrucción</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_InvInPatientSearch_js_01" xml:space="preserve">
+    <value>ha fallado</value>
+  </data>
+  <data name="InventoryBillingCommon_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryBillingCommon_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="InventoryBillingCommon_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="InventoryBillingCommon_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_ChangePaymentModes_Inv_js_01" xml:space="preserve">
+    <value>Received amount should not be zero.</value>
+  </data>
+  <data name="InventoryBillingCommon_Scripts_ChangePaymentModes_Inv_js_02" xml:space="preserve">
+    <value>monto recibido es mayor que el monto neto</value>
+  </data>
+  <data name="InventoryBillingCommon_RefundSearch_aspx_01" xml:space="preserve">
+    <value>Select a refund number</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_06" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="InventoryBillingCommon_InvInPatientSearch_aspx_07" xml:space="preserve">
+    <value>Please Close your previous day cash and do Billing</value>
+  </data>
+  <data name="InventoryBillingCommon_CollectAdvance_aspx_01" xml:space="preserve">
+    <value>Please Add Advance Amount</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_01" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_02" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_03" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_04" xml:space="preserve">
+    <value>por favor ingrese monto mayor que 0</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_05" xml:space="preserve">
+    <value>tipo de pago y monto requerido</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_06" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_07" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_08" xml:space="preserve">
+    <value>el nombre de pago ya existe</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_09" xml:space="preserve">
+    <value>monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_10" xml:space="preserve">
+    <value>Provide received amount less than or equal to net amount</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_DuePaymentType_ascx_11" xml:space="preserve">
+    <value>seleccione típo moneda </value>
+  </data>
+  <data name="InventoryBillingCommon_CollectAdvance_aspx_011" xml:space="preserve">
+    <value>monto no puede ser cero</value>
+  </data>
+  <data name="InventoryBillingCommon_Controls_InvInPatientSearch_ascx_011" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="InventoryBillingCommon_InventoryDueClearance_aspx_01" xml:space="preserve">
+    <value>There is no due for this patient</value>
+  </data>
+  <data name="InventoryBillingCommon_InventoryDueClearance_aspx_02" xml:space="preserve">
+    <value>Patient due added successfully</value>
+  </data>
+  <data name="InventoryBillingCommon_InventoryDueClearance_aspx_03" xml:space="preserve">
+    <value>Collect Advance Amount</value>
+  </data>
+  <data name="InventoryBillingCommon_InventoryDueClearance_aspx_04" xml:space="preserve">
+    <value>Please enter full amount</value>
+  </data>
+</root>

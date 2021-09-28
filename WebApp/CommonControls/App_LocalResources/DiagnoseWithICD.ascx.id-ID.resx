@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DBP1Resource1.Text" xml:space="preserve">
+    <value>DBP</value>
+  </data>
+  <data name="lblbltAResource1.Text" xml:space="preserve">
+    <value>-NIL-</value>
+  </data>
+  <data name="lblbltGResource1.Text" xml:space="preserve">
+    <value>-NIL-</value>
+  </data>
+  <data name="lblbltMResource1.Text" xml:space="preserve">
+    <value>-NIL-</value>
+  </data>
+  <data name="pnlDialysisResource1.GroupingText" xml:space="preserve">
+    <value>Data Dialysis</value>
+  </data>
+  <data name="pnlFbResource1.GroupingText" xml:space="preserve">
+    <value>Komplikasi</value>
+  </data>
+  <data name="pnlRecResource1.GroupingText" xml:space="preserve">
+    <value>Rekaman Dialysis</value>
+  </data>
+  <data name="Rs_AccessResource1.Text" xml:space="preserve">
+    <value>Akses</value>
+  </data>
+  <data name="Rs_AccessSiteResource1.Text" xml:space="preserve">
+    <value>Situs Akses</value>
+  </data>
+  <data name="Rs_BTSResource1.Text" xml:space="preserve">
+    <value>BTS</value>
+  </data>
+  <data name="Rs_CommentsResource1.Text" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="Rs_DateResource1.Text" xml:space="preserve">
+    <value>Tanggal :</value>
+  </data>
+  <data name="Rs_DBP2Resource1.Text" xml:space="preserve">
+    <value>DBP</value>
+  </data>
+  <data name="Rs_DialyzerResource1.Text" xml:space="preserve">
+    <value>Dialyzer</value>
+  </data>
+  <data name="Rs_DryWeightResource1.Text" xml:space="preserve">
+    <value>DryWeight</value>
+  </data>
+  <data name="Rs_EndTimeResource1.Text" xml:space="preserve">
+    <value>Waktu Berakhir :</value>
+  </data>
+  <data name="Rs_GeneralResource1.Text" xml:space="preserve">
+    <value>Umum</value>
+  </data>
+  <data name="Rs_HDNoResource1.Text" xml:space="preserve">
+    <value>HD No. :</value>
+  </data>
+  <data name="Rs_HeparinResource1.Text" xml:space="preserve">
+    <value>Heparin</value>
+  </data>
+  <data name="Rs_MachineRelatedResource1.Text" xml:space="preserve">
+    <value>Machine Related</value>
+  </data>
+  <data name="Rs_NextHDDateResource1.Text" xml:space="preserve">
+    <value>Next HD Date :</value>
+  </data>
+  <data name="Rs_OtherDrugsResource1.Text" xml:space="preserve">
+    <value>Other Drugs</value>
+  </data>
+  <data name="Rs_POSTDIALYSISResource1.Text" xml:space="preserve">
+    <value>POST-DIALYSIS</value>
+  </data>
+  <data name="Rs_PREDIALYSISResource1.Text" xml:space="preserve">
+    <value>PRE-DIALYSIS</value>
+  </data>
+  <data name="Rs_Pulse1Resource1.Text" xml:space="preserve">
+    <value>Denyut Nadi</value>
+  </data>
+  <data name="Rs_PulseResource1.Text" xml:space="preserve">
+    <value>Denyut Nadi</value>
+  </data>
+  <data name="Rs_SBP1Resource1.Text" xml:space="preserve">
+    <value>SBP</value>
+  </data>
+  <data name="Rs_SBP2Resource1.Text" xml:space="preserve">
+    <value>SBP</value>
+  </data>
+  <data name="Rs_StartTimeResource1.Text" xml:space="preserve">
+    <value>Waktu Mulai :</value>
+  </data>
+  <data name="Rs_Temp1Resource1.Text" xml:space="preserve">
+    <value>Temp</value>
+  </data>
+  <data name="Rs_Temp2Resource1.Text" xml:space="preserve">
+    <value>Temp</value>
+  </data>
+  <data name="Rs_TreatmentBedandMachineNameResource1.Text" xml:space="preserve">
+    <value>Treatment Bed/Machine Name</value>
+  </data>
+  <data name="Rs_UFResource1.Text" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="Rs_Weight1Resource1.Text" xml:space="preserve">
+    <value>Berat</value>
+  </data>
+  <data name="Rs_Weight2Resource1.Text" xml:space="preserve">
+    <value>Berat</value>
+  </data>
+  <data name="Rs_WeightGainResource1.Text" xml:space="preserve">
+    <value>Berat Yang Diperoleh</value>
+  </data>
+  <data name="bltAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bltGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bltMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DBP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOnFlowDialysisResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOnFlowDialysisResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOnFlowDialysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccessSideResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccessSideResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccessSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccessSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbltAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbltGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbltMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBTSResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialyzerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialyzerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDryWeightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDryWeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHDNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHDNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMachineNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMachineNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextHDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextHDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostDBPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostDBPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostDBPUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostDBPUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostPulseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostPulseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostPulseUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostPulseUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostSBPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostSBPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostSBPUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostSBPUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTempResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTempResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTempUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTempUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostUFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostUFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostUFUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostUFUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostWeightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostWeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostWeightUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostWeightUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreDBPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreDBPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreDBPUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreDBPUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreHeparinResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreHeparinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreHeparinUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreHeparinUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrePulseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrePulseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrePulseUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrePulseUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreSBPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreSBPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreSBPUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreSBPUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreTempResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreTempResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreTempUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreTempUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWeightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWeightUOMCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWeightUOMCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWtGainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreWtGainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTodayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTodayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWtGainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWtGainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDialysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFbResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlNextHDResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlNextHDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRecResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AccessSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_CommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DBP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DialyzerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DryWeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_EndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_GeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_HDNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_HeparinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MachineRelatedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NextHDDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OtherDrugsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_POSTDIALYSISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PREDIALYSISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Pulse1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PulseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SBP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SBP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_StartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Temp1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Temp2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TreatmentBedandMachineNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_UFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Weight1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Weight2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_WeightGainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeaderResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDiagnoseWithICDResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDiagnoseWithICDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

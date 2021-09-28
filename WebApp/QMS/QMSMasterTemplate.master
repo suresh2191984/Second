@@ -1,0 +1,229 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="QMSMasterTemplate.master.cs"
+    Inherits="QMS_QMSMasterTemplate" %>
+
+<!DOCTYPE html >
+<html>
+<head id="Head1" runat="server">
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <title>Master Template</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
+        name='viewport'>
+    <!-- Bootstrap 3.3.4 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- FontAwesome 4.3.0 -->
+    <link href="bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <!--<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />-->
+    <!-- bootstrap datepicker -->
+    <link rel="stylesheet" href="plugins/datepicker/datepicker3.css" type="text/css" />
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="plugins/iCheck/all.css" type="text/css">
+    <!-- Include the plugin's CSS and JS: -->
+    <link rel="stylesheet" href="plugins/multiSelect/css/bootstrap-multiselect.css" type="text/css" />
+    <!-- Theme style -->
+    <link href="dist/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins 
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="dist/css/skins/_all-skins.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/animated.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        </style>
+</head>
+<body class="skin-black-light sidebar-mini">
+    <div class="wrapper" style="overflow-y: scroll;">
+        <form id="form1" runat="server">
+        <header class="main-header">
+         <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Logo -->
+                    <a href="/" class="logo fadeindown">
+                      <!-- mini logo for sidebar mini 50x50 pixels -->
+                      <img src="Images/attune-logo.png" alt="" height="44px" />
+                   <%--   <img src="<%=LogoPath%>" alt="" height="44px" />--%>
+                      <!-- logo for regular state and mobile devices -->
+                      <span class="title-logo">Attune</span>
+                    </a>
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle fadeinup" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+		  
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Role Menu: style-->
+              <li class="dropdown messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-2x fa-user"></i>
+                  <p class="dr-roles">
+                      <span class="dr-role">Mr.Nicho</span>
+                      <span class="dr-role-name">Administrator</span>
+                   </p>
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header strong">Select Role</li>
+                 <li>
+                 <!-- Row -->
+                    <div class="role-box">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                    <label>Select Organization</label>
+                              </div>
+                         </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                         <select class="form-control" id="Select8">
+                                          <option>Anderson</option>
+                                          <option>Bose</option>
+                                        </select>
+                                    </div>
+                            </div>
+                       </div>
+                 </li>
+                 <li>
+                 <!-- Row -->
+                         <div class="col-xs-6 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                    <label>Select Role</label>
+                              </div>
+                         </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                         <select class="form-control" id="Select9">
+                                          <option>Adminstrator</option>
+                                          <option>Lab Technisian</option>
+                                        </select>
+                                    </div>
+                            </div>
+                 </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <!-- To Do List Model popup -->
+        <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar fadeoutup">
+        <!-- Sidebar user panel -->
+        <!--<div class="user-panel">
+            <div class="pull-left image image-info" data-placement="right" data-toggle="popover"">
+                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>Dr. User</p>
+            </div>
+        </div>-->
+
+        <div id="sidebar">
+           
+            <ul class="sidebar-menu">	
+				<li class="active treeview"><a href="#"><i class="fa fa-building-o"></i><span> Master Data</span></a>
+					<ul class="treeview-menu">
+                        <li class="treeview"><a href="/WebApp/QMS/AnalyzerMaster.aspx"><i class="fa fa-comments-o"></i><span> Analyzer Master</span></a></li>
+                        <li class="treeview"><a href="/WebApp/QMS/AnalyteMaster.aspx"><i class="fa fa-street-view"></i><span> Analyte Master</span></a></li>
+                        <li class="treeview"><a href="/WebApp/QMS/AnalyzerMapping.aspx"><i class="fa fa-street-view"></i><span> Analyzer Mapping</span></a></li>
+                        <li class="treeview"><a href="/WebApp/QMS/LotManagement.aspx"><i class="fa fa-street-view"></i><span> Lot Management</span></a></li>
+                        <li class="treeview"><a href="/WebApp/QMS/RuleMaster.aspx"><i class="fa fa-street-view"></i><span> Rule Master</span></a></li>
+                      </ul>
+				</li>
+				
+            </ul>
+            <div class="hrcustom"></div>
+           </div>
+
+
+    </section>
+    <!-- /.sidebar -->
+</aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <!-- Main content -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 2.0
+        </div>
+        <strong>Copyright &copy; 2016-2017 <a href="http://attunelive.com">Attune</a>.</strong> All rights reserved.
+      </footer>
+        </form>
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery 2.1.4 -->
+
+    <script src="../Scripts/jquery-1.11.3.min.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../Scripts/jquery-ui-1.10.4.custom.min.js" type="text/javascript" language="javascript"></script>
+
+    <!-- Bootstrap 3.3.2 JS -->
+
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Angular Js -->
+
+    <script src="dist/js/angular.min.js" type="text/javascript"></script>
+
+    <!-- bootstrap datepicker -->
+
+    <script src="plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+
+    <!-- iCheck 1.0.1 -->
+
+    <script src="plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+
+    <script type="text/javascript" src="plugins/multiSelect/js/bootstrap-multiselect.js"></script>
+
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+    <!-- AdminLTE App -->
+
+    <script src="dist/js/animatedfn.js" type="text/javascript"></script>
+
+    <script src="dist/js/animated.js" type="text/javascript"></script>
+
+    <script src="dist/js/app.min.js" type="text/javascript"></script>
+
+    <script src="dist/js/JScript.js" type="text/javascript"></script>
+
+    <!-- AdminLTE for demo purposes -->
+
+    <script src="dist/js/demo.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            //Date picker
+            $('.datepicker').datepicker({
+                autoclose: true
+            });
+            //iCheck for checkbox and radio inputs
+            $('input[type="checkbox"].minimal').iCheck({
+                checkboxClass: 'icheckbox_minimal-blue',
+                radioClass: 'iradio_minimal-blue'
+            });
+            $('.multiselect').multiselect({
+                includeSelectAllOption: true,
+                buttonWidth: '100%',
+                maxHeight: 100
+            });
+            LeftMenu();
+        });
+    </script>
+
+</body>
+</html>

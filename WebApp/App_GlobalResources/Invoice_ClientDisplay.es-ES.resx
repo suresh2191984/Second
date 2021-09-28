@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Invoice_ClientMaster_aspx_001" xml:space="preserve">
+    <value>suspendido</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_002" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_003" xml:space="preserve">
+    <value>terminado</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_004" xml:space="preserve">
+    <value>pago reclamado</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_005" xml:space="preserve">
+    <value>el cliente principal seleccionado fue</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_006" xml:space="preserve">
+    <value>. No puede editar el estado de cliente</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_007" xml:space="preserve">
+    <value>&lt;TABLE ID='tabDrg1' Cellpadding='1' Cellspacing='1' width='100%' class='dataheaderInvCtrl' style='font-size: 11px;'&gt;&lt;TBODY&gt;&lt;tr class='dataheader1'&gt;&lt;th scope='col' align='center' width='5%'</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_008" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_009" xml:space="preserve">
+    <value>&lt;/th&gt;&lt;th scope='col' align='center' width='20%'&gt;</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_010" xml:space="preserve">
+    <value>nombre del impuesto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_011" xml:space="preserve">
+    <value>&lt;/th&gt;</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_012" xml:space="preserve">
+    <value>identidad</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_013" xml:space="preserve">
+    <value>comerciales</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_014" xml:space="preserve">
+    <value>cantidad límite en valor</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_015" xml:space="preserve">
+    <value>crédito virtual %</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_016" xml:space="preserve">
+    <value>monto de crédito virtual</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_017" xml:space="preserve">
+    <value>información de envío</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_018" xml:space="preserve">
+    <value>persona de contacto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_019" xml:space="preserve">
+    <value>notificaciones</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_020" xml:space="preserve">
+    <value>factura</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_021" xml:space="preserve">
+    <value>reporte</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_022" xml:space="preserve">
+    <value>reporte de resultados</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_023" xml:space="preserve">
+    <value>detalle del impuesto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_024" xml:space="preserve">
+    <value>Ya se ha agregado \n</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_025" xml:space="preserve">
+    <value>. El número de secuencia  :</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_026" xml:space="preserve">
+    <value>confirmar para eliminar!!</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_027" xml:space="preserve">
+    <value>cliente actualizado correctamente.</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_028" xml:space="preserve">
+    <value>cliente agregado correctamente.</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_029" xml:space="preserve">
+    <value>Error en la actualización.</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_030" xml:space="preserve">
+    <value>agregar ha fallado.</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_031" xml:space="preserve">
+    <value>no hay historial para este cliente </value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_001" xml:space="preserve">
+    <value>generar factura</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_002" xml:space="preserve">
+    <value>todas las facturas no facturadas</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_003" xml:space="preserve">
+    <value>Desde :</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_004" xml:space="preserve">
+    <value>A :</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_001" xml:space="preserve">
+    <value>captura de factura</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_002" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_003" xml:space="preserve">
+    <value>típo de pago</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_004" xml:space="preserve">
+    <value>Cantidad recibida</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_005" xml:space="preserve">
+    <value>monto condonado</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_006" xml:space="preserve">
+    <value>cheque / letra de cambio</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_007" xml:space="preserve">
+    <value>nombre del banco</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_008" xml:space="preserve">
+    <value>fecha de pago</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_009" xml:space="preserve">
+    <value>la suma de</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_010" xml:space="preserve">
+    <value>rupias</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_011" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_001" xml:space="preserve">
+    <value>rastreador de factura</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_002" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_003" xml:space="preserve">
+    <value>lista de correos con facturas enviada</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_004" xml:space="preserve">
+    <value>lista de correos con facturas a imprimir enviada</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_005" xml:space="preserve">
+    <value>el correo se ha enviado exitosamente.</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_006" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_101" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_032" xml:space="preserve">
+    <value>típo de dirección </value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_033" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_034" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_035" xml:space="preserve">
+    <value>suburbio</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_036" xml:space="preserve">
+    <value>teléfono</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_037" xml:space="preserve">
+    <value>móvil</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_038" xml:space="preserve">
+    <value>fax</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_039" xml:space="preserve">
+    <value>Comunicación</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_040" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_041" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_042" xml:space="preserve">
+    <value>correo electrónico</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_043" xml:space="preserve">
+    <value>agregar más</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_044" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_045" xml:space="preserve">
+    <value>Tipo de impuesto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_046" xml:space="preserve">
+    <value>secuencia de números</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_047" xml:space="preserve">
+    <value>está activo</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_048" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_049" xml:space="preserve">
+    <value>típo de contacto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_050" xml:space="preserve">
+    <value>Nombre de contacto</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_051" xml:space="preserve">
+    <value>número de móvil</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_052" xml:space="preserve">
+    <value>Número de teléfono fijo</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_053" xml:space="preserve">
+    <value>correo electrónico</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_054" xml:space="preserve">
+    <value>primario</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_055" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_056" xml:space="preserve">
+    <value>añadir detalles</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_057" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_058" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_060" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_061" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_062" xml:space="preserve">
+    <value>mes</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_063" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_064" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_005" xml:space="preserve">
+    <value>--seleccionar--</value>
+  </data>
+</root>

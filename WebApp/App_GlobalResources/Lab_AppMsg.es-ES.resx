@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lab_Pendinglist_aspx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_02" xml:space="preserve">
+    <value>es obligatorio seleccionar al menos uno estado</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_03" xml:space="preserve">
+    <value>es obligatorio seleccionar al menos un filtro para grupo de protocolo / nombre del analizador /nombre del examen /departamento</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_04" xml:space="preserve">
+    <value>seleccione fecha de inicio y término</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_05" xml:space="preserve">
+    <value>seleccione cualquier prueba</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_02" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_03" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_04" xml:space="preserve">
+    <value>por favor asegúrese de que que la fecha de término es mayor a la fecha de inicio.</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_05" xml:space="preserve">
+    <value>seleccione estado de la muestra aberrante </value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_06" xml:space="preserve">
+    <value>escribir código de barras desde</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_07" xml:space="preserve">
+    <value>escribir código de barras para</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_08" xml:space="preserve">
+    <value>escribir código de barras desde mayor que código de barras para</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_09" xml:space="preserve">
+    <value>seleccione la muestra de alícuota</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_10" xml:space="preserve">
+    <value>seleccione acción</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_11" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_12" xml:space="preserve">
+    <value>no seleccione más de una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_13" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_14" xml:space="preserve">
+    <value>el valor de la alícuota no es igual a cero</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_15" xml:space="preserve">
+    <value>escribir valor de alícuota</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_16" xml:space="preserve">
+    <value>escribir número de código de barras nuevo</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_17" xml:space="preserve">
+    <value>por favor introduzca el código de barras de ocho dígitos</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_18" xml:space="preserve">
+    <value>código de barras ingresado ya existe</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_19" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_20" xml:space="preserve">
+    <value>por favor introduzca número de página correcta</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_21" xml:space="preserve">
+    <value>seleccionar código de barras de muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_22" xml:space="preserve">
+    <value>seleccione el</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_23" xml:space="preserve">
+    <value>conteo de espécimen</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_24" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_25" xml:space="preserve">
+    <value>no seleccione más de una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_26" xml:space="preserve">
+    <value>seleccione acción de alícuota </value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_01" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_02" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_03" xml:space="preserve">
+    <value>escribir fecha de término posterior a la fecha de inicio</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_04" xml:space="preserve">
+    <value>seleccione el destino</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_05" xml:space="preserve">
+    <value>escribir nº de lote</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_06" xml:space="preserve">
+    <value>seleccione al menos uno</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_27" xml:space="preserve">
+    <value>guardado exitosamente..</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_28" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_29" xml:space="preserve">
+    <value>muestra ya rechazada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_30" xml:space="preserve">
+    <value>muestra es rechazada exitosamente</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_31" xml:space="preserve">
+    <value>esta muestra ya fue rechazada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_32" xml:space="preserve">
+    <value>esta muestra ya fue enviada a procesamiento, no es posible rechazarla!</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_01" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_02" xml:space="preserve">
+    <value>seleccione la muestra de alícuota</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_03" xml:space="preserve">
+    <value>esta acción es sólo realizada para muestras externas. por favor elija una muestra de externalización para capturar detalles externos</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_04" xml:space="preserve">
+    <value>esta acción no es adecuada para la muestra de la externalización.</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_05" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_06" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_07" xml:space="preserve">
+    <value>seleccione acción</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_08" xml:space="preserve">
+    <value>el valor de la alícuota no es igual a cero</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_09" xml:space="preserve">
+    <value>escribir valor de alícuota</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_10" xml:space="preserve">
+    <value>seleccione una fecha y hora correcta</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_11" xml:space="preserve">
+    <value>seleccione la ubicación para transferir</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_12" xml:space="preserve">
+    <value>seleccione una ubicación de procesamiento diferente para transferir</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_13" xml:space="preserve">
+    <value>seleccione la muestra para transferir</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_07" xml:space="preserve">
+    <value>lote de plantillas generado exitosamente</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_08" xml:space="preserve">
+    <value>lote de plantillas actualizado exitosamente</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_09" xml:space="preserve">
+    <value>problema en la generación de plantillas en lote</value>
+  </data>
+  <data name="Lab_Header_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_01" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_ReaciveBatch_aspx_02" xml:space="preserve">
+    <value>escribir fecha de término que no sea posterior a la fecha actual</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_03" xml:space="preserve">
+    <value>escribir fecha de término posterior a la fecha de inicio</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_04" xml:space="preserve">
+    <value>seleccione el estado</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_05" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_06" xml:space="preserve">
+    <value>lote recibido exitosamente</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_01" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario!!!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_02" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_03" xml:space="preserve">
+    <value>proporcione el número de visita del paciente a la búsqueda</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_05" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_06" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_07" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_08" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_09" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_01" xml:space="preserve">
+    <value>por favor seleccione aprobador de la lista</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_02" xml:space="preserve">
+    <value>Se guardaron los cambios exitosamente.</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_03" xml:space="preserve">
+    <value>por favor seleccione un registro y luego guarde.</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_04" xml:space="preserve">
+    <value>Provide valid patient details</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_05" xml:space="preserve">
+    <value>escribir autorizado por</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_01" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_02" xml:space="preserve">
+    <value>proporcione detalles de la muestra</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_03" xml:space="preserve">
+    <value>no hay detalles de la muestra para registrar</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_04" xml:space="preserve">
+    <value>los detalles de muestra ingresados ya existen</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_05" xml:space="preserve">
+    <value>no es posible ingresar los detalles</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_06" xml:space="preserve">
+    <value>Checked-In Successfully</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_07" xml:space="preserve">
+    <value>Checked-Out Successfully</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_08" xml:space="preserve">
+    <value>no es posible procesar los detalles</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_09" xml:space="preserve">
+    <value>no hay muestra procesar</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_10" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_11" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Lab_Home_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_Home_aspx_01" xml:space="preserve">
+    <value>proporcione el número de página</value>
+  </data>
+  <data name="Lab_Home_aspx_02" xml:space="preserve">
+    <value>proporcione un número de página correcto</value>
+  </data>
+  <data name="Lab_Home_Error" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="Lab_Home_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_011" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_021" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_031" xml:space="preserve">
+    <value>escribir fecha de término posterior a la fecha de inicio</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_041" xml:space="preserve">
+    <value>seleccione el destino</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_051" xml:space="preserve">
+    <value>escribir nº de lote</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_061" xml:space="preserve">
+    <value>seleccione al menos uno</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_071" xml:space="preserve">
+    <value>lote de plantillas generado exitosamente</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_081" xml:space="preserve">
+    <value>lote de plantillas actualizado exitosamente</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_091" xml:space="preserve">
+    <value>problema en la generación de plantillas en lote</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_01" xml:space="preserve">
+    <value>seleccione departamento</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_02" xml:space="preserve">
+    <value>seleccione la prueba</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_03" xml:space="preserve">
+    <value>seleccione el usuario</value>
+  </data>
+  <data name="Lab_CaseSorting_aspx_04" xml:space="preserve">
+    <value>seleccione función</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_011" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario!!!</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_021" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_031" xml:space="preserve">
+    <value>proporcione el número de visita del paciente a la búsqueda</value>
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_041" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_051" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_061" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_071" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_081" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_DeptSamplesCollection_aspx_091" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lab_Header_Alert1" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_homecollection_aspx_01" xml:space="preserve">
+    <value>no seleccione una fecha pasada de recolección.</value>
+  </data>
+  <data name="Lab_homecollection_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_homecollection_aspx_03" xml:space="preserve">
+    <value>ya se ha hecho la recolección a domicilio para este paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_04" xml:space="preserve">
+    <value>escribir fecha de reservado</value>
+  </data>
+  <data name="Lab_homecollection_aspx_05" xml:space="preserve">
+    <value>escribir fecha hasta reservado</value>
+  </data>
+  <data name="Lab_homecollection_aspx_06" xml:space="preserve">
+    <value>escribir recoger de la fecha</value>
+  </data>
+  <data name="Lab_homecollection_aspx_07" xml:space="preserve">
+    <value>escribir recoger hasta la fecha</value>
+  </data>
+  <data name="Lab_homecollection_aspx_08" xml:space="preserve">
+    <value>el paciente ya ha sido registrado, no se puede editar</value>
+  </data>
+  <data name="Lab_homecollection_aspx_09" xml:space="preserve">
+    <value>seleccione el nombre del paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_10" xml:space="preserve">
+    <value>el paciente seleccionado ya ha sido investigado</value>
+  </data>
+  <data name="Lab_homecollection_aspx_11" xml:space="preserve">
+    <value>la reserva al paciente seleccionado ya fue cancelada</value>
+  </data>
+  <data name="Lab_homecollection_aspx_12" xml:space="preserve">
+    <value>el paciente seleccionado ya ha sido cancelado</value>
+  </data>
+  <data name="Lab_homecollection_aspx_13" xml:space="preserve">
+    <value>por favor introduzca el nombre de paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_14" xml:space="preserve">
+    <value>seleccione sexo del paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_15" xml:space="preserve">
+    <value>por favor introduzca la edad del paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_16" xml:space="preserve">
+    <value>por favor introduzca un monto</value>
+  </data>
+  <data name="Lab_homecollection_aspx_17" xml:space="preserve">
+    <value>por favor introduzca dirección de colección del paciente</value>
+  </data>
+  <data name="Lab_homecollection_aspx_18" xml:space="preserve">
+    <value>escribir el número de teléfono móvil</value>
+  </data>
+  <data name="Lab_homecollection_aspx_19" xml:space="preserve">
+    <value>por favor seleccione un organización</value>
+  </data>
+  <data name="Lab_homecollection_aspx_20" xml:space="preserve">
+    <value>por favor seleccione una ubicación</value>
+  </data>
+  <data name="Lab_homecollection_aspx_21" xml:space="preserve">
+    <value>por favor seleccione una función</value>
+  </data>
+  <data name="Lab_homecollection_aspx_22" xml:space="preserve">
+    <value>por favor seleccione un usuario</value>
+  </data>
+  <data name="Lab_homecollection_aspx_23" xml:space="preserve">
+    <value>agregar reserva de exámenes </value>
+  </data>
+  <data name="Lab_homecollection_aspx_24" xml:space="preserve">
+    <value>por favor introduzca tiempo del colección de la muestra </value>
+  </data>
+  <data name="Lab_homecollection_aspx_25" xml:space="preserve">
+    <value>seleccione fecha!</value>
+  </data>
+  <data name="Lab_homecollection_aspx_26" xml:space="preserve">
+    <value>seleccione fecha de término!</value>
+  </data>
+  <data name="Lab_homecollection_aspx_27" xml:space="preserve">
+    <value>el día actual y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_28" xml:space="preserve">
+    <value>el día de inicio y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_29" xml:space="preserve">
+    <value>el mes actual y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_30" xml:space="preserve">
+    <value>el mes de inicio y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_31" xml:space="preserve">
+    <value>el año actual y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_32" xml:space="preserve">
+    <value>el año de inicio y final no coinciden</value>
+  </data>
+  <data name="Lab_homecollection_aspx_33" xml:space="preserve">
+    <value>paciente reservado no puede cambiar a domicilio aquí!!</value>
+  </data>
+  <data name="Lab_homecollection_aspx_34" xml:space="preserve">
+    <value>detalles del paciente guardados exitosamente, el número de reserva es</value>
+  </data>
+  <data name="Lab_homecollection_aspx_35" xml:space="preserve">
+    <value>Updated successfully</value>
+  </data>
+  <data name="Lab_homecollection_aspx_36" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Lab_homecollection_aspx_37" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_011" xml:space="preserve">
+    <value>por favor seleccione aprobador de la lista</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_021" xml:space="preserve">
+    <value>Se guardaron los cambios exitosamente.</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_031" xml:space="preserve">
+    <value>por favor seleccione un registro y luego guarde.</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_041" xml:space="preserve">
+    <value>proporcione el nombre de paciente válido</value>
+  </data>
+  <data name="Lab_InvestigationOrgChange_aspx_051" xml:space="preserve">
+    <value>escribir autorizado por</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_021" xml:space="preserve">
+    <value>es obligatorio seleccionar al menos uno estado</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_031" xml:space="preserve">
+    <value>es obligatorio seleccionar al menos un filtro para grupo de protocolo / nombre del analizador /nombre del examen /departamento</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_041" xml:space="preserve">
+    <value>seleccione fecha de inicio y término</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_051" xml:space="preserve">
+    <value>seleccione cualquier prueba</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_021" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_031" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_041" xml:space="preserve">
+    <value>por favor asegúrese de que que la fecha de término es mayor a la fecha de inicio.</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_051" xml:space="preserve">
+    <value>seleccione estado de la muestra aberrante </value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_061" xml:space="preserve">
+    <value>escribir código de barras desde</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_071" xml:space="preserve">
+    <value>escribir código de barras para</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_081" xml:space="preserve">
+    <value>escribir código de barras desde mayor que código de barras para</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_091" xml:space="preserve">
+    <value>seleccione la muestra de alícuota</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_101" xml:space="preserve">
+    <value>seleccione acción</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_111" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_121" xml:space="preserve">
+    <value>no seleccione más de una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_131" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_141" xml:space="preserve">
+    <value>el valor de la alícuota no es igual a cero</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_151" xml:space="preserve">
+    <value>escribir valor de alícuota</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_161" xml:space="preserve">
+    <value>escribir número de código de barras nuevo</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_171" xml:space="preserve">
+    <value>por favor introduzca el código de barras de ocho dígitos</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_181" xml:space="preserve">
+    <value>código de barras ingresado ya existe</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_191" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_201" xml:space="preserve">
+    <value>por favor introduzca número de página correcta</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_211" xml:space="preserve">
+    <value>seleccionar código de barras de muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_221" xml:space="preserve">
+    <value>seleccione el</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_231" xml:space="preserve">
+    <value>conteo de espécimen</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_241" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_251" xml:space="preserve">
+    <value>no seleccione más de una muestra</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_261" xml:space="preserve">
+    <value>seleccione acción de alícuota </value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_271" xml:space="preserve">
+    <value>guardado exitosamente..</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_281" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_291" xml:space="preserve">
+    <value>muestra ya rechazada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_301" xml:space="preserve">
+    <value>muestra es rechazada exitosamente</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_311" xml:space="preserve">
+    <value>esta muestra ya fue rechazada</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_321" xml:space="preserve">
+    <value>esta muestra ya fue enviada a procesamiento, no es posible rechazarla!</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_011" xml:space="preserve">
+    <value>seleccione fecha de término</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_021" xml:space="preserve">
+    <value>escribir fecha de término que no sea posterior a la fecha actual</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_031" xml:space="preserve">
+    <value>escribir fecha de término posterior a la fecha de inicio</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_041" xml:space="preserve">
+    <value>seleccione el estado</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_051" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_ReceiveBatch_aspx_061" xml:space="preserve">
+    <value>lote recibido exitosamente</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_011" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_021" xml:space="preserve">
+    <value>proporcione detalles de la muestra</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_031" xml:space="preserve">
+    <value>no hay detalles de la muestra para registrar</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_041" xml:space="preserve">
+    <value>los detalles de muestra ingresados ya existen</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_051" xml:space="preserve">
+    <value>no es posible ingresar los detalles</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_061" xml:space="preserve">
+    <value>Checked-In Successfully</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_071" xml:space="preserve">
+    <value>Checked-Out Successfully</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_081" xml:space="preserve">
+    <value>no es posible procesar los detalles</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_091" xml:space="preserve">
+    <value>no hay muestra procesar</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_101" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_111" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_011" xml:space="preserve">
+    <value>seleccione fecha</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_021" xml:space="preserve">
+    <value>seleccione la muestra de alícuota</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_031" xml:space="preserve">
+    <value>esta acción es sólo realizada para muestras externas. por favor elija una muestra de externalización para capturar detalles externos</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_041" xml:space="preserve">
+    <value>esta acción no es adecuada para la muestra de la externalización.</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_051" xml:space="preserve">
+    <value>selecciona la razón</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_061" xml:space="preserve">
+    <value>seleccione una muestra</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_071" xml:space="preserve">
+    <value>seleccione acción</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_081" xml:space="preserve">
+    <value>el valor de la alícuota no es igual a cero</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_091" xml:space="preserve">
+    <value>escribir valor de alícuota</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_101" xml:space="preserve">
+    <value>seleccione una fecha y hora correcta</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_111" xml:space="preserve">
+    <value>seleccione la ubicación para transferir</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_121" xml:space="preserve">
+    <value>seleccione una ubicación de procesamiento diferente para transferir</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_131" xml:space="preserve">
+    <value>seleccione la muestra para transferir</value>
+  </data>
+  <data name="Lab_BatchSheet_aspx_10" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_01" xml:space="preserve">
+    <value>seleccione el paciente</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_02" xml:space="preserve">
+    <value>seleccione al menos una investigación y, a continuación, pulse aceptar</value>
+  </data>
+  <data name="Lab_InvestigationQueue_aspx_Information" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_01" xml:space="preserve">
+    <value>proporcione el código de barras</value>
+  </data>
+  <data name="Lab_SampleWorkFlow_aspx_02" xml:space="preserve">
+    <value>resultados no encontrados</value>
+  </data>
+  <data name="Lab_homecollection_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Lab_homecollection_Confirm" xml:space="preserve">
+    <value>¿estás seguro de que desea borrar?</value>
+  </data>
+  <data name="Lab_homecollection_ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="Lab_Pendinglist_aspx_result" xml:space="preserve">
+    <value>resultados no encontrados</value>
+  </data>
+  <data name="Lab_PendingSampleCollection_aspx_33" xml:space="preserve">
+    <value>Can not make more slides</value>
+  </data>
+  <data name="Lab_InvestigationSample_aspx_01" xml:space="preserve">
+    <value>Recoger muestra para visitar actual y, a continuación, haga clic en Generar orden de trabajo</value>
+  </data>
+  <data name="Lab_InvestigationSample_aspx_02" xml:space="preserve">
+    <value>Seleccione departamento y, a continuación, haga clic en Generar orden de trabajo</value>
+  </data>
+  <data name="Lab_TransferSampleCollection_aspx_alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Lab_SampleArchival_aspx_025" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Lab_Home_aspx_05" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+</root>

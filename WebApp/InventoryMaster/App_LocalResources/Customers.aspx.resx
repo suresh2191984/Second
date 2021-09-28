@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Drug Licence No</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>Service Tax Number</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>Terms &amp; conditions</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>Active Status</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>TIN Number</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>E-Mail ID</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Pan Number</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>CST No</value>
+  </data>
+  <data name="btn_exportResource1.Text" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="btn_exportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFinishResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnFinishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDeleteResource1.Text" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="chkDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCustomerTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCustomerResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCustomerResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCustomerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnXLResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnXLResource1.ToolTip" xml:space="preserve">
+    <value>Save As Excel</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Add more Locations</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Address1Resource1.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbl_Address1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Address2Resource1.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbl_Address2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CityResource1.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lbl_CityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ContactPersonResource1.Text" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="lbl_ContactPersonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CSTNumberResource1.Text" xml:space="preserve">
+    <value>CST Number</value>
+  </data>
+  <data name="lbl_CSTNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CustomerNameResource1.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="lbl_CustomerNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CustomerSearch1Resource1.Text" xml:space="preserve">
+    <value>Customer Search</value>
+  </data>
+  <data name="lbl_CustomerSearch1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CustomerSearchResource1.Text" xml:space="preserve">
+    <value>Customer Search</value>
+  </data>
+  <data name="lbl_CustomerSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CustomerTypeResource1.Text" xml:space="preserve">
+    <value>Customer Type</value>
+  </data>
+  <data name="lbl_CustomerTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DrugLicenceNoResource1.Text" xml:space="preserve">
+    <value>Drug Licence No</value>
+  </data>
+  <data name="lbl_DrugLicenceNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_EmailIDResource1.Text" xml:space="preserve">
+    <value>E-Mail ID</value>
+  </data>
+  <data name="lbl_EmailIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_FaxNoResource1.Text" xml:space="preserve">
+    <value>Fax No</value>
+  </data>
+  <data name="lbl_FaxNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LandLineResource1.Text" xml:space="preserve">
+    <value>Land Line</value>
+  </data>
+  <data name="lbl_LandLineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_MobileNumberResource1.Text" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="lbl_MobileNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_PanResource1.Text" xml:space="preserve">
+    <value>Pan Number</value>
+  </data>
+  <data name="lbl_PanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ServiceTaxNoResource1.Text" xml:space="preserve">
+    <value>Service Tax Number</value>
+  </data>
+  <data name="lbl_ServiceTaxNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TinNo1Resource1.Text" xml:space="preserve">
+    <value>TinNo</value>
+  </data>
+  <data name="lbl_TinNo1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TinNoResource1.Text" xml:space="preserve">
+    <value>TIN Number</value>
+  </data>
+  <data name="lbl_TinNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustomerResource1.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="lblCustomerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTermsConditionsResource1.Text" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="lblTermsConditionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="PrintReportResource1.Text" xml:space="preserve">
+    <value>Print Report</value>
+  </data>
+  <data name="PrintReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="regValidatorResource1.ErrorMessage" xml:space="preserve">
+    <value>E-Mail is Not Vaild</value>
+  </data>
+  <data name="regValidatorResource1.Text" xml:space="preserve">
+    <value>&lt;%Resources.InventoryMaster_AppMsg.InventoryMaster_Customers_aspx_01 %&gt;</value>
+  </data>
+  <data name="regValidatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPanelResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPanelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="txtAddress1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddress1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddress2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddress2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContactPersonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContactPersonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCSTNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCSTNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCustomerNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCustomerNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugLicenceNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugLicenceNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFaxNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFaxNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPanResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhoneNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhoneNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServiceTaxNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServiceTaxNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSrchCustomerNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSrchCustomerNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSrchTinNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSrchTinNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTermsConditionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTermsConditionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTinNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTinNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

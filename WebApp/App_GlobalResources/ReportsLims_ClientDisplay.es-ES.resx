@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportsLims_BillWiseDeptCollectionReportLims_aspx_01" xml:space="preserve">
+    <value>-----Todos-----</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_01" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_02" xml:space="preserve">
+    <value>Descuento_ReportsDPTOPIP_</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_03" xml:space="preserve">
+    <value>haga clic en el "obtener el reporte"</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_04" xml:space="preserve">
+    <value>------Seleccione------</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_Alrt" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="ReportsLims_DueReportLims_aspx_01" xml:space="preserve">
+    <value>-----Todos-----</value>
+  </data>
+  <data name="ReportsLims_DueReportLims_aspx_02" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_001" xml:space="preserve">
+    <value>haga clic aquí para ver</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_002" xml:space="preserve">
+    <value>detalles</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_003" xml:space="preserve">
+    <value>op - reporte de estadísticas de laboratorio</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_004" xml:space="preserve">
+    <value>ip - reporte de estadísticas de laboratorio</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_005" xml:space="preserve">
+    <value>op / ip - reportes de estadísticas de laboratorio</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_006" xml:space="preserve">
+    <value>resumen del reporte de estadísticas de laboratorio </value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_007" xml:space="preserve">
+    <value>mensajes comunes_20</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_008" xml:space="preserve">
+    <value>El número total de exámenes de laboratorio realizado (</value>
+  </data>
+  <data name="ReportsLims_LabStatisticsReportLims_aspx_009" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="ReportsLims_LabTestStaticsReportLims_aspx_01" xml:space="preserve">
+    <value>op - reporte de estadísticas de la prueba</value>
+  </data>
+  <data name="ReportsLims_LabTestStaticsReportLims_aspx_02" xml:space="preserve">
+    <value>ip - reporte de estadísticas de la prueba de laboratorio</value>
+  </data>
+  <data name="ReportsLims_LabTestStaticsReportLims_aspx_03" xml:space="preserve">
+    <value>op / ip - reporte de estadísticas de la prueba de laboratorio</value>
+  </data>
+  <data name="ReportsLims_LabTestStaticsReportLims_aspx_04" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="ReportsLims_LabTestStaticsReportLims_aspx_05" xml:space="preserve">
+    <value>el número total de pruebas:</value>
+  </data>
+  <data name="ReportsLims_RefPhysicianSearch_aspx_01" xml:space="preserve">
+    <value>no hay coincidencia de registro encontrado</value>
+  </data>
+  <data name="ReportsLims_RefPhysicianSearch_aspx_02" xml:space="preserve">
+    <value>clasificación de la prueba</value>
+  </data>
+  <data name="ReportsLims_RefPhysicianSearch_aspx_03" xml:space="preserve">
+    <value>es-es</value>
+  </data>
+  <data name="ReportsLims_CCStmtLims_aspx_01" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="ReportsLims_CCStmtLims_aspx_02" xml:space="preserve">
+    <value>haga clic en el "obtener el reporte"</value>
+  </data>
+  <data name="ReportsLims_CCStmtLims_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_05" xml:space="preserve">
+    <value>fecha de visita</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_06" xml:space="preserve">
+    <value>conteo de pacientes</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_07" xml:space="preserve">
+    <value>descuento</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_08" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_09" xml:space="preserve">
+    <value>nombre de usuario</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_10" xml:space="preserve">
+    <value>valor neto</value>
+  </data>
+  <data name="ReportsLims_DiscountReportLims_aspx_11" xml:space="preserve">
+    <value>número de visita</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_01" xml:space="preserve">
+    <value>Cantidad total de depósito:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_02" xml:space="preserve">
+    <value>Total de la devolución:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_03" xml:space="preserve">
+    <value>Total adeudado colección:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_04" xml:space="preserve">
+    <value>Colección avance total:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_05" xml:space="preserve">
+    <value>monto total del reembolso de farmacia:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_06" xml:space="preserve">
+    <value>Farmacia Tema Importe del reembolso:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_07" xml:space="preserve">
+    <value>valor de reembolso del producto de farmacia:</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_08" xml:space="preserve">
+    <value>Restitución de farmacia</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_09" xml:space="preserve">
+    <value>Reembolso elemento farmacia</value>
+  </data>
+  <data name="ReportLims_DepartmentWiseCollectionReportLims_aspx_10" xml:space="preserve">
+    <value>Rango de Fecha de devolución</value>
+  </data>
+  <data name="ReportsLims_DueReportLims_aspx_05" xml:space="preserve">
+    <value>Importe debido total:</value>
+  </data>
+  <data name="ReportsLims_DueReportLims_aspx_06" xml:space="preserve">
+    <value>Página wise total pagado:</value>
+  </data>
+  <data name="ReportsLims_DueReportLims_aspx_07" xml:space="preserve">
+    <value>Importe total pagado:</value>
+  </data>
+</root>

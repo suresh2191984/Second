@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PageRoleAccessMapping>
+	<PageName>
+		<Inpatient>
+			<IPBillSettlement>
+			<Orgid id="321">
+			<RoleName role="Cashier">
+						<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						 
+					</RoleName>
+				</Orgid>
+				<Orgid id="1">
+
+					<RoleName role="Verificator">
+						<section code="C">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="A">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+					<RoleName role="Receptionist">
+						<section code="D">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+					<RoleName role="ALL">
+						<section code="E">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+
+					<RoleName role="Cashier">
+					<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="D">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+						<section code="C">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="143">
+					<RoleName role="Receptionist">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="78">
+					<RoleName role="Cashier">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="Receptionist">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="159">
+					<RoleName role="Receptionist">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</IPBillSettlement>
+			<IPViewBill>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="147">
+					<RoleName role="ALL">
+						<section code="EnhanceCreditBill">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="78">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="153">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="155">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="156">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="157">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="158">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="172">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="173">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="176">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="179">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="180">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="183">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="186">
+					<RoleName role="ALL">
+						<section code="TaxFooterText">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="131">
+					<RoleName role="ALL">
+						<section code="IPBillCustomization">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="IPBillCustomization">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="147">
+					<RoleName role="ALL">
+						<section code="IPBillCustomization">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="193">
+					<RoleName role="ALL">
+						<section code="IPBILLPatientAddress">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</IPViewBill>
+		</Inpatient>
+
+		<Billing>
+			<GenerateBill>
+				<Orgid id="1">
+
+					<RoleName role="ALL">
+                        <section code="ItemReason">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                        <section code="C">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+						<section code="D">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="PC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="Menu">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+					<RoleName role="LabReception">
+						<section code="Print">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="ItemReason">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="160">
+					<RoleName role="ALL">
+						<section code="ItemReason">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="161">
+					<RoleName role="ALL">
+						<section code="ItemReason">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="FreeText">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="192">
+					<RoleName role="ALL">
+						<section code="D">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</GenerateBill>
+
+			<Billing>
+				<Orgid id="321">
+					<RoleName role="Verificator">
+						<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+                        <section code="Print">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                        <section code="B">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+					</RoleName>
+					<RoleName role="Cashier">
+						<section code="B">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+                        <section code="D">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                        <section code="Print">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+					</RoleName>
+					<RoleName role="ALL">
+						<section code="C">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>                       
+                        <section code="Print">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+					</RoleName>
+				</Orgid>
+				<AmountApprovalDetails>
+					<Orgid id="143">
+						<RoleName role="Administrator">
+							<section code="HC">
+								<Activity>
+									<visible>0</visible>
+									<enable>0</enable>
+								</Activity>
+							</section>
+						</RoleName>
+					</Orgid>
+					<Orgid id="151">
+						<RoleName role="Administrator">
+							<section code="HC">
+								<Activity>
+									<visible>0</visible>
+									<enable>0</enable>
+								</Activity>
+							</section>
+						</RoleName>
+					</Orgid>
+					<Orgid id="159">
+						<RoleName role="Administrator">
+							<section code="HC">
+								<Activity>
+									<visible>0</visible>
+									<enable>0</enable>
+								</Activity>
+							</section>
+						</RoleName>
+					</Orgid>
+				</AmountApprovalDetails>
+			</Billing>
+		</Billing>
+		<Reception>
+            <DynamicPatientRegistration>
+                <Orgid id="1">
+                    <RoleName role="ALL">
+                        <section code="A">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                </Orgid>
+            </DynamicPatientRegistration >
+			<PatientsRegistration>
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="Daycarechkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="Blooddonorchkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="Admitchkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="2">
+					<RoleName role="ALL">
+						<section code="Daycarechkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="2">
+					<RoleName role="ALL">
+						<section code="Admitchkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="2">
+					<RoleName role="ALL">
+						<section code="Blooddonorchkbox">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PatientsRegistration>
+		</Reception>
+		<Reception>
+			<InPatientRegistration>
+
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="K">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+                    <RoleName role="ALL">
+                        <section code="A">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+				</Orgid>
+
+			</InPatientRegistration>
+			<CollectDeposit>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="145">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="78">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="153">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="155">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="156">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="157">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="158">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="172">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="173">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="176">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="179">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="180">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</CollectDeposit>
+
+			<PrintPatientRegistration>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="RowCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+						<section code="ColumnCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="RowCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+						<section code="ColumnCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="159">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+						<section code="RowCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+						<section code="ColumnCount">
+							<Activity>
+								<Count>4</Count>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PrintPatientRegistration>
+			<PatientRegistration>
+				<Orgid id="192">
+					<RoleName role="ALL">
+						<section code="ShowRelationshipType">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PatientRegistration>
+		</Reception>
+
+
+		<Inventory>
+			<InvIpBilling>
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="PC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="192">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+        <Orgid id="322">
+          <RoleName role="ALL">
+            <section code="hdnIsPrescribedByMand">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+			</InvIpBilling>
+			<PrintBill>
+				<Orgid id="142">
+					<RoleName role="ALL">
+						<section code="VATCALC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+  			<Orgid id="199">
+			 <RoleName role="ALL">
+				 <section code="HideAllGrossValue">
+					 <Activity>
+						 <visible>0</visible>
+						 <enable>0</enable>
+					 </Activity>
+				 </section>
+				 <section code="VATCALC">
+					 <Activity>
+						 <visible>0</visible>
+						 <enable>0</enable>
+					 </Activity>
+				 </section>
+			 </RoleName>
+		 </Orgid>
+				<Orgid id="144">
+					<RoleName role="ALL">
+						<section code="VATCALC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="62">
+					<RoleName role="ALL">
+						<section code="VATCALC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="73">
+					<RoleName role="ALL">
+						<section code="VATCALC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="142">
+					<RoleName role="ALL">
+						<section code="HideSTVaT">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="62">
+					<RoleName role="ALL">
+						<section code="HideSTVaT">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="153">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="155">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="156">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="157">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="158">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="172">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="173">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="176">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="179">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="180">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="183">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="186">
+					<RoleName role="ALL">
+						<section code="IsASGPharmacyBillFormat">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+
+			</PrintBill>
+		</Inventory>
+
+		<CommonControls>
+			<InPatientSearch>
+				<Orgid id="1">
+
+					<RoleName role="Cashier">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+                    <RoleName role="Nurse">
+                        <section code="HC">
+                            <Activity>
+                                <visible>1</visible>
+                                <enable>1</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+				</Orgid>
+				<Orgid id="78">
+					<RoleName role="Cashier">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</InPatientSearch>
+			<PaymentTypeDetails>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="145">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PaymentTypeDetails>
+			<SurgeryBilling>
+				<Orgid id="145">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+
+			</SurgeryBilling >
+			<BillPrint>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="192">
+					<RoleName role="ALL">
+						<section code="RegDTTM">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="192">
+          <RoleName role="ALL">
+            <section code="ShowOneTotal">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+	    <Orgid id="192">
+          <RoleName role="ALL">
+            <section code="ShowDiscReason">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+	<Orgid id="192">
+          <RoleName role="ALL">
+            <section code="ShowDueReason">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+			</BillPrint>
+			<OPCaseSheet>
+				<Orgid id="1">
+					<RoleName role="ALL">
+						<section code="SPCCcasesheetTemplate">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="2">
+					<RoleName role="ALL">
+						<section code="SPCCcasesheetTemplate">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+        <Orgid id="4">
+          <RoleName role="ALL">
+            <section code="LocationPatientNumber">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+        <Orgid id="4">
+          <RoleName role="ALL">
+            <section code="SPCCcasesheetTemplate">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</OPCaseSheet>
+			<SecPrescriptionPage>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</SecPrescriptionPage>
+			<QuickPatientReg>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="LoadDefaultRegFees">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="LoadDefaultRegFees">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="78">
+					<RoleName role="ALL">
+						<section code="LoadDefaultRegFees">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="160">
+					<RoleName role="ALL">
+						<section code="LoadDefaultRegFees">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="161">
+					<RoleName role="ALL">
+						<section code="LoadDefaultRegFees">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</QuickPatientReg>
+			<InvestigationControl>
+				<Orgid id="144">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</InvestigationControl>
+
+		</CommonControls>
+
+		<Admin>
+			<MRDView>
+				<Orgid id="1">
+					<RoleName role="MRD">
+						<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+					<RoleName role="ALL">
+						<section code="A">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+                    <RoleName role="Receptionist">
+                        <section code="B">
+                            <Activity>
+                                <visible>1</visible>
+                                <enable>1</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                    <RoleName role="Nurse">
+                        <section code="B">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+
+				</Orgid>
+				<Orgid id="321">
+					<RoleName role="MRD">
+						<section code="A">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+
+					<RoleName role="ALL">
+						<section code="A">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+                    <RoleName role="Receptionist">
+                        <section code="B">
+                            <Activity>
+                                <visible>1</visible>
+                                <enable>1</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                    <RoleName role="Nurse">
+                        <section code="B">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+
+				</Orgid>
+			</MRDView>
+
+            <BillSettlement>
+                <Orgid id="1">
+                    <RoleName role="Admin">
+                        <section code="A">
+                            <Activity>
+                                <visible>1</visible>
+                                <enable>1</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                    <RoleName role="ALL">
+                        <section code="A">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                </Orgid>
+            </BillSettlement>
+			<UserMaster>
+				<Orgid id="1">
+					<RoleName role="SuperAdmin">
+						<section code="Menu">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+					<RoleName role="ALL">
+						<section code="Menu">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</UserMaster>
+		</Admin>
+		<Patient>
+            <EmergencyPatient>
+                <Orgid id="1">
+                    <RoleName role="ALL">
+                        <section code="A">
+                            <Activity>
+                                <visible>0</visible>
+                                <enable>0</enable>
+                            </Activity>
+                        </section>
+                    </RoleName>
+                </Orgid>
+            </EmergencyPatient >
+			<RefundtoPatient>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="153">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="155">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="156">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="157">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="158">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="172">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="173">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="176">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="179">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="180">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</RefundtoPatient>
+			<PatientsCurrDateVist>
+				<Orgid id="1">
+					<RoleName role="Receptionist">
+						<section code="HC">
+							<Activity>
+								<visible>1</visible>
+								<enable>1</enable>
+							</Activity>
+						</section>
+					</RoleName>
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PatientsCurrDateVist>
+		</Patient>
+		<Admin>
+			<BillSettlement>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="151">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="153">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="155">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="156">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="157">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="158">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="172">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="173">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="176">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="179">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="180">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</BillSettlement>
+		</Admin>
+		<DischargeSummary>
+			<PatientDetails>
+				<Orgid id="143">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+			</PatientDetails>
+		</DischargeSummary>
+		<Inventory>
+			<InvOpBilling>
+				<Orgid id="146">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="148">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="149">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="150">
+					<RoleName role="ALL">
+						<section code="HC">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+				<Orgid id="192">
+					<RoleName role="ALL">
+						<section code="HD">
+							<Activity>
+								<visible>0</visible>
+								<enable>0</enable>
+							</Activity>
+						</section>
+					</RoleName>
+				</Orgid>
+        <Orgid id="322">
+          <RoleName role="ALL">
+            <section code="hdnIsPrescribedByMand">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+			</InvOpBilling>
+			<PrintBill>
+      <Orgid id="192">
+          <RoleName role="ALL">
+            <section code="ShowGrossValue">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+ 		<Orgid id="199">
+          <RoleName role="ALL">
+            <section code="ShowGrossValue">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+            <section code="VATCALC">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+ 	</PrintBill>
+		</Inventory>
+	</PageName>
+</PageRoleAccessMapping>

@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Scripts_Header_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_01" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="Scripts_Common_js_01" xml:space="preserve">
+    <value>There is no due for this invoice</value>
+  </data>
+  <data name="Scripts_Common_js_02" xml:space="preserve">
+    <value>Provide valid date</value>
+  </data>
+  <data name="Scripts_Common_js_03" xml:space="preserve">
+    <value>Date is not in a valid format</value>
+  </data>
+  <data name="Scripts_Common_js_04" xml:space="preserve">
+    <value>Invalid date. Provide only a future date</value>
+  </data>
+  <data name="Scripts_Common_js_05" xml:space="preserve">
+    <value>Mismatch between from and to date</value>
+  </data>
+  <data name="Scripts_Common_js_06" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="Scripts_Common_js_07" xml:space="preserve">
+    <value>Invalid date. Provide only a future date</value>
+  </data>
+  <data name="Scripts_Common_js_08" xml:space="preserve">
+    <value>Age cannot be zero</value>
+  </data>
+  <data name="Scripts_Common_js_09" xml:space="preserve">
+    <value>Age Should be Number</value>
+  </data>
+  <data name="Scripts_Common_js_10" xml:space="preserve">
+    <value>Should not be Decimal Values</value>
+  </data>
+  <data name="Scripts_Common_js_100" xml:space="preserve">
+    <value>Provide User name</value>
+  </data>
+  <data name="Scripts_Common_js_101" xml:space="preserve">
+    <value>Provide Password</value>
+  </data>
+  <data name="Scripts_Common_js_102" xml:space="preserve">
+    <value>You appear to be using an inappropriate browser or version.Please switch to IE8 in order to proceed</value>
+  </data>
+  <data name="Scripts_Common_js_103" xml:space="preserve">
+    <value>Provide the Product name</value>
+  </data>
+  <data name="Scripts_Common_js_104" xml:space="preserve">
+    <value>Already exist in this URN type</value>
+  </data>
+  <data name="Scripts_Common_js_105" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Scripts_Common_js_106" xml:space="preserve">
+    <value>No Value Entered, Please Check Investigation status</value>
+  </data>
+  <data name="Scripts_Common_js_107" xml:space="preserve">
+    <value>Recollect is not allowed more than twice</value>
+  </data>
+  <data name="Scripts_Common_js_108" xml:space="preserve">
+    <value>Ordered test should not be reflexed./Already reflexed tests shuld not be reflexed again.</value>
+  </data>
+  <data name="Scripts_Common_js_109" xml:space="preserve">
+    <value>New Error</value>
+  </data>
+  <data name="Scripts_Common_js_11" xml:space="preserve">
+    <value>Month should not greater than 12</value>
+  </data>
+  <data name="Scripts_Common_js_110" xml:space="preserve">
+    <value>kindly do not select department level Reflex</value>
+  </data>
+  <data name="Scripts_Common_js_12" xml:space="preserve">
+    <value>Invalid e-mail id</value>
+  </data>
+  <data name="Scripts_Common_js_13" xml:space="preserve">
+    <value>To date must be greater than  or equal to from date</value>
+  </data>
+  <data name="Scripts_Common_js_14" xml:space="preserve">
+    <value>Scheduled timing is invalid</value>
+  </data>
+  <data name="Scripts_Common_js_15" xml:space="preserve">
+    <value>Select date</value>
+  </data>
+  <data name="Scripts_Common_js_16" xml:space="preserve">
+    <value>Provide search text</value>
+  </data>
+  <data name="Scripts_Common_js_17" xml:space="preserve">
+    <value>Sum of differential count should be equal to 100</value>
+  </data>
+  <data name="Scripts_Common_js_18" xml:space="preserve">
+    <value>Value cannot exceed 100 / value cannot be empty</value>
+  </data>
+  <data name="Scripts_Common_js_19" xml:space="preserve">
+    <value>Provide drug name</value>
+  </data>
+  <data name="Scripts_Common_js_20" xml:space="preserve">
+    <value>Provide formulation</value>
+  </data>
+  <data name="Scripts_Common_js_21" xml:space="preserve">
+    <value>Provide frequency</value>
+  </data>
+  <data name="Scripts_Common_js_22" xml:space="preserve">
+    <value>Provide other instruction</value>
+  </data>
+  <data name="Scripts_Common_js_23" xml:space="preserve">
+    <value>Provide dose</value>
+  </data>
+  <data name="Scripts_Common_js_24" xml:space="preserve">
+    <value>Provide date</value>
+  </data>
+  <data name="Scripts_Common_js_25" xml:space="preserve">
+    <value>Already exist</value>
+  </data>
+  <data name="Scripts_Common_js_26" xml:space="preserve">
+    <value>Enter the   </value>
+  </data>
+  <data name="Scripts_Common_js_27" xml:space="preserve">
+    <value>Select Patient type</value>
+  </data>
+  <data name="Scripts_Common_js_28" xml:space="preserve">
+    <value>Select employee type</value>
+  </data>
+  <data name="Scripts_Common_js_29" xml:space="preserve">
+    <value>Provide employee number</value>
+  </data>
+  <data name="Scripts_Common_js_30" xml:space="preserve">
+    <value>Select employer name</value>
+  </data>
+  <data name="Scripts_Common_js_31" xml:space="preserve">
+    <value>Select relationship</value>
+  </data>
+  <data name="Scripts_Common_js_32" xml:space="preserve">
+    <value>Select extended type</value>
+  </data>
+  <data name="Scripts_Common_js_33" xml:space="preserve">
+    <value>Provide name</value>
+  </data>
+  <data name="Scripts_Common_js_34" xml:space="preserve">
+    <value>Provide Date Of Birth or Age</value>
+  </data>
+  <data name="Scripts_Common_js_35" xml:space="preserve">
+    <value>Select marital status</value>
+  </data>
+  <data name="Scripts_Common_js_36" xml:space="preserve">
+    <value>Select sex</value>
+  </data>
+  <data name="Scripts_Common_js_37" xml:space="preserve">
+    <value>Provide address</value>
+  </data>
+  <data name="Scripts_Common_js_38" xml:space="preserve">
+    <value>Provide city</value>
+  </data>
+  <data name="Scripts_Common_js_39" xml:space="preserve">
+    <value>Provide contact number</value>
+  </data>
+  <data name="Scripts_Common_js_40" xml:space="preserve">
+    <value>Select country name</value>
+  </data>
+  <data name="Scripts_Common_js_41" xml:space="preserve">
+    <value>Select state name</value>
+  </data>
+  <data name="Scripts_Common_js_42" xml:space="preserve">
+    <value>Provide URN number</value>
+  </data>
+  <data name="Scripts_Common_js_43" xml:space="preserve">
+    <value>Select URN type</value>
+  </data>
+  <data name="Scripts_Common_js_44" xml:space="preserve">
+    <value>Provide any one contact number</value>
+  </data>
+  <data name="Scripts_Common_js_45" xml:space="preserve">
+    <value>Provide the street/road name in current address</value>
+  </data>
+  <data name="Scripts_Common_js_46" xml:space="preserve">
+    <value>Select a reason for Re-Issue of Smart Card</value>
+  </data>
+  <data name="Scripts_Common_js_47" xml:space="preserve">
+    <value>Browse a file to upload.</value>
+  </data>
+  <data name="Scripts_Common_js_48" xml:space="preserve">
+    <value>The file must have an extension of (.jpg, .png, .gif, .jpeg, .bmp)</value>
+  </data>
+  <data name="Scripts_Common_js_49" xml:space="preserve">
+    <value>Maximum size of the file is 4 MB only.</value>
+  </data>
+  <data name="Scripts_Common_js_50" xml:space="preserve">
+    <value>Provide at least one filter criterion</value>
+  </data>
+  <data name="Scripts_Common_js_51" xml:space="preserve">
+    <value>Select patient name</value>
+  </data>
+  <data name="Scripts_Common_js_52" xml:space="preserve">
+    <value>This action cannot be performed for the client patient</value>
+  </data>
+  <data name="Scripts_Common_js_53" xml:space="preserve">
+    <value>Provide old password</value>
+  </data>
+  <data name="Scripts_Common_js_54" xml:space="preserve">
+    <value>Provide new password</value>
+  </data>
+  <data name="Scripts_Common_js_55" xml:space="preserve">
+    <value>Provide confirm password</value>
+  </data>
+  <data name="Scripts_Common_js_56" xml:space="preserve">
+    <value>Password length should be minimum of 6 characters.</value>
+  </data>
+  <data name="Scripts_Common_js_57" xml:space="preserve">
+    <value>Maximum Length Reached Please check Password Hint.</value>
+  </data>
+  <data name="Scripts_Common_js_58" xml:space="preserve">
+    <value>There is a password mismatch</value>
+  </data>
+  <data name="Scripts_Common_js_59" xml:space="preserve">
+    <value>New password and old password cannot be same</value>
+  </data>
+  <data name="Scripts_Common_js_60" xml:space="preserve">
+    <value>Password Policy Mismatch Please check Password Hint</value>
+  </data>
+  <data name="Scripts_Common_js_61" xml:space="preserve">
+    <value>Password should contain atleast one special character,an alphabet and a number</value>
+  </data>
+  <data name="Scripts_Common_js_62" xml:space="preserve">
+    <value>Provide old Transaction password</value>
+  </data>
+  <data name="Scripts_Common_js_63" xml:space="preserve">
+    <value>Provide New Transaction password</value>
+  </data>
+  <data name="Scripts_Common_js_64" xml:space="preserve">
+    <value>Provide Confirm Transaction password</value>
+  </data>
+  <data name="Scripts_Common_js_65" xml:space="preserve">
+    <value>Transaction Password length should be minimum of 6 characters.</value>
+  </data>
+  <data name="Scripts_Common_js_66" xml:space="preserve">
+    <value>Maximum Length Reached Please check transaction Password Hint.</value>
+  </data>
+  <data name="Scripts_Common_js_67" xml:space="preserve">
+    <value>New Transaction password and old Transaction password cannot be same</value>
+  </data>
+  <data name="Scripts_Common_js_68" xml:space="preserve">
+    <value>New password and Transaction password cannot be same</value>
+  </data>
+  <data name="Scripts_Common_js_69" xml:space="preserve">
+    <value>There is a Transaction password mismatch</value>
+  </data>
+  <data name="Scripts_Common_js_70" xml:space="preserve">
+    <value>Transaction Password Policy Mismatch Please check Transaction Password Hint</value>
+  </data>
+  <data name="Scripts_Common_js_71" xml:space="preserve">
+    <value>Transaction Password should contain atleast one special character,an alphabet and a number</value>
+  </data>
+  <data name="Scripts_Common_js_72" xml:space="preserve">
+    <value>Provide the value for patient</value>
+  </data>
+  <data name="Scripts_Common_js_73" xml:space="preserve">
+    <value>Provide the value for control</value>
+  </data>
+  <data name="Scripts_Common_js_74" xml:space="preserve">
+    <value>Provide Patients name</value>
+  </data>
+  <data name="Scripts_Common_js_75" xml:space="preserve">
+    <value>Provide Patient age</value>
+  </data>
+  <data name="Scripts_Common_js_76" xml:space="preserve">
+    <value>Provide the URN type</value>
+  </data>
+  <data name="Scripts_Common_js_77" xml:space="preserve">
+    <value>Select Doctor name</value>
+  </data>
+  <data name="Scripts_Common_js_78" xml:space="preserve">
+    <value>Provide Doctor name</value>
+  </data>
+  <data name="Scripts_Common_js_79" xml:space="preserve">
+    <value>Select Hospital/branch</value>
+  </data>
+  <data name="Scripts_Common_js_80" xml:space="preserve">
+    <value>Select Insurance</value>
+  </data>
+  <data name="Scripts_Common_js_81" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="Scripts_Common_js_82" xml:space="preserve">
+    <value>Select Collection Centre</value>
+  </data>
+  <data name="Scripts_Common_js_83" xml:space="preserve">
+    <value>Select Publishing Mode</value>
+  </data>
+  <data name="Scripts_Common_js_84" xml:space="preserve">
+    <value>Provide Name</value>
+  </data>
+  <data name="Scripts_Common_js_85" xml:space="preserve">
+    <value>Provide City</value>
+  </data>
+  <data name="Scripts_Common_js_86" xml:space="preserve">
+    <value>Select a bill</value>
+  </data>
+  <data name="Scripts_Common_js_87" xml:space="preserve">
+    <value>Provide the LMP date</value>
+  </data>
+  <data name="Scripts_Common_js_88" xml:space="preserve">
+    <value>Provide the Advice</value>
+  </data>
+  <data name="Scripts_Common_js_89" xml:space="preserve">
+    <value>Select Sample</value>
+  </data>
+  <data name="Scripts_Common_js_90" xml:space="preserve">
+    <value>Select sample attributes</value>
+  </data>
+  <data name="Scripts_Common_js_91" xml:space="preserve">
+    <value>Provide the sample values or comments</value>
+  </data>
+  <data name="Scripts_Common_js_92" xml:space="preserve">
+    <value>Provide the correct land line number</value>
+  </data>
+  <data name="Scripts_Common_js_93" xml:space="preserve">
+    <value>Discount cannot be greater than amount</value>
+  </data>
+  <data name="Scripts_Common_js_94" xml:space="preserve">
+    <value>Provide the quantity</value>
+  </data>
+  <data name="Scripts_Common_js_95" xml:space="preserve">
+    <value>Please enter the round qty.</value>
+  </data>
+  <data name="Scripts_Common_js_96" xml:space="preserve">
+    <value>Provide Quantity</value>
+  </data>
+  <data name="Scripts_Common_js_97" xml:space="preserve">
+    <value>The prescription part cannot be altered as the task in pharmacy is already picked.</value>
+  </data>
+  <data name="Scripts_Common_js_98" xml:space="preserve">
+    <value>Provide frequency type</value>
+  </data>
+  <data name="Scripts_Common_js_99" xml:space="preserve">
+    <value>Provide instruction for others</value>
+  </data>
+  <data name="Scripts_datetimepicker_js_01" xml:space="preserve">
+    <value>TimeMode can only be 12 or 24</value>
+  </data>
+  <data name="Scripts_datetimepicker_js_02" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_01" xml:space="preserve">
+    <value>Are you sure you want to clear?</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_02" xml:space="preserve">
+    <value>More than 250 characters are not allowed</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_03" xml:space="preserve">
+    <value>Delete the Ordered Items then only you can Change.\n Do you want to delete the items, Press OK Else Cancel</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_04" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_05" xml:space="preserve">
+    <value>Client deposit balance amount is Zero</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_06" xml:space="preserve">
+    <value>This Client was suspended. Suspended from</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_07" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_08" xml:space="preserve">
+    <value>Warning: Credit Limit have exceeded for this Client..!</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_09" xml:space="preserve">
+    <value>Provide Age in (Days or Weeks or Months or Year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_10" xml:space="preserve">
+    <value>Select the ClientName From List</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_11" xml:space="preserve">
+    <value>This test already ordered ...! Not allow to add for this test</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_12" xml:space="preserve">
+    <value>Warning: The selected test already ordered today...!  Do you want to continue?</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_13" xml:space="preserve">
+    <value>Patient with Same Name,age,Client with Same Tests are Already entered Do You Want to continue ?</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_14" xml:space="preserve">
+    <value>Select Co-Payment type</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_15" xml:space="preserve">
+    <value>Enter Co-Payment Value</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_16" xml:space="preserve">
+    <value>Provide patient name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_17" xml:space="preserve">
+    <value>Provide External VisitID</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_18" xml:space="preserve">
+    <value>Please select Phlebotomist Name from list</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_19" xml:space="preserve">
+    <value>Please select Phlebotomist Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_20" xml:space="preserve">
+    <value>Provide patient age or date of birth</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_21" xml:space="preserve">
+    <value>Select patient sex</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_22" xml:space="preserve">
+    <value>Select Phlebetomist Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_23" xml:space="preserve">
+    <value>Provide Client Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_24" xml:space="preserve">
+    <value>Search test names</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_25" xml:space="preserve">
+    <value>Item already added</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_26" xml:space="preserve">
+    <value>Amount received is greater than net amount</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_27" xml:space="preserve">
+    <value>This Services would not been available for this Client (or) it would be a Gender based test.</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_28" xml:space="preserve">
+    <value>Provide a valid Age</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_29" xml:space="preserve">
+    <value>Age Should not be Greater than 105</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_30" xml:space="preserve">
+    <value>Age is Greater than 95 Do You want to continue</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_31" xml:space="preserve">
+    <value>This Test's Sample &amp; Container doesn't Match with Previous Items</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_32" xml:space="preserve">
+    <value>Item amount is zero.Kindly Map Rate for the Item...</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_33" xml:space="preserve">
+    <value>Item amount is zero.\n Do you want to add this item</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_34" xml:space="preserve">
+    <value>Selected test is already available as a part of ordered test. You can't order again</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_35" xml:space="preserve">
+    <value>Selected test is already available as a part of ordered test.Do you want to proceed ?</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_36" xml:space="preserve">
+    <value>you cannot add History  for this item</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_37" xml:space="preserve">
+    <value>Please Select LMP Date !!!</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_38" xml:space="preserve">
+    <value>Please enter different card No.</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_39" xml:space="preserve">
+    <value>This coupon has already been redeemed on </value>
+  </data>
+  <data name="Scripts_CommonBiling_js_40" xml:space="preserve">
+    <value>for  VID No</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_41" xml:space="preserve">
+    <value>Health coupon no is invalid.</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_42" xml:space="preserve">
+    <value>Your Card Is Not Activated</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_43" xml:space="preserve">
+    <value>Your card is activated</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_44" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_45" xml:space="preserve">
+    <value>Health coupon card Amount is zero.</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_46" xml:space="preserve">
+    <value>Please provide the card number</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_47" xml:space="preserve">
+    <value>Your OTP is verified,You can continue billing</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_48" xml:space="preserve">
+    <value>Your OTP is InValid</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_49" xml:space="preserve">
+    <value>You are not eligible to redeem points</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_01" xml:space="preserve">
+    <value>Are you sure you want to clear?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_02" xml:space="preserve">
+    <value>More than 250 characters are not allowed</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_03" xml:space="preserve">
+    <value>Delete the Ordered Items then only you can Change.\n Do you want to delete the items, Press OK Else Cancel</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_04" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_05" xml:space="preserve">
+    <value>Client deposit balance amount is Zero</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_06" xml:space="preserve">
+    <value>This Client was suspended. Suspended from</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_07" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_08" xml:space="preserve">
+    <value>Warning: Credit Limit have exceeded for this Client..!</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_09" xml:space="preserve">
+    <value>Provide Age in (Days or Weeks or Months or Year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_10" xml:space="preserve">
+    <value>Select the ClientName From List</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_11" xml:space="preserve">
+    <value>This test already ordered ...! Not allow to add for this test</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_12" xml:space="preserve">
+    <value>Warning: The selected test already ordered today...!  Do you want to continue?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_13" xml:space="preserve">
+    <value>Patient with Same Name,age,Client with Same Tests are Already entered Do You Want to continue ?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_14" xml:space="preserve">
+    <value>Select Co-Payment type</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_15" xml:space="preserve">
+    <value>Enter Co-Payment Value</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_16" xml:space="preserve">
+    <value>Provide patient name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_17" xml:space="preserve">
+    <value>Provide External VisitID</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_18" xml:space="preserve">
+    <value>Please select Phlebotomist Name from list</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_19" xml:space="preserve">
+    <value>Please select Phlebotomist Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_20" xml:space="preserve">
+    <value>Provide patient age or date of birth</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_21" xml:space="preserve">
+    <value>Select patient sex</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_22" xml:space="preserve">
+    <value>Select Phlebetomist Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_23" xml:space="preserve">
+    <value>Provide Client Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_24" xml:space="preserve">
+    <value>Search test names</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_25" xml:space="preserve">
+    <value>Item already added</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_26" xml:space="preserve">
+    <value>Amount received is greater than net amount</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_27" xml:space="preserve">
+    <value>This Services would not been available for this Client (or) it would be a Gender based test.</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_28" xml:space="preserve">
+    <value>Provide a valid year</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_29" xml:space="preserve">
+    <value>Age Should not be Greater than 105</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_30" xml:space="preserve">
+    <value>Age is Greater than 95 Do You want to continue</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_31" xml:space="preserve">
+    <value>This Test's Sample &amp; Container doesn't Match with Previous Items</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_32" xml:space="preserve">
+    <value>Item amount is zero.Kindly Map Rate for the Item...</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_33" xml:space="preserve">
+    <value>Item amount is zero.\n Do you want to add this item</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_34" xml:space="preserve">
+    <value>Selected test is already available as a part of ordered test. You can't order again</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_35" xml:space="preserve">
+    <value>Selected test is already available as a part of ordered test.Do you want to proceed ?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_36" xml:space="preserve">
+    <value>you cannot add History  for this item</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_37" xml:space="preserve">
+    <value>Please Select LMP Date !!!</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_38" xml:space="preserve">
+    <value>Please enter different card No.</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_39" xml:space="preserve">
+    <value>This coupon has already been redeemed on </value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_40" xml:space="preserve">
+    <value>for  VID No</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_41" xml:space="preserve">
+    <value>Health coupon no is invalid.</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_42" xml:space="preserve">
+    <value>Your Card Is Not Activated</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_43" xml:space="preserve">
+    <value>Your card is activated</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_44" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_45" xml:space="preserve">
+    <value>Health coupon card Amount is zero.</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_46" xml:space="preserve">
+    <value>Please provide the card number</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_47" xml:space="preserve">
+    <value>Your OTP is verified,You can continue billing</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_48" xml:space="preserve">
+    <value>Your OTP is InValid</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_49" xml:space="preserve">
+    <value>You are not eligible to redeem points</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_50" xml:space="preserve">
+    <value>TimeMode can only be 12 or 24</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_51" xml:space="preserve">
+    <value>Provide discount for bill, then give approved by and reason</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_52" xml:space="preserve">
+    <value>This Client was Terminated. Terminated from </value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_53" xml:space="preserve">
+    <value>Provide patient name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_54" xml:space="preserve">
+    <value>Provide External VisitID</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_55" xml:space="preserve">
+    <value>Provide patient age or date of birth</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_56" xml:space="preserve">
+    <value>Provide Client Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_57" xml:space="preserve">
+    <value>Search test names</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_58" xml:space="preserve">
+    <value>GROUP</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_59" xml:space="preserve">
+    <value>PACKAGE</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_60" xml:space="preserve">
+    <value>Ordered test net amount, less then discount amount</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_61" xml:space="preserve">
+    <value>Amount already received, delete the amount received... Do you want to Delete the amount received?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_62" xml:space="preserve">
+    <value>Please select client from the list</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_63" xml:space="preserve">
+    <value>Please select hospital from the list</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_64" xml:space="preserve">
+    <value>Age is 95 Do You want to continue</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_65" xml:space="preserve">
+    <value>This Test is already available as a part of Ordered Package or Group.Do you want to proceed ?</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_66" xml:space="preserve">
+    <value>Stat Fee Error</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_67" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Scripts_CommonBiling_Quantum_js_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Scripts_CollectSample_js_01" xml:space="preserve">
+    <value>Select sample name</value>
+  </data>
+  <data name="Scripts_CollectSample_js_02" xml:space="preserve">
+    <value>Select sample status</value>
+  </data>
+  <data name="Scripts_CollectSample_js_03" xml:space="preserve">
+    <value>Select reason</value>
+  </data>
+  <data name="Scripts_CollectSample_js_04" xml:space="preserve">
+    <value>Select location</value>
+  </data>
+  <data name="Scripts_CollectSample_js_05" xml:space="preserve">
+    <value>Select an investigation</value>
+  </data>
+  <data name="Scripts_CollectSample_js_06" xml:space="preserve">
+    <value>Selected investigation(s) are already mapped with sample(s)</value>
+  </data>
+  <data name="Scripts_CollectSample_js_07" xml:space="preserve">
+    <value>Select Conatiner</value>
+  </data>
+  <data name="Scripts_CollectSample_js_08" xml:space="preserve">
+    <value>Enter sample collected date and time</value>
+  </data>
+  <data name="Scripts_CollectSample_js_09" xml:space="preserve">
+    <value>Select Volume Unit</value>
+  </data>
+  <data name="Scripts_CollectSample_js_10" xml:space="preserve">
+    <value>There was a problem while adding sample</value>
+  </data>
+  <data name="Scripts_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Scripts_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_01" xml:space="preserve">
+    <value>Provide The Batch Number !!!</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_02" xml:space="preserve">
+    <value>Provide The Barcode !!!</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_03" xml:space="preserve">
+    <value>Sample already Received</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_04" xml:space="preserve">
+    <value>The barcode is not present in this batch.\n Click 'OK' to select manually or Click 'Cancel' to add as Additional sample.</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_05" xml:space="preserve">
+    <value>Already added to Additional Samples</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_06" xml:space="preserve">
+    <value>The Barcode is not in this Batch</value>
+  </data>
+  <data name="Scripts_ReceiveBatchSheet_js_07" xml:space="preserve">
+    <value>Select atleast one</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_50" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_51" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_01" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_02" xml:space="preserve">
+    <value>Provide patient name</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_03" xml:space="preserve">
+    <value>Provide patient age</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_04" xml:space="preserve">
+    <value>Provide Proper Age</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_05" xml:space="preserve">
+    <value>Select patient sex</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_06" xml:space="preserve">
+    <value>Provide Sample pick up Time</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_07" xml:space="preserve">
+    <value>Provide Client name</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_08" xml:space="preserve">
+    <value>Provide a valid e-mail address</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_09" xml:space="preserve">
+    <value>You have selected dispatch mode as E-mail , so please enter e-mail address</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_10" xml:space="preserve">
+    <value>You have selected dispatch mode as sms , so please enter contact mobile number</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_11" xml:space="preserve">
+    <value>Include billing items</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_12" xml:space="preserve">
+    <value>Provide discount authorised by</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_13" xml:space="preserve">
+    <value>Provide discount reason</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_14" xml:space="preserve">
+    <value>Insufficient balance, Please deposit the advance amount</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_15" xml:space="preserve">
+    <value>Second Alert:Threshold value exceed</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_16" xml:space="preserve">
+    <value>First Alert: Threshold value exceed</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_17" xml:space="preserve">
+    <value>Provide the age in Years</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_18" xml:space="preserve">
+    <value>Provide the age in Months</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_19" xml:space="preserve">
+    <value>Provide the age in Weeks or Months</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_20" xml:space="preserve">
+    <value>Can not give the Decimal value</value>
+  </data>
+	<data name="Scripts_ClientBilling_js_21" xml:space="preserve">
+    <value>Lab Number Already Exists, Not allowed for another patient.</value>
+  </data>
+	<data name="Scripts_ClientBilling_js_22" xml:space="preserve">
+    <value>Provide Lab Number</value>
+  </data>
+  <data name="Scripts_Common_js_111" xml:space="preserve">
+    <value>kindly do not select department level Synoptic</value>
+  </data>
+  <data name="Scripts_Common_js_112" xml:space="preserve">
+    <value>kindly do not select Group level Synoptic</value>
+  </data>
+  <data name="Scripts_ChangePayMentModes_js_01" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_ChangePayMentModes_js_02" xml:space="preserve">
+    <value>Can not edit the Payment Mode for this bill</value>
+  </data>
+  <data name="Scripts_ChangePayMentModes_js_03" xml:space="preserve">
+    <value>Amount received is greater than net amount</value>
+  </data>
+  <data name="Scripts_ChangePayMentModes_js_05" xml:space="preserve">
+    <value>Collected amount is less then total amount received</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_52" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_53" xml:space="preserve">
+    <value>Background Problem</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_54" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_55" xml:space="preserve">
+    <value>Patient Preference</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_56" xml:space="preserve">
+    <value>History Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_57" xml:space="preserve">
+    <value>Provide Lab Number</value>
+  </data>
+  <data name="Scripts_CollectSample_js_11" xml:space="preserve">
+    <value>Following investigation(s) are not mapped with sample(s)</value>
+  </data>
+  <data name="Scripts_CollectSample_js_12" xml:space="preserve">
+    <value>Following investigation's reason are not mapped with associated status</value>
+  </data>
+  <data name="Scripts_CollectSample_js_13" xml:space="preserve">
+    <value>Following investigation's outsource location are not mapped with associated status</value>
+  </data>
+  <data name="Scripts_CollectSample_js_14" xml:space="preserve">
+    <value>Following investigation's collected time are not mapped with sample(s)</value>
+  </data>
+  <data name="Scripts_CollectSample_js_15" xml:space="preserve">
+    <value>Following investigation's collected time are not in correct format</value>
+  </data>
+  <data name="Scripts_CollectSample_js_16" xml:space="preserve">
+    <value>Collect sample for current visit and then click generate work order</value>
+  </data>
+  <data name="Scripts_CollectSample_js_17" xml:space="preserve">
+    <value>Select department and then click generate work order</value>
+  </data>
+  <data name="Scripts_CollectSample_js_18" xml:space="preserve">
+    <value>There was a problem in generating work order</value>
+  </data>
+  <data name="Scripts_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_23" xml:space="preserve">
+    <value>Provide Validate Sample pick up date</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_24" xml:space="preserve">
+    <value>Provide Validate Sample pick up Time</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_25" xml:space="preserve">
+    <value>Provide Valid pick up time(hour)</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_26" xml:space="preserve">
+    <value>Provide Valid pick up time(minutes)</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_58" xml:space="preserve">
+    <value>Client Credit Limit balance is Zero</value>
+  </data>
+  <data name="Scripts_ClientBilling_js_27" xml:space="preserve">
+    <value>Credit Limit Days has Expired</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_03" xml:space="preserve">
+    <value>Insufficient balance, Please deposit the advance amount</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_04" xml:space="preserve">
+    <value>Second Alert:Threshold value exceed</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_05" xml:space="preserve">
+    <value>First Alert: Threshold value exceed</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_06" xml:space="preserve">
+    <value>Credit Limit Days has Expired !</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_07" xml:space="preserve">
+    <value>Credit Limit Exceeds</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_08" xml:space="preserve">
+    <value>Third Alert: Threshold value exceed</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_59" xml:space="preserve">
+    <value>Provide Physician Name</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_60" xml:space="preserve">
+    <value>Please Provide a Email</value>
+  </data>
+    <data name="Scripts_CommonBiling_js_61" xml:space="preserve">
+    <value>Upload TRF files</value>
+  </data>
+</root>

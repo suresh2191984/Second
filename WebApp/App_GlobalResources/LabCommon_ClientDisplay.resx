@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LabCommon_aspx_01" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="LabCommon_aspx_02" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LabCommon_aspx_03" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_01" xml:space="preserve">
+    <value>Delete this Task</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_02" xml:space="preserve">
+    <value>Perform Quick Diagnosis</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_03" xml:space="preserve">
+    <value>This  patient is specifically assigned to you</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_04" xml:space="preserve">
+    <value>Yet to Perform BaseLine Screening</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_05" xml:space="preserve">
+    <value>Delete this Task</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_06" xml:space="preserve">
+    <value>Yet to Perform Lab Investigations</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_07" xml:space="preserve">
+    <value>Yet to Perform Workup</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_08" xml:space="preserve">
+    <value>Click Here to</value>
+  </data>
+  <data name="LabCommon_Controls_AbberantQueue_ascx_Display_01" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="LabCommon_Controls_AbberantQueue_ascx_Display_02" xml:space="preserve">
+    <value>ReflexTest</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ComponentList" xml:space="preserve">
+    <value>Component List</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_InvestigationList" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_NoOfUnits" xml:space="preserve">
+    <value>No. Of Units</value>
+  </data>
+  <data name="LabCommon_Controls_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_BioPattern5_ascx_01" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="LabCommon_Controls_BioPattern5_ascx_02" xml:space="preserve">
+    <value>Blood Sugar</value>
+  </data>
+  <data name="LabCommon_Controls_BioPattern5_ascx_03" xml:space="preserve">
+    <value>Urine Sugar</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_01" xml:space="preserve">
+    <value>Differential Count</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_02" xml:space="preserve">
+    <value>Immunological</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_03" xml:space="preserve">
+    <value>Cytology</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_04" xml:space="preserve">
+    <value>AFB</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_05" xml:space="preserve">
+    <value>Widal</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_06" xml:space="preserve">
+    <value>Collagen Vascular</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_07" xml:space="preserve">
+    <value>ANCA</value>
+  </data>
+  <data name="LabCommon_Controls_ClinicalDisplay_ascx_08" xml:space="preserve">
+    <value>Microscopic Examination</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_01" xml:space="preserve">
+    <value>First Line</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_02" xml:space="preserve">
+    <value>Breakpoint MICs</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_03" xml:space="preserve">
+    <value>Sensitivity</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_04" xml:space="preserve">
+    <value>Second Line</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_05" xml:space="preserve">
+    <value>Third Line</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_06" xml:space="preserve">
+    <value>Fourth Line</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_07" xml:space="preserve">
+    <value>Technical Remarks</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV1_ascx_08" xml:space="preserve">
+    <value>Medical Remarks</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV2_ascx_01" xml:space="preserve">
+    <value>Select stain type\n</value>
+  </data>
+  <data name="LabCommon_Controls_CultureandSensitivityReportV2_ascx_02" xml:space="preserve">
+    <value>Enter stain result\n</value>
+  </data>
+  <data name="LabCommon_Controls_FishResultPattern_ascx_01" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LabCommon_Controls_FluidPattern_ascx_01" xml:space="preserve">
+    <value>Technical Remarks</value>
+  </data>
+  <data name="LabCommon_Controls_FluidPattern_ascx_02" xml:space="preserve">
+    <value>Medical Remarks</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LabCommon_Controls_Tasks_ascx_09" xml:space="preserve">
+    <value>This Task will be deleted. Continue?</value>
+  </data>
+  <data name="LabCommon_Controls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>Patient History:</value>
+  </data>
+  <data name="LabCommon_Controls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>Remarks:</value>
+  </data>
+  <data name="LabCommon_Controls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>Client Name:</value>
+  </data>
+  <data name="LabCommon_Controls_PatientDetails_ascx_04" xml:space="preserve">
+    <value>Ref. Hospital:</value>
+  </data>
+  <data name="LabCommon_Controls_PatientDetails_ascx_05" xml:space="preserve">
+    <value>Ref. Doctor:</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_01" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_02" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_03" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_04" xml:space="preserve">
+    <value>OutSource Doc</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_05" xml:space="preserve">
+    <value>Device Value</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_06" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_07" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="LabCommon_Controls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>- (Sample Used For)</value>
+  </data>
+  <data name="LabCommon_Controls_PeripheralSmear_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_PCRPattern_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_MicroPattern_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_ImagingWithFCKEditor_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_ImagingWithFCKEditor_ascx_02" xml:space="preserve">
+    <value>Select Template Type</value>
+  </data>
+  <data name="LabCommon_Controls_ImagingWithFCKEditor_ascx_03" xml:space="preserve">
+    <value>Report Status</value>
+  </data>
+<data name="LabCommon_Controls_Imaging_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_ImageUploadpattern_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="LabCommon_Controls_ImageUploadpattern_ascx_02" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LabCommon_Controls_ImageUploadpattern_ascx_03" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LabCommon_Controls_HemotologyDisplay_ascx_01" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="LabCommon_Controls_HemotologyDisplay_ascx_02" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="LabCommon_Controls_HemotologyDisplay_ascx_03" xml:space="preserve">
+    <value>INR</value>
+  </data>
+ <data name="LabCommon_Controls_GTT_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_GTTContentPattern_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_Header_ascx_01" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="LabCommon_Controls_Header_ascx_02" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="LabCommon_Controls_HematPattern10_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_HematPattern11_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_HematPattern6_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_HematPattern7_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_HematPattern8_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_BioChemistryDisplay_ascx_01" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="LabCommon_BioChemistryDisplay_ascx_02" xml:space="preserve">
+    <value>Blood Sugar</value>
+  </data>
+  <data name="LabCommon_BioChemistryDisplay_ascx_03" xml:space="preserve">
+    <value>Urine Sugar</value>
+  </data>
+  <data name="LabCommon_BioPattern5_ascx_01" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="LabCommon_BioPattern5_ascx_02" xml:space="preserve">
+    <value>Blood Sugar</value>
+  </data>
+  <data name="LabCommon_BioPattern5_ascx_03" xml:space="preserve">
+    <value>Urine Sugar</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_01" xml:space="preserve">
+    <value>Organism Name:</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_02" xml:space="preserve">
+    <value>Sensitive</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_03" xml:space="preserve">
+    <value>Moderately sensitive to</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_04" xml:space="preserve">
+    <value>Resistant</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_05" xml:space="preserve">
+    <value>DrugName</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_06" xml:space="preserve">
+    <value>Disc Diameter</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_07" xml:space="preserve">
+    <value>SensitiveTo</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_08" xml:space="preserve">
+    <value>ResistantTo</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_09" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_CultureandSensitivityReport_ascx_10" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LabCommon_CommanPattern_ascx_01" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="LabCommon_Controls_AntibodyWithMethod_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="LabCommon_Controls_AntibodyWithMethod_ascx_02" xml:space="preserve">
+    <value>Status</value>
+  </data>
+   <data name="LabCommon_LabHome_aspx_01" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_02" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_03" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_04" xml:space="preserve">
+    <value>Lab Number</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_05" xml:space="preserve">
+    <value>Visit Number</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_06" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_07" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="LabCommon_LabHome_aspx_08" xml:space="preserve">
+    <value>Room No:</value>
+  </data>
+  <data name="LabCommon_Controls_ViewTRFImage_ascx_08" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="LabCommon_PrintBarcode_aspx_01" xml:space="preserve">
+    <value>Print</value>
+  </data>
+</root>

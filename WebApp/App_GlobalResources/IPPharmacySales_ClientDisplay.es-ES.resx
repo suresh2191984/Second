@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_01" xml:space="preserve">
+    <value>D.L.No:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_02" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin):</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_03" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_04" xml:space="preserve">
+    <value>particulares</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_05" xml:space="preserve">
+    <value>cantidad</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_06" xml:space="preserve">
+    <value>lote</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_07" xml:space="preserve">
+    <value>Exp.Date</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_08" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_09" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_10" xml:space="preserve">
+    <value>importe neto:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_11" xml:space="preserve">
+    <value>monto de pago:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_12" xml:space="preserve">
+    <value>Refunded Amount:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_13" xml:space="preserve">
+    <value>Amount in Words:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_14" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_15" xml:space="preserve">
+    <value>Refunded Amount in Words:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_16" xml:space="preserve">
+    <value>Remaining Advance Amount :</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_17" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_18" xml:space="preserve">
+    <value>prescrito por:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_19" xml:space="preserve">
+    <value>número de paciente:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_20" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_21" xml:space="preserve">
+    <value>la edad del paciente:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_22" xml:space="preserve">
+    <value>Sold By:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_23" xml:space="preserve">
+    <value>recibo no.:</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_aspx_24" xml:space="preserve">
+    <value>fecha:</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_01" xml:space="preserve">
+    <value>S No.</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_02" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_03" xml:space="preserve">
+    <value>lote nº</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_04" xml:space="preserve">
+    <value>cantidad emitida</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_05" xml:space="preserve">
+    <value>unidad</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_06" xml:space="preserve">
+    <value>precio de venta</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_07" xml:space="preserve">
+    <value>precio recomendado por el fabricante</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_08" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_09" xml:space="preserve">
+    <value>es reembolsable</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_10" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_11" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_12" xml:space="preserve">
+    <value>precio de coste</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_13" xml:space="preserve">
+    <value>buscar lista de productos</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_14" xml:space="preserve">
+    <value>Expired With in</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_15" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_16" xml:space="preserve">
+    <value>generar cuenta</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_17" xml:space="preserve">
+    <value>generar tareas</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_18" xml:space="preserve">
+    <value>Add to Services</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_19" xml:space="preserve">
+    <value>Prescription Drugs</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_20" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_21" xml:space="preserve">
+    <value>cantidad total</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_22" xml:space="preserve">
+    <value>cantidad emitida</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_23" xml:space="preserve">
+    <value>Remaining Qty</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_24" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_25" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_26" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_27" xml:space="preserve">
+    <value>cantidad disponible</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_28" xml:space="preserve">
+    <value>ph:</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_29" xml:space="preserve">
+    <value>Mob :</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_01" xml:space="preserve">
+    <value>recibo de pago (copia duplicada)</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_02" xml:space="preserve">
+    <value>recibo de pago</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_03" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_04" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_05" xml:space="preserve">
+    <value>lote</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_06" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_07" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_08" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_09" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_10" xml:space="preserve">
+    <value>Received Amount in Words</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_11" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_12" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_13" xml:space="preserve">
+    <value>facturado por:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_14" xml:space="preserve">
+    <value>recibo no.</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_15" xml:space="preserve">
+    <value>fecha de recepción:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_16" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_17" xml:space="preserve">
+    <value>edad / sexo:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_18" xml:space="preserve">
+    <value>ip número:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_19" xml:space="preserve">
+    <value>importe neto:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_20" xml:space="preserve">
+    <value>monto recibido:</value>
+  </data>
+  <data name="IPPharmacySales_InvReceipt_aspx_21" xml:space="preserve">
+    <value>receta no disponible para la visita seleccionada</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_01" xml:space="preserve">
+    <value>anular factura</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_02" xml:space="preserve">
+    <value>Cancel No</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_03" xml:space="preserve">
+    <value>Cancel Date</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_04" xml:space="preserve">
+    <value>Dr.</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_05" xml:space="preserve">
+    <value>Amount Refunded By</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_06" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_07" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_08" xml:space="preserve">
+    <value>InventoryOPBill</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_09" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_10" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_11" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_12" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_13" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_14" xml:space="preserve">
+    <value>nombre del médico</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_15" xml:space="preserve">
+    <value>RefundNo</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_16" xml:space="preserve">
+    <value>descuento</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_17" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_18" xml:space="preserve">
+    <value>valor neto</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_19" xml:space="preserve">
+    <value>monte de impuesto</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_20" xml:space="preserve">
+    <value>modo de pago</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_21" xml:space="preserve">
+    <value>facturado por</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_22" xml:space="preserve">
+    <value>descuento</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_23" xml:space="preserve">
+    <value>nro. de licencia</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_24" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin)</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_25" xml:space="preserve">
+    <value>OrderedItems</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_26" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_27" xml:space="preserve">
+    <value>SNo</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_28" xml:space="preserve">
+    <value>ManufactureDate</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_29" xml:space="preserve">
+    <value>lote nº</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_30" xml:space="preserve">
+    <value>fecha de caducidad</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_31" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_32" xml:space="preserve">
+    <value>TaxPercent</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_33" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_34" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_35" xml:space="preserve">
+    <value>Refund Details</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_36" xml:space="preserve">
+    <value>Amount in Words:</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_01" xml:space="preserve">
+    <value>buscar lista de productos</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_02" xml:space="preserve">
+    <value>ph:</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_03" xml:space="preserve">
+    <value>Mob :</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_01" xml:space="preserve">
+    <value>porcentaje</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_03" xml:space="preserve">
+    <value>SNo</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_04" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_05" xml:space="preserve">
+    <value>lote nº</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_06" xml:space="preserve">
+    <value>cantidad emitida</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_07" xml:space="preserve">
+    <value>unidad</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_08" xml:space="preserve">
+    <value>precio de venta</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_09" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_10" xml:space="preserve">
+    <value>Item Copay Amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_11" xml:space="preserve">
+    <value>Item Copay Percentage(%)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_12" xml:space="preserve">
+    <value>es reembolsable</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_13" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_14" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_15" xml:space="preserve">
+    <value>DiscOrEnhancePercent</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_16" xml:space="preserve">
+    <value>DiscOrEnhanceType</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_17" xml:space="preserve">
+    <value>observaciones</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_18" xml:space="preserve">
+    <value>Actual Price</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_19" xml:space="preserve">
+    <value>Eligible Amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_20" xml:space="preserve">
+    <value>Item Copay Type</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_21" xml:space="preserve">
+    <value>Show Kit Details</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_22" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_23" xml:space="preserve">
+    <value>generar tareas</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_24" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_25" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_26" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_27" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_28" xml:space="preserve">
+    <value>ip número</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_29" xml:space="preserve">
+    <value>fdn</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_30" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_31" xml:space="preserve">
+    <value>sexo</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_32" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_33" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_34" xml:space="preserve">
+    <value>telefono no.</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_35" xml:space="preserve">
+    <value>motivo de visita</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_01" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_02" xml:space="preserve">
+    <value>recaudar lo adeudado del pago</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_03" xml:space="preserve">
+    <value>Amount Not Yet Received</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_04" xml:space="preserve">
+    <value>Due Paid</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_05" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_01" xml:space="preserve">
+    <value>uso de equipo del paciente</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_02" xml:space="preserve">
+    <value>importe neto:</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_03" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_04" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_05" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_06" xml:space="preserve">
+    <value>Received Amount in Words</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_07" xml:space="preserve">
+    <value>solamente...</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_08" xml:space="preserve">
+    <value>sólo cero...</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_30" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_31" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_32" xml:space="preserve">
+    <value>hacer productos compuestos</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_33" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_04" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="IPPharmacySales_PatientKitUsage_aspx_01" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="IPPharmacySales_PatientKitUsage_aspx_02" xml:space="preserve">
+    <value>limpiar</value>
+  </data>
+  <data name="IPPharmacySales_PatientKitUsage_aspx_03" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_01" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_02" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_03" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_04" xml:space="preserve">
+    <value>lote nº</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_05" xml:space="preserve">
+    <value>cantidad devuelta</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_06" xml:space="preserve">
+    <value>unidad</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_07" xml:space="preserve">
+    <value>precio de venta</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_08" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_09" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_10" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_11" xml:space="preserve">
+    <value>Due Item(Kit)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_12" xml:space="preserve">
+    <value>Due Item</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_13" xml:space="preserve">
+    <value>equipo</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_14" xml:space="preserve">
+    <value>Total Due Item Refund Amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_15" xml:space="preserve">
+    <value>Total Billed Item Refund Amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_16" xml:space="preserve">
+    <value>Billed Item(Kit)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_17" xml:space="preserve">
+    <value>Billed Item</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_34" xml:space="preserve">
+    <value>PhysicianName</value>
+  </data>
+</root>

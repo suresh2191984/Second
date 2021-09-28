@@ -1,0 +1,1221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_03" xml:space="preserve">
+    <value>diagnóstico</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_04" xml:space="preserve">
+    <value>BackgroundProblem</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_05" xml:space="preserve">
+    <value>Complication</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_06" xml:space="preserve">
+    <value>el asunto</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_07" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_08" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="Diagnosis_Controls_Adddiagonosis_aspx_09" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="Diagnosis_Error" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_01" xml:space="preserve">
+    <value>No. of Sitting</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_02" xml:space="preserve">
+    <value>Radiologi</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_03" xml:space="preserve">
+    <value>investigación</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_04" xml:space="preserve">
+    <value>paquete de salud</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_05" xml:space="preserve">
+    <value>procedimiento</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_06" xml:space="preserve">
+    <value>General Billing Items</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_07" xml:space="preserve">
+    <value>Causalty</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_08" xml:space="preserve">
+    <value>Pemeriksaan Lab</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_09" xml:space="preserve">
+    <value>Tindakan</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_10" xml:space="preserve">
+    <value>Instalasi Gawat Darurat</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_11" xml:space="preserve">
+    <value>Please select procedure or investigation to add favourites</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_12" xml:space="preserve">
+    <value>Please select Diagnosis to add favourites</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_13" xml:space="preserve">
+    <value>Item added to favourites</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_14" xml:space="preserve">
+    <value>Please Select the Current Speciality Name...</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_15" xml:space="preserve">
+    <value>diagnóstico</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_16" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_01" xml:space="preserve">
+    <value>plantillas del caso</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_02" xml:space="preserve">
+    <value>registro de muerte</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_03" xml:space="preserve">
+    <value>resumen de alta</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_04" xml:space="preserve">
+    <value>Patient Diagnose</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_05" xml:space="preserve">
+    <value>notas de la operación</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_06" xml:space="preserve">
+    <value>Delivery Notes</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_07" xml:space="preserve">
+    <value>notas neonatales</value>
+  </data>
+  <data name="Diagnosis_Controls_PendingICDCode_ascx_08" xml:space="preserve">
+    <value>Physiotheraphy Notes</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_Display_01" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_Display_02" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs.</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_02" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_03" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_04" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_05" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_06" xml:space="preserve">
+    <value>médico de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_07" xml:space="preserve">
+    <value>centro de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_08" xml:space="preserve">
+    <value>*This amount is subject to</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_09" xml:space="preserve">
+    <value>% GST</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_10" xml:space="preserve">
+    <value>VAT(12%)</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_11" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_12" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_13" xml:space="preserve">
+    <value>Cash Bill / Receipt</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_14" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_15" xml:space="preserve">
+    <value>moneda de pago:</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_16" xml:space="preserve">
+    <value>facturado por:</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_17" xml:space="preserve">
+    <value>cliente / proveedor de seguros:</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_18" xml:space="preserve">
+    <value>Ref. Physician Name:</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_19" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_20" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_21" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_22" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_23" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="Diagnosis_Controls_AddDiagonosis_ascx_24" xml:space="preserve">
+    <value>monto (rs)</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs.</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_02" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_03" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_04" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_05" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_06" xml:space="preserve">
+    <value>médico de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_07" xml:space="preserve">
+    <value>centro de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_08" xml:space="preserve">
+    <value>*This amount is subject to</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_09" xml:space="preserve">
+    <value>% GST</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_10" xml:space="preserve">
+    <value>VAT(12%)</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_11" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_12" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_13" xml:space="preserve">
+    <value>Cash Bill / Receipt</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_14" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_15" xml:space="preserve">
+    <value>moneda de pago:</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_16" xml:space="preserve">
+    <value>facturado por:</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_17" xml:space="preserve">
+    <value>cliente / proveedor de seguros:</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_18" xml:space="preserve">
+    <value>Ref. Physician Name:</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_19" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_20" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_21" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_22" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_23" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="Diagnosis_Controls_QuatumBillPrint_ascx_24" xml:space="preserve">
+    <value>monto (rs)</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs. {0} Only</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_02" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_03" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_04" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_05" xml:space="preserve">
+    <value>médico de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_06" xml:space="preserve">
+    <value>centro de referencia</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_07" xml:space="preserve">
+    <value>nro. de visita</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_08" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_09" xml:space="preserve">
+    <value>emergencia</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_10" xml:space="preserve">
+    <value>persona muy importante</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_11" xml:space="preserve">
+    <value>*This amount is subject to</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_12" xml:space="preserve">
+    <value>% GST</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_13" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_14" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_15" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_16" xml:space="preserve">
+    <value>factura pagada</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_17" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_18" xml:space="preserve">
+    <value>moneda de pago:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_19" xml:space="preserve">
+    <value>monto recibido en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_20" xml:space="preserve">
+    <value>monto a pagar en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_21" xml:space="preserve">
+    <value>monto del depósito restante :</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_22" xml:space="preserve">
+    <value>por favor recoja su reporte en:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_23" xml:space="preserve">
+    <value>You can view your reports in following link, {0} . Your username is {1}</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_24" xml:space="preserve">
+    <value>cliente / proveedor de seguros:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_25" xml:space="preserve">
+    <value>Ref. Physician Name:</value>
+  </data>
+  <data name="Diagnosis_Controls_AdvanceBillPrint_ascx_Display_26" xml:space="preserve">
+    <value>( Duplicate Copy)</value>
+  </data>
+  <data name="Diagnosis_Controls_JulianBillPrint_ascx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_JulianBillPrint_ascx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_01" xml:space="preserve">
+    <value>paciente no.:</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_02" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_03" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_04" xml:space="preserve">
+    <value>nombre:</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_05" xml:space="preserve">
+    <value>Date/Time :</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_06" xml:space="preserve">
+    <value>edad:</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_07" xml:space="preserve">
+    <value>prescrito por:</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_08" xml:space="preserve">
+    <value>Prescription's</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_09" xml:space="preserve">
+    <value>se encontró que fue diagnosticado con</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_10" xml:space="preserve">
+    <value>se encuentra que es compatible con el curso del tratamiento actual y por lo tanto se recomienda continuar con este.</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_11" xml:space="preserve">
+    <value>Prescription Not Available for the selected visit</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_12" xml:space="preserve">
+    <value>él</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_13" xml:space="preserve">
+    <value>ella</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_14" xml:space="preserve">
+    <value>envejecido</value>
+  </data>
+  <data name="Diagnosis_Controls_PrintPrescription_ascx_15" xml:space="preserve">
+    <value>años</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs.</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_02" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_03" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_04" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_05" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_06" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_07" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_08" xml:space="preserve">
+    <value>factura pagada</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_09" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_10" xml:space="preserve">
+    <value>monto recibido en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_MedfortBillPrint_ascx_11" xml:space="preserve">
+    <value>monto a pagar en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs.</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_02" xml:space="preserve">
+    <value>monto a pagar en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_03" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_04" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_05" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_06" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_NMCMeerutBill_ascx_07" xml:space="preserve">
+    <value>monto recibido en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_03" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_04" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_05" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_06" xml:space="preserve">
+    <value>moneda de pago:</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_07" xml:space="preserve">
+    <value>Amount in Words:</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_08" xml:space="preserve">
+    <value>monto a pagar en palabras:</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_09" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_10" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_11" xml:space="preserve">
+    <value>factura pagada</value>
+  </data>
+  <data name="Diagnosis_Controls_EsBillPrint_ascx_12" xml:space="preserve">
+    <value>facturado por:</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_01" xml:space="preserve">
+    <value>Open Panel</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_02" xml:space="preserve">
+    <value>Close Panel</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_03" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_04" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_05" xml:space="preserve">
+    <value>soltero</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_06" xml:space="preserve">
+    <value>casado</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_07" xml:space="preserve">
+    <value>divorciado</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_08" xml:space="preserve">
+    <value>viuda</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_09" xml:space="preserve">
+    <value>tipo de alergia</value>
+  </data>
+  <data name="Diagnosis_Controls_PatientHeader_ascx_10" xml:space="preserve">
+    <value>nombre de la alergia</value>
+  </data>
+  <data name="Diagnosis_PatientDiagnose_aspx_01" xml:space="preserve">
+    <value>Day(s)</value>
+  </data>
+  <data name="Diagnosis_PatientDiagnose_aspx_02" xml:space="preserve">
+    <value>Is {0} Background Problem</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_01" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_02" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Diagnosis_PatientDiagnose_aspx_03" xml:space="preserve">
+    <value>historial</value>
+  </data>
+  <data name="Diagnosis_PatientDiagnose_aspx_04" xml:space="preserve">
+    <value>Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_03" xml:space="preserve">
+    <value>seleccioar todo</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_17" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_18" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_19" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Diagnosis_QuickDiagnosis_aspx_20" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_04" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_05" xml:space="preserve">
+    <value>queja</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_06" xml:space="preserve">
+    <value>Complaint Duration</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_07" xml:space="preserve">
+    <value>Eyes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_08" xml:space="preserve">
+    <value>nombre del historial</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_09" xml:space="preserve">
+    <value>History Duration</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_10" xml:space="preserve">
+    <value>Affected Eyes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_11" xml:space="preserve">
+    <value>Treatment</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_12" xml:space="preserve">
+    <value>Treatment Duration</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_13" xml:space="preserve">
+    <value>Is Resolved</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_14" xml:space="preserve">
+    <value>notas</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_15" xml:space="preserve">
+    <value>Cheif Complaint</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_16" xml:space="preserve">
+    <value>hospital</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_17" xml:space="preserve">
+    <value>Ocular</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_18" xml:space="preserve">
+    <value>Surgical</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_19" xml:space="preserve">
+    <value>nombre de la cirugía</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_20" xml:space="preserve">
+    <value>Surgery Date</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_21" xml:space="preserve">
+    <value>SurgeryOn</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_22" xml:space="preserve">
+    <value>Surgery Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_23" xml:space="preserve">
+    <value>Surgery Center</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_24" xml:space="preserve">
+    <value>alergia</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_25" xml:space="preserve">
+    <value>nombre de la alergia</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_26" xml:space="preserve">
+    <value>está activo</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_27" xml:space="preserve">
+    <value>Since</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_28" xml:space="preserve">
+    <value>Reactions Description</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_29" xml:space="preserve">
+    <value>Resolves With</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_100" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_101" xml:space="preserve">
+    <value>Type of Chart Used</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_102" xml:space="preserve">
+    <value>Chart Type</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_103" xml:space="preserve">
+    <value>Unaided</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_104" xml:space="preserve">
+    <value>Distance Vision</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_105" xml:space="preserve">
+    <value>Pinhole Vision</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_106" xml:space="preserve">
+    <value>Near Vision</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_107" xml:space="preserve">
+    <value>Reading Distance</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_108" xml:space="preserve">
+    <value>observaciones</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_109" xml:space="preserve">
+    <value>Aided</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_110" xml:space="preserve">
+    <value>PGP</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_111" xml:space="preserve">
+    <value>Additional Glasses</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_112" xml:space="preserve">
+    <value>Previous Glass Usage</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_113" xml:space="preserve">
+    <value>SPH</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_114" xml:space="preserve">
+    <value>cyl</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_115" xml:space="preserve">
+    <value>eje</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_116" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_117" xml:space="preserve">
+    <value>LENS</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_118" xml:space="preserve">
+    <value>Pin Hole</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_119" xml:space="preserve">
+    <value>Visual Acuity</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_120" xml:space="preserve">
+    <value>Auto Refracto Meter</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_121" xml:space="preserve">
+    <value>Retinoscopy(Dry)</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_122" xml:space="preserve">
+    <value>Reflex Quality</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_123" xml:space="preserve">
+    <value>Subjective Acceptance</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_124" xml:space="preserve">
+    <value>VA</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_125" xml:space="preserve">
+    <value>NV</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_126" xml:space="preserve">
+    <value>Auto Refracto Meter(Cyclo)</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_127" xml:space="preserve">
+    <value>Retinoscopy(Wet)</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_128" xml:space="preserve">
+    <value>Subjective Acceptance</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_129" xml:space="preserve">
+    <value>PMT</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_130" xml:space="preserve">
+    <value>Refraction(Cyclo)</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_131" xml:space="preserve">
+    <value>Duochrome Balance</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_132" xml:space="preserve">
+    <value>Final Glass Prescription</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_133" xml:space="preserve">
+    <value>ojo derecho</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_134" xml:space="preserve">
+    <value>avmc</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_135" xml:space="preserve">
+    <value>Left Eye</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_136" xml:space="preserve">
+    <value>IPD</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_137" xml:space="preserve">
+    <value>material</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_138" xml:space="preserve">
+    <value>característica adicional</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_139" xml:space="preserve">
+    <value>Lens Type</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_140" xml:space="preserve">
+    <value>Contact Lens</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_141" xml:space="preserve">
+    <value>Keratometry</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_142" xml:space="preserve">
+    <value>Diopter</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_143" xml:space="preserve">
+    <value>meses</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_144" xml:space="preserve">
+    <value>Single Vision</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_145" xml:space="preserve">
+    <value>Glass Prescription</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_146" xml:space="preserve">
+    <value>Trial Lens</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_147" xml:space="preserve">
+    <value>BC</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_148" xml:space="preserve">
+    <value>DIA</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_149" xml:space="preserve">
+    <value>poder</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_150" xml:space="preserve">
+    <value>Evaluation Fit</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_151" xml:space="preserve">
+    <value>Centration</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_152" xml:space="preserve">
+    <value>Primary Gaze</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_153" xml:space="preserve">
+    <value>Up Gaze Lag</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_154" xml:space="preserve">
+    <value>Push up Test</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_155" xml:space="preserve">
+    <value>Final Fit</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_156" xml:space="preserve">
+    <value>Over Refraction</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_157" xml:space="preserve">
+    <value>Final Contact Lens Prescription</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_158" xml:space="preserve">
+    <value>BRAND</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_159" xml:space="preserve">
+    <value>Soft Toric</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_160" xml:space="preserve">
+    <value>Push up Test</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_161" xml:space="preserve">
+    <value>Final Fit</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_162" xml:space="preserve">
+    <value>Rigid Glass Permeable</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_163" xml:space="preserve">
+    <value>Tear Exchange and Lens Movement</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_164" xml:space="preserve">
+    <value>Tear Exchange</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_165" xml:space="preserve">
+    <value>Lens Movement</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_166" xml:space="preserve">
+    <value>Central Area</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_167" xml:space="preserve">
+    <value>Mid Peripheral</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_168" xml:space="preserve">
+    <value>Peripheral</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_169" xml:space="preserve">
+    <value>Ophthal Diagnostics</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_170" xml:space="preserve">
+    <value>Colour Vision</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_171" xml:space="preserve">
+    <value>Score Value</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_172" xml:space="preserve">
+    <value>impresión</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_173" xml:space="preserve">
+    <value>diagnóstico</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_174" xml:space="preserve">
+    <value>valor</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_175" xml:space="preserve">
+    <value>codigos icd-10</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_176" xml:space="preserve">
+    <value>descripción de clasificación internacional de enfermedades 10</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_177" xml:space="preserve">
+    <value>General Advice/Consultation Comments</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_178" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_179" xml:space="preserve">
+    <value>Treatment Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_180" xml:space="preserve">
+    <value>frecuencia</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_181" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_182" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_183" xml:space="preserve">
+    <value>instrucción</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_184" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_185" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_186" xml:space="preserve">
+    <value>Investigation Value</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_187" xml:space="preserve">
+    <value>Next Review Date</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_188" xml:space="preserve">
+    <value>Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_189" xml:space="preserve">
+    <value>Refraction(Dry)</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_190" xml:space="preserve">
+    <value>Tear Function Test</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_191" xml:space="preserve">
+    <value>Procedure Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_192" xml:space="preserve">
+    <value>recetas</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_30" xml:space="preserve">
+    <value>Medication</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_31" xml:space="preserve">
+    <value>nombre del medicamento</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_32" xml:space="preserve">
+    <value>Is Drug Active</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_33" xml:space="preserve">
+    <value>dosis</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_34" xml:space="preserve">
+    <value>frecuencia</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_35" xml:space="preserve">
+    <value>duración</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_36" xml:space="preserve">
+    <value>Medication Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_37" xml:space="preserve">
+    <value>familia</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_38" xml:space="preserve">
+    <value>Family Complaint</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_39" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_40" xml:space="preserve">
+    <value>Birth</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_41" xml:space="preserve">
+    <value>Birth Status</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_42" xml:space="preserve">
+    <value>Childhood Eye Problem</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_43" xml:space="preserve">
+    <value>Occupational</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_44" xml:space="preserve">
+    <value>OccupationType</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_45" xml:space="preserve">
+    <value>Occupational Disease</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_46" xml:space="preserve">
+    <value>Nurse Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_47" xml:space="preserve">
+    <value>Personal History</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_48" xml:space="preserve">
+    <value>APGAR</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_49" xml:space="preserve">
+    <value>consejero</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_50" xml:space="preserve">
+    <value>fecha:</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_51" xml:space="preserve">
+    <value>Created By -</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_52" xml:space="preserve">
+    <value>Counselor Notes</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_53" xml:space="preserve">
+    <value>Name Of The Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_54" xml:space="preserve">
+    <value>OD</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_55" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_56" xml:space="preserve">
+    <value>Diagonsis &amp; Treatment</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_57" xml:space="preserve">
+    <value>historial</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_58" xml:space="preserve">
+    <value>Examination &amp; Diagnostics</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_59" xml:space="preserve">
+    <value>signos vitales</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_60" xml:space="preserve">
+    <value>fecha de captura</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_61" xml:space="preserve">
+    <value>temporal</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_62" xml:space="preserve">
+    <value>SBP</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_63" xml:space="preserve">
+    <value>DBP</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_64" xml:space="preserve">
+    <value>pulso</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_65" xml:space="preserve">
+    <value>altura</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_66" xml:space="preserve">
+    <value>peso</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_67" xml:space="preserve">
+    <value>posición</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_68" xml:space="preserve">
+    <value>parte</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_69" xml:space="preserve">
+    <value>método</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_70" xml:space="preserve">
+    <value>imc</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_71" xml:space="preserve">
+    <value>POCT</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_72" xml:space="preserve">
+    <value>CBG</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_73" xml:space="preserve">
+    <value>valor cbg</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_74" xml:space="preserve">
+    <value>Lids</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_75" xml:space="preserve">
+    <value>Orbit</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_76" xml:space="preserve">
+    <value>Lacrimal System</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_77" xml:space="preserve">
+    <value>EOM</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_78" xml:space="preserve">
+    <value>Pupils</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_79" xml:space="preserve">
+    <value>otros</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_80" xml:space="preserve">
+    <value>Conjunctiva</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_81" xml:space="preserve">
+    <value>Cornea</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_82" xml:space="preserve">
+    <value>Anterior Chamber</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_83" xml:space="preserve">
+    <value>Iris</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_84" xml:space="preserve">
+    <value>Lens</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_85" xml:space="preserve">
+    <value>Vitreous Cavity</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_86" xml:space="preserve">
+    <value>método:</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_87" xml:space="preserve">
+    <value>Direct Ophthalmoscopy</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_88" xml:space="preserve">
+    <value>Indirect Ophthalmoscopy</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_89" xml:space="preserve">
+    <value>Slit Lamp with 78D or 90D</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_90" xml:space="preserve">
+    <value>Optic Disc</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_91" xml:space="preserve">
+    <value>Macula</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_92" xml:space="preserve">
+    <value>Retinal Vessels</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_93" xml:space="preserve">
+    <value>Retina Proper</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_94" xml:space="preserve">
+    <value>External Eye Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_95" xml:space="preserve">
+    <value>Slit Lamp Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_96" xml:space="preserve">
+    <value>Fundus Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_97" xml:space="preserve">
+    <value>Other Examination</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_98" xml:space="preserve">
+    <value>IOP</value>
+  </data>
+  <data name="Diagnosis_CaseSheetHistoryView_aspx_99" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+</root>

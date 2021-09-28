@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlatFormControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_05" xml:space="preserve">
+    <value>Only {0} characters allowed.</value>
+  </data>
+  <data name="PlatFormControls_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatFormControls_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_01" xml:space="preserve">
+    <value>por favor seleccione la categoría!</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_02" xml:space="preserve">
+    <value>introduzca los datos!</value>
+  </data>
+  <data name="PlatFormControls_Informtion" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatFormControls_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_01" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_02" xml:space="preserve">
+    <value>seleccione estado</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_03" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_04" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_01" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_02" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_03" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_04" xml:space="preserve">
+    <value>proporcione el nombre de la calle / carretera en dirección actual</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_01" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_02" xml:space="preserve">
+    <value>seleccione estado</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_03" xml:space="preserve">
+    <value>seleccione los distritos</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_04" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_05" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_01" xml:space="preserve">
+    <value>se eliminará esta tarea. continuar?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_02" xml:space="preserve">
+    <value>SMS Send to the Patient Successfully.</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_03" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_04" xml:space="preserve">
+    <value>hubo un problema en envío de mensaje de texto.</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_05" xml:space="preserve">
+    <value>proporcione el número de página</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_06" xml:space="preserve">
+    <value>proporcione un número de página correcto</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_07" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_08" xml:space="preserve">
+    <value>Do you wish to skip the Drug processing step? This action cannot be undone</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_09" xml:space="preserve">
+    <value>Do you wish to skip the Consultation processing step? This action cannot be undone</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_10" xml:space="preserve">
+    <value>Do you wish to skip the payment processing step? This action cannot be undone</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_11" xml:space="preserve">
+    <value>esta receta ha caducado, la tarea se eliminará</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_12" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_13" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_14" xml:space="preserve">
+    <value>aún no se realiza un examen básico. continúe?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_15" xml:space="preserve">
+    <value>las investigaciones de laboratorio aún no se han completado. continuar?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_16" xml:space="preserve">
+    <value>aún no se realiza un chequeo. continuar?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_17" xml:space="preserve">
+    <value>evaluación de desempeño aún no completada. continuar?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_18" xml:space="preserve">
+    <value>procesamiento de fichero de enfermedad mínima residual (emr) no terminado</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_01" xml:space="preserve">
+    <value>escribir problema médico</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_02" xml:space="preserve">
+    <value>escribir los detalles de clasificación internacional de enfermedades [cie]</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_03" xml:space="preserve">
+    <value>por favor seleccione nombre del médico</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_04" xml:space="preserve">
+    <value>ya se ha agregado queja!</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_05" xml:space="preserve">
+    <value>proporcione el código del cie</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_06" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_07" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_08" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_09" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_10" xml:space="preserve">
+    <value>¿está seguro de cambiar el diagnóstico existente??</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_11" xml:space="preserve">
+    <value>código cie 10 no encontrado ¿está seguro de continuar con el código icd existente??</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_12" xml:space="preserve">
+    <value>¿está seguro de continuar con el diagnóstico existente?</value>
+  </data>
+</root>

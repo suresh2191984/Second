@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_AddOrChangeGroup_aspx_01" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_03" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_14" xml:space="preserve">
+    <value>número</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_01" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_02" xml:space="preserve">
+    <value>haga clic aquí para modificar los detalles!!</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_01" xml:space="preserve">
+    <value>administración de la pagina de inicio</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_02" xml:space="preserve">
+    <value>impreso a fecha y hora:</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_03" xml:space="preserve">
+    <value>tiempo recibido de:</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_04" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_05" xml:space="preserve">
+    <value>tiempo reembolsado desde:</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_06" xml:space="preserve">
+    <value>ninguna cantidad recibida por el paciente de</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_07" xml:space="preserve">
+    <value>ninguna cantidad recibida</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_08" xml:space="preserve">
+    <value>no se efectuaron reembolsos</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_09" xml:space="preserve">
+    <value>pagos no realizados</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_001" xml:space="preserve">
+    <value>abierto</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_002" xml:space="preserve">
+    <value>Successfully Saved</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_01" xml:space="preserve">
+    <value>pago en efectivo</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_02" xml:space="preserve">
+    <value>monitor de otra moneda 1</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_02" xml:space="preserve">
+    <value>---Seleccionar Organización---</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_03" xml:space="preserve">
+    <value>---------seleccionar---------</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_04" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_01" xml:space="preserve">
+    <value>Save_Message</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_02" xml:space="preserve">
+    <value>política nueva guardada exitosamente..!</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_03" xml:space="preserve">
+    <value>póliza actualizada exitosamente..!</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>mes</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_02" xml:space="preserve">
+    <value>sucursal / localización</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_01" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_011" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_001" xml:space="preserve">
+    <value>facturación general para artículos especiales</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_002" xml:space="preserve">
+    <value>sí</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_003" xml:space="preserve">
+    <value>guardado exitosamente.</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_01" xml:space="preserve">
+    <value>la investigación sobre la marca del medicamento</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_02" xml:space="preserve">
+    <value>marca de drogas se agrega correctamente</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_03" xml:space="preserve">
+    <value>marca de medicamentos agregado correctamente</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_04" xml:space="preserve">
+    <value>código </value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_05" xml:space="preserve">
+    <value>nombre de la marca</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_06" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_01" xml:space="preserve">
+    <value>típo resultado:</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_02" xml:space="preserve">
+    <value>numérico</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_03" xml:space="preserve">
+    <value>texto</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_04" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_05" xml:space="preserve">
+    <value>escribir rango de referencia</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_06" xml:space="preserve">
+    <value>grupo</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_07" xml:space="preserve">
+    <value>muestre el texto</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_08" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_09" xml:space="preserve">
+    <value>escribir texto de la pantalla</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_10" xml:space="preserve">
+    <value>paquete</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_11" xml:space="preserve">
+    <value>investigación</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_12" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_13" xml:space="preserve">
+    <value>rango de referencia</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_14" xml:space="preserve">
+    <value>muestra</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_15" xml:space="preserve">
+    <value>aditivo</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_16" xml:space="preserve">
+    <value>método</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_17" xml:space="preserve">
+    <value>principio</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_18" xml:space="preserve">
+    <value>equipo</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_19" xml:space="preserve">
+    <value>instrumento</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_20" xml:space="preserve">
+    <value>los datos de control de calidad</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_21" xml:space="preserve">
+    <value>interpretación / notas</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_22" xml:space="preserve">
+    <value>auto-autorizar</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_23" xml:space="preserve">
+    <value>centro de procesamiento por defecto</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_24" xml:space="preserve">
+    <value>rango de pánico</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_25" xml:space="preserve">
+    <value>AutoAuthorizeID</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_26" xml:space="preserve">
+    <value>haga clic aquí para cambiar la unidad de medida</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_27" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_28" xml:space="preserve">
+    <value>escribir rango de referencia</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_29" xml:space="preserve">
+    <value>agregar / modificar una nueva gama de valores críticos</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_30" xml:space="preserve">
+    <value>(Formed As XML)</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_31" xml:space="preserve">
+    <value>escribir un rango de pánico</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_32" xml:space="preserve">
+    <value>seleccione la muestra de prueba</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_33" xml:space="preserve">
+    <value>seleccione prueba de muestra aditiva</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_34" xml:space="preserve">
+    <value>seleccione el método de prueba</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_35" xml:space="preserve">
+    <value>seleccione equipo de prueba</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_36" xml:space="preserve">
+    <value>seleccione instrumento de prueba</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_37" xml:space="preserve">
+    <value>revise para para controlar datos de calidad</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_38" xml:space="preserve">
+    <value>escribir auto autorizarid de acceso</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_39" xml:space="preserve">
+    <value>AutoAuthorize Name</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_40" xml:space="preserve">
+    <value>revise para autorizar</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_41" xml:space="preserve">
+    <value>agregar / modificar un nuevo centro de procesamiento</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_42" xml:space="preserve">
+    <value>agregar / modificar un nuevo rango de referencia</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_43" xml:space="preserve">
+    <value>seleccione principio de prueba</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_44" xml:space="preserve">
+    <value>centro de recolección</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_45" xml:space="preserve">
+    <value>centro de proceso</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_46" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_47" xml:space="preserve">
+    <value>centros agregados</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_48" xml:space="preserve">
+    <value>guardar / cerrar</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_49" xml:space="preserve">
+    <value>información relacionada con la investigación actualizada exitosamente..!</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_50" xml:space="preserve">
+    <value>excel cargado correctamente...!</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_51" xml:space="preserve">
+    <value>por favor asegúrese de que haya cargado un fichero de excel</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_52" xml:space="preserve">
+    <value>error al cargar rango de referencia y detalles relacionados</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_01" xml:space="preserve">
+    <value>escribir los detalles del instrumento nuevo </value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_02" xml:space="preserve">
+    <value>instrumento nuevo agregado correctamente!</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_03" xml:space="preserve">
+    <value>buscar detalles de instrumento existente o haga clic sobre añadir instrumento nuevo.</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_04" xml:space="preserve">
+    <value>cambios en instrumentos guardados exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_05" xml:space="preserve">
+    <value>instrumento eliminado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_06" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_01" xml:space="preserve">
+    <value>escribir los detalles del método nuevo </value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_02" xml:space="preserve">
+    <value>buscar detalles de método existente o haga clic sobre añadir método nuevo.</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_03" xml:space="preserve">
+    <value>método nuevo agregado correctamente</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_04" xml:space="preserve">
+    <value>cambios de método guardados exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_05" xml:space="preserve">
+    <value>método eliminado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_01" xml:space="preserve">
+    <value>escribir los detalles del nuevo principio </value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_02" xml:space="preserve">
+    <value>principio nuevo agregado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_03" xml:space="preserve">
+    <value>nombre de principio ya existe!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_04" xml:space="preserve">
+    <value>buscar detalles de principio existente o haga clic en agregar principio nuevo.</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_05" xml:space="preserve">
+    <value>principio eliminado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_06" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_07" xml:space="preserve">
+    <value>cambios principales guardados exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_01" xml:space="preserve">
+    <value>----Select Role----</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_02" xml:space="preserve">
+    <value>--Select An Organization--</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_03" xml:space="preserve">
+    <value>----Default Page----</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_01" xml:space="preserve">
+    <value>Select Organisation :</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_02" xml:space="preserve">
+    <value>en activo </value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_03" xml:space="preserve">
+    <value>activo</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_04" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_05" xml:space="preserve">
+    <value>su patrón seleccionado es</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_06" xml:space="preserve">
+    <value>Do you want to continue ?</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_001" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_002" xml:space="preserve">
+    <value>usuarios</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_003" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_004" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_005" xml:space="preserve">
+    <value>organización de investigación por contrato</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_006" xml:space="preserve">
+    <value>el estudio</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_007" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_01" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_02" xml:space="preserve">
+    <value>longitud de la contraseña</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_03" xml:space="preserve">
+    <value>Longitud de caracteres especiales</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_04" xml:space="preserve">
+    <value>longitud de numchar</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_05" xml:space="preserve">
+    <value>tipo de período de validez</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_06" xml:space="preserve">
+    <value>periodo de validez</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_07" xml:space="preserve">
+    <value>recuento previo de la contraseña</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_08" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_09" xml:space="preserve">
+    <value>confirmar para eliminar!!</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_11" xml:space="preserve">
+    <value>máximo 365 días</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_12" xml:space="preserve">
+    <value>máximo 52 semanas</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_13" xml:space="preserve">
+    <value>máximo 1 año</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_14" xml:space="preserve">
+    <value>máximo 12 meses</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_15" xml:space="preserve">
+    <value>Max Length 12</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_16" xml:space="preserve">
+    <value>Min Length 6</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_17" xml:space="preserve">
+    <value>registro eliminado exitosamente</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_18" xml:space="preserve">
+    <value>no se puede eliminar</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_19" xml:space="preserve">
+    <value>registro guardado exitosamente</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_20" xml:space="preserve">
+    <value>no se puede guardar</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_02" xml:space="preserve">
+    <value>--Seleccionar Organización--</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_03" xml:space="preserve">
+    <value>error en la carga de ficheros</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_04" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_01" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_02" xml:space="preserve">
+    <value>subtípo</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_03" xml:space="preserve">
+    <value>---seleccionar organización---</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_04" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_05" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_06" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_01" xml:space="preserve">
+    <value>seleccione todas las tareas</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_02" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_03" xml:space="preserve">
+    <value>tarea ha sido re-asignada exitosamente</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_04" xml:space="preserve">
+    <value>anular la selección de todas las tareas</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_05" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_06" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_01" xml:space="preserve">
+    <value>Diseño 1</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_02" xml:space="preserve">
+    <value>Diseño 2</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_03" xml:space="preserve">
+    <value>Diseño 3</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_04" xml:space="preserve">
+    <value>Diseño 4</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_05" xml:space="preserve">
+    <value>Diseño 5</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_06" xml:space="preserve">
+    <value>Diseño 6</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_07" xml:space="preserve">
+    <value>Diseño 7</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_08" xml:space="preserve">
+    <value>Diseño 8</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_09" xml:space="preserve">
+    <value>Diseño</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_10" xml:space="preserve">
+    <value>registro de ubicación</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_11" xml:space="preserve">
+    <value>organización  de procesamiento</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_12" xml:space="preserve">
+    <value>localización del proceso</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_13" xml:space="preserve">
+    <value>género</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_14" xml:space="preserve">
+    <value>es-es</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_15" xml:space="preserve">
+    <value>registro guardado exitosamente</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_16" xml:space="preserve">
+    <value>no se han encontrado tales registros</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_17" xml:space="preserve">
+    <value>seleccione el grupo para agregar</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_18" xml:space="preserve">
+    <value>eliminado exitosamente.</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_19" xml:space="preserve">
+    <value>seleccione el grupo para eliminar</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_20" xml:space="preserve">
+    <value>nombre del grupo o nombre de código ya existe!!</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_21" xml:space="preserve">
+    <value>grupo agregado exitosamente!!!</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_22" xml:space="preserve">
+    <value>Los cambios se han actualizado correctamente.</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_23" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_01" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_02" xml:space="preserve">
+    <value>Se guardaron los cambios exitosamente.</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_01" xml:space="preserve">
+    <value>Gestor de Usuarios</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_02" xml:space="preserve">
+    <value>nombre de usuario preferido</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_03" xml:space="preserve">
+    <value>Los cambios se han actualizado correctamente.</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_04" xml:space="preserve">
+    <value>Prefería el nombre de usuario ya existe</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_05" xml:space="preserve">
+    <value>nombre de acceso:</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_06" xml:space="preserve">
+    <value>&amp; contraseña :</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_07" xml:space="preserve">
+    <value>contraseña de transacción : "</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_08" xml:space="preserve">
+    <value>localización actualizado exitosamente</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_09" xml:space="preserve">
+    <value>la actualización de localización ha fallado</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_01" xml:space="preserve">
+    <value>aplicar</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_02" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_05" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_06" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_07" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_08" xml:space="preserve">
+    <value>guardar los cambios</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_01" xml:space="preserve">
+    <value>tarjeta de tarifa especial</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_02" xml:space="preserve">
+    <value>mapeo de servicio al cliente</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_03" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_01" xml:space="preserve">
+    <value>editar plantilla existente</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_02" xml:space="preserve">
+    <value>crear nueva plantilla</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_03" xml:space="preserve">
+    <value>escribir el nombre de la plantilla:</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_04" xml:space="preserve">
+    <value>No Matching Records.</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_05" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_06" xml:space="preserve">
+    <value>plantilla eliminada exitosamente...</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_06" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_01" xml:space="preserve">
+    <value>escribir los detalles del equipo nuevo</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_02" xml:space="preserve">
+    <value>equipo nuevo agregado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_03" xml:space="preserve">
+    <value>buscar detalles de kit existente o haga clic sobre añadir kit nuevo.</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_04" xml:space="preserve">
+    <value>cambios de equipo guardados exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_05" xml:space="preserve">
+    <value>buscar detalles de kit existente o haga clic sobre añadir kit nuevo.</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_06" xml:space="preserve">
+    <value>equipo eliminado exitosamente!</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_07" xml:space="preserve">
+    <value>buscar detalles de kit existente o haga clic sobre añadir kit nuevo</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_08" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_09" xml:space="preserve">
+    <value>buscar detalles de kit existente o haga clic sobre añadir kit nuevo.</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_24" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_03" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_01" xml:space="preserve">
+    <value>----seleccionar-----</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_02" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_03" xml:space="preserve">
+    <value>nombre del médico:</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_04" xml:space="preserve">
+    <value>nombre del hospital:</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_05" xml:space="preserve">
+    <value>nombre del cliente:</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_06" xml:space="preserve">
+    <value>Dr.</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_07" xml:space="preserve">
+    <value>nombre del departamento:</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_08" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_09" xml:space="preserve">
+    <value>Resumen de la colección -</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_10" xml:space="preserve">
+    <value>todos los departamentos</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_01" xml:space="preserve">
+    <value>recibido por:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_02" xml:space="preserve">
+    <value>nombre:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_03" xml:space="preserve">
+    <value>para redondear total:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_04" xml:space="preserve">
+    <value>-----Todos-----</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_05" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_06" xml:space="preserve">
+    <value>fecha:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_07" xml:space="preserve">
+    <value>reporte desde:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_08" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_09" xml:space="preserve">
+    <value>ninguna cantidad recibida</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_10" xml:space="preserve">
+    <value>desde:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_11" xml:space="preserve">
+    <value>a:</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_12" xml:space="preserve">
+    <value>seleccione moneda :</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_13" xml:space="preserve">
+    <value>regresar</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_14" xml:space="preserve">
+    <value>monto cobrado</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_15" xml:space="preserve">
+    <value>Cantidad devuelta</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_16" xml:space="preserve">
+    <value>cancelar valor de factura</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_17" xml:space="preserve">
+    <value>cantidad miscelánea</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_18" xml:space="preserve">
+    <value>Saldo de cierre</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_19" xml:space="preserve">
+    <value>cantidad total recogida </value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_20" xml:space="preserve">
+    <value>monto total de ingresos</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_21" xml:space="preserve">
+    <value>importe de la devolución total</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_22" xml:space="preserve">
+    <value>el monto total pendiente</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_23" xml:space="preserve">
+    <value>monto total cancelado de la cuenta</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_24" xml:space="preserve">
+    <value>monto total pagado de misceláneos</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_25" xml:space="preserve">
+    <value>Saldo de cierre</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_26" xml:space="preserve">
+    <value>exportar a xl</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_02" xml:space="preserve">
+    <value>seleccione uno o más</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_03" xml:space="preserve">
+    <value>investigación(es)</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_04" xml:space="preserve">
+    <value>monto total:</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_05" xml:space="preserve">
+    <value>investigación total:</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_01" xml:space="preserve">
+    <value>el edificio ya existe!!!</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_02" xml:space="preserve">
+    <value>Floor Already Exists!!!'</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_03" xml:space="preserve">
+    <value>Storage Area Already Exists!!!'</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_04" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_05" xml:space="preserve">
+    <value>Drug Brand</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_21" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_err" xml:space="preserve">
+    <value>Error in while saving data.!</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_002" xml:space="preserve">
+    <value>reajustar</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_09" xml:space="preserve">
+    <value>nombre de prueba</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_10" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_11" xml:space="preserve">
+    <value>tipo de referencia</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_12" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_13" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_map" xml:space="preserve">
+    <value>Mapping</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_PKG" xml:space="preserve">
+    <value>PKG</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_50" xml:space="preserve">
+    <value>paquetes de salud</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_51" xml:space="preserve">
+    <value>establecer artículos por defecto a</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_52" xml:space="preserve">
+    <value>agregar más..</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_001" xml:space="preserve">
+    <value>quitar</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_002" xml:space="preserve">
+    <value>cargar</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_001" xml:space="preserve">
+    <value>Usuario creado correctamente. Nombre de usuario:</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_002" xml:space="preserve">
+    <value>&amp; Contraseña :</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_003" xml:space="preserve">
+    <value>&amp; TransactionPassword :</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_25" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_16" xml:space="preserve">
+    <value>asignar patrón</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_17" xml:space="preserve">
+    <value>Update Pattern</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_004" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_04" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_01" xml:space="preserve">
+    <value>Updated Successfully!!!</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_10" xml:space="preserve">
+    <value>User created succesfully. LoginName:</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_11" xml:space="preserve">
+    <value>&amp; Contraseña :</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_12" xml:space="preserve">
+    <value>&amp; TransactionPassword :</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_27" xml:space="preserve">
+    <value>User Wise Collection Report_</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_22" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_23" xml:space="preserve">
+    <value>reajustar</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_24" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_25" xml:space="preserve">
+    <value>Anular</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_15" xml:space="preserve">
+    <value>No se han encontrado registros coincidentes</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_10" xml:space="preserve">
+    <value>añadir</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_26" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_27" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+   <data name="Admin_AddOrChangeBarcodePatterns_aspx_001" xml:space="preserve">
+    <value>Nombre de la categoría</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_002" xml:space="preserve">
+    <value>Atributo principal</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_003" xml:space="preserve">
+    <value>Patrón</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_004" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_0030" xml:space="preserve">
+    <value>SÍ</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_0031" xml:space="preserve">
+    <value>No hay</value>
+  </data>
+<data name="Admin_OrganisationLocation_aspx_07" xml:space="preserve">
+    <value>Administrar ubicaciones</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_08" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_09" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+<data name="Admin_TestGroup_aspx_0025" xml:space="preserve">
+    <value>Introduzca un número de página correcta</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_05" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_06" xml:space="preserve">
+    <value>Dado que el tipo de tarjeta no están asignados para este cliente..!</value>
+  </data>
+</root>

@@ -1,0 +1,2883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Billing_GenerateBill_ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="CommonControls_Advice_ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="CommonControls_Advice_Dose_1" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CommonControls_Advice_Dose_2" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CommonControls_Advice_DrugName_1" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="CommonControls_Advice_DrugName_2" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="CommonControls_Advice_Duration_1" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="CommonControls_Advice_Duration_2" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="CommonControls_Advice_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_Advice_Formulation_1" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="CommonControls_Advice_Formulation_2" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="CommonControls_Advice_Frequency_1" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CommonControls_Advice_Frequency_2" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CommonControls_Advice_Instruction_1" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="CommonControls_Advice_Instruction_2" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="CommonControls_Advice_Route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_IsReimbursable" xml:space="preserve">
+    <value>Is Reimbursable</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Perphyname" xml:space="preserve">
+    <value>Performingphysician</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Commoncontrols_GeneralAdvice_ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="Commoncontrols_GeneralAdvice_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Commoncontrols_GeneralAdvice_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_CurrDue" xml:space="preserve">
+    <value>Curr. Due</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_DateOfAdm" xml:space="preserve">
+    <value>Date Of Adm</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PhoneNumber" xml:space="preserve">
+    <value>Phone  Number</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PreAuthAmt" xml:space="preserve">
+    <value>Pre AuthAmt</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PurposeOfAdm" xml:space="preserve">
+    <value>Purpose Of Adm</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_RoomBedNo" xml:space="preserve">
+    <value>Room/Bed No</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Direction_1" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Direction_2" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Dose_1" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Dose_2" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_DrugName_1" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_DrugName_2" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Duration_1" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Duration_2" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_EDIT_1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Frequency_1" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Frequency_2" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Instruction_1" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Instruction_2" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Amount_1" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_BankCardType_1" xml:space="preserve">
+    <value>Bank/Card Type</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ChequeCardDDNo_1" xml:space="preserve">
+    <value>Cheque/Card/DDNo.</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Delete_1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EDIT_1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ServiceCharge_1" xml:space="preserve">
+    <value>Service Charge(%)</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_TotalAmount_1" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Type_1" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_AMBCODE" xml:space="preserve">
+    <value>AMBCODE</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_DisorEnhpercent" xml:space="preserve">
+    <value>DisorEnhpercent</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_DisorEnhType" xml:space="preserve">
+    <value>DisorEnhType</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_FeeID" xml:space="preserve">
+    <value>FeeID</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_FeeType" xml:space="preserve">
+    <value>FeeType</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_NonReimbursableAmount" xml:space="preserve">
+    <value>NonReimbursableAmount</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_OtherID" xml:space="preserve">
+    <value>OtherID</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_ReimbursableAmount" xml:space="preserve">
+    <value>ReimbursableAmount</value>
+  </data>
+  <data name="CommonControls_DisplayAllDataTemp_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Select_1" xml:space="preserve">
+    <value>select</value>
+  </data>
+  <data name="CommonControls_InventoryAdvice_Select_2" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Amount_2" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_BankCardType_2" xml:space="preserve">
+    <value>Bank/Card Type</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ChequeCardDDNo_2" xml:space="preserve">
+    <value>Cheque/Card/DDNo.</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Delete_2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EDIT_2" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMIROI_1" xml:space="preserve">
+    <value>EMI ROI</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMIROI_2" xml:space="preserve">
+    <value>EMI ROI</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMITenor_1" xml:space="preserve">
+    <value>EMI Tenor</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMITenor_2" xml:space="preserve">
+    <value>EMI Tenor</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMIValue_1" xml:space="preserve">
+    <value>EMI Value</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_EMIValue_2" xml:space="preserve">
+    <value>EMI Value</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ReferenceID_1" xml:space="preserve">
+    <value>ReferenceID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ReferenceID_2" xml:space="preserve">
+    <value>ReferenceID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ReferenceType_1" xml:space="preserve">
+    <value>ReferenceType</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ReferenceType_2" xml:space="preserve">
+    <value>ReferenceType</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ServiceCharge_2" xml:space="preserve">
+    <value>Service Charge(%)</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_TotalAmount_2" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Type_2" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Units_1" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Units_2" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="Inventory_BillingPopUp_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Inventory_BillingPopUp_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Inventory_BillingPopUp_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Inventory_BillingPopUp_PatientNo" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="Inventory_BillingPopUp_PhysicianName" xml:space="preserve">
+    <value>Physician Name</value>
+  </data>
+  <data name="Inventory_BillingPopUp_SelectClient" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="Inventory_BillingPopUp_ServiceCharge" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="InvIpBilling_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="InvIpBilling_btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="InvIpBilling_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="InvIpBilling_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="InvIpBilling_SelectOption" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="InvIpBilling_serialNumber" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Inventory_BillingPopUp_CloseWindow_1" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="Inventory_BillingPopUp_CloseWindow_2" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="Inventory_BillingPopUp_CloseWindow_3" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="Inventory_BillingPopUp_PrintBill" xml:space="preserve">
+    <value>Print Bill</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_FreightCouriercharges" xml:space="preserve">
+    <value>Freight/Courier charges</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_NetTotal" xml:space="preserve">
+    <value>Net Total</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_PODiscount" xml:space="preserve">
+    <value>PO Discount (%)</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_PurchaseOrderDate" xml:space="preserve">
+    <value>Purchase Order Date</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_PurchaseOrderEdit" xml:space="preserve">
+    <value>Purchase Order Edit</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_PurchaseOrder_1" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Inventory_CentralPurchaseOrder_PurchaseOrder_2" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Inventory_CollectAdvance_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Inventory_CollectAdvance_PatientNumber" xml:space="preserve">
+    <value>Patient Number</value>
+  </data>
+  <data name="Inventory_CollectAdvance_PreviousAdvancePayments_1" xml:space="preserve">
+    <value>Previous Advance Payments</value>
+  </data>
+  <data name="Inventory_CollectAdvance_PreviousAdvancePayments_2" xml:space="preserve">
+    <value>Previous Advance Payments</value>
+  </data>
+  <data name="Inventory_CollectAdvance_ServiceCharge" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="Inventory_CollectAdvance_TotalAmount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="Inventory_CollectAdvance_Total_1" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Inventory_CollectAdvance_Total_2" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Inventory_ConsumableQuantity_Due" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="Inventory_DispensingReport_BillNo" xml:space="preserve">
+    <value>Bill No</value>
+  </data>
+  <data name="Inventory_DispensingReport_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="Inventory_DispensingReport_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Inventory_DispensingReport_PrintDispensingReport" xml:space="preserve">
+    <value>Print  Dispensing Report</value>
+  </data>
+  <data name="Inventory_DispensingReport_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Inventory_DispensingReport_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="Billing_GenerateBill_ResetBilledItems" xml:space="preserve">
+    <value>Reset Billed Items</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_CorporateInsurance" xml:space="preserve">
+    <value>Corporate/Insurance</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_MobileNo" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_Nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PatientAge" xml:space="preserve">
+    <value>Patient Age</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PatientNo" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_PurposeofAdmission" xml:space="preserve">
+    <value>Purpose of Admission</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_RegisteredDate" xml:space="preserve">
+    <value>Registered Date</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_RoomNo" xml:space="preserve">
+    <value>Room No</value>
+  </data>
+  <data name="CommonControls_Advice_Select_1" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_Advice_Select_2" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_ItemName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CommonControls_SurgicalItems_Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_AnaphylacticReaction" xml:space="preserve">
+    <value>AnaphylacticReaction</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_Doses" xml:space="preserve">
+    <value>Doses</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_Vaccination" xml:space="preserve">
+    <value>Vaccination</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_VaccinationID" xml:space="preserve">
+    <value>Vaccination ID</value>
+  </data>
+  <data name="CommonControls_VaccinationHistory_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_FromDate_1" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_FromDate_2" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_ToDate_1" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CommonControls_InPatientSearch_ToDate_2" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_AnathesistName" xml:space="preserve">
+    <value>Anathesist Name</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Medical" xml:space="preserve">
+    <value>Medical</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Prosthesis" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Provisional" xml:space="preserve">
+    <value>Provisional</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_SiteOfOperation" xml:space="preserve">
+    <value>Site Of Operation</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_SurgeonName" xml:space="preserve">
+    <value>Surgeon Name</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_TreatmentPlanDate" xml:space="preserve">
+    <value>TreatmentPlan Date</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_TreatmentPlanName" xml:space="preserve">
+    <value>Treatment Plan Name</value>
+  </data>
+  <data name="CommonControls_SurgeryforProcedurePlanning_Willbescheduledlater" xml:space="preserve">
+    <value>Will be scheduled later</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_BankCardType" xml:space="preserve">
+    <value>Bank/Card Type</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_ChequeCardDDNo" xml:space="preserve">
+    <value>Cheque/Card/DDNo.</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_DetailID" xml:space="preserve">
+    <value>DetailID</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_EstimatedAmount" xml:space="preserve">
+    <value>Estimated Amount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_PaidAmount" xml:space="preserve">
+    <value>Paid Amount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_PaidDate" xml:space="preserve">
+    <value>Paid Date</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_RowID" xml:space="preserve">
+    <value>RowID</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_ServiceCharge" xml:space="preserve">
+    <value>Service Charge(%)</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_TotalAmount" xml:space="preserve">
+    <value>TotalAmount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_TreatmentName" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_TreatmentName_1" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvanceQuickBill_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_BankCardType" xml:space="preserve">
+    <value>Bank/Card Type</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_ChequeCardDDNo" xml:space="preserve">
+    <value>Cheque/Card/DDNo.</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_DetailID" xml:space="preserve">
+    <value>DetailID</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_RowID" xml:space="preserve">
+    <value>RowID</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_ServiceCharge" xml:space="preserve">
+    <value>Service Charge(%)</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_TotalAmount" xml:space="preserve">
+    <value>TotalAmount</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_TreatmentName" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="CommonControls_SurgeryAdvance_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_ApprovedBy" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_ApprovedDate" xml:space="preserve">
+    <value>Approved Date</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_BatchNo_1" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_ExpDate" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_IndentNo" xml:space="preserve">
+    <value>Indent No</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_IndentRaiseBy" xml:space="preserve">
+    <value>Indent Raise By</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_IndentRaisedFrom" xml:space="preserve">
+    <value>Indent Raised From</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_IndentRaisedTo" xml:space="preserve">
+    <value>Indent Raised To</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_IssuedQty" xml:space="preserve">
+    <value>Issued Qty</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_productname_1" xml:space="preserve">
+    <value>product name</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_SellingPrice" xml:space="preserve">
+    <value>SellingPrice</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_SNo" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_Unit_1" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CommonControls_ViewIssuedIndentDetail_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Inventory_EquipmentMaintenanceMaster_MaintenanceEndDate" xml:space="preserve">
+    <value>Maintenance End Date</value>
+  </data>
+  <data name="Inventory_EquipmentMaintenanceMaster_MaintenanceStartDate" xml:space="preserve">
+    <value>Maintenance Start Date</value>
+  </data>
+  <data name="Inventory_EquipmentMaintenanceMaster_ProductCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="Inventory_EquipmentMaintenanceMaster_SearchType" xml:space="preserve">
+    <value>Search Type</value>
+  </data>
+  <data name="Inventory_Expirydatedetails_TotalclosingStockValueinCP" xml:space="preserve">
+    <value>Total closing Stock Value in CP</value>
+  </data>
+  <data name="Inventory_Expirydatedetails_TotalclosingStockValueinSP" xml:space="preserve">
+    <value>Total closing Stock Value in SP</value>
+  </data>
+  <data name="Inventory_Intend_SelcetOrg" xml:space="preserve">
+    <value>Selcet Org</value>
+  </data>
+  <data name="Inventory_INVBulkLoad_Select_File" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_BatchNo" xml:space="preserve">
+    <value>BatchNo</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_CostPrice" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_EXPDate" xml:space="preserve">
+    <value>EXP Date</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_RakNo" xml:space="preserve">
+    <value>Rak No</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_RcvdQty" xml:space="preserve">
+    <value>Rcvd Qty</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_SelectCategory" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Tax" xml:space="preserve">
+    <value>Tax%</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Inventory_INVBulkUpdate_Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_AmountReceived" xml:space="preserve">
+    <value>Amount Received</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_Date" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_DueDetails" xml:space="preserve">
+    <value>Due Details</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_ExcludingAdvance" xml:space="preserve">
+    <value>(Excluding Advance)</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_ExcludingDueAmount" xml:space="preserve">
+    <value>(Excluding Due Amount)</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_RefundMode" xml:space="preserve">
+    <value>Refund Mode</value>
+  </data>
+  <data name="Inventory_InventoryDueClearance_ServiceCharge" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Organisation" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Inventory_InventoryLocation_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Inventory_InvIpBilling_AmountDue" xml:space="preserve">
+    <value>AmountDue</value>
+  </data>
+  <data name="Inventory_InvIpBilling_AmountReceived" xml:space="preserve">
+    <value>Amount Received</value>
+  </data>
+  <data name="Inventory_InvIpBilling_AvailableQty" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="Inventory_InvIpBilling_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="Inventory_InvIpBilling_ExclusiveAdvance" xml:space="preserve">
+    <value>(Exclusive Advance)</value>
+  </data>
+  <data name="Inventory_InvIpBilling_GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="Inventory_InvIpBilling_GrossAmount" xml:space="preserve">
+    <value>Gross Amount</value>
+  </data>
+  <data name="Inventory_InvIpBilling_NetAmount" xml:space="preserve">
+    <value>Net Amount</value>
+  </data>
+  <data name="Inventory_InvIpBilling_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Inventory_InvIpBilling_PatientNo" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="Inventory_InvIpBilling_PrescribedBy" xml:space="preserve">
+    <value>Prescribed By</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Due" xml:space="preserve">
+    <value> Due</value>
+  </data>
+  <data name="Inventory_InvIpBilling_SelectClient" xml:space="preserve">
+    <value>Select Client</value>
+  </data>
+  <data name="Inventory_InvIpBilling_SelecttheDiscount" xml:space="preserve">
+    <value>Select the Discount</value>
+  </data>
+  <data name="Inventory_InvIpBilling_ServiceCharge" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="Inventory_InvIpBilling_SubTotal" xml:space="preserve">
+    <value>Sub Total</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Inventory_InvIpBilling_Vat" xml:space="preserve">
+    <value>Vat</value>
+  </data>
+  <data name="InvIpBilling_btnDelete1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="InvIpBilling_btnEdit1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="InvIpBilling_ProductName1" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="InvIpBilling_Select1" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="InvIpBilling_SelectOption1" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="InvIpBilling_serialNumber1" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_InvoiceDCNumber" xml:space="preserve">
+    <value>Invoice/DC Number</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_InvoiceDCNumber_1" xml:space="preserve">
+    <value>Invoice/DC Number</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_Pleasewait" xml:space="preserve">
+    <value>Please wait....</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_SelectType" xml:space="preserve">
+    <value>Select Type :</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_StockReceivedDate" xml:space="preserve">
+    <value>Stock Received Date</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_StockReceivedNumber" xml:space="preserve">
+    <value>Stock Received Number</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_StockReceivedNumber_1" xml:space="preserve">
+    <value>Stock Received Number</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_StockReturnedDate" xml:space="preserve">
+    <value>Stock Returned Date</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_StockReturnedNumber" xml:space="preserve">
+    <value>Stock Returned Number</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_SupplierName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="Inventory_StockReturnPayment_SupplierName_1" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="Inventory_StockSummary_ADD" xml:space="preserve">
+    <value>ADD:</value>
+  </data>
+  <data name="Inventory_StockSummary_CLOSINGSTOCKVALUE" xml:space="preserve">
+    <value>CLOSING STOCK VALUE</value>
+  </data>
+  <data name="Inventory_StockSummary_DAMAGESOTHERS" xml:space="preserve">
+    <value>DAMAGES/OTHERS</value>
+  </data>
+  <data name="Inventory_StockSummary_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Inventory_StockSummary_ISSUEDTO" xml:space="preserve">
+    <value>ISSUED TO</value>
+  </data>
+  <data name="Inventory_StockSummary_LESS" xml:space="preserve">
+    <value>LESS:</value>
+  </data>
+  <data name="Inventory_StockSummary_LocationName" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="Inventory_StockSummary_OPENINGSTOCKVALUE" xml:space="preserve">
+    <value>OPENING STOCK VALUE</value>
+  </data>
+  <data name="Inventory_StockSummary_PURCHASEDURINGTHEDAY" xml:space="preserve">
+    <value>PURCHASE DURING THE DAY</value>
+  </data>
+  <data name="Inventory_StockSummary_RECEIVEDFROM" xml:space="preserve">
+    <value>RECEIVED FROM</value>
+  </data>
+  <data name="Inventory_StockSummary_SALESFROTHEDAY" xml:space="preserve">
+    <value>SALES FRO THE DAY</value>
+  </data>
+  <data name="Inventory_StockSummary_TOTAL" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="Inventory_StockUsage_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Inventory_StockUsage_AvailableQty" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="Inventory_StockUsage_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_StockUsage_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_AvailableQty" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_Date" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_IssuedTo" xml:space="preserve">
+    <value>Issued To</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_ReturnedBy" xml:space="preserve">
+    <value>Returned By</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_SelcetOrg" xml:space="preserve">
+    <value>Selcet Org</value>
+  </data>
+  <data name="Inventory_SubStoreStockReturn_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Inventory_SuplierPurchaseOrder_IsPurchaseOrder" xml:space="preserve">
+    <value>Is Purchase Order</value>
+  </data>
+  <data name="Inventory_SupplierAnalysisReport_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Inventory_SupplierAnalysisReport_Organisation" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Inventory_SupplierAnalysisReport_ProductCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="Inventory_SupplierAnalysisReport_ProductType" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="Inventory_SuppliersList_CloseWindow" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="Inventory_Suppliers_EmailNotValid" xml:space="preserve">
+    <value>Email  not valid</value>
+  </data>
+  <data name="Inventory_UpdateStockInHand_PleaseWait" xml:space="preserve">
+    <value>Please Wait...</value>
+  </data>
+  <data name="Inventory_UpdateStockInHand_Product" xml:space="preserve">
+    <value>Product :</value>
+  </data>
+  <data name="Inventory_UpdateStockInHand_SelectCategory" xml:space="preserve">
+    <value>Select Category :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_ExpDate" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_InverseQty" xml:space="preserve">
+    <value>Inverse Qty</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_MFGDate" xml:space="preserve">
+    <value>MFG Date</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_MRP" xml:space="preserve">
+    <value>MRP</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_NoBatchNo" xml:space="preserve">
+    <value>* No Batch No.</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_NoExporMftDate" xml:space="preserve">
+    <value>** No Exp or Mft Date.</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Note" xml:space="preserve">
+    <value>Note :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_PODiscount" xml:space="preserve">
+    <value>PO Discount :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_PONo" xml:space="preserve">
+    <value>P.O No :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_POQuantity" xml:space="preserve">
+    <value>PO Quantity</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_RakNo" xml:space="preserve">
+    <value>Rak No</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_RcvdQty" xml:space="preserve">
+    <value>Rcvd Qty</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_RecdLSUQty" xml:space="preserve">
+    <value>Recd LSU Qty</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_ReceivedNo" xml:space="preserve">
+    <value>Received No</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_ReceivedStockDetails" xml:space="preserve">
+    <value>Received Stock Details</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_ReceivedStockDetails_1" xml:space="preserve">
+    <value>Received Stock Details</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_RoundedOffNetTotal" xml:space="preserve">
+    <value>Rounded-Off Net Total :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_RoundOffValue" xml:space="preserve">
+    <value>RoundOff Value :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_SellingUnit" xml:space="preserve">
+    <value>Selling Unit</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_StockReceived" xml:space="preserve">
+    <value>Stock Received</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_SupplierServiceTax" xml:space="preserve">
+    <value>Supplier Service Tax(%) :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Tax" xml:space="preserve">
+    <value>Tax(%)</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_Total" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_TotalCost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_TotalDiscountAmount" xml:space="preserve">
+    <value>Total Discount Amount :</value>
+  </data>
+  <data name="Inventory_UpdateStockReceived_TotalTaxAmount" xml:space="preserve">
+    <value>Total Tax Amount :</value>
+  </data>
+  <data name="Inventory_ViewInvRefundRecepit_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Inventory_ViewInvRefundRecepit_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Inventory_ViewIssuedIndentdetails_ApprovedBy" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="Inventory_ViewIssuedIndentdetails_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_From" xml:space="preserve">
+    <value>From,</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_IndentNo" xml:space="preserve">
+    <value>Indent No</value>
+  </data>
+  <data name="Inventory_ViewIssuedIntend_StockIssued" xml:space="preserve">
+    <value>Stock Issued</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_BillingandDeliveryAddress" xml:space="preserve">
+    <value>Billing and Delivery Address:-</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_comments" xml:space="preserve">
+    <value>comments :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_DeliverySchedule" xml:space="preserve">
+    <value>Delivery Schedule:</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_DLNo" xml:space="preserve">
+    <value>DL No :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_IndentIssuedNo" xml:space="preserve">
+    <value>Indent Issued No :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_IndentNo" xml:space="preserve">
+    <value>IndentNo :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_IssueDate" xml:space="preserve">
+    <value>Issue Date :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_PH" xml:space="preserve">
+    <value>PH:</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_RaisedDate" xml:space="preserve">
+    <value>Raised Date:</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_TermsCondition" xml:space="preserve">
+    <value>Terms &amp; Condition :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_TINNo" xml:space="preserve">
+    <value>TIN No :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_TINNo_1" xml:space="preserve">
+    <value>TIN No :</value>
+  </data>
+  <data name="Inventory_ViewPackingSlipDetails_To" xml:space="preserve">
+    <value>To,</value>
+  </data>
+  <data name="Inventory_ViewPatientKitUsage_NetAmount" xml:space="preserve">
+    <value>Net Amount :</value>
+  </data>
+  <data name="Inventory_ViewPatientKitUsage_PatientKitUsage" xml:space="preserve">
+    <value>Patient Kit Usage</value>
+  </data>
+  <data name="Inventory_ViewPatientKitUsage_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_BillingandDeliveryAddress" xml:space="preserve">
+    <value>Billing and Delivery Address:-</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_Date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_DLNo" xml:space="preserve">
+    <value>DL No :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_PH" xml:space="preserve">
+    <value>PH:</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_PurchaseOrder" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_TermsCondition" xml:space="preserve">
+    <value>Terms &amp; Condition :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_TINNo" xml:space="preserve">
+    <value>TIN No :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_TINNo_1" xml:space="preserve">
+    <value>TIN No :</value>
+  </data>
+  <data name="Inventory_ViewPurchaseOrderMedal_To" xml:space="preserve">
+    <value>To,</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_Date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_StockDisposal" xml:space="preserve">
+    <value>Stock Disposal</value>
+  </data>
+  <data name="Inventory_ViewStockDisposal_StockDisposalNo" xml:space="preserve">
+    <value>Stock Disposal No :</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_Date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_StockExpired" xml:space="preserve">
+    <value>Stock Expired</value>
+  </data>
+  <data name="Inventory_ViewStockExpired_StockExpiredNo" xml:space="preserve">
+    <value>Stock Expired No :</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_ApprovedBy" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_ApprovedDate" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_Date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_Status" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_StockUsage" xml:space="preserve">
+    <value>Stock Usage</value>
+  </data>
+  <data name="Inventory_ViewStockNonUsage_StockUsageNo" xml:space="preserve">
+    <value>Stock Usage No :</value>
+  </data>
+  <data name="Inventory_ViewStockUsage_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Admin_AddBankName_BankName" xml:space="preserve">
+    <value>Bank Name</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_FeeID" xml:space="preserve">
+    <value>FeeID</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_FeeType" xml:space="preserve">
+    <value>FeeType</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_OtherID" xml:space="preserve">
+    <value>OtherID</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_CorpoRateDisplayAllData_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Delete_1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Delete_2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_DisorEnhpercent" xml:space="preserve">
+    <value>DisorEnhpercent</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_DisorEnhType" xml:space="preserve">
+    <value>DisorEnhType</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_FeeID" xml:space="preserve">
+    <value>FeeID</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_FeeType" xml:space="preserve">
+    <value>FeeType</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_IsReimbursable" xml:space="preserve">
+    <value>Is Reimbursable</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_OtherID" xml:space="preserve">
+    <value>OtherID</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Perphyname" xml:space="preserve">
+    <value>Perphyname</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_CorporateDisplayTempData_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_FeeID" xml:space="preserve">
+    <value>FeeID</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_FeeType" xml:space="preserve">
+    <value>FeeType</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_OtherID" xml:space="preserve">
+    <value>OtherID</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_DisplayAllData_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Description_1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Description_2" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_FeeID" xml:space="preserve">
+    <value>FeeID</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_FeeType" xml:space="preserve">
+    <value>FeeType</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_OtherID" xml:space="preserve">
+    <value>OtherID</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CommonControls_DisplayIPData_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_BankCardType" xml:space="preserve">
+    <value>Bank/Card Type</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_ChequeCardDDNo" xml:space="preserve">
+    <value>Cheque/Card/DDNo.</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_ServiceCharge" xml:space="preserve">
+    <value>Service Charge(%)</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_TotalAmount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="CommonControls_DuePaymentType_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Action_1" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_DependentsName" xml:space="preserve">
+    <value>Dependents Name</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_DependentsNumber" xml:space="preserve">
+    <value>Dependents Number</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ExternalName" xml:space="preserve">
+    <value>External Name</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ExternalNumber" xml:space="preserve">
+    <value>External Number</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_MakeVisit" xml:space="preserve">
+    <value>Make Visit</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_RelationType" xml:space="preserve">
+    <value>Relation Type</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Select_1" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="NoCaseSheetAvailablefortheselectedvisit" xml:space="preserve">
+    <value>No Case Sheet Available for the selected visit</value>
+  </data>
+  <data name="Reception_RoomBooking_AdmissionPurpose" xml:space="preserve">
+    <value>Admission Purpose</value>
+  </data>
+  <data name="Reception_RoomBooking_BedName" xml:space="preserve">
+    <value>Bed Name</value>
+  </data>
+  <data name="Reception_RoomBooking_Complaints_1" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="Reception_RoomBooking_Complaints_2" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="Reception_RoomBooking_Complaints_3" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="Reception_RoomBooking_Complaints_4" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="Reception_RoomBooking_FloorName" xml:space="preserve">
+    <value>Floor Name</value>
+  </data>
+  <data name="Reception_RoomBooking_NoBedAvailableAtThatTime" xml:space="preserve">
+    <value>No Beds Available At That Time</value>
+  </data>
+  <data name="Reception_RoomBooking_Physician" xml:space="preserve">
+    <value>Physician</value>
+  </data>
+  <data name="Reception_RoomBooking_RoomName" xml:space="preserve">
+    <value>Room Name</value>
+  </data>
+  <data name="Reception_RoomBooking_RoomType" xml:space="preserve">
+    <value>Room Type</value>
+  </data>
+  <data name="Reception_RoomBooking_SurgeryProcedure" xml:space="preserve">
+    <value>Surgery/Procedure</value>
+  </data>
+  <data name="Reception_RoomBooking_SurgeryProcedure_1" xml:space="preserve">
+    <value>Surgery/Procedure</value>
+  </data>
+  <data name="Inventory_InvIpBilling_PreviousDue" xml:space="preserve">
+    <value>Previous Due</value>
+  </data>
+  <data name="Physician_AddDrugs_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Physician_AddDrugs_Dose" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="Physician_AddDrugs_DrugName" xml:space="preserve">
+    <value>DrugName</value>
+  </data>
+  <data name="Physician_AddDrugs_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Physician_AddDrugs_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Physician_AddDrugs_Instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="Physician_AddDrugs_PatientID" xml:space="preserve">
+    <value>PatientID</value>
+  </data>
+  <data name="Physician_AddDrugs_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Physician_AddDrugs_PatientNumber" xml:space="preserve">
+    <value>PatientNumber</value>
+  </data>
+  <data name="Physician_AddDrugs_PrescriptionNumber" xml:space="preserve">
+    <value>PrescriptionNumber</value>
+  </data>
+  <data name="Physician_AddDrugs_SNO" xml:space="preserve">
+    <value>S.NO</value>
+  </data>
+  <data name="Physician_AddDrugs_TREATMENT" xml:space="preserve">
+    <value>TREATMENT</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Delete_1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Delete_2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Edit_1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Edit_2" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Edit_3" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Edit_4" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Physician_IPCaseRecord_NoofSittings" xml:space="preserve">
+    <value>No. of Sitting's</value>
+  </data>
+  <data name="Physician_IPCaseRecord_ProcedureName" xml:space="preserve">
+    <value>Procedure Name</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Prosthesis" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Physician_IPCaseRecord_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Inventory_PrintBill_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Inventory_PrintBill_Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="Inventory_PrintBill_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Inventory_PrintBill_ExpDate" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="Inventory_PrintBill_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Inventory_PrintBill_Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Inventory_PrintBill_sno" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Admin_InvRefRanges_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Admin_InvRefRanges_AgeRange" xml:space="preserve">
+    <value>Age Range</value>
+  </data>
+  <data name="Admin_InvRefRanges_Catagory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Admin_InvRefRanges_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_InvRefRanges_Gender_1" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_InvRefRanges_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_InvRefRanges_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Admin_InvRefRanges_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Admin_InvRefRanges_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Admin_InvRefRanges_ValueRange" xml:space="preserve">
+    <value>Value Range</value>
+  </data>
+  <data name="Admin_InvRefRanges_ValueRange_1" xml:space="preserve">
+    <value>Value Range</value>
+  </data>
+  <data name="Admin_InvRefRanges_Value_1" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Admin_InvRefRanges_Value_2" xml:space="preserve">
+    <value>value</value>
+  </data>
+  <data name="Admin_TestInvestigation_Down" xml:space="preserve">
+    <value>DOWN</value>
+  </data>
+  <data name="Admin_TestInvestigation_InvestigationID" xml:space="preserve">
+    <value>InvestigationID</value>
+  </data>
+  <data name="Admin_TestInvestigation_INVESTIGATIONNAME" xml:space="preserve">
+    <value>INVESTIGATION NAME</value>
+  </data>
+  <data name="Admin_TestInvestigation_MOVE" xml:space="preserve">
+    <value>MOVE</value>
+  </data>
+  <data name="Admin_TestInvestigation_MoveHere" xml:space="preserve">
+    <value>Move Here</value>
+  </data>
+  <data name="Admin_TestInvestigation_SequenceNumber" xml:space="preserve">
+    <value>SequenceNumber</value>
+  </data>
+  <data name="Admin_TestInvestigation_UP" xml:space="preserve">
+    <value>UP</value>
+  </data>
+  <data name="CommonControls_CorporatePatientSearch_InvestigationList" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="CommonControls_CorporatePatientSearch_ReportingRadiologist" xml:space="preserve">
+    <value>Reporting Radiologist</value>
+  </data>
+  <data name="CommonControls_CorporatePatientSearch_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CommonControls_DynamicUserControl_Fail" xml:space="preserve">
+    <value>FAIL</value>
+  </data>
+  <data name="CommonControls_DynamicUserControl_PASS" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="Inventory_StockReturn_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Inventory_StockReturn_ReturnQTY" xml:space="preserve">
+    <value>Return QTY</value>
+  </data>
+  <data name="Inventory_StockReturn_SRDNo" xml:space="preserve">
+    <value>SRDNo</value>
+  </data>
+  <data name="Inventory_StockReturn_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Inventory_StockReturn_UnitPrice" xml:space="preserve">
+    <value>UnitPrice</value>
+  </data>
+  <data name="CommonControls_DynamicUserControl_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Inventory_StockReturn_AvailableQty" xml:space="preserve">
+    <value>AvailableQty</value>
+  </data>
+  <data name="Inventory_StockReturn_BatchNo" xml:space="preserve">
+    <value>BatchNo</value>
+  </data>
+  <data name="Inventory_StockReturn_BatchNo_1" xml:space="preserve">
+    <value>BatchNo</value>
+  </data>
+  <data name="Inventory_StockReturn_InvoiceNo" xml:space="preserve">
+    <value>InvoiceNo</value>
+  </data>
+  <data name="Inventory_StockReturn_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Delete_1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Delete_2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Edit_1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Edit_2" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_IssuedQty" xml:space="preserve">
+    <value>Issued Qty</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_nomatcrecrdfnd" xml:space="preserve">
+    <value>No matching Product found</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_prodlist" xml:space="preserve">
+    <value>Product List (Double click the below list to select the Bacth No.)</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_prodname" xml:space="preserve">
+    <value>Product Name:</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_ReturnQTY" xml:space="preserve">
+    <value>Return QTY</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_TotalAmount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Admin_BillSettlement_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_BillSettlement_ViewDenomination" xml:space="preserve">
+    <value>View Denomination</value>
+  </data>
+  <data name="CommonControls_INVStockUsage_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_ChangeDocSchedule_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Admin_ChangeDocSchedule_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Coupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_CouponName" xml:space="preserve">
+    <value>Coupon Name</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_CouponNumber" xml:space="preserve">
+    <value>Coupon Number</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Remarks_1" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Remarks_2" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_BillDate" xml:space="preserve">
+    <value>Bill Date</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_BillNo" xml:space="preserve">
+    <value>Bill No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_DOB" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Due" xml:space="preserve">
+    <value>Due</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_DueDetails" xml:space="preserve">
+    <value>Due Details</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_IPNo" xml:space="preserve">
+    <value>IP No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_NetValue" xml:space="preserve">
+    <value>Net Value</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PatientNo" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PhoneNo" xml:space="preserve">
+    <value>Phone No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_URNNo" xml:space="preserve">
+    <value>URN No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_VisitPurpose" xml:space="preserve">
+    <value>Visit Purpose</value>
+  </data>
+  <data name="CommonControls_Tasks_ComponentList" xml:space="preserve">
+    <value>Component List</value>
+  </data>
+  <data name="CommonControls_Tasks_InvestigationList" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="CommonControls_Tasks_NoOfUnits" xml:space="preserve">
+    <value>No. Of Units</value>
+  </data>
+  <data name="CommonControls_Tasks_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_ItemName" xml:space="preserve">
+    <value>ItemName</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_ItemUnit" xml:space="preserve">
+    <value>ItemUnit</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_MedicalIndents_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CommonControls_PatientVitals_Entervalidvaluefor" xml:space="preserve">
+    <value>Enter valid value for</value>
+  </data>
+  <data name="CommonControls_PatientVitals_negvalueinvalid" xml:space="preserve">
+    <value>Negative values are invalid</value>
+  </data>
+  <data name="CommonControls_PatientVitals_plsenterval" xml:space="preserve">
+    <value>Please enter atleast one value</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Address_1" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Age_1" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_DayCare" xml:space="preserve">
+    <value>DayCare</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_ExistingVisit" xml:space="preserve">
+    <value>ExistingVisit</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_MRDNumber" xml:space="preserve">
+    <value>MRD Number</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Name_1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_NewVisit" xml:space="preserve">
+    <value>NewVisit</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_OP" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PaidDate" xml:space="preserve">
+    <value>Paid Date</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PatientNoIPNo" xml:space="preserve">
+    <value>Patient No/IP No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_patno" xml:space="preserve">
+    <value>Patient Number</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PhoneNo_1" xml:space="preserve">
+    <value>Phone No</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_ReceiptNumber" xml:space="preserve">
+    <value>Receipt Number</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Sex_1" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="CommonControls_QuickPatientReg_Type_1" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Admin_DiscountMaster_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_DiscountMaster_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_DiscountMaster_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_DiscountMaster_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Invoice_ClientMaster_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Invoice_ClientMaster_TaxName" xml:space="preserve">
+    <value>Tax Name</value>
+  </data>
+  <data name="Lab_Home_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Lab_Home_InvestigationList" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="Lab_Home_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Lab_Home_RoomNo" xml:space="preserve">
+    <value>Room No:</value>
+  </data>
+  <data name="Lab_Home_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lab_Home_Status_1" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lab_Home_Status_2" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lab_Home_TestName" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lab_Home_TestName_1" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="CommonControls_InventorySearch_POQty" xml:space="preserve">
+    <value>PO Qty</value>
+  </data>
+  <data name="CommonControls_InventorySearch_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="CommonControls_InventorySearch_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_InventorySearch_RcvdQty" xml:space="preserve">
+    <value>Rcvd Qty</value>
+  </data>
+  <data name="CommonControls_InventorySearch_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="CommonControls_PrintPrescription_nopresavail" xml:space="preserve">
+    <value>No Prescription Available for the selected visit</value>
+  </data>
+  <data name="Admin_RoomMasterDetails_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_RoomMasterDetails_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_IssuedQty" xml:space="preserve">
+    <value>Issued Qty</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_ReturnQTY" xml:space="preserve">
+    <value>Return QTY</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_TotalAmount" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="CommonControls_INVStockIssue_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_cs_AlreadyOrdered" xml:space="preserve">
+    <value>(Already Ordered)</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_cs_Complaint" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="ANC_BaseLineHistory_cs_btnSave_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Billing_EditInterimBill_aspx_cs_1" xml:space="preserve">
+    <value>Zero Only...</value>
+  </data>
+  <data name="Billing_EditReferringDoctor_aspx_cs_lblstatus" xml:space="preserve">
+    <value>Referring Physician Name Sucessfully Updated</value>
+  </data>
+  <data name="CommonControls_PatientBMI_Entervalidval" xml:space="preserve">
+    <value>Enter valid value for</value>
+  </data>
+  <data name="CommonControls_PatientBMI_Negvalareinvalid" xml:space="preserve">
+    <value>Negative values are invalid</value>
+  </data>
+  <data name="CommonControls_PatientBMI_plsenteroneval" xml:space="preserve">
+    <value>Please enter atleast one value</value>
+  </data>
+  <data name="CommonControls_PrintBMI_Entervalidval" xml:space="preserve">
+    <value>Enter valid value for</value>
+  </data>
+  <data name="CommonControls_PrintBMI_Negvalareinvalid" xml:space="preserve">
+    <value>Negative values are invalid</value>
+  </data>
+  <data name="CommonControls_PrintBMI_plsenteroneval" xml:space="preserve">
+    <value>Please enter atleast one value</value>
+  </data>
+  <data name="Admin_RatesUpdation_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_RatesUpdation_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Billing_GenerateBill_aspx_cs_txt" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="ChangePassword_ChangePassword_aspx_cs_lblmsg" xml:space="preserve">
+    <value>You are logging in for the first time. Please change your password.</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblname" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblnumber" xml:space="preserve">
+    <value>Employee Number</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblpatientname" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblpatientnumber" xml:space="preserve">
+    <value>Patient Number</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblresult" xml:space="preserve">
+    <value>No matching records found</value>
+  </data>
+  <data name="DischargeSummary_DischargeSummaryDynamic_aspx_cs_death" xml:space="preserve">
+    <value>Death Summary</value>
+  </data>
+  <data name="DischargeSummary_DischargeSummaryDynamic_aspx_cs_discharge" xml:space="preserve">
+    <value>Discharge Summary</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_cs_lblmessage" xml:space="preserve">
+    <value>No Matching Records Found</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_cs_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_cs_UpdateButton" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Lab_Home_aspx_cs_gridmsg" xml:space="preserve">
+    <value>No Matching Patient Records Found</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_loginid" xml:space="preserve">
+    <value>LoginID:</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_pname" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_pnumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_cs_upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Physician_OperationNotes_aspx_cs_blood" xml:space="preserve">
+    <value>Not Yet Tested</value>
+  </data>
+  <data name="Physician_OperationNotes_aspx_cs_lblplandate" xml:space="preserve">
+    <value>Will be scheduled later</value>
+  </data>
+  <data name="CommonControls_Advice_others" xml:space="preserve">
+    <value>others</value>
+  </data>
+  <data name="Physician_Dischargesummary_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Physician_Dischargesummary_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Physician_Dischargesummary_Prosthesis" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="Physician_Dischargesummary_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Batchno" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_CompQty" xml:space="preserve">
+    <value>Comp Qty(lsu)</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Costprice" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Discount" xml:space="preserve">
+    <value>Discount(%)</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Exinpercnt" xml:space="preserve">
+    <value>Ex (%)</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_InverseQty" xml:space="preserve">
+    <value>Inverse Qty</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_mrp" xml:space="preserve">
+    <value>M.R.P</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_prodname" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_rakno" xml:space="preserve">
+    <value>Rak No</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_RcvdQty" xml:space="preserve">
+    <value>Rcvd Qty</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_RcvdQty_1" xml:space="preserve">
+    <value>Rcvd Qty(lsu)</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Sellingunt" xml:space="preserve">
+    <value>Selling Unit</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_sno" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_Tax" xml:space="preserve">
+    <value>Tax (%)</value>
+  </data>
+  <data name="Inventory_QuickStockReceived_totalcost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_AllAreMedicalItems" xml:space="preserve">
+    <value>All Are Medical Items?</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_AuthAmount" xml:space="preserve">
+    <value>Pre-AuthAmount</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_AuthApprovalNumber" xml:space="preserve">
+    <value>Pre-Auth Approval Numbe</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ClaminLogin" xml:space="preserve">
+    <value>Co-Payment to be deducted from</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ClientName" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_Copayment" xml:space="preserve">
+    <value>Copayment(%)</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_PaymentLogic" xml:space="preserve">
+    <value>Co-Payment Logic</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_RateType" xml:space="preserve">
+    <value>RateType</value>
+  </data>
+  <data name="Inventory_InvOpBilling_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Inventory_InvOpBilling_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Inventory_InvOpBilling_AvailableQty1" xml:space="preserve">
+    <value>Available Qty</value>
+  </data>
+  <data name="Inventory_InvOpBilling_BatchNo" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_InvOpBilling_BatchNo1" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Inventory_InvOpBilling_CostPrice1" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="Inventory_InvOpBilling_ExpDate1" xml:space="preserve">
+    <value>Exp Date</value>
+  </data>
+  <data name="Inventory_InvOpBilling_IsReimbursable" xml:space="preserve">
+    <value>IsReimbursable</value>
+  </data>
+  <data name="Inventory_InvOpBilling_IssuedQty" xml:space="preserve">
+    <value>Issued Qty</value>
+  </data>
+  <data name="Inventory_InvOpBilling_Product1" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Inventory_InvOpBilling_ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Inventory_InvOpBilling_SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Inventory_InvOpBilling_SellingPrice1" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Inventory_InvOpBilling_SNO" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Inventory_InvOpBilling_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblGenFemale" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblGenMale" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblNumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Particulars" xml:space="preserve">
+    <value>Particulars</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_sno" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Totalqty" xml:space="preserve">
+    <value>Total Qty</value>
+  </data>
+  <data name="InvopBilling_SearchtheProductList" xml:space="preserve">
+    <value>Search the Product List</value>
+  </data>
+  <data name="Common_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="InvopBilling_Script_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="InvopBilling_Script_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="InvopBilling_Script_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="InvopBilling_Script_DOB" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="InvopBilling_Script_IPNo" xml:space="preserve">
+    <value>IP No</value>
+  </data>
+  <data name="InvopBilling_Script_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="InvopBilling_Script_PatientNo" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="InvopBilling_Script_PhoneNo" xml:space="preserve">
+    <value>Phone No</value>
+  </data>
+  <data name="InvopBilling_Script_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="InvopBilling_Script_VisitPurpose" xml:space="preserve">
+    <value>Visit Purpose</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_CardHolderName_1" xml:space="preserve">
+    <value>CardHolderName</value>
+  </data>
+  <data name="ErrorStatus_Message" xml:space="preserve">
+    <value>There was a problem. Please contact system administrator</value>
+  </data>
+  <data name="Inventory_Category_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Inventory_Category_CatAddFaild" xml:space="preserve">
+    <value>Category Added Failed</value>
+  </data>
+  <data name="Inventory_Category_CatAddSucc" xml:space="preserve">
+    <value>Category Added sucessfully</value>
+  </data>
+  <data name="Inventory_Category_CatDelFaild" xml:space="preserve">
+    <value>Category Deletion Failed</value>
+  </data>
+  <data name="Inventory_Category_CatDelSucc" xml:space="preserve">
+    <value>Category Deleted sucessfully</value>
+  </data>
+  <data name="Inventory_Category_CatUPtFaild" xml:space="preserve">
+    <value>Category Updated Failed</value>
+  </data>
+  <data name="Inventory_Category_CatUPtSucc" xml:space="preserve">
+    <value>Category Updated sucessfully</value>
+  </data>
+  <data name="Inventory_Intend_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Inventory_Intend_Inprogress" xml:space="preserve">
+    <value>Inprogress</value>
+  </data>
+  <data name="Inventory_Intend_Issued" xml:space="preserve">
+    <value>Issued</value>
+  </data>
+  <data name="Inventory_Intend_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Inventory_Intend_ViewIntend" xml:space="preserve">
+    <value>View Intend</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Inventory_Intend_ApprovedIntend" xml:space="preserve">
+    <value>Approved Intend</value>
+  </data>
+  <data name="Inventory_Intend_IssuedStock" xml:space="preserve">
+    <value>Issued Stock</value>
+  </data>
+  <data name="Inventory_Intend_IssueIntend" xml:space="preserve">
+    <value>Issue Intend</value>
+  </data>
+  <data name="Inventory_Intend_ReceivedIndent" xml:space="preserve">
+    <value>Received Indent</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Inventory_InvIpbilling_DrugName" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="Inventory_InvIpbilling_IsComponent" xml:space="preserve">
+    <value>Is Component</value>
+  </data>
+  <data name="Inventory_InvIpbilling_Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Inventory_InvOpBilling_MakeCompndDrugs" xml:space="preserve">
+    <value>Make CompoundProducts</value>
+  </data>
+  <data name="Inventory_InvOpBilling_qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="CommonControl_Foodmenuwardmapping_AlrdyExst" xml:space="preserve">
+    <value>Added  Menu Ward Mapping Already Exists</value>
+  </data>
+  <data name="CommonControl_Foodmenuwardmapping_UptFald" xml:space="preserve">
+    <value>Menu Ward Mapping Updation Failed</value>
+  </data>
+  <data name="Common_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Inventory_Intend_PartialIssued" xml:space="preserve">
+    <value>Partial Issued</value>
+  </data>
+  <data name="Inventory_Intend_Received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_MenuAddFald" xml:space="preserve">
+    <value>Menu Added Failed</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_MenuAddsucc" xml:space="preserve">
+    <value>Menu Added sucessfully</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_MenuAlrdyHve" xml:space="preserve">
+    <value>Menu Already Have</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_MenuUptFalid" xml:space="preserve">
+    <value>Menu Updated Failed</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_MenuUptSucc" xml:space="preserve">
+    <value>Menu Updated sucessfully</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_sessionAddFalid" xml:space="preserve">
+    <value>Session Added Failed</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_sessionAddsucc" xml:space="preserve">
+    <value>Session Added sucessfully</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_sessionAlrdyHve" xml:space="preserve">
+    <value>Session Already Have</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_sessionUptFalid" xml:space="preserve">
+    <value>Session Updated Failed</value>
+  </data>
+  <data name="CommonControl_FoodMenuMaster_sessionUptsucc" xml:space="preserve">
+    <value>Session Updated sucessfully</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="InvBulkUpdate_ProductAddedFailed" xml:space="preserve">
+    <value>Product Added Failed</value>
+  </data>
+  <data name="Admin_Testinvestigation_Lab" xml:space="preserve">
+    <value>Lab</value>
+  </data>
+  <data name="Admin_Testinvestigation_MappedInvestigation" xml:space="preserve">
+    <value>Mapped Investigation</value>
+  </data>
+  <data name="Admin_Testinvestigation_MasterInvestigation" xml:space="preserve">
+    <value>Master Investigation</value>
+  </data>
+  <data name="Admin_ReasonMaster_InActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="CommonControl_Foodmenuwardmapping_successMessage" xml:space="preserve">
+    <value>Menu Ward Mapping has been added successfully</value>
+  </data>
+  <data name="CommonControl_Foodmenuwardmapping_update_message" xml:space="preserve">
+    <value>Menu Ward Mapping has been updated successfully</value>
+  </data>
+  <data name="CommonControl_FoodCategory_Addsucc" xml:space="preserve">
+    <value>Food Category has been added succesfully</value>
+  </data>
+  <data name="CommonControl_FoodCategory_Uptsucc" xml:space="preserve">
+    <value>Food Category has been updated succesfully</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodIngredntsMapppingaddsucc" xml:space="preserve">
+    <value>FoodIngredientsMapping has been Added sucessfully</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodIngredntsMapppingUptdSucc" xml:space="preserve">
+    <value>FoodIngredientsMapping  has been Updated sucessfully</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodMenuDetailAddsuc" xml:space="preserve">
+    <value>FoodMenuDetails has been Added sucessfully</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodMenuDetailAlrdyExst" xml:space="preserve">
+    <value>Added FoodMenuDetails already exist</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodMenuDetailsUptdFald" xml:space="preserve">
+    <value>FoodMenuDetails Updation Failed</value>
+  </data>
+  <data name="Commoncontrols_FoodMenuDetail_FoodMenuDetailsUptdsuc" xml:space="preserve">
+    <value>FoodMenuDetails has been  Updated sucessfully</value>
+  </data>
+  <data name="Report_PhysicianWiseCollectionReport_Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Report_PhysicianWiseCollectionReport_credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Report_PhysicianWiseCollectionReport_paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="Report_VacantRoomList" xml:space="preserve">
+    <value>Room Vacant List(resx)</value>
+  </data>
+  <data name="Report_CollectionReportdptwiseOPIP_Addamtrcvd" xml:space="preserve">
+    <value>Addtional amount received during this period</value>
+  </data>
+  <data name="Report_CollectionReportdptwiseOPIP_totamtrcvd" xml:space="preserve">
+    <value>Total advance amount received during the period</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_collection_report_tooltip1" xml:space="preserve">
+    <value>IP Due Chart - Billed Item</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_collection_report_tooltip2" xml:space="preserve">
+    <value>Due Collect from CollectDuepayment</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_Date" xml:space="preserve">
+    <value>Date_resx:</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_Deposit_collection_report" xml:space="preserve">
+    <value>Deposit - Collection Report</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_IP_collection_report" xml:space="preserve">
+    <value>IP - Collection Report</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_MultipleCurrencies" xml:space="preserve">
+    <value>Multiple Currencies(resx)</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_opip_collection_report" xml:space="preserve">
+    <value>OP &amp; IP - Collection Report</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_OP_collection_report" xml:space="preserve">
+    <value>OP - Collection Report(resx)</value>
+  </data>
+  <data name="Report_CollectionReportOPIP_Total" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="Inventory_DispensingReport_DispensingReport" xml:space="preserve">
+    <value>Dispensing Reports</value>
+  </data>
+  <data name="Inventory_DispensingReport_DispensingReport_prefixtext" xml:space="preserve">
+    <value>DispensingReport_</value>
+  </data>
+  <data name="Inventory_DispensingReport_ReportDate" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="Inventory_DispensingReport_ReportName" xml:space="preserve">
+    <value>Report Name</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_GrandTot" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_InvoiceNo" xml:space="preserve">
+    <value>Invoice No.</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_NetValue" xml:space="preserve">
+    <value>Net Value</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Paidamt" xml:space="preserve">
+    <value>PaidAmt</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_prefix1" xml:space="preserve">
+    <value>Purchase Order Reports_</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_SRDdt" xml:space="preserve">
+    <value>SRD Date</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_SRDNo" xml:space="preserve">
+    <value>SRD No</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_supplierName" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Tax" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Taxableamt" xml:space="preserve">
+    <value>TaxableAmt</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_TinNo" xml:space="preserve">
+    <value>Tin No.</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Vat0" xml:space="preserve">
+    <value>Vat (0%)</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Vat12" xml:space="preserve">
+    <value>Vat (12.5%)</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Vat4" xml:space="preserve">
+    <value>Vat (4%)</value>
+  </data>
+  <data name="Inventory_PurchaseorderReport_Zero" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="Inventory_SalesReport_Pharmacyproditemrfndval" xml:space="preserve">
+    <value>Pharmacy Product Item Refund Value</value>
+  </data>
+  <data name="Inventory_SalesReport_Pharmacytotrefndamt" xml:space="preserve">
+    <value>Pharmacy Total Refund Amount</value>
+  </data>
+  <data name="Inventory_SalesReport_reportdate" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="Inventory_SalesReport_reportname" xml:space="preserve">
+    <value>Report Name</value>
+  </data>
+  <data name="Inventory_SalesReport_salesreport" xml:space="preserve">
+    <value>Sales Report</value>
+  </data>
+  <data name="Inventory_SalesReport_Zero" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="Inventory_StockReport_Allstck" xml:space="preserve">
+    <value>All Stocks</value>
+  </data>
+  <data name="Inventory_StockReport_clickstckrpt" xml:space="preserve">
+    <value>Click Here To Print the {0} Stock Report(resx)</value>
+  </data>
+  <data name="Inventory_StockReport_Nilstck" xml:space="preserve">
+    <value>Nil Stocks</value>
+  </data>
+  <data name="Inventory_StockReport_Nilstckrpt" xml:space="preserve">
+    <value>Nil Stock Report</value>
+  </data>
+  <data name="Inventory_StockReport_Nilstockprint" xml:space="preserve">
+    <value>This is Nil Stock.So you don't take print this Product</value>
+  </data>
+  <data name="Inventory_StockReport_NonZerostck" xml:space="preserve">
+    <value>Non-Zero Stocks</value>
+  </data>
+  <data name="Inventory_StockReport_onlyforAdmin" xml:space="preserve">
+    <value>Only Administrator can view the Stock Details</value>
+  </data>
+  <data name="Inventory_StockReport_Prefix1" xml:space="preserve">
+    <value>Reports_</value>
+  </data>
+  <data name="Inventory_StockReport_Prefix2" xml:space="preserve">
+    <value>Nil_Stock_Report_</value>
+  </data>
+  <data name="Inventory_StockReport_ReportDate" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="Inventory_StockReport_ReportName" xml:space="preserve">
+    <value>Report Name</value>
+  </data>
+  <data name="Inventory_StockReport_StockInhandstckrpt" xml:space="preserve">
+    <value>Stock InHand Report</value>
+  </data>
+  <data name="Inventory_StockReport_Zero" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="Inventory_Reorderelevel_productalrdyOrdered" xml:space="preserve">
+    <value>This product is already been ordered</value>
+  </data>
+  <data name="Inventory_Reorderelevel_productAlrdyPlacd" xml:space="preserve">
+    <value>Product already placed an order</value>
+  </data>
+  <data name="Inventory_Reorderelevel_productReacgdReOrderlvl" xml:space="preserve">
+    <value>This product is reached the reorder level</value>
+  </data>
+  <data name="Inventory_StockIssuedReport_prefix1" xml:space="preserve">
+    <value>Stock_Issued_Report_</value>
+  </data>
+  <data name="Inventory_StockIssuedReport_stockIssuedReport" xml:space="preserve">
+    <value>Stock Issued Report</value>
+  </data>
+  <data name="Inventory_StockIssuedReport_TotalCp" xml:space="preserve">
+    <value>Total CP</value>
+  </data>
+  <data name="Inventory_StockIssuedReport_TotalSp" xml:space="preserve">
+    <value>Total SP</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_CardHolderName_15" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_Date_1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Scripts_ResultsCapture_select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Admin_ReasonMaster_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+</root>

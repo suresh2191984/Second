@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_01" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_02" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_03" xml:space="preserve">
+    <value>Số đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_04" xml:space="preserve">
+    <value>TÊN</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_05" xml:space="preserve">
+    <value>ID sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_06" xml:space="preserve">
+    <value>Được cấp</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_07" xml:space="preserve">
+    <value>Được sử dụng Vì vậy, Đối với</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_08" xml:space="preserve">
+    <value>Sự miêu tả</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_09" xml:space="preserve">
+    <value>AttributeValues</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_10" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributes_ascx_11" xml:space="preserve">
+    <value>Chỉ định</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_01" xml:space="preserve">
+    <value>Chỉ định</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_02" xml:space="preserve">
+    <value>Số đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_03" xml:space="preserve">
+    <value>ID sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_04" xml:space="preserve">
+    <value>Được cấp</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_05" xml:space="preserve">
+    <value>Được sử dụng Vì vậy, Đối với</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_06" xml:space="preserve">
+    <value>Sự miêu tả</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_07" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_08" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_09" xml:space="preserve">
+    <value>TÊN</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_10" xml:space="preserve">
+    <value>AttributeValues</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVAttributeUsage_ascx_11" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_01" xml:space="preserve">
+    <value>Sao chép Đơn đặt hàng</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_02" xml:space="preserve">
+    <value>Hủy đơn hàng</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_03" xml:space="preserve">
+    <value>Phê duyệt đơn đặt hàng</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_04" xml:space="preserve">
+    <value>Trong tiến trình</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_05" xml:space="preserve">
+    <value>Đang chờ xử lý</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_06" xml:space="preserve">
+    <value>Đã hủy</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_07" xml:space="preserve">
+    <value>Nhận</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_08" xml:space="preserve">
+    <value>Tán thành</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_09" xml:space="preserve">
+    <value>Một phần</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_10" xml:space="preserve">
+    <value>Không tìm thấy kết quả!</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_11" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_12" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_13" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_14" xml:space="preserve">
+    <value>Số lượng PO</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_15" xml:space="preserve">
+    <value>Số lượng đã nhận</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_16" xml:space="preserve">
+    <value>Chọn một</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_01" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_02" xml:space="preserve">
+    <value>Tìm kiếm Danh sách sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_03" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_04" xml:space="preserve">
+    <value>Danh sách sản phẩm (Nhấp đúp vào danh sách dưới đây để chọn số Bacth)</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_05" xml:space="preserve">
+    <value>Không tìm thấy sản phẩm phù hợp</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_06" xml:space="preserve">
+    <value>Số đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_07" xml:space="preserve">
+    <value>ID sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_08" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_09" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_10" xml:space="preserve">
+    <value>TÊN</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_11" xml:space="preserve">
+    <value>Được cấp</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_12" xml:space="preserve">
+    <value>Sự miêu tả</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_13" xml:space="preserve">
+    <value>AttributeValues</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_14" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_ProductSearch_ascx_01" xml:space="preserve">
+    <value>Chọn danh mục</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_15" xml:space="preserve">
+    <value>Danh sách sản phẩm (Double Click vào danh sách để chọn số lô)</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_16" xml:space="preserve">
+    <value>Số lượng phát hành</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_17" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_18" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_19" xml:space="preserve">
+    <value>Tổng cộng</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_20" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_21" xml:space="preserve">
+    <value>Lô không</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_22" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_23" xml:space="preserve">
+    <value>Gia ban</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_24" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_25" xml:space="preserve">
+    <value>Số lượng trả lại</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_01" xml:space="preserve">
+    <value>Sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_02" xml:space="preserve">
+    <value>Lô không</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_03" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_04" xml:space="preserve">
+    <value>Gia ban</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_05" xml:space="preserve">
+    <value>Giá cả</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_06" xml:space="preserve">
+    <value>Số lượng có sẵn</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_07" xml:space="preserve">
+    <value>Đã tạo vào ngày</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_08" xml:space="preserve">
+    <value>Ngày MFT</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_09" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_10" xml:space="preserve">
+    <value>Mã MFT</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_11" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_12" xml:space="preserve">
+    <value>MRP / SRP</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_13" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_14" xml:space="preserve">
+    <value>tên đệm</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_15" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_16" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_17" xml:space="preserve">
+    <value>Đơn giá</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_18" xml:space="preserve">
+    <value>Gia ban</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_19" xml:space="preserve">
+    <value>Thuế</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_20" xml:space="preserve">
+    <value>Giảm giá</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvAutoCompBacthNo_js_21" xml:space="preserve">
+    <value>Cổ phiếu trong số lượng tay</value>
+  </data>
+  <data name="InventoryCommon_Controls_InventorySearch_ascx_17" xml:space="preserve">
+    <value>Phê duyệt báo giá</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_26" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_27" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_28" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_29" xml:space="preserve">
+    <value>Lô không</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_30" xml:space="preserve">
+    <value>Số lượng trả lại</value>
+  </data>
+  <data name="InventoryCommon_Controls_INVStockUsage_ascx_31" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_03" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_04" xml:space="preserve">
+    <value>Lô không</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_05" xml:space="preserve">
+    <value>Số lượng phát hành</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_06" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_07" xml:space="preserve">
+    <value>Gia ban</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_08" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="InventoryCommon_Scripts_InvStockUsage_js_09" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_01" xml:space="preserve">
+    <value>Tên thuốc</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_02" xml:space="preserve">
+    <value>Tần số</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_03" xml:space="preserve">
+    <value>Phương hướng</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_04" xml:space="preserve">
+    <value>Thời lượng</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_05" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="InventoryCommon_PrescriptionProcess_aspx_06" xml:space="preserve">
+    <value>Chỉ dẫn</value>
+  </data>
+</root>

@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StockIntend_Intend_aspx_01" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_03" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_04" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_05" xml:space="preserve">
+    <value>Select From Date</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_06" xml:space="preserve">
+    <value>Select To Date</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_07" xml:space="preserve">
+    <value>Invalid Date</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_08" xml:space="preserve">
+    <value>Select the Indent Status</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_09" xml:space="preserve">
+    <value>Select The Received By</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_10" xml:space="preserve">
+    <value>Select any one indent type</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_11" xml:space="preserve">
+    <value>This intend is not suitable</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_12" xml:space="preserve">
+    <value>Select an Indent</value>
+  </data>
+  <data name="StockIntend_Intend_aspx_13" xml:space="preserve">
+    <value>This Indent Is Not Approved Yet</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_01" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_03" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_04" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_05" xml:space="preserve">
+    <value>Selected Product As Been Marked As Banned. Do You Still Wish To Use This?</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_06" xml:space="preserve">
+    <value>Selected product has been reached its reorder level. Do you still wish to use this?</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_07" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="StockIntend_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StockIntend_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="StockIntend_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="StockIntend_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StockIntend_StockIssued_aspx_01" xml:space="preserve">
+    <value>Select the Organization</value>
+  </data>
+  <data name="StockIntend_StockIssued_aspx_02" xml:space="preserve">
+    <value>Format is not correct</value>
+  </data>
+  <data name="StockIntend_StockIssued_aspx_03" xml:space="preserve">
+    <value>Select The Product</value>
+  </data>
+  <data name="StockIntend_StockIssued_aspx_04" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="StockIntend_ReceivedIndent_aspx_01" xml:space="preserve">
+    <value>Provide Less Than Or Equal To Issued Quantity</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_01" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_03" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_04" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_05" xml:space="preserve">
+    <value>Select Atleast One Product</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_06" xml:space="preserve">
+    <value>Select Organization Name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_07" xml:space="preserve">
+    <value>Select location Name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_08" xml:space="preserve">
+    <value>Raise Indent Has Same Location</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_09" xml:space="preserve">
+    <value>Enter product name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_10" xml:space="preserve">
+    <value>Enter Protocol Name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_11" xml:space="preserve">
+    <value>Select Different Location Name For Raise Indent and On Behalf Of</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_12" xml:space="preserve">
+    <value>Product Name Does Not Exist</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_13" xml:space="preserve">
+    <value>Product Name Does Not Exist</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_14" xml:space="preserve">
+    <value>Product already exist</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_15" xml:space="preserve">
+    <value>Provide The Product Quantity</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_16" xml:space="preserve">
+    <value>Select Raise Indent To Organization</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_17" xml:space="preserve">
+    <value>Select Raise Indent To Store</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_18" xml:space="preserve">
+    <value>Select Indent Raised On Behalf Of Organization</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_19" xml:space="preserve">
+    <value>Select Indent Raised On Behalf Of Site</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_20" xml:space="preserve">
+    <value>Select Different Sites For Raise and On Behalf Of</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_21" xml:space="preserve">
+    <value>Provide Protocol Name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_22" xml:space="preserve">
+    <value>Select The Site For Raise Indent</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_23" xml:space="preserve">
+    <value>Provide product name</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_24" xml:space="preserve">
+    <value>Product Name Does Not Exist</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_25" xml:space="preserve">
+    <value>Provide The Product Quantity</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_26" xml:space="preserve">
+    <value>Product Name Already Exist</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_27" xml:space="preserve">
+    <value>Selected Product As Been Marked As Banned. Do You Still Wish To Use This?</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_29" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_30" xml:space="preserve">
+    <value>Raised More Than Required Quantity</value>
+  </data>
+  <data name="StockIntend_ViewIntendDetail_aspx_01" xml:space="preserve">
+    <value>Provide Return Quantity Less Than Or Equal To Issued Quantity</value>
+  </data>
+  <data name="StockIntend_ViewIntendDetail_aspx_02" xml:space="preserve">
+    <value>Provide Quantity</value>
+  </data>
+  <data name="StockIntend_ViewIssuedIndentdetails_aspx_01" xml:space="preserve">
+    <value>Provide Return Quantity Less Than Or Equal To Issued Quantity</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_01" xml:space="preserve">
+    <value>Provide The Product List</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_02" xml:space="preserve">
+    <value>Select The Issued And  Received By</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_03" xml:space="preserve">
+    <value>Provide The Batch Number</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_04" xml:space="preserve">
+    <value>Provide Issue Quantity</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_05" xml:space="preserve">
+    <value>Provide the actual indent quantity</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_06" xml:space="preserve">
+    <value>Ensure Items added/Quantity are Provided Properly/Pharmacy Bill Due Is Available Should not Refund</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_07" xml:space="preserve">
+    <value>Product Number and Batch Number Combination Already Exist</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_08" xml:space="preserve">
+    <value>Select The Issue To Location</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_09" xml:space="preserve">
+    <value>Select The Product</value>
+  </data>
+  <data name="StockIntend_Scripts_IssueStock_js_10" xml:space="preserve">
+    <value>Selected Product As Been Marked As Banned. Do You Still Wish To Use This?</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_01" xml:space="preserve">
+    <value>Select StockReturn Type</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_02" xml:space="preserve">
+    <value>Provide Valid Date</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_03" xml:space="preserve">
+    <value>Provide The Product List</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_04" xml:space="preserve">
+    <value>Select The Issued Location And  Received By</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_05" xml:space="preserve">
+    <value>Provide The Batch Number</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_06" xml:space="preserve">
+    <value>Provide Issue Quantity</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_07" xml:space="preserve">
+    <value>Ensure the items added/quantity are provided properly</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_08" xml:space="preserve">
+    <value>Product Number and Batch Number Combination Already Exist</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_09" xml:space="preserve">
+    <value>Select the Organization</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_10" xml:space="preserve">
+    <value>Select The Issue To Location</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_12" xml:space="preserve">
+    <value>Select stock damage date</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_13" xml:space="preserve">
+    <value>Select The Product</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_14" xml:space="preserve">
+    <value>Ensure Items added/Quantity are Provided Properly/Pharmacy Bill Due Is Available Should not Refund</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_25" xml:space="preserve">
+    <value>Stock already return remaining stock only use</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_26" xml:space="preserve">
+    <value>This Product Have Return Sub Store Stock</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_27" xml:space="preserve">
+    <value>You Can Use Remaining Stock</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_28" xml:space="preserve">
+    <value>Please select Location</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_29" xml:space="preserve">
+    <value>Please select Return Type</value>
+  </data>
+  <data name="StockIntend_Scripts_SubStoreReturn_js_30" xml:space="preserve">
+    <value>Please select To location</value>
+  </data>
+  <data name="StockIntend_SubStoreReturnDetail_aspx_01" xml:space="preserve">
+    <value>Provide Return Quantity Less Than Or Equal To Issued Quantity</value>
+  </data>
+  <data name="StockIntend_SubStoreReturnDetail_aspx_02" xml:space="preserve">
+    <value>Given quantity more the rised quantity</value>
+  </data>
+  <data name="StockIntend_SubStoreReturnDetail_aspx_03" xml:space="preserve">
+    <value>All the product return quantity is zero.You can use cancel option!</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_01" xml:space="preserve">
+    <value>Select From Date</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_02" xml:space="preserve">
+    <value>Select To Date</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_03" xml:space="preserve">
+    <value>Invalid Date</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_04" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_05" xml:space="preserve">
+    <value>Select any one indent type</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_06" xml:space="preserve">
+    <value>This intend is not suitable</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_07" xml:space="preserve">
+    <value>Select an Indent</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_08" xml:space="preserve">
+    <value>This indent is not Suitable....</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_09" xml:space="preserve">
+    <value>This Indent Is Not Approved Yet</value>
+  </data>
+  <data name="StockIntend_SubstoreSearch_aspx_10" xml:space="preserve">
+    <value>Invalid Date</value>
+  </data>
+  <data name="StockIntend_ViewSubStoreStockdetails_aspx_01" xml:space="preserve">
+    <value>Provide Return Quantity Less Than Or Equal To Issued Quantity</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_08" xml:space="preserve">
+    <value>There is no sufficient Qty to Issue stock..!</value>
+  </data>
+  <data name="StockIntend_RaiseIntend_aspx_31" xml:space="preserve">
+    <value>You can't add more than 9999999 Quantity.</value>
+  </data>
+  <data name="StockIntend_IssueStock_aspx_09" xml:space="preserve">
+    <value>Add Product</value>
+  </data>
+</root>

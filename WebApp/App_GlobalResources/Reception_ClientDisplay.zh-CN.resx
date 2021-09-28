@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_PhotoUpload_ascx_01" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="CommonControls_PhotoUpload_ascx_02" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_02" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_03" xml:space="preserve">
+    <value>TRF图片上​​传</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_01" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_01" xml:space="preserve">
+    <value>患者无/访问号：</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_04" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_05" xml:space="preserve">
+    <value>是尚未被诊断</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_06" xml:space="preserve">
+    <value>约会时间</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_07" xml:space="preserve">
+    <value>Registeration位置</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_08" xml:space="preserve">
+    <value>印刷版的用户</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_09" xml:space="preserve">
+    <value>患者总数</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_10" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_11" xml:space="preserve">
+    <value>参观人数</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_12" xml:space="preserve">
+    <value>年龄/性别</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_13" xml:space="preserve">
+    <value>访问日期时间</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_14" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_15" xml:space="preserve">
+    <value>Ref.Dr</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_16" xml:space="preserve">
+    <value>区</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_17" xml:space="preserve">
+    <value>注册的用户名</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_18" xml:space="preserve">
+    <value>测试说明</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_19" xml:space="preserve">
+    <value>没有DATAS导出</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_20" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_21" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_22" xml:space="preserve">
+    <value>都</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_23" xml:space="preserve">
+    <value>没有找到DATAS</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_01" xml:space="preserve">
+    <value>查看报名</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_02" xml:space="preserve">
+    <value>审核历史记录</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_03" xml:space="preserve">
+    <value>工作列表详细信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_05" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_06" xml:space="preserve">
+    <value>通知详细</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_07" xml:space="preserve">
+    <value>查看病历</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_08" xml:space="preserve">
+    <value>设备的价值</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_09" xml:space="preserve">
+    <value>样品的详细信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_10" xml:space="preserve">
+    <value>报名详情</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_11" xml:space="preserve">
+    <value>历史和备注</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_12" xml:space="preserve">
+    <value>结算明细</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_13" xml:space="preserve">
+    <value>样品和容器详细信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_14" xml:space="preserve">
+    <value>报告详细信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_15" xml:space="preserve">
+    <value>责令调查有关对于PatientVisit</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_17" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_18" xml:space="preserve">
+    <value>工作列表详细信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_19" xml:space="preserve">
+    <value>短信通知的详细资料</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_20" xml:space="preserve">
+    <value>电子邮件通知详细</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_21" xml:space="preserve">
+    <value>约会时间</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_22" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_23" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_24" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_25" xml:space="preserve">
+    <value>测试值</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_26" xml:space="preserve">
+    <value>旧值</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_27" xml:space="preserve">
+    <value>当前值</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_28" xml:space="preserve">
+    <value>通信详细</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_29" xml:space="preserve">
+    <value>重新检查</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_31" xml:space="preserve">
+    <value>复试</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_35" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_36" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_37" xml:space="preserve">
+    <value>客户</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_38" xml:space="preserve">
+    <value>01-01-0001 12:00 AM</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_39" xml:space="preserve">
+    <value>追忆</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_41" xml:space="preserve">
+    <value>的ReportViewer</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_01" xml:space="preserve">
+    <value>收稿时间为：</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_02" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_03" xml:space="preserve">
+    <value>从时间退款：</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_04" xml:space="preserve">
+    <value>没有收到的金额从患者的</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_05" xml:space="preserve">
+    <value>没有收到的金额</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_06" xml:space="preserve">
+    <value>没有退款制造</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_07" xml:space="preserve">
+    <value>没有补偿的人们</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_08" xml:space="preserve">
+    <value>收到：</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_09" xml:space="preserve">
+    <value>该法案已被取消</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_10" xml:space="preserve">
+    <value>该法案一直不退</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_01" xml:space="preserve">
+    <value>登录ID：</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_02" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_001" xml:space="preserve">
+    <value>患者搜索</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_002" xml:space="preserve">
+    <value>载入中...</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_003" xml:space="preserve">
+    <value>请选择一个病人</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_004" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_001" xml:space="preserve">
+    <value>合并表</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_002" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_003" xml:space="preserve">
+    <value>联合国合并</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_01" xml:space="preserve">
+    <value>请选择一个病人</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_01" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_02" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_03" xml:space="preserve">
+    <value> -  - -选择 -  - -</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_04" xml:space="preserve">
+    <value>输入新诊所的细节</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_05" xml:space="preserve">
+    <value>选择一个诊所编辑的详细信息，或单击添加新诊所。</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_01" xml:space="preserve">
+    <value> -  - 选择 -  - -</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_02" xml:space="preserve">
+    <value>搜索现有的医师详细信息或点击添加新医师。</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_03" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_04" xml:space="preserve">
+    <value>输入新医师的细节</value>
+  </data>
+  <data name="Reception_Collections_aspx_01" xml:space="preserve">
+    <value>客户</value>
+  </data>
+  <data name="Reception_Collections_aspx_02" xml:space="preserve">
+    <value>存款</value>
+  </data>
+  <data name="Reception_Collections_aspx_03" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_01" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_01" xml:space="preserve">
+    <value>这一数额是受</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_02" xml:space="preserve">
+    <value>％消费税</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_03" xml:space="preserve">
+    <value>&lt;B&gt;授权签名（</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_04" xml:space="preserve">
+    <value>）&lt;/ b&gt;的</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_05" xml:space="preserve">
+    <value>信用比尔</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_06" xml:space="preserve">
+    <value>比尔取消</value>
+  </data>
+  <data name="Reception_Reception_LabPatientRegistration_aspx_24" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_01" xml:space="preserve">
+    <value>患者无：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_02" xml:space="preserve">
+    <value>患者姓名：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_03" xml:space="preserve">
+    <value>性别：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_04" xml:space="preserve">
+    <value>年龄：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_05" xml:space="preserve">
+    <value>访问编号：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_06" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_08" xml:space="preserve">
+    <value>&lt;U&gt;项目&lt;/ U&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_09" xml:space="preserve">
+    <value>&lt;U&gt;数量&lt;/ U&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_10" xml:space="preserve">
+    <value>&lt;U&gt;率&lt;/ U&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_11" xml:space="preserve">
+    <value>&lt;U&gt;金额&lt;/ U&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_12" xml:space="preserve">
+    <value>取消原因</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_13" xml:space="preserve">
+    <value>打印当前比尔</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_14" xml:space="preserve">
+    <value>打印父比尔</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_15" xml:space="preserve">
+    <value>这一数额是受</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_16" xml:space="preserve">
+    <value>％消费税</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_17" xml:space="preserve">
+    <value>比尔取消</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_18" xml:space="preserve">
+    <value>优先 ：</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_19" xml:space="preserve">
+    <value>信用比尔</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_10" xml:space="preserve">
+    <value>---选择一个---</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_01" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_02" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_03" xml:space="preserve">
+    <value>请选择一个比尔</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_05" xml:space="preserve">
+    <value>添加新的。参见诊所</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_13" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_02" xml:space="preserve">
+    <value>门诊病人</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_03" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_04" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_16" xml:space="preserve">
+    <value>调查名字</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_30" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_32" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_33" xml:space="preserve">
+    <value>反射测试</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_34" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_40" xml:space="preserve">
+    <value>与同样样品的反射</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_07" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+</root>

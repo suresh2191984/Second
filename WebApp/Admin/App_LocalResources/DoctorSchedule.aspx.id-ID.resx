@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnCloseResource1.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="btnDeleteResource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Tanggal Mulai</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Diulang Oleh :</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Diulang Pada:</value>
+  </data>
+  <data name="lblBranchLocationResource1.Text" xml:space="preserve">
+    <value>Cabang/Lokasi</value>
+  </data>
+  <data name="lblFrmResource1.Text" xml:space="preserve">
+    <value>Dari Tanggal</value>
+  </data>
+  <data name="lblMonthsResource1.Text" xml:space="preserve">
+    <value>Mengulang Setiap:</value>
+  </data>
+  <data name="lblMWResource1.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="lblPleasewaitResource1.Text" xml:space="preserve">
+    <value>Harap Tunggu....</value>
+  </data>
+  <data name="lblRepeatResource1.Text" xml:space="preserve">
+    <value>Pengulangan</value>
+  </data>
+  <data name="lblTimingResource1.Text" xml:space="preserve">
+    <value>Pengaturan Waktu</value>
+  </data>
+  <data name="lblToResource1.Text" xml:space="preserve">
+    <value>Hingga Tanggal</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Selasa</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Rabu</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Kamis</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Jumat</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Sabtu</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Harian</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Mingguan</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Bulanan</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Tahunan</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Hari Dari Bulan</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>Hari Dari Bulan</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Hari Dari Minggu</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Hari Dari Minggu</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Minggu </value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Senin</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MaskedEditValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator5</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Jadwal</value>
+  </data>
+  <data name="lblClientidResource1.Text" xml:space="preserve">
+    <value>Jenis Klien</value>
+  </data>
+  <data name="lblClientResource1.Text" xml:space="preserve">
+    <value>Nama Klien</value>
+  </data>
+  <data name="lblDoctorResource1.Text" xml:space="preserve">
+    <value>Nama Dokter</value>
+  </data>
+  <data name="lblDurationResource1.Text" xml:space="preserve">
+    <value>Jangka Waktu</value>
+  </data>
+  <data name="lblTestNameResource1.Text" xml:space="preserve">
+    <value>Nama Pemeriksaan</value>
+  </data>
+  <data name="lblTypeResource1.Text" xml:space="preserve">
+    <value>Pilih Jenis</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOrgLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBranchLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFrmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMWResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPleasewaitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatWordsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatWordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdrptByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDOBResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDOBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoctorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

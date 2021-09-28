@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_01" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin):</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_02" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_03" xml:space="preserve">
+    <value>particulares</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_04" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_05" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_06" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_07" xml:space="preserve">
+    <value>total:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_08" xml:space="preserve">
+    <value>Amount in Words: ({0}) {1} {2} Only...</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_09" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_10" xml:space="preserve">
+    <value>la edad del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_11" xml:space="preserve">
+    <value>número de paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_12" xml:space="preserve">
+    <value>prescrito por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_13" xml:space="preserve">
+    <value>pedido por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_14" xml:space="preserve">
+    <value>recibo no.:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_15" xml:space="preserve">
+    <value>fecha pedido:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_16" xml:space="preserve">
+    <value>D.L.No:</value>
+  </data>
+  <data name="HospIPBilling_Controls_IPBulkBill_ascx_Display_01" xml:space="preserve">
+    <value>Pharmacy Breakup Charges -</value>
+  </data>
+  <data name="HospIPBilling_Controls_IPBulkBill_ascx_Display_02" xml:space="preserve">
+    <value>Pharmacy Charges -</value>
+  </data>
+  <data name="HospIPBilling_Controls_CashReceipt_ascx_01" xml:space="preserve">
+    <value>solamente...</value>
+  </data>
+  <data name="HospIPBilling_Controls_CashReceipt_ascx_02" xml:space="preserve">
+    <value>facturado por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_01" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_02" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_03" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_04" xml:space="preserve">
+    <value>precio unitario</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_05" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_06" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_07" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_08" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_09" xml:space="preserve">
+    <value>pedido por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_10" xml:space="preserve">
+    <value>D.L.No:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_11" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin):</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_12" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_13" xml:space="preserve">
+    <value>particulares</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_14" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_15" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_16" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_17" xml:space="preserve">
+    <value>total:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_18" xml:space="preserve">
+    <value>Amount in Words:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_19" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_20" xml:space="preserve">
+    <value>la edad del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_21" xml:space="preserve">
+    <value>prescrito por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_22" xml:space="preserve">
+    <value>número de paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_23" xml:space="preserve">
+    <value>recibo no.:</value>
+  </data>
+  <data name="HospIPBilling_Controls_DueChartList_ascx_24" xml:space="preserve">
+    <value>fecha pedido:</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_01" xml:space="preserve">
+    <value>diagnóstico</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_02" xml:space="preserve">
+    <value>Pharmacy:-</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_03" xml:space="preserve">
+    <value>Dont Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_04" xml:space="preserve">
+    <value>número de (emr) enfermedad mínima residual </value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_05" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_06" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_07" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_08" xml:space="preserve">
+    <value>Transgender</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_09" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_10" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_11" xml:space="preserve">
+    <value>Service tax Reg.no.</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_12" xml:space="preserve">
+    <value>facturado por</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_13" xml:space="preserve">
+    <value>lower value</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_14" xml:space="preserve">
+    <value>upper value</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_15" xml:space="preserve">
+    <value>ninguna</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_16" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_17" xml:space="preserve">
+    <value>procedimientos</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_18" xml:space="preserve">
+    <value>laboratorio</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_19" xml:space="preserve">
+    <value>Other Medical Items</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_20" xml:space="preserve">
+    <value>Surgery/Intervention</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_21" xml:space="preserve">
+    <value>Surgery Packages</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_22" xml:space="preserve">
+    <value>Casuality</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_23" xml:space="preserve">
+    <value>inmunización</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_24" xml:space="preserve">
+    <value>Other Treatment Charges</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_25" xml:space="preserve">
+    <value>Room Charges :- Rs:</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_26" xml:space="preserve">
+    <value>* Break up Incl All Taxes</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_27" xml:space="preserve">
+    <value>Dont Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_28" xml:space="preserve">
+    <value>Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_PatientConsolidateBill_aspx_01" xml:space="preserve">
+    <value>Interim No :</value>
+  </data>
+  <data name="HospIPBilling_PatientConsolidateBill_aspx_02" xml:space="preserve">
+    <value>recibo no.:</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_01" xml:space="preserve">
+    <value>cerrar ventana</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_01" xml:space="preserve">
+    <value>Paid By TPA</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_02" xml:space="preserve">
+    <value>típo de pago</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_03" xml:space="preserve">
+    <value>cheque / letra de cambio</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_04" xml:space="preserve">
+    <value>nombre del banco</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_06" xml:space="preserve">
+    <value>fecha de pago</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_07" xml:space="preserve">
+    <value>Updated Sucessfully...!</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_011" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin):</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_021" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_031" xml:space="preserve">
+    <value>particulares</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_041" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_051" xml:space="preserve">
+    <value>tarifa</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_061" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_071" xml:space="preserve">
+    <value>total:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_091" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_101" xml:space="preserve">
+    <value>la edad del paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_111" xml:space="preserve">
+    <value>número de paciente:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_121" xml:space="preserve">
+    <value>prescrito por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_131" xml:space="preserve">
+    <value>pedido por:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_141" xml:space="preserve">
+    <value>recibo no.:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_151" xml:space="preserve">
+    <value>fecha pedido:</value>
+  </data>
+  <data name="HospIPBilling_Controls_EsInvIntrimBill_ascx_Display_161" xml:space="preserve">
+    <value>D.L.No:</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_Display_01" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_01" xml:space="preserve">
+    <value>No Treatment Found</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_02" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_03" xml:space="preserve">
+    <value>Assistant Surgeon's Fee</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_04" xml:space="preserve">
+    <value>Assistant Surgeon's Fee</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_05" xml:space="preserve">
+    <value>Anesthetist</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_08" xml:space="preserve">
+    <value>Instrumentation charges</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_10" xml:space="preserve">
+    <value>enfermera</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_14" xml:space="preserve">
+    <value>otros</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_15" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_Display_07" xml:space="preserve">
+    <value>Clear Dues</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_Display_09" xml:space="preserve">
+    <value>paciente</value>
+  </data>
+  <data name="HospIPBilling_EditInterimBill_aspx_Display_02" xml:space="preserve">
+    <value>The due for this item has already been cleared</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_02" xml:space="preserve">
+    <value>Dont Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_03" xml:space="preserve">
+    <value>* Break up Incl All Taxes</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_04" xml:space="preserve">
+    <value>Dont Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_05" xml:space="preserve">
+    <value>Show Pharmacy Items</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_06" xml:space="preserve">
+    <value>número de (emr) enfermedad mínima residual </value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_07" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_08" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_09" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_10" xml:space="preserve">
+    <value>Transgender</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_11" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_12" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_13" xml:space="preserve">
+    <value>Service tax Reg.no.</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_15" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_22" xml:space="preserve">
+    <value>procedimientos</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_25" xml:space="preserve">
+    <value>Surgery/Intervention</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_27" xml:space="preserve">
+    <value>Surgery Packages</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_29" xml:space="preserve">
+    <value>Casuality</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_31" xml:space="preserve">
+    <value>inmunización</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_32" xml:space="preserve">
+    <value>Other Treatment Charges</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_Display_33" xml:space="preserve">
+    <value>Medical Indents</value>
+  </data>
+  <data name="HospIPBilling_InterimSearch_aspx_Display_01" xml:space="preserve">
+    <value>hoy</value>
+  </data>
+  <data name="HospIPBilling_InterimSearch_aspx_Display_03" xml:space="preserve">
+    <value>Print Interim Bill</value>
+  </data>
+  <data name="HospIPBilling_IPBillingHome_aspx_Display_01" xml:space="preserve">
+    <value>IsSurgeryAdvance</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_01" xml:space="preserve">
+    <value>% On Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_02" xml:space="preserve">
+    <value>% On Billed Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_03" xml:space="preserve">
+    <value>% On Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_04" xml:space="preserve">
+    <value>Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_05" xml:space="preserve">
+    <value>total facturado</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_06" xml:space="preserve">
+    <value>Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_07" xml:space="preserve">
+    <value>On Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_08" xml:space="preserve">
+    <value>On Billed Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_09" xml:space="preserve">
+    <value>On Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_10" xml:space="preserve">
+    <value>Treatment</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_Display_11" xml:space="preserve">
+    <value>Pharmacy</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_01" xml:space="preserve">
+    <value>% On Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_02" xml:space="preserve">
+    <value>% On Billed Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_03" xml:space="preserve">
+    <value>% On Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_04" xml:space="preserve">
+    <value>Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_05" xml:space="preserve">
+    <value>total facturado</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_06" xml:space="preserve">
+    <value>Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_07" xml:space="preserve">
+    <value>On Lesser of Billed And Pre-Auth</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_08" xml:space="preserve">
+    <value>On Billed Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_09" xml:space="preserve">
+    <value>On Pre-Auth Amount</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_03" xml:space="preserve">
+    <value>Transgender</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_04" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_05" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_06" xml:space="preserve">
+    <value>procedimientos</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_07" xml:space="preserve">
+    <value>Medical Indents</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_08" xml:space="preserve">
+    <value>Surgery/Intervention</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_09" xml:space="preserve">
+    <value>Surgery Packages</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_10" xml:space="preserve">
+    <value>Casuality</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_11" xml:space="preserve">
+    <value>inmunización</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_12" xml:space="preserve">
+    <value>Other Treatment Charges</value>
+  </data>
+  <data name="HospIPBilling_IPViewBillTemp_aspx_Display_13" xml:space="preserve">
+    <value>* Break up Incl All Taxes</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_01" xml:space="preserve">
+    <value>* Break up Incl All Taxes</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_02" xml:space="preserve">
+    <value>Show Consultation</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_03" xml:space="preserve">
+    <value>Show Investigation</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_04" xml:space="preserve">
+    <value>Show Pharmacy</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_05" xml:space="preserve">
+    <value>Bill Status : Canceled</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_06" xml:space="preserve">
+    <value>ENHANCED CREDIT BILL</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_07" xml:space="preserve">
+    <value>Final Bill</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_08" xml:space="preserve">
+    <value>factura pagada</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_09" xml:space="preserve">
+    <value>número de (emr) enfermedad mínima residual </value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_10" xml:space="preserve">
+    <value>identificación de nulife</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_11" xml:space="preserve">
+    <value>Dont Show Lab Items</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_12" xml:space="preserve">
+    <value>Show Lab Items</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_13" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_14" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_15" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_16" xml:space="preserve">
+    <value>Service tax Reg.no.</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_17" xml:space="preserve">
+    <value>Medical Indents</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_18" xml:space="preserve">
+    <value>Surgery/Intervention</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_19" xml:space="preserve">
+    <value>Surgery Packages</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_20" xml:space="preserve">
+    <value>inmunización</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_21" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_22" xml:space="preserve">
+    <value>procedimientos</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_23" xml:space="preserve">
+    <value>Casuality</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_24" xml:space="preserve">
+    <value>Other Treatment Charges</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_25" xml:space="preserve">
+    <value>Transgender</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_01" xml:space="preserve">
+    <value>Total Record Count</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_02" xml:space="preserve">
+    <value>tipo de descuento</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_03" xml:space="preserve">
+    <value>importe de descuento</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_04" xml:space="preserve">
+    <value>comentarios</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_05" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_06" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_Display_02" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="HospIPBilling_Controls_InsuranceSearch_ascx_01" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_04" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_05" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_26" xml:space="preserve">
+    <value>imprimir la cuenta</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_01" xml:space="preserve">
+    <value>Room Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_02" xml:space="preserve">
+    <value>Consultation Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_03" xml:space="preserve">
+    <value>Lab Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_04" xml:space="preserve">
+    <value>Treatment Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_05" xml:space="preserve">
+    <value>Pharmacy Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_06" xml:space="preserve">
+    <value>Procedure Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_07" xml:space="preserve">
+    <value>Casuality Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_08" xml:space="preserve">
+    <value>Immunization Charges</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_09" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_10" xml:space="preserve">
+    <value>Non-MedicalItems Charges</value>
+  </data>
+  <data name="HospIPBilling_EditInterimBill_aspx_03" xml:space="preserve">
+    <value>sólo cero...</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_16" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_17" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_27" xml:space="preserve">
+    <value>ip ver factura</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_01" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_02" xml:space="preserve">
+    <value>Occupy</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_03" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_04" xml:space="preserve">
+    <value>Vacate</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_05" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospIPBilling_Controls_RoomBookingDispaly_ascx_06" xml:space="preserve">
+    <value>horario</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_08" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_12" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_13" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_11" xml:space="preserve">
+    <value>Amount in Words:</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_12" xml:space="preserve">
+    <value>monto a pagar en palabras:</value>
+  </data>
+  <data name="HospIPBilling_IPSummaryBill_aspx_13" xml:space="preserve">
+    <value>imprimir la cuenta</value>
+  </data>
+</root>

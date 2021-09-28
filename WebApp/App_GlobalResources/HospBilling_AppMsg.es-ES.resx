@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_01" xml:space="preserve">
+    <value>nombre de usuario de correo inválido</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_02" xml:space="preserve">
+    <value>Invalid Date!</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_03" xml:space="preserve">
+    <value>This Patient is registered already</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_04" xml:space="preserve">
+    <value>Select any one Visit type</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_05" xml:space="preserve">
+    <value>Select The Visit Purpose</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_06" xml:space="preserve">
+    <value>Enter The Patient Name</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_07" xml:space="preserve">
+    <value>Select The Marital Status</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_08" xml:space="preserve">
+    <value>Select The Sex</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_09" xml:space="preserve">
+    <value>Please select Patient from List</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_10" xml:space="preserve">
+    <value>Select any one Episode</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_11" xml:space="preserve">
+    <value>Sittings are finished for this Episode</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_12" xml:space="preserve">
+    <value>Used Sittings are zero. Please select New sittings</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_13" xml:space="preserve">
+    <value>proporcione año válido</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_14" xml:space="preserve">
+    <value>Please Enter Age in (Days or Weeks or Months or Year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_15" xml:space="preserve">
+    <value>Please select Episode</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_16" xml:space="preserve">
+    <value>Smart Card No cannot be blank</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_17" xml:space="preserve">
+    <value>No Patient Found</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_18" xml:space="preserve">
+    <value>Enter The Patient Name</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_19" xml:space="preserve">
+    <value>There has been a problem in processing the smart card</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_20" xml:space="preserve">
+    <value>Patient visit for Inpatient has been generated already</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_21" xml:space="preserve">
+    <value>This Patient has MRD process pending in the Department : {0}</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_22" xml:space="preserve">
+    <value>The Collect Payment Task for Previous Visit is Pending in the Department : {0}</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_23" xml:space="preserve">
+    <value>Please select New sittings or Existing sittings</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_24" xml:space="preserve">
+    <value>Select Salutation/Patient Name</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_25" xml:space="preserve">
+    <value>Please Enter Patient Name</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_26" xml:space="preserve">
+    <value>por favor introduzca el correo electrónico</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_27" xml:space="preserve">
+    <value>Please Enter the Refering Physician</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_28" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_29" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_30" xml:space="preserve">
+    <value>This Patient has  not yet Registered.So,Now are you sure to registered?</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_31" xml:space="preserve">
+    <value>Do you want to clear the form and reset the fields?</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_02" xml:space="preserve">
+    <value>el porcentaje de copago deber ser entre 0 y 100</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_03" xml:space="preserve">
+    <value>percentage must between 0 to 100</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_04" xml:space="preserve">
+    <value>hubo un problema en la validación del número de póliza al generar sep del servidor bpjs. \ n por eso se ha generado una desconección sep</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_05" xml:space="preserve">
+    <value>Please Close your previous day cash and do HospBilling</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_06" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_07" xml:space="preserve">
+    <value>Notification task to EMR failed for this patient.</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_08" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_09" xml:space="preserve">
+    <value>Failure while saving the transaction. Please try again.</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_10" xml:space="preserve">
+    <value>Items added successfully</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_11" xml:space="preserve">
+    <value>Due Items added Failed</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_12" xml:space="preserve">
+    <value>Not able to Proceed to billing - Problem in saving the bill</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_13" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_14" xml:space="preserve">
+    <value>Patient Already registered with the given details</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_01" xml:space="preserve">
+    <value>seleccione el número de factura</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_02" xml:space="preserve">
+    <value>Cannot cancel the bill because this bill trusted Organization Bill</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_03" xml:space="preserve">
+    <value>Cannot perform action for IP bill</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_04" xml:space="preserve">
+    <value>visita ya cancelada</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_05" xml:space="preserve">
+    <value>visita ya cerrada</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_06" xml:space="preserve">
+    <value>Cannot perform action for Cash bill !</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_07" xml:space="preserve">
+    <value>Cannot perform action for Credit bill !</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_08" xml:space="preserve">
+    <value>Cannot perform action for Amount Received bill !</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_09" xml:space="preserve">
+    <value>Cannot perform action for Due bill !</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_10" xml:space="preserve">
+    <value>recaudación adeudada no puede ser reembolsada</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_11" xml:space="preserve">
+    <value>monto ya reembolsado a esta factura</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_12" xml:space="preserve">
+    <value>no se puede reembolsar la factura seleccionada</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_13" xml:space="preserve">
+    <value>selected Patient is not credit</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_14" xml:space="preserve">
+    <value>paciente seleccionado no dado de alta</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_15" xml:space="preserve">
+    <value>Refunded Bill can not be cancel</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_16" xml:space="preserve">
+    <value>Already Task Assigned</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_17" xml:space="preserve">
+    <value>esta factura ha sido cancelado</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_18" xml:space="preserve">
+    <value>Cannot cancel the bill before refund the whole amount !!</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_19" xml:space="preserve">
+    <value>Please ensure all the pending tasks have been deleted for this patient. Do you wish to continue?</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_20" xml:space="preserve">
+    <value>Already Cancelled this bill</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_21" xml:space="preserve">
+    <value>Already Task Assigned</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_22" xml:space="preserve">
+    <value>No Drugs</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_23" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_24" xml:space="preserve">
+    <value>This Cannot be performed On Inpatients</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_25" xml:space="preserve">
+    <value>This is IP Patient.so not able to perform {0}</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_05" xml:space="preserve">
+    <value>Casuality  saved scucessfully...!</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_06" xml:space="preserve">
+    <value>Error while saving Casuality..!</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_07" xml:space="preserve">
+    <value>MedicalIndents  saved scucessfully...!</value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_08" xml:space="preserve">
+    <value>Error while saving MedicalIndents..!</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>la cantidad avanzada no puede ser devuelta</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_06" xml:space="preserve">
+    <value>monto de pago conjunto no puede ser reembolsado</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_07" xml:space="preserve">
+    <value>recibo de paciente dado de alta no puede ser reembolsado</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_08" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_09" xml:space="preserve">
+    <value>por favor introduzca número de página correcta</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_05" xml:space="preserve">
+    <value>por favor introduzca descripción de la tarifa </value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_06" xml:space="preserve">
+    <value>por favor elija el tipo de monto</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_07" xml:space="preserve">
+    <value>por favor seleccione el médico para etiquetar</value>
+  </data>
+  <data name="HospBilling_Controls_FeesEntry_ascx_08" xml:space="preserve">
+    <value>escrito nombre del médico no existe</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_05" xml:space="preserve">
+    <value>Click Edit Button.</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_06" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_07" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_26" xml:space="preserve">
+    <value>por favor seleccione una factura</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_27" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_28" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_29" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_30" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>por favor seleccione una factura</value>
+  </data>
+  <data name="HospBilling_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospBilling_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="HospBilling_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospBilling_Scripts_ChangePayMentModes_js_01" xml:space="preserve">
+    <value>Received amount should not be zero.</value>
+  </data>
+  <data name="HospBilling_Scripts_ChangePayMentModes_js_02" xml:space="preserve">
+    <value>monto recibido es mayor que el monto neto</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_01" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_02" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_03" xml:space="preserve">
+    <value>Please Enter the Refering Physician</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_04" xml:space="preserve">
+    <value>Date should be current date or previous date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_05" xml:space="preserve">
+    <value>Please select the date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_06" xml:space="preserve">
+    <value>Provide description for the selected fee type</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_07" xml:space="preserve">
+    <value>proporcione la cantidad</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_08" xml:space="preserve">
+    <value>Please Provide Performing Physician Name</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_09" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_10" xml:space="preserve">
+    <value>indique razón de descuento</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_11" xml:space="preserve">
+    <value>Provide Discount Value</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_12" xml:space="preserve">
+    <value>Select the Service from the available listIf Need to add non-existing service,\n Order the same under Miscellaneous Type</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_13" xml:space="preserve">
+    <value>Discount Amount Should Less Than Total Amount</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_14" xml:space="preserve">
+    <value>Select the fee type</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_15" xml:space="preserve">
+    <value>This patient has due amount of {0} : {1}</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_16" xml:space="preserve">
+    <value>Select Any one Visit type</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_17" xml:space="preserve">
+    <value>Please Enter the Client Details</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_18" xml:space="preserve">
+    <value>artículo ya agregado</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_19" xml:space="preserve">
+    <value>Speciality ordered already cannot order more than one speciality</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_20" xml:space="preserve">
+    <value>Not able to proceed to billing - Problem in saving the bill.</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_21" xml:space="preserve">
+    <value>Patient already registered with the given details</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_22" xml:space="preserve">
+    <value>ya existe el paciente con el mismo nombre y detalles de contacto. ingrese cambios y vuelva a intentarlo</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_23" xml:space="preserve">
+    <value>Please Enter Due Reason</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_24" xml:space="preserve">
+    <value>Amount received should not more than patient payable amount!</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_25" xml:space="preserve">
+    <value>There are no items in the queue to be billed</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_26" xml:space="preserve">
+    <value>Enter Reason for Discount</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_27" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_28" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_29" xml:space="preserve">
+    <value>Now This Patient have Follow-up Rates</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_30" xml:space="preserve">
+    <value>Now This Patient have Post Follow-up Rates</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_31" xml:space="preserve">
+    <value>Now This Patient have Post Follow-up Rates</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_32" xml:space="preserve">
+    <value>percentage must between 0 to 100</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_33" xml:space="preserve">
+    <value>monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_34" xml:space="preserve">
+    <value>Item already edited. Please update</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_35" xml:space="preserve">
+    <value>por favor introduzca el monto</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_36" xml:space="preserve">
+    <value>You should Collect Rs. {0}</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_37" xml:space="preserve">
+    <value>Discount is not allowed if the bill is added to due. Please use Final settlement page to provide discount. You can provide discount only for Make payment option</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_38" xml:space="preserve">
+    <value>please select make payment option!</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_39" xml:space="preserve">
+    <value>Collect Advance or Make Payment</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_40" xml:space="preserve">
+    <value>Collect The Advance</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_41" xml:space="preserve">
+    <value>seleccione el paciente</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_42" xml:space="preserve">
+    <value>monto de descuento es mayor que coste bruto</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_43" xml:space="preserve">
+    <value>This Date cannot be future date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_44" xml:space="preserve">
+    <value>escribir fecha válida</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_45" xml:space="preserve">
+    <value>Duplicate contact no. Do you want to continue ? \n {0}</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_46" xml:space="preserve">
+    <value>This Bill Amount will be added to due.\n Do you want to continue</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_47" xml:space="preserve">
+    <value>As credit patient,this is claim amount.Do you want to continue?</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_48" xml:space="preserve">
+    <value>This Bill Amount will be added to due.\n Do you want to continue</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_49" xml:space="preserve">
+    <value>Duplicate contact no. Do you want to continue ? \n</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_50" xml:space="preserve">
+    <value>Bill Date cannot be earlier to Admission Date -</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_51" xml:space="preserve">
+    <value>Bill Date cannot be earlier to Visit Date -</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_52" xml:space="preserve">
+    <value>Bill Date cannot be earlier to Application Start Date -</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_53" xml:space="preserve">
+    <value>Give Discount Percentage</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_32" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_33" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_01" xml:space="preserve">
+    <value>Please Select Chief Surgeon</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_02" xml:space="preserve">
+    <value>Please Select Assistant Surgeon</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_03" xml:space="preserve">
+    <value>Please Select Anesthetist</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_04" xml:space="preserve">
+    <value>Please Select Nurse</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_05" xml:space="preserve">
+    <value>Please Select ProsthesisFee</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_06" xml:space="preserve">
+    <value>Provide the surgical fee or chief surgeon fee</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_07" xml:space="preserve">
+    <value>Provide the bill date</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_08" xml:space="preserve">
+    <value>Select A Surgery</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_09" xml:space="preserve">
+    <value>Please Enter Valid Date</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_31" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_08" xml:space="preserve">
+    <value>Please Choose Atleast one(Patient Name,Patient Number,Bill No,Bill Data) Search Criteria.</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_34" xml:space="preserve">
+    <value>Select The Sex</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_01" xml:space="preserve">
+    <value>There are no items in the queue to be billed</value>
+  </data>
+  <data name="HospBilling_GenerateVisit__aspx_02" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_03" xml:space="preserve">
+    <value>proporcione descripción</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_04" xml:space="preserve">
+    <value>proporcione la cantidad</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_05" xml:space="preserve">
+    <value>artículo ya agregado</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_06" xml:space="preserve">
+    <value>Speciality ordered already cannot order more than one speciality</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_07" xml:space="preserve">
+    <value>Failure while saving the transaction. Please try again.</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_08" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_01" xml:space="preserve">
+    <value>artículo ya agregado</value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_01" xml:space="preserve">
+    <value>agregar impresión de cotización de servicio</value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_02" xml:space="preserve">
+    <value>Slect VisitType</value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_03" xml:space="preserve">
+    <value>Item Amount is Zero,Do You Want Added this Item?</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_01" xml:space="preserve">
+    <value>Reason for cancellation is mandatory</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_02" xml:space="preserve">
+    <value>Result value cannot be blank</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_03" xml:space="preserve">
+    <value>Please Enter Cheque Number</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_04" xml:space="preserve">
+    <value>Please Enter Bank Name</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_05" xml:space="preserve">
+    <value>Refund Successfull</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_06" xml:space="preserve">
+    <value>¿Desea Imprimir?</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_07" xml:space="preserve">
+    <value>Refund will be processed. Do you wish to continue?</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_08" xml:space="preserve">
+    <value>Refund will be Assigned. Do you wish to continue?</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_09" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_32" xml:space="preserve">
+    <value>seleccione el paciente</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_33" xml:space="preserve">
+    <value>Billed User Name cannot be modified. Cash Closure is already done for this Bill</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_34" xml:space="preserve">
+    <value>The user name is same as existing one. Provide a different name</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_35" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_36" xml:space="preserve">
+    <value>select the Username</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_37" xml:space="preserve">
+    <value>Change User Name</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_54" xml:space="preserve">
+    <value>Please select the Ambulance No</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_55" xml:space="preserve">
+    <value>Please Select a Start Date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_56" xml:space="preserve">
+    <value>Please Select a To Date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_57" xml:space="preserve">
+    <value>Ambulance start Date and To date cannot be same!</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_58" xml:space="preserve">
+    <value>Ambulance Date cannot be later than Bill date time!</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_59" xml:space="preserve">
+    <value>Please ensure ambulance Fromdate less than Todate!</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_60" xml:space="preserve">
+    <value>Amubulance dates should be less than visit date</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_61" xml:space="preserve">
+    <value>Ambulance travel hours should be less than 24 hours</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_10" xml:space="preserve">
+    <value>No Package Available</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_11" xml:space="preserve">
+    <value>Please select value from list</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_12" xml:space="preserve">
+    <value>Please select atleast one Service.</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_13" xml:space="preserve">
+    <value>Please provide Performing Physician Specialty</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_14" xml:space="preserve">
+    <value>Please Provide no. of sittings\\turns to take</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_15" xml:space="preserve">
+    <value>No of sittings\\turns to take can not be greater than available sittings.</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_16" xml:space="preserve">
+    <value>No of sittings\\turns to take can not be zero or less</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_17" xml:space="preserve">
+    <value>Minimum Sittings should be 1</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_18" xml:space="preserve">
+    <value>Sittings should be less than or equal to :</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_19" xml:space="preserve">
+    <value>You are selecting an Expired item.</value>
+  </data>
+  <data name="HospBilling_GenerateVisit_aspx_20" xml:space="preserve">
+    <value>Please provide Performing Physician Name</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_15" xml:space="preserve">
+    <value>Deposit should not be greater than Net Amount</value>
+  </data>
+</root>

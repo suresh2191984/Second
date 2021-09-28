@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_01" xml:space="preserve">
+    <value>Đơn đặt hàng</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_02" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_03" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_04" xml:space="preserve">
+    <value>Số TIN</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_08" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_05" xml:space="preserve">
+    <value>Ngày được chấp thuận :</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_06" xml:space="preserve">
+    <value>Được chấp nhận bởi :</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_01" xml:space="preserve">
+    <value>tên đệm</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_02" xml:space="preserve">
+    <value>tên danh mục</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_03" xml:space="preserve">
+    <value>tên sản phẩm</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_04" xml:space="preserve">
+    <value>Mã sản phẩm</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_05" xml:space="preserve">
+    <value>Cấp độ đơn đặt hàng lại</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_06" xml:space="preserve">
+    <value>Số lượng sử dụng</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_07" xml:space="preserve">
+    <value>Số lượng InHand</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_08" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_09" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_10" xml:space="preserve">
+    <value>Số lượng nghịch đảo</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_11" xml:space="preserve">
+    <value>Gia ban</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_12" xml:space="preserve">
+    <value>Giảm giá</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_13" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_14" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="StockManagement_INVBulkUpdate_aspx_01" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="StockManagement_UpdateStockInHand_aspx_01" xml:space="preserve">
+    <value>Lưu thành công</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_01" xml:space="preserve">
+    <value>TẤT CẢ CÁC</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_02" xml:space="preserve">
+    <value>Đã tải lên thành công chi tiết</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_03" xml:space="preserve">
+    <value>Vui lòng sửa hàng trùng lặp và thử lại</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_04" xml:space="preserve">
+    <value>Vui lòng sửa các dòng sau và thử lại</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_05" xml:space="preserve">
+    <value>Quá trình không thể hoàn thành. Bởi vì nó đang được sử dụng bởi một quá trình khác</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_06" xml:space="preserve">
+    <value>Vui lòng đổi tên trang tính thành Sheet 1</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_07" xml:space="preserve">
+    <value>Tệp không tồn tại</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_08" xml:space="preserve">
+    <value>Tệp phải là định dạng xls hoặc xlsx</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_09" xml:space="preserve">
+    <value>Chuỗi không được công nhận là ngày giờ hợp lệ</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_10" xml:space="preserve">
+    <value>Lỗi Msg</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_11" xml:space="preserve">
+    <value>Đã tìm thấy hơn một nhà cung cấp. Xin vui lòng sửa lại</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_12" xml:space="preserve">
+    <value>Tên nhà cung cấp không tồn tại. Vui lòng thêm nhà cung cấp trước khi tải lên</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_13" xml:space="preserve">
+    <value>LSU không tồn tại. Vui lòng sửa lại trước khi tải lên</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_14" xml:space="preserve">
+    <value>Năm không phù hợp giữa nhà sản xuất và ngày hết hạn</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_15" xml:space="preserve">
+    <value>Số lượng sản phẩm đã được đổi thành ZERO</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_16" xml:space="preserve">
+    <value>Số lượng đã được khôi phục thành ZERO</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_17" xml:space="preserve">
+    <value>Vui lòng chọn sản phẩm</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_18" xml:space="preserve">
+    <value>Vui lòng chọn vị trí</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_19" xml:space="preserve">
+    <value>Vui lòng chọn tệp</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_20" xml:space="preserve">
+    <value>Vui lòng chọn danh sách thể loại</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_21" xml:space="preserve">
+    <value>Sản phẩm đã được thêm</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_01" xml:space="preserve">
+    <value>Đóng cửa sổ</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_02" xml:space="preserve">
+    <value>Không thể thực hiện tác vụ này</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_03" xml:space="preserve">
+    <value>Cung cấp số lượng InHand</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_04" xml:space="preserve">
+    <value>Cung cấp thuế</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_05" xml:space="preserve">
+    <value>Giá chi phí không thể lớn hơn giá bán</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_06" xml:space="preserve">
+    <value>Kết hợp hàng loạt sản phẩm đã tồn tại</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_07" xml:space="preserve">
+    <value>Vui lòng nhập lô không</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_08" xml:space="preserve">
+    <value>Số lô không được nhập cho một số hàng. Các hàng này sẽ không được lưu.</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_09" xml:space="preserve">
+    <value>Vui lòng nhập ngày hết hạn</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_10" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_01" xml:space="preserve">
+    <value>Sản phẩm đã đặt hàng</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_02" xml:space="preserve">
+    <value>Sản phẩm đã đặt Cấp độ Sắp xếp lại</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_03" xml:space="preserve">
+    <value>Số sê-ri</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_04" xml:space="preserve">
+    <value>Sản phẩm</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_05" xml:space="preserve">
+    <value>Mã sản phẩm</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_06" xml:space="preserve">
+    <value>thể loại</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_07" xml:space="preserve">
+    <value>Cấp độ đơn đặt hàng lại</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_08" xml:space="preserve">
+    <value>Cổ phiếu trong tay</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_09" xml:space="preserve">
+    <value>số lượng đặt hàng</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_01" xml:space="preserve">
+    <value>Đã nhận được các chi tiết về cổ phiếu Cập nhật thành công</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_02" xml:space="preserve">
+    <value>Không nhận được thông tin chi tiết về chứng khoán</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_03" xml:space="preserve">
+    <value>Có một vấn đề. Vui lòng liên hệ với quản trị viên hệ thống</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_07" xml:space="preserve">
+    <value>CÔ</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_15" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_16" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_10" xml:space="preserve">
+    <value>Đi</value>
+  </data>
+  <data name="StockManagement_ReorderLevel_aspx_27" xml:space="preserve">
+    <value>Kiểm tra để xem sản phẩm được đặt trên đơn đặt hàng</value>
+  </data>
+</root>

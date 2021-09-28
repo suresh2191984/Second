@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HospIPBilling_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="HospIPBilling_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="HospIPBilling_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="HospIPBilling_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="HospIPBilling_HospitalBillSearch_aspx_01" xml:space="preserve">
+    <value>Please Select a Bill</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_01" xml:space="preserve">
+    <value>No Receipt for this Patient</value>
+  </data>
+  <data name="HospIPBilling_KMHIPViewBill_aspx_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_01" xml:space="preserve">
+    <value>Collect Advance or Set Credit Limit or Make Payment</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_02" xml:space="preserve">
+    <value>Select the Treatment Name</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_03" xml:space="preserve">
+    <value>Provide the surgical fee or chief surgeon fee</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_04" xml:space="preserve">
+    <value>Provide the bill date</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_05" xml:space="preserve">
+    <value>Enter The Bill Date</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_06" xml:space="preserve">
+    <value>Date should be current date or previous date</value>
+  </data>
+  <data name="HospIPBilling_SurgeryBilling_aspx_07" xml:space="preserve">
+    <value>Please select the date</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_01" xml:space="preserve">
+    <value>Cheque/Card Number Already exist</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_02" xml:space="preserve">
+    <value>Ensure the Given Date is Greater than Current Date.</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_03" xml:space="preserve">
+    <value>Date can not lesser than Discharge date</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_04" xml:space="preserve">
+    <value>Date can not lesser than Admission date</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_05" xml:space="preserve">
+    <value>Amount is greater than bill amount</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_06" xml:space="preserve">
+    <value>Provide received amount</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_07" xml:space="preserve">
+    <value>Status cannot be Pending</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_08" xml:space="preserve">
+    <value>Status cannot be Completed</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_09" xml:space="preserve">
+    <value>Please select value</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_10" xml:space="preserve">
+    <value>Provide the TPA amount</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_11" xml:space="preserve">
+    <value>Amount provided is greater than Claim amount</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_12" xml:space="preserve">
+    <value>Provide Cheque or DD Number</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_13" xml:space="preserve">
+    <value>Provide the bank name</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_14" xml:space="preserve">
+    <value>Do you want to Save the entered Details</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_15" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_16" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_17" xml:space="preserve">
+    <value>No Previous Payment made this patient</value>
+  </data>
+  <data name="HospIPBilling_TpaPaymentCollection_aspx_18" xml:space="preserve">
+    <value>Check atleast one item and then click Save</value>
+  </data>
+  <data name="HospIPBilling_TPAPayment_aspx_01" xml:space="preserve">
+    <value>Claim forward Date save Succesfully</value>
+  </data>
+  <data name="HospIPBilling_TPAPayment_aspx_02" xml:space="preserve">
+    <value>Select a patient and click Go</value>
+  </data>
+  <data name="HospIPBilling_TPAPayment_aspx_03" xml:space="preserve">
+    <value>Select Claim Forward Date For Selected Items</value>
+  </data>
+  <data name="HospIPBilling_TPAPayment_aspx_04" xml:space="preserve">
+    <value>Select a patient and click save</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>Advance Amount cannot be Refund</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>Co payment Amount cannot be Refund</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>Discharged Patient Receipt Cannot be Refund</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_01" xml:space="preserve">
+    <value>select treatment plan</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_02" xml:space="preserve">
+    <value>Select the Assistant Surgeon</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_03" xml:space="preserve">
+    <value>Enter The Fees</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_04" xml:space="preserve">
+    <value>Assistant Already Added!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_05" xml:space="preserve">
+    <value>Select the anesthetist</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_06" xml:space="preserve">
+    <value>Anesthetist Already Added!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_07" xml:space="preserve">
+    <value>Enter The Other Fees</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_08" xml:space="preserve">
+    <value>Enter The Other Fee Type</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_09" xml:space="preserve">
+    <value>Fee Type Already Added!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_10" xml:space="preserve">
+    <value>Select The Instrumentation</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_11" xml:space="preserve">
+    <value>Enter The Nurse name</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_12" xml:space="preserve">
+    <value>Nurse name Already Added!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_13" xml:space="preserve">
+    <value>Select Item Name</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_14" xml:space="preserve">
+    <value>Item Already Added!</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_15" xml:space="preserve">
+    <value>Please Enter Description</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_16" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_17" xml:space="preserve">
+    <value>This item name already exist</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_18" xml:space="preserve">
+    <value>Amount is greater then.</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_19" xml:space="preserve">
+    <value>Surgical split amount greater than total surgical fee amount</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_20" xml:space="preserve">
+    <value>Surgical split amount Less than total surgical fee amount</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_21" xml:space="preserve">
+    <value>Enter The Patient Name</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_22" xml:space="preserve">
+    <value>Enter The Client Name</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_23" xml:space="preserve">
+    <value>Please Select The Rate TYpe</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_01" xml:space="preserve">
+    <value>Amount provided is greater than net amount</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_02" xml:space="preserve">
+    <value>Please Collect Whole Due Amount.</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_03" xml:space="preserve">
+    <value>Discount Cannot be Greater than Gross Amount</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_04" xml:space="preserve">
+    <value>Discount Amount is greater than Gross value</value>
+  </data>
+  <data name="HospIPBilling_DueClearance_aspx_05" xml:space="preserve">
+    <value>Discount cannot be greater than amount</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_01" xml:space="preserve">
+    <value>Click Discharge patient</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_02" xml:space="preserve">
+    <value>Enter the Bank Name</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_03" xml:space="preserve">
+    <value>Enter the Cheque Number</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_04" xml:space="preserve">
+    <value>Enter Reason for Discount.</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_05" xml:space="preserve">
+    <value>Amount recieved greater than current total. \n Please check recieved amount.</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_06" xml:space="preserve">
+    <value>Please enter recieved amount</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_07" xml:space="preserve">
+    <value>Please enter Reason for refund</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_08" xml:space="preserve">
+    <value>Enter Reason for Discount.</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_09" xml:space="preserve">
+    <value>Discount Cannot be Greater than Gross Amount</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_10" xml:space="preserve">
+    <value>Discount Amount is greater than Gross value</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_11" xml:space="preserve">
+    <value>Amount recieved is lesser than current total. Remaining Amount will be calculate as Due</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_12" xml:space="preserve">
+    <value>Amount Entered is greater than Net Amount</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_13" xml:space="preserve">
+    <value>Please Enter Fee Description</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_14" xml:space="preserve">
+    <value>Please Enter Fee Amount</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_15" xml:space="preserve">
+    <value>Please Choose Fee type</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_16" xml:space="preserve">
+    <value>Please Select The Physician To Tag</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_17" xml:space="preserve">
+    <value>Entered Physician Name Not Exists</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_18" xml:space="preserve">
+    <value>Mismatch Day Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_19" xml:space="preserve">
+    <value>Mismatch Day Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_20" xml:space="preserve">
+    <value>Mismatch Month Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_21" xml:space="preserve">
+    <value>Mismatch Month Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_22" xml:space="preserve">
+    <value>Mismatch Year Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_23" xml:space="preserve">
+    <value>Mismatch Year Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_24" xml:space="preserve">
+    <value>Mismatch Second(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_25" xml:space="preserve">
+    <value>Mismatch Second(s) Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_26" xml:space="preserve">
+    <value>Mismatch Minute(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_27" xml:space="preserve">
+    <value>Mismatch Minute(s) Between Billed &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_28" xml:space="preserve">
+    <value>Mismatch Hour(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_EditIPFinalBill_aspx_29" xml:space="preserve">
+    <value>Mismatch Hour(s) Between Billed &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_EditIPViewBill_aspx_01" xml:space="preserve">
+    <value>No Receipt for this Patient</value>
+  </data>
+  <data name="HospIPBilling_InterimSearch_aspx_01" xml:space="preserve">
+    <value>Select a bill number</value>
+  </data>
+  <data name="HospIPBilling_InterimSearch_aspx_02" xml:space="preserve">
+    <value>URL Not Found</value>
+  </data>
+  <data name="HospIPBilling_IPBillingHome_aspx_01" xml:space="preserve">
+    <value>RedirectURL Not Found</value>
+  </data>
+  <data name="HospIPBilling_IPBillingHome_aspx_02" xml:space="preserve">
+    <value>This cannot be performed as the Room is not occupied by this patient</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlementHome_aspx_01" xml:space="preserve">
+    <value>Provide one search category</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlementHome_aspx_02" xml:space="preserve">
+    <value>This cannot be performed as the Room is not occupied by this patient</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlementHome_aspx_03" xml:space="preserve">
+    <value>URL Not Found</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_01" xml:space="preserve">
+    <value>Click Discharge patient</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_02" xml:space="preserve">
+    <value>select Create Task</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_03" xml:space="preserve">
+    <value>Task not yet approved,still pending</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_04" xml:space="preserve">
+    <value>Previous Date Discharge is not allowed for this Role</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_05" xml:space="preserve">
+    <value>Please select Billed Date is greater than AdmissionDate</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_06" xml:space="preserve">
+    <value>Please select Discharge Date is greater than AdmissionDate</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_07" xml:space="preserve">
+    <value>Enter the Bank Name</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_08" xml:space="preserve">
+    <value>Enter the Cheque Number</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_09" xml:space="preserve">
+    <value>Please enter the cheque Date</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_10" xml:space="preserve">
+    <value>Refund the amount to the patient</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_11" xml:space="preserve">
+    <value>Enter the Reason for Discount.</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_12" xml:space="preserve">
+    <value>Please enter the Reason for refund</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_13" xml:space="preserve">
+    <value>Please select the refund mode</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_14" xml:space="preserve">
+    <value>Enter the Bank Name</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_15" xml:space="preserve">
+    <value>Enter the Cheque Number</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_16" xml:space="preserve">
+    <value>Please enter the cheque Date</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_17" xml:space="preserve">
+    <value>Refundable amount should be less than cash in hand</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_18" xml:space="preserve">
+    <value>Refundable amount should be greater than zero</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_19" xml:space="preserve">
+    <value>Amount recieved greater than current total. \n Please check recieved amount.</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_20" xml:space="preserve">
+    <value>Please enter recieved amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_21" xml:space="preserve">
+    <value>Please enter the Reason for refund</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_22" xml:space="preserve">
+    <value>Please select the refund mode</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_23" xml:space="preserve">
+    <value>Enter the Bank Name</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_24" xml:space="preserve">
+    <value>Enter the Cheque Number</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_25" xml:space="preserve">
+    <value>Please enter the cheque Date</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_26" xml:space="preserve">
+    <value>Discount Cannot be Greater than Gross Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_27" xml:space="preserve">
+    <value>Amount received is lesser than current total. Remaining Amount will be calculate as Due</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_28" xml:space="preserve">
+    <value>Credit patient. Remaining Amount will be collected from Client</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_29" xml:space="preserve">
+    <value>Amount Entered is greater than Net Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_30" xml:space="preserve">
+    <value>Please Ensure From Date less than To Date</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_31" xml:space="preserve">
+    <value>Please Enter Fee Description</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_32" xml:space="preserve">
+    <value>Please Enter Fee Amount</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_33" xml:space="preserve">
+    <value>Please Enter Date</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_34" xml:space="preserve">
+    <value>Please Choose Fee type</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_35" xml:space="preserve">
+    <value>Please Select Client Name</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_36" xml:space="preserve">
+    <value>Collect Advance</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_37" xml:space="preserve">
+    <value>No Items To Save</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_38" xml:space="preserve">
+    <value>Error in search card number exist or not!</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_39" xml:space="preserve">
+    <value>Task was rejected,Do you want to create new task','Information</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_40" xml:space="preserve">
+    <value>Task will be assigned to administrator. \n Do you want to continue.</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_41" xml:space="preserve">
+    <value>Generated bill can not be edited again.\n Only items added in the future will be allowed to edit.\n Do you want to continue</value>
+  </data>
+  <data name="HospIPBilling_IPBillSettlement_aspx_42" xml:space="preserve">
+    <value>Do you want refund the Excess Amount Now</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_01" xml:space="preserve">
+    <value>Amount Entered is greater than Net Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_02" xml:space="preserve">
+    <value>Amount received is lesser than current total. Remaining Amount will be calculate as Due</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_03" xml:space="preserve">
+    <value>Amount recieved greater than current total. \n Please check recieved amount.</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_04" xml:space="preserve">
+    <value>Click Discharge patient</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_05" xml:space="preserve">
+    <value>Collect Advance</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_06" xml:space="preserve">
+    <value>Credit patient. Remaining Amount will be collected from Client</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_07" xml:space="preserve">
+    <value>Date Failed</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_08" xml:space="preserve">
+    <value>Date Success</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_09" xml:space="preserve">
+    <value>Discount Amount is greater than Gross value</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_10" xml:space="preserve">
+    <value>Discount Cannot be Greater than Gross Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_11" xml:space="preserve">
+    <value>Enter Miscellaneous Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_12" xml:space="preserve">
+    <value>Enter the Bank Name</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_13" xml:space="preserve">
+    <value>Enter the Cheque Number</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_14" xml:space="preserve">
+    <value>Enter the Reason for Discount.</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_15" xml:space="preserve">
+    <value>Entered Physician Name Not Exists</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_16" xml:space="preserve">
+    <value>Error in search card number exist or not!</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_17" xml:space="preserve">
+    <value>Mismatch Day Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_18" xml:space="preserve">
+    <value>Mismatch Day Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_19" xml:space="preserve">
+    <value>Mismatch Hour(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_20" xml:space="preserve">
+    <value>Mismatch Hour(s) Between Billed &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_21" xml:space="preserve">
+    <value>Mismatch Minute(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_22" xml:space="preserve">
+    <value>Mismatch Minute(s) Between Billed &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_23" xml:space="preserve">
+    <value>Mismatch Month Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_24" xml:space="preserve">
+    <value>Mismatch Month Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_25" xml:space="preserve">
+    <value>Mismatch Second(s) Between Admission &amp; Discharge Time</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_26" xml:space="preserve">
+    <value>Mismatch Second(s) Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_27" xml:space="preserve">
+    <value>Mismatch Year Between Admission &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_28" xml:space="preserve">
+    <value>Mismatch Year Between Billed &amp; Discharge Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_29" xml:space="preserve">
+    <value>No Items To Save</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_30" xml:space="preserve">
+    <value>Please check the net amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_31" xml:space="preserve">
+    <value>Please Choose Fee type</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_32" xml:space="preserve">
+    <value>Please Ensure From Date less than To Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_33" xml:space="preserve">
+    <value>Please Enter Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_34" xml:space="preserve">
+    <value>Please Enter Fee Amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_35" xml:space="preserve">
+    <value>Please Enter Fee Description</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_36" xml:space="preserve">
+    <value>Please enter recieved amount</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_37" xml:space="preserve">
+    <value>Please enter the cheque Date</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_38" xml:space="preserve">
+    <value>Please enter the Reason for refund</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_39" xml:space="preserve">
+    <value>Please Save The Details...</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_40" xml:space="preserve">
+    <value>Please select Billed Date is greater than AdmissionDate</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_41" xml:space="preserve">
+    <value>Please Select Client Name</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_42" xml:space="preserve">
+    <value>Please select Discharge Date is greater than AdmissionDate</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_43" xml:space="preserve">
+    <value>Please Select The Physician To Tag</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_44" xml:space="preserve">
+    <value>Please select the refund mode</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_45" xml:space="preserve">
+    <value>Previous Date Discharge is not allowed for this Role</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_46" xml:space="preserve">
+    <value>PrintDischargeChkList.aspx</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_47" xml:space="preserve">
+    <value>Refund the amount to the patient</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_48" xml:space="preserve">
+    <value>Refundable amount should be greater than zero</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_49" xml:space="preserve">
+    <value>Refundable amount should be less than cash in hand</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_50" xml:space="preserve">
+    <value>select Create Task</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_51" xml:space="preserve">
+    <value>Sorry ChequeorCardNumber Already exist</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_52" xml:space="preserve">
+    <value>Task not yet approved,still pending</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_53" xml:space="preserve">
+    <value>Time Failed</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_54" xml:space="preserve">
+    <value>Time Success</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_55" xml:space="preserve">
+    <value>Task will be assigned to administrator. \n Do you want to continue.</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_56" xml:space="preserve">
+    <value>Generated bill can not be edited again.\n Only items added in the future will be allowed to edit.\n Do you want to continue</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_57" xml:space="preserve">
+    <value>Do you want refund the Excess Amount Now</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_58" xml:space="preserve">
+    <value>Task was rejected,Do you want to create new task</value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_01" xml:space="preserve">
+    <value>No Receipt for this Patient</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_01" xml:space="preserve">
+    <value>Discount amount is greater than item Amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_02" xml:space="preserve">
+    <value>Invalid Date Range</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_03" xml:space="preserve">
+    <value>Discount amount is greater than Gross Amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_04" xml:space="preserve">
+    <value>Discount percentage must between 0 to 100</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_05" xml:space="preserve">
+    <value>Refund amount is greater than Net Amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_06" xml:space="preserve">
+    <value>Click Discharge patient</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_07" xml:space="preserve">
+    <value>Amount recieved is lesser than current total. Remaining Amount will be calculate as Due</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_08" xml:space="preserve">
+    <value>Amount Entered is greater than Net Amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_09" xml:space="preserve">
+    <value>Please Enter Fee Description</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_10" xml:space="preserve">
+    <value>Please Enter Date</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_11" xml:space="preserve">
+    <value>Please Choose Fee type</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_12" xml:space="preserve">
+    <value>Select the Service from the available listIf Need to add non-existing service,\n Order the same under Miscellaneous Type</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_13" xml:space="preserve">
+    <value>No Items To Save</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_14" xml:space="preserve">
+    <value>Selet Discount Type</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_15" xml:space="preserve">
+    <value>Discount Type already selected</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_16" xml:space="preserve">
+    <value>Enter the discount amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_17" xml:space="preserve">
+    <value>Enter Amount greater than Total Item Amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_18" xml:space="preserve">
+    <value>Discount cannot be greater than amount</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_19" xml:space="preserve">
+    <value>Generated bill can not be edited again.Only items added in the future will be allowed to edit. Do you want to continue</value>
+  </data>
+  <data name="HospIPBilling_Scripts_BillSettlement_js_20" xml:space="preserve">
+    <value>Date is before Patient's Admission Date</value>
+  </data>
+  <data name="HospIPBilling_InsuranceSearch_ascx_01" xml:space="preserve">
+    <value>Select from Date and to date</value>
+  </data>
+  <data name="HospIPBilling_InsuranceSearch_ascx_02" xml:space="preserve">
+    <value>Invalid Date!</value>
+  </data>
+  <data name="HospIPBilling_InsuranceSearch_ascx_03" xml:space="preserve">
+    <value>Please Ensure From Date less than To Date</value>
+  </data>
+  <data name="HospIPBilling_InsuranceSearch_ascx_04" xml:space="preserve">
+    <value>Claim forward date can not lesser than Discharge date.</value>
+  </data>
+  <data name="HospIPBilling_InsuranceSearch_ascx_05" xml:space="preserve">
+    <value>Claim forward date can not lesser than Admission date</value>
+  </data>
+</root>

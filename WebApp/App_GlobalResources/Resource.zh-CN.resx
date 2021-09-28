@@ -1,0 +1,1932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="~/Error.aspx" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="~/Home.aspx" xml:space="preserve">
+    <value>卫生保健</value>
+  </data>
+  <data name="~/PatientAccountInfo.aspx" xml:space="preserve">
+    <value>帐户信息</value>
+  </data>
+  <data name="~/SelectRole.aspx" xml:space="preserve">
+    <value>选择角色</value>
+  </data>
+  <data name="~/SeniorLab/Home.aspx" xml:space="preserve">
+    <value>高级实验室技术员主页</value>
+  </data>
+  <data name="~/Reports/BillWiseDeptCollectionReport.aspx" xml:space="preserve">
+    <value>病人明智比尔明智收集报告</value>
+  </data>
+  <data name="~/Reports/BillWiseDeptWiseCollectionSummary.aspx" xml:space="preserve">
+    <value>Billwise Deptwise收集报告</value>
+  </data>
+  <data name="~/Reports/CommunicableDiseaseReport.aspx" xml:space="preserve">
+    <value>传染病报告</value>
+  </data>
+  <data name="~/Reports/IPBilledVsActualReport.aspx" xml:space="preserve">
+    <value>IP记帐与实际对比报告</value>
+  </data>
+  <data name="~/Reports/PhysicianwiseWardVisitReport.aspx" xml:space="preserve">
+    <value>医师明智沃德访问报告</value>
+  </data>
+  <data name="~/Reports/ViewReportList.aspx" xml:space="preserve">
+    <value>报告显示</value>
+  </data>
+  <data name="~/Reminder/ReminderPage.aspx" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="~/Referrals/EditReferrals.aspx" xml:space="preserve">
+    <value>调查称</value>
+  </data>
+  <data name="~/Referrals/InBoundReferral.aspx" xml:space="preserve">
+    <value>在绑定转诊</value>
+  </data>
+  <data name="~/Referrals/OutBoundReferral.aspx" xml:space="preserve">
+    <value>出界推荐</value>
+  </data>
+  <data name="~/Referrals/ReferedInvestigation.aspx" xml:space="preserve">
+    <value>调查称</value>
+  </data>
+  <data name="~/Referrals/RejectReferral.aspx" xml:space="preserve">
+    <value>拒绝转诊调查</value>
+  </data>
+  <data name="~/Reception/Adddiagonosis.aspx" xml:space="preserve">
+    <value>前台</value>
+  </data>
+  <data name="~/Reception/AdditionalInformation.aspx" xml:space="preserve">
+    <value>附加信息</value>
+  </data>
+  <data name="~/Reception/BillGeneration.aspx" xml:space="preserve">
+    <value>比尔打印</value>
+  </data>
+  <data name="~/Reception/BillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/Reception/BillSettlementIndividual.aspx" xml:space="preserve">
+    <value>接待处关闭现金</value>
+  </data>
+  <data name="~/Reception/ChangePriority.aspx" xml:space="preserve">
+    <value>更改优先</value>
+  </data>
+  <data name="~/Reception/CommunicablediseasesMaster.aspx" xml:space="preserve">
+    <value>传染病</value>
+  </data>
+  <data name="~/Reception/CustomizedBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Reception/Dispatch.aspx" xml:space="preserve">
+    <value>调度细节</value>
+  </data>
+  <data name="~/Reception/DueCollection.aspx" xml:space="preserve">
+    <value>由于集合</value>
+  </data>
+  <data name="~/Reception/HISAdmission.aspx" xml:space="preserve">
+    <value>前台</value>
+  </data>
+  <data name="~/Reception/Home.aspx" xml:space="preserve">
+    <value>接待员首页</value>
+  </data>
+  <data name="~/Reception/InPatientRegistration.aspx" xml:space="preserve">
+    <value>住院手续详情</value>
+  </data>
+  <data name="~/Reception/InPatientSearch.aspx" xml:space="preserve">
+    <value>住院搜索</value>
+  </data>
+  <data name="~/Reception/InvestigationReport.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Reception/InvestigationSearch.aspx" xml:space="preserve">
+    <value>调查搜索</value>
+  </data>
+  <data name="~/Reception/LabPatientRegistration.aspx" xml:space="preserve">
+    <value>门诊挂号</value>
+  </data>
+  <data name="~/Reception/LabPatientSearch.aspx" xml:space="preserve">
+    <value>病人搜索</value>
+  </data>
+  <data name="~/Reception/MsgForm.aspx" xml:space="preserve">
+    <value>卫生保健</value>
+  </data>
+  <data name="~/Reception/PatientBilling.aspx" xml:space="preserve">
+    <value>门诊结算</value>
+  </data>
+  <data name="~/Reception/PatientOldNotes.aspx" xml:space="preserve">
+    <value>病人的旧笔记</value>
+  </data>
+  <data name="~/Reception/PatientRegistration.aspx" xml:space="preserve">
+    <value>门诊挂号</value>
+  </data>
+  <data name="~/Reception/PatientSampleRegistration.aspx" xml:space="preserve">
+    <value>抽样登记</value>
+  </data>
+  <data name="~/Reception/PatientSearch.aspx" xml:space="preserve">
+    <value>病人搜索</value>
+  </data>
+  <data name="~/Reception/PatientVisit.aspx" xml:space="preserve">
+    <value>患者就诊</value>
+  </data>
+  <data name="~/Reception/PrintBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Reception/PrintPage.aspx" xml:space="preserve">
+    <value>患者就诊细节</value>
+  </data>
+  <data name="~/Reception/RefedInvestigation.aspx" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="~/Reception/RefPhyHome.aspx" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="~/Reception/RefPhyPatientSearch.aspx" xml:space="preserve">
+    <value>病人搜索</value>
+  </data>
+  <data name="~/Reception/RelativeSchedules.aspx" xml:space="preserve">
+    <value>时间表</value>
+  </data>
+  <data name="~/Reception/ReportsDisplay.aspx" xml:space="preserve">
+    <value>报告显示</value>
+  </data>
+  <data name="~/Reception/SampleBillPrint.aspx" xml:space="preserve">
+    <value>比尔打印</value>
+  </data>
+  <data name="~/Reception/SaveLabRefOrgDetails.aspx" xml:space="preserve">
+    <value>管理咨询组织的详细信息</value>
+  </data>
+  <data name="~/Reception/SaveLabRefPhysicianDetails.aspx" xml:space="preserve">
+    <value>管理转诊医师的详细信息</value>
+  </data>
+  <data name="~/Reception/Schedule.aspx" xml:space="preserve">
+    <value>时间表</value>
+  </data>
+  <data name="~/Reception/TrustedSchedules.aspx" xml:space="preserve">
+    <value>可信的时间表</value>
+  </data>
+  <data name="~/Reception/UpdatePatientDetails.aspx" xml:space="preserve">
+    <value>患者详细信息</value>
+  </data>
+  <data name="~/Reception/ViewBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Reception/ViewPrintPage.aspx" xml:space="preserve">
+    <value>患者就诊细节</value>
+  </data>
+  <data name="~/Reception/VisitDetails.aspx" xml:space="preserve">
+    <value>患者就诊细节</value>
+  </data>
+  <data name="~/Printing/DialysisCaseSheetPrint.aspx" xml:space="preserve">
+    <value>透析情况表</value>
+  </data>
+  <data name="~/Printing/PrescriptionPrinting.aspx" xml:space="preserve">
+    <value>患者就诊细节</value>
+  </data>
+  <data name="~/Printing/SSRSPrinting.aspx" xml:space="preserve">
+    <value>打印标签</value>
+  </data>
+  <data name="~/Physician/AddDrugs.aspx" xml:space="preserve">
+    <value>添加药物到患者</value>
+  </data>
+  <data name="~/Physician/CaseSheet.aspx" xml:space="preserve">
+    <value>情况表</value>
+  </data>
+  <data name="~/Physician/CaseSheetPrintView.aspx" xml:space="preserve">
+    <value>打印纸的情况下</value>
+  </data>
+  <data name="~/Physician/Diagnose.aspx" xml:space="preserve">
+    <value>医生的家</value>
+  </data>
+  <data name="~/Physician/DischargeSummary.aspx" xml:space="preserve">
+    <value>出院小结</value>
+  </data>
+  <data name="~/Physician/DischargeSummaryCaseSheet.aspx" xml:space="preserve">
+    <value>出院小结情况表</value>
+  </data>
+  <data name="~/Physician/DisplayPatientComplaint.aspx" xml:space="preserve">
+    <value>选择投诉</value>
+  </data>
+  <data name="~/Physician/Home.aspx" xml:space="preserve">
+    <value>医师主页</value>
+  </data>
+  <data name="~/Physician/IPCaseRecord.aspx" xml:space="preserve">
+    <value>情况表</value>
+  </data>
+  <data name="~/Physician/IPCaseRecordSheet.aspx" xml:space="preserve">
+    <value>情况表</value>
+  </data>
+  <data name="~/Physician/IPInvestigationProfile.aspx" xml:space="preserve">
+    <value>为了调查</value>
+  </data>
+  <data name="~/Physician/OperationNotes.aspx" xml:space="preserve">
+    <value>操作注意事项</value>
+  </data>
+  <data name="~/Physician/OperationNotesCaseSheet.aspx" xml:space="preserve">
+    <value>操作提示情况表</value>
+  </data>
+  <data name="~/Physician/PatientDetails.aspx" xml:space="preserve">
+    <value>医生的家</value>
+  </data>
+  <data name="~/Physician/PatientDiagnose.aspx" xml:space="preserve">
+    <value>病人的诊断</value>
+  </data>
+  <data name="~/Physician/PhysicianSchedule.aspx" xml:space="preserve">
+    <value>医生的日程安排</value>
+  </data>
+  <data name="~/Physician/UnfoundDiagnosis.aspx" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="~/PatientAccess/Home.aspx" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="~/PatientAccess/PatientAccountInfo.aspx" xml:space="preserve">
+    <value>帐户信息</value>
+  </data>
+  <data name="~/PatientAccess/PatientDetails.aspx" xml:space="preserve">
+    <value>患者详细信息</value>
+  </data>
+  <data name="~/Patient/Patient.aspx" xml:space="preserve">
+    <value>* + Attune的+ *病人回家</value>
+  </data>
+  <data name="~/Patient/PatientDetails.aspx" xml:space="preserve">
+    <value>患者详细信息</value>
+  </data>
+  <data name="~/Patient/PatientEMRPackage.aspx" xml:space="preserve">
+    <value>病人电子病历</value>
+  </data>
+  <data name="~/Patient/PatientsCurrDateVist.aspx" xml:space="preserve">
+    <value>今天的病人就诊</value>
+  </data>
+  <data name="~/Patient/PrintRecommendation.aspx" xml:space="preserve">
+    <value>打印推荐</value>
+  </data>
+  <data name="~/Patient/ReceiptRefundtoPatient.aspx" xml:space="preserve">
+    <value>退款患者</value>
+  </data>
+  <data name="~/Patient/RefundtoPatient.aspx" xml:space="preserve">
+    <value>退款或取消</value>
+  </data>
+  <data name="~/Nurse/Home.aspx" xml:space="preserve">
+    <value>护士主页</value>
+  </data>
+  <data name="~/Nurse/NurseAdvice.aspx" xml:space="preserve">
+    <value>药品管理</value>
+  </data>
+  <data name="~/Nurse/PatientBMI.aspx" xml:space="preserve">
+    <value>患者BMI</value>
+  </data>
+  <data name="~/Nurse/PatientSearch.aspx" xml:space="preserve">
+    <value>病人搜索</value>
+  </data>
+  <data name="~/Nurse/PatientVitals.aspx" xml:space="preserve">
+    <value>病人的命脉</value>
+  </data>
+  <data name="~/Nurse/PrintPatientBMI.aspx" xml:space="preserve">
+    <value>打印患者BMI</value>
+  </data>
+  <data name="~/Lab/DeptSamplesCollection.aspx" xml:space="preserve">
+    <value>接收样品</value>
+  </data>
+  <data name="~/Lab/Home.aspx" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="~/Lab/InvestigationSample.aspx" xml:space="preserve">
+    <value>调查样本采集</value>
+  </data>
+  <data name="~/Lab/InvestigationSampleCollection.aspx" xml:space="preserve">
+    <value>调查样本采集</value>
+  </data>
+  <data name="~/Lab/LabRole.aspx" xml:space="preserve">
+    <value>技术员主页</value>
+  </data>
+  <data name="~/Lab/PatientSearch.aspx" xml:space="preserve">
+    <value>病人搜索</value>
+  </data>
+  <data name="~/Lab/PrintWorkOrderFromVisitToVisit.aspx" xml:space="preserve">
+    <value>从访问打印工作秩序参观</value>
+  </data>
+  <data name="~/Lab/RadiologyHome.aspx" xml:space="preserve">
+    <value>放射技师主页</value>
+  </data>
+  <data name="~/Lab/WorkOrder.aspx" xml:space="preserve">
+    <value>工作指示</value>
+  </data>
+  <data name="~/Lab/WorkOrderFromVisitToVisit.aspx" xml:space="preserve">
+    <value>从访问工作，以参观</value>
+  </data>
+  <data name="~/Investigation/ImageAccess.aspx" xml:space="preserve">
+    <value>图像访问</value>
+  </data>
+  <data name="~/Investigation/Investigation.aspx" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="~/Investigation/InvestigationApprovel.aspx" xml:space="preserve">
+    <value>调查采集</value>
+  </data>
+  <data name="~/Investigation/InvestigationCapture.aspx" xml:space="preserve">
+    <value>调查采集</value>
+  </data>
+  <data name="~/Investigation/InvestigationDisplay.aspx" xml:space="preserve">
+    <value>临床病理</value>
+  </data>
+  <data name="~/Investigation/InvestigationProfile.aspx" xml:space="preserve">
+    <value>为了调查</value>
+  </data>
+  <data name="~/Investigation/InvestigationResultsCapture.aspx" xml:space="preserve">
+    <value>调查结果捕获</value>
+  </data>
+  <data name="~/Investigation/InvReportsForApproval.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Investigation/InvReportsForDept.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Investigation/MethodKitCapture.aspx" xml:space="preserve">
+    <value>方法，试剂盒和仪器捕获</value>
+  </data>
+  <data name="~/Investigation/PopupReport.aspx" xml:space="preserve">
+    <value>管理员报告</value>
+  </data>
+  <data name="~/Investigation/PrintLabWorkList.aspx" xml:space="preserve">
+    <value>打印实验室工作列表</value>
+  </data>
+  <data name="~/Investigation/PrintWorkListFromVisitToVisit.aspx" xml:space="preserve">
+    <value>从访问打印工作列表访问</value>
+  </data>
+  <data name="~/Investigation/RadiologyReport.aspx" xml:space="preserve">
+    <value>放射科报告</value>
+  </data>
+  <data name="~/Investigation/WorkListFromVisitToVisit.aspx" xml:space="preserve">
+    <value>从访问工作列表访问</value>
+  </data>
+  <data name="~/Inventory/AddConsumable.aspx" xml:space="preserve">
+    <value>添加耗材</value>
+  </data>
+  <data name="~/Inventory/AdminStockReport.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/AdminXLStockReport.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/BillingPopUp.aspx" xml:space="preserve">
+    <value>耗材</value>
+  </data>
+  <data name="~/Inventory/BillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/Inventory/ConsumableQuantity.aspx" xml:space="preserve">
+    <value>耗材量</value>
+  </data>
+  <data name="~/Inventory/DispensingReport.aspx" xml:space="preserve">
+    <value>股票胶报告</value>
+  </data>
+  <data name="~/Inventory/Expirydatedetails.aspx" xml:space="preserve">
+    <value>股票到期日的报告</value>
+  </data>
+  <data name="~/Inventory/Home.aspx" xml:space="preserve">
+    <value>库存主页</value>
+  </data>
+  <data name="~/Inventory/InPatientSearch.aspx" xml:space="preserve">
+    <value>住院搜索</value>
+  </data>
+  <data name="~/Inventory/Intend.aspx" xml:space="preserve">
+    <value>打算详细视图</value>
+  </data>
+  <data name="~/Inventory/INVBulkLoad.aspx" xml:space="preserve">
+    <value>库存批量加载</value>
+  </data>
+  <data name="~/Inventory/INVBulkUpdate.aspx" xml:space="preserve">
+    <value>库存批量更新</value>
+  </data>
+  <data name="~/Inventory/InventoryLocation.aspx" xml:space="preserve">
+    <value>库存位置</value>
+  </data>
+  <data name="~/Inventory/InventorySearch.aspx" xml:space="preserve">
+    <value>库存搜索</value>
+  </data>
+  <data name="~/Inventory/InvIpBilling.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/Inventory/InvOpBilling.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/Inventory/INVRefundvoucher.aspx" xml:space="preserve">
+    <value>库存退款凭证</value>
+  </data>
+  <data name="~/Inventory/NilStockReport.aspx" xml:space="preserve">
+    <value>无库存报告</value>
+  </data>
+  <data name="~/Inventory/NonMovingProductsReport.aspx" xml:space="preserve">
+    <value>非移动产品报告</value>
+  </data>
+  <data name="~/Inventory/PopUpProductUpdate.aspx" xml:space="preserve">
+    <value>产品列表</value>
+  </data>
+  <data name="~/Inventory/PrintAdminStockReport.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/PrintDispensingReport.aspx" xml:space="preserve">
+    <value>发药记录</value>
+  </data>
+  <data name="~/Inventory/PrintExpirydatedetails.aspx" xml:space="preserve">
+    <value>有效期限细节</value>
+  </data>
+  <data name="~/Inventory/PrintPurchaseOrderReport.aspx" xml:space="preserve">
+    <value>采购订单报告</value>
+  </data>
+  <data name="~/Inventory/PrintSalesReport.aspx" xml:space="preserve">
+    <value>销售报告</value>
+  </data>
+  <data name="~/Inventory/PrintSalesTaxReport.aspx" xml:space="preserve">
+    <value>营业税报告</value>
+  </data>
+  <data name="~/Inventory/PrintStockReport.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/ProductBulkLoad.aspx" xml:space="preserve">
+    <value>产品批量加载</value>
+  </data>
+  <data name="~/Inventory/ProductCategories.aspx" xml:space="preserve">
+    <value>产品类别</value>
+  </data>
+  <data name="~/Inventory/ProductLegend.aspx" xml:space="preserve">
+    <value>联想产品</value>
+  </data>
+  <data name="~/Inventory/ProductLegendDetail.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/Products.aspx" xml:space="preserve">
+    <value>制品</value>
+  </data>
+  <data name="~/Inventory/ProductsList.aspx" xml:space="preserve">
+    <value>产品列表</value>
+  </data>
+  <data name="~/Inventory/ProductUpdate.aspx" xml:space="preserve">
+    <value>产品更新</value>
+  </data>
+  <data name="~/Inventory/ProjectionList.aspx" xml:space="preserve">
+    <value>投影列表</value>
+  </data>
+  <data name="~/Inventory/ProjectionListViewDetail.aspx" xml:space="preserve">
+    <value>Projectionlist查看详情</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrder.aspx" xml:space="preserve">
+    <value>采购订单</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrderReport.aspx" xml:space="preserve">
+    <value>购回报告</value>
+  </data>
+  <data name="~/Inventory/PurchaseTaxReports.aspx" xml:space="preserve">
+    <value>购回报告</value>
+  </data>
+  <data name="~/Inventory/QuickBilling.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/Inventory/QuickStockReceived.aspx" xml:space="preserve">
+    <value>快速获得股票</value>
+  </data>
+  <data name="~/Inventory/RaiseIntend.aspx" xml:space="preserve">
+    <value>提高缩进</value>
+  </data>
+  <data name="~/Inventory/ReceiptSearch.aspx" xml:space="preserve">
+    <value>搜索收据</value>
+  </data>
+  <data name="~/Inventory/ReceiveStock.aspx" xml:space="preserve">
+    <value>接收股票</value>
+  </data>
+  <data name="~/Inventory/RefundSearch.aspx" xml:space="preserve">
+    <value>退款搜索</value>
+  </data>
+  <data name="~/Inventory/Reorderlevel.aspx" xml:space="preserve">
+    <value>订货点水平报告</value>
+  </data>
+  <data name="~/Inventory/SalesReport.aspx" xml:space="preserve">
+    <value>销售报告</value>
+  </data>
+  <data name="~/Inventory/SalesTaxReport.aspx" xml:space="preserve">
+    <value>营业税报告</value>
+  </data>
+  <data name="~/Inventory/StockDamage.aspx" xml:space="preserve">
+    <value>股票伤害</value>
+  </data>
+  <data name="~/Inventory/StockDetails.aspx" xml:space="preserve">
+    <value>股票信息</value>
+  </data>
+  <data name="~/Inventory/StockExpired.aspx" xml:space="preserve">
+    <value>股票已过期</value>
+  </data>
+  <data name="~/Inventory/StockInHandUpdate.aspx" xml:space="preserve">
+    <value>订货点水平</value>
+  </data>
+  <data name="~/Inventory/StockIssued.aspx" xml:space="preserve">
+    <value>发行股票</value>
+  </data>
+  <data name="~/Inventory/StockReport.aspx" xml:space="preserve">
+    <value>股票报告</value>
+  </data>
+  <data name="~/Inventory/StockReturn.aspx" xml:space="preserve">
+    <value>回报的股票</value>
+  </data>
+  <data name="~/Inventory/StockSummary.aspx" xml:space="preserve">
+    <value>股票摘要</value>
+  </data>
+  <data name="~/Inventory/StockUsage.aspx" xml:space="preserve">
+    <value>股票用法</value>
+  </data>
+  <data name="~/Inventory/SupplierAnalysisReport.aspx" xml:space="preserve">
+    <value>供应商分析报告</value>
+  </data>
+  <data name="~/Inventory/SupplierAnalysisReportDetail.aspx" xml:space="preserve">
+    <value>供应商产品分析</value>
+  </data>
+  <data name="~/Inventory/SupplierList.aspx" xml:space="preserve">
+    <value>产品列表</value>
+  </data>
+  <data name="~/Inventory/Suppliers.aspx" xml:space="preserve">
+    <value>主供应商</value>
+  </data>
+  <data name="~/Inventory/UpdateStockReceived.aspx" xml:space="preserve">
+    <value>股票收到更新</value>
+  </data>
+  <data name="~/Inventory/UserStockReturn.aspx" xml:space="preserve">
+    <value>股票收益率</value>
+  </data>
+  <data name="~/Inventory/ViewBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Inventory/ViewIntendDetail.aspx" xml:space="preserve">
+    <value>缩进 - 详细信息视图</value>
+  </data>
+  <data name="~/Inventory/ViewInvReceipt.aspx" xml:space="preserve">
+    <value>查看收据</value>
+  </data>
+  <data name="~/Inventory/ViewIssuedIntend.aspx" xml:space="preserve">
+    <value>发行股票</value>
+  </data>
+  <data name="~/Inventory/ViewPurchaseOrder.aspx" xml:space="preserve">
+    <value>采购订单</value>
+  </data>
+  <data name="~/Inventory/ViewStockDamage.aspx" xml:space="preserve">
+    <value>股票伤害</value>
+  </data>
+  <data name="~/Inventory/ViewStockExpired.aspx" xml:space="preserve">
+    <value>股票已过期</value>
+  </data>
+  <data name="~/Inventory/ViewStockIssued.aspx" xml:space="preserve">
+    <value>发行股票</value>
+  </data>
+  <data name="~/Inventory/ViewStockNonUsage.aspx" xml:space="preserve">
+    <value>股票用法</value>
+  </data>
+  <data name="~/Inventory/ViewStockReceived.aspx" xml:space="preserve">
+    <value>收到的股票</value>
+  </data>
+  <data name="~/Inventory/ViewStockReturn.aspx" xml:space="preserve">
+    <value>股票收益率</value>
+  </data>
+  <data name="~/Inventory/ViewStockUsage.aspx" xml:space="preserve">
+    <value>股票用法</value>
+  </data>
+  <data name="~/InPatient/Advance.aspx" xml:space="preserve">
+    <value>预付款</value>
+  </data>
+  <data name="~/InPatient/AdvancePaidDetails.aspx" xml:space="preserve">
+    <value>添加付款</value>
+  </data>
+  <data name="~/InPatient/BillCollect.aspx" xml:space="preserve">
+    <value>收款</value>
+  </data>
+  <data name="~/InPatient/DeathCaseSheet.aspx" xml:space="preserve">
+    <value>总结死亡</value>
+  </data>
+  <data name="~/InPatient/DeathRegistration.aspx" xml:space="preserve">
+    <value>死亡登记</value>
+  </data>
+  <data name="~/InPatient/DeliveryNotes.aspx" xml:space="preserve">
+    <value>劳动和送货单</value>
+  </data>
+  <data name="~/InPatient/InPatientBilling.aspx" xml:space="preserve">
+    <value>住院结算</value>
+  </data>
+  <data name="~/InPatient/IPBillSettlement.aspx" xml:space="preserve">
+    <value>住院最终解决</value>
+  </data>
+  <data name="~/InPatient/IPCashReceipt.aspx" xml:space="preserve">
+    <value>住院现金收据</value>
+  </data>
+  <data name="~/InPatient/IPItemizedBill.aspx" xml:space="preserve">
+    <value>住院账单明细</value>
+  </data>
+  <data name="~/InPatient/IpOutstandingDues.aspx" xml:space="preserve">
+    <value>收款</value>
+  </data>
+  <data name="~/InPatient/IPSummaryBill.aspx" xml:space="preserve">
+    <value>住院账单汇总</value>
+  </data>
+  <data name="~/InPatient/IPViewBill.aspx" xml:space="preserve">
+    <value>住院观点法案</value>
+  </data>
+  <data name="~/InPatient/IPViewBillTemp.aspx" xml:space="preserve">
+    <value>Ipview法案</value>
+  </data>
+  <data name="~/InPatient/KDRDischargeSummary.aspx" xml:space="preserve">
+    <value>出院小结情况表</value>
+  </data>
+  <data name="~/InPatient/NeonatalCaseSheet.aspx" xml:space="preserve">
+    <value>新生儿总结</value>
+  </data>
+  <data name="~/InPatient/NeonatalNotes.aspx" xml:space="preserve">
+    <value>新生儿注意事项</value>
+  </data>
+  <data name="~/InPatient/PatientICDSearch.aspx" xml:space="preserve">
+    <value>ICD状态搜索</value>
+  </data>
+  <data name="~/InPatient/PendingICDDetails.aspx" xml:space="preserve">
+    <value>待ICD细节</value>
+  </data>
+  <data name="~/InPatient/PhysiotherapyNotes.aspx" xml:space="preserve">
+    <value>物理治疗注意事项</value>
+  </data>
+  <data name="~/InPatient/PrintCashReceiptPage.aspx" xml:space="preserve">
+    <value>预收</value>
+  </data>
+  <data name="~/InPatient/PrintReceiptPage.aspx" xml:space="preserve">
+    <value>付款收据</value>
+  </data>
+  <data name="~/InPatient/RakshithDischargeSummary.aspx" xml:space="preserve">
+    <value>出院小结情况表</value>
+  </data>
+  <data name="~/InPatient/RoomBooking.aspx" xml:space="preserve">
+    <value>客房预订</value>
+  </data>
+  <data name="~/InPatient/SurgeryAdvance.aspx" xml:space="preserve">
+    <value>预付款</value>
+  </data>
+  <data name="~/InPatient/SurgeryBilling.aspx" xml:space="preserve">
+    <value>手术计费</value>
+  </data>
+  <data name="~/FileHandlers/ShowOldNoteImages.aspx" xml:space="preserve">
+    <value>无标题页</value>
+  </data>
+  <data name="~/DischargeSummary/DischargeSummaryDynamic.aspx" xml:space="preserve">
+    <value>出院小结情况表</value>
+  </data>
+  <data name="~/Dialysis/DialysisAdvice.aspx" xml:space="preserve">
+    <value>透析意见</value>
+  </data>
+  <data name="~/Dialysis/DialysisCaseSheet.aspx" xml:space="preserve">
+    <value>透析情况表</value>
+  </data>
+  <data name="~/Dialysis/DialysisOnFlow.aspx" xml:space="preserve">
+    <value>透析湍流监控</value>
+  </data>
+  <data name="~/Dialysis/DialysisRecord.aspx" xml:space="preserve">
+    <value>透析记录</value>
+  </data>
+  <data name="~/Dialysis/FirstDialysis.aspx" xml:space="preserve">
+    <value>透析首次访问</value>
+  </data>
+  <data name="~/Dialysis/Home.aspx" xml:space="preserve">
+    <value>物理治疗师首页</value>
+  </data>
+  <data name="~/Dialysis/PendingPhysioSearch.aspx" xml:space="preserve">
+    <value>待理疗</value>
+  </data>
+  <data name="~/ConfigSetting/ConfigMaster.aspx" xml:space="preserve">
+    <value>配置主</value>
+  </data>
+  <data name="~/ChangePassword/ChangePassword.aspx" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="~/CaseSheet/CaseSheet.aspx" xml:space="preserve">
+    <value>情况表</value>
+  </data>
+  <data name="~/CaseSheet/ViewCaseSheet.aspx" xml:space="preserve">
+    <value>查看情况表</value>
+  </data>
+  <data name="~/Billing/AddBillItems.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/Billing/Billing.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/Billing/BillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/Billing/CollectDuePayment.aspx" xml:space="preserve">
+    <value>由于收集详细</value>
+  </data>
+  <data name="~/Billing/GenerateBill.aspx" xml:space="preserve">
+    <value>患者快速结算</value>
+  </data>
+  <data name="~/Billing/HospitalBillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/Billing/PerformRefund.aspx" xml:space="preserve">
+    <value>执行退款</value>
+  </data>
+  <data name="~/Billing/QuickBill.aspx" xml:space="preserve">
+    <value>快速法案</value>
+  </data>
+  <data name="~/Billing/ReceiptSearch.aspx" xml:space="preserve">
+    <value>收据搜索</value>
+  </data>
+  <data name="~/Billing/RefundReceiptSearch.aspx" xml:space="preserve">
+    <value>退款搜索</value>
+  </data>
+  <data name="~/Billing/RefundVoucher.aspx" xml:space="preserve">
+    <value>券收据</value>
+  </data>
+  <data name="~/Billing/VoucherSearch.aspx" xml:space="preserve">
+    <value>券搜索</value>
+  </data>
+  <data name="~/App_Themes/Billing/AddBillItems.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/App_Themes/Billing/Billing.aspx" xml:space="preserve">
+    <value>开票</value>
+  </data>
+  <data name="~/App_Themes/Billing/BillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/App_Themes/Billing/CollectDuePayment.aspx" xml:space="preserve">
+    <value>由于收集详细</value>
+  </data>
+  <data name="~/App_Themes/Billing/HospitalBillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/ANC/ANCCaseSheet.aspx" xml:space="preserve">
+    <value>ANC情况表</value>
+  </data>
+  <data name="~/ANC/BaseLineHistory.aspx" xml:space="preserve">
+    <value>基线筛查历史</value>
+  </data>
+  <data name="~/ANC/ViewCaseSheet.aspx" xml:space="preserve">
+    <value>查看情况表</value>
+  </data>
+  <data name="~/Admin/AddCorpClient.aspx" xml:space="preserve">
+    <value>加入的企业和客户端</value>
+  </data>
+  <data name="~/Admin/AddInvGroups.aspx" xml:space="preserve">
+    <value>管理调查与集团</value>
+  </data>
+  <data name="~/Admin/AddInvtoGrp.aspx" xml:space="preserve">
+    <value>管理调查与集团</value>
+  </data>
+  <data name="~/Admin/AdminReports.aspx" xml:space="preserve">
+    <value>管理员报告</value>
+  </data>
+  <data name="~/Admin/BillSearch.aspx" xml:space="preserve">
+    <value>比尔搜索</value>
+  </data>
+  <data name="~/Admin/BillSettlement.aspx" xml:space="preserve">
+    <value>联系现金关闭</value>
+  </data>
+  <data name="~/Admin/CashFlow.aspx" xml:space="preserve">
+    <value>现金支付</value>
+  </data>
+  <data name="~/Admin/CasualityMaster.aspx" xml:space="preserve">
+    <value>因果主</value>
+  </data>
+  <data name="~/Admin/ChangeDocSchedule.aspx" xml:space="preserve">
+    <value>查看计划</value>
+  </data>
+  <data name="~/Admin/ConfigManager.aspx" xml:space="preserve">
+    <value>配置管理</value>
+  </data>
+  <data name="~/Admin/CustomizedBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Admin/DailyBillReport.aspx" xml:space="preserve">
+    <value>用户明智收集报告</value>
+  </data>
+  <data name="~/Admin/DashBoard.aspx" xml:space="preserve">
+    <value>报表视图</value>
+  </data>
+  <data name="~/Admin/DaywiseCollection.aspx" xml:space="preserve">
+    <value>用户明智收集报告</value>
+  </data>
+  <data name="~/Admin/DoctorSchedule.aspx" xml:space="preserve">
+    <value>时间表</value>
+  </data>
+  <data name="~/Admin/DoctorsVacation.aspx" xml:space="preserve">
+    <value>计划医生的假期</value>
+  </data>
+  <data name="~/Admin/DueReportPrint.aspx" xml:space="preserve">
+    <value>管理员报告</value>
+  </data>
+  <data name="~/Admin/DueSearch.aspx" xml:space="preserve">
+    <value>由于报告</value>
+  </data>
+  <data name="~/Admin/GeneralBillingItemsMaster.aspx" xml:space="preserve">
+    <value>一般结算硕士项目</value>
+  </data>
+  <data name="~/Admin/Home.aspx" xml:space="preserve">
+    <value>管理员主页</value>
+  </data>
+  <data name="~/Admin/InvestigationCollectionReport.aspx" xml:space="preserve">
+    <value>调查收集报告</value>
+  </data>
+  <data name="~/Admin/InvestigationSamplesReport.aspx" xml:space="preserve">
+    <value>调查样本采集报告</value>
+  </data>
+  <data name="~/Admin/InvRefRanges.aspx" xml:space="preserve">
+    <value>管理参考范围</value>
+  </data>
+  <data name="~/Admin/LabAdminReports.aspx" xml:space="preserve">
+    <value>实验室管理报告</value>
+  </data>
+  <data name="~/Admin/LabAdminReportsPrint.aspx" xml:space="preserve">
+    <value>实验室管理报告</value>
+  </data>
+  <data name="~/Admin/LabAdminSummaryReports.aspx" xml:space="preserve">
+    <value>实验总结报告</value>
+  </data>
+  <data name="~/Admin/LabAdminSummaryReportsPrint.aspx" xml:space="preserve">
+    <value>管理员报告</value>
+  </data>
+  <data name="~/Admin/ManageCurrency.aspx" xml:space="preserve">
+    <value>管理货币</value>
+  </data>
+  <data name="~/Admin/ManageCustomPrice.aspx" xml:space="preserve">
+    <value>管理自定义价格</value>
+  </data>
+  <data name="~/Admin/ManageInvInstrument.aspx" xml:space="preserve">
+    <value>管理调查仪器</value>
+  </data>
+  <data name="~/Admin/ManageInvKit.aspx" xml:space="preserve">
+    <value>管理调查套件</value>
+  </data>
+  <data name="~/Admin/ManageInvMethod.aspx" xml:space="preserve">
+    <value>管理调查法</value>
+  </data>
+  <data name="~/Admin/ManageInvPrinciple.aspx" xml:space="preserve">
+    <value>管理原则调查</value>
+  </data>
+  <data name="~/Admin/MappingInvtoGrp.aspx" xml:space="preserve">
+    <value>映射到INV组</value>
+  </data>
+  <data name="~/Admin/MasterBulkdata.aspx" xml:space="preserve">
+    <value>主数据批量加载</value>
+  </data>
+  <data name="~/Admin/MenuMapper.aspx" xml:space="preserve">
+    <value>菜单图高手</value>
+  </data>
+  <data name="~/Admin/ModalitySchedule.aspx" xml:space="preserve">
+    <value>时间表</value>
+  </data>
+  <data name="~/Admin/NonReimbursableMaster.aspx" xml:space="preserve">
+    <value>加入无偿项目</value>
+  </data>
+  <data name="~/Admin/PhysicianwiseCollectionDetailReport.aspx" xml:space="preserve">
+    <value>医师明智类别详细</value>
+  </data>
+  <data name="~/Admin/PhysicianwiseCollectionReport.aspx" xml:space="preserve">
+    <value>医师明智收集报告</value>
+  </data>
+  <data name="~/Admin/PrintBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Admin/PrintVoucherPage.aspx" xml:space="preserve">
+    <value>券收据</value>
+  </data>
+  <data name="~/Admin/RatesUpdation.aspx" xml:space="preserve">
+    <value>选择更新率</value>
+  </data>
+  <data name="~/Admin/Reports.aspx" xml:space="preserve">
+    <value>报告名称</value>
+  </data>
+  <data name="~/Admin/RoomMaster.aspx" xml:space="preserve">
+    <value>房主人</value>
+  </data>
+  <data name="~/Admin/RoomMasterDetails.aspx" xml:space="preserve">
+    <value>房主人</value>
+  </data>
+  <data name="~/Admin/SurgeryTeamWiseReport.aspx" xml:space="preserve">
+    <value>手术和介入统计</value>
+  </data>
+  <data name="~/Admin/TaskReAssign.aspx" xml:space="preserve">
+    <value>任务重新分配</value>
+  </data>
+  <data name="~/Admin/TemplateMaker.aspx" xml:space="preserve">
+    <value>放射科主模板</value>
+  </data>
+  <data name="~/Admin/UserMaster.aspx" xml:space="preserve">
+    <value>用户主</value>
+  </data>
+  <data name="~/Admin/ViewBill.aspx" xml:space="preserve">
+    <value>打印账单</value>
+  </data>
+  <data name="~/Admin/ViewSamples.aspx" xml:space="preserve">
+    <value>调查样本采集报告</value>
+  </data>
+  <data name="~/Admin/WaitingTime.aspx" xml:space="preserve">
+    <value>耐心等候时间</value>
+  </data>
+  <data name="~/Default.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/AdmCancelledReport.aspx" xml:space="preserve">
+    <value>取消入学报告</value>
+  </data>
+  <data name="~/Reports/BillWiseReportOPIP.aspx" xml:space="preserve">
+    <value>比尔·怀斯收集报告：OP / IP</value>
+  </data>
+  <data name="~/Reports/BirthStatisticsReport.aspx" xml:space="preserve">
+    <value>出生统计报告</value>
+  </data>
+  <data name="~/Reports/CCStmt - Copy.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/CCStmt.aspx" xml:space="preserve">
+    <value>付款方式举报</value>
+  </data>
+  <data name="~/Reports/CollectionReportOPIP.aspx" xml:space="preserve">
+    <value>天智收集报告：OP / IP</value>
+  </data>
+  <data name="~/Reports/CollectionRptDptWiseOPIP.aspx" xml:space="preserve">
+    <value>部明智收集报告：OP / IP</value>
+  </data>
+  <data name="~/Reports/CollectionRptDptWiseOPIPDetails.aspx" xml:space="preserve">
+    <value>收集报告系明智OPIP详细</value>
+  </data>
+  <data name="~/Reports/DayWiseBillReport.aspx" xml:space="preserve">
+    <value>天智比尔报告</value>
+  </data>
+  <data name="~/Reports/DeathStatisticsReport.aspx" xml:space="preserve">
+    <value>死亡统计报告</value>
+  </data>
+  <data name="~/Reports/DeptDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/DischargeAnalysisReport.aspx" xml:space="preserve">
+    <value>放电分析报告</value>
+  </data>
+  <data name="~/Reports/DiscountReport.aspx" xml:space="preserve">
+    <value>折扣报告</value>
+  </data>
+  <data name="~/Reports/DoctorsStatisticsReport.aspx" xml:space="preserve">
+    <value>医生统计报告</value>
+  </data>
+  <data name="~/Reports/DuePaidDetailSReport.aspx" xml:space="preserve">
+    <value>由于付费详细报告</value>
+  </data>
+  <data name="~/Reports/DueReport.aspx" xml:space="preserve">
+    <value>由于和到期付费报告</value>
+  </data>
+  <data name="~/Reports/ExpensesReport.aspx" xml:space="preserve">
+    <value>费用报告</value>
+  </data>
+  <data name="~/Reports/GeneralReports.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/GetRoomCollectionIPReport.aspx" xml:space="preserve">
+    <value>室合集报告</value>
+  </data>
+  <data name="~/Reports/ICDReports.aspx" xml:space="preserve">
+    <value>ICD报告</value>
+  </data>
+  <data name="~/Reports/ImgStatisticsReport.aspx" xml:space="preserve">
+    <value>图片统计报告</value>
+  </data>
+  <data name="~/Reports/InsuranceCorpReport.aspx" xml:space="preserve">
+    <value>保险/企业报告</value>
+  </data>
+  <data name="~/Reports/IpBillSummaryReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/IPDischargeAdmissionReport.aspx" xml:space="preserve">
+    <value>IP入狱及释放</value>
+  </data>
+  <data name="~/Reports/KeyIndicators.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/LabSplitDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/LabStatisticsReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/LabTestStatisticsReport.aspx" xml:space="preserve">
+    <value>实验室统计</value>
+  </data>
+  <data name="~/Reports/ListofPatientsReport.aspx" xml:space="preserve">
+    <value>患者列表报告</value>
+  </data>
+  <data name="~/Reports/midnitesensexreport.aspx" xml:space="preserve">
+    <value>午夜Sensex指数报告</value>
+  </data>
+  <data name="~/Reports/PhysicianWiseReport.aspx" xml:space="preserve">
+    <value>医师明智的报告</value>
+  </data>
+  <data name="~/Reports/PhysioComplaintReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/PhysioReport.aspx" xml:space="preserve">
+    <value>理疗报告</value>
+  </data>
+  <data name="~/Reports/PrintInsuranceCorporateReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/ProcedureStatisticsReport.aspx" xml:space="preserve">
+    <value>程序统计报告</value>
+  </data>
+  <data name="~/Reports/ReportDisplay.aspx" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="~/Reports/SnapshotView.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/VacantRoomList.aspx" xml:space="preserve">
+    <value>空置房名单</value>
+  </data>
+  <data name="~/Reports/wardoccupancyreport.aspx" xml:space="preserve">
+    <value>沃德占用报告</value>
+  </data>
+  <data name="~/Reminder/ReminderDisplay.aspx" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="~/Referrals/ReferralAndMedicalCertificate.aspx" xml:space="preserve">
+    <value>转介及诊断书</value>
+  </data>
+  <data name="~/Referrals/ReferralLetter.aspx" xml:space="preserve">
+    <value>推荐信</value>
+  </data>
+  <data name="~/Reception/PatientList.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/PrintPatientRegistration.aspx" xml:space="preserve">
+    <value>打印病人登记详细信息</value>
+  </data>
+  <data name="~/Reception/printpopup.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/PrintSecPage.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/ShowPatientRecommendation.aspx" xml:space="preserve">
+    <value>患者推荐</value>
+  </data>
+  <data name="~/Reception/ViewRecommendation.aspx" xml:space="preserve">
+    <value>患者推荐</value>
+  </data>
+  <data name="~/Printing/BillPrinting.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Printing/CaseSheetPrinting.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Printing/ConsolidateReport.aspx" xml:space="preserve">
+    <value>打印比尔</value>
+  </data>
+  <data name="~/Printing/Reciept.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/InvestigationReport.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Physician/QuickDiagnosis.aspx" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="~/Patient/PatientExaminationPackage.aspx" xml:space="preserve">
+    <value>Exmination包</value>
+  </data>
+  <data name="~/Patient/PatientHistoryPackage.aspx" xml:space="preserve">
+    <value>历史包</value>
+  </data>
+  <data name="~/Patient/PendingRecommendation.aspx" xml:space="preserve">
+    <value>待推荐</value>
+  </data>
+  <data name="~/Patient/PrintEMRPackages.aspx" xml:space="preserve">
+    <value>患者包详细信息</value>
+  </data>
+  <data name="~/Patient/PrintExamination.aspx" xml:space="preserve">
+    <value>门诊检查细节</value>
+  </data>
+  <data name="~/Patient/PrintHistory.aspx" xml:space="preserve">
+    <value>患者的病史细节</value>
+  </data>
+  <data name="~/Patient/selectdiagnosis.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Patient/ViewEMRPackages.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Nurse/Immunization.aspx" xml:space="preserve">
+    <value>免疫接种</value>
+  </data>
+  <data name="~/NewInstanceCreation/NewInstanceCreation.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Lab/EditInvestigation.aspx" xml:space="preserve">
+    <value>调查结果捕获</value>
+  </data>
+  <data name="~/Lab/IPInvSampleCollection.aspx" xml:space="preserve">
+    <value>调查样本采集</value>
+  </data>
+  <data name="~/Lab/ipPerformInvestigation.aspx" xml:space="preserve">
+    <value>调查结果捕获</value>
+  </data>
+  <data name="~/Lab/Printworkorder.aspx" xml:space="preserve">
+    <value>打印工作订单</value>
+  </data>
+  <data name="~/Investigation/ConsolidatedLabResult.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/InvestigationReport.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Investigation/InvReports.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Investigation/ReferedInvestigation.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/ViewInvestigationReport.aspx" xml:space="preserve">
+    <value>调查报告</value>
+  </data>
+  <data name="~/Inventory/PatientList.aspx" xml:space="preserve">
+    <value>病人列表</value>
+  </data>
+  <data name="~/Inventory/PrintBill.aspx" xml:space="preserve">
+    <value>打印比尔</value>
+  </data>
+  <data name="~/Inventory/ProjectionListDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrderQuantity.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/scheduleDrugReport.aspx" xml:space="preserve">
+    <value>附表毒品报告</value>
+  </data>
+  <data name="~/Inventory/UpdateStockInHand.aspx" xml:space="preserve">
+    <value>更新股票</value>
+  </data>
+  <data name="~/InPatient/DischargeChkList.aspx" xml:space="preserve">
+    <value>放电检查清单</value>
+  </data>
+  <data name="~/InPatient/DueClearance.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/EditTPAPayment.aspx" xml:space="preserve">
+    <value>编辑TPA付款细节</value>
+  </data>
+  <data name="~/InPatient/IPBillingHome.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/IPBillSettlementHome.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/PrintDischargeChkList.aspx" xml:space="preserve">
+    <value>放电检查清单</value>
+  </data>
+  <data name="~/InPatient/PrintIPAdmissionData.aspx" xml:space="preserve">
+    <value>住院手续细节</value>
+  </data>
+  <data name="~/InPatient/PrintRaksithDischarge.aspx" xml:space="preserve">
+    <value>出院小结情况表</value>
+  </data>
+  <data name="~/InPatient/TPAPayment.aspx" xml:space="preserve">
+    <value>TPA病人的详细信息</value>
+  </data>
+  <data name="~/InPatient/TpaPaymentCollection.aspx" xml:space="preserve">
+    <value>TPA代收货款</value>
+  </data>
+  <data name="~/HelpFiles/Helpvideo.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/EMR/PackageProfile.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Dialysis/TreatmentProcedure.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Cashier/Home.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/CheckPayment.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/InvestigationPayment.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/App_Themes/Billing/CheckPayment.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/App_Themes/Billing/InvestigationPayment.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/ANC/ANC.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/ANC/ANCPatientDignose.aspx" xml:space="preserve">
+    <value>ANC病人诊断</value>
+  </data>
+  <data name="~/ANC/BaseLineHistoryFollowup.aspx" xml:space="preserve">
+    <value>基线随访历史</value>
+  </data>
+  <data name="~/ANC/BaselineScreeningHistory.aspx" xml:space="preserve">
+    <value>基线筛查历史</value>
+  </data>
+  <data name="~/Admin/AddInvandGroups.aspx" xml:space="preserve">
+    <value>管理调查与集团</value>
+  </data>
+  <data name="~/Admin/CashInFlow.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/ChangeUOM.aspx" xml:space="preserve">
+    <value>管理调查组</value>
+  </data>
+  <data name="~/Admin/CheckSecPage.aspx" xml:space="preserve">
+    <value>管理序列</value>
+  </data>
+  <data name="~/Admin/DailyBillPrint.aspx" xml:space="preserve">
+    <value>管理员报告</value>
+  </data>
+  <data name="~/Admin/Default.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/ManagePackage.aspx" xml:space="preserve">
+    <value>管理软件包</value>
+  </data>
+  <data name="~/Admin/ManageSequenceINV.aspx" xml:space="preserve">
+    <value>管理序列</value>
+  </data>
+  <data name="~/Admin/MedicalIndentMaster.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/RateTypeMaster.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/ReportDisplay.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/SurgeryPackage.aspx" xml:space="preserve">
+    <value>添加手术包</value>
+  </data>
+  <data name="~/Admin/TestGroup.aspx" xml:space="preserve">
+    <value>管理调查小组</value>
+  </data>
+  <data name="~/Admin/TestInvestigation.aspx" xml:space="preserve">
+    <value>管理调查</value>
+  </data>
+  <data name="~/Reports/InPatientDueReport.aspx" xml:space="preserve">
+    <value>住院由于报告</value>
+  </data>
+  <data name="~/Reports/OPIPNewAndRevisit.aspx" xml:space="preserve">
+    <value>OPIP新并重新</value>
+  </data>
+  <data name="~/Reports/PatientLedgerReport.aspx" xml:space="preserve">
+    <value>病人分类帐报表</value>
+  </data>
+  <data name="~/Reports/DayWiseAdmissionDischargeRpt.aspx" xml:space="preserve">
+    <value>DayWise入院出院报告</value>
+  </data>
+  <data name="~/Inventory/MedicineWiseReport.aspx" xml:space="preserve">
+    <value>产品明智的报告</value>
+  </data>
+  <data name="~/Inventory/StockIssuedReport.aspx" xml:space="preserve">
+    <value>股票问题报告</value>
+  </data>
+  <data name="~/Reports/CollectionReportOPIPWithFilter.aspx" xml:space="preserve">
+    <value>收集报告OPIP带滤波器</value>
+  </data>
+  <data name="~/Reports/DayWiseDischargeIPReport.aspx" xml:space="preserve">
+    <value>DayWise排放IP报告</value>
+  </data>
+  <data name="~/Reports/MonthWiseDischargeReport.aspx" xml:space="preserve">
+    <value>MonthWise排放报告</value>
+  </data>
+  <data name="~/Reports/TPACORPOutstandingReport.aspx" xml:space="preserve">
+    <value>TPA / CORP杰出报告</value>
+  </data>
+  <data name="~/Reports/TPACORPDisallowedReport.aspx" xml:space="preserve">
+    <value>信用报告</value>
+  </data>
+  <data name="~/Reports/DepartmentWiseCollectionReport.aspx" xml:space="preserve">
+    <value>明智部收集报告</value>
+  </data>
+  <data name="~/Admin/AddBankName.aspx" xml:space="preserve">
+    <value>添加/修改银行</value>
+  </data>
+  <data name="~/Admin/AddNewRefPhyPopup.aspx" xml:space="preserve">
+    <value>添加/修改转诊医师</value>
+  </data>
+  <data name="~/Admin/AddOrChangeNumberPatterns.aspx" xml:space="preserve">
+    <value>添加/修改序列号模式</value>
+  </data>
+  <data name="~/Admin/BannerMaster.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/ConfigureVisitPurpose.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/CustomizeClientFeeTypeRate.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/DesignationRelationship.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/DiscountMaster.aspx" xml:space="preserve">
+    <value>管理大师折扣</value>
+  </data>
+  <data name="~/Admin/DiscountReason.aspx" xml:space="preserve">
+    <value>管理折扣原因主</value>
+  </data>
+  <data name="~/Admin/InventoryProductMapping.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/InvestigationDrugBrand.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/InvestigationProductMapping.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/OrganisationLocation.aspx" xml:space="preserve">
+    <value>地图上的位置来组织</value>
+  </data>
+  <data name="~/Admin/OrgCreateUser.aspx" xml:space="preserve">
+    <value>对于管理用户组织</value>
+  </data>
+  <data name="~/Admin/ProcedureMaster.aspx" xml:space="preserve">
+    <value>管理程序高手</value>
+  </data>
+  <data name="~/Admin/RefPhyRateMapping.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Admin/Speciality.aspx" xml:space="preserve">
+    <value>管理专业硕士</value>
+  </data>
+  <data name="~/Admin/SurgeryMaster.aspx" xml:space="preserve">
+    <value>管理大师手术</value>
+  </data>
+  <data name="~/Admin/TaskActionMapping.aspx" xml:space="preserve">
+    <value>管理和地图任务操作</value>
+  </data>
+  <data name="~/Admin/UOMMaster.aspx" xml:space="preserve">
+    <value>管理大师计量单位</value>
+  </data>
+  <data name="~/Admin/VisitType.aspx" xml:space="preserve">
+    <value>管理式访问</value>
+  </data>
+  <data name="~/Billing/AddServiceCode.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/CCDenomination.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/CollectDueAmount.aspx" xml:space="preserve">
+    <value>收藏到期金额</value>
+  </data>
+  <data name="~/Billing/DepositRefund.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/EditInterimBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/EditReferringDoctor.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/InterimSearch.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/PatientDueDetails.aspx" xml:space="preserve">
+    <value>病人因细节</value>
+  </data>
+  <data name="~/Billing/PrintInterimBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/RefundDepositSearch.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Billing/ViewDueDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Cashier/CashDenominationForm.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Corporate/Assistantphysician.aspx" xml:space="preserve">
+    <value>打字员首页</value>
+  </data>
+  <data name="~/Corporate/CancelledServices.aspx" xml:space="preserve">
+    <value>取消订购服务</value>
+  </data>
+  <data name="~/Corporate/CorpInvBilling.aspx" xml:space="preserve">
+    <value>公司药店结算</value>
+  </data>
+  <data name="~/Corporate/CorpInvSearch.aspx" xml:space="preserve">
+    <value>公司药房搜索</value>
+  </data>
+  <data name="~/Corporate/CorporateBilling.aspx" xml:space="preserve">
+    <value>公司结算</value>
+  </data>
+  <data name="~/Corporate/CorporatePatientSearch.aspx" xml:space="preserve">
+    <value>企业搜索的Emp</value>
+  </data>
+  <data name="~/Corporate/CorporateQuickBilling.aspx" xml:space="preserve">
+    <value>病人订单录入</value>
+  </data>
+  <data name="~/Corporate/CorporateService.aspx" xml:space="preserve">
+    <value>服务搜索</value>
+  </data>
+  <data name="~/Corporate/DiseaseburdenReport.aspx" xml:space="preserve">
+    <value>疾病负担报告</value>
+  </data>
+  <data name="~/Corporate/Home.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Corporate/PrescriptionSearch.aspx" xml:space="preserve">
+    <value>搜索处方</value>
+  </data>
+  <data name="~/Corporate/PrintBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Corporate/ServiceRenderedReport.aspx" xml:space="preserve">
+    <value>服务呈现的报表</value>
+  </data>
+  <data name="~/Corporate/ViewPrescription.aspx" xml:space="preserve">
+    <value>查看处方</value>
+  </data>
+  <data name="~/EncryptPasswordBulk.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/ErrorHandling/Error.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/ErrorHandling/PageNotFound.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/FCKeditor/editor/filemanager/upload/aspx/upload.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/CreditBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/EditIPFinalBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/EditIPViewBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/IPMergeBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/KMHIPViewBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/PatientConsolidateBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/PhysioCaseSheet.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/PopUpAttributePage.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/InPatient/PrintDueRequestPage.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/CentralPurchaseOrder.aspx" xml:space="preserve">
+    <value>中央采购订单</value>
+  </data>
+  <data name="~/Inventory/CollectAdvance.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/CreditInventoryDueClearance.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/DueClearance.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/InventoryDueClearance.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/InvKitCancel.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/INVKitMaster.aspx" xml:space="preserve">
+    <value>包定义</value>
+  </data>
+  <data name="~/Inventory/InvoiceMapping.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/IPPharmacyConsolidateBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/IPPharmacyStockRefund.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/IssueStock.aspx" xml:space="preserve">
+    <value>股票发行</value>
+  </data>
+  <data name="~/Inventory/KitCreation.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/KitProductPrintSearch.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/MatchingViewStockReceived.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PharmacyBill.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PharmacyConsolidate.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PORequestSearch.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PO_RequestPrint.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PrintDueReceipt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PrintKitCreationDetail.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/PrintPurchaseOrder.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ProductSupplierRateMapping.aspx" xml:space="preserve">
+    <value>法师报价</value>
+  </data>
+  <data name="~/Inventory/ProductType.aspx" xml:space="preserve">
+    <value>管理产品类型</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrderRequest.aspx" xml:space="preserve">
+    <value>PO申请</value>
+  </data>
+  <data name="~/Inventory/RaisedPurchaseOrder.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ReceivedIndent.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ReturnPatient.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ReturnStockByBatch.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/StockReceive.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/StockReturnPayment.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/SubStoreStockReturn.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/SuplierPurchaseOrder.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/TempViewInvReceipt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/UserIPStockReturn.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ViewInvRefundRecepit.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ViewIssuedIndentdetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ViewPurchaseOrderMedal.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Inventory/ViewStockDisposal.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/AddInvestigation.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/InvestigationStatusReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/InvQualitativeResultMaster.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/InvResultTemplate.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/invsample.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/MethodKitPreview.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/PatternMappingForInvestigation.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Investigation/SequenceArrangement.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Lab/homecollection.aspx" xml:space="preserve">
+    <value>预约/预订</value>
+  </data>
+  <data name="~/Lab/InvestigationOrgChange.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Lab/Test.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Patient/PrintViewEMRPackages.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/PatientAccess/InvestigationReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/diabetesEMR.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/DiadetesEMROPCaseSheet.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/PerformingPhysician.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/SurgeryMaster.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/ViewConsolidateCaseSheet.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Physician/ViewIPCaseSheet.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Psychologist/Counselling.aspx" xml:space="preserve">
+    <value>辅导casesheet</value>
+  </data>
+  <data name="~/Psychologist/Home.aspx" xml:space="preserve">
+    <value>咨询主页</value>
+  </data>
+  <data name="~/Psychologist/PrintViewCounsellingDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Psychologist/Psychiatry.aspx" xml:space="preserve">
+    <value>精神病学casesheet</value>
+  </data>
+  <data name="~/Psychologist/ViewCounsellingDetails.aspx" xml:space="preserve">
+    <value>查看详细咨询</value>
+  </data>
+  <data name="~/Reception/CollectDeposit.aspx" xml:space="preserve">
+    <value>收集存款</value>
+  </data>
+  <data name="~/Reception/DayCare.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/Episode.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/NMC_BillPrint.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/PrintDepositReceipt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reception/VisitStateChangedScreen.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/CancelledBillReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/CenterAndSpecialitywiseReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/ChequeDDStmt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/CreditLimitReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/DepartmentWiseDetailReportPopUp.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/DeptRevenueDetails.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/DptWiseRevenueRpt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/InvestigationStockUsage.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/MedPatientWiseBillWiseCollectionReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/OPCreditBillReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/PatientDepositReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/PatientWiseCombinedReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/PatientWiseDepositReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/PurchaseOrderReport.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Reports/RoomListRpt.aspx" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="~/Lab/PendingSampleCollection.aspx" xml:space="preserve">
+    <value>样本搜索</value>
+  </data>
+  <data name="~/Admin/ClientRateMapping.aspx" xml:space="preserve">
+    <value>客户端率变换</value>
+  </data>
+  <data name="~/Invoice/InvoiceMaster.aspx" xml:space="preserve">
+    <value>客户端主</value>
+  </data>
+  <data name="~/Admin/AddOrChangeGroup.aspx" xml:space="preserve">
+    <value>大师梅塔</value>
+  </data>
+  <data name="~/Admin/PasswordPolicy.aspx" xml:space="preserve">
+    <value>主策略</value>
+  </data>
+  <data name="~/Reception/LabReceptionHome.aspx" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="~/Reports/CollectionReportLIMS.aspx" xml:space="preserve">
+    <value>收集报告</value>
+  </data>
+  <data name="~/Reception/MergeForm.aspx" xml:space="preserve">
+    <value>合并表</value>
+  </data>
+  <data name="~/Admin/LabMaster.aspx" xml:space="preserve">
+    <value>测试主</value>
+  </data>
+  <data name="~/Admin/SpecialRateCard.aspx" xml:space="preserve">
+    <value>服务客户端映射</value>
+  </data>
+  <data name="~/Reception/AddressBook.aspx" xml:space="preserve">
+    <value>地址簿</value>
+  </data>
+  <data name="~/Deployability/InvCreateUpdate.aspx" xml:space="preserve">
+    <value>大师批量上传</value>
+  </data>
+  <data name="~/Admin/ManageInvComputation.aspx" xml:space="preserve">
+    <value>公式主</value>
+  </data>
+  <data name="~/Deployability/CopyingMaster.aspx" xml:space="preserve">
+    <value>复制大师</value>
+  </data>
+  <data name="~/Reports/AdvanceCollectionRefundDetails.aspx" xml:space="preserve">
+    <value>提前收集详细信息</value>
+  </data>
+  <data name="~/Reports/AdvanceClientPatientDetails.aspx" xml:space="preserve">
+    <value>高级客户详细信息</value>
+  </data>
+  <data name="~/Deployability/ClientServiceMapping.aspx" xml:space="preserve">
+    <value>客户服务映射</value>
+  </data>
+  <data name="~/Deployability/ServiceExclusivity.aspx" xml:space="preserve">
+    <value>服务排他性</value>
+  </data>
+  <data name="~/ReportsLims/BillWiseDeptCollectionReportLims.aspx" xml:space="preserve">
+    <value>病人明智比尔明智收集报告</value>
+  </data>
+  <data name="~/ReportsLims/DueReportLims.aspx" xml:space="preserve">
+    <value>由于列表报告</value>
+  </data>
+  <data name="~/Deployability/Interdependency.aspx" xml:space="preserve">
+    <value>相互依存</value>
+  </data>
+  <data name="~/Deployability/ManagePrinter.aspx" xml:space="preserve">
+    <value>管理打印机</value>
+  </data>
+  <data name="~/Phlebotomist/Home.aspx" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="~/Billing/LabQuickBilling.aspx" xml:space="preserve">
+    <value>实验室快速结算</value>
+  </data>
+  <data name="~/Patient/PatientRecommendation.aspx" xml:space="preserve">
+    <value>耐心推荐</value>
+  </data>
+</root>

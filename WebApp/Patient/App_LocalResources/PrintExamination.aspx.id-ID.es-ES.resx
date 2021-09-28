@@ -1,0 +1,1995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnEditExamResource1.Text" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="btnEMRHistoryResource1.Text" xml:space="preserve">
+    <value>Tangkap Sejarah</value>
+  </data>
+  <data name="btnPrintResource1.Text" xml:space="preserve">
+    <value>cetak</value>
+  </data>
+  <data name="chkPupils_926Resource1.Text" xml:space="preserve">
+    <value>Pupils</value>
+  </data>
+  <data name="ddlTypeBSAI_45Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="ddlTypeDVAI_9Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="ddlTypeLNAI_41Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblAbdominalExamination_888Resource1.Text" xml:space="preserve">
+    <value>PEMERIKSAAN PERUT</value>
+  </data>
+  <data name="lblAbdominalInspection_889Resource1.Text" xml:space="preserve">
+    <value>Inspeksi perut</value>
+  </data>
+  <data name="lblAbdominalPalpation_890Resource1.Text" xml:space="preserve">
+    <value>Palpasi abdomen</value>
+  </data>
+  <data name="lblABNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblAbnormalitiesBAI_88Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesBSAI_46Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesCNAI_76Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesEGAI_92Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesGTAI_86Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesMSAI_82Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesMSSAI_84Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesPAI_31Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesPAI_74Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesPRTAI_96Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesRFAI_80Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesRTMAI_94Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesSSAI_78Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesTGAI_70Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesTHAI_68Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesTHYAI_40Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesTSAI_72Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalitiesUAI_90Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblAbnormalityEMAI_21Resource1.Text" xml:space="preserve">
+    <value>abnormalitas</value>
+  </data>
+  <data name="lblACNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblAINilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblApexBeat_885Resource1.Text" xml:space="preserve">
+    <value>Apex beat</value>
+  </data>
+  <data name="lblAPNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblAssociatedConditionsXAI_19Resource1.Text" xml:space="preserve">
+    <value>kondisi asosiasi</value>
+  </data>
+  <data name="lblAuditoryCanal_872Resource1.Text" xml:space="preserve">
+    <value>auditori Canal</value>
+  </data>
+  <data name="lblBNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblBreasts_908Resource1.Text" xml:space="preserve">
+    <value>payudara</value>
+  </data>
+  <data name="lblBreathSounds_879Resource1.Text" xml:space="preserve">
+    <value>suara nafas</value>
+  </data>
+  <data name="lblBSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblCardiovascularExamination_880Resource1.Text" xml:space="preserve">
+    <value>PEMERIKSAAN KARDIOVASKULAR</value>
+  </data>
+  <data name="lblCNNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblColorVision_921Resource1.Text" xml:space="preserve">
+    <value>Visi warna</value>
+  </data>
+  <data name="lblCranialNerves_901Resource1.Text" xml:space="preserve">
+    <value>Saraf kranial</value>
+  </data>
+  <data name="lblCVNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblDescriptionCVAI_14Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDescriptionKDAI_65Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDescriptionLIAI_61Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDescriptionPAI_32Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDescriptionPGAI_17Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDescriptionSPLAI_63Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblDistantVision_919Resource1.Text" xml:space="preserve">
+    <value>Visi jauh</value>
+  </data>
+  <data name="lblDVNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblEarDrum_873Resource1.Text" xml:space="preserve">
+    <value>gendang pendengar</value>
+  </data>
+  <data name="lblEDNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblEGNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblEMNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblExternalGenetaila_910Resource1.Text" xml:space="preserve">
+    <value>genitalia eksternal</value>
+  </data>
+  <data name="lblEye_871Resource1.Text" xml:space="preserve">
+    <value>telinga</value>
+  </data>
+  <data name="lblEye_918Resource1.Text" xml:space="preserve">
+    <value>mata</value>
+  </data>
+  <data name="lblEyeMovements_925Resource1.Text" xml:space="preserve">
+    <value>Gerakan mata</value>
+  </data>
+  <data name="lblEyesIOLAI_15Resource1.Text" xml:space="preserve">
+    <value>mata-mata</value>
+  </data>
+  <data name="lblFindingsABAI_52Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsHMAI_56Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsHSAI_54Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsPCAI_49Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsPRTMAI_47Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsPVAI_48Resource1.Text" xml:space="preserve">
+    <value>Temuan: -</value>
+  </data>
+  <data name="lblFindingsSignsPEPAI_50Resource1.Text" xml:space="preserve">
+    <value>Temuan/tanda</value>
+  </data>
+  <data name="lblGait_906Resource1.Text" xml:space="preserve">
+    <value>kiprah</value>
+  </data>
+  <data name="lblGeneralAppearance_895Resource1.Text" xml:space="preserve">
+    <value>Penampilan Umum</value>
+  </data>
+  <data name="lblGENillResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblGTNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblGynaecologicalExamination_907Resource1.Text" xml:space="preserve">
+    <value>PEMERIKSAAN Ginekologi</value>
+  </data>
+  <data name="lblHair_915Resource1.Text" xml:space="preserve">
+    <value>rambut</value>
+  </data>
+  <data name="lblHairTypeHRAI_3Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblHeartMummurs_887Resource1.Text" xml:space="preserve">
+    <value>jantung Murmur</value>
+  </data>
+  <data name="lblHeartSounds_886Resource1.Text" xml:space="preserve">
+    <value>Suara hati</value>
+  </data>
+  <data name="lblHHair_915Resource1.Text" xml:space="preserve">
+    <value>rambut</value>
+  </data>
+  <data name="lblHMNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblHNails_916Resource1.Text" xml:space="preserve">
+    <value>kuku</value>
+  </data>
+  <data name="lblHRNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblHScar_917Resource1.Text" xml:space="preserve">
+    <value>bekas luka</value>
+  </data>
+  <data name="lblHSkinResource1.Text" xml:space="preserve">
+    <value>kulit</value>
+  </data>
+  <data name="lblHSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblHVitalsResource1.Text" xml:space="preserve">
+    <value>signos vitales</value>
+  </data>
+  <data name="lblInspectionAIAI_58Resource1.Text" xml:space="preserve">
+    <value>Inspeksi: -</value>
+  </data>
+  <data name="lblIOLNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblIOLPresent_922Resource1.Text" xml:space="preserve">
+    <value>IOL Hadir</value>
+  </data>
+  <data name="lblIOPNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblIOPTAI_33Resource1.Text" xml:space="preserve">
+    <value>IOP</value>
+  </data>
+  <data name="lblKDNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblKidneys_893Resource1.Text" xml:space="preserve">
+    <value>ginjal</value>
+  </data>
+  <data name="lblLeftEarACAI_36Resource1.Text" xml:space="preserve">
+    <value>Telinga Kiri: -</value>
+  </data>
+  <data name="lblLeftEarEDAI_38Resource1.Text" xml:space="preserve">
+    <value>Telinga Kiri: -</value>
+  </data>
+  <data name="lblLeftEyeDVAI_97Resource1.Text" xml:space="preserve">
+    <value>mata kiri</value>
+  </data>
+  <data name="lblLeftEyeNVAI_99Resource1.Text" xml:space="preserve">
+    <value>mata kiri</value>
+  </data>
+  <data name="lblLeftEyePAI_24Resource1.Text" xml:space="preserve">
+    <value>mata kiri</value>
+  </data>
+  <data name="lblLeftEyePAI_27Resource1.Text" xml:space="preserve">
+    <value>mata kiri</value>
+  </data>
+  <data name="lblLeftEyePAI_30Resource1.Text" xml:space="preserve">
+    <value>mata kiri</value>
+  </data>
+  <data name="lblLeftIOPTAI_34Resource1.Text" xml:space="preserve">
+    <value>IOP kiri</value>
+  </data>
+  <data name="lblLINilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblLiver_891Resource1.Text" xml:space="preserve">
+    <value>Liver</value>
+  </data>
+  <data name="lblLNNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblLocationLNAI_42Resource1.Text" xml:space="preserve">
+    <value>lokasi</value>
+  </data>
+  <data name="lblLocationPEPAI_51Resource1.Text" xml:space="preserve">
+    <value>lokasi</value>
+  </data>
+  <data name="lblLymphNodes_876Resource1.Text" xml:space="preserve">
+    <value>Lymph Nodes</value>
+  </data>
+  <data name="lblMotorSystem_904Resource1.Text" xml:space="preserve">
+    <value>Sistem bermotor</value>
+  </data>
+  <data name="lblMSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblMSSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblMusculoSkeletalsystem_905Resource1.Text" xml:space="preserve">
+    <value>Sistem muskuloskeletal</value>
+  </data>
+  <data name="lblNails_916Resource1.Text" xml:space="preserve">
+    <value>kuku</value>
+  </data>
+  <data name="lblNailsDescriptionNAI_5Resource1.Text" xml:space="preserve">
+    <value>deskripsi</value>
+  </data>
+  <data name="lblNailsTypeNAI_4Resource1.Text" xml:space="preserve">
+    <value>jenis</value>
+  </data>
+  <data name="lblNearVision_920Resource1.Text" xml:space="preserve">
+    <value>Visi dekat</value>
+  </data>
+  <data name="lblNeck_874Resource1.Text" xml:space="preserve">
+    <value>leher</value>
+  </data>
+  <data name="lblNeurologicalExamination_900Resource1.Text" xml:space="preserve">
+    <value>PEMERIKSAAN NEUROLOGIS</value>
+  </data>
+  <data name="lblNNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblNVNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblOFNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblOralCavity_894Resource1.Text" xml:space="preserve">
+    <value>LISAN CAVITY</value>
+  </data>
+  <data name="lblOtherFindings_914Resource1.Text" xml:space="preserve">
+    <value>Temuan lain</value>
+  </data>
+  <data name="lblPalpationAPAI_59Resource1.Text" xml:space="preserve">
+    <value>Palpasi: -</value>
+  </data>
+  <data name="lblPCNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPEPNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPeripheralPulses_884Resource1.Text" xml:space="preserve">
+    <value>Peripheral Pulses</value>
+  </data>
+  <data name="lblPGNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPPNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblProstate_913Resource1.Text" xml:space="preserve">
+    <value>Prostate</value>
+  </data>
+  <data name="lblPRTMNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPRTNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblPterygium_923Resource1.Text" xml:space="preserve">
+    <value>Pterygium</value>
+  </data>
+  <data name="lblPulseCharacter_883Resource1.Text" xml:space="preserve">
+    <value>Pulse Character</value>
+  </data>
+  <data name="lblPulseRhythm_881Resource1.Text" xml:space="preserve">
+    <value>Pulse Rhythm</value>
+  </data>
+  <data name="lblPulseVolume_882Resource1.Text" xml:space="preserve">
+    <value>Pulse Volume</value>
+  </data>
+  <data name="lblPVNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblReactiontoLight_28Resource1.Text" xml:space="preserve">
+    <value>Reaksi terhadap cahaya</value>
+  </data>
+  <data name="lblRectalExamination_911Resource1.Text" xml:space="preserve">
+    <value>rektal PEMERIKSAAN</value>
+  </data>
+  <data name="lblRectum_912Resource1.Text" xml:space="preserve">
+    <value>dubur</value>
+  </data>
+  <data name="lblReflexes_903Resource1.Text" xml:space="preserve">
+    <value>refleks</value>
+  </data>
+  <data name="lblRespiratorySystem_877Resource1.Text" xml:space="preserve">
+    <value>Sistem pernapasan</value>
+  </data>
+  <data name="lblRFNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblRightEarACAI_35Resource1.Text" xml:space="preserve">
+    <value>telinga kanan</value>
+  </data>
+  <data name="lblRightEarEDAI_37Resource1.Text" xml:space="preserve">
+    <value>telinga kanan</value>
+  </data>
+  <data name="lblRightEyeDVAI_10Resource1.Text" xml:space="preserve">
+    <value>mata kanan</value>
+  </data>
+  <data name="lblRightEyeNVAI_12Resource1.Text" xml:space="preserve">
+    <value>mata kanan</value>
+  </data>
+  <data name="lblRightEyePAI_23Resource1.Text" xml:space="preserve">
+    <value>mata kanan</value>
+  </data>
+  <data name="lblRightEyePAI_26Resource1.Text" xml:space="preserve">
+    <value>mata kanan</value>
+  </data>
+  <data name="lblRightEyePAI_29Resource1.Text" xml:space="preserve">
+    <value>mata kanan</value>
+  </data>
+  <data name="lblRightIOPTAI_33Resource1.Text" xml:space="preserve">
+    <value>IOP kanan</value>
+  </data>
+  <data name="lblRTMNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblScar_917Resource1.Text" xml:space="preserve">
+    <value>bekas luka</value>
+  </data>
+  <data name="lblScaretiologySRAI_7Resource1.Text" xml:space="preserve">
+    <value>Lesi Scar: -</value>
+  </data>
+  <data name="lblScarLocationSRAI_8Resource1.Text" xml:space="preserve">
+    <value>lokasi bekas luka</value>
+  </data>
+  <data name="lblScarTypeSRAI_6Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblSensorySystem_902Resource1.Text" xml:space="preserve">
+    <value>Sensory System</value>
+  </data>
+  <data name="lblShapePAI_25Resource1.Text" xml:space="preserve">
+    <value>bentuk</value>
+  </data>
+  <data name="lblSizePAI_22Resource1.Text" xml:space="preserve">
+    <value>ukuran</value>
+  </data>
+  <data name="lblSkin_928Resource1.Text" xml:space="preserve">
+    <value>kulit</value>
+  </data>
+  <data name="lblSkinLesionsSKAI_2Resource1.Text" xml:space="preserve">
+    <value>lesi kulit</value>
+  </data>
+  <data name="lblSkinTypeSKAI_1Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblSKNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblSpleen_892Resource1.Text" xml:space="preserve">
+    <value>limpa</value>
+  </data>
+  <data name="lblSPLNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblSRNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblSSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblTeeth_896Resource1.Text" xml:space="preserve">
+    <value>gigi</value>
+  </data>
+  <data name="lblTGNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblTHNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblTHYNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblThyroidGland_875Resource1.Text" xml:space="preserve">
+    <value>Thyroid Gland</value>
+  </data>
+  <data name="lblTongue_897Resource1.Text" xml:space="preserve">
+    <value>lidah</value>
+  </data>
+  <data name="lblTonometry_927Resource1.Text" xml:space="preserve">
+    <value>Tonometry</value>
+  </data>
+  <data name="lblTonsils_898Resource1.Text" xml:space="preserve">
+    <value>Tonsils</value>
+  </data>
+  <data name="lblTracheaResource1.Text" xml:space="preserve">
+    <value>Trachea</value>
+  </data>
+  <data name="lblTRANilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblTSNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblTypeBAI_87Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeCNAI_75Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeCVAI_13Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeEGAI_91Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeEMAI_20Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeGEAI_66Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeGTAI_85Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeKDAI_64Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeLIAI_60Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeMSAI_81Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeMSSAI_83Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeNVAI_11Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypePAI_73Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypePGAI_16Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypePRTAI_95Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeRFAI_79Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeRTMAI_93Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypesofabnormalitiessABAI_53Resource1.Text" xml:space="preserve">
+    <value>Jenis kelainan: -</value>
+  </data>
+  <data name="lblTypesofabnormalitiessHMAI_57Resource1.Text" xml:space="preserve">
+    <value>Jenis kelainan: -</value>
+  </data>
+  <data name="lblTypesofabnormalitiessHSAI_55Resource1.Text" xml:space="preserve">
+    <value>Jenis kelainan: -</value>
+  </data>
+  <data name="lblTypeSPLAI_62Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeSSAI_77Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeTGAI_69Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeTHAI_67Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeTHYAI_39Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeTRAAI_43Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeTSAI_71Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeUAI_89Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblTypeXAI_18Resource1.Text" xml:space="preserve">
+    <value>tipe</value>
+  </data>
+  <data name="lblUNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblUterus_909Resource1.Text" xml:space="preserve">
+    <value>Uterus</value>
+  </data>
+  <data name="lblVitalsNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="lblVitalsResource1.Text" xml:space="preserve">
+    <value>signos vitales</value>
+  </data>
+  <data name="lblXanthelasma_924Resource1.Text" xml:space="preserve">
+    <value>Xanthelasma</value>
+  </data>
+  <data name="lblXNilResource1.Text" xml:space="preserve">
+    <value>Nil</value>
+  </data>
+  <data name="Pharynx_899Resource1.Text" xml:space="preserve">
+    <value>Pharynx</value>
+  </data>
+  <data name="btnEditExamResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEMRHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPupils_926Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeBSAI_45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeBSAVI_45Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeBSAVI_45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeDVAI_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeDVAVI_9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeDVAVI_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeLNAI_41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeLNAVI_41Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeLNAVI_41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbdominalExamination_888Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbdominalInspection_889Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbdominalPalpation_890Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBAI_88Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBAVI_88Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBAVI_88Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBSAI_46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBSAVI_46Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesBSAVI_46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesCNAI_76Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesCNAVI_76Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesCNAVI_76Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesEGAI_92Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesEGAVI_92Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesEGAVI_92Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesGTAI_86Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesGTAVI_86Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesGTAVI_86Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSAI_82Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSAVI_82Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSAVI_82Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSSAI_84Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSSAVI_84Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesMSSAVI_84Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAI_31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAI_74Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAVI_31Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAVI_31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAVI_74Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPAVI_74Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPRTAI_96Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPRTAVI_96Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesPRTAVI_96Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRFAI_80Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRFAVI_80Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRFAVI_80Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRTMAI_94Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRTMAVI_94Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesRTMAVI_94Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesSSAI_78Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesSSAVI_78Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesSSAVI_78Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTGAI_70Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTGAVI_70Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTGAVI_70Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHAI_68Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHAVI_68Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHAVI_68Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHYAI_40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHYAVI_40Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTHYAVI_40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTSAI_72Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTSAVI_72Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesTSAVI_72Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesUAI_90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesUAVI_90Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalitiesUAVI_90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalityEMAI_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalityEMAVI_21Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalityEMAVI_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblACNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAINilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApexBeat_885Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssociatedConditionsXAI_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssociatedConditionsXAVI_19Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssociatedConditionsXAVI_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditoryCanal_872Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBreasts_908Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBreathSounds_879Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardiovascularExamination_880Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCNNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblColorVision_921Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCranialNerves_901Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCVNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionCVAI_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionCVAVI_14Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionCVAVI_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionKDAI_65Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionKDAVI_65Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionKDAVI_65Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionLIAI_61Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionLIAVI_61Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionLIAVI_61Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPAI_32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPAVI_32Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPAVI_32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPGAI_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPGAVI_17Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionPGAVI_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionSPLAI_63Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionSPLAVI_63Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionSPLAVI_63Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDistantVision_919Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDVNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEarDrum_873Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEDNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEGNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEMNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalGenetaila_910Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEye_871Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEye_918Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEyeMovements_925Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEyesIOLAI_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEyesIOLAVI_15Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEyesIOLAVI_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsABAI_52Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsABAVI_52Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsABAVI_52Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHMAI_56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHMAVI_56Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHMAVI_56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHSAI_54Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHSAVI_54Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsHSAVI_54Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPCAI_49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPCAVI_49Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPCAVI_49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPRTMAI_47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPRTMAVI_47Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPRTMAVI_47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPVAI_48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPVAVI_48Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsPVAVI_48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsSignsPEPAI_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsSignsPEPAVI_50Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFindingsSignsPEPAVI_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGait_906Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralAppearance_895Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGENillResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGTNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGynaecologicalExamination_907Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHair_915Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHairTypeHRAI_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHairTypeHRAVI_3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHairTypeHRAVI_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeartMummurs_887Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeartSounds_886Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHHair_915Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHMNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHNails_916Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHRNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHScar_917Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHSkinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHVitalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInspectionAIAI_58Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInspectionAIAVI_58Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInspectionAIAVI_58Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIOLNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIOLPresent_922Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIOPNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIOPTAI_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKDNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKidneys_893Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarACAI_36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarACAVI_36Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarACAVI_36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarEDAI_38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarEDAVI_38Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEarEDAVI_38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeDVAI_97Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeDVAVI_97Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeDVAVI_97Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeNVAI_99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeNVAVI_99Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyeNVAVI_99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAI_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAI_27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAI_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_24Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_27Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_30Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEyePAVI_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftIOPTAI_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftIOPTAVI_34Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftIOPTAVI_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLINilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLiver_891Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLNNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationLNAI_42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationLNAVI_42Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationLNAVI_42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationPEPAI_51Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationPEPAVI_51Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationPEPAVI_51Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLymphNodes_876Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMotorSystem_904Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMSSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMusculoSkeletalsystem_905Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNails_916Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsDescriptionNAI_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsDescriptionNAVI_5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsDescriptionNAVI_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsTypeNAI_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsTypeNAVI_4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNailsTypeNAVI_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNearVision_920Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeck_874Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeurologicalExamination_900Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNVNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOFNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOralCavity_894Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherFindings_914Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherFindings_98Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherFindings_98Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPalpationAPAI_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPalpationAPAVI_59Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPalpationAPAVI_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPCNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPEPNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPeripheralPulses_884Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPGNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTracheostomy_156Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostTracheostomy_156Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPPNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProstate_913Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPRTMNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPRTNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPterygium_923Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPulseCharacter_883Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPulseRhythm_881Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPulseVolume_882Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPVNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReactiontoLight_28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRectalExamination_911Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRectum_912Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReflexes_903Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRespiratorySystem_877Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRFNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarACAI_35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarACAVI_35Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarACAVI_35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarEDAI_37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarEDAVI_37Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEarEDAVI_37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeDVAI_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeDVAVI_10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeDVAVI_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeNVAI_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeNVAVI_12Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyeNVAVI_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAI_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAI_26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAI_29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_23Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_26Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_29Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEyePAVI_29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightIOPTAI_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightIOPTAVI_33Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightIOPTAVI_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRTMNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScar_917Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScaretiologySRAI_7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScaretiologySRAVI_7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScaretiologySRAVI_7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarLocationSRAI_8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarLocationSRAVI_8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarLocationSRAVI_8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarTypeSRAI_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarTypeSRAVI_6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScarTypeSRAVI_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSensorySystem_902Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShapePAI_25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSizePAI_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkin_928Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinLesionsSKAI_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinLesionsSKAVI_2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinLesionsSKAVI_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinTypeSKAI_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinTypeSKAVI_1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkinTypeSKAVI_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSKNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpleen_892Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSPLNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSRNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeeth_896Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTGNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTHNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTHYNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblThyroidGland_875Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTongue_897Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTonometry_927Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTonsils_898Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTracheaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTRANilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTSNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeBAI_87Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeBAVI_87Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeBAVI_87Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCNAI_75Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCNAVI_75Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCNAVI_75Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCVAI_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCVAVI_13Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeCVAVI_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEGAI_91Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEGAVI_91Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEGAVI_91Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEMAI_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEMAVI_20Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeEMAVI_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGEAI_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGEAVI_66Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGEAVI_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGTAI_85Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGTAVI_85Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeGTAVI_85Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeKDAI_64Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeKDAVI_64Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeKDAVI_64Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeLIAI_60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeLIAVI_60Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeLIAVI_60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSAI_81Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSAVI_81Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSAVI_81Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSSAI_83Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSSAVI_83Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeMSSAVI_83Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeNVAI_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeNVAVI_11Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeNVAVI_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePAI_73Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePAVI_73Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePAVI_73Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePGAI_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePGAVI_16Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePGAVI_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePRTAI_95Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePRTAVI_95Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypePRTAVI_95Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRFAI_79Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRFAVI_79Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRFAVI_79Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRTMAI_93Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRTMAVI_93Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeRTMAVI_93Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessABAI_53Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessABAVI_53Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessABAVI_53Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHMAI_57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHMAVI_57Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHMAVI_57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHSAI_55Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHSAVI_55Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypesofabnormalitiessHSAVI_55Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSPLAI_62Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSPLAVI_62Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSPLAVI_62Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSSAI_77Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSSAVI_77Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeSSAVI_77Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTGAI_69Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTGAVI_69Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTGAVI_69Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTHAI_67Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTHAVI_67Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTHAVI_67Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTHYAI_39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTRAAI_43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTRAAVI_43Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTRAAVI_43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTSAI_71Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTSAVI_71Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTSAVI_71Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTTHYAVI_39Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTTHYAVI_39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeUAI_89Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeUAVI_89Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeUAVI_89Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeXAI_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeXAVI_18Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeXAVI_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUterus_909Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVitalsNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVitalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXanthelasma_924Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXNilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pharynx_899Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblAdmissionVitalsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblAdmissionVitalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

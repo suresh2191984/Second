@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Scripts_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Scripts_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Scripts_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Scripts_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_01" xml:space="preserve">
+    <value>Please select Product Name</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_02" xml:space="preserve">
+    <value>Please Enter Received Quantity</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_03" xml:space="preserve">
+    <value>Please Enter Start No</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_04" xml:space="preserve">
+    <value>Please Enter End No</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_05" xml:space="preserve">
+    <value>Entered Barcode startno cannot be more than endno</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_06" xml:space="preserve">
+    <value>Entered Barcode endno is not in range</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_07" xml:space="preserve">
+    <value>Entered Barcode startno and endno is not in range</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_08" xml:space="preserve">
+    <value>Barcode Range already exists</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_09" xml:space="preserve">
+    <value>Barcode is not in range</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_10" xml:space="preserve">
+    <value>Product already exists</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_11" xml:space="preserve">
+    <value>Barcode Inserted Successfully</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_12" xml:space="preserve">
+    <value>Please map Barcode</value>
+  </data>
+  <data name="StockReceived_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="StockReceived_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="StockReceived_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_01" xml:space="preserve">
+    <value>proporcione / seleccionar el valor de inicio de la fecha</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_02" xml:space="preserve">
+    <value>proporcione / seleccionar el valor de término de la fecha</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_03" xml:space="preserve">
+    <value>proporcione / seleccionar el valor de término de la fecha</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_04" xml:space="preserve">
+    <value>Please Enter a Invoice Date...</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_05" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_06" xml:space="preserve">
+    <value>Supplier/Invoice/DCNO UPDated Suceefully!</value>
+  </data>
+  <data name="StockReceived_InvoiceMapping_aspx_07" xml:space="preserve">
+    <value>Updation failed.</value>
+  </data>
+  <data name="StockReceived_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="StockReceived_ReceiveStock_aspx_01" xml:space="preserve">
+    <value>Select a Supplier Name</value>
+  </data>
+  <data name="StockReceived_ReceiveStock_aspx_02" xml:space="preserve">
+    <value>Enter DC Number/InvoiceNo</value>
+  </data>
+  <data name="StockReceived_ReceiveStock_aspx_03" xml:space="preserve">
+    <value>Do you want to continue !Click 'OK'</value>
+  </data>
+  <data name="StockReceived_ReceiveStock_aspx_04" xml:space="preserve">
+    <value>Select a Supplier</value>
+  </data>
+  <data name="StockReceived_ReceiveStock_aspx_05" xml:space="preserve">
+    <value>This combination of Supplier name &amp; DC No Already exists. Do you want to continue!Click "OK"</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_01" xml:space="preserve">
+    <value>Provide purchase order number</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_02" xml:space="preserve">
+    <value>Select stock received date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_03" xml:space="preserve">
+    <value>Select the supplier name</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_04" xml:space="preserve">
+    <value>Enter DC Number/InvoiceNo</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_05" xml:space="preserve">
+    <value>Check the invoice Date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_06" xml:space="preserve">
+    <value>Check the product list</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_07" xml:space="preserve">
+    <value>Provide Product Name</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_08" xml:space="preserve">
+    <value>selecciona una categoría</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_09" xml:space="preserve">
+    <value>Provide batch number</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_10" xml:space="preserve">
+    <value>Provide expiry date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_11" xml:space="preserve">
+    <value>Provide purchase order quantity</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_12" xml:space="preserve">
+    <value>Provide purchase order unit</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_13" xml:space="preserve">
+    <value>Provide received quantity</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_14" xml:space="preserve">
+    <value>Provide the received unit</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_15" xml:space="preserve">
+    <value>Select selling unit</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_16" xml:space="preserve">
+    <value>Provide cost price</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_17" xml:space="preserve">
+    <value>Provide Inverse Qty</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_18" xml:space="preserve">
+    <value>Provide received LSU qty</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_19" xml:space="preserve">
+    <value>Provide Selling Price</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_20" xml:space="preserve">
+    <value>Provide MRP</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_21" xml:space="preserve">
+    <value>Provide the attributes</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_22" xml:space="preserve">
+    <value>Provide Selling Price greater than Cost Price</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_23" xml:space="preserve">
+    <value>Provide MRP greater than Cost Price</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_24" xml:space="preserve">
+    <value>Product name and batch number combination already exist</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_25" xml:space="preserve">
+    <value>Ensure items added/quantity are provided properly</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_26" xml:space="preserve">
+    <value>Provide received quantity less than or equal to ordered qty</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_27" xml:space="preserve">
+    <value>The number of product and detail does not match</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_28" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_29" xml:space="preserve">
+    <value>Use within available credit amount</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_30" xml:space="preserve">
+    <value>Use credit amount lessthan or equal to GrandTotal</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_31" xml:space="preserve">
+    <value>Mismatch Month Between Current &amp; Mfg Date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_32" xml:space="preserve">
+    <value>Mismatch Month Between Current &amp; Exp Date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_33" xml:space="preserve">
+    <value>Mismatch Year Between Current &amp; Mfg Date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_34" xml:space="preserve">
+    <value>Mismatch Year Between Current &amp; Exp Date</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_35" xml:space="preserve">
+    <value>proporcione fecha válida</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_36" xml:space="preserve">
+    <value>Provide Manufactured Date!</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_37" xml:space="preserve">
+    <value>Provide Expiry Date!</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_01" xml:space="preserve">
+    <value>Check quantity and unit price</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_02" xml:space="preserve">
+    <value>Select the selling unit</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_03" xml:space="preserve">
+    <value>Received quantity exceeds ordered quantity</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_04" xml:space="preserve">
+    <value>Provide the batch number</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_05" xml:space="preserve">
+    <value>Selling price should not be zero</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_06" xml:space="preserve">
+    <value>Select manufacture date</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_07" xml:space="preserve">
+    <value>Select expiry date</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_08" xml:space="preserve">
+    <value>Provide Correct Rounded-Off Net Total</value>
+  </data>
+  <data name="StockReceived_ViewStockReceived_aspx_01" xml:space="preserve">
+    <value>Please map Barcode</value>
+  </data>
+  <data name="StockReceived_Scripts_InvStockReceive_js_38" xml:space="preserve">
+    <value>Enter Ref Inv No/InvoiceNo</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_13" xml:space="preserve">
+    <value>Please Scan the Barcode</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_14" xml:space="preserve">
+    <value>Barcode Already Exists. Please Enter Valid barcode</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_15" xml:space="preserve">
+    <value>There is no item to generate Barcode</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_16" xml:space="preserve">
+    <value>Barcode Already Exists. Please Enter Valid barcode</value>
+  </data>
+  <data name="StockReceived_BarcodeMapping_aspx_17" xml:space="preserve">
+    <value>There is no item to generate Barcode</value>
+  </data>
+  <data name="StockReceived_UpdateStockReceived_aspx_09" xml:space="preserve">
+    <value>If you want to cancel the PO?</value>
+  </data>
+</root>

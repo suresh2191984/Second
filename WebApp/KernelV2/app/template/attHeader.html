@@ -1,0 +1,215 @@
+﻿<div id="top-nav">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-4 col-lg-4">
+            <a class="navbar-brand">
+                <img ng-src="{{::Profile.UserProfile.LogoPath}}">
+                <span class="hidden-xs hidden-sm hidden-md">{{::Profile.UserProfile.OrgDisplayName}}</span>
+            </a>
+        </div>
+        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-6 text-right hidden-xs">
+            <p class="user-info">
+                Welcome <span>{{::Profile.UserProfile.Name}}</span> | <i class="fa fa-user" aria-hidden="true">
+                </i><span>{{::Profile.UserProfile.RoleDescription}}</span> | <i class="fa fa-map-marker"
+                                                                                aria-hidden="true"></i><span>{{::Profile.UserProfile.LocationName}}</span>
+            </p>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-2 hidden-xs">
+            <ul class="user-nav">
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" role="button"
+                       data-toggle="dropdown" class="dropdown-toggle" href="#" title="Change Role">
+                        <i class="fa fa-cog"
+                           aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" id="user-dropdown">
+                        <li>
+                            <form class="form-horizontal" role="form" name="orgform">
+                                <fieldset>
+                                    <legend>Select Organization</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label">
+                                            Select Organization
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select class="form-control input-sm" on ng-model="OrgHeader.OrgID" ng-options="org.OrgID as org.OrgDisplayName for org in ::Profile.Organization">
+                                                <option value="" disabled>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label">
+                                            Select Role
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select required class="form-control input-sm" ng-model="OrgHeader.RoleID" ng-options="role.RoleID as role.RoleName for role in Profile.Role | filter: {OrgID: OrgHeader.OrgID}">
+                                                <option value="" disabled>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group " ng-if="0">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label ">
+                                            Select Department
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select class="form-control input-sm" ng-model="OrgHeader.EmpDeptID" ng-options="address.EmpDeptID as address.EmpDeptName for address in Profile.Department | filter: {OrgID: OrgHeader.OrgID} ">
+                                                <option value="" disabled>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label">
+                                            Select Location
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select class="form-control input-sm" ng-model="OrgHeader.AddressID" ng-options="address.AddressID as address.Location for address in Profile.Location| filter: {OrgID: OrgHeader.OrgID, RoleID:OrgHeader.RoleID}  ">
+                                                <option value="" disabled>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <input type="submit" value="OK" ng-click="orgform.$valid &&onChangeProfile()" class="btn btn-xs btn-action btn-ok">
+                                        <input type="reset" value="Cancel" class="btn btn-xs btn-action btn-cancel">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" role="button"
+                       data-toggle="dropdown" class="dropdown-toggle" href="#" title="Help">
+                        <i class="fa fa-info-circle"
+                           aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Help Video</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../Home.aspx" ng-click="logout();" title="Logout"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 mobile-nav hidden-sm hidden-md hidden-lg">
+            <ul class="user-nav">
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" role="button"
+                       data-toggle="dropdown" class="dropdown-toggle" href="#" title="Change Role">
+                        <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" id="user-dropdown">
+                        <li>
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <legend>Select Organization</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label">
+                                            Select Organization
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select class="form-control input-sm">
+                                                <option>Anderson Diagnostics & Labs</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-4 col-md-5 col-lg-4 control-label">
+                                            Select Role
+                                        </label>
+                                        <div class="col-sm-8 col-md-7 col-lg-8">
+                                            <select class="form-control input-sm">
+                                                <option>Accession</option>
+                                                <option>Administration</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <input type="submit" value="OK" class="btn btn-xs btn-action btn-ok">
+                                        <input type="reset" value="Cancel" class="btn btn-xs btn-action btn-cancel">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" role="button"
+                       data-toggle="dropdown" class="dropdown-toggle" href="#" title="Help">
+                        <span aria-hidden="true"
+                              class="glyphicon glyphicon-info-sign"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Help Video</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" title="Logout">
+                        <span aria-hidden="true" class="glyphicon glyphicon-off">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mobile-nav hidden-sm hidden-md hidden-lg">
+            <p class="user-info">
+                Welcome, <span>{{::Profile.UserProfile.Name}}</span> | <span class="glyphicon glyphicon-user"
+                                                                             aria-hidden="true" title="Role"></span><span>{{::Profile.UserProfile.RoleDescription}}</span>
+                | <span class="glyphicon glyphicon-map-marker" aria-hidden="true" title="Location">
+                </span><span>{{::Profile.UserProfile.LocationName}}</span>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="main-nav">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed btn btn-block" data-toggle="collapse"
+                data-target="#main-nav-links" aria-expanded="false" aria-controls="navbar">
+            Main Navigation
+        </button>
+    </div>
+    <div class="navbar-collapse collapse" id="main-nav-links">
+        <ul class="nav navbar-nav">
+            <li ng-repeat="objMainMenu in menuItems" class="dropdown">
+                <a aria-expanded="false"
+                   aria-haspopup="true" role="button" data-toggle="dropdown" data-hover="dropdown"
+                   class="dropdown-toggle" href="#">
+                    <i ng-class="objMainMenu.faClass" aria-hidden="true">
+                    </i>{{::objMainMenu.HeaderText}} <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li ng-repeat="objSubMenu in objMainMenu.SubMenu|filter:{IsMenu:true}">
+                        <a href="..{{objSubMenu.MenuURL}}"
+                           ng-if="!objSubMenu.Controller">
+                            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true">
+                            </span>{{::objSubMenu.MenuName}}
+                        </a><a ui-sref="{{objSubMenu.MenuURL}}" ng-if="objSubMenu.Controller">
+                            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>{{::objSubMenu.MenuName}}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container-fluid" id="page-heading">
+    <div class="row">
+        <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6">
+            <h3 class="page-title">
+                {{::Menu}}
+            </h3>
+        </div>
+        <div class="col-xs-3 col-sm-6 col-md-6 col-lg-6 text-right">
+            <a href="" class="m-h-5" ng-click="showhide('hide');" ng-show="chevron">
+                <span aria-hidden="true" class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <a href="" class="m-h-5" ng-click="showhide('show');" ng-show="!(chevron)">
+                <span aria-hidden="true" class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+            <a href="../PlatForm/Home.aspx" class="m-h-5">
+                <span aria-hidden="true" class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+    </div>
+</div>

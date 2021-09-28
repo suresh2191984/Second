@@ -1,0 +1,32 @@
+﻿<div class="upload-popover">
+    <i ng-click="hidePopover()" class="pop-close pop-close-img emr-image"></i>
+    <div class="upload-tabs">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#upmenu1" data-toggle="tab">Select Source Name to Add</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="myPopover" class="col-md-12 padding0">
+                <div class="col-md-6 padding0 line-height33">
+                    <div>
+                        Current Values
+                    </div>
+                    <div>
+                        New Item
+                    </div>
+                </div>
+                <div class="col-md-6 padding0 line-height33">
+                    <select class="w-100p" ng-model="objInvestigations.InvestigationValue" ng-options="invv.Value as invv.Value for invv in objInvestigations.InvestigationValues">
+                        <option value="" selected disabled>Select</option>
+                    </select> 
+                    <select class="w-100p" ng-model="QualitativeResultName" ng-change="" ng-options="invv as invv.QualitativeResultName for invv in ::lstQualitativeResult">
+                        <option value="" selected disabled>Select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tab-footer">
+                <input class="btn-success" ng-click="addQualitativeResult(QualitativeResultName);" type="button" value="Add">
+                <input class="btn-default" ng-click="hidePopover();AddHis=false;" type="button" value="Close">
+            </div>
+        </div>
+    </div>
+</div>

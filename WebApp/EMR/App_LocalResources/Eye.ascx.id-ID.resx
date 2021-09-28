@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkColorVision_921Resource1.Text" xml:space="preserve">
+    <value>Warna Penglihatan</value>
+  </data>
+  <data name="chkDistantVision_919Resource1.Text" xml:space="preserve">
+    <value>Penglihatan Jarak Jauh</value>
+  </data>
+  <data name="chkEyeMovements_925Resource1.Text" xml:space="preserve">
+    <value>Pergerakan Mata</value>
+  </data>
+  <data name="chkIOLPresent_922Resource1.Text" xml:space="preserve">
+    <value>IOL Present</value>
+  </data>
+  <data name="chkNearVision_920Resource1.Text" xml:space="preserve">
+    <value>Penglihatan Jarak Dekat</value>
+  </data>
+  <data name="chkPterygium_923Resource1.Text" xml:space="preserve">
+    <value>Pterygium</value>
+  </data>
+  <data name="chkPupils_926Resource1.Text" xml:space="preserve">
+    <value>Pupils</value>
+  </data>
+  <data name="chkTonometry_927Resource1.Text" xml:space="preserve">
+    <value>Tonometry</value>
+  </data>
+  <data name="chkXanthelasma_924Resource1.Text" xml:space="preserve">
+    <value>Xanthelasma</value>
+  </data>
+  <data name="lblAbnormalities_31Resource1.Text" xml:space="preserve">
+    <value>Abnormalities</value>
+  </data>
+  <data name="lblAbnormality_21Resource1.Text" xml:space="preserve">
+    <value>Abnormality</value>
+  </data>
+  <data name="lblAssociatedConditions_19Resource1.Text" xml:space="preserve">
+    <value>Associated Conditions</value>
+  </data>
+  <data name="lblDescription_14Resource1.Text" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="lblDescription_17Resource1.Text" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="lblDescription_32Resource1.Text" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="lblEye_918Resource1.Text" xml:space="preserve">
+    <value>Mata</value>
+  </data>
+  <data name="lblEyes_15Resource1.Text" xml:space="preserve">
+    <value>Mata</value>
+  </data>
+  <data name="lblIOP_33Resource1.Text" xml:space="preserve">
+    <value>IOP</value>
+  </data>
+  <data name="lblLeftEye_24Resource1.Text" xml:space="preserve">
+    <value>Mata Kiri</value>
+  </data>
+  <data name="lblLeftEye_27Resource1.Text" xml:space="preserve">
+    <value>Mata Kiri</value>
+  </data>
+  <data name="lblLeftEye_30Resource1.Text" xml:space="preserve">
+    <value>Mata Kiri</value>
+  </data>
+  <data name="lblLeftEye_97Resource1.Text" xml:space="preserve">
+    <value>Mata Kiri</value>
+  </data>
+  <data name="lblLeftEye_99Resource1.Text" xml:space="preserve">
+    <value>Mata Kiri</value>
+  </data>
+  <data name="lblLeftIOP_34Resource1.Text" xml:space="preserve">
+    <value>IOP Kiri</value>
+  </data>
+  <data name="lblReactiontoLight_28Resource1.Text" xml:space="preserve">
+    <value>Reaksi Terhadap Cahaya</value>
+  </data>
+  <data name="lblRightEye_10Resource1.Text" xml:space="preserve">
+    <value>Mata Kanan</value>
+  </data>
+  <data name="lblRightEye_12Resource1.Text" xml:space="preserve">
+    <value>Mata Kanan</value>
+  </data>
+  <data name="lblRightEye_23Resource1.Text" xml:space="preserve">
+    <value>Mata Kanan</value>
+  </data>
+  <data name="lblRightEye_26Resource1.Text" xml:space="preserve">
+    <value>Mata Kanan</value>
+  </data>
+  <data name="lblRightEye_29Resource1.Text" xml:space="preserve">
+    <value>Mata Kanan</value>
+  </data>
+  <data name="lblRightIOP_33Resource1.Text" xml:space="preserve">
+    <value>IOP Kanan</value>
+  </data>
+  <data name="lblShape_25Resource1.Text" xml:space="preserve">
+    <value>Bentuk</value>
+  </data>
+  <data name="lblSize_22Resource1.Text" xml:space="preserve">
+    <value>Ukuran</value>
+  </data>
+  <data name="lblType_11Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblType_13Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblType_16Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblType_18Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblType_20Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblType_9Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblUOM_23Resource1.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUOM_24Resource1.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUOM_33Resource1.Text" xml:space="preserve">
+    <value>mmHg</value>
+  </data>
+  <data name="lblUOM_34Resource1.Text" xml:space="preserve">
+    <value>mmHg</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Kanan</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Kiri</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Keduanya</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="chkColorVision_921Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDistantVision_919Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEyeMovements_925Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIOLPresent_922Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNearVision_920Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPterygium_923Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPupils_926Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTonometry_927Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkXanthelasma_924Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAbnormalities_31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAbnormality_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAssociatedConditions_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDescription_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEyes_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLeftEye_27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLeftEye_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlRightEye_26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlRightEye_29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalities_31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormality_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssociatedConditions_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescription_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescription_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescription_32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEye_918Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEyes_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIOP_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEye_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEye_27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEye_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEye_97Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftEye_99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeftIOP_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReactiontoLight_28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEye_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEye_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEye_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEye_26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightEye_29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightIOP_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShape_25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSize_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUOM_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUOM_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUOM_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUOM_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbnormalitiesOthers_100Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbnormalitiesOthers_100Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbnormality_86Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbnormality_86Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAssociatedConditions_74Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAssociatedConditions_74Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescription_32Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescription_32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescription_65Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescription_65Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionOthers_57Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionOthers_57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_24Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_97Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_97Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_99Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftEye_99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftIOP_34Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeftIOP_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_12Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_23Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightEye_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightIOP_33Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRightIOP_33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Receipt No</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>Receipt Date</value>
+  </data>
+  <data name="btnSearchResource2.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnSearchResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlReceiptTypeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlRegisterDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcFromResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcFromResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcToResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcToResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbfromdtResource1.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="lbfromdtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfrmdtResource1.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="lblfrmdtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpatnameResource1.Text" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="lblpatnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpatnoResource1.Text" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="lblpatnoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblreceiptnoResource1.Text" xml:space="preserve">
+    <value>Receipt No</value>
+  </data>
+  <data name="lblreceiptnoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrecptdtResource1.Text" xml:space="preserve">
+    <value>Receipt Date</value>
+  </data>
+  <data name="lblrecptdtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrecpttypeResource1.Text" xml:space="preserve">
+    <value>Receipt Type</value>
+  </data>
+  <data name="lblrecpttypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbltodateResource1.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="lbltodateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtodtResource1.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="lbtodtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>This Week</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>This Month</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>This Year</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>Custom Period</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>Last Week</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>Last Month</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>Last Year</value>
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>IP Payments</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>Co Payment</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Cash In Flow</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Due Receipt</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lnkIDResource2.Text" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="lnkIDResource2.ToolTip" xml:space="preserve">
+    <value>Click To View Details</value>
+  </data>
+  <data name="MaskedEditValidator1Resource2.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator1</value>
+  </data>
+  <data name="MaskedEditValidator1Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator2Resource2.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator2</value>
+  </data>
+  <data name="MaskedEditValidator2Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPSearchResource2.GroupingText" xml:space="preserve">
+    <value>Search for Receipts Issued</value>
+  </data>
+  <data name="pnlPSearchResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Duplicate Receipt</value>
+  </data>
+  <data name="txtBillNoResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBillNoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromDateResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromPeriodResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromPeriodResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNoResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToDateResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToPeriodResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToPeriodResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_01" xml:space="preserve">
+    <value>请选择一个项目交换</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_02" xml:space="preserve">
+    <value>请选择一个类别</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_03" xml:space="preserve">
+    <value>请选择一个主属性</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_04" xml:space="preserve">
+    <value>请输入值增加</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_05" xml:space="preserve">
+    <value>请选择一个项目增加</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_06" xml:space="preserve">
+    <value>请选择一个类别</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_07" xml:space="preserve">
+    <value>请选择一个主属性</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_08" xml:space="preserve">
+    <value>请选择一个项目删除</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_09" xml:space="preserve">
+    <value>号码不能被删除</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_10" xml:space="preserve">
+    <value>添加的模式分配</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_11" xml:space="preserve">
+    <value>选择一个主属性</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_12" xml:space="preserve">
+    <value>确认删除！</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_13" xml:space="preserve">
+    <value>错误，同时节省BarcodePatterns详细信息！</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_01" xml:space="preserve">
+    <value>进入元类型名称</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_02" xml:space="preserve">
+    <value>输入meta值</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_03" xml:space="preserve">
+    <value>输入Value编码</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_04" xml:space="preserve">
+    <value>输入值说明</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_05" xml:space="preserve">
+    <value>选择元类型</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_06" xml:space="preserve">
+    <value>输入辨识型</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_07" xml:space="preserve">
+    <value>输入标识值</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_08" xml:space="preserve">
+    <value>输入码元</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_09" xml:space="preserve">
+    <value>进入元描述</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_10" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_11" xml:space="preserve">
+    <value>错误保存数据</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_12" xml:space="preserve">
+    <value>定的代码已经存在</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_13" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_01" xml:space="preserve">
+    <value>数据保存成功与</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_02" xml:space="preserve">
+    <value>请选择一个类别</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_03" xml:space="preserve">
+    <value>请选择一个项目增加</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_04" xml:space="preserve">
+    <value>在提供补充文本框中键入医院名称</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_05" xml:space="preserve">
+    <value>输入有效的名称</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_06" xml:space="preserve">
+    <value>在提供添加文本框键入一个分隔符</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_07" xml:space="preserve">
+    <value>输入有效的分离器</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_08" xml:space="preserve">
+    <value>在提供补充文本框中键入自己的模式</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_09" xml:space="preserve">
+    <value>输入有效模式</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_10" xml:space="preserve">
+    <value>请选择一个项目删除</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_11" xml:space="preserve">
+    <value>号码不能被删除</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_12" xml:space="preserve">
+    <value>请选择一个项目交换</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_13" xml:space="preserve">
+    <value>选择一个类别</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_01" xml:space="preserve">
+    <value>提供设备名称</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_02" xml:space="preserve">
+    <value>提供设备代码</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_03" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_01" xml:space="preserve">
+    <value>结算金额不能超过成交余额较大</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_02" xml:space="preserve">
+    <value>请提供结算金额</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_03" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_03" xml:space="preserve">
+    <value>没有支付谘询选定的日期</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_04" xml:space="preserve">
+    <value>选择的医生的名字</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_05" xml:space="preserve">
+    <value>对于迄今为止提供/选择值</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_06" xml:space="preserve">
+    <value>点击查看详细信息。总的支付金额将零或零每种不超过</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_07" xml:space="preserve">
+    <value>提供说明</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_08" xml:space="preserve">
+    <value>提供言论</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_09" xml:space="preserve">
+    <value>选择供应商</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_10" xml:space="preserve">
+    <value>金额不能为零</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_11" xml:space="preserve">
+    <value>提供应付金额小于或等于总金额</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_12" xml:space="preserve">
+    <value>没有支付谘询选定的日期</value>
+  </data>
+  <data name="Admin_ChangeDocSchedule_aspx_01" xml:space="preserve">
+    <value>选择有效日期</value>
+  </data>
+  <data name="Admin_ChangeDocSchedule_aspx_02" xml:space="preserve">
+    <value>你确定要删除的计划？</value>
+  </data>
+  <data name="Admin_ChangeDocSchedule_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_01" xml:space="preserve">
+    <value>TRANSFERRATE该客户端已经存在</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_02" xml:space="preserve">
+    <value>ValidTo必须小于或Equalto ValidFrom大日期</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_03" xml:space="preserve">
+    <value>请选择客户端名称，然后再继续</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_04" xml:space="preserve">
+    <value>价目表已经映射到该客户端</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_05" xml:space="preserve">
+    <value>请选择客户端类型，然后再继续</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_06" xml:space="preserve">
+    <value>请选择价目表，然后再继续</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_07" xml:space="preserve">
+    <value>选择客户端类型</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_08" xml:space="preserve">
+    <value>选择组织</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_09" xml:space="preserve">
+    <value>提供价目表</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_10" xml:space="preserve">
+    <value>提供理由</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_11" xml:space="preserve">
+    <value>提供姓名</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_12" xml:space="preserve">
+    <value>请选择至少一个客户端进行</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_13" xml:space="preserve">
+    <value>此价目表已被映射到该客户端</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_15" xml:space="preserve">
+    <value>基地价目表已经映射</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_01" xml:space="preserve">
+    <value>选择员工类型</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_02" xml:space="preserve">
+    <value>输入员工编号</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_03" xml:space="preserve">
+    <value>选择雇主姓名</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_04" xml:space="preserve">
+    <value>选择员工定位</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_05" xml:space="preserve">
+    <value>输入指定名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_06" xml:space="preserve">
+    <value>名称已经存在</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_07" xml:space="preserve">
+    <value>输入关系名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_08" xml:space="preserve">
+    <value>输入员工类型名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_09" xml:space="preserve">
+    <value>输入员工的部门名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_10" xml:space="preserve">
+    <value>输入验证码</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_11" xml:space="preserve">
+    <value>输入病人类型名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_12" xml:space="preserve">
+    <value>输入级名</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_13" xml:space="preserve">
+    <value>输入雇主名称</value>
+  </data>
+  <data name="Admin_DesignationRelationship_aspx_14" xml:space="preserve">
+    <value>输入地点名称</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_01" xml:space="preserve">
+    <value>DeviceIntegration映射</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_02" xml:space="preserve">
+    <value>选择仪器名称</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_03" xml:space="preserve">
+    <value>输入设备代码</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_04" xml:space="preserve">
+    <value>进入测试代码</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_05" xml:space="preserve">
+    <value>输入姓名调查</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_06" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Admin_DeviceIntegrationMapping_aspx_07" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_01" xml:space="preserve">
+    <value>法师优惠</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_02" xml:space="preserve">
+    <value>输入有效</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_03" xml:space="preserve">
+    <value>不应该大于100</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_04" xml:space="preserve">
+    <value>清空TOD策略亘古不变的添加</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_05" xml:space="preserve">
+    <value>输入优惠码</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_06" xml:space="preserve">
+    <value>输入折扣名称</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_07" xml:space="preserve">
+    <value>输入折扣值</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_08" xml:space="preserve">
+    <value>选择一个记录</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_09" xml:space="preserve">
+    <value>选择一个记录</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_10" xml:space="preserve">
+    <value>确认删除！</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_11" xml:space="preserve">
+    <value>请输入策略名称</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_12" xml:space="preserve">
+    <value>请选择自由型</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_13" xml:space="preserve">
+    <value>请输入折扣值</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_14" xml:space="preserve">
+    <value>请选择类型</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_15" xml:space="preserve">
+    <value>你不能让加1个多折扣此费用类型和类别</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_16" xml:space="preserve">
+    <value>输入优惠券代码</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_17" xml:space="preserve">
+    <value>输入优惠券名称</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_18" xml:space="preserve">
+    <value>选择优惠券代码</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_19" xml:space="preserve">
+    <value>进入开始逃号</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_20" xml:space="preserve">
+    <value>输入完序列号</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_21" xml:space="preserve">
+    <value>输入批号</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_22" xml:space="preserve">
+    <value>进入有序单位</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_23" xml:space="preserve">
+    <value>输入优惠券价值</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_24" xml:space="preserve">
+    <value>输入/选择到期日</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_25" xml:space="preserve">
+    <value>提供税收名</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_26" xml:space="preserve">
+    <value>提供税务代码</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_27" xml:space="preserve">
+    <value>提供税收百分比</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_28" xml:space="preserve">
+    <value>请选择引用类型</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_29" xml:space="preserve">
+    <value>税收已经添加</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_30" xml:space="preserve">
+    <value>选择类型</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_31" xml:space="preserve">
+    <value>选择调查</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_32" xml:space="preserve">
+    <value>提供代码</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_33" xml:space="preserve">
+    <value>提供调查名称</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_34" xml:space="preserve">
+    <value>该范围不Valid.Please给予有效范围</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_35" xml:space="preserve">
+    <value>提供百分比</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>输入医师姓名</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_02" xml:space="preserve">
+    <value>输入时间</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_03" xml:space="preserve">
+    <value>选择有效日期</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_04" xml:space="preserve">
+    <value>输入持续时间</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_05" xml:space="preserve">
+    <value>选择客户端类型</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_06" xml:space="preserve">
+    <value>输入客户名称</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_07" xml:space="preserve">
+    <value>附表选择重复</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_08" xml:space="preserve">
+    <value>你确定要删除的计划？</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_09" xml:space="preserve">
+    <value>已成功删除</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_10" xml:space="preserve">
+    <value>预定成功</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_01" xml:space="preserve">
+    <value>选择医生</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_drpSelect" xml:space="preserve">
+    <value> -  - 选择 -  - </value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_01" xml:space="preserve">
+    <value>提供的名称</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_02" xml:space="preserve">
+    <value>项已经添加</value>
+  </data>
+  <data name="Admin_InterpretationNotes_aspx_01" xml:space="preserve">
+    <value>没有解释注意事项</value>
+  </data>
+  <data name="Admin_InterpretationNotes_aspx_02" xml:space="preserve">
+    <value>释记成功保存</value>
+  </data>
+  <data name="Admin_InterpretationNotes_aspx_03" xml:space="preserve">
+    <value>同时节约了解释错误的注意事项</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_01" xml:space="preserve">
+    <value>提供DrugName！</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_01" xml:space="preserve">
+    <value>插入成功！</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_02" xml:space="preserve">
+    <value>如果您在文本框中直接编辑情报将无法正常工作</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_03" xml:space="preserve">
+    <value>选择一个位置只</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_04" xml:space="preserve">
+    <value>调查提供名称进行搜索</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_05" xml:space="preserve">
+    <value>有分组的细节没有改变</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_06" xml:space="preserve">
+    <value>该参考值范围形成为XML，如果你想编辑使用添加链接</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_07" xml:space="preserve">
+    <value>没有变化的调查细节</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_08" xml:space="preserve">
+    <value>你想继续，不保存？</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_09" xml:space="preserve">
+    <value>选择年龄类型</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_10" xml:space="preserve">
+    <value>选择运营商的价值</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_11" xml:space="preserve">
+    <value>值结束范围不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_12" xml:space="preserve">
+    <value>选择运营商时代</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_13" xml:space="preserve">
+    <value>时代结束范围不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_14" xml:space="preserve">
+    <value>年龄范围不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_15" xml:space="preserve">
+    <value>选择运营商的价值</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_16" xml:space="preserve">
+    <value>选择运营商的价值</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_17" xml:space="preserve">
+    <value>价值结束范围不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_18" xml:space="preserve">
+    <value>参考名称不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_19" xml:space="preserve">
+    <value>值范围不能为空</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_20" xml:space="preserve">
+    <value>多个子产品类别不允许</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManageCurrency_aspx_01" xml:space="preserve">
+    <value>添加/更改基​​础货币会改变其他货币兑换利率降至零。你要继续吗？</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_01" xml:space="preserve">
+    <value>已成功保存更改</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_02" xml:space="preserve">
+    <value>选择相关调查已存在</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_03" xml:space="preserve">
+    <value>无效的模式</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_04" xml:space="preserve">
+    <value>没有模式分配</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_05" xml:space="preserve">
+    <value>选择相关调查</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_06" xml:space="preserve">
+    <value>没有找到记录</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_01" xml:space="preserve">
+    <value>提供仪器名称</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_02" xml:space="preserve">
+    <value>提供搜索文本，以发现仪器</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_01" xml:space="preserve">
+    <value>提供包名</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_02" xml:space="preserve">
+    <value>提供搜索文本查找该试剂盒</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_01" xml:space="preserve">
+    <value>提供方法名</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_02" xml:space="preserve">
+    <value>提供搜索文本找对方法</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_01" xml:space="preserve">
+    <value>提供主体名称</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_02" xml:space="preserve">
+    <value>提供搜索文本找到的原则</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_01" xml:space="preserve">
+    <value>输入包名称</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_02" xml:space="preserve">
+    <value>选择状态</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_03" xml:space="preserve">
+    <value>咨询已经添加过！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_04" xml:space="preserve">
+    <value>健康检查已经添加过！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_05" xml:space="preserve">
+    <value>选择组主项</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_06" xml:space="preserve">
+    <value>名称已经存在！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_07" xml:space="preserve">
+    <value>包添加成功！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_08" xml:space="preserve">
+    <value>PACKAGENAME或代号AlreadyExists！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_09" xml:space="preserve">
+    <value>已成功保存更改！</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_Alert1" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_01" xml:space="preserve">
+    <value>选择组织进行</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_02" xml:space="preserve">
+    <value>选择角色进行</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_03" xml:space="preserve">
+    <value>选择起始页进行</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_04" xml:space="preserve">
+    <value>选择一个组织</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_05" xml:space="preserve">
+    <value>提供角色名称</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ModalitySchedule_aspx_01" xml:space="preserve">
+    <value>请选择模式名称</value>
+  </data>
+  <data name="Admin_ModalitySchedule_aspx_02" xml:space="preserve">
+    <value>选择有效日期</value>
+  </data>
+  <data name="Admin_ModalitySchedule_aspx_03" xml:space="preserve">
+    <value>计划已成功储存</value>
+  </data>
+  <data name="Admin_ModalitySchedule_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_01" xml:space="preserve">
+    <value>提供HUB码</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_02" xml:space="preserve">
+    <value>提供HUB名</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_03" xml:space="preserve">
+    <value>HUB已经存在</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_04" xml:space="preserve">
+    <value>提供的区码</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_05" xml:space="preserve">
+    <value>提供区域名称</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_06" xml:space="preserve">
+    <value>区已经存在</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_07" xml:space="preserve">
+    <value>提供ROUTE代码</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_08" xml:space="preserve">
+    <value>提供路由名称</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_09" xml:space="preserve">
+    <value>ROUTE已经存在</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_10" xml:space="preserve">
+    <value>提供位置名称</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_11" xml:space="preserve">
+    <value>提供位置代码</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_12" xml:space="preserve">
+    <value>已有加工中心</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_13" xml:space="preserve">
+    <value>成功保存！</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_14" xml:space="preserve">
+    <value>已成功更新！</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_17" xml:space="preserve">
+    <value>请输入复位值</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_18" xml:space="preserve">
+    <value>复位设置针对此类别</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_19" xml:space="preserve">
+    <value>这些模式将适用于新产生numbers.Are你确定要保存这些数据？</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_20" xml:space="preserve">
+    <value>没有匹配找到记录</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_01" xml:space="preserve">
+    <value>调查结果模板</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_02" xml:space="preserve">
+    <value>提供首选的角色名称</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_03" xml:space="preserve">
+    <value>管理用户</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_04" xml:space="preserve">
+    <value>用户选择详细信息</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_05" xml:space="preserve">
+    <value>保存成功。</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_06" xml:space="preserve">
+    <value>任何一个角色选择。</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_07" xml:space="preserve">
+    <value>成功地更新。</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_08" xml:space="preserve">
+    <value>成功删除角色。</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_01" xml:space="preserve">
+    <value>大于或等于密码长度大</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_02" xml:space="preserve">
+    <value>比密码长度大</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_03" xml:space="preserve">
+    <value>输入特殊字符</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_04" xml:space="preserve">
+    <value>输入数字字符</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_05" xml:space="preserve">
+    <value>输入有效期</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_06" xml:space="preserve">
+    <value>选择有效期</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_07" xml:space="preserve">
+    <value>输入先前密码计数</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_08" xml:space="preserve">
+    <value>提供有效期</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_09" xml:space="preserve">
+    <value>交易密码策略已存在</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_10" xml:space="preserve">
+    <value>密码策略已存在</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_11" xml:space="preserve">
+    <value>选择交易密码长度</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_22" xml:space="preserve">
+    <value>选择类别</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_23" xml:space="preserve">
+    <value>输入值</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_24" xml:space="preserve">
+    <value>重复条目中找到</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_25" xml:space="preserve">
+    <value>输入密码长度</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_01" xml:space="preserve">
+    <value>请选择要上传的XLSX或XLS文件</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_02" xml:space="preserve">
+    <value>请上传文件</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_03" xml:space="preserve">
+    <value>价格被复制</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_04" xml:space="preserve">
+    <value>成功地更改保存</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_05" xml:space="preserve">
+    <value>输入适当的值，格式（999999.99）</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_06" xml:space="preserve">
+    <value>成功取消映射</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_07" xml:space="preserve">
+    <value>错误的删除率</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_08" xml:space="preserve">
+    <value>选择费用类型</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_09" xml:space="preserve">
+    <value>选择组织</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_10" xml:space="preserve">
+    <value>选择价格型</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_11" xml:space="preserve">
+    <value>选择费用类型</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_12" xml:space="preserve">
+    <value>请提供理由</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_13" xml:space="preserve">
+    <value>选择一个项目以保存更改</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_14" xml:space="preserve">
+    <value>一些输入的金额（S）的比CPRT率小。</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_15" xml:space="preserve">
+    <value>选择价目表</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_16" xml:space="preserve">
+    <value>价格要取消地图？</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_17" xml:space="preserve">
+    <value>请选择至少一个项目</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_18" xml:space="preserve">
+    <value>请选择一个费用类型</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_19" xml:space="preserve">
+    <value>请选择一个标准名称</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_20" xml:space="preserve">
+    <value>量不匹配</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_21" xml:space="preserve">
+    <value>请输入FeeType服务名称</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_22" xml:space="preserve">
+    <value>请输入金额</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_23" xml:space="preserve">
+    <value>FeeType的服务已存在</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_24" xml:space="preserve">
+    <value>请确保输入的金额比CPRT率大</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_25" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_26" xml:space="preserve">
+    <value>选择过滤器选项！</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_27" xml:space="preserve">
+    <value>请输入FeeType服务名称</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_28" xml:space="preserve">
+    <value>GENRAL率不适用</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_29" xml:space="preserve">
+    <value>无法加载名称</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_30" xml:space="preserve">
+    <value>选择率子类型</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_31" xml:space="preserve">
+    <value>不匹配</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_32" xml:space="preserve">
+    <value>没有找到记录</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_33" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_34" xml:space="preserve">
+    <value>允许的文件大小超过。 （Max.1 MB）</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_35" xml:space="preserve">
+    <value>选择原因</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_36" xml:space="preserve">
+    <value>该记录已成功保存</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_37" xml:space="preserve">
+    <value>您确定要删除一条记录？</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_38" xml:space="preserve">
+    <value>请添加文件</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_39" xml:space="preserve">
+    <value>所选择的文件</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_40" xml:space="preserve">
+    <value>已添加</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_41" xml:space="preserve">
+    <value>未更新成功</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_42" xml:space="preserve">
+    <value>已成功更新</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_43" xml:space="preserve">
+    <value>Testcode或速率的名字是在Excel工作表无效，请检查并重新上传</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ReasonMaster_aspx_01" xml:space="preserve">
+    <value>选择类别</value>
+  </data>
+  <data name="Admin_ReasonMaster_aspx_02" xml:space="preserve">
+    <value>选择类型</value>
+  </data>
+  <data name="Admin_ReasonMaster_aspx_03" xml:space="preserve">
+    <value>输入代码</value>
+  </data>
+  <data name="Admin_ReasonMaster_aspx_04" xml:space="preserve">
+    <value>进入理性</value>
+  </data>
+  <data name="Admin_ReasonMaster_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_01" xml:space="preserve">
+    <value>按角色请筛选任务（S）reassigining前</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_02" xml:space="preserve">
+    <value>选择alteast一个任务重新分配</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_03" xml:space="preserve">
+    <value>选择用户名</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_04" xml:space="preserve">
+    <value>提供任务日期</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_05" xml:space="preserve">
+    <value>选择用于过滤该任务的角色</value>
+  </data>
+  <data name="Admin_TaskReassign_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_01" xml:space="preserve">
+    <value>记录保存成功</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_02" xml:space="preserve">
+    <value>没有找到这样的记录</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_03" xml:space="preserve">
+    <value>选择一个组增加</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_04" xml:space="preserve">
+    <value>选择一个组删除</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_05" xml:space="preserve">
+    <value>提供的组名</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_06" xml:space="preserve">
+    <value>输入组名</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_07" xml:space="preserve">
+    <value>请提供理由</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_08" xml:space="preserve">
+    <value>输入显示文本</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_09" xml:space="preserve">
+    <value>所选的言论已经存在</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_10" xml:space="preserve">
+    <value>选择一个的话</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_11" xml:space="preserve">
+    <value>选择备注型</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_12" xml:space="preserve">
+    <value>提供的组名</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_13" xml:space="preserve">
+    <value>请输入事务代码</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_14" xml:space="preserve">
+    <value>选择组主项</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_15" xml:space="preserve">
+    <value>列表控件</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_16" xml:space="preserve">
+    <value>选择组映射主项</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_17" xml:space="preserve">
+    <value>选择加工位置值</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_18" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_19" xml:space="preserve">
+    <value>注册地点已存在</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_01" xml:space="preserve">
+    <value>选择部门</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_02" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_03" xml:space="preserve">
+    <value>选择要移动的行</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_04" xml:space="preserve">
+    <value>选择这两个部和头</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_05" xml:space="preserve">
+    <value>不更改您saved.Do要继续而不保存？</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_06" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_07" xml:space="preserve">
+    <value>无法保存细节</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_08" xml:space="preserve">
+    <value>无法加载部门</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_09" xml:space="preserve">
+    <value>无法加载名称</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_10" xml:space="preserve">
+    <value>选择部门</value>
+  </data>
+  <data name="Admin_TrustedOrgAccessMapping_aspx_01" xml:space="preserve">
+    <value>难道要取消映射所有行动项目</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_01" xml:space="preserve">
+    <value>首选用户名已经存在</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_02" xml:space="preserve">
+    <value>已经添加专业</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_03" xml:space="preserve">
+    <value>已经添加位置</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_04" xml:space="preserve">
+    <value>选择用户类型</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_05" xml:space="preserve">
+    <value>选择专业</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_06" xml:space="preserve">
+    <value>选择一个位置</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_07" xml:space="preserve">
+    <value>提供的名称</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_08" xml:space="preserve">
+    <value>提供街/路名</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_09" xml:space="preserve">
+    <value>提供城市</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_10" xml:space="preserve">
+    <value>提供一个有效的电子邮件ID</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_11" xml:space="preserve">
+    <value>提供至少一个联系号码</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_12" xml:space="preserve">
+    <value>您确定要阻止此用户？</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_13" xml:space="preserve">
+    <value>选择禁止的起始日期</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_14" xml:space="preserve">
+    <value>为阻止某些原因</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_15" xml:space="preserve">
+    <value>用于疏通各种原因选择</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_16" xml:space="preserve">
+    <value>选择用户类型</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_17" xml:space="preserve">
+    <value>提供最佳的用户名</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_18" xml:space="preserve">
+    <value>提供电子邮件</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_19" xml:space="preserve">
+    <value>提供手机号码或固定电话号码</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_20" xml:space="preserve">
+    <value>提供街/路名</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_21" xml:space="preserve">
+    <value>提供任何一个联系号码</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_22" xml:space="preserve">
+    <value>提供地址</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_23" xml:space="preserve">
+    <value>提供名称进行搜索</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_24" xml:space="preserve">
+    <value>无效的电子邮件ID</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_25" xml:space="preserve">
+    <value>上传给出的文件是无效的</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_26" xml:space="preserve">
+    <value>你确定要删除吗？</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_27" xml:space="preserve">
+    <value>你确定要重置密码？</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_28" xml:space="preserve">
+    <value>提供位置名称</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_29" xml:space="preserve">
+    <value>选择位置类型</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_30" xml:space="preserve">
+    <value>选择组织地址</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_31" xml:space="preserve">
+    <value>请提供用户名</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_32" xml:space="preserve">
+    <value>选定的日期必须比大的currentdate</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_33" xml:space="preserve">
+    <value>为了阻止必须小于或Equalto BlockedFrom大日期</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_34" xml:space="preserve">
+    <value>BlockedTo必须大于ValidTill日期减</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_35" xml:space="preserve">
+    <value>-选择-</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_36" xml:space="preserve">
+    <value>确认删除！</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_37" xml:space="preserve">
+    <value>请选择费用类型</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_01" xml:space="preserve">
+    <value>选择一个默认模板只</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_02" xml:space="preserve">
+    <value>默认报告模板已经可用。</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_03" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_04" xml:space="preserve">
+    <value>已成功更新</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_01" xml:space="preserve">
+    <value>请输入特价名称</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_02" xml:space="preserve">
+    <value>请输入或调查组</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_03" xml:space="preserve">
+    <value>请输入金额</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_04" xml:space="preserve">
+    <value>已加入</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_05" xml:space="preserve">
+    <value>是否要删除此特价</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_06" xml:space="preserve">
+    <value>请选择ClientType</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_07" xml:space="preserve">
+    <value>请输入客户名称</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_08" xml:space="preserve">
+    <value>请输入测试名称</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_09" xml:space="preserve">
+    <value>请输入代码</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_10" xml:space="preserve">
+    <value>已加入</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_11" xml:space="preserve">
+    <value>特别房价保存成功地</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_12" xml:space="preserve">
+    <value>特别房价成功更新</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_13" xml:space="preserve">
+    <value>特别房价成功删除</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_14" xml:space="preserve">
+    <value>客户端地图服务保存成功地</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_15" xml:space="preserve">
+    <value>客户端地图服务成功更新</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_01" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_02" xml:space="preserve">
+    <value>多个复选框选中</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_03" xml:space="preserve">
+    <value>至少一个复选框必须选择</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_04" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_05" xml:space="preserve">
+    <value>提供模板名称</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_TrustedOrgAccessMapping_aspx_011" xml:space="preserve">
+    <value>难道要取消映射所有行动项目</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_131" xml:space="preserve">
+    <value>错误，同时节省BarcodePatterns详细信息！</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_132" xml:space="preserve">
+    <value>错误，同时节省BarcodePatterns详细信息！</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_14" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_141" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_15" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Admin_AddOrChangeBarcodePatterns_aspx_151" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_07" xml:space="preserve">
+    <value>选择要移除的项目。</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_08" xml:space="preserve">
+    <value>不能进行此操作</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_09" xml:space="preserve">
+    <value>在数量文本框中输入值</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_10" xml:space="preserve">
+    <value>选择一个运营商的补充。</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_11" xml:space="preserve">
+    <value>选择基层调查的补充。</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_12" xml:space="preserve">
+    <value>无效的模式：</value>
+  </data>
+  <data name="Admin_ManageInvComputation_aspx_13" xml:space="preserve">
+    <value>在选择的模式不可用的初步研究</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_03" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_10" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="Admin_Home_aspx_01" xml:space="preserve">
+    <value>管理员主页</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_36" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_37" xml:space="preserve">
+    <value>税</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_38" xml:space="preserve">
+    <value>翻身折扣</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_39" xml:space="preserve">
+    <value>优惠券</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_40" xml:space="preserve">
+    <value>折扣政策</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_01" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_02" xml:space="preserve">
+    <value>选择客户</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_03" xml:space="preserve">
+    <value>选择医院</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_04" xml:space="preserve">
+    <value>选择一个收集中心</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_05" xml:space="preserve">
+    <value>选择保险名称</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_06" xml:space="preserve">
+    <value>选择一个分支名</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_07" xml:space="preserve">
+    <value>选择部门名称</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_08" xml:space="preserve">
+    <value>选择起始日期</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_01" xml:space="preserve">
+    <value>对于迄今为止提供/选择值</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_01" xml:space="preserve">
+    <value>从日期和日期选择</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_02" xml:space="preserve">
+    <value>选择一个或多个</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_03" xml:space="preserve">
+    <value>已经添加调查</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_01" xml:space="preserve">
+    <value>已经存在！</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_02" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_03" xml:space="preserve">
+    <value>已成功保存更改！</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_04" xml:space="preserve">
+    <value>选择建筑</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_05" xml:space="preserve">
+    <value>进入大楼名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_06" xml:space="preserve">
+    <value>选择价格名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_07" xml:space="preserve">
+    <value>选择房间类型收费</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_08" xml:space="preserve">
+    <value>输入金额</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_09" xml:space="preserve">
+    <value>房间费用类型已存在</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_10" xml:space="preserve">
+    <value>选择建筑物名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_11" xml:space="preserve">
+    <value>选择地板名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_12" xml:space="preserve">
+    <value>选择沃德名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_13" xml:space="preserve">
+    <value>选择存储区域名称</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_14" xml:space="preserve">
+    <value>添加所选项目</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_15" xml:space="preserve">
+    <value>输入托盘数量</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_16" xml:space="preserve">
+    <value>StorageUnit名称不能相同</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_17" xml:space="preserve">
+    <value>StorageUnit名称不能为空</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_18" xml:space="preserve">
+    <value>按OK继续或者取消进入托盘数量</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_19" xml:space="preserve">
+    <value>输入行数</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_20" xml:space="preserve">
+    <value>输入列数</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_21" xml:space="preserve">
+    <value>托盘名称不能相同</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_22" xml:space="preserve">
+    <value>托盘名称不能为空</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_23" xml:space="preserve">
+    <value>没有选择应用细节</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_24" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_25" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_11" xml:space="preserve">
+    <value>输入开票名称</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_38" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_39" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_40" xml:space="preserve">
+    <value>门户网站用户</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_Unit" xml:space="preserve">
+    <value>&lt;U&gt;单位&lt;/ U&gt;</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_Add" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_clear" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_PUName" xml:space="preserve">
+    <value>提供用户名</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_001" xml:space="preserve">
+    <value>用户选择详细信息</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_002" xml:space="preserve">
+    <value>----请选择----用户名</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_003" xml:space="preserve">
+    <value>----请选择---- ORGNAME</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_org" xml:space="preserve">
+    <value>提供组织名称</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_role" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_selatl" xml:space="preserve">
+    <value>请至少选择</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_Usr" xml:space="preserve">
+    <value>提供用户名</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_21" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_22" xml:space="preserve">
+    <value>更新</value>
+  </data>
+</root>

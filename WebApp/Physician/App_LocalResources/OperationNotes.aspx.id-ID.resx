@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnEditOperationCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnEditOperationNotesResource1.Text" xml:space="preserve">
+    <value>Ubah</value>
+  </data>
+  <data name="btnFinishResource1.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="lblAnesthetistResource1.Text" xml:space="preserve">
+    <value>Anesthetist</value>
+  </data>
+  <data name="lblChiefOperatorResource1.Text" xml:space="preserve">
+    <value>Asisten Dokter Bedah</value>
+  </data>
+  <data name="lblNurseResource1.Text" xml:space="preserve">
+    <value>Perawat</value>
+  </data>
+  <data name="lblTechnicianResource1.Text" xml:space="preserve">
+    <value>Teknisi </value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Tambahkan Catatan Operasi baru</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Ubah Catatan Operasi</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Catatan Operasi</value>
+  </data>
+  <data name="rdSelResource1.ToolTip" xml:space="preserve">
+    <value>Pilih Baris</value>
+  </data>
+  <data name="Rs_AnesthesiaTypeResource1.Text" xml:space="preserve">
+    <value>Jenis Anesthesia</value>
+  </data>
+  <data name="Rs_AnesthetistResource1.Text" xml:space="preserve">
+    <value>Anesthetist</value>
+  </data>
+  <data name="Rs_AssistingsurgeonResource1.Text" xml:space="preserve">
+    <value>Dokter Bedah </value>
+  </data>
+  <data name="Rs_BloodGroupResource1.Text" xml:space="preserve">
+    <value>Golongan Darah:</value>
+  </data>
+  <data name="Rs_ChiefsurgeonResource1.Text" xml:space="preserve">
+    <value>Kepala Dokter Bedah</value>
+  </data>
+  <data name="Rs_ClinicalDiagnosisResource1.Text" xml:space="preserve">
+    <value>Diagnosa Klinis</value>
+  </data>
+  <data name="Rs_FromTimeResource1.Text" xml:space="preserve">
+    <value>Dari Jam:</value>
+  </data>
+  <data name="Rs_HomeResource1.Text" xml:space="preserve">
+    <value>Halaman Awal</value>
+  </data>
+  <data name="Rs_NurseResource1.Text" xml:space="preserve">
+    <value>Perawat</value>
+  </data>
+  <data name="Rs_OperationResource1.Text" xml:space="preserve">
+    <value>Operasi</value>
+  </data>
+  <data name="Rs_OperationTeamResource1.Text" xml:space="preserve">
+    <value>Tim Operasi</value>
+  </data>
+  <data name="Rs_OperationTimeResource1.Text" xml:space="preserve">
+    <value>Waktu Operasi</value>
+  </data>
+  <data name="Rs_OperationTypeResource1.Text" xml:space="preserve">
+    <value>Jenis Operasi</value>
+  </data>
+  <data name="Rs_OperativeFindingsResource1.Text" xml:space="preserve">
+    <value>Temuan Operasi</value>
+  </data>
+  <data name="Rs_OperativeTechniqueResource1.Text" xml:space="preserve">
+    <value>Teknik Operasi</value>
+  </data>
+  <data name="Rs_PlannedSurgeryProcedureResource1.Text" xml:space="preserve">
+    <value>Operasi direncanakan / Tindakan</value>
+  </data>
+  <data name="Rs_PostOperativeFindingsResource1.Text" xml:space="preserve">
+    <value>Temuan Setelah operasi</value>
+  </data>
+  <data name="Rs_PreOperativeFindingsResource1.Text" xml:space="preserve">
+    <value>Temuan Sebelum Operasi</value>
+  </data>
+  <data name="Rs_ProsthesisResource1.Text" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="Rs_SelectAnOptionResource1.Text" xml:space="preserve">
+    <value>Pilih satu pilihan</value>
+  </data>
+  <data name="Rs_SurgeryProcedureResource1.Text" xml:space="preserve">
+    <value>Operasi / Tindakan</value>
+  </data>
+  <data name="Rs_SurgeryTypeResource1.Text" xml:space="preserve">
+    <value>Jenis Operasi</value>
+  </data>
+  <data name="Rs_TechnicianResource1.Text" xml:space="preserve">
+    <value>Teknisi </value>
+  </data>
+  <data name="Rs_ToTimeResource1.Text" xml:space="preserve">
+    <value>Hingga Jam :</value>
+  </data>
+  <data name="Rs_TreatmentPlanName1Resource1.Text" xml:space="preserve">
+    <value>Nama Rencana Perawatan:</value>
+  </data>
+  <data name="Rs_TreatmentPlanNameResource1.Text" xml:space="preserve">
+    <value>Nama Rencana Perawatan:</value>
+  </data>
+  <data name="Rs_VitalsDetailsResource1.Text" xml:space="preserve">
+    <value>Rincian Organ Vital</value>
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value>Tanggal Perencanaan</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Nama Perawatan</value>
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Dilakukan Oleh</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Tanggal Pelaksanaan</value>
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="txtNewResource1.ToolTip" xml:space="preserve">
+    <value>Masukkan Teks Disini</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditOperationCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditOperationNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFinishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAddEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAnesthesiaTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlChiefOperatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlIPTreatmentPlanChildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlIPTreatmentPlanMasterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOperationTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSurgeryTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCRCplanResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCRCplanResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdCRCplanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvTreatmentResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvTreatmentResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvTreatmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAnesthetistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBloodgroupResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBloodgroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChiefOperatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPTreatmentPlanIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPTreatmentPlanNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPTreatmentPlanNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNurseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperationIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParentIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParentNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParentNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhysicianNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProsthesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTechnicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatmentPlanDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsAnesthetistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsAssistingOperatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsNurseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lsTechnicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdSelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AnesthesiaTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AnesthetistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AssistingsurgeonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BloodGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ChiefsurgeonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ClinicalDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FromTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_HomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NurseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperationTeamResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperationTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperationTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperativeFindingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperativeTechniqueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PlannedSurgeryProcedureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PostOperativeFindingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PreOperativeFindingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ProsthesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SelectAnOptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SurgeryProcedureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SurgeryTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TechnicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ToTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TreatmentPlanName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TreatmentPlanNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_VitalsDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDiagnosisResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblVitalsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblVitalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIPTreatmentPlanProsthesisResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIPTreatmentPlanProsthesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNewResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOPFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOPFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOPTResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOPTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPostOPFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPostOPFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPreOPFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPreOPFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnIPTreatmentPlanAddResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnIPTreatmentPlanAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

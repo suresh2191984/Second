@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_01" xml:space="preserve">
+    <value>(Patient ID-</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_02" xml:space="preserve">
+    <value>(IP NO-</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_03" xml:space="preserve">
+    <value>(UNIT/Ward:-</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_04" xml:space="preserve">
+    <value>BloodGroup:</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_05" xml:space="preserve">
+    <value>Dr.</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_06" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_07" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_08" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_09" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_10" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_11" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_12" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_13" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_14" xml:space="preserve">
+    <value>Death Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_15" xml:space="preserve">
+    <value>Discharge Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_16" xml:space="preserve">
+    <value>No history of</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_17" xml:space="preserve">
+    <value>No signs of</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_18" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_19" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_20" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_21" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_22" xml:space="preserve">
+    <value>TreatmentPlan Date</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_23" xml:space="preserve">
+    <value>Will Be Scheduled later</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_24" xml:space="preserve">
+    <value>Man presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_25" xml:space="preserve">
+    <value>old Boy presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_26" xml:space="preserve">
+    <value>lady presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheet_ascx_27" xml:space="preserve">
+    <value>old girl presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_BackrounMedicalProblem_ascx_01" xml:space="preserve">
+    <value>No history of</value>
+  </data>
+  <data name="VisitInfo_Controls_DialysisCaseSheet_ascx_01" xml:space="preserve">
+    <value>Dialysis is running. Please try when dialysis complete.</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_01" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_02" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_03" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_04" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_05" xml:space="preserve">
+    <value>Drug Frequency</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_06" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargePrescription_ascx_07" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_01" xml:space="preserve">
+    <value>Man presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_02" xml:space="preserve">
+    <value>old Boy presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_03" xml:space="preserve">
+    <value>lady presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_History_ascx_04" xml:space="preserve">
+    <value>old girl presented with history of</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientAddress_ascx_01" xml:space="preserve">
+    <value>Mobile No :</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientAddress_ascx_02" xml:space="preserve">
+    <value>LandLine No :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheetDynamic_ascx_01" xml:space="preserve">
+    <value>Death Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeCaseSheetDynamic_ascx_02" xml:space="preserve">
+    <value>Discharge Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_01" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_02" xml:space="preserve">
+    <value>Death Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_03" xml:space="preserve">
+    <value>Discharge Summary</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_04" xml:space="preserve">
+    <value>BP :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_05" xml:space="preserve">
+    <value>Temp :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_06" xml:space="preserve">
+    <value>Weight :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_07" xml:space="preserve">
+    <value>Pulse :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_08" xml:space="preserve">
+    <value>Height :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_09" xml:space="preserve">
+    <value>RR :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_10" xml:space="preserve">
+    <value>SpO2 :</value>
+  </data>
+  <data name="VisitInfo_Controls_DischargeSummaryR_ascx_11" xml:space="preserve">
+    <value>No signs of</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_01" xml:space="preserve">
+    <value>at 1 min</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_02" xml:space="preserve">
+    <value>at 5 min</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_03" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_04" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_05" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_06" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_07" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_08" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_09" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_10" xml:space="preserve">
+    <value>NAME :</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_11" xml:space="preserve">
+    <value>SEX :</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_12" xml:space="preserve">
+    <value>PATIENT ID :</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_13" xml:space="preserve">
+    <value>PATIENT ID-</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_14" xml:space="preserve">
+    <value>IP NO :</value>
+  </data>
+  <data name="VisitInfo_Controls_NeonatalCaseSheets_ascx_15" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="VisitInfo_Controls_EventChart_ascx_01" xml:space="preserve">
+    <value>No Event Chart</value>
+  </data>
+  <data name="VisitInfo_Controls_EventChart_ascx_02" xml:space="preserve">
+    <value>Dialysis Technician</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>TRF Image Upload</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_01" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_02" xml:space="preserve">
+    <value>Task Assigned to Nurse</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_03" xml:space="preserve">
+    <value>Task Assigned to Doctor</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_01" xml:space="preserve">
+    <value>Proceed via Today/'s Patient Link</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_02" xml:space="preserve">
+    <value>This Cannot be done on Newborns</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_03" xml:space="preserve">
+    <value>URL Not Found</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_04" xml:space="preserve">
+    <value>Edit Admission Patient Details</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_05" xml:space="preserve">
+    <value>Discharged</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_07" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_08" xml:space="preserve">
+    <value>Fee Type</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_09" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_10" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_11" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_12" xml:space="preserve">
+    <value>OP (Follow Visit)</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_13" xml:space="preserve">
+    <value>OP (New Visit)</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_14" xml:space="preserve">
+    <value>IP (Follow Visit)</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_15" xml:space="preserve">
+    <value>IP (New Visit)</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_16" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_17" xml:space="preserve">
+    <value>Proceed via Today/'s Patient Link</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_18" xml:space="preserve">
+    <value>This Cannot be done on Newborns</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_19" xml:space="preserve">
+    <value>The Patient</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_20" xml:space="preserve">
+    <value>is yet to be Diagnosed</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_21" xml:space="preserve">
+    <value>Please Settle Previous Payment in OP</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_22" xml:space="preserve">
+    <value>Please Settle Previous Payment</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_23" xml:space="preserve">
+    <value>URL Not Found</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_24" xml:space="preserve">
+    <value>Updated Successfully</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_25" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_26" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_27" xml:space="preserve">
+    <value>NO Sep Number</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_28" xml:space="preserve">
+    <value>Worry</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_29" xml:space="preserve">
+    <value>Scary</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_30" xml:space="preserve">
+    <value>Sad</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_31" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_32" xml:space="preserve">
+    <value>Independent</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_33" xml:space="preserve">
+    <value>Light Pain,analgetik oral</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_34" xml:space="preserve">
+    <value>Medium Pain,need analgetik injection</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_35" xml:space="preserve">
+    <value>Hard Pain,ask Pain team</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_36" xml:space="preserve">
+    <value>Not Sure</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_37" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_38" xml:space="preserve">
+    <value>ExistingPatient</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_41" xml:space="preserve">
+    <value>This visit has no doctor name .Please update the doctor name .</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_01" xml:space="preserve">
+    <value>Health Package</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_02" xml:space="preserve">
+    <value>Consultation</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_03" xml:space="preserve">
+    <value>Dialysis Technician</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_04" xml:space="preserve">
+    <value>Treatment Procedure</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_05" xml:space="preserve">
+    <value>Admission</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_06" xml:space="preserve">
+    <value>Upload Patient Old Notes</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_07" xml:space="preserve">
+    <value>Lab Investigation</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_08" xml:space="preserve">
+    <value>ContinueSameTreatment</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_09" xml:space="preserve">
+    <value>AlterPrescription</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_10" xml:space="preserve">
+    <value>InvestigateFurther</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_11" xml:space="preserve">
+    <value>ChangeDiagnosis</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_12" xml:space="preserve">
+    <value>AlterHealthInformation</value>
+  </data>
+  <data name="VisitInfo_Patient_aspx_13" xml:space="preserve">
+    <value>AddRecommendations</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_39" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_01" xml:space="preserve">
+    <value>Total Pending Check-IN File : </value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_02" xml:space="preserve">
+    <value>Visit is already crossed one day.Please Check-IN  and  create new Visit </value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_02" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="VisitInfo_PatientdetailsUpload_aspx_cs_01" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="VisitInfo_PatientdetailsUpload_aspx_cs_02" xml:space="preserve">
+    <value>File Uploaded Successfully</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_04" xml:space="preserve">
+    <value>Hide Result Customization</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_05" xml:space="preserve">
+    <value>Show Result Customization</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_06" xml:space="preserve">
+    <value>No Matching Records Found!</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_40" xml:space="preserve">
+    <value>No MatchingRecords Found</value>
+  </data>
+  <data name="VisitInfo_PrintBarCode_aspx_01" xml:space="preserve">
+    <value>Print</value>
+  </data>
+</root>

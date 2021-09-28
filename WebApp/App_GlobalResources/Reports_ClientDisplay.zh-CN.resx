@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportsTATReport_aspx_01" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="ReportsTATReport_aspx_02" xml:space="preserve">
+    <value> - 所有 - </value>
+  </data>
+  <data name="ReportsTATReport_aspx_03" xml:space="preserve">
+    <value>没有匹配符合条件的记录！</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_01" xml:space="preserve">
+    <value>在此期间收到的总提前量</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_02" xml:space="preserve">
+    <value>在此期间收到的Addtional量</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_03" xml:space="preserve">
+    <value>点击此处查看详细信息</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_01" xml:space="preserve">
+    <value> -  - -所有 -  - -</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_02" xml:space="preserve">
+    <value>总到期金额：</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_03" xml:space="preserve">
+    <value>第智慧总股本：</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_04" xml:space="preserve">
+    <value>总支付的金额：</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_05" xml:space="preserve">
+    <value>多币种</value>
+  </data>
+  <data name="Reports_EpisodeReport_aspx_01" xml:space="preserve">
+    <value>背部</value>
+  </data>
+  <data name="Reports_EpisodeReport_aspx_02" xml:space="preserve">
+    <value> -  - -所有 -  - -</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_001" xml:space="preserve">
+    <value>产品名称</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_002" xml:space="preserve">
+    <value>部</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_003" xml:space="preserve">
+    <value>导出到XL</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_004" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_005" xml:space="preserve">
+    <value>股票发行报告</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_01" xml:space="preserve">
+    <value>测试名称</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_02" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_03" xml:space="preserve">
+    <value>计数</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_04" xml:space="preserve">
+    <value>0.5小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_05" xml:space="preserve">
+    <value>1小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_06" xml:space="preserve">
+    <value>1.5小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_07" xml:space="preserve">
+    <value>2小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_08" xml:space="preserve">
+    <value>2.5小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_09" xml:space="preserve">
+    <value>3小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_10" xml:space="preserve">
+    <value>3.5小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_11" xml:space="preserve">
+    <value>4小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_12" xml:space="preserve">
+    <value>6小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_13" xml:space="preserve">
+    <value>8小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_14" xml:space="preserve">
+    <value>10小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_15" xml:space="preserve">
+    <value>12小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_16" xml:space="preserve">
+    <value>16小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_17" xml:space="preserve">
+    <value>20小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_18" xml:space="preserve">
+    <value>24小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_19" xml:space="preserve">
+    <value>32小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_20" xml:space="preserve">
+    <value>40小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_21" xml:space="preserve">
+    <value>48小时</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_22" xml:space="preserve">
+    <value>第3天</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_23" xml:space="preserve">
+    <value>第4天</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_24" xml:space="preserve">
+    <value>第5天</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_25" xml:space="preserve">
+    <value>&gt; 5天</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_26" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_02" xml:space="preserve">
+    <value>客户</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_03" xml:space="preserve">
+    <value>测试/简介</value>
+  </data>
+  <data name="Reports_CCStmt_aspx_01" xml:space="preserve">
+    <value>（一个）</value>
+  </data>
+  <data name="Reports_CCStmt_aspx_02" xml:space="preserve">
+    <value>(乙)</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_01" xml:space="preserve">
+    <value>没有匹配符合条件的记录</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reports_TPACORPDisallowedReport_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reports_TPACORPDisallowedReport_aspx" xml:space="preserve">
+    <value>未找到所选的日期匹配的记录</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_04" xml:space="preserve">
+    <value>背部</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_05" xml:space="preserve">
+    <value>取消测试报告</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_06" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_01" xml:space="preserve">
+    <value>- 选择 -</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_02" xml:space="preserve">
+    <value>- 所有 -</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_03" xml:space="preserve">
+    <value>病人总数没有：</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_04" xml:space="preserve">
+    <value>累计</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_05" xml:space="preserve">
+    <value>总收稿日期：</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_06" xml:space="preserve">
+    <value>总</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_07" xml:space="preserve">
+    <value>（-）取消</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_06" xml:space="preserve">
+    <value>由于单号</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_07" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_08" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_09" xml:space="preserve">
+    <value>比尔金额</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_10" xml:space="preserve">
+    <value>已付金额</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_11" xml:space="preserve">
+    <value>付账单号码</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_12" xml:space="preserve">
+    <value>支付日期</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_13" xml:space="preserve">
+    <value>由于收集</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_14" xml:space="preserve">
+    <value>收到</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_15" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_16" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_17" xml:space="preserve">
+    <value>由于比尔日期</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_002" xml:space="preserve">
+    <value>总</value>
+  </data>
+</root>

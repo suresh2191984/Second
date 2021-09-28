@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClientMaster_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_01" xml:space="preserve">
+    <value>ya se ha proporcionado una dirección para comunicación</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_02" xml:space="preserve">
+    <value>por favor introduzca el tipo de contacto</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_03" xml:space="preserve">
+    <value>por favor introduzca nombre de la persona</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_04" xml:space="preserve">
+    <value>persona se asocia con este tipo de contactos</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_05" xml:space="preserve">
+    <value>esta persona ya se ha agregado</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_06" xml:space="preserve">
+    <value>la persona de contacto principal ya fue seleccionada</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_07" xml:space="preserve">
+    <value>este impuesto ya fue agregado</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_08" xml:space="preserve">
+    <value>nombre de usuario de correo inválido</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_09" xml:space="preserve">
+    <value>el nombre del cliente ya existe. por favor introduzca el nuevo nombre del cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_10" xml:space="preserve">
+    <value>The Service Tax No already exists.Please enter new Service Tax No.</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_11" xml:space="preserve">
+    <value>número de móvil debe tener 10 dígitos</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_12" xml:space="preserve">
+    <value>seleccione el tipo de dirección </value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_13" xml:space="preserve">
+    <value>en el modo de envío, ha seleccionado correo electrónico. por favor ingrese la dirección del correo</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_14" xml:space="preserve">
+    <value>en el modo de envío, ha seleccionado mensaje de texto. por favor ingrese el número del móvil</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_15" xml:space="preserve">
+    <value>seleccionar el tipo de cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_16" xml:space="preserve">
+    <value>escribir el nombre del cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_17" xml:space="preserve">
+    <value>escribir el código de cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_18" xml:space="preserve">
+    <value>Client code already exists.Enter a new code</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_19" xml:space="preserve">
+    <value>cliente general ya agregado</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_20" xml:space="preserve">
+    <value>seleccionar el tipo de negocio</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_21" xml:space="preserve">
+    <value>Please seletect the role to asign the task for Invoice Approval</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_22" xml:space="preserve">
+    <value>por favor dé la razón</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_23" xml:space="preserve">
+    <value>ingrese los padres del cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_24" xml:space="preserve">
+    <value>por favor seleccione la razón</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_25" xml:space="preserve">
+    <value>por favor seleccione a la persona autorizada</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_26" xml:space="preserve">
+    <value>por favor seleccione bloqueado de fecha</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_27" xml:space="preserve">
+    <value>Please select block to date</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_28" xml:space="preserve">
+    <value>por favor seleccione año válido</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_29" xml:space="preserve">
+    <value>por favor seleccione mes válido</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_30" xml:space="preserve">
+    <value>por favor seleccione día válido</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_31" xml:space="preserve">
+    <value>escribir la información del envío</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_32" xml:space="preserve">
+    <value>presentar una dirección primaria</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_33" xml:space="preserve">
+    <value>escribir los atributos de cliente</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_34" xml:space="preserve">
+    <value>Enter the Clien Attributes Values</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_35" xml:space="preserve">
+    <value>proporcione valor del atributo</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_36" xml:space="preserve">
+    <value>atributo ya agregado</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_37" xml:space="preserve">
+    <value>esta acción bloqueará a todos los clientes asociados. ¿está segura de que desea continuar??</value>
+  </data>
+  <data name="ClientMaster_ClientMaster_aspx_38" xml:space="preserve">
+    <value>ha seleccionado mostrar sólo artículos asignados. puede asignar los artículos al mapa de cliente de servicio. haga clic en aceptar para ir a el mapeo de cliente de servicio.</value>
+  </data>
+  <data name="ClientMaster_Error" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="ClientMaster_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="ClientMaster_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+</root>

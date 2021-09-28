@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_01" xml:space="preserve">
+    <value>anulado</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_02" xml:space="preserve">
+    <value>devolver</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_03" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_04" xml:space="preserve">
+    <value>ip debido gráfico - artículo facturado</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_05" xml:space="preserve">
+    <value>recaudar lo adeudado del pago</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_06" xml:space="preserve">
+    <value>diferentes monedas</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_07" xml:space="preserve">
+    <value>OP - Collection Report</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_08" xml:space="preserve">
+    <value>ip - reporte de colección </value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_09" xml:space="preserve">
+    <value>OP &amp;amp; IP - Collection Report</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_10" xml:space="preserve">
+    <value>depósito - colección de informes</value>
+  </data>
+  <data name="FinancialReports_CollectionReportOPIP_aspx_11" xml:space="preserve">
+    <value>Date_</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_01" xml:space="preserve">
+    <value>anulado</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_02" xml:space="preserve">
+    <value>devolver</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_03" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_04" xml:space="preserve">
+    <value>fecha:</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_05" xml:space="preserve">
+    <value>reporte desde:</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_06" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_07" xml:space="preserve">
+    <value>reportes de colección por usuario</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_08" xml:space="preserve">
+    <value>esta factura ha sido cancelado</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_09" xml:space="preserve">
+    <value>esta factura ha sido reembolsada</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_10" xml:space="preserve">
+    <value>ninguna cantidad recibida</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_11" xml:space="preserve">
+    <value>ShowUserLists</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_12" xml:space="preserve">
+    <value>HideUserLists</value>
+  </data>
+  <data name="FinancialReports_DaywiseCollection_aspx_13" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_01" xml:space="preserve">
+    <value>Pharmacy Refund</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_02" xml:space="preserve">
+    <value>Pharmacy Item Refund</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_03" xml:space="preserve">
+    <value>Refund Date Range</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_04" xml:space="preserve">
+    <value>Total Billed</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_05" xml:space="preserve">
+    <value>Total Collection</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_06" xml:space="preserve">
+    <value>Total Deposit</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_07" xml:space="preserve">
+    <value>Total Discount</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_08" xml:space="preserve">
+    <value>Total Due Collection</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_09" xml:space="preserve">
+    <value>Total Advance Collection</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_10" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_11" xml:space="preserve">
+    <value>Departemen Wise Collection</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseCollectionReport_aspx_12" xml:space="preserve">
+    <value>Department Wise Collection Report _</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseDetailReportPopUp_aspx_01" xml:space="preserve">
+    <value>monto total:</value>
+  </data>
+  <data name="FinancialReports_DepartmentWiseDetailReportPopUp_aspx_02" xml:space="preserve">
+    <value>Department Wise Collection Report _</value>
+  </data>
+  <data name="FinancialReports_DiscountReport_aspx_01" xml:space="preserve">
+    <value>paciente</value>
+  </data>
+  <data name="FinancialReports_DiscountReport_aspx_02" xml:space="preserve">
+    <value>OP - Discount Report</value>
+  </data>
+  <data name="FinancialReports_DiscountReport_aspx_03" xml:space="preserve">
+    <value>IP - Discount Report</value>
+  </data>
+  <data name="FinancialReports_DiscountReport_aspx_04" xml:space="preserve">
+    <value>OP / IP - Discount Report</value>
+  </data>
+  <data name="FinancialReports_DiscountReport_aspx_05" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_01" xml:space="preserve">
+    <value>monto de pago</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_02" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_03" xml:space="preserve">
+    <value>crédito</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_04" xml:space="preserve">
+    <value>Creditandcash</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_05" xml:space="preserve">
+    <value>cantidad total pendiente:</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_06" xml:space="preserve">
+    <value>reporte de monto a pagar</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_07" xml:space="preserve">
+    <value>diferentes monedas</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_08" xml:space="preserve">
+    <value>el monto total pagado:</value>
+  </data>
+  <data name="FinancialReports_DueReport_aspx_09" xml:space="preserve">
+    <value>total pagado por la página:</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_01" xml:space="preserve">
+    <value>Voucher No</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_02" xml:space="preserve">
+    <value>nombre del receptor</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_03" xml:space="preserve">
+    <value>pagado por</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_04" xml:space="preserve">
+    <value>creado en</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_05" xml:space="preserve">
+    <value>típo de pago</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_06" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_07" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_08" xml:space="preserve">
+    <value>Total Expenses :</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_09" xml:space="preserve">
+    <value>desde:</value>
+  </data>
+  <data name="FinancialReports_ExpensesReport_aspx_10" xml:space="preserve">
+    <value>a:</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_01" xml:space="preserve">
+    <value>adeudo</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_02" xml:space="preserve">
+    <value>DOA</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_03" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_04" xml:space="preserve">
+    <value>edad / sexo</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_05" xml:space="preserve">
+    <value>número de la habitación / cama</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_06" xml:space="preserve">
+    <value>Gross Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_07" xml:space="preserve">
+    <value>Pharmacy Collected Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_08" xml:space="preserve">
+    <value>Hospital Refund Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_09" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_10" xml:space="preserve">
+    <value>ip número</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_11" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_12" xml:space="preserve">
+    <value>Primary Physician</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_13" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_14" xml:space="preserve">
+    <value>Pharmacy Bill Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_15" xml:space="preserve">
+    <value>Hospital Bill Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_16" xml:space="preserve">
+    <value>Hospital Collected Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_17" xml:space="preserve">
+    <value>Pharmacy Refund Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_18" xml:space="preserve">
+    <value>Total Collected Amt</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_19" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="FinancialReports_InPatientDueReport_aspx_20" xml:space="preserve">
+    <value>reporte de pacientes hospitalizados</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_01" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_02" xml:space="preserve">
+    <value>crédito</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_03" xml:space="preserve">
+    <value>pagado</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_04" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_05" xml:space="preserve">
+    <value>mostrar todo</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_06" xml:space="preserve">
+    <value>Physician_Slip_</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_07" xml:space="preserve">
+    <value>Physician_Reports_</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_08" xml:space="preserve">
+    <value>crédito</value>
+  </data>
+  <data name="FinancialReports_PhysicianwiseCollectionReport_aspx_09" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="FinancialReports_TPACORPOutstandingReport_aspx_01" xml:space="preserve">
+    <value>reportes tpa / corp pendientes </value>
+  </data>
+  <data name="FinancialReports_TPACORPOutstandingReport_aspx_02" xml:space="preserve">
+    <value>Bill Details</value>
+  </data>
+  <data name="FinancialReports_TPACORPOutstandingReport_aspx_03" xml:space="preserve">
+    <value>detalles del paciente</value>
+  </data>
+  <data name="FinancialReports_TPACORPOutstandingReport_aspx_04" xml:space="preserve">
+    <value>TPA/CORP Settlement Details</value>
+  </data>
+</root>

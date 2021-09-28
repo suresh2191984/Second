@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddProcessResource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="btnFComplicationResource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="btnMComplicationResource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="Button1Resource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="lblBreastResource1.Text" xml:space="preserve">
+    <value>Payu Dara</value>
+  </data>
+  <data name="lblEctopicResource1.Text" xml:space="preserve">
+    <value>Ectopic Gestation</value>
+  </data>
+  <data name="lblGeneralResource1.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="lblGenitaliaResource1.Text" xml:space="preserve">
+    <value>Genitalia</value>
+  </data>
+  <data name="lblNipplesResource1.Text" xml:space="preserve">
+    <value>Nipples</value>
+  </data>
+  <data name="lblObstretricResource1.Text" xml:space="preserve">
+    <value>Obstretric</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Facial puffiness</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>259</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Glossitis</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>314</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Hemorrhoids</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>339</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Hepatomegaly</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>340</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Icterus</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>360</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Joint tenderness</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>399</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Lymphadenopathy</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>445</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>pallor</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>549</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>Pedal edema</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>569</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>skin hyperpigmentation</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>692</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>splenomegaly</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>716</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>Suprapubic tenderness</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>729</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>Tachycardia</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>743</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>varicose veins</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>814</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>Dehydrated Skin</value>
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>838</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>Tachypnea</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>839</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>Respiratory Distress</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>840</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>Striae Gravidarum</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>841</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>Breast tenderness</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>firm breast mass</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>276</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Brittle nails</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Galactorrhoea</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>302</value>
+  </data>
+  <data name="ListItemResource31.Text" xml:space="preserve">
+    <value>Hypoplastic</value>
+  </data>
+  <data name="ListItemResource31.Value" xml:space="preserve">
+    <value>845</value>
+  </data>
+  <data name="ListItemResource32.Text" xml:space="preserve">
+    <value>Discharge</value>
+  </data>
+  <data name="ListItemResource32.Value" xml:space="preserve">
+    <value>182</value>
+  </data>
+  <data name="ListItemResource33.Text" xml:space="preserve">
+    <value>Retracted nipples</value>
+  </data>
+  <data name="ListItemResource33.Value" xml:space="preserve">
+    <value>640</value>
+  </data>
+  <data name="ListItemResource34.Text" xml:space="preserve">
+    <value>Hypoplastic</value>
+  </data>
+  <data name="ListItemResource34.Value" xml:space="preserve">
+    <value>846</value>
+  </data>
+  <data name="ListItemResource35.Text" xml:space="preserve">
+    <value>Inflammed</value>
+  </data>
+  <data name="ListItemResource35.Value" xml:space="preserve">
+    <value>847</value>
+  </data>
+  <data name="ListItemResource36.Text" xml:space="preserve">
+    <value>Herpes</value>
+  </data>
+  <data name="ListItemResource36.Value" xml:space="preserve">
+    <value>848</value>
+  </data>
+  <data name="ListItemResource37.Text" xml:space="preserve">
+    <value>Candidiasis</value>
+  </data>
+  <data name="ListItemResource37.Value" xml:space="preserve">
+    <value>849</value>
+  </data>
+  <data name="ListItemResource38.Text" xml:space="preserve">
+    <value>Warts</value>
+  </data>
+  <data name="ListItemResource38.Value" xml:space="preserve">
+    <value>850</value>
+  </data>
+  <data name="ListItemResource39.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource39.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>clubbing</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>114</value>
+  </data>
+  <data name="ListItemResource40.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="ListItemResource40.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="ListItemResource41.Text" xml:space="preserve">
+    <value>Abnormal Presentation</value>
+  </data>
+  <data name="ListItemResource41.Value" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ListItemResource42.Text" xml:space="preserve">
+    <value>IUGR</value>
+  </data>
+  <data name="ListItemResource42.Value" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ListItemResource43.Text" xml:space="preserve">
+    <value>Congenital Fetal Anamoly</value>
+  </data>
+  <data name="ListItemResource43.Value" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ListItemResource44.Text" xml:space="preserve">
+    <value>Foetal Demise</value>
+  </data>
+  <data name="ListItemResource44.Value" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ListItemResource45.Text" xml:space="preserve">
+    <value>Ovarian</value>
+  </data>
+  <data name="ListItemResource45.Value" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ListItemResource46.Text" xml:space="preserve">
+    <value>Tubal</value>
+  </data>
+  <data name="ListItemResource46.Value" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ListItemResource47.Text" xml:space="preserve">
+    <value>Abdominal</value>
+  </data>
+  <data name="ListItemResource47.Value" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Cyanosis</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>146</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Dry skin</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>202</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>ecchymoses</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>212</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>elevated JVP</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>217</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Erythema</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>234</value>
+  </data>
+  <data name="rbAbNormalResource1.Text" xml:space="preserve">
+    <value>Ab Normal</value>
+  </data>
+  <data name="rbNormalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Rs_BreastResource1.Text" xml:space="preserve">
+    <value>Breast</value>
+  </data>
+  <data name="Rs_ComplicationResource1.Text" xml:space="preserve">
+    <value>Komplikasi</value>
+  </data>
+  <data name="Rs_Complications1Resource1.Text" xml:space="preserve">
+    <value>Komplikasi</value>
+  </data>
+  <data name="Rs_ComplicationsResource1.Text" xml:space="preserve">
+    <value>Komplikasi</value>
+  </data>
+  <data name="Rs_Delete1Resource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Rs_Delete2Resource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Rs_Delete3Resource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Rs_DeleteResource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Rs_Examination1Resource1.Text" xml:space="preserve">
+    <value>Pemeriksaan</value>
+  </data>
+  <data name="Rs_ExaminationResource1.Text" xml:space="preserve">
+    <value>Pemeriksaan</value>
+  </data>
+  <data name="Rs_FetalFindings1Resource1.Text" xml:space="preserve">
+    <value>Fetal Findings</value>
+  </data>
+  <data name="Rs_FetalFindingsResource1.Text" xml:space="preserve">
+    <value>Fetal Findings</value>
+  </data>
+  <data name="Rs_Fetus1Resource1.Text" xml:space="preserve">
+    <value>Fetus</value>
+  </data>
+  <data name="Rs_FetusResource1.Text" xml:space="preserve">
+    <value>Fetus</value>
+  </data>
+  <data name="Rs_FHSResource1.Text" xml:space="preserve">
+    <value>FHS</value>
+  </data>
+  <data name="Rs_GenitaliaResource1.Text" xml:space="preserve">
+    <value>Genitalia</value>
+  </data>
+  <data name="Rs_MaternalResource1.Text" xml:space="preserve">
+    <value>Maternal</value>
+  </data>
+  <data name="Rs_MovementResource1.Text" xml:space="preserve">
+    <value>Perpindahan</value>
+  </data>
+  <data name="Rs_NipplesResource1.Text" xml:space="preserve">
+    <value>Nipples</value>
+  </data>
+  <data name="Rs_OtherComplication2Resource1.Text" xml:space="preserve">
+    <value>Komplikasi Lainnya (Foetus)</value>
+  </data>
+  <data name="Rs_OtherComplicationResource1.Text" xml:space="preserve">
+    <value>Komplikasi Lainnya (Maternal)</value>
+  </data>
+  <data name="Rs_OtherExaminationsResource1.Text" xml:space="preserve">
+    <value>Pemeriksaan Lainnya</value>
+  </data>
+  <data name="Rs_Others1Resource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Rs_Others2Resource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Rs_Others3Resource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Rs_Others4Resource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Rs_OthersResource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="Rs_OtherSymptomaticsResource1.Text" xml:space="preserve">
+    <value>Gejala Lainnya</value>
+  </data>
+  <data name="Rs_PositionResource1.Text" xml:space="preserve">
+    <value>Posisi</value>
+  </data>
+  <data name="Rs_PresentationResource1.Text" xml:space="preserve">
+    <value>Presentation</value>
+  </data>
+  <data name="Rs_Symptoms1Resource1.Text" xml:space="preserve">
+    <value>Gejala  </value>
+  </data>
+  <data name="Rs_SymptomsResource1.Text" xml:space="preserve">
+    <value>Gejala</value>
+  </data>
+  <data name="TVHResource1.CollapseImageToolTip" xml:space="preserve">
+    <value>Collapse {0}</value>
+  </data>
+  <data name="TVHResource1.ExpandImageToolTip" xml:space="preserve">
+    <value>Expand {0}</value>
+  </data>
+  <data name="TVHResource1.SkipLinkText" xml:space="preserve">
+    <value>Skip Link Navigasi.</value>
+  </data>
+  <data name="btnAddProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblBreastOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblFoetusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblGenetaliaOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblNipplesOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAbnormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBreastResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEctopicGestationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkFoetusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkGenitaliaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMaternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkNipplesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkObstretricResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSymptomaticResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTableResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBreastResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEctopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFetalsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFetalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGenitaliaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNipplesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblObstretricResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAbNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblExamination1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblFetalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BreastResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Complications1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ComplicationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Delete1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Delete2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Delete3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Examination1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ExaminationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FetalFindings1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FetalFindingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Fetus1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FetusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FHSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_GenitaliaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MaternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MovementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NipplesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OtherComplication2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OtherComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OtherExaminationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Others1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Others2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Others3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Others4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OthersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OtherSymptomaticsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PositionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PresentationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Symptoms1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SymptomsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderRowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TVHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExaminationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExaminationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFComplicationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMComplicationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMComplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSymptomaticResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSymptomaticResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

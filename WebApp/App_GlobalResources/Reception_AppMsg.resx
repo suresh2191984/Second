@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_PhotoUpload_ascx_01" xml:space="preserve">
+    <value>Photo Uploaded Successfully</value>
+  </data>
+  <data name="CommonControls_PhotoUpload_ascx_02" xml:space="preserve">
+    <value>Please upload this file types only</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>Please select a file to add.</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_02" xml:space="preserve">
+    <value>Please select valid file format</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_03" xml:space="preserve">
+    <value>Please browse at least one file to upload.</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_01" xml:space="preserve">
+    <value>Please select a Type</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_02" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_Header_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_LabReceptionHome_aspx_01" xml:space="preserve">
+    <value>Task Created Successfully</value>
+  </data>
+  <data name="Reception_LabReceptionHome_aspx_02" xml:space="preserve">
+    <value>Rates Applied Successfully</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_01" xml:space="preserve">
+    <value>Patient number already exits</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_02" xml:space="preserve">
+    <value>Provide Approved By</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_03" xml:space="preserve">
+    <value>Donor registered successfully</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_04" xml:space="preserve">
+    <value>There was a problem in Save Billing Details.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_05" xml:space="preserve">
+    <value>The patient details with same name and contact details already exist. Provide the changes and retry.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_06" xml:space="preserve">
+    <value>The first character of the name must be a letter</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_07" xml:space="preserve">
+    <value>Provide age in (days or weeks or months or year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_08" xml:space="preserve">
+    <value>Provide a valid year</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_09" xml:space="preserve">
+    <value>Provide a valid month</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_10" xml:space="preserve">
+    <value>This patient is not yet discharged; action cannot be performed</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_11" xml:space="preserve">
+    <value>Updated successfully.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_12" xml:space="preserve">
+    <value>Error while saving patient details.Please try after some time.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_13" xml:space="preserve">
+    <value>Patient registration successfull. Patient Number:</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_14" xml:space="preserve">
+    <value>There was a problem in page load. Please contact system administrator</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_15" xml:space="preserve">
+    <value>There was a problem in photo upload. Please contact system administrator.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_16" xml:space="preserve">
+    <value>New visits and ordering of services cannot be done as the patient is not in active status.</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_17" xml:space="preserve">
+    <value>Please Registration Next go Process</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_18" xml:space="preserve">
+    <value>Service cannot be placed as the dependent is above the configured limit of</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_19" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_01" xml:space="preserve">
+    <value>Select the Hub Name From List</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_02" xml:space="preserve">
+    <value>Select the Zone Name From List</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_03" xml:space="preserve">
+    <value>Please select user from the list</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_04" xml:space="preserve">
+    <value>Please Proceed via Todays Patient Link</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_05" xml:space="preserve">
+    <value>This action cannot be performed for New born baby</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_06" xml:space="preserve">
+    <value>URL Not Found</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_07" xml:space="preserve">
+    <value>Munst CheckIn the Mrd File</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_08" xml:space="preserve">
+    <value>Visit State Already Closed</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_09" xml:space="preserve">
+    <value>Task Status Can not be Pending</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_10" xml:space="preserve">
+    <value>OP Visit Closed successfully</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_11" xml:space="preserve">
+    <value>Which is not OP Patient</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_12" xml:space="preserve">
+    <value>There is no CaseSheet for this Patient</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_13" xml:space="preserve">
+    <value>Please Select Any One</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_14" xml:space="preserve">
+    <value>Provide To date</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_15" xml:space="preserve">
+    <value>This is OP patient. So you can not Edit</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_16" xml:space="preserve">
+    <value>This  is not a Discharged/Credit patient. So you can not Edit</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_17" xml:space="preserve">
+    <value>Select visit detail</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_18" xml:space="preserve">
+    <value>Provide From date</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_19" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_20" xml:space="preserve">
+    <value>Please Enter Correct Page No</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_21" xml:space="preserve">
+    <value>Please select from the list</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_01" xml:space="preserve">
+    <value>Enter Visit Number</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_02" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_03" xml:space="preserve">
+    <value>Please enter correct Visit number.</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_04" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_05" xml:space="preserve">
+    <value>Mail Send Successfully</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_06" xml:space="preserve">
+    <value>No Matching Records found!</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_01" xml:space="preserve">
+    <value>Provide any one search category</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_02" xml:space="preserve">
+    <value>Select value for others</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_01" xml:space="preserve">
+    <value>Are you sure in making the doctor permanent??</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_02" xml:space="preserve">
+    <value>Are you sure in making the doctor temporary??</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_03" xml:space="preserve">
+    <value>Select Physician from list</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_04" xml:space="preserve">
+    <value>Already added to list</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_05" xml:space="preserve">
+    <value>Select Parent Physician</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_06" xml:space="preserve">
+    <value>Select Child Physician to Merge</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_07" xml:space="preserve">
+    <value>No matching records found</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_08" xml:space="preserve">
+    <value>Selected physician merged successfully</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_09" xml:space="preserve">
+    <value>Error while merging datas</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_10" xml:space="preserve">
+    <value>Selected physician Un merged successfully</value>
+  </data>
+  <data name="Reception_PatientSearch_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_01" xml:space="preserve">
+    <value>This action Cannot be Performed as Patient belongs to another Organization</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_02" xml:space="preserve">
+    <value>Move on to Registration &amp; Visit</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_03" xml:space="preserve">
+    <value>Patient registration is needed</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_04" xml:space="preserve">
+    <value>This action cannot be performed for This patient</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_05" xml:space="preserve">
+    <value>This action cannot be performed for inpatients</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_06" xml:space="preserve">
+    <value>The selected patient does not have any Due</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_07" xml:space="preserve">
+    <value>Provide any one search category(local)</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_08" xml:space="preserve">
+    <value>Select others</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_09" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_10" xml:space="preserve">
+    <value>Select patient name</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_01" xml:space="preserve">
+    <value>Please Enter The Hospital/Clinic/Lab Name</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_02" xml:space="preserve">
+    <value>Please Enter The Code</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_03" xml:space="preserve">
+    <value>Please select the type</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_04" xml:space="preserve">
+    <value>Code already exists.Please give any other code</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_05" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_06" xml:space="preserve">
+    <value>New reference organization was added successfully!</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_07" xml:space="preserve">
+    <value>Updated successfully!</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_01" xml:space="preserve">
+    <value>Enter Phone Number</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_02" xml:space="preserve">
+    <value>Provide physician name</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_03" xml:space="preserve">
+    <value>Provide Physician Code</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_04" xml:space="preserve">
+    <value>Select salutation</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_05" xml:space="preserve">
+    <value>Physician code already exists.Please give any other code</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_06" xml:space="preserve">
+    <value>Provide the search text to find the physician</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_07" xml:space="preserve">
+    <value>Hospital already added</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_08" xml:space="preserve">
+    <value>Provide Age in (Days or Weeks or Months or Year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_09" xml:space="preserve">
+    <value>Timeout has occured</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_10" xml:space="preserve">
+    <value>Error has occured:</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_11" xml:space="preserve">
+    <value>Provide a valid year</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_12" xml:space="preserve">
+    <value>New refering physician added successfully!</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_13" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_14" xml:space="preserve">
+    <value>Removed successfully!</value>
+  </data>
+  <data name="Reception_Collections_aspx_01" xml:space="preserve">
+    <value>Select a Deposit Receipt to Print</value>
+  </data>
+  <data name="Reception_Collections_aspx_02" xml:space="preserve">
+    <value>Add Deposite Amount</value>
+  </data>
+  <data name="Reception_Collections_aspx_03" xml:space="preserve">
+    <value>Enter Valid Client</value>
+  </data>
+  <data name="Reception_Collections_aspx_04" xml:space="preserve">
+    <value>Select Collection type</value>
+  </data>
+  <data name="Reception_Collections_aspx_05" xml:space="preserve">
+    <value>Amount cannot be zero</value>
+  </data>
+  <data name="Reception_Collections_aspx_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_01" xml:space="preserve">
+    <value>Please select Credit/Debit details</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_02" xml:space="preserve">
+    <value>Add Deposite Amount</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_03" xml:space="preserve">
+    <value>Provide page number</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_04" xml:space="preserve">
+    <value>Provide correct page number</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_05" xml:space="preserve">
+    <value>Provide correct page number</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_06" xml:space="preserve">
+    <value>Please Select Type Name</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_07" xml:space="preserve">
+    <value>Please Enter Valid Name</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_08" xml:space="preserve">
+    <value>Please Enter Valid Authorizer Name</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_09" xml:space="preserve">
+    <value>Please Select Ref Type Name</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_10" xml:space="preserve">
+    <value>Please Enter Reference Number</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_11" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_12" xml:space="preserve">
+    <value>Please Enter Valid ReferenceNo</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_22" xml:space="preserve">
+    <value>Provide patient name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_23" xml:space="preserve">
+    <value>Select sex</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_24" xml:space="preserve">
+    <value>Provide patient age</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_25" xml:space="preserve">
+    <value>Provide ward No</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_26" xml:space="preserve">
+    <value>Provide city</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_27" xml:space="preserve">
+    <value>Provide name for doctor</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_28" xml:space="preserve">
+    <value>Select Referring Organization</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_29" xml:space="preserve">
+    <value>Select payer type</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_30" xml:space="preserve">
+    <value>Select Rate type</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_31" xml:space="preserve">
+    <value>Select TPA/Insurance Name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_32" xml:space="preserve">
+    <value>Select Client Name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_33" xml:space="preserve">
+    <value>Select insurance</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_34" xml:space="preserve">
+    <value>Select publishing mode</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_35" xml:space="preserve">
+    <value>Provide name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_36" xml:space="preserve">
+    <value>Hospital already added</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_37" xml:space="preserve">
+    <value>Provide age in (days or weeks or months or year) &amp; choose appropriate from the list</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_38" xml:space="preserve">
+    <value>Please Enter The Referring Organization Name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_39" xml:space="preserve">
+    <value>You must provide one address</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_40" xml:space="preserve">
+    <value>Provide a valid year</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_41" xml:space="preserve">
+    <value>Provide a valid month</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_42" xml:space="preserve">
+    <value>Select physician name from the list</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_43" xml:space="preserve">
+    <value>Timeout has occured</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_44" xml:space="preserve">
+    <value>Error has occured:</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_45" xml:space="preserve">
+    <value>Provide physician name</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_46" xml:space="preserve">
+    <value>Select salutation</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_47" xml:space="preserve">
+    <value>Please Enter The WardNo</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_48" xml:space="preserve">
+    <value>Provide the search text to find the physician</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_49" xml:space="preserve">
+    <value>Provide </value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_50" xml:space="preserve">
+    <value>to send notification</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_51" xml:space="preserve">
+    <value>Already Exists.</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_16" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_13" xml:space="preserve">
+    <value>------ALL------</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_08" xml:space="preserve">
+    <value>Are you sure to proceed?</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_09" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_10" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_17" xml:space="preserve">
+    <value>Are you sure to proceed?</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_18" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_19" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_07" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_08" xml:space="preserve">
+    <value>Bill</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_09" xml:space="preserve">
+    <value>Mail Send Successfully</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_10" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_40" xml:space="preserve">
+    <value>Reprint count should be greater than zero</value>
+  </data>
+</root>

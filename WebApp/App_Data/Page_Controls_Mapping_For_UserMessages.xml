@@ -1,0 +1,1197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+
+  <Admin-AddInvandGroups.aspx>
+    <CommonControls>PackageProfileControl1.ascx</CommonControls>
+  </Admin-AddInvandGroups.aspx>
+
+  <Admin-AddInvGroups.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-AddInvGroups.aspx>
+
+  <Admin-BillSearch.aspx>
+    <CommonControls>BillSearch.ascx</CommonControls>
+  </Admin-BillSearch.aspx>
+
+  <Admin-CashFlow.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Admin-CashFlow.aspx>
+
+  <Admin-CashInFlow.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Admin-CashInFlow.aspx>
+
+  <Admin-CasualityMaster.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-CasualityMaster.aspx>
+
+  <Admin-ConfigManager.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+  </Admin-ConfigManager.aspx>
+
+  <Admin-CustomizeClientFeeTypeRate.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-CustomizeClientFeeTypeRate.aspx>
+
+  <Admin-DiscountReason.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-DiscountReason.aspx>
+
+  <Admin-DynamicUserControl.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+  </Admin-DynamicUserControl.aspx>
+
+  <Admin-GeneralBillingItemsMaster.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-GeneralBillingItemsMaster.aspx>
+
+  <Admin-Home.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>ProductReminderDisplay.ascx</CommonControls>
+  </Admin-Home.aspx>
+
+  <Admin-ManagePackage.aspx>
+    <CommonControls>PackageProfileControl1.ascx</CommonControls>
+  </Admin-ManagePackage.aspx>
+
+  <Admin-MappingInvtoGrp.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-MappingInvtoGrp.aspx>
+
+  <Admin-MenuMapper.aspx>
+    <CommonControls>MenuItemList.ascx</CommonControls>
+  </Admin-MenuMapper.aspx>
+
+  <Admin-PatientDashBoard.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Admin-PatientDashBoard.aspx>
+  
+  <Admin-NutritionMaster.aspx>
+    <CommonControls>FoodMenu.ascx</CommonControls>
+   <CommonControls>FoodSession.ascx</CommonControls>
+  <CommonControls>FoodMenuWardmapping.ascx</CommonControls>
+	  <CommonControls>NutritionFoodCategory.ascx</CommonControls>
+	  <CommonControls>NutritionIngredients.ascx</CommonControls>
+	  <CommonControls>NutritionFoodList.ascx</CommonControls>
+    <CommonControls>NutritionFoodIngredientsMapping.ascx</CommonControls>
+    <CommonControls>NutritionMenuDeatails.ascx</CommonControls>
+  </Admin-NutritionMaster.aspx>
+
+  
+  
+  <Admin-PhysicianwiseCollectionDetailReport.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Admin-PhysicianwiseCollectionDetailReport.aspx>
+
+  <Admin-PhysicianwiseCollectionReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Admin-PhysicianwiseCollectionReport.aspx>
+
+
+  <Admin-PrintBill.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Admin-PrintBill.aspx>
+
+  <Admin-SurgeryPackage.aspx>
+    <CommonControls>InvestigationControl1.ascx</CommonControls>
+    <CommonControls>PackageProfileControl1.ascx</CommonControls>
+  </Admin-SurgeryPackage.aspx>
+  <Admin-TestGroup.aspx>
+    <CommonControls>PackageProfileControl1.ascx</CommonControls>
+    <CommonControls>ManageInvestigation.ascx</CommonControls>
+  </Admin-TestGroup.aspx>
+
+  <Admin-TestInvestigation.aspx>
+    <CommonControls>PackageProfileControl1.ascx</CommonControls>
+    <CommonControls>ManageInvestigation.ascx</CommonControls>
+  </Admin-TestInvestigation.aspx>
+
+  <Admin-UserMaster.aspx>
+    <CommonControls>LocationUserMap.ascx</CommonControls>
+  </Admin-UserMaster.aspx>
+
+  <Admin-ViewBill.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Admin-ViewBill.aspx>
+
+  <Admin-LabMaster.aspx>
+    <CommonControls>TestMaster.ascx</CommonControls>
+  </Admin-LabMaster.aspx>
+
+  <ANC-ANCCaseSheet.aspx>
+    <CommonControls>FeesEntry.ascx></CommonControls>
+  </ANC-ANCCaseSheet.aspx>
+
+  <ANC-ANCPatientDignose.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+  </ANC-ANCPatientDignose.aspx>
+
+  <ANC-BaseLineHistory.aspx>
+    <CommonControls>InvestigationControl.ascx	</CommonControls>
+  </ANC-BaseLineHistory.aspx>
+
+  <ANC-BaseLineHistoryFollowup.aspx>
+    <CommonControls>InvestigationControl.ascx></CommonControls>
+  </ANC-BaseLineHistoryFollowup.aspx>
+
+  <ANC-ViewCaseSheet.aspx>
+    <CommonControls>PatientSearch.ascx></CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </ANC-ViewCaseSheet.aspx>
+
+  <Anesthesia-Anesthesia.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>IpDrugEntry.ascx</CommonControls>
+  </Anesthesia-Anesthesia.aspx>
+
+  <Billing-AddBillItems.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+  </Billing-AddBillItems.aspx>
+
+  <Billing-Billing.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-Billing.aspx>
+
+  <Billing-BillSearch.aspx>
+    <CommonControls>BillSearch.ascx</CommonControls>
+  </Billing-BillSearch.aspx>
+
+  <Billing-CheckPayment.aspx>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Billing-CheckPayment.aspx>
+
+  <Billing-CollectDueAmount.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx></CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+  </Billing-CollectDueAmount.aspx>
+
+  <Billing-CollectDuePayment.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-CollectDuePayment.aspx>
+
+  <Billing-DepositRefund.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-DepositRefund.aspx>
+
+  <Billing-GenerateBill.aspx>
+    <CommonControls>DisplayAllDataTemp.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>QuickPatientReg.ascx</CommonControls>
+    <CommonControls>SurgeryAdvanceQuickBill.ascx</CommonControls>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+  </Billing-GenerateBill.aspx>
+
+  <Billing-HospitalBillSearch.aspx>
+    <CommonControls>HospitalBillSearch.ascx</CommonControls>
+  </Billing-HospitalBillSearch.aspx>
+  <Billing-InterimSearch.aspx>
+    <CommonControls>HospitalBillSearch.ascx></CommonControls>
+  </Billing-InterimSearch.aspx>
+  <Billing-InvestigationPayment.aspx>
+    <CommonControls>ReferralsINV.ascx</CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Billing-InvestigationPayment.aspx>
+
+  <Billing-LabQuickBill.aspx>
+    <CommonControls>DisplayAllDataTemp.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>QuickPatientRegForLab.ascx</CommonControls>
+    <CommonControls>SurgeryAdvanceQuickBill.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+  </Billing-LabQuickBill.aspx>
+
+  <Billing-LabQuickBilling.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-LabQuickBilling.aspx>
+
+
+
+  <Billing-PatientDueDetails.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>DateSelection.ascx</CommonControls>
+
+  </Billing-PatientDueDetails.aspx>
+
+
+  <Billing-ReceiptSearch.aspx>
+    <CommonControls>ReceiptSearch.ascx</CommonControls>
+  </Billing-ReceiptSearch.aspx>
+
+  <Billing-RefundReceiptSearch.aspx>
+    <CommonControls>
+      RefundReceiptSearch.ascx
+    </CommonControls>
+  </Billing-RefundReceiptSearch.aspx>
+
+
+  <Billing-ClientBilling.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-ClientBilling.aspx>
+
+  <Billing-ClinincalTrialRegistration.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-ClinincalTrialRegistration.aspx>
+
+
+  <Billing-ServiceQuotation.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Billing-ServiceQuotation.aspx>
+
+
+
+  <BloodBank-BloodCollection.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-BloodCollection.aspx>
+
+
+
+  <BloodBank-BloodDemand.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-BloodDemand.aspx>
+
+
+  <BloodBank-BloodIssue.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-BloodIssue.aspx>
+
+  <BloodBank-BloodRequestForm.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-BloodRequestForm.aspx>
+
+  <BloodBank-BloodSearchAndSeperation.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-BloodSearchAndSeperation.aspx>
+
+
+  <BloodBank-DonorScreening.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <BloodBank>InvestigationControl.ascx</BloodBank>
+  </BloodBank-DonorScreening.aspx>
+
+  <BloodBank-Home.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </BloodBank-Home.aspx>
+
+  <CaseSheet-CaseSheet.aspx>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </CaseSheet-CaseSheet.aspx>
+
+  <CaseSheet-ViewCaseSheet.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </CaseSheet-ViewCaseSheet.aspx>
+
+
+  <Corporate-Assistantphysician.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>DoctorSchedule.ascx</CommonControls>
+  </Corporate-Assistantphysician.aspx>
+
+
+  <Corporate-CorpInvBilling.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Corporate-CorpInvBilling.aspx>
+
+
+  <Corporate-CorpInvSearch.aspx>
+    <CommonControls>CorporatePatientSearch.ascx</CommonControls>
+  </Corporate-CorpInvSearch.aspx>
+
+  <Corporate-CorporateBilling.aspx>
+    <CommonControls>CorpRateConsultationDynamicDetails.ascx</CommonControls>
+    <CommonControls>CorpRateInvestigationControl.ascx</CommonControls>
+    <CommonControls>CorpoRateDisplayAllData.ascx</CommonControls>
+    <CommonControls>CorpoRateGeneralBillItems.ascx</CommonControls>
+    <CommonControls>CorpoRatePackageProfileControl.ascx</CommonControls>
+  </Corporate-CorporateBilling.aspx>
+
+  <Corporate-CorporatePatientSearch.aspx>
+    <CommonControls>CorporatePatientSearch.ascx</CommonControls>
+  </Corporate-CorporatePatientSearch.aspx>
+
+  <Corporate-CorporateQuickBilling.aspx>
+    <CommonControls>CorporateDisplayTempData.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+  </Corporate-CorporateQuickBilling.aspx>
+
+  <Dialysis-DialysisRecord.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+  </Dialysis-DialysisRecord.aspx>
+
+  <Dialysis-FirstDialysis.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+  </Dialysis-FirstDialysis.aspx>
+
+  <Dialysis-PendingPhysioSearch.aspx>
+    <CommonControls>DateSelection.ascx</CommonControls>
+  </Dialysis-PendingPhysioSearch.aspx>
+
+
+  <DischargeSummary-DischargeSummaryDynamic.aspx>
+    <DischargeSummary>Advice.ascx</DischargeSummary>
+    <CommonControls>PackageProfileControl.ascx</CommonControls>
+  </DischargeSummary-DischargeSummaryDynamic.aspx>
+
+
+  <InPatient-Advance.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-Advance.aspx>
+
+
+  <InPatient-AdvancePaidDetails.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-AdvancePaidDetails.aspx>
+
+
+  <InPatient-BillCollect.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-BillCollect.aspx>
+
+
+  <InPatient-DeathRegistration.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCodeBP.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    <CommonControls>CODICDCode.ascx</CommonControls>
+  </InPatient-DeathRegistration.aspx>
+
+
+  <InPatient-DeliveryNotes.aspx>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </InPatient-DeliveryNotes.aspx>
+
+
+
+  <InPatient-DueClearance.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx"</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-DueClearance.aspx>
+
+
+  <InPatient-EditIPFinalBill.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-EditIPFinalBill.aspx>
+
+  <InPatient-EditIPViewBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </InPatient-EditIPViewBill.aspx>
+  <Billing-InPatientBilling.aspx>
+   <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Billing-InPatientBilling.aspx>
+
+  <InPatient-InPatientBilling.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>ConsultantDynamic.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>SurgicalItems.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>GeneralBillItems.ascx</CommonControls>
+    <CommonControls>DisplayAllData.ascx</CommonControls>
+  </InPatient-InPatientBilling.aspx>
+
+  <InPatient-IPBillingHome.aspx>
+    <CommonControls>InPatientSearch.ascx</CommonControls>
+    </InPatient-IPBillingHome.aspx>
+
+
+  <InPatient-IPBillSettlement.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </InPatient-IPBillSettlement.aspx>
+
+
+  <InPatient-IPBillSettlementHome.aspx>
+    <CommonControls>InPatientSearch.ascx</CommonControls>
+  </InPatient-IPBillSettlementHome.aspx>
+
+
+  <InPatient-IPMergeBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </InPatient-IPMergeBill.aspx>
+
+
+  <InPatient-IPSummaryBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </InPatient-IPSummaryBill.aspx>
+
+  <InPatient-NeonatalNotes.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx"</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </InPatient-NeonatalNotes.aspx>
+
+  <InPatient-PatientConsolidateBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </InPatient-PatientConsolidateBill.aspx>
+
+  <InPatient-PatientICDSearch.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </InPatient-PatientICDSearch.aspx>
+
+  <InPatient-PhysioCaseSheet.aspx>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </InPatient-PhysioCaseSheet.aspx>
+
+  <InPatient-PhysiotherapyNotes.aspx>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </InPatient-PhysiotherapyNotes.aspx>
+
+  <InPatient-PopUpAttributePage.aspx>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+  </InPatient-PopUpAttributePage.aspx>
+
+  <InPatient-SurgeryAdvance.aspx>
+    <CommonControls>SurgeryAdvanceQuickBill.ascx</CommonControls>
+  </InPatient-SurgeryAdvance.aspx>
+
+  <InPatient-SurgeryBilling.aspx>
+    <CommonControls>SurgeryBilling.ascx</CommonControls>
+  </InPatient-SurgeryBilling.aspx>
+
+  <InPatient-TPAPayment.aspx>
+    <CommonControls>InPatientSearch.ascx</CommonControls>
+    <CommonControls>InsuranceSearch.ascx</CommonControls>
+  </InPatient-TPAPayment.aspx>
+
+
+  <Inventory-BillingPopUp.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>OrgHeader.ascx</CommonControls>
+    <CommonControls>PharmacyHeader.ascx</CommonControls>
+    <CommonControls>DueDetails.ascx></CommonControls>
+    <CommonControls>INVBillPrint.ascx</CommonControls>
+
+  </Inventory-BillingPopUp.aspx>
+
+  <TagInventory-BillSearch.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </TagInventory-BillSearch.aspx>
+
+  <Inventory-CollectAdvance.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-CollectAdvance.aspx>
+
+  <Inventory-ConsumableQuantity.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-ConsumableQuantity.aspx>
+
+  <Inventory-CreditInventoryDueClearance.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>DuePaymentType.ascx</CommonControls>
+  </Inventory-CreditInventoryDueClearance.aspx>
+
+
+  <Inventory-DueClearance.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-DueClearance.aspx>
+
+  <Inventory-InPatientSearch.aspx>
+    <CommonControls>InPatientSearch.ascx</CommonControls>
+  </Inventory-InPatientSearch.aspx>
+
+
+  <Inventory-Intend.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-Intend.aspx>
+
+
+  <Inventory-InventoryDueClearance.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>DuePaymentType.ascx</CommonControls>
+  </Inventory-InventoryDueClearance.aspx>
+
+  <Inventory-InventorySearch.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-InventorySearch.aspx>
+
+
+  <Inventory-InvIpBilling.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-InvIpBilling.aspx>
+
+  <Inventory-InvoiceMapping.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-InvoiceMapping.aspx>
+
+
+  <Inventory-InvOpBilling.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+  </Inventory-InvOpBilling.aspx>
+
+  <Inventory-IPPharmacyConsolidateBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </Inventory-IPPharmacyConsolidateBill.aspx>
+
+  <Inventory-IPPharmacyStockRefund.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>"
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-IPPharmacyStockRefund.aspx>
+
+
+  <Inventory-KitProductPrintSearch.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-KitProductPrintSearch.aspx>
+
+
+
+  <Inventory-PharmacyBill.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+  </Inventory-PharmacyBill.aspx>
+
+  <Inventory-ProjectionListViewDetail.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>"
+  </Inventory-ProjectionListViewDetail.aspx>
+
+  <Inventory-PurchaseOrderReport.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-PurchaseOrderReport.aspx>
+
+
+  <Inventory-PurchaseTaxReports.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-PurchaseTaxReports.aspx>
+
+  <Inventory-QuickBilling.aspx>
+    <CommonControls>INVAttributeUsage.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+  </Inventory-QuickBilling.aspx>
+
+  <Inventory-QuickStockReceived.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-QuickStockReceived.aspx>
+
+
+  <Inventory-ReceiptSearch.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </Inventory-ReceiptSearch.aspx>
+
+
+  <Inventory-ReceivedIndent.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-ReceivedIndent.aspx>
+
+
+  <Inventory-ReceiveStock.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-ReceiveStock.aspx>
+
+
+  <Inventory-RefundSearch.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </Inventory-RefundSearch.aspx>
+
+
+
+  <Inventory-ReturnStockByBatch.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-ReturnStockByBatch.aspx>
+
+
+  <Inventory-SalesReport.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-SalesReport.aspx>
+
+  <Inventory-SalesTaxReport.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-SalesTaxReport.aspx>
+
+
+  <Inventory-StockExpired.aspx>
+    <CommonControls>InvStockIssue.ascx</CommonControls>
+  </Inventory-StockExpired.aspx>
+
+  <Inventory-StockReceive.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-StockReceive.aspx>
+
+
+  <Inventory-StockReturn.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </Inventory-StockReturn.aspx>
+
+
+
+  <Inventory-StockReturnPayment.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </Inventory-StockReturnPayment.aspx>
+
+  <Inventory-UpdateStockReceived.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </Inventory-UpdateStockReceived.aspx>
+
+  <Inventory-ViewIntendDetail.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-ViewIntendDetail.aspx>
+
+
+  <Inventory-ViewIssuedIndentdetails.aspx>
+    <CommonControls>InventorySearch.ascx</CommonControls>
+  </Inventory-ViewIssuedIndentdetails.aspx>
+
+  <InventorySales-CustomerStockReturn.aspx>
+    <CommonControls>INVStockUsage.ascx</CommonControls>
+  </InventorySales-CustomerStockReturn.aspx>
+
+  <InventorySales-SalesOrderIssue.aspx>
+    <CommonControls>INVAttributes.ascx</CommonControls>
+  </InventorySales-SalesOrderIssue.aspx>
+
+
+  <Investigation-InvestigationApprovel.aspx>
+    <CommonControls>SampleCollection.ascx</CommonControls>
+    <CommonControls>MethodKitMapping.ascx</CommonControls>
+    <Investigation>ImageUploadpattern.ascx</Investigation>
+  </Investigation-InvestigationApprovel.aspx>
+
+  <Investigation-InvestigationProfile.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Investigation-InvestigationProfile.aspx>
+
+  <Investigation-InvestigationReport.aspx>
+    <CommonControls>DateSelection.ascx</CommonControls>
+  </Investigation-InvestigationReport.aspx>
+
+  <Investigation-InvestigationResultsCapture.aspx>
+    <CommonControls>SampleCollection.ascx</CommonControls>
+    <Investigation>ImageUploadpattern.ascx</Investigation>
+  </Investigation-InvestigationResultsCapture.aspx>
+
+
+  <Investigation-InvestigationStatusReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Investigation-InvestigationStatusReport.aspx>
+
+  <Investigation-MethodKitCapture.aspx>
+    <CommonControls>MethodKitMapping.ascx</CommonControls>
+  </Investigation-MethodKitCapture.aspx>
+
+
+  <Investigation-MethodKitPreview.aspx>
+    <CommonControls>MethodKitMapping.ascx</CommonControls>
+  </Investigation-MethodKitPreview.aspx>
+
+  <Investigation-PatternMappingForInvestigation.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+    <CommonControls>InvestigationSearchControl.ascx</CommonControls>
+  </Investigation-PatternMappingForInvestigation.aspx>
+
+
+  <Investigation-PrintLabWorkList.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Investigation-PrintLabWorkList.aspx>
+
+  <Investigation-PrintWorkListFromVisitToVisit.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Investigation-PrintWorkListFromVisitToVisit.aspx>
+
+  <Investigation-SequenceArrangement.aspx>
+    <CommonControls>SequenceArrangement.ascx</CommonControls>
+  </Investigation-SequenceArrangement.aspx>
+
+
+  <Investigation-PDFInvestigationReport.aspx>
+    <CommonControls>DateSelection.ascx</CommonControls>
+  </Investigation-PDFInvestigationReport.aspx>
+
+  <Invoice-InvoiceTracker.aspx>
+    <CommonControls>/DateSelection.ascx</CommonControls>
+  </Invoice-InvoiceTracker.aspx>
+
+  <Lab-InvestigationSampleCollection.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+  </Lab-InvestigationSampleCollection.aspx>
+
+  <Lab-IPInvSampleCollection.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Lab-IPInvSampleCollection.aspx>
+
+
+  <Lab-PatientSearch.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Lab-PatientSearch.aspx>
+
+
+  <Lab-PrintWorkOrderFromVisitToVisit.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Lab-PrintWorkOrderFromVisitToVisit.aspx>
+
+  <Nurse-NurseAdvice.aspx>
+    <CommonControls>IpDrugEntry.ascx</CommonControls>
+  </Nurse-NurseAdvice.aspx>
+
+  <Nurse-PatientSearch.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Nurse-PatientSearch.aspx>
+
+  <Patient-PatientEMRPackage.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Patient-PatientEMRPackage.aspx>
+
+
+  <Patient-PatientHistoryPackage.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+  </Patient-PatientHistoryPackage.aspx>
+
+
+
+  <Patient-PatientsCurrDateVist.aspx>
+    <CommonControls>TRFUpload.ascx</CommonControls>
+  </Patient-PatientsCurrDateVist.aspx>
+
+
+
+  <Patient-PendingRecommendation.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Patient-PendingRecommendation.aspx>
+
+  <Patient-PrintViewEMRPackages.aspx>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Patient-PrintViewEMRPackages.aspx>
+
+  <Patient-ProcedurePlanning.aspx>
+    <CommonControls>SurgeryforProcedurePlanning.ascx</CommonControls>
+  </Patient-ProcedurePlanning.aspx>
+
+
+  <Patient-ViewEMRPackages.aspx>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Patient-ViewEMRPackages.aspx>
+
+  <Patient-PatientdetailsUpload.aspx>
+    <CommonControls>PatientFileUploader.ascx</CommonControls>
+  </Patient-PatientdetailsUpload.aspx>
+
+  <Physician-AddDrugs.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+  </Physician-AddDrugs.aspx>
+
+  <Physician-diabetesEMR.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </Physician-diabetesEMR.aspx>
+
+
+  <Physician-DiadetesEMROPCaseSheet.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Physician-DiadetesEMROPCaseSheet.aspx>
+
+
+  <Physician-DischargeSummary.aspx>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    <CommonControls>NutritionAdvice.ascx</CommonControls>
+  </Physician-DischargeSummary.aspx>
+
+
+  <Physician-Home.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>DoctorSchedule.ascx</CommonControls>
+  </Physician-Home.aspx>
+
+
+  <Physician-IPCaseRecord.aspx>
+    <CommonControls>OrthoEMR.ascx</CommonControls>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>DoctorSchedule.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>Advice.ascx </CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCodeBP.ascx	</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+  </Physician-IPCaseRecord.aspx>
+
+  <Physician-IPInvestigationProfile.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Physician-IPInvestigationProfile.aspx>
+
+  <Physician-OperationNotes.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </Physician-OperationNotes.aspx>
+ 
+
+  <Physician-PatientDiagnose.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    </Physician-PatientDiagnose.aspx>
+
+
+  <Physician-PhysicianSchedule.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>DoctorSchedule.ascx</CommonControls>
+  </Physician-PhysicianSchedule.aspx>
+
+  <Physician-QuickDiagnosis.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </Physician-QuickDiagnosis.aspx>
+
+  <Physician-UnfoundDiagnosis.aspx>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>PatientVitals.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+  </Physician-UnfoundDiagnosis.aspx>
+
+
+  <Psychologist-Counselling.aspx>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+  </Psychologist-Counselling.aspx>
+
+
+
+  <Psychologist-Home.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Psychologist-Home.aspx>
+
+  <Psychologist-PrintViewCounsellingDetails.aspx>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Psychologist-PrintViewCounsellingDetails.aspx>
+
+  <Psychologist-Psychiatry.aspx>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>
+    <CommonControls>GeneralAdvice.ascx</CommonControls>
+    <CommonControls>Advice.ascx</CommonControls>
+    <CommonControls>InventoryAdvice.ascx</CommonControls>
+  </Psychologist-Psychiatry.aspx>
+
+  <Reception-Adddiagonosis.aspx>
+    <CommonControls>AddDiagonosis.ascx</CommonControls>
+  </Reception-Adddiagonosis.aspx>
+
+  <Reception-AdditionalInformation.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-AdditionalInformation.aspx>
+
+  <Reception-BillGeneration.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+  </Reception-BillGeneration.aspx>
+
+  <Reception-BillSearch.aspx>
+    <CommonControls>BillSearch.ascx</CommonControls>
+  </Reception-BillSearch.aspx>
+
+  <Reception-ChangePriority.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-ChangePriority.aspx>
+
+  <Reception-CollectDeposit.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Reception-CollectDeposit.aspx>
+
+  <Reception-CommunicablediseasesMaster.aspx>
+    <CommonControls>ComplaintICDCode.ascx</CommonControls>" TagName="ComplaintICDCode"
+  </Reception-CommunicablediseasesMaster.aspx>
+
+
+
+  <Reception-CompleteLabPatientRegistration.aspx>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+    <CommonControls>DepositUsage.ascx</CommonControls>
+    <CommonControls>DisplayAllDataTemp.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+
+  </Reception-CompleteLabPatientRegistration.aspx>
+
+
+  <Reception-DayCare.aspx>
+    <CommonControls>DaycarePatientSearch.ascx</CommonControls>
+  </Reception-DayCare.aspx>
+
+
+  <Reception-DueCollection.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-DueCollection.aspx>
+
+  <Reception-Episode.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+    <CommonControls>DoctorSchedule.ascx</CommonControls>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+  </Reception-Episode.aspx>
+
+
+  <Reception-InPatientRegistration.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+  </Reception-InPatientRegistration.aspx>
+
+  <Reception-InPatientSearch.aspx>
+    <CommonControls>InPatientSearch.ascx</CommonControls>
+  </Reception-InPatientSearch.aspx>
+
+
+  <Reception-InvestigationSearch.aspx>
+    <CommonControls>InvestigationSearchControl.ascx</CommonControls>
+    <CommonControls>InvestigationSearchControl.ascx</CommonControls>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-InvestigationSearch.aspx>
+
+
+  <Reception-LabPatientRegistration.aspx>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+  </Reception-LabPatientRegistration.aspx>
+
+  <Reception-LabPatientSearch.aspx>
+    <CommonControls>LabPatientSearch.ascx</CommonControls>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reception-LabPatientSearch.aspx>
+
+  <Reception-LabReceptionHome.aspx>
+    <CommonControls>ClientSchedule.ascx</CommonControls>
+  </Reception-LabReceptionHome.aspx>
+
+
+  <Reception-NMC_BillPrint.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-NMC_BillPrint.aspx>
+
+
+  <Reception-PatientBilling.aspx>
+    <CommonControls>ConsultationDynamicDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>DisplayAllData.ascx</CommonControls>
+    <CommonControls>GeneralBillItems.ascx</CommonControls>
+    <CommonControls>PackageProfileControl.ascx</CommonControls>
+  </Reception-PatientBilling.aspx>
+
+
+  <Reception-PatientRegistration.aspx>
+    <CommonControls>SmartCard.ascx</CommonControls>
+    <CommonControls>EmployerRegDetail.ascx</CommonControls>
+  </Reception-PatientRegistration.aspx>
+
+  <Reception-PatientSearch.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reception-PatientSearch.aspx>
+
+  <Reception-PrintBill.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-PrintBill.aspx>
+
+  <Reception-RefPhyPatientSearch.aspx>
+    <CommonControls>RefPhysicianPatSearch.ascx</CommonControls>
+  </Reception-RefPhyPatientSearch.aspx>
+
+  <Reception-RelativeSchedules.aspx>
+    <CommonControls>RelatedSchedulesControl.ascx</CommonControls>
+  </Reception-RelativeSchedules.aspx>
+
+  <Reception-ReportsDisplay.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reception-ReportsDisplay.aspx>
+
+  <Reception-SampleBillPrint.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+    <CommonControls>InvestigationSearchControl.ascx</CommonControls>
+    <CommonControls>InvestigationSearchControl.ascx</CommonControls>
+  </Reception-SampleBillPrint.aspx>
+
+
+  <Reception-ShowPatientRecommendation.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reception-ShowPatientRecommendation.aspx>
+
+  <Reception-ViewBill.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reception-ViewBill.aspx>
+
+  <Reception-ViewRecommendation.aspx>
+    <CommonControls>RelatedSchedulesControl.ascx</CommonControls>
+  </Reception-ViewRecommendation.aspx>
+
+
+  <Reception-VisitDetails.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reception-VisitDetails.aspx>
+
+  <Reception-ConsentForm.aspx>
+    <CommonControls>ConsultationDetails.ascx</CommonControls>
+    <CommonControls>InvestigationControl.ascx</CommonControls>
+    <CommonControls>MedicalIndents.ascx</CommonControls>
+    <CommonControls>DynamicDHEBAdder.ascx</CommonControls>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Reception-ConsentForm.aspx>
+
+  <Reception-ConsentFormPrint.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+    <CommonControls>FeesEntry.ascx</CommonControls>
+  </Reception-ConsentFormPrint.aspx>
+
+
+  <Reception-ResourceConsumption.aspx>
+    <CommonControls>SurgeryforProcedurePlanning.ascx</CommonControls>
+  </Reception-ResourceConsumption.aspx>
+
+
+  <Reminder-ReminderDisplay.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reminder-ReminderDisplay.aspx>
+
+  <Reports-CancelledBillReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-CancelledBillReport.aspx>
+
+
+  <Reports-CommunicableDiseaseReport.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reports-CommunicableDiseaseReport.aspx>
+
+  <Reports-GeneralReports.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-GeneralReports.aspx>
+
+  <Reports-ICDReports.aspx>
+    <CommonControls>ICDCodeReport.ascx</CommonControls>
+  </Reports-ICDReports.aspx>
+
+
+  <Reports-InsuranceCorpReport.aspx>
+    <CommonControls>InsuranceSearch.ascx</CommonControls>
+  </Reports-InsuranceCorpReport.aspx>
+
+  <Reports-IPBilledVsActualReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-IPBilledVsActualReport.aspx>
+
+
+  <Reports-OPCreditBillReport.aspx>
+    <CommonControls>DateSelection.ascx</CommonControls>
+  </Reports-OPCreditBillReport.aspx>
+
+
+  <Reports-PatientWiseDepositReport.aspx>
+    <CommonControls>SampleBillPrint.ascx</CommonControls>
+  </Reports-PatientWiseDepositReport.aspx>
+
+
+  <Reports-PhysicianwiseWardVisitReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-PhysicianwiseWardVisitReport.aspx>
+
+
+  <Reports-TPACORPDisallowedReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-TPACORPDisallowedReport.aspx>
+
+  <Reports-TPACORPOutstandingReport.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </Reports-TPACORPOutstandingReport.aspx>
+
+  <Reports-ViewReportList.aspx>
+    <CommonControls>PatientSearch.ascx</CommonControls>
+  </Reports-ViewReportList.aspx>
+
+  <SeniorLab-Home.aspx>
+    <CommonControls>ReminderDisplay.ascx</CommonControls>
+  </SeniorLab-Home.aspx>
+  <Admin-NutritionMaster.aspx>
+    <CommonControls>NutritionFoodCategory.ascx</CommonControls>
+    <CommonControls>NutritionFoodList.ascx</CommonControls>
+    <CommonControls>NutritionIngredients.ascx</CommonControls>
+  </Admin-NutritionMaster.aspx>
+
+  <Cashier-Home.aspx>
+		<CommonControls>Tasks.ascx</CommonControls>
+ </Cashier-Home.aspx>
+  
+  <Inventory-InvOpticalBilling.aspx>
+    <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Inventory-InvOpticalBilling.aspx>
+   <Reception-Collections.aspx>
+  <CommonControls>PaymentTypeDetails.ascx</CommonControls>
+  </Reception-Collections.aspx>
+  <Billing-VoucherSearch.aspx>
+    <CommonControls>VoucherSearch.ascx</CommonControls>
+  </Billing-VoucherSearch.aspx>
+  <Reception-Episode.aspx>
+    <CommonControls>IPClientTpaInsurance.ascx</CommonControls>
+  </Reception-Episode.aspx>
+</Root>

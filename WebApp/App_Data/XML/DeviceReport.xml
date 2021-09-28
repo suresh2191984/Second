@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<columns>
+  <column name="Months" value="Month"></column>
+  <column name="InvestigationID" value="Investigation ID"></column>
+  <column name="Name" value="Investigation Name"></column>
+  <column name="DeviceID" value="Device ID"></column>
+  <column name="Col_1" value="1"></column>
+  <column name="Col_2" value="2"></column>
+  <column name="Col_3" value="3"></column>
+  <column name="Col_4" value="4"></column>
+  <column name="Col_5" value="5"></column>
+  <column name="Col_6" value="6"></column>
+  <column name="Col_7" value="7"></column>
+  <column name="Col_8" value="8"></column>
+  <column name="Col_9" value="9"></column>
+  <column name="Col_10" value="10"></column>
+  <column name="Col_11" value="11"></column>
+  <column name="Col_12" value="12"></column>
+  <column name="Col_13" value="13"></column>
+  <column name="Col_14" value="14"></column>
+  <column name="Col_15" value="15"></column>
+  <column name="Col_16" value="16"></column>
+  <column name="Col_17" value="17"></column>
+  <column name="Col_18" value="18"></column>
+  <column name="Col_19" value="19"></column>
+  <column name="Col_20" value="20"></column>
+  <column name="Col_21" value="21"></column>
+  <column name="Col_22" value="22"></column>
+  <column name="Col_23" value="23"></column>
+  <column name="Col_24" value="24"></column>
+  <column name="Col_25" value="25"></column>
+  <column name="Col_26" value="26"></column>
+  <column name="Col_27" value="27"></column>
+  <column name="Col_28" value="28"></column>
+  <column name="Col_29" value="29"></column>
+  <column name="Col_30" value="30"></column>
+  <column name="Col_31" value="31"></column>
+  <column name="Total" value="Total"></column>
+</columns>

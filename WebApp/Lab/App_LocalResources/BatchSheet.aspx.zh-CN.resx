@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>样品名称</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>伯爵号</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>样品名称</value>
+  </data>
+  <data name="btnFinishResource1.Text" xml:space="preserve">
+    <value>显示BatchSheet</value>
+  </data>
+  <data name="btnFinishResource1.ToolTip" xml:space="preserve">
+    <value>点击此处查看批量表</value>
+  </data>
+  <data name="btnGenerateBatchSheetResource1.Text" xml:space="preserve">
+    <value>Generete BatchSheet</value>
+  </data>
+  <data name="btnGenerateBatchSheetResource1.ToolTip" xml:space="preserve">
+    <value>点击这里生成批处理表</value>
+  </data>
+  <data name="btnPrintResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="chkSelectAllResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelectAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grSampleDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grSampleDetailsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grSampleDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnXLResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnXLResource1.ToolTip" xml:space="preserve">
+    <value>另存为Excel</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>标本送文FORM</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>强制产生新批次和添加到现有批</value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBatchNoResource1.Text" xml:space="preserve">
+    <value>批号</value>
+  </data>
+  <data name="lblBatchNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBnohdrResource1.Text" xml:space="preserve">
+    <value>SampleBatch工作列表ID：</value>
+  </data>
+  <data name="lblBnohdrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbnoitemResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="lblbnoitemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientNameResource1.Text" xml:space="preserve">
+    <value>客户名称 ：</value>
+  </data>
+  <data name="lblClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIssuedDateResource1.Text" xml:space="preserve">
+    <value>约会时间：</value>
+  </data>
+  <data name="lblIssuedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblissusedbyResource1.Text" xml:space="preserve">
+    <value>打印方式：</value>
+  </data>
+  <data name="lblissusedbyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationprintResource1.Text" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="lblLocationprintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationResource1.Text" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="lblLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoRecordsResource1.Text" xml:space="preserve">
+    <value>没有符合条件的记录发现..！</value>
+  </data>
+  <data name="lblNoRecordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpickedbyResource1.Text" xml:space="preserve">
+    <value>快递费由：</value>
+  </data>
+  <data name="lblpickedbyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPickedDateResource1.Text" xml:space="preserve">
+    <value>约会时间：</value>
+  </data>
+  <data name="lblPickedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintedOnResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintedOnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceivedbyprintResource1.Text" xml:space="preserve">
+    <value>收到：</value>
+  </data>
+  <data name="lblReceivedbyprintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceivedDateResource1.Text" xml:space="preserve">
+    <value>约会时间：</value>
+  </data>
+  <data name="lblReceivedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value>打印批表</value>
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>生成新批</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>添加存在批</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>查看存在批</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="lnkExportXLResource1.Text" xml:space="preserve">
+    <value>&lt;U&gt;出口批次页&lt;/ U&gt;</value>
+  </data>
+  <data name="lnkExportXLResource1.ToolTip" xml:space="preserve">
+    <value>另存为Excel</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>批片</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlBatchModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FromResource1.Text" xml:space="preserve">
+    <value>从日期</value>
+  </data>
+  <data name="Rs_FromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FromVisitNoResource1.Text" xml:space="preserve">
+    <value>从没有访问</value>
+  </data>
+  <data name="Rs_FromVisitNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReceiveSampleList1Resource1.Text" xml:space="preserve">
+    <value>批量图纸列表</value>
+  </data>
+  <data name="Rs_ReceiveSampleList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReceiveSampleListResource1.Text" xml:space="preserve">
+    <value>批量图纸列表</value>
+  </data>
+  <data name="Rs_ReceiveSampleListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ToResource1.Text" xml:space="preserve">
+    <value>至今</value>
+  </data>
+  <data name="Rs_ToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ToVisitNoResource1.Text" xml:space="preserve">
+    <value>要访问无</value>
+  </data>
+  <data name="Rs_ToVisitNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBatchNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBatchNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtClientNameResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="TxtClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromVisitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromVisitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIssedDateResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtIssedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtissusedbyResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtissusedbyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtLocationResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="TxtLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpickedbyResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtpickedbyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPickedDateResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtPickedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceivedbyprintResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtReceivedbyprintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceivedDateResource1.Text" xml:space="preserve">
+    <value>_______________</value>
+  </data>
+  <data name="txtReceivedDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToVisitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToVisitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

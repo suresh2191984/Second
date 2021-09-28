@@ -1,0 +1,1194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddResource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="chkAC_369Resource1.Text" xml:space="preserve">
+    <value>Konsumsi Alkohol</value>
+  </data>
+  <data name="chkAerobicResource1.Text" xml:space="preserve">
+    <value>Aerobik</value>
+  </data>
+  <data name="chkAnaerobicResource1.Text" xml:space="preserve">
+    <value>Anaerobik</value>
+  </data>
+  <data name="chkAsthma_246Resource1.Text" xml:space="preserve">
+    <value>Asthma</value>
+  </data>
+  <data name="chkCancer_372Resource1.Text" xml:space="preserve">
+    <value>Kanker</value>
+  </data>
+  <data name="chkDiabetesMellitus_389Resource1.Text" xml:space="preserve">
+    <value>Diabetes Mellitus</value>
+  </data>
+  <data name="chkDrugs_1061Resource1.Text" xml:space="preserve">
+    <value>Alergi Obat</value>
+  </data>
+  <data name="chkDrugsHistory_1063Resource1.Text" xml:space="preserve">
+    <value>Riwayat Obat</value>
+  </data>
+  <data name="chkExacerbations_18Resource1.Text" xml:space="preserve">
+    <value>Exacerbations</value>
+  </data>
+  <data name="chkFood_1062Resource1.Text" xml:space="preserve">
+    <value>Alergi Makanan</value>
+  </data>
+  <data name="chkGynacHis_1065Resource1.Text" xml:space="preserve">
+    <value>Riwayat Gynaecological</value>
+  </data>
+  <data name="chkHeartDisease_332Resource1.Text" xml:space="preserve">
+    <value>Penyakit Jantung</value>
+  </data>
+  <data name="chkHepatitisBcarrier_537Resource1.Text" xml:space="preserve">
+    <value>Hepatitis B Bawaan</value>
+  </data>
+  <data name="chkHighBloodPressure_402Resource1.Text" xml:space="preserve">
+    <value>Systemic Hypertension</value>
+  </data>
+  <data name="chkHRT_1066Resource1.Text" xml:space="preserve">
+    <value>Hormone Replacement Theraphy</value>
+  </data>
+  <data name="chkOthers_9Resource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="chkPA_1059Resource1.Text" xml:space="preserve">
+    <value>Kegiatan Fisik</value>
+  </data>
+  <data name="chkRaisedCholestrol_409Resource1.Text" xml:space="preserve">
+    <value>Dyslipidemia</value>
+  </data>
+  <data name="chkStroke_438Resource1.Text" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="chkSurgicalHistory_0Resource1.Text" xml:space="preserve">
+    <value>Riwayat Operasi</value>
+  </data>
+  <data name="chkThalassemiaTrait_536Resource1.Text" xml:space="preserve">
+    <value>Thalassemia Trait</value>
+  </data>
+  <data name="chkTS_476Resource1.Text" xml:space="preserve">
+    <value>Perokok</value>
+  </data>
+  <data name="chkVaccHis_1064Resource1.Text" xml:space="preserve">
+    <value>Riwayat Vaksinasi</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>RIWAYAT MEDIS</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>RIWAYAT ALERGI</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>RIWAYAT SOSIAL</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>RIWAYAT GYNAECOLOGICAL</value>
+  </data>
+  <data name="lblAgeofMenarchyResource1.Text" xml:space="preserve">
+    <value>Usia Menstruasi</value>
+  </data>
+  <data name="lblAgeofMenarchyYearsResource1.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="lblContraceptionResource1.Text" xml:space="preserve">
+    <value>Kontrasepsi</value>
+  </data>
+  <data name="lblCyclelengthDaysResource1.Text" xml:space="preserve">
+    <value>Hari</value>
+  </data>
+  <data name="lblCycleLengthResource1.Text" xml:space="preserve">
+    <value>Cycle Length(approx)</value>
+  </data>
+  <data name="lblDate_23Resource1.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="lblDate_8Resource1.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="lblDisease_4Resource1.Text" xml:space="preserve">
+    <value>Penyakit  </value>
+  </data>
+  <data name="lblDiseaseType_3Resource1.Text" xml:space="preserve">
+    <value>Jenis Penyakit</value>
+  </data>
+  <data name="lblDosesResource1.Text" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="lblDuration_12Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDuration_16Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDuration_1Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDuration_20Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDuration_5Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDurationAC_5Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblDurationTS_2Resource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="LblHospital_24Resource1.Text" xml:space="preserve">
+    <value>Rumah Sakit</value>
+  </data>
+  <data name="lblHRTDeliveryResource1.Text" xml:space="preserve">
+    <value>HRT Delivery</value>
+  </data>
+  <data name="lblLastMamogramResource1.Text" xml:space="preserve">
+    <value>Last Mammogram</value>
+  </data>
+  <data name="lblLastMamogramResultResource1.Text" xml:space="preserve">
+    <value>Hasil</value>
+  </data>
+  <data name="lblLastPapSmearResource1.Text" xml:space="preserve">
+    <value>Pap Smear Terdahulu</value>
+  </data>
+  <data name="lblLMPDateResource1.Text" xml:space="preserve">
+    <value>Tanggal LMP</value>
+  </data>
+  <data name="lblLobeaffected_11Resource1.Text" xml:space="preserve">
+    <value>Area/Lobe affected</value>
+  </data>
+  <data name="lblMenstrualCycleResource1.Text" xml:space="preserve">
+    <value>Siklus Menstruasi</value>
+  </data>
+  <data name="lblMlLtrResource1.Text" xml:space="preserve">
+    <value>ml/Hari</value>
+  </data>
+  <data name="lblMonthResource1.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="lblPacksTSResource1.Text" xml:space="preserve">
+    <value>Sticks/Hari</value>
+  </data>
+  <data name="lblPhysicialExerciseDurationResource1.Text" xml:space="preserve">
+    <value>Durasi</value>
+  </data>
+  <data name="lblPhysicialExerciseResource1.Text" xml:space="preserve">
+    <value>Latihan Fisik</value>
+  </data>
+  <data name="lblQtyAC_6Resource1.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="lblQtyTS_3Resource1.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="lblReactionResource1.Text" xml:space="preserve">
+    <value>Reaksi</value>
+  </data>
+  <data name="lblRecovery_9Resource1.Text" xml:space="preserve">
+    <value>Sembuh</value>
+  </data>
+  <data name="lblResultResource1.Text" xml:space="preserve">
+    <value>Hasil</value>
+  </data>
+  <data name="lblStageofcancer_14Resource1.Text" xml:space="preserve">
+    <value>Tingkat Kanker</value>
+  </data>
+  <data name="lblSurgeryName_22Resource1.Text" xml:space="preserve">
+    <value>Nama Operasi</value>
+  </data>
+  <data name="lblTimesper_18Resource1.Text" xml:space="preserve">
+    <value>Waktu Per</value>
+  </data>
+  <data name="lblTrait_19Resource1.Text" xml:space="preserve">
+    <value>Ciri</value>
+  </data>
+  <data name="lblTreatment_15Resource1.Text" xml:space="preserve">
+    <value>Perawatan</value>
+  </data>
+  <data name="lblTreatment_17Resource1.Text" xml:space="preserve">
+    <value>Perawatan</value>
+  </data>
+  <data name="lblTreatment_21Resource1.Text" xml:space="preserve">
+    <value>Perawatan</value>
+  </data>
+  <data name="lblTreatment_2Resource1.Text" xml:space="preserve">
+    <value>Perawatan</value>
+  </data>
+  <data name="lblTreatment_7Resource1.Text" xml:space="preserve">
+    <value>Perawatan</value>
+  </data>
+  <data name="lblType_6Resource1.Text" xml:space="preserve">
+    <value>Jenis  </value>
+  </data>
+  <data name="lblTypeAC_4Resource1.Text" xml:space="preserve">
+    <value>Jenis  </value>
+  </data>
+  <data name="lblTypeDrugsResource1.Text" xml:space="preserve">
+    <value>Jenis  </value>
+  </data>
+  <data name="lblTypeFoodResource1.Text" xml:space="preserve">
+    <value>Jenis  </value>
+  </data>
+  <data name="lblTypeofcancer_13Resource1.Text" xml:space="preserve">
+    <value>Jenis Kanker</value>
+  </data>
+  <data name="lblTypeOfCVA_10Resource1.Text" xml:space="preserve">
+    <value>Jenis CVA</value>
+  </data>
+  <data name="lblTypeofHRTResource1.Text" xml:space="preserve">
+    <value>Jenis HRT</value>
+  </data>
+  <data name="lblTypeTS_1Resource1.Text" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="lblVaccResource1.Text" xml:space="preserve">
+    <value>Vaksinasi</value>
+  </data>
+  <data name="lblYearResource1.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>hari</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Minggu</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>OPV</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>MMR</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Hepatitis B</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Hepatitis A</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>---Pilih---</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>Januari</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>Pebrauari</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>Maret</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>Mei</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>Juni</value>
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>Juli</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>Agustus</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>Oktober</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>Nopember</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Minggu</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Desember</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Hari</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Minggu </value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Jam</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="MaskedEditValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator1</value>
+  </data>
+  <data name="MaskedEditValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator2</value>
+  </data>
+  <data name="MaskedEditValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator3</value>
+  </data>
+  <data name="MaskedEditValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator4</value>
+  </data>
+  <data name="btnAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAC_369Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAerobicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAnaerobicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAsthma_246Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCancer_372Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDiabetesMellitus_389Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDrugs_1061Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDrugsHistory_1063Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkExacerbations_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkFood_1062Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkGynacHis_1065Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHeartDisease_332Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHepatitisBcarrier_537Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHighBloodPressure_402Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHRT_1066Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkOthers_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPA_1059Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRaisedCholestrol_409Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkStroke_438Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSurgicalHistory_0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkThalassemiaTrait_536Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTreatment_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTS_476Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVaccHis_1064Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAnaphylacticReactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlContraception_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddldaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDiseaseType_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDrugs_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlduration_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDuration_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDuration_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDuration_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDurationACResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDurationt_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDurationTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlExacerbations_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFoodType_37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlHrsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlHRTDelivery_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLastPapSmearResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMenstrualCycleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPhysicialActivity_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlRecovery_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStageofcancer_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTrait_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTratment_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTreatment_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTreatment_7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlType_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeofcancer_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeOfCVA_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeofHRT_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypesAC_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTypeTS_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpVaccinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton2Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton3Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeofMenarchyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeofMenarchyYearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContraceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCyclelengthDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDate_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDate_8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisease_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiseaseType_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDosesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDuration_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDuration_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDuration_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDuration_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDuration_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDurationAC_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDurationTS_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblHospital_24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHRTDeliveryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastMamogramResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastMamogramResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastPapSmearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLMPDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLobeaffected_11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenstrualCycleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMlLtrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPacksTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhysicialExerciseDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhysicialExerciseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQtyAC_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQtyTS_3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecovery_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStageofcancer_14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSurgeryName_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimesper_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTrait_19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatment_15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatment_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatment_21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatment_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTreatment_7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType_6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeAC_4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeDrugsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeFoodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeofcancer_13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeOfCVA_10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeofHRTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeTS_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVaccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tLMP_38Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tLMP_38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAerobic_22Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAerobic_22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAgeofMenarchy_47Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAgeofMenarchy_47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnaerobic_23Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAnaerobic_23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContraceptionOthers_50Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContraceptionOthers_50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleLength_45Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleLength_45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDate_30Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDate_30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDisease_17Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDisease_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDosesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDosesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtduration_12Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtduration_12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_16Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_20Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDuration_5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDurationACResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDurationACResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDurationTSResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDurationTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHospitalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHospitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastMammogramResult_56Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastMammogramResult_56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastMammogramResultDt_55Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastMammogramResultDt_55Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastPapSmearDt_46Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLastPapSmearDt_46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLobeaffected_36Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLobeaffected_36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNosResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_16Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_68Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_68Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_72Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_72Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_73Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtothers_73Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthers_9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthers_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersHRTDelivery_66Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersHRTDelivery_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeAC_17Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeAC_17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeDrugs_34Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeDrugs_34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeFood_37Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeFood_37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeofHRT_59Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeofHRT_59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeTSResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersTypeTSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPacksTS_9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPacksTS_9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQtyACResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQtyACResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsurgeryNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsurgeryNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTimes_18Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTimes_18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTreatment_66Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTreatment_66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtYearResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

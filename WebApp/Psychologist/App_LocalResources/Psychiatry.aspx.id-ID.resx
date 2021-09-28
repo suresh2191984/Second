@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bblResource1.Text" xml:space="preserve">
+    <value>Sensorium &amp; Cognition</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Tanggal Kunjungan</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Jenis Koneling</value>
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnhiddenResource1.Text" xml:space="preserve">
+    <value>btnhidden</value>
+  </data>
+  <data name="btnsaveResource1.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="chkHistoryResource1.Text" xml:space="preserve">
+    <value>Centang Jika Rahasia</value>
+  </data>
+  <data name="cPDResource1.Text" xml:space="preserve">
+    <value>Is Provisional Diagnosis?</value>
+  </data>
+  <data name="grdViewResource1.EmptyDataText" xml:space="preserve">
+    <value>Tidak Ditemukan Rekaman</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Gejala / Riwayat</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Gejala / Riwayat</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Tampilkan Riwayat Sebelumnya</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Sembunyikan Riwayat Sebelumnya</value>
+  </data>
+  <data name="lblAbstractnessResource1.Text" xml:space="preserve">
+    <value>Abstractness/Intelligence</value>
+  </data>
+  <data name="lblAttitudeResource1.Text" xml:space="preserve">
+    <value>Atribut</value>
+  </data>
+  <data name="lblAttitudeTResource1.Text" xml:space="preserve">
+    <value>Attitude Towards Examiner:</value>
+  </data>
+  <data name="lblConsciousnessResource1.Text" xml:space="preserve">
+    <value>Level of Consciousness</value>
+  </data>
+  <data name="lblCoOrdinationResource1.Text" xml:space="preserve">
+    <value>Co-Ordination</value>
+  </data>
+  <data name="lblCounselTypeResource1.Text" xml:space="preserve">
+    <value>Pilih Jenis Konseling</value>
+  </data>
+  <data name="lblEthnicityResource1.Text" xml:space="preserve">
+    <value>Ethnicity</value>
+  </data>
+  <data name="lblHallucinationsResource1.Text" xml:space="preserve">
+    <value>Hallucinations</value>
+  </data>
+  <data name="lblIllusionsResource1.Text" xml:space="preserve">
+    <value>Illusions</value>
+  </data>
+  <data name="lblMemoryResource1.Text" xml:space="preserve">
+    <value>Memori</value>
+  </data>
+  <data name="lblObessionsResource1.Text" xml:space="preserve">
+    <value>Obessions/Compultions</value>
+  </data>
+  <data name="lblOrientationResource1.Text" xml:space="preserve">
+    <value>Orientasi</value>
+  </data>
+  <data name="lblPhobiasResource1.Text" xml:space="preserve">
+    <value>Phobias</value>
+  </data>
+  <data name="lblPostureResource1.Text" xml:space="preserve">
+    <value>Posture</value>
+  </data>
+  <data name="lblQualityResource1.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="lblRaceResource1.Text" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="lblRateResource1.Text" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="lblSuicidalResource1.Text" xml:space="preserve">
+    <value>Suicidal/Homicidal ideation</value>
+  </data>
+  <data name="lblVolumeResource1.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Rs_Diagnosis1Resource1.Text" xml:space="preserve">
+    <value>Diagnosa</value>
+  </data>
+  <data name="Rs_DiagnosisResource1.Text" xml:space="preserve">
+    <value>Diagnosa</value>
+  </data>
+  <data name="bblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnhiddenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnsaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkreviewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cPDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCouselTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdViewResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Img1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Img1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbstractnessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttitudeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttitudeTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConsciousnessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCoOrdinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCounselTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEthnicityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHallucinationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIllusionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMemoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblObessionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrientationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhobiasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQualityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuicidalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisitIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVolumeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkNextResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkPrevResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkPrevResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel10Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel11Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel12Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel4Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel5Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel6Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel7Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel8Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel9Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlfckeditorResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlfckeditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRecResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRecResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrevPnlResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrevPnlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Diagnosis1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcEMRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpExaminationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpReviewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbstractnessResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbstractnessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAttitudeEResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAttitudeEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAttitudeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAttitudeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConsciousnessResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConsciousnessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCoOrdinationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCoOrdinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEthnicityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEthnicityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHallucinationsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHallucinationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIllusionsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIllusionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImpulsivityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImpulsivityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJudgementResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJudgementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMemoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMemoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObessionsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtObessionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOrientationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOrientationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhobiasResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhobiasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPostureResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPostureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQualityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQualityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReliabilityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReliabilityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSensoriumResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSensoriumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSuicidalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSuicidalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVolumeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVolumeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

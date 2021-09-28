@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportsTATReport_aspx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="ReportsTATReport_aspx_02" xml:space="preserve">
+    <value>--Todos--</value>
+  </data>
+  <data name="ReportsTATReport_aspx_03" xml:space="preserve">
+    <value>no hay coincidencia de registro encontrado!</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_01" xml:space="preserve">
+    <value>el monto total por adelantado recibido durante el período</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_02" xml:space="preserve">
+    <value>cantidad adicional recibida durante este periodo</value>
+  </data>
+  <data name="Reports_CollectionRptDptWiseOPIP_aspx_03" xml:space="preserve">
+    <value>Click Here To view details</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_01" xml:space="preserve">
+    <value>-----All-----</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_02" xml:space="preserve">
+    <value>cantidad total pendiente:</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_03" xml:space="preserve">
+    <value>total pagado por la página:</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_04" xml:space="preserve">
+    <value>el monto total pagado:</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_05" xml:space="preserve">
+    <value>diferentes monedas</value>
+  </data>
+  <data name="Reports_EpisodeReport_aspx_01" xml:space="preserve">
+    <value>regresar</value>
+  </data>
+  <data name="Reports_EpisodeReport_aspx_02" xml:space="preserve">
+    <value>-----ALL-----</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_001" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_002" xml:space="preserve">
+    <value>departamento</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_003" xml:space="preserve">
+    <value>exportar a xl</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_004" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="Reports_InvestigationStockUsage_aspx_005" xml:space="preserve">
+    <value>informe de acciones emitidas</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_01" xml:space="preserve">
+    <value>nombre de prueba</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_02" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_03" xml:space="preserve">
+    <value>conteos</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_04" xml:space="preserve">
+    <value>0.5 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_05" xml:space="preserve">
+    <value>1 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_06" xml:space="preserve">
+    <value>1.5 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_07" xml:space="preserve">
+    <value>2 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_08" xml:space="preserve">
+    <value>2.5 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_09" xml:space="preserve">
+    <value>3 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_10" xml:space="preserve">
+    <value>3.5 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_11" xml:space="preserve">
+    <value>4 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_12" xml:space="preserve">
+    <value>6 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_13" xml:space="preserve">
+    <value>8 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_14" xml:space="preserve">
+    <value>10 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_15" xml:space="preserve">
+    <value>12 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_16" xml:space="preserve">
+    <value>16 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_17" xml:space="preserve">
+    <value>20 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_18" xml:space="preserve">
+    <value>24 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_19" xml:space="preserve">
+    <value>32 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_20" xml:space="preserve">
+    <value>40 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_21" xml:space="preserve">
+    <value>48 Hr</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_22" xml:space="preserve">
+    <value>3 Day</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_23" xml:space="preserve">
+    <value>4 Day</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_24" xml:space="preserve">
+    <value>5 Day</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_25" xml:space="preserve">
+    <value>&gt;5 Day</value>
+  </data>
+  <data name="Reports_TATAnalysisReport_aspx_26" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_02" xml:space="preserve">
+    <value>cliente</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_03" xml:space="preserve">
+    <value>prueba / perfil</value>
+  </data>
+  <data name="Reports_CCStmt_aspx_01" xml:space="preserve">
+    <value>(A)</value>
+  </data>
+  <data name="Reports_CCStmt_aspx_02" xml:space="preserve">
+    <value>(B)</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_01" xml:space="preserve">
+    <value>no hay coincidencia de registro encontrado</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Reports_TPACORPDisallowedReport_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Reports_TPACORPDisallowedReport_aspx" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_04" xml:space="preserve">
+    <value>regresar</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_05" xml:space="preserve">
+    <value>Informe de prueba cancelada</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_06" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_02" xml:space="preserve">
+    <value>--Todos--</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_03" xml:space="preserve">
+    <value>Nº total de pacientes :</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_04" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_05" xml:space="preserve">
+    <value>Total recibido :</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_06" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="Reports_CollectionReportLIMS_aspx_07" xml:space="preserve">
+    <value>(-)Cancelar</value>
+  </data>
+  <data name="Reports_TATReport_aspx_04" xml:space="preserve">
+    <value>TATReport_</value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_001" xml:space="preserve">
+    <value>TestWiseStatisticsReport</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_001" xml:space="preserve">
+    <value>Total Expenses :</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_002" xml:space="preserve">
+    <value>desde:</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_003" xml:space="preserve">
+    <value>a:</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_004" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_005" xml:space="preserve">
+    <value>Voucher No</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_006" xml:space="preserve">
+    <value>nombre del receptor</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_007" xml:space="preserve">
+    <value>pagado por</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_008" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_009" xml:space="preserve">
+    <value>típo de pago</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_010" xml:space="preserve">
+    <value>observaciones</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_011" xml:space="preserve">
+    <value>ExpenseType</value>
+  </data>
+  <data name="Reports_ExpensesReport_aspx_012" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="Reports_TestWiseReportForLIMS_aspx_002" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_06" xml:space="preserve">
+    <value>número de factura a pagar</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_07" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_08" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_09" xml:space="preserve">
+    <value>total de la factura</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_10" xml:space="preserve">
+    <value>monto de pago</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_11" xml:space="preserve">
+    <value>PaidBillNo</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_12" xml:space="preserve">
+    <value>fecha de pago</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_13" xml:space="preserve">
+    <value>DueCollectedBy</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_14" xml:space="preserve">
+    <value>recibido por</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_15" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_16" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="Reports_DuePaidDetailSReport_aspx_17" xml:space="preserve">
+    <value>fecha de factura de adeudo</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_02" xml:space="preserve">
+    <value>Ubicación del proceso</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_03" xml:space="preserve">
+    <value>Código de prueba</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_04" xml:space="preserve">
+    <value>Nombre de prueba</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_05" xml:space="preserve">
+    <value>Enero</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_06" xml:space="preserve">
+    <value>Febrero</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_07" xml:space="preserve">
+    <value>Marzo</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_08" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_09" xml:space="preserve">
+    <value>Mayo</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_10" xml:space="preserve">
+    <value>Junio</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_11" xml:space="preserve">
+    <value>Julio</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_12" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_13" xml:space="preserve">
+    <value>Septiembre</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_14" xml:space="preserve">
+    <value>Octubre</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_15" xml:space="preserve">
+    <value>Noviembre</value>
+  </data>
+  <data name="Reports_TestStatisticsReport_aspx_16" xml:space="preserve">
+    <value>Diciembre</value>
+  </data>
+  <data name="Reports_DispatchReportLIMS_aspx_01" xml:space="preserve">
+    <value>--seleccionar--</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_07" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Reports_CancelledBillReport_aspx_08" xml:space="preserve">
+    <value>Se ha enviado correctamente el correo electrónico</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_01" xml:space="preserve">
+    <value>Nombre del cliente</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_02" xml:space="preserve">
+    <value>Registrado en</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_03" xml:space="preserve">
+    <value>Nombre del paciente</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_04" xml:space="preserve">
+    <value>Número de laboratorio</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_05" xml:space="preserve">
+    <value>Nombre de grupo</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_06" xml:space="preserve">
+    <value>Nombre de investigación</value>
+  </data>
+  <data name="InvestigationValuesReport_aspx_07" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+</root>

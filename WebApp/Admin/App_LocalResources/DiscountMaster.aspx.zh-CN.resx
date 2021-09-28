@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>折扣名称</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>超值优惠</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>税号</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>税法</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>税名</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>税收比例（％）</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>CouponID</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>码</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>CouponDetailsID</value>
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>CouponID</value>
+  </data>
+  <data name="BoundFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>起始序列号</value>
+  </data>
+  <data name="BoundFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>终止序列号</value>
+  </data>
+  <data name="BoundFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>批号</value>
+  </data>
+  <data name="BoundFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>有序单位</value>
+  </data>
+  <data name="BoundFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>优惠券价值</value>
+  </data>
+  <data name="BoundFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="BoundFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>消耗单位</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>优惠券</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>参考类型</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>DiscountID</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>优惠码</value>
+  </data>
+  <data name="btnClearCouponDetailsResource1.Text" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="btnClearCouponDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearCouponMasterResource1.Text" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="btnClearCouponMasterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource2.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnClearResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDeleteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteTaxResource2.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDeleteTaxResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnResetResource2.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnResetResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveCouponDetailsResource1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSaveCouponDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveCouponMasterResource1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSaveCouponMasterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource2.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSaveResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveTaxResource2.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSaveTaxResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveTODResource1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnSaveTODResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkActiveResource1.Text" xml:space="preserve">
+    <value>IsActive</value>
+  </data>
+  <data name="chkActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkStatusResource1.Text" xml:space="preserve">
+    <value>活性</value>
+  </data>
+  <data name="chkStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCouponResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFeeTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpDisTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpRefTypeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpTODTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrdTaxmasterResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrdTaxmasterResource2.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrdTaxmasterResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponDetailsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponMasterResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponMasterResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvwCouponMasterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasedOnResource2.Text" xml:space="preserve">
+    <value>基于</value>
+  </data>
+  <data name="lblBasedOnResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBatchNoResource1.Text" xml:space="preserve">
+    <value>批号</value>
+  </data>
+  <data name="lblBatchNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCodeResource1.Text" xml:space="preserve">
+    <value>码</value>
+  </data>
+  <data name="lblCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponCodeResource1.Text" xml:space="preserve">
+    <value>码</value>
+  </data>
+  <data name="lblCouponCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponDetailsHeaderResource1.Text" xml:space="preserve">
+    <value>详细优惠券</value>
+  </data>
+  <data name="lblCouponDetailsHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponMasterHeaderResource1.Text" xml:space="preserve">
+    <value>优惠券主</value>
+  </data>
+  <data name="lblCouponMasterHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponNameResource1.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="lblCouponNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponResource1.Text" xml:space="preserve">
+    <value>选择优惠券</value>
+  </data>
+  <data name="lblCouponResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCouponValueResource1.Text" xml:space="preserve">
+    <value>优惠券价值</value>
+  </data>
+  <data name="lblCouponValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreatePolicyResource3.Text" xml:space="preserve">
+    <value>管理贴息政策</value>
+  </data>
+  <data name="lblCreatePolicyResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldiscountcodeResource1.Text" xml:space="preserve">
+    <value>优惠码</value>
+  </data>
+  <data name="lbldiscountcodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountResource1.Text" xml:space="preserve">
+    <value>值（％）</value>
+  </data>
+  <data name="lblDiscountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndSerialNoResource1.Text" xml:space="preserve">
+    <value>终止序列号</value>
+  </data>
+  <data name="lblEndSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpiryDateResource1.Text" xml:space="preserve">
+    <value>到期日</value>
+  </data>
+  <data name="lblExpiryDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFeeTypeResource1.Text" xml:space="preserve">
+    <value>费用类型</value>
+  </data>
+  <data name="lblFeeTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblinvfilterResource1.Text" xml:space="preserve">
+    <value>进入优惠券详情</value>
+  </data>
+  <data name="lblinvfilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvResource1.Text" xml:space="preserve">
+    <value>调查名称</value>
+  </data>
+  <data name="lblInvResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLowerRangeResource2.Text" xml:space="preserve">
+    <value>LowerRange</value>
+  </data>
+  <data name="lblLowerRangeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrderedUnitsResource1.Text" xml:space="preserve">
+    <value>有序单位</value>
+  </data>
+  <data name="lblOrderedUnitsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpercenResource1.Text" xml:space="preserve">
+    <value>％</value>
+  </data>
+  <data name="lblpercenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPolicyCodeResource1.Text" xml:space="preserve">
+    <value>折扣政策法规</value>
+  </data>
+  <data name="lblPolicyCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpTaxIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferenceTypeResource2.Text" xml:space="preserve">
+    <value>参考类型</value>
+  </data>
+  <data name="lblReferenceTypeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultStatusResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultStatusResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartSerialNoResource1.Text" xml:space="preserve">
+    <value>起始序列号</value>
+  </data>
+  <data name="lblStartSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbltaxcodeResource1.Text" xml:space="preserve">
+    <value>税法</value>
+  </data>
+  <data name="lbltaxcodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestCategoryResource1.Text" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="lblTestCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTODPercentResource3.Text" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="lblTODPercentResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpperRangeResource2.Text" xml:space="preserve">
+    <value>范围上限</value>
+  </data>
+  <data name="lblUpperRangeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>法师优惠</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRCDResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRCDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTaxResource2.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTaxResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTODResource2.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTODResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DiscountNameResource2.Text" xml:space="preserve">
+    <value>折扣名称</value>
+  </data>
+  <data name="Rs_DiscountNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DiscountPercentageResource2.Text" xml:space="preserve">
+    <value>折扣百分比</value>
+  </data>
+  <data name="Rs_DiscountPercentageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DiscountValueResource2.Text" xml:space="preserve">
+    <value>超值优惠</value>
+  </data>
+  <data name="Rs_DiscountValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TaxNameResource2.Text" xml:space="preserve">
+    <value>税名</value>
+  </data>
+  <data name="Rs_TaxNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TaxPercentageResource2.Text" xml:space="preserve">
+    <value>税收百分比</value>
+  </data>
+  <data name="Rs_TaxPercentageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="thActionResource3.Text" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="thActionResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="thCategoryResource3.Text" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="thCategoryResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="thFeeTypeResource3.Text" xml:space="preserve">
+    <value>费用类型</value>
+  </data>
+  <data name="thFeeTypeResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="thlblValueResource3.Text" xml:space="preserve">
+    <value>值（％）</value>
+  </data>
+  <data name="thlblValueResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="thValueTypeResource3.Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="thValueTypeResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TODCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TODCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBatchNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBatchNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCouponValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountPercentageResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountPercentageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountPolicyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountPolicyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDiscountValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDisValueResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDisValueResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndSerialNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpiryDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpiryDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtInvResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtInvResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOrderedUnitsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOrderedUnitsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPercentageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPercentageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPercentResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPercentResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartSerialNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txttaxCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txttaxCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTaxNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTaxNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddResource1.Text" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="btnAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearAllResource1.Text" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="btnClearAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddRateDetailsResource1.Text" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="btnAddRateDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPolicyClearResource1.Text" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="btnPolicyClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

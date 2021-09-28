@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<configSettings>
+    <ConfigCache>Y</ConfigCache>
+    <BillCache>Y</BillCache>
+    <MetaDataCache>Y</MetaDataCache>
+    <PageCache>Y</PageCache>
+    <ActionCache>Y</ActionCache>     
+    <MenuCache>N</MenuCache>
+    <PrintCatch>Y</PrintCatch>
+  <LandingPageCatch>Y</LandingPageCatch>
+  <BackGroundAttributes>Y</BackGroundAttributes>
+  <BarcodeSettings>
+    <!-- How many row should be printed in Header (Give Only Integer Value)-->
+      <HeaderLine>2</HeaderLine>
+    <!-- How many row should be printed in Footer (Give Only Integer Value)-->
+      <FooterLine>2</FooterLine>
+    <!-- Add More text length to print in each row (Give Only Integer Value)-->
+      <AddMoreText>25</AddMoreText>
+    <!-- Height of the Barcode (Give Only Integer Value)-->
+    <BarCodeHeight>20</BarCodeHeight>
+    <!-- Width of the Image (Give Only Integer Value)-->
+    <ImageWidth>150</ImageWidth>
+    <!-- Height of the Image (Give Only Integer Value)-->
+    <ImageHeight>35</ImageHeight>
+     <MRDHeight>70</MRDHeight>
+    <MRDWidth>200</MRDWidth>
+    <CollectedDateFormat>dd/MM/yyyy HH:mm tt</CollectedDateFormat>
+    <RegisteredDateFormat>dd/MM/yy HH:mm tt</RegisteredDateFormat>
+  </BarcodeSettings>
+  <!-- Log Data base Calls In similar to sql profiler-->
+  <LogDatabaseCalls>N</LogDatabaseCalls>
+  <PatientRegistrationListCount>75</PatientRegistrationListCount>
+  <TaskNotificationShow>60000</TaskNotificationShow>
+  <TaskNotificationHide>3000</TaskNotificationHide>
+  <TimeZone>Asia/Kolkata</TimeZone> 
+  <Health>
+    <username>bluecap</username>
+    <password>ws@bcap123</password>
+    <Application>Attune HIS</Application>
+    <Facility>NationWide</Facility>
+  </Health>
+  <AttuneTest>
+    <username>bluecap</username>
+    <password>bluecap</password>
+    <Application>Attune HIS</Application>
+    <Facility>NationWide</Facility>
+  </AttuneTest>
+  <LanguageCodes>
+    <LanguageCode>
+      <Name> English </Name>
+      <Code>en-GB</Code>
+      <Alignment>LTR</Alignment>
+    </LanguageCode>
+    <LanguageCode>
+      <Name> தமிழ் </Name>
+      <Code>ta-IN</Code>
+      <Alignment>LTR</Alignment>
+    </LanguageCode>
+    <LanguageCode>
+      <Name> Bahasa Indonesia </Name>
+      <Code>id-ID</Code>
+      <Alignment>LTR</Alignment>
+    </LanguageCode>
+    <LanguageCode>
+      <Name> العربية </Name>
+      <Code>ar-SA</Code>
+      <Alignment>RTL</Alignment>
+    </LanguageCode>
+    <LanguageCode>
+      <Name> Tiếng Việt </Name>
+      <Code>vi-VN</Code>
+      <Alignment>LTR</Alignment>
+    </LanguageCode>
+	<LanguageCode>
+      <Name> Spanish </Name>
+      <Code>es-ES</Code>
+      <Alignment>LTR</Alignment>
+    </LanguageCode>
+  </LanguageCodes>
+   
+  
+  <UserImages>
+    <URLpath>C:\Application\UserImages\</URLpath>
+  </UserImages>
+<connectionString>WAltmMsCfgtoJYShzCc7VCVOYMuuCbvMUAR4diHM/KoCqEKgpNdW+mhQ9A0DK+O+RHHzAWDjlo0=</connectionString>
+  <ReportUserName>Administrator</ReportUserName>
+  <ReportPassword>.</ReportPassword>
+</configSettings> 

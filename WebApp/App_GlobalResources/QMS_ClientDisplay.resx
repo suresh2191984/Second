@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="QMS_Dashboard_aspx_AuditAgency" xml:space="preserve">
+    <value>AuditAgency</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_AuditDateAndTime" xml:space="preserve">
+    <value>AuditDate &amp; Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_AuditNo" xml:space="preserve">
+    <value>Audit No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Auditors" xml:space="preserve">
+    <value>Auditors</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CallibrationDoneDate" xml:space="preserve">
+    <value>Callibration Done Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CallibrationDueDate" xml:space="preserve">
+    <value>Callibration Due Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ChildTestName" xml:space="preserve">
+    <value>Child Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Classification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ContainerName" xml:space="preserve">
+    <value>Container Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_FrequencyDate" xml:space="preserve">
+    <value>Frequency Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_FrequencyTime" xml:space="preserve">
+    <value>Frequency Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_InstrumentName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_InvestigationName" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_LotName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_LotNo" xml:space="preserve">
+    <value>Lot No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_NCNO" xml:space="preserve">
+    <value>NC No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_NewSample" xml:space="preserve">
+    <value>New Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_OldSample" xml:space="preserve">
+    <value>Old Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_OutsourcedLocation" xml:space="preserve">
+    <value>Outsourced Location</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ParentTestName" xml:space="preserve">
+    <value>Parent Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PatientNumber" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PNCNO" xml:space="preserve">
+    <value>PNC No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProductCode" xml:space="preserve">
+    <value>Device Code</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProposedCompletionDate" xml:space="preserve">
+    <value>Proposed Completion Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProposedDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForReject" xml:space="preserve">
+    <value>Reason for Reject</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Sample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_SampleName" xml:space="preserve">
+    <value>Sample Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TATDateTime" xml:space="preserve">
+    <value>TATDate&amp;Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestCode" xml:space="preserve">
+    <value>Assay Code</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestName" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestValue" xml:space="preserve">
+    <value>Test Value</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Venue" xml:space="preserve">
+    <value>Venue</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_VisitNumber" xml:space="preserve">
+    <value>Visit ID</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_VendorName" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ResponsiblePerson" xml:space="preserve">
+    <value>ResponsiblePerson</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_MaintenanceDoneDate" xml:space="preserve">
+    <value>Maintenance Done Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_MaintenanceDueDate" xml:space="preserve">
+    <value>Maintenance Due Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReferenceRange" xml:space="preserve">
+    <value>ReferenceRange</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DelayedHours" xml:space="preserve">
+    <value>Delayed Hours</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DeviceValue" xml:space="preserve">
+    <value>Device Value</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForRerun" xml:space="preserve">
+    <value>Reason for Rerun</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForRecollect" xml:space="preserve">
+    <value>Reason for Recollect</value>
+  </data>
+  <data name="QMS_ddl_select" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_01" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_02" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_03" xml:space="preserve">
+    <value>Rule Master</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_04" xml:space="preserve">
+    <value>Chart View</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_05" xml:space="preserve">
+    <value>Capture Values</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_06" xml:space="preserve">
+    <value>Lot Management</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_07" xml:space="preserve">
+    <value>EQA</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_08" xml:space="preserve">
+    <value>ILC</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_09" xml:space="preserve">
+    <value>PNC</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_10" xml:space="preserve">
+    <value>Analyte Master</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_11" xml:space="preserve">
+    <value>Analyzer Mapping</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_12" xml:space="preserve">
+    <value>Analyzer Master</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnalyzerMapping_lblAnalyte" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="AnalyzerMapping_lblDeviceCode" xml:space="preserve">
+    <value>Device Code</value>
+  </data>
+  <data name="AnalyzerMapping_lblFrequencyDay" xml:space="preserve">
+    <value>Frequency Day</value>
+  </data>
+  <data name="AnalyzerMapping_lblFrequencyTime" xml:space="preserve">
+    <value>Frequency Time</value>
+  </data>
+  <data name="AnalyzerMapping_lblManufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="AnalyzerMapping_lblModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="AnalyzerMapping_lblQCRequired" xml:space="preserve">
+    <value>QC Required</value>
+  </data>
+  <data name="AnalyzerMapping_lblTestCode" xml:space="preserve">
+    <value>AssayCode</value>
+  </data>
+  <data name="AnalyzerMaster_lblDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="AnalyzerMaster_lblDeviceCode" xml:space="preserve">
+    <value>Device Code</value>
+  </data>
+  <data name="AnalyzerMaster_lblDeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="AnalyzerMaster_lblDoneDate" xml:space="preserve">
+    <value>Calibration Done Date</value>
+  </data>
+  <data name="AnalyzerMaster_lblDueDate" xml:space="preserve">
+    <value>Calibration Due Date</value>
+  </data>
+  <data name="AnalyzerMaster_lblFileUpload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="AnalyzerMaster_lblInstallDate" xml:space="preserve">
+    <value>Installation Date</value>
+  </data>
+  <data name="AnalyzerMaster_lblInterface" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="AnalyzerMaster_lbllocation" xml:space="preserve">
+    <value>Select Location</value>
+  </data>
+  <data name="AnalyzerMaster_lblmaintDoneDate" xml:space="preserve">
+    <value>Maintenance Done Date</value>
+  </data>
+  <data name="AnalyzerMaster_lblmaintDueDate" xml:space="preserve">
+    <value>Maintenance Due Date</value>
+  </data>
+  <data name="AnalyzerMaster_lblManufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="AnalyzerMaster_lblMethod" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="AnalyzerMaster_lblModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="AnalyzerMaster_lblPrinciple" xml:space="preserve">
+    <value>Principle</value>
+  </data>
+  <data name="AnalyzerMaster_lblProcessingMode" xml:space="preserve">
+    <value>Processing Mode</value>
+  </data>
+  <data name="AnalyzerMaster_lblSelectFileTpye" xml:space="preserve">
+    <value>Select File Type</value>
+  </data>
+  <data name="AnalyzerMaster_lblThroughPut" xml:space="preserve">
+    <value>Through Put</value>
+  </data>
+  <data name="AnalyteMaster_Label1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnalyteMaster_lblAdditive" xml:space="preserve">
+    <value>Additive</value>
+  </data>
+  <data name="AnalyteMaster_lblAnalyteName" xml:space="preserve">
+    <value>Analyte Name</value>
+  </data>
+  <data name="AnalyteMaster_lblClassification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="AnalyteMaster_lblDecimalPlaces" xml:space="preserve">
+    <value>Decimal Places</value>
+  </data>
+  <data name="AnalyteMaster_lblDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="AnalyteMaster_lblMethod" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="AnalyteMaster_lblPrinciple" xml:space="preserve">
+    <value>Principle</value>
+  </data>
+  <data name="AnalyteMaster_lblProcessingTime" xml:space="preserve">
+    <value>Processing Time</value>
+  </data>
+  <data name="AnalyteMaster_lblResultValue" xml:space="preserve">
+    <value>Result Value</value>
+  </data>
+  <data name="AnalyteMaster_lblSampleType" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="txtDecimalPlacesResource1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProcessingTimeResource1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AnalyteMaster_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="AnalyteMaster_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="AnalyzerMapping_btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AnalyzerMapping_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="AnalyzerMapping_btnEdit" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="AnalyzerMapping_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="AnalyzerMapping_lblDeviceName" xml:space="preserve">
+    <value>Instrument Name</value>
+  </data>
+  <data name="AnalyzerMaster_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="AnalyzerMaster_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="AnalyzerMaster_Editusersave" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CaptureValues_btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CaptureValues_lblAnalyzer" xml:space="preserve">
+    <value>Analyzer</value>
+  </data>
+  <data name="CaptureValues_lblDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CaptureValues_lblLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="CaptureValues_lblLotName" xml:space="preserve">
+    <value>LotName</value>
+  </data>
+  <data name="CaptureValues_lbltime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Dashboard_btnFilter" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="Dashboard_Label1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Dashboard_lblDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Dashboard_lblLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Dashboard_lblOrganization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="EQA_btnAdd" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="EQA_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="EQA_btnLoad" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="EQA_LblCycle" xml:space="preserve">
+    <value>Cycle Identification</value>
+  </data>
+  <data name="EQA_lblDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="EQA_lblDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EQA_lblFileType" xml:space="preserve">
+    <value>FileType</value>
+  </data>
+  <data name="EQA_lblFileupload" xml:space="preserve">
+    <value>Fileupload</value>
+  </data>
+  <data name="EQA_lblInterpretaion" xml:space="preserve">
+    <value>Interpretation</value>
+  </data>
+  <data name="EQA_lblVendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="ExternalAudit_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ExternalAudit_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ExternalAudit_Label1" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="ExternalAudit_Label2" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ExternalAudit_Label4" xml:space="preserve">
+    <value>Audit Agency</value>
+  </data>
+  <data name="ExternalAudit_Label5" xml:space="preserve">
+    <value>Major NC</value>
+  </data>
+  <data name="ExternalAudit_Label6" xml:space="preserve">
+    <value>Minor NC</value>
+  </data>
+  <data name="ExternalAudit_lblDeviceCode" xml:space="preserve">
+    <value>Audit No</value>
+  </data>
+  <data name="ExternalAudit_lblFileUpload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="ExternalAudit_lblMethod" xml:space="preserve">
+    <value>List of Auditors</value>
+  </data>
+  <data name="ExternalAudit_lblOrganization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="ExternalAudit_lblPrinciple" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="ExternalAudit_txtDate" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="ILC_btnAdd" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ILC_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ILC_btnLoad" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="ILC_lblDate" xml:space="preserve">
+    <value>Evaluation Date</value>
+  </data>
+  <data name="ILC_lblDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="ILC_lblFileType" xml:space="preserve">
+    <value>FileType</value>
+  </data>
+  <data name="ILC_lblFileupload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="ILC_lblVendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="InternalAudit_btnShowTask" xml:space="preserve">
+    <value>Show Task</value>
+  </data>
+  <data name="InternalAudit_ddlStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InternalAudit_Label12" xml:space="preserve">
+    <value>Audit No</value>
+  </data>
+  <data name="InternalAudit_Label6" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="InternalAudit_Label8" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="InternalAudit_lblPrinciple" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="InternalAudit_txtDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="InternalAudit_txtDate2" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="LJChartView_btnFilter" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="LJChartView_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LJChartView_lblAnalyte" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="LJChartView_lblAnalyzer" xml:space="preserve">
+    <value>Analyzer</value>
+  </data>
+  <data name="LJChartView_lblFromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="LJChartView_lblLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="LJChartView_lblLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LJChartView_lblLot" xml:space="preserve">
+    <value>Lot Name</value>
+  </data>
+  <data name="LJChartView_lblToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="LotManagement_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LotManagement_btnLotsClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LotManagement_btnLotsSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="LotManagement_btnLotsUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="LotManagement_btnManuFactClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="LotManagement_btnManuFactSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="LotManagement_btnManuFactUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="LotManagement_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="LotManagement_btnupdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="LotManagement_Label18" xml:space="preserve">
+    <value>Instrument</value>
+  </data>
+  <data name="LotManagement_lblAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="LotManagement_lblCity" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="LotManagement_lblCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="LotManagement_lblDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="LotManagement_lblEmailId" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="LotManagement_lblExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="LotManagement_lblFaxNo" xml:space="preserve">
+    <value>Fax No</value>
+  </data>
+  <data name="LotManagement_lblLandlineNo" xml:space="preserve">
+    <value>Landline No</value>
+  </data>
+  <data name="LotManagement_lblLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="LotManagement_lblLotExpiryAlert" xml:space="preserve">
+    <value>Lot Expiry Alert</value>
+  </data>
+  <data name="LotManagement_lblLotName" xml:space="preserve">
+    <value>Lot Name</value>
+  </data>
+  <data name="LotManagement_lblLotNo" xml:space="preserve">
+    <value>Lot Number</value>
+  </data>
+  <data name="LotManagement_lblManufactCode" xml:space="preserve">
+    <value>Manufacturer Code</value>
+  </data>
+  <data name="LotManagement_lblManufactEmail" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="LotManagement_lblManufactName" xml:space="preserve">
+    <value>Manufacturer Name</value>
+  </data>
+  <data name="LotManagement_lblManufactPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="LotManagement_lblManufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="LotManagement_lblMobileNo" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="LotManagement_lblPanNo" xml:space="preserve">
+    <value>PAN No</value>
+  </data>
+  <data name="LotManagement_lblPostalCode" xml:space="preserve">
+    <value>Postal/Zip Code</value>
+  </data>
+  <data name="LotManagement_lblSpocName" xml:space="preserve">
+    <value>SPOC Name</value>
+  </data>
+  <data name="LotManagement_lblState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="LotManagement_lblTerms" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="LotManagement_lblVendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="LotManagement_lblVendorCode" xml:space="preserve">
+    <value>Vendor Code</value>
+  </data>
+  <data name="LotManagement_lblVendorName" xml:space="preserve">
+    <value>Vendor Name</value>
+  </data>
+  <data name="MRM_AuditNo" xml:space="preserve">
+    <value>Audit No</value>
+  </data>
+  <data name="MRM_btnShowTask" xml:space="preserve">
+    <value>Show Task</value>
+  </data>
+  <data name="MRM_DateTime" xml:space="preserve">
+    <value>Date &amp; Time:</value>
+  </data>
+  <data name="MRM_ddlorg" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="MRM_ddlStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="MRM_lblAgenda" xml:space="preserve">
+    <value>Agenda:</value>
+  </data>
+  <data name="MRM_lblParticipants" xml:space="preserve">
+    <value>Participant</value>
+  </data>
+  <data name="MRM_lblpointsDiscussed" xml:space="preserve">
+    <value>Points Discussed:</value>
+  </data>
+  <data name="MRM_lblVenue" xml:space="preserve">
+    <value>Venue:</value>
+  </data>
+  <data name="MRM_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MRM_MRMNO" xml:space="preserve">
+    <value>MRM NO:</value>
+  </data>
+  <data name="MRM_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MRM_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="MRM_txtCompletion" xml:space="preserve">
+    <value>Proposed Completion Date</value>
+  </data>
+  <data name="MRM_txtDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="MRM_txtDate2" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="MRM_txtResponsibility" xml:space="preserve">
+    <value>Responsibility</value>
+  </data>
+  <data name="MRM_txtToltal" xml:space="preserve">
+    <value>Action Proposed</value>
+  </data>
+  <data name="PlanAndSchedule_AuditTeam" xml:space="preserve">
+    <value>Audit Team Member</value>
+  </data>
+  <data name="PlanAndSchedule_btnAddMail" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PlanAndSchedule_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="PlanAndSchedule_btnFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="PlanAndSchedule_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PlanAndSchedule_btnSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="PlanAndSchedule_ddlDept" xml:space="preserve">
+    <value>Department To Audit</value>
+  </data>
+  <data name="PlanAndSchedule_ddlEventType" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="PlanAndSchedule_ddlProgType" xml:space="preserve">
+    <value>Audit Program Type</value>
+  </data>
+  <data name="PlanAndSchedule_ddlStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PlanAndSchedule_EventName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="PlanAndSchedule_EventType" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="PlanAndSchedule_Org" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="PlanAndSchedule_txtCriteria" xml:space="preserve">
+    <value>Audit Criteria</value>
+  </data>
+  <data name="PlanAndSchedule_txtDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PlanAndSchedule_txtLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="PlanAndSchedule_txtScope" xml:space="preserve">
+    <value>Audit Scope</value>
+  </data>
+  <data name="PlanAndSchedule_txtTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="PNC_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="PNC_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PNC_lblActionTaken" xml:space="preserve">
+    <value>ActionTaken</value>
+  </data>
+  <data name="PNC_lblClassify" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="PNC_lblComments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="PNC_lblCompDate" xml:space="preserve">
+    <value>Proposed Completion Date</value>
+  </data>
+  <data name="PNC_lblCorrctiveAction" xml:space="preserve">
+    <value>Corrective Action Proposed</value>
+  </data>
+  <data name="PNC_lblCorrection" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="PNC_lbldate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PNC_lblDept" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="PNC_lblNPCNO" xml:space="preserve">
+    <value>Process Non Conformity No</value>
+  </data>
+  <data name="PNC_lblPAProposed" xml:space="preserve">
+    <value>Preventive Action Proposed</value>
+  </data>
+  <data name="PNC_lblPerson" xml:space="preserve">
+    <value>Responsible Person</value>
+  </data>
+  <data name="PNC_lblPNCDescrip" xml:space="preserve">
+    <value>PNC Description</value>
+  </data>
+  <data name="PNC_lblRCA" xml:space="preserve">
+    <value>Root Cause Analysis</value>
+  </data>
+  <data name="PNC_lblStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Program_btnFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Program_ddlLocation" xml:space="preserve">
+    <value>Location </value>
+  </data>
+  <data name="Program_dllOrg" xml:space="preserve">
+    <value>Organization  </value>
+  </data>
+  <data name="Program_txtFromDate" xml:space="preserve">
+    <value>From Date: </value>
+  </data>
+  <data name="Program_txtName" xml:space="preserve">
+    <value>Name </value>
+  </data>
+  <data name="Program_txtStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Program_txtToDate" xml:space="preserve">
+    <value>To Date  </value>
+  </data>
+  <data name="Program_txtTopic" xml:space="preserve">
+    <value>Topic  </value>
+  </data>
+  <data name="Program_txtTriner" xml:space="preserve">
+    <value>Trainer  </value>
+  </data>
+  <data name="QCPlan_btnAddMail" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="QCPlan_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="QCPlan_btnFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="QCPlan_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="QCPlan_btnSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="QCPlan_ddlDept" xml:space="preserve">
+    <value>Department To Audit</value>
+  </data>
+  <data name="QCPlan_ddlEventType" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="QCPlan_ddlProgType" xml:space="preserve">
+    <value>Audit Program Type</value>
+  </data>
+  <data name="QCPlan_ddlStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="QCPlan_ddlStatus1" xml:space="preserve">
+    <value>Event Date &amp; Time</value>
+  </data>
+  <data name="QCPlan_ddlStatus2" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="QCPlan_ddlStatus21" xml:space="preserve">
+    <value>Audit Team Member</value>
+  </data>
+  <data name="QCPlan_Label1" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="QCPlan_Label2" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="QCPlan_lblAnalyzer" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="QCPlan_lblFileType" xml:space="preserve">
+    <value>Select File Type</value>
+  </data>
+  <data name="QCPlan_lblFileupload" xml:space="preserve">
+    <value>Reference Documents</value>
+  </data>
+  <data name="QCPlan_lblMailID" xml:space="preserve">
+    <value>Guests</value>
+  </data>
+  <data name="QCPlan_txtCriteria" xml:space="preserve">
+    <value>Audit Criteria</value>
+  </data>
+  <data name="QCPlan_txtDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="QCPlan_txtDate1" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="QCPlan_txtDate2" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="QCPlan_txtEventName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="QCPlan_txtScope" xml:space="preserve">
+    <value>Audit Scope</value>
+  </data>
+  <data name="QCPlan_txtScope2" xml:space="preserve">
+    <value>Venue</value>
+  </data>
+  <data name="RuleMaster_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="RuleMaster_btnSave" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="RuleMaster_lblAnalyte" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="RuleMaster_lblChartCalc" xml:space="preserve">
+    <value>LJ Chart Calculation</value>
+  </data>
+  <data name="RuleMaster_lblLabMean" xml:space="preserve">
+    <value>Lab Mean</value>
+  </data>
+  <data name="RuleMaster_lblLabRefRange" xml:space="preserve">
+    <value>Lab Ref Range</value>
+  </data>
+  <data name="RuleMaster_lblLabSD" xml:space="preserve">
+    <value>Lab SD</value>
+  </data>
+  <data name="RuleMaster_lblLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="RuleMaster_lblLotName" xml:space="preserve">
+    <value>Lot Name</value>
+  </data>
+  <data name="RuleMaster_lblLotNo" xml:space="preserve">
+    <value>Lot No</value>
+  </data>
+  <data name="RuleMaster_lblMAnufactMean" xml:space="preserve">
+    <value>Manufacturer Mean</value>
+  </data>
+  <data name="RuleMaster_lblManufactRefRange" xml:space="preserve">
+    <value>Manufacturer Ref Range</value>
+  </data>
+  <data name="RuleMaster_lblRun" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="UserManagement_btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UserManagement_btnSave" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="UserManagement_lblRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="UserManagement_lblUs4er" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserManagement_lblwidget" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionTaken" xml:space="preserve">
+    <value>Action Taken</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AnalyzerMapping_btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="analyzer_name" xml:space="preserve">
+    <value>Analyzer Name</value>
+  </data>
+  <data name="Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="AuditType" xml:space="preserve">
+    <value>Audit Type</value>
+  </data>
+  <data name="CaptureValues_Analyte" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CorrectionAction" xml:space="preserve">
+    <value>Correction Action</value>
+  </data>
+  <data name="cv" xml:space="preserve">
+    <value>CV%</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Date Time</value>
+  </data>
+  <data name="ddl_select" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="delete_confirm" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Dept</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="DescriptionofNC" xml:space="preserve">
+    <value>Description of NC</value>
+  </data>
+  <data name="Deviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EQA_AnalyteName" xml:space="preserve">
+    <value>Analyte Name</value>
+  </data>
+  <data name="EQA_btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EQA_CorrectiveActions" xml:space="preserve">
+    <value>Corrective Actions</value>
+  </data>
+  <data name="EQA_PreventiveActions" xml:space="preserve">
+    <value>Preventive Actions</value>
+  </data>
+  <data name="EQA_ResultValue" xml:space="preserve">
+    <value>Result Value</value>
+  </data>
+  <data name="EQA_RootCause" xml:space="preserve">
+    <value>Root Cause</value>
+  </data>
+  <data name="EQA_Score" xml:space="preserve">
+    <value>Score/Z-Score</value>
+  </data>
+  <data name="EventTypeID" xml:space="preserve">
+    <value>Event Type ID</value>
+  </data>
+  <data name="ExamType" xml:space="preserve">
+    <value>Exam Type</value>
+  </data>
+  <data name="ExternalAudit_Auditors" xml:space="preserve">
+    <value>Auditors</value>
+  </data>
+  <data name="FailedRule" xml:space="preserve">
+    <value>Failed Rule</value>
+  </data>
+  <data name="ILC_AnalyteName" xml:space="preserve">
+    <value>Analyte Name</value>
+  </data>
+  <data name="ILC_btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ILC_ExternalValue" xml:space="preserve">
+    <value>External Value</value>
+  </data>
+  <data name="ILC_InternalValue" xml:space="preserve">
+    <value>Internal Value</value>
+  </data>
+  <data name="ILC_lblCorrection" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="ILC_RootCause" xml:space="preserve">
+    <value>Root Cause</value>
+  </data>
+  <data name="ILC_Variation" xml:space="preserve">
+    <value>Variation %</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="InternalAudit_EventName" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="InternalAudit_TaskDate" xml:space="preserve">
+    <value>Task Date</value>
+  </data>
+  <data name="ISOClause" xml:space="preserve">
+    <value>ISO Clause</value>
+  </data>
+  <data name="lot_no" xml:space="preserve">
+    <value>Lot No</value>
+  </data>
+  <data name="manufactured_by" xml:space="preserve">
+    <value>Manufactured By</value>
+  </data>
+  <data name="NABLClause" xml:space="preserve">
+    <value>NABL Clause</value>
+  </data>
+  <data name="NoMatchingRecordFound" xml:space="preserve">
+    <value>No Matching Record Found..</value>
+  </data>
+  <data name="Observation" xml:space="preserve">
+    <value>Observation</value>
+  </data>
+  <data name="ObtainedMarks" xml:space="preserve">
+    <value>Obtained Marks</value>
+  </data>
+  <data name="PlanScheduleID" xml:space="preserve">
+    <value>PlanScheduleID</value>
+  </data>
+  <data name="PreventiveAction" xml:space="preserve">
+    <value>Preventive Action</value>
+  </data>
+  <data name="ProcessDate" xml:space="preserve">
+    <value>Process Date</value>
+  </data>
+  <data name="ProposedCorrectiveAction" xml:space="preserve">
+    <value>Proposed Corrective Action</value>
+  </data>
+  <data name="QCStatus" xml:space="preserve">
+    <value>QC Status</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="result_notfound" xml:space="preserve">
+    <value>No results found.</value>
+  </data>
+  <data name="sd" xml:space="preserve">
+    <value>SD</value>
+  </data>
+  <data name="SNo" xml:space="preserve">
+    <value>SNo</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TargetMean" xml:space="preserve">
+    <value>Target Mean</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="TotalMarks" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UserManagement_lblEmailId" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="UserManagement_MobileNumber" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="values" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verified</value>
+  </data>
+  <data name="alert_activate" xml:space="preserve">
+    <value> Activation Successful  </value>
+  </data>
+  <data name="alert_analyte" xml:space="preserve">
+    <value>Select Analyte  </value>
+  </data>
+  <data name="alert_analytealready" xml:space="preserve">
+    <value>The Instrument and Analyte are already available  </value>
+  </data>
+  <data name="alert_analytename" xml:space="preserve">
+    <value>Enter Analyte Name  </value>
+  </data>
+  <data name="alert_analyzerselect" xml:space="preserve">
+    <value>Please Select Analyzer  </value>
+  </data>
+  <data name="alert_assaycode" xml:space="preserve">
+    <value>Enter Assaycode  </value>
+  </data>
+  <data name="alert_audittype" xml:space="preserve">
+    <value>Please select Audit Type  </value>
+  </data>
+  <data name="alert_cactionverified" xml:space="preserve">
+    <value>Please Select Corrective Action Verified  </value>
+  </data>
+  <data name="alert_catagory" xml:space="preserve">
+    <value>Please select Category  </value>
+  </data>
+  <data name="alert_city" xml:space="preserve">
+    <value>Please Enter City  </value>
+  </data>
+  <data name="alert_cityselect" xml:space="preserve">
+    <value>Select City  </value>
+  </data>
+  <data name="alert_classification" xml:space="preserve">
+    <value>Please Select Classification  </value>
+  </data>
+  <data name="alert_completiondate" xml:space="preserve">
+    <value>Please Choose Completion Date  </value>
+  </data>
+  <data name="alert_countryselect" xml:space="preserve">
+    <value>Select country name  </value>
+  </data>
+  <data name="alert_deactivate" xml:space="preserve">
+    <value>Deactivation Successful  </value>
+  </data>
+  <data name="alert_delete" xml:space="preserve">
+    <value>Deleted Successfully  </value>
+  </data>
+  <data name="alert_departmentselect" xml:space="preserve">
+    <value>Please select the Department  </value>
+  </data>
+  <data name="alert_devicecode" xml:space="preserve">
+    <value>Please Provide Device Code  </value>
+  </data>
+  <data name="alert_devicename" xml:space="preserve">
+    <value>Please Provide Device Name  </value>
+  </data>
+  <data name="alert_device_namecode" xml:space="preserve">
+    <value>Please provide devicename and devicecode   </value>
+  </data>
+  <data name="alert_done" xml:space="preserve">
+    <value>Done Successfully  </value>
+  </data>
+  <data name="alert_email" xml:space="preserve">
+    <value>Enter Email Address  </value>
+  </data>
+  <data name="alert_emailinvalid" xml:space="preserve">
+    <value>Invalid email addess  </value>
+  </data>
+  <data name="alert_eventname" xml:space="preserve">
+    <value>Please Enter Event Name  </value>
+  </data>
+  <data name="alert_eventtypeselect" xml:space="preserve">
+    <value>Please select Event Type  </value>
+  </data>
+  <data name="alert_examtype" xml:space="preserve">
+    <value>Select Exam Type  </value>
+  </data>
+  <data name="alert_expiryselect" xml:space="preserve">
+    <value>Select ExpiryDate  </value>
+  </data>
+  <data name="alert_filetype" xml:space="preserve">
+    <value>Select File Type  </value>
+  </data>
+  <data name="alert_fromdateselect" xml:space="preserve">
+    <value>Please select FromDate  </value>
+  </data>
+  <data name="alert_fromtimeselect" xml:space="preserve">
+    <value>Please select From Time  </value>
+  </data>
+  <data name="alert_instrumentselect" xml:space="preserve">
+    <value>Select atleast one Instrument  </value>
+  </data>
+  <data name="alert_labmean" xml:space="preserve">
+    <value>Enter Lab Mean  </value>
+  </data>
+  <data name="alert_labmeanvalue" xml:space="preserve">
+    <value>Lab Mean cannot be zero  </value>
+  </data>
+  <data name="alert_labrefrange" xml:space="preserve">
+    <value>Enter Lab Reference Range  </value>
+  </data>
+  <data name="alert_labsd" xml:space="preserve">
+    <value>Enter Lab SD  </value>
+  </data>
+  <data name="alert_labsdvalue" xml:space="preserve">
+    <value>Lab SD values cannot be zero  </value>
+  </data>
+  <data name="alert_loadunable" xml:space="preserve">
+    <value>Unable To Load Details  </value>
+  </data>
+  <data name="alert_location" xml:space="preserve">
+    <value>Please Select Location</value>
+  </data>
+  <data name="alert_lotadd" xml:space="preserve">
+    <value>Lot Details Added successfully  </value>
+  </data>
+  <data name="alert_lotname" xml:space="preserve">
+    <value>Enter Lot Name  </value>
+  </data>
+  <data name="alert_lotno" xml:space="preserve">
+    <value>Enter Lot No  </value>
+  </data>
+  <data name="alert_lotno_select" xml:space="preserve">
+    <value>Select Lot No  </value>
+  </data>
+  <data name="alert_lotselect" xml:space="preserve">
+    <value>Please select Lot  </value>
+  </data>
+  <data name="alert_manufacadd" xml:space="preserve">
+    <value>Manufacturer added successfully  </value>
+  </data>
+  <data name="alert_manufacturer" xml:space="preserve">
+    <value>Please Provide Manufacturer  </value>
+  </data>
+  <data name="alert_manufacturer_update" xml:space="preserve">
+    <value>Manufacturer Details updated successfully  </value>
+  </data>
+  <data name="alert_manumean" xml:space="preserve">
+    <value>Enter Manufacturer Mean  </value>
+  </data>
+  <data name="alert_manumeanvalue" xml:space="preserve">
+    <value>Manufacturer Mean cannot be zero  </value>
+  </data>
+  <data name="alert_manu_namecode" xml:space="preserve">
+    <value>Please enter manufacturer name and manufacturer code  </value>
+  </data>
+  <data name="alert_manu_namecode_select" xml:space="preserve">
+    <value>Please select manufacturer name and manufacturer code  </value>
+  </data>
+  <data name="alert_manu_refrange" xml:space="preserve">
+    <value>Enter Manufacturer Reference Range  </value>
+  </data>
+  <data name="alert_manu_validrefrange" xml:space="preserve">
+    <value>Enter Valid Manufacture Ref Range  </value>
+  </data>
+  <data name="alert_nablclause" xml:space="preserve">
+    <value>Please Enter NABL Clause  </value>
+  </data>
+  <data name="alert_observation" xml:space="preserve">
+    <value>Please fill Observation  </value>
+  </data>
+  <data name="alert_organization" xml:space="preserve">
+    <value>Please Select Organization  </value>
+  </data>
+  <data name="alert_participant" xml:space="preserve">
+    <value>Select Participant  </value>
+  </data>
+  <data name="alert_pcompletiondate" xml:space="preserve">
+    <value>Please Select Proposed Completion Date  </value>
+  </data>
+  <data name="alert_pdate" xml:space="preserve">
+    <value>Please Select Date  </value>
+  </data>
+  <data name="alert_processingdate" xml:space="preserve">
+    <value>Select Date of Processing  </value>
+  </data>
+  <data name="alert_processingtime" xml:space="preserve">
+    <value>Please select day(s) or hour(s) for processing time  </value>
+  </data>
+  <data name="alert_ptime" xml:space="preserve">
+    <value>Please Select Time  </value>
+  </data>
+  <data name="alert_rperson" xml:space="preserve">
+    <value>Please Select Responsible Person  </value>
+  </data>
+  <data name="alert_runvalue" xml:space="preserve">
+    <value>Run cannot be zero  </value>
+  </data>
+  <data name="alert_save" xml:space="preserve">
+    <value>Saved Successfully  </value>
+  </data>
+  <data name="alert_scheduled" xml:space="preserve">
+    <value>Scheduled successfully  </value>
+  </data>
+  <data name="alert_scheduleupdate" xml:space="preserve">
+    <value>Schedule updated successfully  </value>
+  </data>
+  <data name="alert_spocname" xml:space="preserve">
+    <value>Enter SPOC Name  </value>
+  </data>
+  <data name="alert_stateselect" xml:space="preserve">
+    <value>Select state  </value>
+  </data>
+  <data name="alert_status" xml:space="preserve">
+    <value>Please Select Status  </value>
+  </data>
+  <data name="alert_todateselect" xml:space="preserve">
+    <value>Please select ToDate  </value>
+  </data>
+  <data name="alert_totimeselect" xml:space="preserve">
+    <value>Please select To Time  </value>
+  </data>
+  <data name="alert_update" xml:space="preserve">
+    <value>Updated Successfully  </value>
+  </data>
+  <data name="alert_validanalyzer" xml:space="preserve">
+    <value>Please Select valid Analyzer  </value>
+  </data>
+  <data name="alert_valid_analyte" xml:space="preserve">
+    <value>Select Valid Analyte  </value>
+  </data>
+  <data name="alert_vendoradd" xml:space="preserve">
+    <value>Vendor added successfully  </value>
+  </data>
+  <data name="alert_vendoraddress" xml:space="preserve">
+    <value>Enter vendor address  </value>
+  </data>
+  <data name="alert_vendorcode" xml:space="preserve">
+    <value>Enter Vendor Code  </value>
+  </data>
+  <data name="alert_vendorname" xml:space="preserve">
+    <value>Enter Vendor Name  </value>
+  </data>
+  <data name="alert_vendorselect" xml:space="preserve">
+    <value>Please select the Vendor  </value>
+  </data>
+  <data name="alert_vendorselect1" xml:space="preserve">
+    <value>Please select vendor  </value>
+  </data>
+  <data name="alert_wentwrong" xml:space="preserve">
+    <value>Something went wrong  </value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="logout_confirm" xml:space="preserve">
+    <value>Do you really want to Logout?</value>
+  </data>
+  <data name="record_notfound" xml:space="preserve">
+    <value>No Record Found</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CoAuthorizedBy" xml:space="preserve">
+    <value>CoAuthorized By</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CoAuthorizedTo" xml:space="preserve">
+    <value>CoAuthorized To</value>
+  </data>
+</root>

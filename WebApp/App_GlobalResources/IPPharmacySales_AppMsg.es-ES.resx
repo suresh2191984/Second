@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_ascx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_Controls_EsIPInvPrientBill_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_05" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="IPPharmacySales_InterimSearch_aspx_06" xml:space="preserve">
+    <value>Select a bill number</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_InvIpBilling_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_INVRefundvoucher_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_05" xml:space="preserve">
+    <value>Refund Amount Should not Be Greater than the Received Amount</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_06" xml:space="preserve">
+    <value>Refund Amount Should not Be Greater than the Cash in hand amount</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_07" xml:space="preserve">
+    <value>Values are Invalid/Pharmacy Bill Amount Should be Paid</value>
+  </data>
+  <data name="IPPharmacySales_PrintInterimBill_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_PrintInterimBill_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_PrintInterimBill_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_PrintInterimBill_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_05" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_06" xml:space="preserve">
+    <value>Select an receipt number</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_07" xml:space="preserve">
+    <value>The Advance Amount is Not Refundable</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_08" xml:space="preserve">
+    <value>The Deposit Amount is Not Refundable</value>
+  </data>
+  <data name="IPPharmacySales_ReceiptSearch_aspx_09" xml:space="preserve">
+    <value>¿Desea Imprimir?</value>
+  </data>
+  <data name="IPPharmacySales_ViewInvReceipt_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="IPPharmacySales_ViewInvReceipt_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_ViewInvReceipt_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_ViewInvReceipt_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_01" xml:space="preserve">
+    <value>Provide the product list</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_02" xml:space="preserve">
+    <value>please select make payment option!</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_03" xml:space="preserve">
+    <value>Collect Advance or Make Payment</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_04" xml:space="preserve">
+    <value>Provide consumed by or patient number</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_05" xml:space="preserve">
+    <value>Provide minimum two characters</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_06" xml:space="preserve">
+    <value>Provide the batch number</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_07" xml:space="preserve">
+    <value>Provide issue quantity</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_08" xml:space="preserve">
+    <value>Ensure items added/quantity are provided properly</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_09" xml:space="preserve">
+    <value>Please Enter valid date</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_10" xml:space="preserve">
+    <value>Product number and batch number combination already exist</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_11" xml:space="preserve">
+    <value>Item can not ordered because  no Of drugs already exists this mapped client ,balance drug count : {0}</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_12" xml:space="preserve">
+    <value>This Item Will be Expired with in {0} Months.Please select any other Batch (if available)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_13" xml:space="preserve">
+    <value>This Item is Alredy Expired.Please select any other Batch (if available)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_14" xml:space="preserve">
+    <value>Provide received amount less than or equal to net amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_15" xml:space="preserve">
+    <value>Discount Amount should not exceed total amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_16" xml:space="preserve">
+    <value>monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_17" xml:space="preserve">
+    <value>Provide  patient name</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_18" xml:space="preserve">
+    <value>Select the product</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_19" xml:space="preserve">
+    <value>You should Collect Rs. ' + mustCollectAmt)</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_20" xml:space="preserve">
+    <value>ReceivedAmount should be Greater than Zero</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_21" xml:space="preserve">
+    <value>Collect the due amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_22" xml:space="preserve">
+    <value>proporcione fecha válida</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_23" xml:space="preserve">
+    <value>Percentage should be less than 100</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_24" xml:space="preserve">
+    <value>Copay Amount should be less than Amount</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_25" xml:space="preserve">
+    <value>This Item Will be Expired with in</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_26" xml:space="preserve">
+    <value>meses</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_27" xml:space="preserve">
+    <value>Task has been Generated</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_28" xml:space="preserve">
+    <value>This bill amount will be added to due.\nDo you want to continue</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_29" xml:space="preserve">
+    <value>Please confirm if this amount has been received</value>
+  </data>
+  <data name="IPPharmacySales_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="IPPharmacySales_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="IPPharmacySales_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="IPPharmacySales_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_39" xml:space="preserve">
+    <value>This product have return sub store stock</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_40" xml:space="preserve">
+    <value>You can use remaining stock</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_01" xml:space="preserve">
+    <value>proporcione / seleccionar el valor de inicio de la fecha</value>
+  </data>
+  <data name="IPPharmacySales_PharmacyConsolidate_aspx_02" xml:space="preserve">
+    <value>proporcione / seleccionar el valor de término de la fecha</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_01" xml:space="preserve">
+    <value>ya agregado</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_02" xml:space="preserve">
+    <value>Please Enter BatchNo.</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_03" xml:space="preserve">
+    <value>Please Enter valid number</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_04" xml:space="preserve">
+    <value>Please Enter Quantity Less or equal to StockinHand:</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_05" xml:space="preserve">
+    <value>The selected Product</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_06" xml:space="preserve">
+    <value>lote nº.</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_07" xml:space="preserve">
+    <value>already Exits</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_08" xml:space="preserve">
+    <value>Enter value greater than Zero.</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_09" xml:space="preserve">
+    <value>For Item:</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_10" xml:space="preserve">
+    <value>Qty is greater than stockinhand:</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_11" xml:space="preserve">
+    <value>Please Enter BatchNo</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_12" xml:space="preserve">
+    <value>Please Enter KITQty</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_13" xml:space="preserve">
+    <value>Stock in Hand:</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_14" xml:space="preserve">
+    <value>Please enter Product details.</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_15" xml:space="preserve">
+    <value>Error in updating Product details</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_16" xml:space="preserve">
+    <value>guardado exitosamente.</value>
+  </data>
+  <data name="IPPharmacySales_ViewPatientKitUsage_aspx_17" xml:space="preserve">
+    <value>Please add products.</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_08" xml:space="preserve">
+    <value>Collect Advance Amount</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_09" xml:space="preserve">
+    <value>Pharmacy Bill Should Be Paid</value>
+  </data>
+  <data name="IPPharmacySales_IPPharmacyStockRefund_aspx_10" xml:space="preserve">
+    <value>Refund Amount Should not Be Greater than the Received Amount/ Refund only Due Items Only</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_01" xml:space="preserve">
+    <value>Provide the product list</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_02" xml:space="preserve">
+    <value>Provide the batch number</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_03" xml:space="preserve">
+    <value>Provide issue quantity</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_04" xml:space="preserve">
+    <value>Ensure items added/quantity are provided properly</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_05" xml:space="preserve">
+    <value>Product number and batch number combination already exist</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_06" xml:space="preserve">
+    <value>Kitbatch  combination already exist</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_07" xml:space="preserve">
+    <value>Ensure items added/quantity are provided properly/Pharmacy Bill Due Is Available Should not Refund</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_08" xml:space="preserve">
+    <value>Select the issue to location</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_09" xml:space="preserve">
+    <value>Select the received by</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_IPPharmacyStockReturn_js_10" xml:space="preserve">
+    <value>Select the product</value>
+  </data>
+  <data name="IPPharmacySales_Scripts_InvIpBilling_js_41" xml:space="preserve">
+    <value>The Selected drug alreay avaliable</value>
+  </data>
+</root>

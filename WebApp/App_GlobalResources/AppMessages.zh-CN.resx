@@ -1,0 +1,2382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls\InvSampleControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ InvSampleControl.ascx.cs_1 =调查已经添加！^</value>
+  </data>
+  <data name="Physician\OperationNotesCaseSheet.aspx" xml:space="preserve">
+    <value>医师\\ OperationNotesCaseSheet.aspx_1 =选择治疗^</value>
+  </data>
+  <data name="Inventory\PORequestSearch.aspx" xml:space="preserve">
+    <value>库存\\ PORequestSearch.aspx_1 =选择机构^库存\\ PORequestSearch.aspx_2 =选择PO请求^</value>
+  </data>
+  <data name="Inventory\ProductSupplierRateMapping.aspx" xml:space="preserve">
+    <value>库存\\ ProductSupplierRateMapping.aspx_1 =报价数量为无效或已经存在^库存\\ ProductSupplierRateMapping.aspx_2 =该产品已在批准的地位或映射到另一个报价^库存\\ ProductSupplierRateMapping.aspx_3 =选择至少可供出售单位^库存\\ ProductSupplierRateMapping .aspx_4 =提供报价数量^库存\\ ProductSupplierRateMapping.aspx_5 =提供有效起始日期^库存\\ ProductSupplierRateMapping.aspx_6 =提供有效迄今为止^库存\\ ProductSupplierRateMapping.aspx_7 =选择供应商名称^库存\\ ProductSupplierRateMapping.aspx_8 =提供产品名称^库存\\ ProductSupplierRateMapping.aspx_9 =选择单位^库存\\ ProductSupplierRateMapping.aspx_10 =提供逆量^库存\\ ProductSupplierRateMapping.aspx_11 =出售价格不能低于成本价^库存\\ ProductSupplierRateMapping.aspx_12 =最高零售价不能低于成本价/卖出价^库存\\ ProductSupplierRateMapping.aspx_13 =提供速率^库存\\ ProductSupplierRateMapping.aspx_14 =提供售价^库存\\ ProductSupplierRateMapping.aspx_15 =提供MRP ^库存\\ ProductSupplierRateMapping.aspx_16 =本机已经添加^库存\\ ProductSupplierRateMapping.aspx_17 =率已经加入到这一产品^库存\\ ProductSupplierRateMapping.aspx_19 =提供报价没有^库存\\ ProductSupplierRateMapping.aspx_20 =至少选择一个产品批准^库存\\ ProductSupplierRateMapping.aspx_21 =无效日期^</value>
+  </data>
+  <data name="Inventory\AdminStockReport.aspx" xml:space="preserve">
+    <value>库存\\ AdminStockReport.aspx_2 =从日期和最新^清单中选择\\ AdminStockReport.aspx_3 =选择起始日期！^库存\\ AdminStockReport.aspx_4 =选择最新消息！^库存\\ AdminStockReport.aspx_6 =不匹配日电流和之间至今^库存\\ AdminStockReport.aspx_7 =不匹配日间从与结束日期^库存\\ AdminStockReport.aspx_8 =不匹配月份电流和终止日期^库存\\ AdminStockReport.aspx_9 =不匹配月间从与结束日期^库存\之间\ AdminStockReport.aspx_10 =不匹配年度电流和至今^库存\\ AdminStockReport.aspx_11 =不匹配年期间从与结束日期之间的^</value>
+  </data>
+  <data name="Inventory\BillingPopUp.aspx" xml:space="preserve">
+    <value>库存\\ BillingPopUp.aspx_1 =提供病人姓名^库存\\ BillingPopUp.aspx_2 =选择产品^库存\\ BillingPopUp.aspx_3 =通过提供消费或病人numberInventory \\ BillingPopUp.aspx_4 =提供股票数量小于或等于因为手头^库存\\ BillingPopUp.aspx_5 =收集到期金额^库存\\ BillingPopUp.aspx_6 =确保项目添加/数量提供正确^库存\\ BillingPopUp.aspx_7 =提供收到的款项小于或等于净额^库存\\ BillingPopUp.aspx_8 =请输入折扣金额小于或等于总金额。“^库存\\ BillingPopUp.aspx_9 =提供的金额超过净金额较大^</value>
+  </data>
+  <data name="Inventory\BillSearch.aspx" xml:space="preserve">
+    <value>库存\\ BillSearch.aspx_2 =名称必须ATLEAST三个字符^库存\\ BillSearch.aspx_4 =该法案已被取消^</value>
+  </data>
+  <data name="Inventory\CentralPurchaseOrder.aspx" xml:space="preserve">
+    <value>库存\\ CentralPurchaseOrder.aspx_1 =选择机构^库存\\ CentralPurchaseOrder.aspx_2 =输入产品名称^库存\\ CentralPurchaseOrder.aspx_3 =请填写采购订单详细信息^库存\\ CentralPurchaseOrder.aspx_4 =提供采购订单日期^库存\\ INVBulkUpdate.aspx_1 =提供的产品名称^库存\\ QuickStockReceived.aspx_12 =选择供应商名称^开票\\ GenerateBill.aspx_16 =提供的数量^库存\\ CentralPurchaseOrder.aspx_5 =选择单位^管理员\\ InventoryProductMapping .aspx_7 =提供的属性添加^管理员\\ InventoryProductMapping.aspx_4 =选择估计量^</value>
+  </data>
+  <data name="Inventory\CollectAdvance.aspx" xml:space="preserve">
+    <value>库存\\ CollectAdvance.aspx_1 =金额不能为零^</value>
+  </data>
+  <data name="Inventory\ConsumableQuantity.aspx" xml:space="preserve">
+    <value>库存\\ ConsumableQuantity.aspx_1 =提供库存数量小于或等于作为上手^库存\\ ConsumableQuantity.aspx_2 =收集到期金额^库存\\ ConsumableQuantity.aspx_3 =提供库存数量小于或等于作为上手^库存\\ ConsumableQuantity.aspx_4 =确保项目添加/数量提供正确^库存\\ ConsumableQuantity.aspx_5 =提供收到的款项小于或等于净额^库存\\ ConsumableQuantity.aspx_6 =提供的金额超过净金额较大^</value>
+  </data>
+  <data name="Inventory\CreditInventoryDueClearance.aspx" xml:space="preserve">
+    <value>库存\\ CreditInventoryDueClearance.aspx_1 =收集提前量^库存\\ CreditInventoryDueClearance.aspx_2 =请输入全额^</value>
+  </data>
+  <data name="Inventory\Customers.aspx" xml:space="preserve">
+    <value>库存\\ Customers.aspx_1 =提供供应商名称^库存\\ Customers.aspx_10 =提供送货地址^库存\\ Customers.aspx_11 =位置已经存在！^库存\\ Customers.aspx_2 =提供锡数量^库存\ \ Customers.aspx_3 =提供联系人^库存\\ Customers.aspx_4 =提供的地址^库存\\ Customers.aspx_5 =提供至少一个联系号码^库存\\ Customers.aspx_6 =选择客户类型^库存\\ Customers.aspx_7 =为客户提供位置信息^库存\\ Customers.aspx_8 =提供客户类型^库存\\ Customers.aspx_9 =提供船舶位置^</value>
+  </data>
+  <data name="Inventory\DueClearance.aspx" xml:space="preserve">
+    <value>库存\\ DueClearance.aspx_1 =提供金额低于净金额^库存较大\\ DueClearance.aspx_2 =请收集整个应付金额。^库存\\ DueClearance.aspx_3 =折扣不能低于总金额^库存大\\ DueClearance.aspx_4 =折扣金额超过总价值更大^库存\\ DueClearance.aspx_5 =折扣不能高于量大^</value>
+  </data>
+  <data name="Inventory\EquipmentMaintenanceMaster.aspx" xml:space="preserve">
+    <value>库存\\ EquipmentMaintenanceMaster.aspx_1 =选择维护开始日期^库存\\ EquipmentMaintenanceMaster.aspx_2 =选择维护结束日期^库存\\ EquipmentMaintenanceMaster.aspx_3 =选择维护频率^</value>
+  </data>
+  <data name="Inventory\Expirydatedetails.aspx" xml:space="preserve">
+    <value>库存\\ Expirydatedetails.aspx_1 =选择的日期，迄今^库存\\ Expirydatedetails.aspx_2 =选择日期和日期^</value>
+  </data>
+  <data name="Inventory\Indents.aspx" xml:space="preserve">
+    <value>库存\\ Indents.aspx_1 =选择一个打算^库存\\ Indents.aspx_2 =该缩进已经被批准^库存\\ Indents.aspx_3 =这缩进不适合.... ^库存\\ Indents.aspx_4 =此缩进未获批准尚未^库存\\ Indents.aspx_5 =这缩进不适合.... ^</value>
+  </data>
+  <data name="Inventory\InPatientSearch.aspx" xml:space="preserve">
+    <value>库存\\ InPatientSearch.aspx_1 =提供一个搜索类^</value>
+  </data>
+  <data name="Inventory\Intend.aspx" xml:space="preserve">
+    <value>SelectRole.aspx_1 =选择组织^库存\\ Intend.aspx_1 =选择日期！^库存\\ Intend.aspx_2 =选择最新消息！^住院\\ DeliveryNotes.aspx_6 =无效的日期^库存\\ Intend.aspx_14 =这个打算不适合.... ^库存\\ Intend.aspx_25 =选择的打算是不适合这个位置^库存\\ Intend.aspx_23 =本打算不适合.... ^库存\\ Intend.aspx_21 =这个打算尚未批准^库存\\ Intend.aspx_18 =这个打算已经被批准^库存\\ Indents.aspx_1 =选择一个打算^库存\\ Intend.aspx_3 =改为位置^库存\\ Intend.aspx_4 =错误^</value>
+  </data>
+  <data name="Inventory\INVBulkLoad.aspx" xml:space="preserve">
+    <value>库存\\ INVBulkLoad.aspx_1 =选择产品上传类型^</value>
+  </data>
+  <data name="Inventory\INVBulkUpdate.aspx" xml:space="preserve">
+    <value>库存\\ INVBulkUpdate.aspx_1 =提供的产品名称^库存\\ INVBulkUpdate.aspx_2 =提供的产品名称^库存\\ INVBulkUpdate.aspx_3 =选择类别^库存\\ INVBulkUpdate.aspx_4 =选择类型^库存\\ INVBulkUpdate .aspx_5 =提供的数量^库存\\ INVBulkUpdate.aspx_6 =选择单位^库存\\ INVBulkUpdate.aspx_7 =提供售价^库存\\ INVBulkUpdate.aspx_8 =提供税收^库存\\ INVBulkUpdate.aspx_9 =提供的BatchNo ^库存\\ INVBulkUpdate.aspx_10 =提供每月^库存\\ INVBulkUpdate.aspx_11 =提供年度^库存\\ INVBulkUpdate.aspx_12 =提供成本价^</value>
+  </data>
+  <data name="Inventory\InventoryLocation.aspx" xml:space="preserve">
+    <value>库存\\ InventoryLocation.aspx_1 =提供的地点名称^库存\\ InventoryLocation.aspx_2 =选择位置键入^库存\\ InventoryLocation.aspx_3 =选择OrgAddress名^库存\\ InventoryLocation.aspx_4 =此位置不能被删除，因为是映射及与此位置^管理员\\ UserMaster.aspx_26 =提供的地点名称^管理员\\ UserMaster.aspx_28 =选择组织使用的地址一个或多个产品^</value>
+  </data>
+  <data name="Inventory\InvIpBilling.aspx" xml:space="preserve">
+    <value>库存\\ InvIpBilling.aspx_1 =收集提前量^</value>
+  </data>
+  <data name="Inventory\INVKitMaster.aspx" xml:space="preserve">
+    <value>库存\\ INVKitMaster.aspx_1 =提供任何KitName ^库存\\ INVKitMaster.aspx_2 =包名称已经存在^库存\\ INVKitMaster.aspx_3 =提供产品名称及数量^库存\\ INVKitMaster.aspx_4 =提供大于零^库存数量大\\ INVKitMaster.aspx_5 =产品组合已经存在^库存\\ INVKitMaster.aspx_6 =选择产品类别^库存\\ INVKitMaster.aspx_7 =选择产品类别^库存\\ INVKitMaster.aspx_8 =输入制造商名称^管理员\\ ManageInvKit.aspx_1 =提供套件名^库存\\ QuickStockReceived.aspx_16 =提供的产品名称^</value>
+  </data>
+  <data name="Inventory\InvoiceMapping.aspx" xml:space="preserve">
+    <value>库存\\ InvoiceMapping.aspx_1 =为提供/选择值起始日期^库存\\ InvoiceMapping.aspx_2 =为迄今为止提供/选择值^</value>
+  </data>
+  <data name="Inventory\IPPharmacyStockRefund.aspx" xml:space="preserve">
+    <value>库存\\ IPPharmacyStockRefund.aspx_1 =比尔药剂应支付^库存\\ IPPharmacyStockRefund.aspx_2 =退款金额应不大于实际收到的金额/退款仅大中华区到期项目只有^库存\\ IPPharmacyStockRefund.aspx_4 =收集提前量^</value>
+  </data>
+  <data name="Inventory\kitProductPrintSearch.aspx" xml:space="preserve">
+    <value>库存\\ kitProductPrintSearch.aspx_1 =选择KitBatch产品^</value>
+  </data>
+  <data name="Inventory\MedicineWiseReport.aspx" xml:space="preserve">
+    <value>库存\\ MedicineWiseReport.aspx_1 =选择起始日期！^库存\\ MedicineWiseReport.aspx_2 =选择最新消息！^库存\\ MedicineWiseReport.aspx_4 =不匹配日电流之间及结束日期^库存\\ MedicineWiseReport.aspx_5 =不匹配日间从＆至今^库存\\ MedicineWiseReport.aspx_6 =不匹配月份电流和终止日期^库存\\ MedicineWiseReport.aspx_7 =不匹配月间间从与结束日期^库存\\ MedicineWiseReport.aspx_8 =不匹配新年电流之间及结束日期^库存\\ MedicineWiseReport.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\NonMovingProductsReport.aspx" xml:space="preserve">
+    <value>库存\\ NonMovingProductsReport.aspx_1 =从日期和最新^清单中选择\\ NonMovingProductsReport.aspx_2 =从日期和日期选择^</value>
+  </data>
+  <data name="Inventory\PatientKitUsage.aspx" xml:space="preserve">
+    <value>库存\\ PatientKitUsage.aspx_1 =难道不允许添加填充量在表^库存\\ PatientKitUsage.aspx_2 =已经添加了此套件的产品^</value>
+  </data>
+  <data name="Inventory\PatientList.aspx" xml:space="preserve">
+    <value>库存\\ PatientList.aspx_1 =选择病人^库存\\ PatientList.aspx_2 =不能住院患者执行此操作^</value>
+  </data>
+  <data name="Inventory\ProductBulkLoad.aspx" xml:space="preserve">
+    <value>库存\\ ProductBulkLoad.aspx_1 =提供值正常^库存\\ ProductBulkLoad.aspx_10 =提供的数量^库存\\ ProductBulkLoad.aspx_11 =提供售价^库存\\ ProductBulkLoad.aspx_12 =提供到期日^库存\\作为产品具有与之^库存\\ ProductBulkLoad.aspx_14 =点击添加强加改变每批^库存\\ ProductBulkLoad.aspx_15 =产品名称和批号的组合已经存在^库存相关的多个批次不能进行ProductBulkLoad.aspx_13 =行动\\ ProductBulkLoad.aspx_16 =选择产品类别^库存\\ ProductBulkLoad.aspx_17 =产品名称前缀应该有超过三个字符^库存\\ ProductBulkLoad.aspx_2 =检查批次，以增加更多的库存^ \\ ProductBulkLoad.aspx_3 =提供批号^库存\\ ProductBulkLoad.aspx_4 =提供到期日^库存\\ ProductBulkLoad.aspx_5 =选择的产品类型^库存\\ ProductBulkLoad.aspx_6 =选择销售单位库存^ \\ ProductBulkLoad.aspx_7 =提供产品质量^库存\\ ProductBulkLoad.aspx_8 =提供售价^库存\\ ProductBulkLoad.aspx_9 =提供批号^</value>
+  </data>
+  <data name="Inventory\ProductCategories.aspx" xml:space="preserve">
+    <value>库存\\ ProductCategories.aspx_1 =提供的类别名称^库存\\ ProductCategories.aspx_3 =类别不存在^库存\\ ProductCategories.aspx_5 =类别标签对产品不能被删除^库存\\ ProductCategories.aspx_6 =选择类别删除^</value>
+  </data>
+  <data name="Inventory\ProductLegend.aspx" xml:space="preserve">
+    <value>库存\\ ProductLegend.aspx_1 =选择日期！^库存\\ ProductLegend.aspx_2 =选择最新消息！^库存\\ ProductLegend.aspx_4 =不匹配日电流之间及结束日期^库存\\ ProductLegend.aspx_5 =不匹配日间从＆至今^库存\\ ProductLegend.aspx_6 =不匹配月份电流和终止日期^库存\\ ProductLegend.aspx_7 =不匹配月间间从与结束日期^库存\\ ProductLegend.aspx_8 =不匹配新年电流之间及结束日期^库存\\ ProductLegend.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\ProductMaintenance.aspx" xml:space="preserve">
+    <value>库存\\ ProductMaintenance.aspx_1 =选择服务类型^</value>
+  </data>
+  <data name="Inventory\Products.aspx" xml:space="preserve">
+    <value>库存\\ Products.aspx_1 =提供的产品名称^库存\\ Products.aspx_2 =选择类型^库存\\ Products.aspx_3 =选择类别名称^库存\\ Products.aspx_4 =提供的订货点水平^库存\\ Products.aspx_5 =提供的使用计数^库存\\ Products.aspx_6 =提供的产品属性^库存\\ Products.aspx_7 =提供的产品属性^库存\\ Products.aspx_8 =选择最小单位可售库存^ \\产品。 aspx_9 =无法删除产品^</value>
+  </data>
+  <data name="Inventory\ProductsList.aspx" xml:space="preserve">
+    <value>库存\\ ProductsList.aspx_1 =选择产品^</value>
+  </data>
+  <data name="Inventory\ProductType.aspx" xml:space="preserve">
+    <value>库存\\ ProductType.aspx_1 =提供的产品名称^库存\\ ProductType.aspx_2 =删除成功^</value>
+  </data>
+  <data name="Inventory\ProjectionList.aspx" xml:space="preserve">
+    <value>库存\\ ProjectionList.aspx_1 =选择位置^库存\\ ProjectionList.aspx_2 =选择产品^库存\\ ProjectionList.aspx_3 =产品已经添加^库存\\ ProjectionList.aspx_4 =选择位置^</value>
+  </data>
+  <data name="Inventory\ProjectionListDetails.aspx" xml:space="preserve">
+    <value>库存\\ ProjectionListDetails.aspx_1 =选择位置^库存\\ ProjectionListDetails.aspx_2 =检查项目增加或数量适当地设有^</value>
+  </data>
+  <data name="Inventory\PurchaseOrderQuantity.aspx" xml:space="preserve">
+    <value>库存\\ PurchaseOrderQuantity.aspx_1 =选择单位^库存\\ PurchaseOrderQuantity.aspx_2 =检查项目增加或适当地设有数量^</value>
+  </data>
+  <data name="Inventory\PurchaseOrderReport.aspx" xml:space="preserve">
+    <value>库存\\ PurchaseOrderReport.aspx_1 =选择起始日期！^库存\\ PurchaseOrderReport.aspx_2 =选择最新消息！^库存\\ PurchaseOrderReport.aspx_3 =验证成功，“^库存\\ PurchaseOrderReport.aspx_4 =不匹配日电流和终止日期之间^库存\\ PurchaseOrderReport.aspx_5 =不匹配日间从与结束日期^库存\\ PurchaseOrderReport.aspx_6 =不匹配月份电流和终止日期^库存\\ PurchaseOrderReport.aspx_7 =不匹配月间从与结束日期^库存\\ PurchaseOrderReport之间。 aspx_8 =不匹配新年电流之间及结束日期^库存\\ PurchaseOrderReport.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\PurchaseOrderRequest.aspx" xml:space="preserve">
+    <value>库存\\ PurchaseOrderRequest.aspx_1 =选择采购订单日期^库存\\ PurchaseOrderRequest.aspx_10 =产品组合已经存在^库存\\ PurchaseOrderRequest.aspx_11 =提供的产品名称^库存\\ PurchaseOrderRequest.aspx_12 =选择类型^库存\\ PurchaseOrderRequest。 aspx_13 =选择类别名称^库存\\ PurchaseOrderRequest.aspx_14 =提供订货点水平^库存\\ PurchaseOrderRequest.aspx_2 =选择organisationInventory \\ PurchaseOrderRequest.aspx_3 =选择位置^库存\\ PurchaseOrderRequest.aspx_4 =选择组织机构和场所^库存\\ PurchaseOrderRequest.aspx_5 =提供产品名称^库存\\ PurchaseOrderRequest.aspx_6 =提供单位^库存\ PurchaseOrderRequest.aspx_7 =输入的数量必须大于0 ^库存\ PurchaseOrderRequest.aspx_8 =产品组合更大的存在^库存\ PurchaseOrderRequest.aspx_9 =提供产品名称^</value>
+  </data>
+  <data name="Inventory\PurchaseTaxReports.aspx" xml:space="preserve">
+    <value>库存\\ PurchaseTaxReports.aspx_1 =选择起始日期！^库存\\ PurchaseTaxReports.aspx_2 =选择最新消息！^库存\\ PurchaseTaxReports.aspx_4 =不匹配日电流和终止日期^库存\\ PurchaseTaxReports.aspx_5 =不匹配日间从之间＆至今^库存\\ PurchaseTaxReports.aspx_6 =不匹配月份电流和终止日期^库存\\ PurchaseTaxReports.aspx_7 =不匹配月间间从与结束日期^库存\\ PurchaseTaxReports.aspx_8 =不匹配新年电流之间及结束日期^库存\\ PurchaseTaxReports.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\QuickStockReceived.aspx" xml:space="preserve">
+    <value>库存\\ QuickStockReceived.aspx_1 =选择一个供应商库存^ \\ QuickStockReceived.aspx_3 =使用可用信用额^库存\\ QuickStockReceived.aspx_4 =使用信用额度内的每种不超过或等于GrandTotal ^库存\\ QuickStockReceived.aspx_6 =输入DC号码收到/InvoiceNo^Inventory\\QuickStockReceived.aspx_11=Select股票日期^库存\\ QuickStockReceived.aspx_12 =选择供应商名称^库存\\ QuickStockReceived.aspx_13 =提供发票明细^库存\\ QuickStockReceived.aspx_14 =检查产品清单^库存\\ QuickStockReceived.aspx_16 =提供的产品名称^库存\\ QuickStockReceived.aspx_17 =提供接收单位^库存\\ QuickStockReceived.aspx_18 =提供批号^库存\\ QuickStockReceived.aspx_20 =提供接收量^库存\\ QuickStockReceived。 aspx_22 =提供成本价^库存\\ QuickStockReceived.aspx_23 =提供发票数量^库存\\ QuickStockReceived.aspx_24 =提供对收到的LSA数量^库存\\ QuickStockReceived.aspx_25 =提供售价^库存\\ QuickStockReceived.aspx_26 =提供MRP ^库存\\ QuickStockReceived.aspx_27 =提供售价高于成本价^库存\\ QuickStockReceived.aspx_28 =低于成本的价格提供更大的MRP库存^ \\ QuickStockReceived.aspx_29 =产品名称和批号的组合已经存在^库存\\ QuickStockReceived。 aspx_32 =不匹配月之间的电流及制造日期^库存\\ QuickStockReceived.aspx_33 =不匹配当前月＆EXP日期^库存\\ QuickStockReceived.aspx_34 =不匹配年间的电流及制造日期^库存\\ QuickStockReceived.aspx_35 =不匹配年之间之间当前＆EXP日期^库存\\ QuickStockReceived.aspx_36 =提供的产品名称^库存\\ QuickStockReceived.aspx_37 =选择类型^库存\\ QuickStockReceived.aspx_38 =选择类别名称^库存\\ QuickStockReceived.aspx_39 =提供重新排序水平^库存\\ QuickStockReceived.aspx_40 =提供有效日期^库存\\ Products.aspx_8 =选择最低可供出售单位^</value>
+  </data>
+  <data name="Inventory\RaisedPurchaseOrder.aspx" xml:space="preserve">
+    <value>库存\\ RaisedPurchaseOrder.aspx_1 =请选择在每个下拉值^</value>
+  </data>
+  <data name="Inventory\ReceivedIndent.aspx" xml:space="preserve">
+    <value>库存\\ ReceivedIndent.aspx_2 =提供小于或等于发出数量^</value>
+  </data>
+  <data name="Inventory\ReceiveStock.aspx" xml:space="preserve">
+    <value>库存\\ ReceiveStock.aspx_1 =选择一个供应商库存^ \\ QuickStockReceived.aspx_5 =选择一个供应商名称^库存\\ QuickStockReceived.aspx_6 =输入DC输入/ InvoiceNo ^</value>
+  </data>
+  <data name="Inventory\RefundSearch.aspx" xml:space="preserve">
+    <value>Inventory\\RefundSearch.aspx_3=Select a refund number^
+Inventory\\ReceivedIndent.aspx_2=Provide  less than or equal to issued quantity^</value>
+  </data>
+  <data name="Inventory\ReturnPatient.aspx" xml:space="preserve">
+    <value>库存\\ ReturnPatient.aspx_1 =提供回报量小于或等于发出数量^库存\\ ReturnPatient.aspx_2 =提供返回量小于或等于发出量^</value>
+  </data>
+  <data name="Inventory\ReturnStockByBatch.aspx" xml:space="preserve">
+    <value>库存\\ ReturnStockByBatch.aspx_1 =返回数量必须小于或等于StockInHand ^库存\\ ReturnStockByBatch.aspx_2 =输入生化的返回^库存\\ ReturnStockByBatch.aspx_3 =至少选择一只股票项目用于返回^库存\\ ReturnStockByBatch。 aspx_4 =返还股票输入原因^</value>
+  </data>
+  <data name="Inventory\SalesTaxReport.aspx" xml:space="preserve">
+    <value>库存\\ SalesTaxReport.aspx_1 =选择起始日期！^库存\\ SalesTaxReport.aspx_2 =选择最新消息！^库存\\ SalesTaxReport.aspx_4 =不匹配日电流之间及结束日期^库存\\ SalesTaxReport.aspx_5 =不匹配日间从＆至今^库存\\ SalesTaxReport.aspx_6 =不匹配月份电流之间及结束日期^库存\\ SalesTaxReport.aspx_7 =不匹配月间从与结束日期^库存\\ SalesTaxReport.aspx_8 =不匹配新年电流之间及结束日期^库存\\ SalesTaxReport.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\scheduleDrugReport.aspx" xml:space="preserve">
+    <value>库存\\ scheduleDrugReport.aspx_2 =选择日期！^库存\\ scheduleDrugReport.aspx_3 =选择最新消息！^库存\\ scheduleDrugReport.aspx_4 =不匹配日电流之间及结束日期^库存\\ scheduleDrugReport.aspx_5 =不匹配日间从＆至今^库存\\ scheduleDrugReport.aspx_6 =不匹配月份电流和终止日期^库存\\ scheduleDrugReport.aspx_7 =不匹配月间间从与结束日期^库存\\ scheduleDrugReport.aspx_8 =不匹配新年电流之间及结束日期^库存\\ scheduleDrugReport.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\StockExpired.aspx" xml:space="preserve">
+    <value>库存\\ StockExpired.aspx_1 =选择股票的截止日期^库存\\ StockExpired.aspx_2 =选择产品^</value>
+  </data>
+  <data name="Inventory\StockIssuedReport.aspx" xml:space="preserve">
+    <value>库存\\ StockIssuedReport.aspx_1 =选择起始日期！^库存\\ StockIssuedReport.aspx_2 =选择最新消息！^库存\\ StockIssuedReport.aspx_4 =不匹配日电流之间及结束日期^库存\\ StockIssuedReport.aspx_5 =不匹配日间从＆至今^库存\\ StockIssuedReport.aspx_6 =不匹配月份电流和终止日期^库存\\ StockIssuedReport.aspx_7 =不匹配月间间从与结束日期^库存\\ StockIssuedReport.aspx_8 =不匹配新年电流之间及结束日期^库存\\ StockIssuedReport.aspx_9 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Inventory\StockReceive.aspx" xml:space="preserve">
+    <value>库存\\ ReceiveStock.aspx_2 =选择一个供应商^</value>
+  </data>
+  <data name="Inventory\StockReport.aspx" xml:space="preserve">
+    <value>CommonMessages_18 =选择从日期和日期^</value>
+  </data>
+  <data name="Inventory\StockReturn.aspx" xml:space="preserve">
+    <value>库存\\ StockReturn.aspx_1 =检查项目增加或数量提供正确^库存\\ StockReturn.aspx_10 =提供的产品名称^库存\\ StockReturn.aspx_2 =检查项目增加或提供适当数量的库存^ \ \ StockReturn.aspx_4 =提供退换货数量^库存\\ StockReturn.aspx_7 =产品名称和批号的组合已经存在^库存\\ StockReturn.aspx_8 =选择供应商^</value>
+  </data>
+  <data name="Inventory\StockSummary.aspx" xml:space="preserve">
+    <value>库存\\ StockSummary.aspx_1 =从日期和日期选择^</value>
+  </data>
+  <data name="Inventory\SuplierPurchaseOrder.aspx" xml:space="preserve">
+    <value>库存\\ SuplierPurchaseOrder.aspx_1 =请输入数量。^库存\\ SuplierPurchaseOrder.aspx_2 =请选择单位。^库存\\ SuplierPurchaseOrder.aspx_3 =请检查项目新增/数量进入正常^</value>
+  </data>
+  <data name="Inventory\SupplierAnalysisReport.aspx" xml:space="preserve">
+    <value>库存\\ SupplierAnalysisReport.aspx_1 =选择起始日期！^库存\\ SupplierAnalysisReport.aspx_2 =选择最新消息！^库存\\ SupplierAnalysisReport.aspx_4 =不匹配日电流之间及结束日期^库存\\ SupplierAnalysisReport.aspx_5 =不匹配日间从＆至今^库存\\ SupplierAnalysisReport.aspx_6 =不匹配月份电流和终止日期^库存\\ SupplierAnalysisReport.aspx_7 =不匹配月间间从与结束日期^库存\\ SupplierAnalysisReport.aspx_8 =不匹配新年电流之间及结束日期^库存\\ SupplierAnalysisReport.aspx_9 =不匹配年期间从与结束日期^库存\\ SupplierAnalysisReport.aspx_10 =选择组织^库存\\ SupplierAnalysisReport.aspx_11 =选择位置^</value>
+  </data>
+  <data name="Inventory\SupplierList.aspx" xml:space="preserve">
+    <value>库存\\ SupplierList.aspx_1 =选择产品^</value>
+  </data>
+  <data name="Inventory\UpdateStockReceived.aspx" xml:space="preserve">
+    <value>库存\\ UpdateStockReceived.aspx_1 =检查数量和单价^库存\\ UpdateStockReceived.aspx_2 =选择销售单位库存^ \\ UpdateStockReceived.aspx_3 =接收数量超出订购量^库存\\ UpdateStockReceived.aspx_4 =提供批号^库存\\ UpdateStockReceived.aspx_5 =销售价格不应该是零^库存\\ UpdateStockReceived.aspx_6 =选择生产日期^库存\\ UpdateStockReceived.aspx_7 =选择到期日^库存\\ UpdateStockReceived.aspx_8 =选择销售单位库存^ \\ UpdateStockReceived.aspx_9 =提供正确四舍五入净总^</value>
+  </data>
+  <data name="Inventory\UserIPStockReturn.aspx" xml:space="preserve">
+    <value>库存\\ UserIPStockReturn.aspx_1 =提供回报量小于或等于发出数量^库存\\ UserIPStockReturn.aspx_2 =提供返回量小于或等于发出量^</value>
+  </data>
+  <data name="Inventory\UserStockReturn.aspx" xml:space="preserve">
+    <value>库存\\ UserStockReturn.aspx_1 =提供回报量小于或等于发出数量^库存\\ UserStockReturn.aspx_2 =提供返回量小于或等于发出量^</value>
+  </data>
+  <data name="Inventory\ViewIntendDetail.aspx" xml:space="preserve">
+    <value>库存\\ ViewIntendDetail.aspx_1 =提供退货数量小于或等于发行量^</value>
+  </data>
+  <data name="Inventory\ViewIssuedIndentdetails.aspx" xml:space="preserve">
+    <value>库存\\ ViewIssuedIndentdetails.aspx_1 =提供退货数量小于或等于发行量^</value>
+  </data>
+  <data name="Inventory\ViewStockDamage.aspx" xml:space="preserve">
+    <value>库存\\ ViewStockReturn.aspx_1 =提供退货数量小于或等于可用数量^</value>
+  </data>
+  <data name="Inventory\ViewStockDisposal.aspx" xml:space="preserve">
+    <value>库存\\ ViewStockReturn.aspx_1 =提供退货数量小于或等于可用数量^</value>
+  </data>
+  <data name="Inventory\ViewStockReturn.aspx" xml:space="preserve">
+    <value>库存\\ ViewStockReturn.aspx_1 =提供退货数量小于或等于可用数量^</value>
+  </data>
+  <data name="CommonControls\AddDiagonosis.ascx" xml:space="preserve">
+    <value>CommonControls \\ AddDiagonosis.ascx_1 =无效的ICD码。是否要继续？^ CommonControls \\ AddDiagonosis.ascx_2 =无效诊断。你想继续吗？^ CommonControls \\ AddDiagonosis.ascx_4 =输入诊断^ CommonControls \ AddDiagonosis.ascx_5 =投诉已经添加过！^</value>
+  </data>
+  <data name="CommonControls\AddingRefPhysician.ascx" xml:space="preserve">
+    <value>CommonControls \\ AddingRefPhysician.ascx_1 =请输入医师姓名^ CommonControls \\ AddingRefPhysician.ascx_2 =请选择称谓^ CommonControls \\ AddingRefPhysician.ascx_3 =医院已经添加过！^</value>
+  </data>
+  <data name="CommonControls\AddNewInvestigation.ascx" xml:space="preserve">
+    <value>CommonControls \\ AddNewInvestigation.ascx.ascx_1 =请输入组名^ CommonControls \\ AddNewInvestigation.ascx.ascx_2 =请输入姓名调查^</value>
+  </data>
+  <data name="CommonControls\Advice.ascx" xml:space="preserve">
+    <value>CommonControls \\ Advice.ascx_3 =药品名称已经存在！^</value>
+  </data>
+  <data name="CommonControls\BillSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ BillSearch.ascx_1 =请选择用于至少一个搜索条件。^ CommonControls \\ BillSearch.ascx_2 =请输入医师姓名^ CommonControls \\ BillSearch.ascx_3 =请输入搜索文本找到医生^</value>
+  </data>
+  <data name="CommonControls\ClientSchedule.ascx" xml:space="preserve">
+    <value>CommonControls \\ ClientSchedule.ascx_1 =选定的日期必须大于或的currentdate大的currentdate ^ CommonControls \\ ClientSchedule.ascx_2 =选定的日期必须大于或的currentdate较少的currentdate ^</value>
+  </data>
+  <data name="CommonControls\CODICDCode.ascx" xml:space="preserve">
+    <value>CommonControls \\ CODICDCode.ascx_1 =无效的ICD码。是否要继续？^ CommonControls \\ CODICDCode.ascx_2 =无效诊断。是否要继续？^ CommonControls \\ CODICDCode.ascx_3 =输入的医疗问题^ CommonControls \\ CODICDCode.ascx_4 =投诉已经添加过！^</value>
+  </data>
+  <data name="CommonControls\ComplaintICDCode.ascx" xml:space="preserve">
+    <value>CommonControls \\ ComplaintICDCode.ascx_1 =无匹配的ICD 10码。你确定要继续使用现有的ICD码？^ CommonControls \\ ComplaintICDCode.ascx_2 =你确定要继续与现有的诊断^ CommonControls \\ ComplaintICDCode.ascx_3 =输入的医疗问题^ CommonControls \\ ComplaintICDCode.ascx_4 =投诉已经添加过！^ CommonControls \\ ComplaintICDCode.ascx_5 =提供的ICD代码^</value>
+  </data>
+  <data name="CommonControls\ComplaintICDCodeBP.ascx" xml:space="preserve">
+    <value>CommonControls \\ ComplaintICDCodeBP.ascx_1 =无效的ICD码。是否要继续？^ CommonControls \\ ComplaintICDCodeBP.ascx_3 =输入的医疗问题^ CommonControls \\ ComplaintICDCodeBP.ascx_4 =投诉已经添加过！^</value>
+  </data>
+  <data name="CommonControls\ConsultantDynamic.ascx" xml:space="preserve">
+    <value>CommonControls \\ ConsultantDynamic.ascx_1 =选择DR-名称^ CommonControls \\ ConsultantDynamic.ascx_2 =请填写金额^ CommonControls \\ ConsultantDynamic.ascx_3 =请填写单位，不能为0 ^ CommonControls \\ ConsultantDynamic.ascx_4 =博士的名字是已经添加过！^</value>
+  </data>
+  <data name="CommonControls\ConsultationDetails.ascx" xml:space="preserve">
+    <value>CommonControls \\ ConsultationDetails.ascx_1 =选择DR-名称^ CommonControls \\ ConsultationDetails.ascx_2 =请填写金额^ CommonControls \\ ConsultationDetails.ascx_3 =请填写单位，不能为0 ^ CommonControls \\ ConsultationDetails.ascx_4 =请输入医生姓名^ CommonControls \\ ConsultationDetails.ascx_5 =名称博士已添加！^</value>
+  </data>
+  <data name="CommonControls\ConsultationDynamicDetails.ascx" xml:space="preserve">
+    <value>CommonControls \\ ConsultationDynamicDetails.ascx_1 =选择专业^ CommonControls \\ ConsultationDynamicDetails.ascx_2 =专业/博士名称已经添加过！^</value>
+  </data>
+  <data name="CommonControls\CorpoRateDisplayAllData.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorpoRateDisplayAllData.ascx_1 =项目已经添加^。</value>
+  </data>
+  <data name="CommonControls\CorporateDisplayTempData.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorporateDisplayTempData.ascx_1 =项目已经添加^</value>
+  </data>
+  <data name="CommonControls\CorpoRateGeneralBillItems.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorpoRateGeneralBillItems.ascx_1 =请选择任何一个项目比尔^</value>
+  </data>
+  <data name="CommonControls\CorpoRatePackageProfileControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorpoRatePackageProfileControl.ascx_1 =磋商已经添加过！^ CommonControls \\ CorpoRatePackageProfileControl.ascx_2 =健康检查已经添加过！^</value>
+  </data>
+  <data name="CommonControls\CorporatePatientSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorporatePatientSearch.ascx_1 =请选择访问详细^</value>
+  </data>
+  <data name="CommonControls\CorpRateConsultationDynamicDetails.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorpRateConsultationDynamicDetails.ascx_1 =选择专业^ CommonControls \\ CorpRateConsultationDynamicDetails.ascx_2 =专业/博士名称已经添加过！^</value>
+  </data>
+  <data name="CommonControls\CorpRateInvestigationControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ CorpRateInvestigationControl.ascx_1 =调查已经添加过！^ CommonControls \\ CorpRateInvestigationControl.ascx_2 =输入名称调查^</value>
+  </data>
+  <data name="CommonControls\DateSelection.ascx" xml:space="preserve">
+    <value>CommonControls \\ DateSelection.ascx_1 =选择日期范围^ CommonControls \\ DateSelection.ascx_2 =提供寄件者^ CommonControls \\ DateSelection.ascx_3 =提供TODATE ^</value>
+  </data>
+  <data name="CommonControls\DaycarePatientSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ DaycarePatientSearch.ascx_1 =请选择访问详细^</value>
+  </data>
+  <data name="CommonControls\DepositUsage.ascx" xml:space="preserve">
+    <value>CommonControls \\ DepositUsage.ascx_1 =请检查净值，收到的金额并重新输入金额时使用。^</value>
+  </data>
+  <data name="CommonControls\DisplayAllData.ascx" xml:space="preserve">
+    <value>CommonControls \\ DisplayAllData.ascx_1 =项目已经添加^</value>
+  </data>
+  <data name="CommonControls\DisplayAllDataTemp.ascx" xml:space="preserve">
+    <value>CommonControls \\ DisplayAllDataTemp.ascx_1 =项目已经添加^</value>
+  </data>
+  <data name="CommonControls\DisplayIPData.ascx" xml:space="preserve">
+    <value>CommonControls \\ DisplayIPData.ascx_1 =项目已经添加^</value>
+  </data>
+  <data name="CommonControls\DoctorSchedule.ascx" xml:space="preserve">
+    <value>CommonControls \\ DoctorSchedule.ascx_1 =起始日期和时间不能少于结束日期和时间。^</value>
+  </data>
+  <data name="CommonControls\DuePaymentType.ascx" xml:space="preserve">
+    <value>CommonControls \\ DuePaymentType.ascx_1 =请输入支票/卡号^ CommonControls \\ DuePaymentType.ascx_2 =请输入银行名称/卡类型^ CommonControls \\ DuePaymentType.ascx_3 =金额应大于零^ CommonControls \\ DuePaymentType.ascx_4 =更大请输入金额比0 ^ CommonControls \\ DuePaymentType.ascx_5 =付款类型更大，量所需^ CommonControls \\ DuePaymentType.ascx_8 =入账金额应大于零^ CommonControls \\ DuePaymentType.ascx_10 =付款名称已经存在^ CommonControls \\ DuePaymentType .ascx_14 =提供的金额大于净额大于^ CommonControls \\ DuePaymentType.ascx_15 =提供收到的款项小于或等于净额^ CommonControls \\ DuePaymentType.ascx_16 = ^</value>
+  </data>
+  <data name="CommonControls\DynamicUserControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ DynamicUserControl.ascx_1 =外科已经添加过！^</value>
+  </data>
+  <data name="CommonControls\EmployerRegDetail.ascx" xml:space="preserve">
+    <value>CommonControls \\ EmployerRegDetail.ascx_1 =请输入员工没有^ CommonControls \\ EmployerRegDetail.ascx_2 =对外提供病人数ID ^ CommonControls \\ EmployerRegDetail.ascx_3 =提供家属人数^ CommonControls \\ EmployerRegDetail.ascx_4 =提供的关系类型^ CommonControls \\ EmployerRegDetail.ascx_5 =外部外部不添加^ CommonControls \\ EmployerRegDetail.ascx_6 =请外部病人^ CommonControls \\ EmployerRegDetail.ascx_7 =更新成功^ CommonControls \\ EmployerRegDetail.ascx_8 =更新Faild。^ CommonControls关联家属\\ EmployerRegDetail.ascx_9 =外部和家属患者姓名相同^ CommonControls \\ EmployerRegDetail.ascx_10 =员工人数已经存在。请重新输入^ CommonControls \\ EmployerRegDetail.ascx_12 =推广的号已经存在。请重新输入^ CommonControls \\ EmployerRegDetail.ascx_15 =选定个人已注册为病人。请继续做访问^</value>
+  </data>
+  <data name="CommonControls\FeesEntry.ascx" xml:space="preserve">
+    <value>CommonControls \\ FeesEntry.ascx_1 =请输入收费说明^ CommonControls \\ FeesEntry.ascx_2 =请选择收费类型^ CommonControls \\ FeesEntry.ascx_3 =请选择医师标记^ CommonControls \\ FeesEntry.ascx_4 =输入的医师姓名NOT EXISTS ^ CommonControls \\ FeesEntry.ascx_5 =请输入费用金额^</value>
+  </data>
+  <data name="CommonControls\FileUploadControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ FileUpload.ascx_1 =请选择要添加的文件。^ CommonControls \\ FileUpload.ascx_2 =请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）^ CommonControls \\ FileUpload.ascx_3 =请浏览至少一个文件上传。^</value>
+  </data>
+  <data name="CommonControls\GeneralAdvice.ascx" xml:space="preserve">
+    <value>CommonControls \\ GeneralAdvice.ascx_1 =建议已经存在^</value>
+  </data>
+  <data name="CommonControls\GeneralBillItems.ascx" xml:space="preserve">
+    <value>CommonControls \\ GeneralBillItems.ascx_1 =请选择任何一个项目比尔^</value>
+  </data>
+  <data name="CommonControls\HospitalBillSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ HospitalBillSearch.ascx_1 =请输入页码^ CommonControls \\ HospitalBillSearch.ascx_2 =请输入不正确的页面^</value>
+  </data>
+  <data name="CommonControls\ICDCodeReport.ascx" xml:space="preserve">
+    <value>CommonControls \\ ICDCodeReport.ascx_1 =进入ICDCode ^ CommonControls \\ ICDCodeReport.ascx_2 = ICD代码已经添加过！^</value>
+  </data>
+  <data name="CommonControls\InPatientSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ InpatientSearch.ascx_1 =请输入任何一个搜索类别^ CommonControls \\ InpatientSearch.ascx_2 =选择日期^</value>
+  </data>
+  <data name="CommonControls\InsuranceSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ InsuranceSearch.ascx_1 =从日期和最新^ CommonControls \\ InsuranceSearch.ascx_2 =索赔向前日期选择不能超过当前日期被超过。^ CommonControls \\ InsuranceSearch.ascx_3 =索赔向前日期不能超过排放较少的日期。 ^ CommonControls \\ InsuranceSearch.ascx_4 =索赔向前日期不能超过入院日期较小。^</value>
+  </data>
+  <data name="CommonControls\QuickPatientRegForLab.ascx" xml:space="preserve">
+    <value>CommonControls \\ QuickPatientRegForLab.ascx_1 =选择任何一个访问类型^ CommonControls \\ QuickPatientRegForLab.ascx_2 =选择访问目的^ CommonControls \\ QuickPatientRegForLab.ascx_3 =输入患者姓名^ CommonControls \\ QuickPatientRegForLab.ascx_4 =提供出生日期或年龄日期（在几天或数周或数月或数年）从列表中选择一个合适的^ CommonControls \\ QuickPatientRegForLab.ascx_5 =提供时间（以天或数周或数月或一年）从列表中选择^ CommonControls \\ QuickPatientRegForLab恰当的。 ascx_6 =提供有效的一年^ CommonControls \\ QuickPatientRegForLab.ascx_7 =提供有效的一个月^ CommonControls \\ QuickPatientRegForLab.ascx_8 =输入地址^ CommonControls \\ QuickPatientRegForLab.ascx_9 =进入城市^ CommonControls \\ QuickPatientRegForLab.ascx_10 =进入固定电话号码或手机号码^ CommonControls \\ QuickPatientRegForLab.ascx_11 =选择任何一个情节^ CommonControls \\ QuickPatientRegForLab.ascx_12 = Sitings完成这一集^ CommonControls \\ QuickPatientRegForLab.ascx_13 =二手Sitings为零，所以请选择Newsittings ^ CommonControls \\ QuickPatientRegForLab.ascx_14 =请（天或数周或数月或数年）输入年龄和从列表中选择合适的^ CommonControls \\ QuickPatientRegForLab.ascx_15 =请选择情节^ CommonControls \\ QuickPatientRegForLab.ascx_16 =智能卡无不能为空^ CommonControls \\ QuickPatientRegForLab.ascx_17 =没有病人找到^ CommonControls \\ QuickPatientRegForLab.ascx_18 =已经有在处理智能卡的一个问题^ CommonControls \\ QuickPatientRegForLab.ascx_19 =此URN类型已经存在^</value>
+  </data>
+  <data name="CommonControls\ReceiptSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ ReceiptSearch.ascx_1 =提前量不能退款^ CommonControls \\ ReceiptSearch.ascx_2 = CO支付金额不能退款^ CommonControls \\ ReceiptSearch.ascx_3 =释放的病人收据不能退款^ CommonControls \\ ReceiptSearch.ascx_4 =请输入页码^ CommonControls \\ ReceiptSearch.ascx_5 =请输入不正确的页面^</value>
+  </data>
+  <data name="CommonControls\ReferralsINV.ascx" xml:space="preserve">
+    <value>CommonControls \\ ReferralsINV.ascx_1 =请输入收费说明^ CommonControls \\ ReferralsINV.ascx_2 =请选择收费类型^ CommonControls \\ ReferralsINV.ascx_3 =请选择医师标记^ CommonControls \\ ReferralsINV.ascx_4 =请输入费用金额^</value>
+  </data>
+  <data name="CommonControls\RefPhysicianPatSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ RefPhysicianPatSearch.ascx_1 =请选择访问详细^</value>
+  </data>
+  <data name="CommonControls\RefundReceiptSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ RefundReceiptSearch.ascx_1 =的领域之一提供价值^ CommonControls \\ RefundReceiptSearch.ascx_2 =名称必须ATLEAST三个字符^</value>
+  </data>
+  <data name="CommonControls\RelatedSchedulesControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ RelatedSchedulesControl.ascx_1 =请选择插槽预订^</value>
+  </data>
+  <data name="CommonControls\ReminderDisplay.ascx" xml:space="preserve">
+    <value>CommonControls \\ ReminderDisplay.ascx_1 =进入推迟日期^</value>
+  </data>
+  <data name="CommonControls\SampleBillPrint.ascx" xml:space="preserve">
+    <value>CommonControls \\ SampleBillPrint.ascx_1 =请检查折扣^ CommonControls \\ SampleBillPrint.ascx_2 =请检查收到的金额^ CommonControls \\ SampleBillPrint.ascx_3 =如果信贷比尔，请选择医院^ CommonControls \\ SampleBillPrint.ascx_4 =总容量不正确^ CommonControls \\ SampleBillPrint.ascx_5 =款额，大于净额大于^</value>
+  </data>
+  <data name="CommonControls\SampleCollection.ascx" xml:space="preserve">
+    <value>CommonControls \\ SampleCollection.ascx_1 =采样已经存在^</value>
+  </data>
+  <data name="CommonControls\SequenceArrangement.ascx" xml:space="preserve">
+    <value>CommonControls \\ SequenceArrangement.ascx_ =选择部门名称!! ^ CommonControls \\ SequenceArrangement.ascx_2 =提供部门名称!! ^ CommonControls \\ SequenceArrangement.ascx_3 =提供部门代码！^</value>
+  </data>
+  <data name="CommonControls\SmartCard.ascx" xml:space="preserve">
+    <value>CommonControls \\ SmartCard.ascx_1 =检查智能卡是否发放给病人^</value>
+  </data>
+  <data name="CommonControls\SurgeryAdvance.ascx" xml:space="preserve">
+    <value>CommonControls \\ SurgeryAdvance.ascx_1 =选择治疗方案^ CommonControls \\ SurgeryAdvance.ascx_2 =付款方式和金额必需^ CommonControls \\ SurgeryAdvance.ascx_3 =请输入支票/卡号^ CommonControls \\ SurgeryAdvance.ascx_4 =请输入银行名称/卡类型^ CommonControls \\ SurgeryAdvance.ascx_5 =入账金额应大于零^ CommonControls \\ SurgeryAdvance.ascx_6 =付款名称已经存在较大的^</value>
+  </data>
+  <data name="CommonControls\SurgeryAdvanceQuickBill.ascx" xml:space="preserve">
+    <value>CommonControls \\ SurgeryAdvanceQuickBill.ascx_1 =请输入支票/卡号^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_2 =请输入银行名称/卡类型^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_3 =没有为这名患者没有手术项目，新增项目手术。 ^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_4 =金额应大于零^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_5 =金额应大于零^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_6 =付款类型更大，量所需^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_7 =入账金额应大于零^ CommonControls \\ SurgeryAdvanceQuickBill.ascx_8 =付款名称已经存在^</value>
+  </data>
+  <data name="CommonControls\SurgeryBilling.ascx" xml:space="preserve">
+    <value>CommonControls \\ SurgeryBilling.ascx_1 =选择治疗方案^ CommonControls \\ SurgeryBilling.ascx_2 =输入的费用^ CommonControls \\ SurgeryBilling.ascx_3 =助理已经添加过！^ CommonControls \\ SurgeryBilling.ascx_4 =麻醉师已经添加过！^ CommonControls \\ SurgeryBilling .ascx_5 =输入其他费用^ CommonControls \\ SurgeryBilling.ascx_6 =输入其他费用类型^ CommonControls \\ SurgeryBilling.ascx_7 =费用类型已经添加过！^</value>
+  </data>
+  <data name="CommonControls\SurgeryforProcedurePlanning.ascx" xml:space="preserve">
+    <value>CommonControls \\ SurgeryforProcedurePlanning.ascx_1 =假体已经存在^ CommonControls \\ SurgeryforProcedurePlanning.ascx_2 =选择付款^</value>
+  </data>
+  <data name="CommonControls\SurgicalItems.ascx" xml:space="preserve">
+    <value>CommonControls \\ SurgicalItems.ascx_1 =请输入项目^ CommonControls \\ SurgicalItems.ascx_2 =项目名称已经存在^</value>
+  </data>
+  <data name="CommonControls\TestMaster.ascx" xml:space="preserve">
+    <value>CommonControls \\ TestMaster.ascx_1 =选择备注型^ CommonControls \\ TestMaster.ascx_2 =选定的言论已经存在^ CommonControls \\ TestMaster.ascx_3 =选择一个的话^ CommonControls \\ TestMaster.ascx_4 =输入显示文本^ CommonControls \\ TestMaster。 ascx_5 =多个子产品类别不允许同时改变的细节^ CommonControls \\ TestMaster.ascx_6 = ATLEAST一个值所需的^ CommonControls \\ TestMaster.ascx_7 =原因需要^ CommonControls \\ TestMaster.ascx.cs_1 =无法保存测试细节大师！^</value>
+  </data>
+  <data name="CommonControls\TRFUpload.ascx" xml:space="preserve">
+    <value>CommonControls \\ TRFUpload.ascx_1 =请选择要添加的文件。^ CommonControls \\ TRFUpload.ascx_2 =请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）^ CommonControls \\ TRFUpload.ascx_3 =请浏览至少一个文件上传。^</value>
+  </data>
+  <data name="CommonControls\INVAttributes.ascx" xml:space="preserve">
+    <value>CommonControls \\ INVAttributeUsage.ascx_1 =输入值^</value>
+  </data>
+  <data name="CommonControls\InvBilling.ascx" xml:space="preserve">
+    <value>CommonControls \\ InvBilling.ascx_1 =请输入批号^ CommonControls \\ InvBilling.ascx_2 =请输入问题数量。^ CommonControls \\ InvBilling.ascx_3 =请检查项目新增/数量进入了正常。^ CommonControls \\ InvBilling.ascx_4 =请添加属性的详细信息。^ CommonControls \\ InvBilling.ascx_5 =产品名称和BatchNo是已经存在。^ CommonControls \\ InvBilling.ascx_6 =属性详细缺少一些产品^ CommonControls \\ InvBilling.ascx_7 =请输入产品名称^ CommonControls \\ InvBilling.ascx_8 =请输入收到金额小于或等于净额^ CommonControls \\ InvBilling.ascx_9 =款额，比净额^ CommonControls \\ InvBilling.ascx_10 =输入值^ CommonControls \\ InvBilling.ascx_11更大=输入的产品隐而不宣\'吨存在^</value>
+  </data>
+  <data name="CommonControls\InventorySearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ InventorySearch.ascx_1 =请选择一个订单^</value>
+  </data>
+  <data name="CommonControls\InvestigationControl.ascx" xml:space="preserve">
+    <value>CommonControl \\ InvestigationControl.ascx_1 =调查已经添加过！^ CommonControl \\ InvestigationControl.ascx_2 =您不能delfete这已经是标榜^ CommonControl \\ InvestigationControl.ascx_3 =输入名称调查^ CommonControls \\ InvestigationControl.ascx.cs_1 =调查项目已经添加！^</value>
+  </data>
+  <data name="CommonControls\InvestigationSearchControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ InvestigationSearchControl.ascx_1 =调查已经添加过！^ CommonControls \\ InvestigationSearchControl.ascx_1 =请选择调查^</value>
+  </data>
+  <data name="CommonControls\InvStockIssue.ascx" xml:space="preserve">
+    <value>CommonControls \\ InvStockIssue.ascx_1 =请输入批号^ CommonControls \\ InvStockIssue.ascx_2 =请输入问题数量^ CommonControls \\ InvStockIssue.ascx_3 =请检查项目新增/数量进入了正常。^ CommonControls \\ InvStockIssue.ascx_4 =请添加属性的详细信息。^ CommonControls \\ InvStockIssue.ascx_5 =产品名称和BatchNo是已经存在。^ CommonControls \\ InvStockIssue.ascx_6 =属性详细缺少一些产品^ CommonControls \\ InvStockIssue.ascx_7 =属性详细缺少一些产品^ CommonControls \\ InvStockIssue.ascx_8 =输入值^ CommonControls \\ InvStockIssue.ascx_9 =输入的产品隐而不宣\'吨存在^ CommonControls \\ InvStockIssue.ascx.cs_1 =产品数量已超过^ CommonControls \\ InvStockIssue.ascx.cs_2 =无法添加多次^ CommonControls \ InvStockIssue.ascx.cs_3 =产品详细信息不存在^</value>
+  </data>
+  <data name="CommonControls\IPClientTpaInsurance.ascx" xml:space="preserve">
+    <value>CommonControls \\ IPClientTpaInsurance.ascx_1 =共付额百分比必须0到100 ^ CommonControls之间\ IPClientTpaInsurance.ascx.cs_1 =有关这个组织没有一般的客户端^</value>
+  </data>
+  <data name="CommonControls\IpDrugEntry.ascx" xml:space="preserve">
+    <value>CommonControls \\ IpDrugEntry.ascx_1 =药品名称已经存在^</value>
+  </data>
+  <data name="CommonControls\LabPatientSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ LabPatientSearch.ascx_1 =请输入病人姓名^</value>
+  </data>
+  <data name="CommonControls\LocationUserMap.ascx" xml:space="preserve">
+    <value>CommonControls \\ ClientSchedule.ascx_1 =选择角色^</value>
+  </data>
+  <data name="CommonControls\ManageInvestigation.ascx" xml:space="preserve">
+    <value>CommonControls \\ ManageInvestigation.ascx_1 =输入最少2个字母^ CommonControls \\ ManageInvestigation.ascx_2 =选择调查主项^ CommonControls \\ ManageInvestigation.ascx_3 =选择组映射的项目^ CommonControls \\ ManageInvestigation.ascx.cs_1 =选择要移除的项目^ CommonControls \\ ManageInvestigation.ascx.cs_2 =选择要添加的项目^</value>
+  </data>
+  <data name="CommonControls\MedicalIndents.ascx" xml:space="preserve">
+    <value>CommonControls \\ MedicalIndents.ascx_1 =请输入项目名称^ CommonControls \\ MedicalIndents.ascx_2 =请输入其他物品^ CommonControls \\ MedicalIndents.ascx_3 =项目名称已经存在^</value>
+  </data>
+  <data name="CommonControls\MenuItemList.ascx" xml:space="preserve">
+    <value>CommonControls \\ MenuItemList.ascx_1 =没有报告发现的^</value>
+  </data>
+  <data name="CommonControls\MethodKitMapping.ascx" xml:space="preserve">
+    <value>CommonControls \\ MethodKitMapping.ascx_1 =已经添加请检查！^</value>
+  </data>
+  <data name="CommonControls\NutritionAdvice.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionAdvice.ascx_1 =建议已经存在^</value>
+  </data>
+  <data name="CommonControls\OrthoEMR.ascx" xml:space="preserve">
+    <value>CommonControls \\ OrthoEMR.ascx_1 =选择身体的一部分^ CommonControls \\ OrthoEMR.ascx_2 =已加入^ CommonControls \\ OrthoEMR.ascx_3 =输入位置^</value>
+  </data>
+  <data name="CommonControls\PackageProfileControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ PackageProfileControl.ascx_1 =磋商已经添加过！^ CommonControls \\ PackageProfileControl.ascx_2 =健康检查已经添加过！^</value>
+  </data>
+  <data name="CommonControls\PackageProfileControl1.ascx" xml:space="preserve">
+    <value>CommonControls \\ PackageProfileControl1.ascx_1 =输入包名称^ CommonControls \\ PackageProfileControl1.ascx_2 =磋商已经添加过！^ CommonControls \\ PackageProfileControl1.ascx_3 =健康检查已经添加过！^</value>
+  </data>
+  <data name="CommonControls\PatientFileUploader.ascx" xml:space="preserve">
+    <value>CommonControls \\ PatientFileUploader.ascx_1 =请选择要添加的文件。^ CommonControls \\ PatientFileUploader.ascx_2 =请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）^ CommonControls \\ PatientFileUploader.ascx_3 =请浏览至少一个文件上传。^</value>
+  </data>
+  <data name="CommonControls\PatientSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ PatientSearch.ascx_1 =请输入页码^ CommonControls \\ PatientSearch.ascx_2 =请输入正确的页码^ CommonControls \\ PatientSearch.ascx_3 =请选择访问详细^</value>
+  </data>
+  <data name="CommonControls\PaymentTypeDetails.ascx" xml:space="preserve">
+    <value>CommonControls \\ PaymentTypeDetails.ascx_1 =请输入支票/卡号^ CommonControls \\ PaymentTypeDetails.ascx_2 =请输入银行名称/卡类型^ CommonControls \\ PaymentTypeDetails.ascx_3 =请输入优惠券单位^ CommonControls \\ PaymentTypeDetails.ascx_4 =量应大于零^ CommonControls \\ PaymentTypeDetails.ascx_5 =请输入金额比0 ^ CommonControls \\ PaymentTypeDetails.ascx_6 =付款方式和金额必需^ CommonControls更大的\\ PaymentTypeDetails.ascx_7 =请输入利息^ CommonControls \\ PaymentTypeDetails的男高音.ascx_8 =入账金额应大于零^ CommonControls \\ PaymentTypeDetails.ascx_9 =选择货币类型更大^ CommonControls \\ PaymentTypeDetails.ascx_10 =请输入利息EMI ^ CommonControls \\ PaymentTypeDetails.ascx_12 =付款名称已经存在^ CommonControls率\ \ PaymentTypeDetails.ascx_13 =选择货币类型^</value>
+  </data>
+  <data name="CommonControls\ProductControl.ascx" xml:space="preserve">
+    <value>CommonControls \\ ProductControl.ascx_1 =提供的产品名称^ CommonControls \\ ProductControl.ascx_2 =选择产品类型^ CommonControls \\ ProductControl.ascx_3 =选择类别名称^ CommonControls \\ ProductControl.ascx_4 =提供订货点水平^ CommonControls \\ ProductControl.ascx_5 =提供使用次数^ CommonControls \\ ProductControl.ascx_6 =选择最低可供出售单位^ CommonControls \\ ProductControl.ascx_7 =无法删除产品^ CommonControls \\ ProductControl.ascx_8 =提供产品属性^</value>
+  </data>
+  <data name="CommonControls\QuickBillDisplayAllData.ascx" xml:space="preserve">
+    <value>CommonControls \\ QuickBillDisplayAllData.ascx_1 =项目已经添加^</value>
+  </data>
+  <data name="CommonControls\QuickPatientReg.ascx" xml:space="preserve">
+    <value>CommonControls \\ QuickPatientReg.ascx_1 =选择任何一个访问类型^ CommonControls \\ QuickPatientReg.ascx_2 =选择访问目的^ CommonControls \\ QuickPatientReg.ascx_3 =输入患者姓名^ CommonControls \\ QuickPatientReg.ascx_4 =提供出生日期或年龄日期（以天或数周或数月或数年）从列表中选择一个合适的^ CommonControls \\ QuickPatientReg.ascx_5 =提供时间（以天或数周或数月或一年）从列表中选择^ CommonControls \\ QuickPatientReg恰当的。 ascx_6 =提供有效的一年^ CommonControls \\ QuickPatientReg.ascx_7 =提供有效的一个月^ CommonControls \\ QuickPatientReg.ascx_8 =选择婚姻状况^ CommonControls \\ QuickPatientReg.ascx_9 =输入地址^ CommonControls \\ QuickPatientReg.ascx_10 =输入市^ CommonControls \\ QuickPatientReg.ascx_11 =输入的固定电话号码或手机号码^ CommonControls \\ QuickPatientReg.ascx_12 =选择任何一个情节^ CommonControls \\ QuickPatientReg.ascx_13 =开庭完成这个情节^ CommonControls \\ QuickPatientReg.ascx_14 =用于开庭为零。请选择新的开庭^ CommonControls \\ QuickPatientReg.ascx_15 =请选择情节^ CommonControls \\ QuickPatientReg.ascx_16 =智能卡无不能为空^ CommonControls \\ QuickPatientReg.ascx_17 =没有病人找到^ CommonControls \\ QuickPatientReg.ascx_18 =请输入在（天或数周或数月或数年）年龄：从列表中选择合适的^ CommonControls \\ QuickPatientReg.ascx_19 =已经有在处理智能卡的一个问题^</value>
+  </data>
+  <data name="PatientAccess\InvestigationReport.aspx" xml:space="preserve">
+    <value>PatientAccess\\InvestigationReport.aspx_7=Select an investigation^
+PatientAccess\\InvestigationReport.aspx_6=Select an investigation to display  report^
+PatientAccess\\InvestigationReport.aspx_5=Please Enter Atlease One Search option^
+PatientAccess\\InvestigationReport.aspx_4=Please Enter Patient No^
+PatientAccess\\InvestigationReport.aspx_3=Provide visit date^
+PatientAccess\\InvestigationReport.aspx_2=Select any one of the action to proceed^
+PatientAccess\\InvestigationReport.aspx_1=Select visit detail^</value>
+  </data>
+  <data name="PatientAccess\PatientAccountInfo.aspx" xml:space="preserve">
+    <value>PatientAccess\\PatientAccountInfo.aspx_8=Provide a secret answer^
+PatientAccess\\PatientAccountInfo.aspx_7=Provide a secret question^
+PatientAccess\\PatientAccountInfo.aspx_6=Select a secret question^
+PatientAccess\\PatientAccountInfo.aspx_5=There is a password mismatch^
+PatientAccess\\PatientAccountInfo.aspx_4=New password and old password cannot be same^
+PatientAccess\\PatientAccountInfo.aspx_3=Provide confirm password^
+PatientAccess\\PatientAccountInfo.aspx_2=Provide new password^
+PatientAccess\\PatientAccountInfo.aspx_1=Provide old password^</value>
+  </data>
+  <data name="PatientAccess\PatientDetails.aspx" xml:space="preserve">
+    <value>PatientAccess\\PatientDetails.aspx_9=Provide the sex^
+PatientAccess\\PatientDetails.aspx_8=Provide the marital status^
+PatientAccess\\PatientDetails.aspx_7=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_6=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_5=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_4=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_3=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_2=Provide a valid e-mail ID^
+PatientAccess\\PatientDetails.aspx_14=Provide the city in current address^
+PatientAccess\\PatientDetails.aspx_13=Provide the street/road name in current address^
+PatientAccess\\PatientDetails.aspx_12=Provide at least one contact number^
+PatientAccess\\PatientDetails.aspx_11=Provide the city in permanent address^
+PatientAccess\\PatientDetails.aspx_10=Provide the street/road name in permanent address^
+PatientAccess\\PatientDetails.aspx_1=Provide a valid e-mail ID^</value>
+  </data>
+  <data name="PatientAccountInfo.aspx" xml:space="preserve">
+    <value>PatientAccountInfo.aspx_8=Enter Secret Answer^
+PatientAccountInfo.aspx_7=Enter Secret Question^
+PatientAccountInfo.aspx_6=Select Secret Question^
+PatientAccountInfo.aspx_5=Password Mismatch^
+PatientAccountInfo.aspx_4=New Password and Old Password cannot be same^
+PatientAccountInfo.aspx_3=Enter Confirm password^
+PatientAccountInfo.aspx_2=Enter New password^
+PatientAccountInfo.aspx_1=Enter Old password^</value>
+  </data>
+  <data name="Patient\PatientHistoryPackage.aspx" xml:space="preserve">
+    <value>Patient\\PatientHistoryPackage.aspx_2=Provide the year for corresponding dose^
+Patient\\PatientHistoryPackage.aspx_1=Surgery already added^
+Patient\\PatientHistoryPackage.aspx.cs_3=Changes saved successfully.^</value>
+  </data>
+  <data name="Patient\ReceiptRefundtoPatient.aspx" xml:space="preserve">
+    <value>Patient\\ReceiptRefundtoPatient.aspx_9=Please Enter Bank Name^
+Patient\\ReceiptRefundtoPatient.aspx_8=Please Enter Cheque Number^
+Patient\\ReceiptRefundtoPatient.aspx_7=Refunded Successfully^
+Patient\\ReceiptRefundtoPatient.aspx_6=Please Enter Bank Name^
+Patient\\ReceiptRefundtoPatient.aspx_5=Please Enter Cheque Number^
+Patient\\ReceiptRefundtoPatient.aspx_4=Result value cannot be blank^
+Patient\\ReceiptRefundtoPatient.aspx_3=Reason for cancellation is mandatory^
+Patient\\ReceiptRefundtoPatient.aspx_2=Reason is Mandatory"^
+Patient\\ReceiptRefundtoPatient.aspx_12=Refund will be Assigned. Do you wish to continue?"^
+Patient\\ReceiptRefundtoPatient.aspx_11=Refund will be processed. Do you wish to continue?"^
+Patient\\ReceiptRefundtoPatient.aspx_10=Do you wish to take Print?^
+Patient\\ReceiptRefundtoPatient.aspx_1=Only Digits Are Allowed"^
+Patient\\ReceiptRefundtoPatient.aspx.cs_13=Task Assigned to this Bill. So You cannot Refund^</value>
+  </data>
+  <data name="Patient\RefundtoPatient.aspx" xml:space="preserve">
+    <value>Patient\\RefundtoPatient.aspx.cs_6=Amount Has Not Been Refunded^Patient\\RefundtoPatient.aspx.cs_7=Amount has been successfully Refunded^Patient\\RefundtoPatient.aspx.cs_1=Bill yet to be generated^Patient\\RefundtoPatient.aspx.cs_2=Task assigned to administrator. You cannot cancel this bill^Patient\\RefundtoPatient.aspx.cs_3=Task assigned to administrator. You cannot refund this bill^Patient\\RefundtoPatient.aspx.cs_5=Task Assigned to {0}^Patient\\RefundtoPatient.aspx.cs_8=Bill cannont be cancelled, due to Previous Dues are paid in this bill. So please refund the amount.^Patient\\RefundtoPatient.aspx.cs_4=Amount Successfully Refunded^Patient\\RefundtoPatient.aspx_9=Please Enter Bank Name^
+Patient\\RefundtoPatient.aspx_8=Please Enter Cheque Number^
+Patient\\RefundtoPatient.aspx_7=Refunded Successfull^
+Patient\\RefundtoPatient.aspx_6=Please provide the Authorised person name^
+Patient\\RefundtoPatient.aspx_5=Field Cannot be empty^
+Patient\\RefundtoPatient.aspx_4=Result value cannot be blank^
+Patient\\RefundtoPatient.aspx_3=Reason for cancellation is mandatory^
+Patient\\RefundtoPatient.aspx_2=Reason is Mandatory^
+Patient\\RefundtoPatient.aspx_12=Refund will be Assigned. Do you wish to continue?^
+Patient\\RefundtoPatient.aspx_11=Refund will be processed. Do you wish to continue?^
+Patient\\RefundtoPatient.aspx_10=Do you wish to take Print?^
+Patient\\RefundtoPatient.aspx_1=Only Digits Are Allowed^
+Patient\\RefundtoPatient.aspx.cs_15=Amount has been successfully Refunded^Patient\\RefundtoPatient.aspx_17=Amount should be greater than ZERO^Patient\\RefundtoPatient.aspx_20=Cannot Refund to this Bill^
+Patient\\RefundtoPatient.aspx.cs_14=Task Assigned to this Bill. So You cannot Refund^Patient\\RefundtoPatient.aspx_16=Amount Cannot be greater than Received/Refundable Amount^Patient\\RefundtoPatient.aspx_18=Please Select atleast one Bill Item^
+Patient\\RefundtoPatient.aspx.cs_13=Task Assigned to this Bill. So You cannot Refund^Patient\\RefundtoPatient.aspx_19=Refund Amount Should Not be Higher than Received Amount^Patient\\RefundtoPatient.aspx_21=Samples are in progress. You cannot allow to cancel bill^Patient\\RefundtoPatient.aspx_22=Cannot Refund to this Bill^Patient\\RefundtoPatient.aspx.cs_9=Bill cannont be cancelled, due to Dues are paid in concurrent Bills. So please refund the amount.^Patient\\RefundtoPatient.aspx.cs_10=Bill cannont be cancelled, due to partial amount or full amount has been paid. So please refund the amount.^Patient\\RefundtoPatient.aspx.cs_11=Task Assign to Admin^Patient\\RefundtoPatient.aspx.cs_12=Bill has been successfully cancelled^Patient\\RefundtoPatient.aspx.cs_13=Bill has not been cancelled^Patient\\RefundtoPatient.aspx.cs_14=Service Canceled^Patient\\RefundtoPatient.aspx.cs_15=Cancel has not been Done^Patient\\RefundtoPatient.aspx.cs_16=Service has been successfully Canceled^</value>
+  </data>
+  <data name="Physician\DischargeSummary.aspx" xml:space="preserve">
+    <value>Physician\\DischargeSummary.aspx_4=Prosthesis already exist^Physician\\DischargeSummary.aspx_5=Please Enter General Advice^
+Physician\\DischargeSummary.aspx_3=Diagnosis already added^
+Physician\\DischargeSummary.aspx_2=Provide the valid IP number^
+Physician\\DischargeSummary.aspx_1=Provide the date and time of discharge^</value>
+  </data>
+  <data name="Physician\IPCaseRecord.aspx" xml:space="preserve">
+    <value>Physician\\IPCaseRecord.aspx_9=Are you sure you wish to cancel?"^
+Physician\\IPCaseRecord.aspx_8=Other backround problem already added^
+Physician\\IPCaseRecord.aspx_7=Provide other backround problem^
+Physician\\IPCaseRecord.aspx_6=Prosthesis already exist^
+Physician\\IPCaseRecord.aspx_5=Diagnosis already added^
+Physician\\IPCaseRecord.aspx_4=History already added^
+Physician\\IPCaseRecord.aspx_3=Provide event  location^
+Physician\\IPCaseRecord.aspx_23=Please Enter the Sitting^
+Physician\\IPCaseRecord.aspx_22=Please Enter Atleast One Sitting^
+Physician\\IPCaseRecord.aspx_21=There is some problem in selecting procedures^
+Physician\\IPCaseRecord.aspx_20=There was a some problem in selecting procedures^
+Physician\\IPCaseRecord.aspx_2=Provide event date^
+Physician\\IPCaseRecord.aspx_19=Will be Scheduled later^
+Physician\\IPCaseRecord.aspx_18=The prescription part cannot be altered as the task in pharmacy is already picked.^
+Physician\\IPCaseRecord.aspx_17=Enter valid Next Review Date, it should be greater than Today.^
+Physician\\IPCaseRecord.aspx_16=Enter valid Next Review Date^
+Physician\\IPCaseRecord.aspx_15=Select Duration Type^
+Physician\\IPCaseRecord.aspx_14=Enter Duration^
+Physician\\IPCaseRecord.aspx_13=Enter History^
+Physician\\IPCaseRecord.aspx_12=The ordered investigation part cannot be altered as the task in lab is already picked.^
+Physician\\IPCaseRecord.aspx_11=The ordered investigation part cannot be altered as the task in lab is already finsh.Go to Make Visit.^
+Physician\\IPCaseRecord.aspx_10=Provide OnBehalf of^
+Physician\\IPCaseRecord.aspx_1=Please enter History / Diagnosis details."^</value>
+  </data>
+  <data name="Physician\OperationNotes.aspx" xml:space="preserve">
+    <value>Physician\\OperationNotes.aspx_9=Already Added!^
+Physician\\OperationNotes.aspx_8=Already Added!^
+Physician\\OperationNotes.aspx_7=Already Added!^
+Physician\\OperationNotes.aspx_6=Already Added!^
+Physician\\OperationNotes.aspx_5=Complication already added^
+Physician\\OperationNotes.aspx_4=Select treatment plan^
+Physician\\OperationNotes.aspx_3=Provide the from time^
+Physician\\OperationNotes.aspx_2=Select the chief doctor^
+Physician\\OperationNotes.aspx_11=Prosthesis already exist^
+Physician\\OperationNotes.aspx_10=Treatment Plan Already Added!"^
+Physician\\OperationNotes.aspx_1=Provide surgery / procedure  details^
+Physician\\OperationNotes.aspx.cs_12=Select any one^</value>
+  </data>
+  <data name="Reception\Adddiagonosis.aspx" xml:space="preserve">
+    <value>Reception\\Adddiagonosis.aspx_1=Add Diagnosis before saving^
+Reception\\Adddiagonosis.aspx.cs_2=Changes saved successfully.^</value>
+  </data>
+  <data name="Reception\CommunicablediseasesMaster.aspx" xml:space="preserve">
+    <value>Reception\\CommunicablediseasesMaster.aspx_1=Add communicable diseases before saving^
+Reception\\CommunicablediseasesMaster.aspx.cs_2=Changes saved successfully.^</value>
+  </data>
+  <data name="Reception\DueCollection.aspx" xml:space="preserve">
+    <value>Reception\\DueCollection.aspx_2=Check the received due amount^
+Reception\\DueCollection.aspx_1=Check the received due amount^</value>
+  </data>
+  <data name="Reception\HISAdmission.aspx" xml:space="preserve">
+    <value>Reception\\HISAdmission.aspx_2=Provide rate of delivery^
+Reception\\HISAdmission.aspx_1=Select mode of delivery^</value>
+  </data>
+  <data name="Reception\InPatientRegistration.aspx" xml:space="preserve">
+    <value>Reception\\InPatientRegistration.aspx_9=Collect Registration Fee or Select PayLater^
+Reception\\InPatientRegistration.aspx_8=Select the Client or TPA to apply credit bill^
+Reception\\InPatientRegistration.aspx_7=Provide the contact no^
+Reception\\InPatientRegistration.aspx_6=Provide the admission date^
+Reception\\InPatientRegistration.aspx_5=Select the specialty^
+Reception\\InPatientRegistration.aspx_4=Select the primary physician name^
+Reception\\InPatientRegistration.aspx_3=Primary consultant already added^
+Reception\\InPatientRegistration.aspx_29=Gross Bill amount Greater than Credit Limit^
+Reception\\InPatientRegistration.aspx_28=Please Enter Credit Limit^
+Reception\\InPatientRegistration.aspx_27=Please select Surgery Patient Yes or No^
+Reception\\InPatientRegistration.aspx_26=Registration Fee is Zero^
+Reception\\InPatientRegistration.aspx_25=Given Amount is less than the Registration Fee^
+Reception\\InPatientRegistration.aspx_24=Amount Cannot be Zero^
+Reception\\InPatientRegistration.aspx_23=Total Amount cannot be Greater^
+Reception\\InPatientRegistration.aspx_22=Please Select a Payment^
+Reception\\InPatientRegistration.aspx_21=Collect Registration Fee or Select PayLater^
+Reception\\InPatientRegistration.aspx_20=Collect Registration Fee or Select PayLater^
+Reception\\InPatientRegistration.aspx_2=Provide the correct primary consultant name^
+Reception\\InPatientRegistration.aspx_19=Provide either mobile or landline contact number^
+Reception\\InPatientRegistration.aspx_18=Provide the city^
+Reception\\InPatientRegistration.aspx_17=Provide the employer details - street/road name^
+Reception\\InPatientRegistration.aspx_16=Provide the employer name^
+Reception\\InPatientRegistration.aspx_15=Provide either mobile or landline contact number^
+Reception\\InPatientRegistration.aspx_14=Provide the city^
+Reception\\InPatientRegistration.aspx_13=Provide the employer details - street/road name^
+Reception\InPatientRegistration.aspx_12=Provide event  location^
+Reception\InPatientRegistration.aspx_11=Provide event date^
+Reception\\InPatientRegistration.aspx_10=Collect Registration Fee or Select PayLater^
+Reception\\InPatientRegistration.aspx_1=Provide the primary consultant name^</value>
+  </data>
+  <data name="Reception\InPatientSearch.aspx" xml:space="preserve">
+    <value>Reception\\InPatientSearch.aspx_1=Provide any one search category^
+
+Reception\\InPatientSearch.aspx.cs_6=Discharge summary already completed for this patient. Please contact Administrator^
+Reception\\InPatientSearch.aspx.cs_5=No Physiotherapy ordered/Pending for this patient^
+Reception\\InPatientSearch.aspx.cs_4=This action can be performed for New born baby^
+Reception\\InPatientSearch.aspx.cs_3=This action cannot be performed for male patient^
+Reception\\InPatientSearch.aspx.cs_20=URL not found^
+Reception\\InPatientSearch.aspx.cs_12=This cannot be performed as the Room is not occupied by this patient^Reception\\InPatientSearch.aspx_2=This action cannot be performed for the client patient_resx^</value>
+  </data>
+  <data name="Reception\LabPatientSearch.aspx" xml:space="preserve">
+    <value>Reception\\LabPatientSearch.aspx_2=Select value for others^
+Reception\\LabPatientSearch.aspx_1=Provide any one search category^</value>
+  </data>
+  <data name="Reception\PatientList.aspx" xml:space="preserve">
+    <value>Reception\\PatientList.aspx_2=This action cannot be performed for inpatients^
+Reception\\PatientList.aspx_1=Select the patient^</value>
+  </data>
+  <data name="Reception\PatientOldNotes.aspx" xml:space="preserve">
+    <value>Reception\PatientOldNotes.aspx_3=Provide document date^
+Reception\PatientOldNotes.aspx_2=Provide document title^
+Reception\PatientOldNotes.aspx_1=Provide name for the doctor^
+Reception\PatientOldNotes.aspx.cs_4=Please Upload File and then Save^</value>
+  </data>
+  <data name="Reception\PatientRegistration.aspx" xml:space="preserve">
+    <value>Reception\\PatientRegistration.aspx_2=Please Registration Next go Process^
+Reception\\PatientRegistration.aspx_9=Updated successfully^
+Reception\\PatientRegistration.aspx_8=Years^
+Reception\\PatientRegistration.aspx_7=Service cannot be placed as the dependent is above the configured limit of^
+Reception\\PatientRegistration.aspx_6=This patient is not yet dischared; action cannot be performed^
+Reception\\PatientRegistration.aspx_5=Enter URNumber^
+Reception\\PatientRegistration.aspx_4=Provide a valid month^
+Reception\\PatientRegistration.aspx_3=Provide a valid year^
+Reception\\PatientRegistration.aspx_2=Provide age in (days or weeks or months or year) &amp; choose appropriate from the list^
+Reception\\PatientRegistration.aspx_11=The first character of the name must be a letter^
+Reception\\PatientRegistration.aspx_1=New visits and ordering of services cannot be done as the patient is not in active status^
+Reception\\PatientRegistration.aspx.cs_9=Patient number already exits^
+Reception\\PatientRegistration.aspx.cs_8=The patient details with same name and contact details already exist. Provide the changes and retry.^Reception\\PatientRegistration.aspx_25=Provide Approved By ^Reception\\PatientRegistration.aspx_26=Donor registered successfully^Reception\\PatientRegistration.aspx_27=There was a problem in Save Billing Details.^
+Reception\\PatientRegistration.aspx.cs_7=Patient number already exits^
+Reception\\PatientRegistration.aspx.cs_11=The patient details with same name and contact details already exist. Provide the changes and retry.^
+Reception\\PatientRegistration.aspx.cs_10=The patient details with same name and contact details already exist. Provide the changes and retry.^Commonmessages_1=Provide name^
+CommonMessages_10=Provide URN number^
+CommonMessages_11=Select URN type^
+CommonMessages_12=Provide any one contact number^
+CommonMessages_13=Provide the street/road name in current address^
+CommonMessages_14=Select a reason for Re-Issue of Smart Card^
+CommonMessages_15=Browse a file to upload^
+CommonMessages_16=The file must have an extension of(.jpg,.png,.gif,.jpeg,.bmp)^
+CommonMessages_17=Maximum size of the file is 4 MB only^
+CommonMessages_18=Provide / select From date^
+CommonMessages_19=Provide / select To date^
+CommonMessages_2=Provide Date Of Birth or Age^
+CommonMessages_20=No Matching Records found for the selected dates^
+CommonMessages_3=Select Marital status^
+CommonMessages_4=Select sex^
+CommonMessages_5=Provide  address^CommonMessages_23=It should start with 0^CommonMessages_24=Provide  {0} digits Mobileno_resx^CommonMessages_25=Should not more than  {0} digits^
+CommonMessages_6=Provide city^CommonMessages_22=It should start with 9^CommonMessages_21=Enter numeric value^
+CommonMessages_7=Provide contact number^
+CommonMessages_8=Select country name^
+CommonMessages_9=Select state name^</value>
+  </data>
+  <data name="Reception\PatientSearch.aspx" xml:space="preserve">
+    <value>Reception\\PatientSearch.aspx_4=Provide any one search category^
+Reception\\PatientSearch.aspx_3=Select others^
+Reception\\PatientSearch.aspx_2=Select Date^
+Reception\\PatientSearch.aspx_1=Select patient name^
+Reception\\PatientSearch.aspx.cs_9=Patient registration is needed^
+Reception\\PatientSearch.aspx.cs_8=Move on to Registration &amp; Visit^
+Reception\\PatientSearch.aspx.cs_7=Urn not available^
+Reception\\PatientSearch.aspx.cs_6=This action Cannot be Performed as Patient belongs to another Organization^
+Reception\\PatientSearch.aspx.cs_5=This action cannot be performed for inpatients^
+Reception\\PatientSearch.aspx.cs_4=This action cannot be performed for This patient^
+Reception\\PatientSearch.aspx.cs_3=Patient registration is needed^
+Reception\\PatientSearch.aspx.cs_2=Move on to Registration &amp; Visit^
+Reception\\PatientSearch.aspx.cs_14=This action cannot be performed for inpatients^
+Reception\\PatientSearch.aspx.cs_13=This action cannot be performed for This patient^
+Reception\\PatientSearch.aspx.cs_12=The selected patient does not have any Due^
+Reception\\PatientSearch.aspx.cs_11=This action cannot be performed for inpatients^
+Reception\\PatientSearch.aspx.cs_10=This action cannot be performed for This patient^
+Reception\\PatientSearch.aspx.cs_1=This action Cannot be Performed as Patient belongs to another Organization^</value>
+  </data>
+  <data name="Reception\PatientVisit.aspx" xml:space="preserve">
+    <value>Reception\\PatientVisit.aspx_9=This task cannot  be performed for male patient^
+Reception\\PatientVisit.aspx_8=This task cannot  be performed for male patient^
+Reception\\PatientVisit.aspx_7=This Task Cannot  Be Performed For Male Patient^
+Reception\\PatientVisit.aspx_6=Provide child age^
+Reception\\PatientVisit.aspx_5=Select location^
+Reception\\PatientVisit.aspx_4=Select treatment procedure name^
+Reception\\PatientVisit.aspx_3=Select speciality name^
+Reception\\PatientVisit.aspx_2=Select visit purpose^
+Reception\\PatientVisit.aspx_1=Select visit detail^
+
+Reception\\PatientVisit.aspx.cs_10=This action cannot be performed for inpatients^</value>
+  </data>
+  <data name="Reception\RefPhyPatientSearch.aspx" xml:space="preserve">
+    <value>Reception\\RefPhyPatientSearch.aspx_2=Select others^
+Reception\\RefPhyPatientSearch.aspx_1=Provide any one search category^
+Reception\\RefPhyPatientSearch.aspx.cs_9=This action cannot be performed for inpatients^
+Reception\\RefPhyPatientSearch.aspx.cs_8=This action cannot be performed for This patient^
+Reception\\RefPhyPatientSearch.aspx.cs_7=Patient registration is needed^
+Reception\\RefPhyPatientSearch.aspx.cs_6=Move on to Registration &amp; Visit^
+Reception\\RefPhyPatientSearch.aspx.cs_5=Urn not available^
+Reception\\RefPhyPatientSearch.aspx.cs_4=This action Cannot be Performed as Patient belongs to another Organization^
+Reception\\RefPhyPatientSearch.aspx.cs_3=URL Not Found^
+Reception\\RefPhyPatientSearch.aspx.cs_11=This action cannot be performed for inpatients^
+Reception\\RefPhyPatientSearch.aspx.cs_10=This action cannot be performed for This patient^</value>
+  </data>
+  <data name="Reception\SaveLabRefPhysicianDetails.aspx" xml:space="preserve">
+    <value>Reception\\SaveLabRefPhysicianDetails.aspx_6=Error has occured:^
+Reception\\SaveLabRefPhysicianDetails.aspx_5=Timeout has occured^
+Reception\\SaveLabRefPhysicianDetails.aspx_4=Hospital already added^
+Reception\\SaveLabRefPhysicianDetails.aspx_3=Provide the search text to find the physician^
+Reception\\SaveLabRefPhysicianDetails.aspx_2=Select salutation^
+Reception\\SaveLabRefPhysicianDetails.aspx_1=Provide physician name^
+Reception\\SaveLabRefPhysicianDetails.aspx.cs_8=Changes saved successfully.^
+Reception\\SaveLabRefPhysicianDetails.aspx.cs_7=Changes saved successfully.^Reception\\SaveLabRefPhysicianDetails.aspx_9=Provid physician code^</value>
+  </data>
+  <data name="Reception\Schedule.aspx" xml:space="preserve">
+    <value>Reception\\Schedule.aspx.cs_3=Token cancelled successfully^
+Reception\\Schedule.aspx.cs_2=Token already booked for another patient. Please select any other token^
+Reception\\Schedule.aspx.cs_1=Token booked successfully^Reception\\Schedule.aspx_1=Please Enter Patient Name^Reception\\Schedule.aspx_2=Please Enter Patient Number^Reception\\Schedule.aspx_3=Please Enter PhoneNumber^</value>
+  </data>
+  <data name="Reception\UpdatePatientDetails.aspx" xml:space="preserve">
+    <value>Reception\\UpdatePatientDetails.aspx_5=Please Enter City^
+Reception\\UpdatePatientDetails.aspx_4=Provide the URN type^
+Reception\\UpdatePatientDetails.aspx_3=Please Enter Street/Road Name^
+Reception\\UpdatePatientDetails.aspx_2=Provide age for the  patient^
+Reception\\UpdatePatientDetails.aspx_1=Provide name for the patient^
+Reception\\UpdatePatientDetails.aspx.cs_7=At least one check box must be selected^
+Reception\\UpdatePatientDetails.aspx.cs_6=Changes saved successfully.^</value>
+  </data>
+  <data name="Reception\ViewRecommendation.aspx" xml:space="preserve">
+    <value>Reception\ViewRecommendation.aspx_2=Updation failed^
+Reception\ViewRecommendation.aspx_1=Provide the remarks^</value>
+  </data>
+  <data name="Reception\VisitDetails.aspx" xml:space="preserve">
+    <value>Reception\\VisitDetails.aspx_5=Provide visit date^
+Reception\\VisitDetails.aspx_4=Please Enter Patient Name^
+Reception\\VisitDetails.aspx_3=Select visit detail^
+Reception\\VisitDetails.aspx_2=This  is not a Discharged/Credit patient. So you can not Edit.^
+Reception\\VisitDetails.aspx_1=This is OP patient .So you can not Edit.^
+Reception\\VisitDetails.aspx.cs_9=URL Not Found^Reception\\VisitDetails.aspx_6=Provide From date^Reception\\VisitDetails.aspx_7=Provide To date^
+Reception\\VisitDetails.aspx.cs_8=This action cannot be performed for New born baby^
+Reception\\VisitDetails.aspx.cs_7=Please Proceed via Todays Patient Link^
+Reception\\VisitDetails.aspx.cs_6=Please Proceed via Todays Patient Link^</value>
+  </data>
+  <data name="Referrals\EditReferrals.aspx" xml:space="preserve">
+    <value>Referrals\\EditReferrals.aspx_1=Amount has to be paid in referred hospital. Do you wish to continue?"^
+Referrals\\EditReferrals.aspx.cs_2=gfdfdsf^</value>
+  </data>
+  <data name="Referrals\InBoundReferral.aspx" xml:space="preserve">
+    <value>介绍人\\ InBoundReferral.aspx_1 =选择患者^</value>
+  </data>
+  <data name="Referrals\OutBoundReferral.aspx" xml:space="preserve">
+    <value>Referrals\\OutBoundReferral.aspx_4=Are you sure you wish to cancel the Referral?"^
+
+Referrals\\OutBoundReferral.aspx_3=This Referral has already been cancelled^
+Referrals\\OutBoundReferral.aspx_2=This Referral has already been picked^
+Referrals\\OutBoundReferral.aspx_1=Select a Patient^</value>
+  </data>
+  <data name="Referrals\ReferralAndMedicalCertificate.aspx" xml:space="preserve">
+    <value>Referrals\\ReferralAndMedicalCertificate.aspx_9=Provide the Physician referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_8=Provide the Speciality^
+Referrals\\ReferralAndMedicalCertificate.aspx_7=Provide the Organization referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_6=Provide the Physician referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_5=Provide the Organization referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_4=Provide the Physician referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_3=Provide the Speciality^
+Referrals\\ReferralAndMedicalCertificate.aspx_2=Provide the Organization referred to^
+Referrals\\ReferralAndMedicalCertificate.aspx_1=Select a Referral to proceed^
+Referrals\\ReferralAndMedicalCertificate.aspx.cs_11=This Referral/Medical Certificate has Already been Added For This patient^
+Referrals\\ReferralAndMedicalCertificate.aspx.cs_10=This Referral/Medical Certificate has Already been Added For This patient^</value>
+  </data>
+  <data name="Referrals\ReferralLetter.aspx" xml:space="preserve">
+    <value>Referrals\\ReferralLetter.aspx_9=Provide the Physician referred to^
+Referrals\\ReferralLetter.aspx_8=Provide the Speciality^
+Referrals\\ReferralLetter.aspx_7=Provide the Organization referred to^
+Referrals\\ReferralLetter.aspx_6=Provide the Physician referred to^
+Referrals\\ReferralLetter.aspx_5=Provide the Organization referred to^
+Referrals\\ReferralLetter.aspx_4=Provide the Physician referred to^
+Referrals\\ReferralLetter.aspx_3=Provide the Speciality^
+Referrals\\ReferralLetter.aspx_2=Provide the Organization referred to^
+Referrals\\ReferralLetter.aspx_10=Are you sure?^
+Referrals\\ReferralLetter.aspx_1=Select a Referral to proceed^
+Referrals\\ReferralLetter.aspx.cs_12=This Referral/Medical Certificate has Already been Added For This patient^
+Referrals\\ReferralLetter.aspx.cs_11=This Referral/Medical Certificate has Already been Added For This patient^</value>
+  </data>
+  <data name="Reminder\ReminderPage.aspx" xml:space="preserve">
+    <value>Reminder\\ReminderPage.aspx_4=Select Frequency^
+Reminder\\ReminderPage.aspx_3=Provide Notes^
+Reminder\\ReminderPage.aspx_2=Provide End date^
+Reminder\\ReminderPage.aspx_1=Provide Start date^</value>
+  </data>
+  <data name="Reports\AdmCancelledReport.aspx" xml:space="preserve">
+    <value>Reports\\AdmCancelledReport.aspx_2=Provide / select value for To date^
+Reports\\AdmCancelledReport.aspx_1=Provide / select value for From date^
+Reports\\AdmCancelledReport.aspx.cs_4=No Matching Records found for the selected dates^
+Reports\\AdmCancelledReport.aspx.cs_3=First click the get report^</value>
+  </data>
+  <data name="Reports\BillWiseDeptCollectionReport.aspx" xml:space="preserve">
+    <value>Reports\\BillWiseDeptCollectionReport.aspx_4=No Records to Export^
+Reports\\BillWiseDeptCollectionReport.aspx_3=No Records to Export^
+Reports\\BillWiseDeptCollectionReport.aspx_2=Provide / select value for To date^
+Reports\\BillWiseDeptCollectionReport.aspx_1=Provide / select value for From date^
+Reports\\BillWiseDeptCollectionReport.aspx.cs_5=First click the get report^</value>
+  </data>
+  <data name="Reports\BillWiseDeptWiseCollectionSummary.aspx" xml:space="preserve">
+    <value>Reports\\BillWiseDeptWiseCollectionSummary.aspx_5=No Records to Print^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx_4=No Records to Export^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx_3=No Records to Export^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx_2=Provide / select value for To date^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx_1=Provide / select value for From date^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx.cs_7=Template Saved Successfully.^
+Reports\\BillWiseDeptWiseCollectionSummary.aspx.cs_6=Please Generate The Report First^</value>
+  </data>
+  <data name="Reports\BillWiseReportOPIP.aspx" xml:space="preserve">
+    <value>Reports\\BillWiseReportOPIP.aspx_2=Provide / select value for To date^
+Reports\\BillWiseReportOPIP.aspx_1=Provide / select value for From date^
+Reports\\BillWiseReportOPIP.aspx.cs_4=First click the get report^
+Reports\\BillWiseReportOPIP.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\BirthStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\BirthStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\BirthStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\BirthStatisticsReport.aspx.cs_4=First click the get report^
+Reports\\BirthStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\CancelledBillReport.aspx" xml:space="preserve">
+    <value>Reports\\CancelledBillReport.aspx_4=Provide / select value for To date^
+Reports\\CancelledBillReport.aspx_3=Provide / select value for From date^
+Reports\\CancelledBillReport.aspx_2=Select To Date^
+Reports\\CancelledBillReport.aspx_1=Select From Date^</value>
+  </data>
+  <data name="Reports\CCStmt.aspx" xml:space="preserve">
+    <value>Reports\\CCStmt.aspx_2=Provide / select value for To date^
+Reports\\CCStmt.aspx_1=Provide / select value for From date^
+Reports\\CCStmt.aspx.cs_4=First click the get report^
+Reports\\CCStmt.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\CollectionReportOPIP.aspx" xml:space="preserve">
+    <value>Reports\\CollectionReportOPIP.aspx_2=Provide / select value for To date^
+Reports\\CollectionReportOPIP.aspx_1=Provide / select value for From date^
+Reports\\CollectionReportOPIP.aspx.cs_4=First click the get report^
+Reports\\CollectionReportOPIP.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\CollectionReportOPIPWithFilter.aspx" xml:space="preserve">
+    <value>Reports\\CollectionReportOPIPWithFilter.aspx_2=Provide / select value for To date^
+Reports\\CollectionReportOPIPWithFilter.aspx_1=Provide / select value for From date^
+Reports\\CollectionReportOPIPWithFilter.aspx.cs_4=First click the get report^
+Reports\\CollectionReportOPIPWithFilter.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\CollectionRptDptWiseOPIP.aspx" xml:space="preserve">
+    <value>Reports\\CollectionRptDptWiseOPIP.aspx_2=Provide / select value for To date^
+Reports\\CollectionRptDptWiseOPIP.aspx_1=Provide / select value for From date^
+Reports\\CollectionRptDptWiseOPIP.aspx.cs_4=First click the get report^
+Reports\\CollectionRptDptWiseOPIP.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\CollectionRptDptWiseOPIPDetails.aspx" xml:space="preserve">
+    <value>Reports\\CollectionRptDptWiseOPIPDetails.aspx_2=Provide / select value for To date^
+Reports\\CollectionRptDptWiseOPIPDetails.aspx_1=Provide / select value for From date^
+Reports\\CollectionRptDptWiseOPIPDetails.aspx.cs_4=First click the get report^
+Reports\\CollectionRptDptWiseOPIPDetails.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DaywiseAdmissionDischargeRpt.aspx" xml:space="preserve">
+    <value>Reports\\DaywiseAdmissionDischargeRpt.aspx_2=Provide / select value for To date^
+Reports\\DaywiseAdmissionDischargeRpt.aspx_1=Provide / select value for From date^
+Reports\\DaywiseAdmissionDischargeRpt.aspx.cs_4=No Matching Records found for the selected dates^
+Reports\\DaywiseAdmissionDischargeRpt.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DayWiseDischargeIPReport.aspx" xml:space="preserve">
+    <value>Reports\\DayWiseDischargeIPReport.aspx_2=Provide / select value for To date^
+Reports\\DayWiseDischargeIPReport.aspx_1=Provide / select value for From date^
+Reports\\DayWiseDischargeIPReport.aspx.cs_4=First click the get report^
+Reports\\DayWiseDischargeIPReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DeathStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\DeathStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\DeathStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\DeathStatisticsReport.aspx.cs_4=First click the get report^
+Reports\\DeathStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DepartmentWiseCollectionReport.aspx" xml:space="preserve">
+    <value>Reports\\DepartmentWiseCollectionReport.aspx_2=Provide / select value for To date^
+Reports\\DepartmentWiseCollectionReport.aspx_1=Provide / select value for From date^</value>
+  </data>
+  <data name="Reports\DischargeAnalysisReport.aspx" xml:space="preserve">
+    <value>Reports\\DischargeAnalysisReport.aspx_2=Provide / select value for To date^
+Reports\\DischargeAnalysisReport.aspx_1=Provide / select value for From date^
+Reports\\DischargeAnalysisReport.aspx.cs_4=First click the get report^
+Reports\\DischargeAnalysisReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DiscountReport.aspx" xml:space="preserve">
+    <value>Reports\\DiscountReport.aspx_2=Provide / select value for To date^
+Reports\\DiscountReport.aspx_1=Provide / select value for From date^
+Reports\\DiscountReport.aspx.cs_4=First click the get report^
+Reports\\DiscountReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DoctorsStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\DoctorsStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\DoctorsStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\DoctorsStatisticsReport.aspx.cs_4=First click the get report^
+Reports\\DoctorsStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DptWiseRevenueRpt.aspx" xml:space="preserve">
+    <value>Reports\\DptWiseRevenueRpt.aspx_2=Provide / select value for To date^
+Reports\\DptWiseRevenueRpt.aspx_1=Provide / select value for From date^
+Reports\\DptWiseRevenueRpt.aspx.cs_4=First click the get report^
+Reports\\DptWiseRevenueRpt.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\DuePaidDetailSReport.aspx" xml:space="preserve">
+    <value>Reports\\DuePaidDetailSReport.aspx_2=Enter To Date^
+Reports\\DuePaidDetailSReport.aspx_1=Enter From Date^
+Reports\\DuePaidDetailSReport.aspx.cs_3=First You have to click d Get report^</value>
+  </data>
+  <data name="Reports\DueReport.aspx" xml:space="preserve">
+    <value>Reports\\DueReport.aspx_2=Provide / select value for To date^
+Reports\\DueReport.aspx_1=Provide / select value for From date^
+Reports\\DueReport.aspx.cs_4=First click the get report^
+Reports\\DueReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\ICDReports.aspx" xml:space="preserve">
+    <value>Reports\\ICDReports.aspx_2=Provide / select value for To date^
+Reports\\ICDReports.aspx_1=Provide / select value for From date^
+Reports\\ICDReports.aspx.cs_3=First click the get report^</value>
+  </data>
+  <data name="Reports\InsuranceCorpReport.aspx" xml:space="preserve">
+    <value>Reports\\InsuranceCorpReport.aspx_2=Provide / select value for To date^
+Reports\\InsuranceCorpReport.aspx_1=Provide / select value for From date^
+Reports\\InsuranceCorpReport.aspx.cs_3=First You have to click d Get report^
+Reports\\ImgStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\ImgStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\ImgStatisticsReport.aspx.cs_4=First click the get report^
+Reports\\ImgStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\InvestigationStockUsage.aspx" xml:space="preserve">
+    <value>Reports\\InvestigationStockUsage.aspx_9=Mismatch Year Between From &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_8=Mismatch Year Between Current &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_7=Mismatch Month Between From &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_6=Mismatch Month Between Current &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_5=Mismatch Day Between From &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_4=Mismatch Day Between Current &amp; To Date^
+Reports\\InvestigationStockUsage.aspx_3=Validation Succeeded"^
+Reports\\InvestigationStockUsage.aspx_2=Select To Date!^
+Reports\\InvestigationStockUsage.aspx_1=Select From Date!^</value>
+  </data>
+  <data name="Reports\IPDischargeAdmissionReport.aspx" xml:space="preserve">
+    <value>Reports\\IPDischargeAdmissionReport.aspx_2=Provide / select value for To date^
+Reports\\IPDischargeAdmissionReport.aspx_1=Provide / select value for From date^
+Reports\\IPDischargeAdmissionReport.aspx.cs_4=First click the get report^
+Reports\\IPDischargeAdmissionReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\LabStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\LabStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\LabStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\LabStatisticsReport.aspx.cs_4=No Matching Records found for the selected dates^
+Reports\\LabStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\LabTestStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\LabTestStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\LabTestStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\LabTestStatisticsReport.aspx.cs_5=First click the get report^
+Reports\\LabTestStatisticsReport.aspx.cs_4=No Matching Records found for the selected dates^
+Reports\\LabTestStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\ListofPatientsReport.aspx" xml:space="preserve">
+    <value>Reports\\ListofPatientsReport.aspx_2=Provide / select value for To date^
+Reports\\ListofPatientsReport.aspx_1=Provide / select value for From date^
+Reports\\ListofPatientsReport.aspx.cs_4=First click the get report^
+Reports\\ListofPatientsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\midnitesensexreport.aspx" xml:space="preserve">
+    <value>Reports\\midnitesensexreport.aspx_1=Enter from date^
+Reports\\midnitesensexreport.aspx.cs_1=First You have to click d Get report^</value>
+  </data>
+  <data name="Reports\MonthwiseDischargeReport.aspx" xml:space="preserve">
+    <value>Reports\\MonthwiseDischargeReport.aspx_9=Mismatch Year Between Current &amp; end Date^
+Reports\\MonthwiseDischargeReport.aspx_8=Mismatch Year Between Current &amp; start Date^
+Reports\\MonthwiseDischargeReport.aspx_7=Mismatch Month Between Current &amp; end Date^
+Reports\\MonthwiseDischargeReport.aspx_6=Mismatch Month Between Current &amp; Start Date^
+Reports\\MonthwiseDischargeReport.aspx_5=Validation Succeeded"^
+Reports\\MonthwiseDischargeReport.aspx_4=Validation Succeeded"^
+Reports\\MonthwiseDischargeReport.aspx_3=Provide valid date^
+Reports\\MonthwiseDischargeReport.aspx_2=Provide / select value for To date^
+Reports\\MonthwiseDischargeReport.aspx_1=Provide / select value for From date^
+Reports\\MonthwiseDischargeReport.aspx.cs_10=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\OPIPNewAndRevisit.aspx" xml:space="preserve">
+    <value>Reports\\OPIPNewAndRevisit.aspx_2=Provide / select value for To date^
+Reports\\OPIPNewAndRevisit.aspx_1=Provide / select value for From date^</value>
+  </data>
+  <data name="Reports\PatientDepositReport.aspx" xml:space="preserve">
+    <value>Reports\\PatientDepositReport.aspx_2=Enter To Date^
+Reports\\PatientDepositReport.aspx_1=Enter From Date^
+Reports\\PatientDepositReport.aspx.cs_3=First You have to click the Get report^</value>
+  </data>
+  <data name="Reports\PatientWiseCombinedReport.aspx" xml:space="preserve">
+    <value>Reports\\PatientWiseCombinedReport.aspx_2=Provide / select value for To date^
+Reports\\PatientWiseCombinedReport.aspx_1=Provide / select value for From date^</value>
+  </data>
+  <data name="Reports\PhysioComplaintReport.aspx" xml:space="preserve">
+    <value>Reports\\PhysioComplaintReport.aspx_2=Provide / select value for To date^
+Reports\\PhysioComplaintReport.aspx_1=Provide / select value for From date^
+Reports\\PhysicianWiseReport.aspx_1=Select the From and To dates^
+Reports\\PatientWiseCombinedReport.aspx_2=Provide / select value for To date^
+Reports\\PatientWiseCombinedReport.aspx_1=Provide / select value for From date^</value>
+  </data>
+  <data name="Reports\PhysioReport.aspx" xml:space="preserve">
+    <value>Reports\\PhysioReport.aspx_9=Mismatch Year Between From &amp; To Date^
+Reports\\PhysioReport.aspx_8=Mismatch Year Between Current &amp; To Date^
+Reports\\PhysioReport.aspx_7=Mismatch Month Between From &amp; To Date^
+Reports\\PhysioReport.aspx_6=Mismatch Month Between Current &amp; To Date^
+Reports\\PhysioReport.aspx_5=Mismatch Day Between From &amp; To Date^
+Reports\\PhysioReport.aspx_4=Mismatch Day Between Current &amp; To Date^
+Reports\\PhysioReport.aspx_3=Validation Succeeded"^
+Reports\\PhysioReport.aspx_2=Select To Date!^
+Reports\\PhysioReport.aspx_1=Select From Date!^
+Reports\\PhysioReport.aspx.cs_11=First click the get report^
+Reports\\PhysioReport.aspx.cs_10=First click the get report^</value>
+  </data>
+  <data name="Reports\ProcedureStatisticsReport.aspx" xml:space="preserve">
+    <value>Reports\\ProcedureStatisticsReport.aspx_2=Provide / select value for To date^
+Reports\\ProcedureStatisticsReport.aspx_1=Provide / select value for From date^
+Reports\\ProcedureStatisticsReport.aspx.cs_4=No Matching Records found for the selected dates^
+Reports\\ProcedureStatisticsReport.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\VacantRoomList.aspx" xml:space="preserve">
+    <value>Reports\\VacantRoomList.aspx_2=Provide / select value for To date^
+Reports\\VacantRoomList.aspx_1=Provide / select value for From date^
+Reports\\VacantRoomList.aspx.cs_4=First click the get report^
+Reports\\VacantRoomList.aspx.cs_3=No Matching Records found for the selected dates^</value>
+  </data>
+  <data name="Reports\wardoccupancyreport.aspx" xml:space="preserve">
+    <value>Reports\\wardoccupancyreport.aspx_2=Enter To date^
+Reports\\wardoccupancyreport.aspx_1=Enter from date^</value>
+  </data>
+  <data name="InPatient\Advance.aspx" xml:space="preserve">
+    <value>InPatient\\Advance.aspx_2=Amount cannot be zero^
+InPatient\\Advance.aspx_1=Select a payment^</value>
+  </data>
+  <data name="InPatient\AdvancePaidDetails.aspx" xml:space="preserve">
+    <value>InPatient\\AdvancePaidDetails.aspx_2=Amount cannot be zero^
+InPatient\\AdvancePaidDetails.aspx_1=Select a payment^</value>
+  </data>
+  <data name="InPatient\BillCollect.aspx" xml:space="preserve">
+    <value>InPatient\\BillCollect.aspx_6=Amount provided is greater than net amount^
+InPatient\\BillCollect.aspx_5=Discount cannot be greater than gross amount^
+InPatient\\BillCollect.aspx_4=Provide received amount^
+InPatient\\BillCollect.aspx_3=Amount received greater than current total^
+InPatient\\BillCollect.aspx_2=Provide amount for miscellaneous^
+InPatient\\BillCollect.aspx_1=Provide description for miscellaneous^</value>
+  </data>
+  <data name="InPatient\DeathRegistration.aspx" xml:space="preserve">
+    <value>InPatient\\DeathRegistration.aspx_3=Organ donation already added^
+InPatient\\DeathRegistration.aspx_2=Cause of death already added^
+InPatient\\DeathRegistration.aspx_1=Provide the date and time of death^</value>
+  </data>
+  <data name="InPatient\DeliveryNotes.aspx" xml:space="preserve">
+    <value>InPatient\\DeliveryNotes.aspx_6=Invalid date^
+InPatient\\DeliveryNotes.aspx_5=Provide the date of birth^
+InPatient\\DeliveryNotes.aspx_4=Provide name for the child^
+InPatient\\DeliveryNotes.aspx_3=Select generation type^
+InPatient\\DeliveryNotes.aspx_2=Instruction already added^
+InPatient\\DeliveryNotes.aspx_1=Complication already added^</value>
+  </data>
+  <data name="InPatient\DischargeChkList.aspx" xml:space="preserve">
+    <value>InPatient\\DischargeChkList.aspx_2=Enter the Discharge DateTime^
+InPatient\\DischargeChkList.aspx_1=Provide the discharge datetime^</value>
+  </data>
+  <data name="InPatient\DueClearance.aspx" xml:space="preserve">
+    <value>InPatient\\DueClearance.aspx_5=Discount cannot be greater than amount^
+InPatient\\DueClearance.aspx_4=Discount Amount is greater than Gross value^
+InPatient\\DueClearance.aspx_3=Discount Cannot be Greater than Gross Amount^
+InPatient\\DueClearance.aspx_2=Please Collect Whole Due Amount.^
+InPatient\\DueClearance.aspx_1=Amount provided is greater than net amount^</value>
+  </data>
+  <data name="InPatient\EditIPFinalBill.aspx" xml:space="preserve">
+    <value>InPatient\\EditIPFinalBill.aspx_9=Please enter Reason for refund^
+InPatient\\EditIPFinalBill.aspx_8=Please enter recieved amount^
+InPatient\\EditIPFinalBill.aspx_7=Amount recieved greater than current total. \n Please check recieved amount.^
+InPatient\\EditIPFinalBill.aspx_6=Enter Reason for Discount.^
+InPatient\\EditIPFinalBill.aspx_5=Enter the Cheque Number^
+InPatient\\EditIPFinalBill.aspx_41=Do you want refund the Excess Amount Now"^
+InPatient\\EditIPFinalBill.aspx_40=Do you want to continue"^
+InPatient\\EditIPFinalBill.aspx_4=Enter the Bank Name^
+InPatient\\EditIPFinalBill.aspx_39=Mismatch Hour(s) Between Billed &amp; Discharge Time^
+InPatient\\EditIPFinalBill.aspx_38=Mismatch Hour(s) Between Admission &amp; Discharge Time^
+InPatient\\EditIPFinalBill.aspx_37=Mismatch Minute(s) Between Billed &amp; Discharge Time^
+InPatient\\EditIPFinalBill.aspx_36=Mismatch Minute(s) Between Admission &amp; Discharge Time^
+InPatient\\EditIPFinalBill.aspx_35=Mismatch Second(s) Between Billed &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_34=Mismatch Second(s) Between Admission &amp; Discharge Time^
+InPatient\\EditIPFinalBill.aspx_33=Mismatch Year Between Billed &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_32=Mismatch Year Between Admission &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_31=Mismatch Month Between Billed &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_30=Mismatch Month Between Admission &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_3=Click Discharge patient^
+InPatient\\EditIPFinalBill.aspx_29=Mismatch Day Between Billed &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_28=Mismatch Day Between Admission &amp; Discharge Date^
+InPatient\\EditIPFinalBill.aspx_27=Date Failed"^
+InPatient\\EditIPFinalBill.aspx_26=Time Failed"^
+InPatient\\EditIPFinalBill.aspx_25=Time Success"^
+InPatient\\EditIPFinalBill.aspx_24=Date Success"^
+InPatient\\EditIPFinalBill.aspx_23=Date Failed"^
+InPatient\\EditIPFinalBill.aspx_22=Time Failed"^
+InPatient\\EditIPFinalBill.aspx_21=Time Success"^
+InPatient\\EditIPFinalBill.aspx_20=Date Success"^
+InPatient\\EditIPFinalBill.aspx_2=Enter Miscellaneous Amount"^
+InPatient\\EditIPFinalBill.aspx_19=Entered Physician Name Not Exists^
+InPatient\\EditIPFinalBill.aspx_18=Please Select The Physician To Tag^
+InPatient\\EditIPFinalBill.aspx_17=Please Choose Fee type^
+InPatient\\EditIPFinalBill.aspx_16=Please Enter Fee Amount^
+InPatient\\EditIPFinalBill.aspx_15=Please Enter Fee Description^
+InPatient\\EditIPFinalBill.aspx_14=Amount Entered is greater than Net Amount^
+InPatient\\EditIPFinalBill.aspx_13=Amount recieved is lesser than current total. Remaining Amount will be calculate as Due^
+InPatient\\EditIPFinalBill.aspx_12=Discount Amount is greater than Gross value^
+InPatient\\EditIPFinalBill.aspx_11=Discount Cannot be Greater than Gross Amount^
+InPatient\\EditIPFinalBill.aspx_10=Enter Reason for Discount.^
+InPatient\\EditIPFinalBill.aspx_1=Enter Miscellaneous Description"^
+InPatient\\EditIPFinalBill.aspx.cs_42=id^</value>
+  </data>
+  <data name="InPatient\EditTPAPayment.aspx" xml:space="preserve">
+    <value>InPatient\\EditTPAPayment.aspx_2=Provide received amount^
+InPatient\\EditTPAPayment.aspx_1=Amount is greater than bill amount^</value>
+  </data>
+  <data name="InPatient\InPatientBilling.aspx" xml:space="preserve">
+    <value>InPatient\\InPatientBilling.aspx_2=changefuncion^
+InPatient\\InPatientBilling.aspx_1=Add any one payment type"^</value>
+  </data>
+  <data name="InPatient\IPBillingHome.aspx" xml:space="preserve">
+    <value>InPatient\\IPBillingHome.aspx_1=Provide at least one search category^
+InPatient\\IPBillingHome.aspx.cs_2=This cannot be performed as the Room is not occupied by this patient^InPatient\\IPBillingHome.aspx.cs_3=RedirectURL Not Found^</value>
+  </data>
+  <data name="InPatient\IPBillSettlement.aspx" xml:space="preserve">
+    <value>InPatient\\IPBillSettlement.aspx_9=Please enter Reason for refund^
+InPatient\\IPBillSettlement.aspx_8=Please enter recieved amount^
+InPatient\\IPBillSettlement.aspx_7=Amount recieved greater than current total. \n Please check recieved amount.^
+InPatient\\IPBillSettlement.aspx_6=Enter Reason for Discount.^
+InPatient\\IPBillSettlement.aspx_5=Enter the Cheque Number^
+InPatient\\IPBillSettlement.aspx_41=Do you want refund the Excess Amount Now"^
+InPatient\\IPBillSettlement.aspx_40=Generated bill can not be edited again.\n Only items added in the future will be allowed to edit.\n Do you want to continue"^
+InPatient\\IPBillSettlement.aspx_4=Enter the Bank Name^
+InPatient\\IPBillSettlement.aspx_39=Mismatch Hour(s) Between Billed &amp; Discharge Time^
+InPatient\\IPBillSettlement.aspx_38=Mismatch Hour(s) Between Admission &amp; Discharge Time^
+InPatient\\IPBillSettlement.aspx_37=Mismatch Minute(s) Between Billed &amp; Discharge Time^
+InPatient\\IPBillSettlement.aspx_36=Mismatch Minute(s) Between Admission &amp; Discharge Time^
+InPatient\\IPBillSettlement.aspx_35=Mismatch Second(s) Between Billed &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_34=Mismatch Second(s) Between Admission &amp; Discharge Time^
+InPatient\\IPBillSettlement.aspx_33=Mismatch Year Between Billed &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_32=Mismatch Year Between Admission &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_31=Mismatch Month Between Billed &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_30=Mismatch Month Between Admission &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_3=Click Discharge patient^
+InPatient\\IPBillSettlement.aspx_29=Mismatch Day Between Billed &amp; Discharge Date^
+InPatient\\IPBillSettlement.aspx_28=Mismatch Day Between Admission &amp; Discharge Date^
+InPatient\IPBillSettlement.aspx_27=Date Failed"^
+InPatient\\IPBillSettlement.aspx_26=Time Failed"^
+InPatient\\IPBillSettlement.aspx_25=Time Success"^
+InPatient\\IPBillSettlement.aspx_24=Date Success"^
+InPatient\\IPBillSettlement.aspx_23=Date Failed"^
+InPatient\\IPBillSettlement.aspx_22=Time Failed"^
+InPatient\\IPBillSettlement.aspx_21=Time Success"^
+InPatient\\IPBillSettlement.aspx_20=Date Success"^
+InPatient\\IPBillSettlement.aspx_2=Enter Miscellaneous Amount"^
+InPatient\\IPBillSettlement.aspx_19=Entered Physician Name Not Exists^
+InPatient\\IPBillSettlement.aspx_18=Please Select The Physician To Tag^
+InPatient\\IPBillSettlement.aspx_17=Please Choose Fee type^
+InPatient\\IPBillSettlement.aspx_16=Please Enter Fee Amount^
+InPatient\\IPBillSettlement.aspx_15=Please Enter Fee Description^
+InPatient\\IPBillSettlement.aspx_14=Amount Entered is greater than Net Amount^
+InPatient\\IPBillSettlement.aspx_13=Amount recieved is lesser than current total. Remaining Amount will be calculate as Due^
+InPatient\\IPBillSettlement.aspx_12=Discount Amount is greater than Gross value^
+InPatient\\IPBillSettlement.aspx_11=Discount Cannot be Greater than Gross Amount^
+InPatient\\IPBillSettlement.aspx_10=Enter Reason for Discount.^
+InPatient\\IPBillSettlement.aspx_1=Enter Miscellaneous Description"^
+InPatient\\IPBillSettlement.aspx.cs_42=id^</value>
+  </data>
+  <data name="InPatient\IPBillSettlementHome.aspx" xml:space="preserve">
+    <value>InPatient\\IPBillSettlementHome.aspx_1=Provide one search category^
+InPatient\\IPBillSettlementHome.aspx.cs_2=This cannot be performed as the Room is not occupied by this patient^InPatient\\IPBillSettlementHome.aspx.cs_3=URL Not Found^</value>
+  </data>
+  <data name="InPatient\IpOutstandingDues.aspx" xml:space="preserve">
+    <value>InPatient\\IpOutstandingDues.aspx_6=Provide amount for miscellaneous^
+InPatient\\IpOutstandingDues.aspx_5=Provide description for miscellaneous^
+InPatient\\IpOutstandingDues.aspx_4=Discount cannot be greater than gross amount^
+InPatient\\IpOutstandingDues.aspx_3=Please enter recieved amount^
+InPatient\\IpOutstandingDues.aspx_2=Amount received greater than current total^
+InPatient\\IpOutstandingDues.aspx_1=Only Digits Are Allowed"^
+InPatient\\IpOutstandingDues.aspx.cs_7=Changes saved successfully.^</value>
+  </data>
+  <data name="InPatient\KMHIPViewBill.aspx" xml:space="preserve">
+    <value>InPatient\\KMHIPViewBill.aspx.cs_2=No Receipt for this Patient^
+InPatient\\KMHIPViewBill.aspx.cs_1=No Receipt for this Patient^</value>
+  </data>
+  <data name="InPatient\PatientICDSearch.aspx" xml:space="preserve">
+    <value>InPatient\\PatientICDSearch.aspx_4=Provide / select value for From date^
+InPatient\\PatientICDSearch.aspx_3=Provide / select value for To date^
+InPatient\\PatientICDSearch.aspx_2=Please Enter Patient Name^
+InPatient\\PatientICDSearch.aspx_1=Select visit detail^</value>
+  </data>
+  <data name="InPatient\PhysiotherapyNotes.aspx" xml:space="preserve">
+    <value>InPatient\\PhysiotherapyNotes.aspx_9=Adviced Sitting Is Less Than Performed^
+InPatient\\PhysiotherapyNotes.aspx_8=Enter The Duration^
+InPatient\\PhysiotherapyNotes.aspx_7=Procedure Already Added! Please Save and Add Again^
+InPatient\\PhysiotherapyNotes.aspx_6=Provide duration^
+InPatient\\PhysiotherapyNotes.aspx_5=Provide the advised number of sittings^
+InPatient\\PhysiotherapyNotes.aspx_4=Select the physiotheraphy^
+InPatient\\PhysiotherapyNotes.aspx_3=Please Enter The Dutation."^
+InPatient\\PhysiotherapyNotes.aspx_2=Please Enter The Advised No of sitting."^
+InPatient\\PhysiotherapyNotes.aspx_10=Enter The Physio Items^
+InPatient\\PhysiotherapyNotes.aspx_1=Please Select The Physiotheraphy."^
+InPatient\\PhysiotherapyNotes.aspx.cs_12=Physiotherapy Updated Sucessfully^
+InPatient\\PhysiotherapyNotes.aspx.cs_11=Physiotherapy Added Sucessfully^</value>
+  </data>
+  <data name="InPatient\RoomBooking.aspx" xml:space="preserve">
+    <value>InPatient\\RoomBooking.aspx_2=Are you sure you wish to cancel booked bed"^
+InPatient\\RoomBooking.aspx_1=Cannot Retrive Data Please try after some Time^InPatient\\RoomBooking.aspx_3=Occupying Room Date is before Patient\'s Admission Date!^InPatient\\RoomBooking.aspx_4=Kindly Choose FromDate And Time For Room Booking !^InPatient\\RoomBooking.aspx_5=Kindly Choose ToDate And Time For Room Booking !InPatient\\RoomBooking.aspx_6=Kindly Choose Future Date And Time For Room Booking !^InPatient\\RoomBooking.aspx_7=From Date And To Date Mismatch !InPatient\\RoomBooking.aspx_8=This Bed is already booked for this time. Kindly choose a different time or any other OT^InPatient\\RoomBooking.aspx_9=More then one Room is not Allowed for Corporate-Patient!^InPatient\\RoomBooking.aspx_10=Please Select a The Floor^InPatient\\RoomBooking.aspx_11=Please Select a The Room Type^</value>
+  </data>
+  <data name="InPatient\SurgeryBilling.aspx" xml:space="preserve">
+    <value>InPatient\\SurgeryBilling.aspx_3=Enter The Bill Date^
+InPatient\\SurgeryBilling.aspx_2=Provide the bill date^
+InPatient\\SurgeryBilling.aspx_1=Provide the surgical fee or chief surgeon fee^InPatient\\SurgeryBilling.aspx_4=Collect Advance or Set Credit Limit or Make Payment^</value>
+  </data>
+  <data name="InPatient\TPAPayment.aspx" xml:space="preserve">
+    <value>InPatient\\TPAPayment.aspx_2=Select a patient and click save^
+InPatient\\TPAPayment.aspx_1=Select a patient and click Go^
+InPatient\\TPAPayment.aspx.cs_4=Claim forward Date save Succesfully^
+InPatient\\TPAPayment.aspx.cs_3=Check item and then click Go^</value>
+  </data>
+  <data name="InPatient\TpaPaymentCollection.aspx" xml:space="preserve">
+    <value>InPatient\\TpaPaymentCollection.aspx_9=Do you want to Save the entered Details"^
+InPatient\\TpaPaymentCollection.aspx_8=Provide the bank name^
+InPatient\\TpaPaymentCollection.aspx_7=Provide instrument number^
+InPatient\\TpaPaymentCollection.aspx_6=Amount provided is greater than Claim amount^
+InPatient\\TpaPaymentCollection.aspx_5=Provide the TPA amount^
+InPatient\\TpaPaymentCollection.aspx_4=Provide received amount^
+InPatient\\TpaPaymentCollection.aspx_3=Amount is greater than bill amount^
+InPatient\\TpaPaymentCollection.aspx_2=Provide received amount^
+InPatient\\TpaPaymentCollection.aspx_1=Amount is greater than bill amount^
+InPatient\\TpaPaymentCollection.aspx.cs_12=Amount Entered is greater than bill amount^
+InPatient\\TpaPaymentCollection.aspx.cs_11=Amount Entered is greater than bill amount^
+InPatient\\TpaPaymentCollection.aspx.cs_10=Check atleast one item and then click Save^</value>
+  </data>
+  <data name="Investigation\AddInvestigation.aspx" xml:space="preserve">
+    <value>Investigation\\AddInvestigation.aspx_2=Enter the InvestigationName^
+Investigation\\AddInvestigation.aspx_1=Enter the InvestigationName^
+Investigation\\AddInvestigation.aspx.cs_4=NO DATA^
+Investigation\\AddInvestigation.aspx.cs_3=InvestigationName saved successfully.^</value>
+  </data>
+  <data name="Investigation\Investigation.aspx" xml:space="preserve">
+    <value>Investigation\\Investigation.aspx.cs_9=Please fill all the values^
+Investigation\\Investigation.aspx.cs_8=Please fill all the values^
+Investigation\\Investigation.aspx.cs_7=Please fill all the values^
+Investigation\\Investigation.aspx.cs_6=Please fill all the values^
+Investigation\\Investigation.aspx.cs_5=Please fill all the values^
+Investigation\\Investigation.aspx.cs_4=Please fill all the values^
+Investigation\\Investigation.aspx.cs_3=Please fill all the values^
+Investigation\\Investigation.aspx.cs_22=Please check all the values^
+Investigation\\Investigation.aspx.cs_21=Please fill all the values^
+Investigation\\Investigation.aspx.cs_20=Please fill all the values^
+Investigation\\Investigation.aspx.cs_2=Please fill all the values^
+Investigation\\Investigation.aspx.cs_19=Please fill all the values^
+Investigation\\Investigation.aspx.cs_18=Please fill all the values^
+Investigation\\Investigation.aspx.cs_17=Please fill all the values^
+Investigation\\Investigation.aspx.cs_16=Please fill all the values^
+Investigation\\Investigation.aspx.cs_15=Please fill all the values^
+Investigation\\Investigation.aspx.cs_14=Please fill all the values^
+Investigation\\Investigation.aspx.cs_13=Please fill all the values^
+Investigation\\Investigation.aspx.cs_12=Please fill all the values^
+Investigation\\Investigation.aspx.cs_11=Please fill all the values^
+Investigation\\Investigation.aspx.cs_10=Please fill all the values^
+Investigation\\Investigation.aspx.cs_1=Please Select value from Result^</value>
+  </data>
+  <data name="Investigation\InvestigationApprovel" xml:space="preserve">
+    <value>Investigation\\InvestigationApprovel.aspx_3=Select an investigation to display  report^
+Investigation\\InvestigationApprovel.aspx_2=Select an investigation^
+Investigation\\InvestigationApprovel.aspx_1=Provide patient visit number to search^</value>
+  </data>
+  <data name="Investigation\InvestigationProfile.aspx" xml:space="preserve">
+    <value>Investigation\\InvestigationProfile.aspx_1=Choose atleast one investigation^
+Investigation\\InvestigationCapture.aspx_4=Select a sample to change status^
+Investigation\\InvestigationCapture.aspx_3=Select a Sample to Change Status^
+Investigation\\InvestigationCapture.aspx_2=Investigation already added^
+Investigation\\InvestigationCapture.aspx_1=Provide the Patient visit number to search^</value>
+  </data>
+  <data name="Investigation\InvestigationReport.aspx" xml:space="preserve">
+    <value>Investigation\\InvestigationReport.aspx_1=Enter the Correct Courier boy name^
+Investigation\\InvestigationReport.aspx_2=Enter the Courier Boy name^Investigation\\InvestigationReport.aspx_25=This action cannot be performed for your role in this Organisation^Investigation\\InvestigationReport.aspx_26=URL Not Found^Investigation\\InvestigationReport.aspx_27=Report dispatched successfully^Investigation\\InvestigationReport.aspx_28=Unable to dispatch the report. please contact system administrator^Investigation\\InvestigationReport.aspx_29=Unable to get the report. please contact system administrator^Investigation\\InvestigationReport.aspx_30=selected Patient Dispatched Investigation Reports^
+Investigation\\InvestigationReport.aspx_3=Select Dispatch mode^
+Investigation\\InvestigationReport.aspx_4=Please install adobe reader to perform print functionality^Investigation\InvestigationReport.aspx_5=please select at least one record^
+Investigation\\InvestigationReport.aspx_6=Selected Patient having due amount^
+Investigation\\InvestigationReport.aspx_7=Selected client patient having outstanding amount..^Investigation\\InvestigationReport.aspx_12=Select any one of the action to proceed^Investigation\\InvestigationReport.aspx_13=Select an investigation^Investigation\\InvestigationReport.aspx_14=Provide visit date^Investigation\\InvestigationReport.aspx_11=Selected Patient client was Blocked^Investigation\\InvestigationReport.aspx_15=Select an investigation to display report^Investigation\\InvestigationReport.ascx_16=Select an investigation^Investigation\\InvestigationReport.ascx_17=Unable to print report^Investigation\\InvestigationReport.ascx_18=Provide a valid email address^Investigation\\InvestigationReport.ascx_19=Provide a email address.^Investigation\\InvestigationReport.aspx_40=You exceeded the maximum number of print(s). Are you sure you want to continue?^</value>
+  </data>
+  <data name="Investigation\InvestigationResultsCapture.aspx" xml:space="preserve">
+    <value>Investigation\\InvestigationResultsCapture.aspx_4=Result value cannot be blank^
+Investigation\\InvestigationResultsCapture.aspx_3=....Processing Completed !^
+Investigation\\InvestigationResultsCapture.aspx_2=Prcoessing....^
+Investigation\\InvestigationResultsCapture.aspx_1=Provide patient visit number to search^</value>
+  </data>
+  <data name="Investigation\InvestigationStatusReport.aspx" xml:space="preserve">
+    <value>Investigation\\InvestigationStatusReport.aspx_3=Provide / select value for To date^
+Investigation\\InvestigationStatusReport.aspx_2=Provide / select value for From date^
+Investigation\\InvestigationStatusReport.aspx_1=Select Location^</value>
+  </data>
+  <data name="Investigation\InvReportsForApproval.aspx" xml:space="preserve">
+    <value>Investigation\\InvReportsForApproval.aspx_2=Select an investigation to display  report^
+Investigation\\InvReportsForApproval.aspx_1=Provide visit number^</value>
+  </data>
+  <data name="Investigation\InvReportsForDept.aspx" xml:space="preserve">
+    <value>Investigation\\InvReportsForDept.aspx_3=Select an investigation^
+Investigation\\InvReportsForDept.aspx_2=Select an investigation to display  report^
+Investigation\\InvReportsForDept.aspx_1=Provide visit number^</value>
+  </data>
+  <data name="Investigation\PatternMappingForInvestigation.aspx" xml:space="preserve">
+    <value>Investigation\\PatternMappingForInvestigation.aspx.cs_3=Select the PatternName^
+Investigation\\PatternMappingForInvestigation.aspx.cs_2=Please select a record and then Save^
+Investigation\\PatternMappingForInvestigation.aspx.cs_1=Changes saved successfully.^</value>
+  </data>
+  <data name="Investigation\RadiologyReport.aspx" xml:space="preserve">
+    <value>Investigation\\RadiologyReport.aspx_3=Provide correct page number^
+Investigation\\RadiologyReport.aspx_2=Provide correct page number^
+Investigation\\RadiologyReport.aspx_1=Provide page number^</value>
+  </data>
+  <data name="Investigation\ViewInvestigationReport.aspx" xml:space="preserve">
+    <value>Investigation\\ViewInvestigationReport.aspx_2=Do you wish to print the investigation result"^
+Investigation\\ViewInvestigationReport.aspx_1=Do you wish to complete the investigation"^</value>
+  </data>
+  <data name="Investigation\WorkListFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Investigation\\WorkListFromVisitToVisit.aspx_2=Provide to visit number^
+Investigation\\WorkListFromVisitToVisit.aspx_1=Provide from visit numbe</value>
+  </data>
+  <data name="Lab\Home.aspx" xml:space="preserve">
+    <value>Lab\\Home.aspx_3=Provide the correct page number^
+Lab\\Home.aspx_2=Provide the correct page number^
+Lab\\Home.aspx_1=Provide the Page Number^Lab\\Home.aspx_4=Provide page number^Lab\\Home.aspx_5=Provide correct page number^</value>
+  </data>
+  <data name="Lab\homecollection.aspx" xml:space="preserve">
+    <value>Lab\\homecollection.aspx_9=Please Select a Role^
+Lab\\homecollection.aspx_8=Please Select a Organization^
+Lab\\homecollection.aspx_7=Please Enter The Sample Collection Time^
+Lab\\homecollection.aspx_6=Please Enter Patient\'s Collection Address^
+Lab\\homecollection.aspx_5=Select Patient Name From Auto complete^
+Lab\\homecollection.aspx_4=Please Enter a Patient Name^
+Lab\\homecollection.aspx_3=Select Patient Name From Auto complete^
+Lab\\homecollection.aspx_2=Selected Patient has been already Investigated^
+Lab\\homecollection.aspx_19=Mismatch Year Between From &amp; To Date^
+Lab\\homecollection.aspx_18=Mismatch Year Between Current &amp; To Date^
+Lab\\homecollection.aspx_17=Mismatch Month Between From &amp; To Date^
+Lab\\homecollection.aspx_16=Mismatch Month Between Current &amp; To Date^
+Lab\\homecollection.aspx_15=Mismatch Day Between From &amp; To Date^
+Lab\\homecollection.aspx_14=Mismatch Day Between Current &amp; To Date^
+Lab\\homecollection.aspx_13=Validation Succeeded"^
+Lab\\homecollection.aspx_12=Select To Date!^
+Lab\\homecollection.aspx_11=Select From Date!^
+Lab\\homecollection.aspx_10=Please Select a User^
+Lab\\homecollection.aspx_1=Select patient name^</value>
+  </data>
+  <data name="Lab\InvestigationOrgChange.aspx" xml:space="preserve">
+    <value>Lab\\InvestigationOrgChange.aspx_1=Provide patient visit number to search^
+Lab\\InvestigationOrgChange.aspx.cs_2=Changes saved successfully.^</value>
+  </data>
+  <data name="Lab\InvestigationSample.aspx" xml:space="preserve">
+    <value>Lab\\InvestigationSample.aspx_2=Provide patient visit number to search^
+Lab\\InvestigationSample.aspx_1=already exsist^
+Lab\\InvestigationSample.aspx.cs_9=Sorry! No Department Associated with Current Role. Please contact system administrator^
+Lab\\InvestigationSample.aspx.cs_8=Same Investigation and samples can aleady added with sam location^
+Lab\\InvestigationSample.aspx.cs_7=Same Investigation aleady mapped with same location^
+Lab\\InvestigationSample.aspx.cs_6=Please Select the Department or Check whether the investigation has sample. Then click Generate Work Order^
+Lab\\InvestigationSample.aspx.cs_5=Please Select the Department where the Sample has to be sent and then click Generate Work Order^
+Lab\\InvestigationSample.aspx.cs_4=Collect Sample for Current Visit and then click Generate Work Order^
+Lab\\InvestigationSample.aspx.cs_3=Atleast add one Sample^</value>
+  </data>
+  <data name="Lab\IPInvSampleCollection.aspx" xml:space="preserve">
+    <value>Lab\\IPInvSampleCollection.aspx.cs_4=Investigations and Samples have been added^
+Lab\\IPInvSampleCollection.aspx.cs_3=Investigations and Samples ha to be selectede^
+Lab\\IPInvSampleCollection.aspx.cs_2=Select investigations^
+Lab\\IPInvSampleCollection.aspx.cs_1=Already added^</value>
+  </data>
+  <data name="Lab\RadiologyHome.aspx" xml:space="preserve">
+    <value>Lab\\RadiologyHome.aspx_3=Provide correct page number^
+Lab\\RadiologyHome.aspx_2=Provide correct page number^
+Lab\\RadiologyHome.aspx_1=Provide page number^</value>
+  </data>
+  <data name="Lab\WorkOrderFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Lab\\WorkOrderFromVisitToVisit.aspx_2=Provide to visit number^
+Lab\\WorkOrderFromVisitToVisit.aspx_1=Provide from visit number^</value>
+  </data>
+  <data name="NewInstanceCreation\NewInstanceCreation.aspx" xml:space="preserve">
+    <value>NewInstanceCreation\\NewInstanceCreation.aspx_5=Provide at least one contact number^
+NewInstanceCreation\\NewInstanceCreation.aspx_4=Provide the city in permanent address^
+NewInstanceCreation\\NewInstanceCreation.aspx_3=Provide the address^
+NewInstanceCreation\\NewInstanceCreation.aspx_2=Provide the location^
+NewInstanceCreation\\NewInstanceCreation.aspx_1=Provide the organization name^</value>
+  </data>
+  <data name="Nurse\Immunization.aspx" xml:space="preserve">
+    <value>Nurse\\Immunization.aspx_2=Already Added!^
+Nurse\\Immunization.aspx_1=Provide atleast one vaccination^
+Nurse\\Immunization.aspx.cs_3=Please Choose atleast one Vaccine^</value>
+  </data>
+  <data name="Nurse\PatientSearch.aspx" xml:space="preserve">
+    <value>Nurse\\PatientSearch.aspx_2=Select value in others^
+Nurse\\PatientSearch.aspx_1=Provide at least one search category^Nurse\\PatientSearch.aspx_3=Select Date^Nurse\\PatientSearch.aspx.cs_1=URL Not Found^</value>
+  </data>
+  <data name="Nurse\PatientVitals.aspx" xml:space="preserve">
+    <value>Nurse\\PatientVitals.aspx_2=Select the vitals type^
+Nurse\\PatientVitals.aspx_1=Select an option"^</value>
+  </data>
+  <data name="ConfigSetting\ConfigMaster.aspx" xml:space="preserve">
+    <value>ConfigSetting\\ConfigMaster.aspx.cs_1=Changes saved successfully.^
+ConfigSetting\\ConfigMaster.aspx.cs_2=Changes saved successfully.^ConfigSetting\\ConfigMaster.aspx.cs_3=Changes saved successfully.^</value>
+  </data>
+  <data name="Dialysis\DialysisRecord.aspx" xml:space="preserve">
+    <value>Dialysis\\DialysisRecord.aspx_1=Provide pre dialysis value^
+Dialysis\\DialysisRecord.aspx_2=Provide post dialysis value^
+Dialysis\\DialysisRecord.aspx_3=Select HD date^</value>
+  </data>
+  <data name="Dialysis\TreatmentProcedure.aspx" xml:space="preserve">
+    <value>Dialysis\\TreatmentProcedure.aspx.cs_2=Please Choose atleast any one Procedure^
+Dialysis\\TreatmentProcedure.aspx_1=Select the type of treatment procedure^</value>
+  </data>
+  <data name="EMR\PackageProfile.aspx" xml:space="preserve">
+    <value>EMR\\PackageProfile.aspx.cs_2=Select Atleast one package and then Click save^
+EMR\\PackageProfile.aspx_1=Are you sure you wish to cancel?"^</value>
+  </data>
+  <data name="Admin\AddInvGroups.aspx" xml:space="preserve">
+    <value>Admin\\AddInvGroups.aspx.cs_21=Please save the selected Group^Admin\\AddInvGroups.aspx.cs_22=You havent yet saved the selected Investigation^Admin\\AddInvGroups.aspx.cs_23=You havent yet saved the selected Group^Admin\\AddInvGroups.aspx.cs_24=No Matching Records found^Admin\\AddInvGroups.aspx.cs_25=Changes saved successfully.^Admin\\AddInvGroups.aspx.cs_26=At least one item needs to be added^Admin\\AddInvGroups.aspx.cs_27=Sucessfully removed^Admin\\AddInvGroups.aspx.cs_28=At least one investigation needs to be added^Admin\\AddInvGroups.aspx.cs_29=At least one investigation needs to be added^Admin\\AddInvGroups.aspx.cs_30=At least one item needs to be added^Admin\\AddInvGroups.aspx.cs_31=Item already exist^
+Admin\\AddInvGroups.aspx.cs_32=Item already exist^Admin\\AddInvGroups.aspx.cs_33=The list cannot be empty^Admin\\AddInvGroups.aspx.cs_34=The list cannot be empty^Admin\\AddInvGroups.aspx.cs_35=No Matching Records found^
+Admin\\AddInvGroups.aspx.cs_36=No Matching Records found^Admin\\AddInvGroups.aspx.cs_37=Changes saved successfully.^Admin\\AddInvGroups.aspx_1=Select the items in investigation master^Admin\\AddInvGroups.aspx_10=Investigation already added^Admin\\AddInvGroups.aspx_11=Select list of investigation^
+Admin\\AddInvGroups.aspx_12=Select atleast one investigation item^Admin\\AddInvGroups.aspx_13=Select investigation items^Admin\\AddInvGroups.aspx_14=Select atleast one department name^Admin\\AddInvGroups.aspx_15=Select atleast one header name^Admin\\AddInvGroups.aspx_16=Select the department name^Admin\\AddInvGroups.aspx_17=Select the header name^Admin\\AddInvGroups.aspx_18=There are no records to save^Admin\\AddInvGroups.aspx_19=Are you sure you wish to delete the record^Admin\\AddInvGroups.aspx_2=Select the items in group master^Admin\AddInvGroups.aspx_20=Are you sure you wish to delete the record^Admin\AddInvGroups.aspx_3=Select the items in investigation mapping^Admin\AddInvGroups.aspx_4=Select the items in group mapping^Admin\AddInvGroups.aspx_5=Please select both department and header^Admin\AddInvGroups.aspx_6=Provide a name for the group^Admin\AddInvGroups.aspx_7=Investigation already added^Admin\AddInvGroups.aspx_8=Investigation already added^Admin\AddInvGroups.aspx_9=Select type^</value>
+  </data>
+  <data name="Admin\AddInvtoGrp.aspx" xml:space="preserve">
+    <value>联系\\ AddInvtoGrp.aspx.cs_3 =已成功保存更改。^管理员\\ AddInvtoGrp.aspx.cs_4 =成功地删除！^管理员\\ AddInvtoGrp.aspx_1 =选择的调查掌握项目管理^ \\ AddInvtoGrp.aspx_2 =选择在调查测绘项目^</value>
+  </data>
+  <data name="Admin\AddNewRefPhyPopup.aspx" xml:space="preserve">
+    <value>联系\\ AddNewRefPhyPopup.aspx.cs_7 =已成功保存更改。^管理员\\ AddNewRefPhyPopup.aspx.cs_8 =已成功保存更改。^管理员\\ AddNewRefPhyPopup.aspx_1 =提供医生的名字^管理员\\ AddNewRefPhyPopup.aspx_2 =选择称呼^管理员\\ AddNewRefPhyPopup.aspx_3 =提供搜索文本找到医生^管理员\\ AddNewRefPhyPopup.aspx_4 =医院已经添加^管理员\\ AddNewRefPhyPopup.aspx_5 =超时已发生^管理员\\ AddNewRefPhyPopup.aspx_6 =错误已发生：^</value>
+  </data>
+  <data name="Admin\AdminReports.aspx" xml:space="preserve">
+    <value>联系\\ AdminReports.aspx_1 =选择类型的报告^</value>
+  </data>
+  <data name="Admin\CashFlow.aspx" xml:space="preserve">
+    <value>Admin\\CashFlow.aspx.cs_11=There is no Payment for Consultation on Selected Date^
+Admin\\CashFlow.aspx_1=Select doctor name^Admin\\CashFlow.aspx_10=Provide payable amount less than or equal to total amount^Admin\\CashFlow.aspx_2=Provide / select value for To date^Admin\\CashFlow.aspx_3=Select doctor name^Admin\\CashFlow.aspx_4=Provide / select value for To date^Admin\\CashFlow.aspx_5=Click on view details. The total payable amount will be of zero or lessthan zero^Admin\CashFlow.aspx_6=Provide description^Admin\\CashFlow.aspx_7=Provide remarks^Admin\\CashFlow.aspx_8=Select the suppliers^Admin\\CashFlow.aspx_9=Amount cannot be zero^</value>
+  </data>
+  <data name="Admin\ChangeDocSchedule.aspx" xml:space="preserve">
+    <value>联系\\ ChangeDocSchedule.aspx_1 =选择有效日期^管理员\\ ChangeDocSchedule.aspx_2 =你确定要删除的计划？“^</value>
+  </data>
+  <data name="Admin\CheckSecPage.aspx" xml:space="preserve">
+    <value>联系\\ CheckSecPage.aspx_1 =无效的患者^管理员\\ CheckSecPage.aspx_2 =提供担保代码^</value>
+  </data>
+  <data name="Admin\DoctorSchedule.aspx" xml:space="preserve">
+    <value>联系\\ DoctorSchedule.aspx_1 =输入医师姓名^管理员\\ DoctorSchedule.aspx_2 =输入时间^管理员\\ DoctorSchedule.aspx_3 =选择有效日期^管理员\\ DoctorSchedule.aspx_4 =输入持续时间^管理员\\ DoctorSchedule.aspx_5 =选择客户端类型^管理员\\ DoctorSchedule.aspx_6 =输入客户名称^管理员\\ DoctorSchedule.aspx_7 =选择有效日期^管理员\\ DoctorSchedule.aspx_8 =输入名称调查^管理员\\ DoctorSchedule.aspx_9 =输入时间^管理员\\ DoctorSchedule.aspx_11 =输入时间^管理员\\ DoctorSchedule.aspx_12 =选择重复附表^管理员\\ DoctorSchedule.aspx_13 =你确定要删除的计划？^管理员\\ DoctorSchedule.aspx_14 =已成功删除管理员^ \\ DoctorSchedule.aspx_15 =成功预定^</value>
+  </data>
+  <data name="Admin\DoctorsVacation.aspx" xml:space="preserve">
+    <value>联系\\ DoctorsVacation.aspx_1 =选择医生^</value>
+  </data>
+  <data name="Admin\DueSearch.aspx" xml:space="preserve">
+    <value>联系\\ DueSearch.aspx_1 =从日期和最新的选择^管理​​员\\ DueSearch.aspx_2 =从日期和最新^管理员\\ DueSearch.aspx_3 =从日期和最新的选择选择^</value>
+  </data>
+  <data name="Admin\GeneralBillingItemsMaster.aspx" xml:space="preserve">
+    <value>联系\\ GeneralBillingItemsMaster.aspx.cs_5 =保存修改成功！^管理员\\ GeneralBillingItemsMaster.aspx.cs_6 =成功保存！^管理员\\ GeneralBillingItemsMaster.aspx_1 =提供的名称^管理员\\ GeneralBillingItemsMaster.aspx_2 =提供的OPAmount ^管理员\\ GeneralBillingItemsMaster.aspx_3 =提供的IPAmount ^管理员\\ GeneralBillingItemsMaster.aspx_4 =选择RateName ^</value>
+  </data>
+  <data name="Admin\InventoryProductMapping.aspx" xml:space="preserve">
+    <value>Admin\\InventoryProductMapping.aspx.cs_10=Check Product list Already available in some products^
+Admin\\InventoryProductMapping.aspx.cs_11=Inserted Successfully^
+Admin\\InventoryProductMapping.aspx.cs_12=Product Not Available^
+Admin\\InventoryProductMapping.aspx.cs_13=Updated Successfully^
+Admin\\InventoryProductMapping.aspx.cs_14=Deleted Successfully^
+Admin\\InventoryProductMapping.aspx_1=Enter Investigation Name^
+Admin\\InventoryProductMapping.aspx_2=Enter Product Name^
+Admin\\InventoryProductMapping.aspx_3=enter estimated quantity^
+Admin\\InventoryProductMapping.aspx_4=Select the Estimated quantity^
+Admin\\InventoryProductMapping.aspx_5=enter Buffer quantity^
+Admin\\InventoryProductMapping.aspx_6=Select the Buufer quantity^
+Admin\\InventoryProductMapping.aspx_7=Provide attribute to add^
+Admin\\InventoryProductMapping.aspx_8=Provide attribute to add^
+Admin\\InventoryProductMapping.aspx_9=Attribute already added^</value>
+  </data>
+  <data name="Admin\InvestigationCollectionReport.aspx" xml:space="preserve">
+    <value>联系\\ InvestigationCollectionReport.aspx.cs_4 =首先点击Get报告^管理员\\ InvestigationCollectionReport.aspx_1 =调查已经从日期和最新加入^管理员\\ InvestigationCollectionReport.aspx_2 =选择^管理​​员\\ InvestigationCollectionReport.aspx_3 =从日期选择并且迄今^</value>
+  </data>
+  <data name="Admin\InvestigationSamplesReport.aspx" xml:space="preserve">
+    <value>联系\\ InvestigationSamplesReport.aspx_5 =选择医院^管理员\\ InvestigationSamplesReport.aspx_6 =选择医生^管理员\\ InvestigationSamplesReport.aspx_7 =从日期和最新^管理员\\ InvestigationSamplesReport.aspx_8 =选择日期和日期选择^</value>
+  </data>
+  <data name="Admin\InvRefRanges.aspx" xml:space="preserve">
+    <value>Admin\\InvRefRanges.aspx_1=Provide investigation name to search^
+Admin\\InvRefRanges.aspx_10=Age Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_11=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_12=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_13=Select value operator^
+Admin\\InvRefRanges.aspx_14=Value end range cannot be blank^
+Admin\\InvRefRanges.aspx_15=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_16=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_17=Select Value Operator^
+Admin\\InvRefRanges.aspx_18=Reference Name Cannot be Blank^
+Admin\\InvRefRanges.aspx_19=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_2=There are no changes to group details^
+Admin\\InvRefRanges.aspx_20=Value Range Cannot be Blank^
+Admin\\InvRefRanges.aspx_21=Selected Item will be Deleted !^
+Admin\\InvRefRanges.aspx_22=Selected Item will be Deleted !^
+Admin\\InvRefRanges.aspx_23=Selected Item will be Deleted !^
+Admin\\InvRefRanges.aspx_24=Multiple Sub Catagory Not Allowed^
+Admin\\InvRefRanges.aspx_25=Do you wish to continue without saving? "^
+Admin\\InvRefRanges.aspx_26=Do you wish to continue without saving? "^
+Admin\\InvRefRanges.aspx_27=Do you wish to continue without saving? "^
+Admin\\InvRefRanges.aspx_28=Do you wish to continue without saving? "^
+Admin\\InvRefRanges.aspx_29=Data not Saved. Do you wish to Continue ?^
+Admin\\InvRefRanges.aspx_3=No changes to investigations details^
+Admin\\InvRefRanges.aspx_4=Select age type^
+Admin\\InvRefRanges.aspx_5=Select value operator^
+Admin\\InvRefRanges.aspx_6=Value end range cannot be blank^
+Admin\\InvRefRanges.aspx_7=Select age operator^
+Admin\\InvRefRanges.aspx_8=Age end range cannot be blank^
+Admin\\InvRefRanges.aspx_9=Age Range Cannot be Blank^</value>
+  </data>
+  <data name="Admin\LabAdminReports.aspx" xml:space="preserve">
+    <value>Admin\\LabAdminReports.aspx_1=Select a client^
+Admin\\LabAdminReports.aspx_2=Please Select a Client^</value>
+  </data>
+  <data name="Admin\LabAdminSummaryReports.aspx" xml:space="preserve">
+    <value>Admin\\LabAdminSummaryReports.aspx_1=Select a client^
+Admin\\LabAdminSummaryReports.aspx_2=Please Select a Doctor"^
+Admin\\LabAdminSummaryReports.aspx_3=Select a hospital^
+Admin\\LabAdminSummaryReports.aspx_4=Select a collection center^
+Admin\\LabAdminSummaryReports.aspx_5=Select a insurance name^
+Admin\\LabAdminSummaryReports.aspx_6=Select a branch name^
+Admin\\LabAdminSummaryReports.aspx_7=Select a department name^
+Admin\\LabAdminSummaryReports.aspx_8=Select from date and to date^
+Admin\\LabAdminSummaryReports.aspx_9=Select from date and to date^</value>
+  </data>
+  <data name="Admin\ManageCurrency.aspx" xml:space="preserve">
+    <value>联系\\ ManageCurrency.aspx_1 =添加/更改基​​础货币会改变其他货币兑换利率降至零。你要继续吗？^</value>
+  </data>
+  <data name="Admin\ManageCustomPrice.aspx" xml:space="preserve">
+    <value>Admin\\ManageCustomPrice.aspx_1=Select referring physician^
+Admin\\ManageCustomPrice.aspx_2=Select referring hospital^</value>
+  </data>
+  <data name="Admin\ManageInvInstrument.aspx" xml:space="preserve">
+    <value>Admin\\ManageInvInstrument.aspx_1=Provide instrument name^
+Admin\\ManageInvInstrument.aspx_2=Provide the search text to find the instrument^</value>
+  </data>
+  <data name="Admin\ManageInvKit.aspx" xml:space="preserve">
+    <value>Admin\\ManageInvKit.aspx_1=Provide kit name^
+Admin\\ManageInvKit.aspx_2=Provide the search text to find the kit^</value>
+  </data>
+  <data name="Admin\ManageInvMethod.aspx" xml:space="preserve">
+    <value>Admin\\ManageInvMethod.aspx_1=Provide method name^
+Admin\\ManageInvMethod.aspx_2=Provide the search text to find the method^</value>
+  </data>
+  <data name="Admin\ManageInvPrinciple.aspx" xml:space="preserve">
+    <value>Admin\\ManageInvPrinciple.aspx_1=Provide principle name^
+Admin\\ManageInvPrinciple.aspx_2=Provide the search text to find the principle^</value>
+  </data>
+  <data name="Admin\ManageSequenceINV.aspx" xml:space="preserve">
+    <value>Admin\\ManageSequenceINV.aspx.cs_1=The selected Location is INActive.^
+Admin\\ManageSequenceINV.aspx.cs_2=Changes saved successfully.^
+Admin\\ManageSequenceINV.aspx.cs_3=Changes saved successfully.^
+Admin\\ManageSequenceINV.aspx.cs_4=Changes saved successfully.^</value>
+  </data>
+  <data name="Admin\MappingInvtoGrp.aspx" xml:space="preserve">
+    <value>Admin\\MappingInvtoGrp.aspx.cs_10=No Matching Records found^
+Admin\\MappingInvtoGrp.aspx.cs_3=Item already exist^
+Admin\\MappingInvtoGrp.aspx.cs_4=The list cannot be empty^
+Admin\\MappingInvtoGrp.aspx.cs_5=The list cannot be empty^
+Admin\\MappingInvtoGrp.aspx.cs_6=Select atleast one Group or Investigation!^
+Admin\\MappingInvtoGrp.aspx.cs_7=Changes saved successfully.^
+Admin\\MappingInvtoGrp.aspx.cs_8=Sucessfully removed!^
+Admin\\MappingInvtoGrp.aspx.cs_9=No Matching Records found^
+Admin\\MappingInvtoGrp.aspx_1=Select the items in investigation master^
+Admin\\MappingInvtoGrp.aspx_2=Select the items in investigation mapping^</value>
+  </data>
+  <data name="Admin\MedicalIndentMaster.aspx" xml:space="preserve">
+    <value>Admin\\MedicalIndentMaster.aspx.cs_4=saved successfully.^
+Admin\\MedicalIndentMaster.aspx.cs_5=changes saved successfully^
+Admin\\MedicalIndentMaster.aspx.cs_6=Deleted successfully^
+Admin\\MedicalIndentMaster.aspx_1=Provide the name^
+Admin\\MedicalIndentMaster.aspx_2=Provide the RateName^
+Admin\MedicalIndentMaster.aspx_3=Are you sure you wish to delete this user?^</value>
+  </data>
+  <data name="Admin\MenuMapper.aspx" xml:space="preserve">
+    <value>Admin\\MenuMapper.aspx.cs_3=Changes saved successfully.^
+Admin\\MenuMapper.aspx.cs_4=There is a problem saving the data^
+Admin\\MenuMapper.aspx_1=Select an organization to proceed^
+Admin\\MenuMapper.aspx_2=Select a role to proceed^Admin\\MenuMapper.aspx.cs_5=Select StartPage to proceed^Admin\
+\MenuMapper.aspx.cs_6=Select An Organisation^Admin\\MenuMapper.aspx_7=Provide Role Name^</value>
+  </data>
+  <data name="Admin\ModalitySchedule.aspx" xml:space="preserve">
+    <value>Admin\\ModalitySchedule.aspx_1=Select modality name^
+Admin\\ModalitySchedule.aspx_2=Choose a valid date^Admin\\ModalitySchedule.aspx_3=Please select the EndTime greater than StartTime:^</value>
+  </data>
+  <data name="Admin\NonReimbursableMaster.aspx" xml:space="preserve">
+    <value>Admin\\NonReimbursableMaster.aspx.cs_6=NonReimbursableItems Added Sucessfully^
+Admin\\NonReimbursableMaster.aspx_1=Please enter non reimbursable items^
+Admin\\NonReimbursableMaster.aspx_2=Please enter avaialable items^
+Admin\\NonReimbursableMaster.aspx_3=Please enter avaialable items^
+Admin\\NonReimbursableMaster.aspx_4=This Item Already Added!^
+Admin\\NonReimbursableMaster.aspx_5=Please enter the NonReimbursableItems^Admin\\NonReimbursableMaster.aspx.cs_7=NonReimbursableItems Added Sucessfully^</value>
+  </data>
+  <data name="Admin\RatesUpdation.aspx" xml:space="preserve">
+    <value>Admin\\RatesUpdation.aspx.cs_10=No Records is shown^
+Admin\\RatesUpdation.aspx.cs_11=Enter Appropriate values, Format(999999.99)^
+Admin\\RatesUpdation.aspx.cs_12=No matching records found^
+Admin\\RatesUpdation.aspx.cs_13=Changes saved successfully.^
+Admin\\RatesUpdation.aspx.cs_9=Rates are Copied^
+Admin\\RatesUpdation.aspx_1=Select fee type^
+Admin\\RatesUpdation.aspx_10=Select Rate name^
+Admin\\RatesUpdation.aspx_11=Select an option(Fee Type)^
+Admin\\RatesUpdation.aspx_2=Select rate type name^
+Admin\\RatesUpdation.aspx_3=Correctly give the Percentage^
+Admin\\RatesUpdation.aspx_4=Select Fee type^
+Admin\\RatesUpdation.aspx_5=Provide Valid Percentage^
+Admin\\RatesUpdation.aspx_6=Select Fee Type^
+Admin\\RatesUpdation.aspx_7=Select Rate Type^
+Admin\\RatesUpdation.aspx_8=Select the item to save the changes^
+Admin\\RatesUpdation.aspx_9=Select a Client/TPA^Admin\\RatesUpdation.aspx_21=Please Select a FeeType^
+Admin\\RatesUpdation.aspx_22=Please Select a Rate Name^
+Admin\\RatesUpdation.aspx_23=Amount Mismatch^
+Admin\\RatesUpdation.aspx_24=Please Select a FeeType^
+Admin\\RatesUpdation.aspx_25=Please Enter a Service Name^
+Admin\\RatesUpdation.aspx_26=Please Enter a Amount^
+Admin\\RatesUpdation.aspx_27=This Service Already Exists^Admin\\RatesUpdation.aspx_28=Select Organisation^Admin\
+\RatesUpdation.aspx_29=Select the rate card^</value>
+  </data>
+  <data name="Admin\RateTypeMaster.aspx" xml:space="preserve">
+    <value>Admin\\RateTypeMaster.aspx.cs_4=Deleted successfully^
+Admin\\RateTypeMaster.aspx.cs_5=Changes saved successfully.^
+Admin\\RateTypeMaster.aspx.cs_6=Already exist^
+Admin\\RateTypeMaster.aspx.cs_7=Changes saved successfully.^
+Admin\\RateTypeMaster.aspx.cs_8=Already exist^
+Admin\\RateTypeMaster.aspx_1=Provide the name^
+Admin\\RateTypeMaster.aspx_2=Provide the discount^
+Admin\\RateTypeMaster.aspx_3=Are you sure you wish to delete this type?^Admin\\RateTypeMaster.aspx.cs_9=Rate Card Already Mapped to this Organisation^Admin\\RateTypeMaster.aspx.cs_10=Provide a valid Ratecard^Admin\\RateTypeMaster.aspx.cs_11=Select Organization^</value>
+  </data>
+  <data name="Admin\RoomMasterDetails.aspx" xml:space="preserve">
+    <value>Admin\\RoomMasterDetails.aspx.cs_37=Press ok to continue or Cancel to Enter Number of Beds^Admin\\RoomMasterDetails.aspx.cs_31=Already Exist!^
+Admin\\RoomMasterDetails.aspx.cs_32=Saved Successfully!^
+Admin\\RoomMasterDetails.aspx.cs_33=Changes Saved Successfully!^
+Admin\\RoomMasterDetails.aspx.cs_34=Saved Successfully!^
+Admin\\RoomMasterDetails.aspx.cs_35=Changes Saved Successfully!^
+Admin\\RoomMasterDetails.aspx.cs_36=Saved Successfully!^
+Admin\\RoomMasterDetails.aspx_1=Enter the  Name^
+Admin\\RoomMasterDetails.aspx_10=Select Building Name^
+Admin\\RoomMasterDetails.aspx_11=Select Floor Name^
+Admin\\RoomMasterDetails.aspx_12=Select Ward Name^
+Admin\\RoomMasterDetails.aspx_13=Select RoomType Name^
+Admin\\RoomMasterDetails.aspx_14=Enter No Of Rooms^
+Admin\\RoomMasterDetails.aspx_15=Add Selected Item^
+Admin\RoomMasterDetails.aspx_16=Saved Successfully^
+Admin\\RoomMasterDetails.aspx_17=Enter Number of Beds^
+Admin\\RoomMasterDetails.aspx_18=RoomName Can not be Same^
+Admin\\RoomMasterDetails.aspx_19=RoomName Can not be Empty^
+Admin\\RoomMasterDetails.aspx_2=Select the Building^
+Admin\\RoomMasterDetails.aspx_20=Enter of Beds^
+Admin\\RoomMasterDetails.aspx_21=Select Building Name^
+Admin\\RoomMasterDetails.aspx_22=Select Floor Name^
+Admin\\RoomMasterDetails.aspx_23=Select Ward Name^
+Admin\\RoomMasterDetails.aspx_24=Select RoomType Name^
+Admin\\RoomMasterDetails.aspx_25=Enter No Of Rooms^
+Admin\\RoomMasterDetails.aspx_26=Enter Number of Beds^
+Admin\\RoomMasterDetails.aspx_27=Bed Name can not be same^
+Admin\\RoomMasterDetails.aspx_28=Bed Name can not be empty^Admin\\RoomMasterDetails.aspx_29=Press ok to continue or Cancle to Enter Number of Beds^
+Admin\\RoomMasterDetails.aspx_3=Enter the " + ddlMaster + "  Name^
+Admin\\RoomMasterDetails.aspx_30=Press ok to continue or Cancel to Enter Number of Beds^
+Admin\\RoomMasterDetails.aspx_4=Enter the " + ddlMaster + " Name^
+Admin\\RoomMasterDetails.aspx_5=Enter the Building Name^
+Admin\\RoomMasterDetails.aspx_6=Select Rate Name^
+Admin\\RoomMasterDetails.aspx_7=Select the Room Fee Type^
+Admin\\RoomMasterDetails.aspx_8=Enter the Amount^
+Admin\\RoomMasterDetails.aspx_9=Room Fee Type Already Exists^</value>
+  </data>
+  <data name="Admin\SurgeryMaster.aspx" xml:space="preserve">
+    <value>Admin\\SurgeryMaster.aspx_1=Cannot be blank^
+Admin\\SurgeryMaster.aspx_2=Surgery Exists^
+Admin\\SurgeryMaster.aspx_3=Surgery already Added^</value>
+  </data>
+  <data name="Admin\SurgeryPackage.aspx" xml:space="preserve">
+    <value>Admin\\SurgeryPackage.aspx.cs_15=Changes saved successfully.^
+Admin\\SurgeryPackage.aspx.cs_16=Deleted successfully^
+Admin\\SurgeryPackage.aspx.cs_17=PackageProfileControl_collectedFinalSpeciality^
+Admin\\SurgeryPackage.aspx.cs_18=PackageProfileControl_collectedFinalProcedure^
+Admin\\SurgeryPackage.aspx.cs_19=PackageProfileControl_collectedFinalSpeciality^
+Admin\\SurgeryPackage.aspx.cs_20=PackageProfileControl_collectedFinalProcedure^
+Admin\\SurgeryPackage.aspx_1=Provide the package name^
+Admin\\SurgeryPackage.aspx_10=Room type already added^
+Admin\\SurgeryPackage.aspx_11=Surgery type already added^
+Admin\\SurgeryPackage.aspx_12=Procedure already added^
+Admin\\SurgeryPackage.aspx_13=Medical Indents Already Added!"^
+Admin\\SurgeryPackage.aspx_14=Are you sure you wish to delete this Package?^
+Admin\\SurgeryPackage.aspx_2=Provide the amount^
+Admin\\SurgeryPackage.aspx_3=Provide the days^
+Admin\\SurgeryPackage.aspx_4=Provide the number of consultations before using package^
+Admin\\SurgeryPackage.aspx_5=Provide the number of consultations after using package^
+Admin\\SurgeryPackage.aspx_6=Provide the consultation validity period^
+Admin\\SurgeryPackage.aspx_7=Consultation already added^
+Admin\\SurgeryPackage.aspx_8=Ambulance already added^
+Admin\\SurgeryPackage.aspx_9=Medical indents already added^</value>
+  </data>
+  <data name="Admin\SurgeryTeamWiseReport.aspx" xml:space="preserve">
+    <value>Admin\\SurgeryTeamWiseReport.aspx.cs_2=First click the get report^
+Admin\\SurgeryTeamWiseReport.aspx_1=Provide visit date^</value>
+  </data>
+  <data name="Admin\TaskReAssign.aspx" xml:space="preserve">
+    <value>Admin\\TaskReAssign.aspx.cs_10=Task has been re-assigned successfully^
+Admin\\TaskReAssign.aspx.cs_11=Select alteast one task to Re Assign^
+Admin\\TaskReAssign.aspx.cs_5=Please Filter the Task(s) by Role before reassigining^
+Admin\\TaskReAssign.aspx.cs_6=Please Filter the Task(s) by Role before reassigining^
+Admin\\TaskReAssign.aspx.cs_7=There is No Task for the Selected Role^
+Admin\\TaskReAssign.aspx.cs_8=Please Filter the Task(s) by Role before reassigining^
+Admin\\TaskReAssign.aspx.cs_9=There is No Task for the Selected Role^
+Admin\\TaskReAssign.aspx_1=Select user name^
+Admin\\TaskReAssign.aspx_2=Select user name^
+Admin\\TaskReAssign.aspx_3=Provide task date^
+Admin\\TaskReAssign.aspx_4=Select a role for filtering the task^</value>
+  </data>
+  <data name="Admin\TemplateMaker.aspx" xml:space="preserve">
+    <value>Admin\\TemplateMaker.aspx.cs_1=Changes saved successfully.^
+Admin\\TemplateMaker.aspx.cs_2=At least one check box must be selected^
+Admin\\TemplateMaker.aspx.cs_3=More than one checkbox selected^
+Admin\\TemplateMaker.aspx.cs_4=At least one check box must be selected^
+Admin\\TemplateMaker.aspx.cs_5=More than one checkbox selected^
+Admin\\TemplateMaker.aspx.cs_6=Deletion successful^
+Admin\\TemplateMaker.aspx_1=Provide template name^</value>
+  </data>
+  <data name="Admin\TestGroup.aspx" xml:space="preserve">
+    <value>Admin\\TestGroup.aspx.cs_4=Changes saved successfully.^
+Admin\\TestGroup.aspx.cs_5=Sucessfully removed^
+Admin\\TestGroup.aspx.cs_6=Already exist^
+Admin\\TestGroup.aspx.cs_7=Changes saved successfully.^
+Admin\\TestGroup.aspx.cs_8=Changes saved successfully.^
+Admin\\TestGroup.aspx_1=Provide the group name^
+Admin\\TestGroup.aspx_2=Select the items in group master^
+Admin\\TestGroup.aspx_3=Select the items in group mapping master^Admin\\TestGroup.aspx.cs_9=Record saved successfully^Admin\\TestGroup.aspx.cs_10=No Such Records found^Admin\\TestGroup.aspx.cs_11=Select a group to add^Admin\\TestGroup.aspx.cs_12=Select a group to remove^Admin\\TestGroup.aspx.cs_13=Enter group name^Admin\\TestGroup.aspx.cs_14=Enter display text^Admin\\TestGroup.aspx.cs_15=Selected remarks already exists^Admin\
+\TestGroup.aspx.cs_16=Select a remark^Admin\\TestGroup.aspx.cs_17=Select remarks type^Admin\
+\TestGroup.aspx.cs_18=listControl^</value>
+  </data>
+  <data name="Admin\TestInvestigation.aspx" xml:space="preserve">
+    <value>Admin\\TestInvestigation.aspx.cs_10=Removed Successfully "+inv+" The other investigations are ordered, hence they cannot be removed.  ^
+Admin\\TestInvestigation.aspx.cs_11=No Matching Records found^
+Admin\\TestInvestigation.aspx.cs_12=No Matching Records found^
+Admin\\TestInvestigation.aspx.cs_13=Changes saved successfully.^
+Admin\\TestInvestigation.aspx.cs_6=Select the department^
+Admin\\TestInvestigation.aspx.cs_7=Changes saved successfully.^
+Admin\\TestInvestigation.aspx.cs_8=Changes saved successfully.^
+Admin\\TestInvestigation.aspx.cs_9=Changes saved successfully.^
+Admin\\TestInvestigation.aspx_1=Select the items in investigation master^
+Admin\\TestInvestigation.aspx_2=Select the items in group mapping^
+Admin\\TestInvestigation.aspx_3=Select the Department Name^
+Admin\\TestInvestigation.aspx_4=Select the Header Name^
+Admin\\TestInvestigation.aspx_5=No Records to save^Admin\\TestInvestigation.aspx.cs_14=select the row you want to 
+move^Admin\\TestInvestigation.aspx.cs_15=Select both Department and Header^Admin\\TestInvestigation.aspx.cs_16=Failed to 
+save details^Admin\\TestInvestigation.aspx.cs_17=Failed to load Departments^Admin\\TestInvestigation.aspx.cs_18=Failed to 
+load names^Admin\\TestInvestigation.aspx.cs_19=Changes not saved.Do you want to continue without saving?^</value>
+  </data>
+  <data name="Admin\UserMaster.aspx" xml:space="preserve">
+    <value>Admin\\UserMaster.aspx_1=Locations list is not accesible. The available locations must be entered in the inventory master page^
+Admin\\UserMaster.aspx_10=Enter the Email"^
+Admin\\UserMaster.aspx_11=Provide the street/road name^
+Admin\\UserMaster.aspx_12=Provide the city^
+Admin\\UserMaster.aspx_13=Provide a valid e-mail ID^
+Admin\\UserMaster.aspx_14=Provide at least one contact numbers^
+Admin\\UserMaster.aspx_15=Select a usertype^
+Admin\\UserMaster.aspx_16=Select a speciality^
+Admin\\UserMaster.aspx_17=Select a location^
+Admin\\UserMaster.aspx_18=Provide preferred user name^
+Admin\\UserMaster.aspx_19=Provide the name^
+Admin\\UserMaster.aspx_2=Spciality already added^
+Admin\\UserMaster.aspx_20=Provide the street/road name^
+Admin\\UserMaster.aspx_21=Provide the city^
+Admin\\UserMaster.aspx_22=Provide a valid e-mail ID^
+Admin\\UserMaster.aspx_23=Provide any one contact number^
+Admin\\UserMaster.aspx_24=Provide the name to search^
+Admin\\UserMaster.aspx_25=Invalid e-mail id^
+Admin\\UserMaster.aspx_26=Provide the location name^
+Admin\\UserMaster.aspx_27=Select the location type^
+Admin\\UserMaster.aspx_28=Select the Org Address^
+Admin\\UserMaster.aspx_29=Invalid e-mail id^
+Admin\\UserMaster.aspx_3=Location already added^
+Admin\\UserMaster.aspx_30=Prefered User Name Already Exist^
+Admin\\UserMaster.aspx_31=Are you sure you want to Reset Password?^
+Admin\\UserMaster.aspx_32=The file given for upload is not valid^
+Admin\\UserMaster.aspx_33=Are you sure You want to  delete this ?^
+Admin\\UserMaster.aspx_34=Provide Email^
+Admin\\UserMaster.aspx_35=Changes saved successfully.^
+Admin\\UserMaster.aspx_4=Select a user type^
+Admin\\UserMaster.aspx_5=Select a speciality^Admin\\UserMaster.aspx.cs_36=Select Blocked From Date^Admin\\UserMaster.aspx.cs_37=Select Reason for Block^Admin\\UserMaster.aspx.cs_38=Select 
+Reason for UnBlock^Admin\\UserMaster.aspx.cs_39=Provide address^Admin\\UserMaster.aspx.cs_40=Provide Mobile Number or Landline Number^Admin\
+\UserMaster.aspx.cs_41=Please provide user name^Admin\\UserMaster.aspx.cs_42=Selected Date Must Be Greater than CurrentDate^Admin\\UserMaster.aspx.cs_43=BlockedTo Must 
+be Greater than or Equalto BlockedFrom Date^Admin\\UserMaster.aspx.cs_44=BlockedTo Must be Less than ValidTill Date^Admin\\UserMaster.aspx.cs_45=Are You Sure To Block 
+This User?^
+Admin\\UserMaster.aspx_6=Select a location^
+Admin\\UserMaster.aspx_7=Enter Preferred User Name^
+Admin\\UserMaster.aspx_8=Provide the name^
+Admin\\UserMaster.aspx_9=Enter the LoginName^</value>
+  </data>
+  <data name="Admin\ViewBill.aspx" xml:space="preserve">
+    <value>联系\ ViewBill.aspx_1 =你确定要取消该法案？^</value>
+  </data>
+  <data name="Admin\WaitingTime.aspx" xml:space="preserve">
+    <value>Admin\\WaitingTime.aspx_1=Provide / select value for From date^
+Admin\\WaitingTime.aspx_2=Provide / select value for To date^</value>
+  </data>
+  <data name="ANC\ANCPatientDignose.aspx" xml:space="preserve">
+    <value>ANC \\ ANCPatientDignose.aspx.cs_1 =该患者尚未完成基线筛选。 \\ n点击添加基线筛选按钮，添加必要的信息\\ñ进入前的症状，检查，并发症等^</value>
+  </data>
+  <data name="ANC\BaseLineHistory.aspx" xml:space="preserve">
+    <value>ANC\\BaseLineHistory.aspx_1=Select pregnancy status^
+ANC\\BaseLineHistory.aspx_10=Already added^
+ANC\\BaseLineHistory.aspx_11=Provide the year for corresponding dose^
+ANC\\BaseLineHistory.aspx_2=Select LMP date^
+ANC\\BaseLineHistory.aspx_3=Enter Gravida^
+ANC\\BaseLineHistory.aspx_4=Enter Para^
+ANC\\BaseLineHistory.aspx_5=Enter AbortUs^
+ANC\\BaseLineHistory.aspx_6=Enter Live^
+ANC\\BaseLineHistory.aspx_7=Provide atleast one complications^
+ANC\\BaseLineHistory.aspx_8=Already added^
+ANC\\BaseLineHistory.aspx_9=Provide atleast one disease &amp; description^</value>
+  </data>
+  <data name="ANC\BaselineScreeningHistory.aspx" xml:space="preserve">
+    <value>ANC\\BaselineScreeningHistory.aspx_1=Already added^
+ANC\\BaselineScreeningHistory.aspx_2=Already added^</value>
+  </data>
+  <data name="App_Themes\Billing\AddBillItems.aspx" xml:space="preserve">
+    <value>App_Themes\\Billing\\AddBillItems.aspx_1=Amount recieved greater than current total. \n Please check recieved amount.^
+App_Themes\\Billing\\AddBillItems.aspx_2=Please enter recieved amount^
+App_Themes\\Billing\\AddBillItems.aspx_3=Amount Entered is greater than Net Amount^
+App_Themes\\Billing\\AddBillItems.aspx_4=Select Dr-Name^
+App_Themes\\Billing\\AddBillItems.aspx_5=Enter Description^
+App_Themes\\Billing\\AddBillItems.aspx_6=Dr Name/Description is Already Added!^</value>
+  </data>
+  <data name="App_Themes\Billing\Billing.aspx" xml:space="preserve">
+    <value>App_Themes\\Billing\\Billing.aspx_1=Amount recieved greater than current total. \n Please check recieved amount.^
+App_Themes\\Billing\\Billing.aspx_2=Please enter recieved amount^
+App_Themes\\Billing\\Billing.aspx_3=Enter Miscellaneous Description^
+App_Themes\\Billing\\Billing.aspx_4=Enter Miscellaneous Amount^
+App_Themes\\Billing\\Billing.aspx_5=Amount Entered is greater than Net Amount^</value>
+  </data>
+  <data name="App_Themes\Billing\BillSearch.aspx" xml:space="preserve">
+    <value>App_Themes\\Billing\\BillSearch.aspx.cs_2=This operation cannot be performed for InPatients^
+App_Themes\\Billing\\BillSearch.aspx_1=Please Select Bill Detail^</value>
+  </data>
+  <data name="App_Themes\Billing\CollectDuePayment.aspx" xml:space="preserve">
+    <value>App_Themes\\Billing\\CollectDuePayment.aspx_1=Please enter received amount^App_Themes\\Billing\\CollectDuePayment.aspx_2=Please Check Received amount^
+App_Themes\Billing\\CollectDuePayment.aspx_3=Amount Entered is greater than Net Amount^</value>
+  </data>
+  <data name="App_Themes\Billing\HospitalBillSearch.aspx" xml:space="preserve">
+    <value>App_Themes\\Billing\\HospitalBillSearch.aspx.cs_2=This operation cannot be performed for InPatients^
+App_Themes\\Billing\\HospitalBillSearch.aspx_1=Please Select Bill Detail^</value>
+  </data>
+  <data name="App_Themes\Billing\InvestigationPayment.aspx" xml:space="preserve">
+    <value>App_Themes文件\\ \\计费= InvestigationPayment.aspx_1费用不能为零^</value>
+  </data>
+  <data name="Billing\AddBillItems.aspx" xml:space="preserve">
+    <value>Billing\\AddBillItems.aspx_1=Amount received greater than current total^
+Billing\\AddBillItems.aspx_2=Provide received amount^
+Billing\\AddBillItems.aspx_3=Amount provided is greater than net amount^
+Billing\\AddBillItems.aspx_4=Select doctor name^
+Billing\\AddBillItems.aspx_5=Provide description^
+Billing\\AddBillItems.aspx_6=Doctor name/description already added^</value>
+  </data>
+  <data name="Billing\AddServiceCode.aspx" xml:space="preserve">
+    <value>开票\\ AddServiceCode.aspx.cs_1 =服务代码保存^</value>
+  </data>
+  <data name="Billing\Billing.aspx" xml:space="preserve">
+    <value>Billing\\Billing.aspx_1=Discount amount is greater than gross value^
+Billing\\Billing.aspx_10=Please Enter Fee Amount^
+Billing\\Billing.aspx_11=This BillAmount will be added to due.\n Do you want to continue"^
+Billing\\Billing.aspx_12=This BillAmount will be added to due.\n Do you want to continue"^
+Billing\\Billing.aspx_2=Provide description for miscellaneous^
+Billing\\Billing.aspx_3=Provide miscellaneous amount^
+Billing\\Billing.aspx_4=Amount provided is greater than net amount^
+Billing\\Billing.aspx_5=Discount cannot be greater than gross amount^
+Billing\\Billing.aspx_6=Please Enter Fee Description^
+Billing\\Billing.aspx_7=Please Choose Fee type^
+Billing\\Billing.aspx_8=Please Select The Physician To Tag^
+Billing\\Billing.aspx_9=Entered Physician Name Not Exists^</value>
+  </data>
+  <data name="Billing\BillSearch.aspx" xml:space="preserve">
+    <value>Billing\\BillSearch.aspx.cs_2=This action cannot be performed for inpatients^
+Billing\\BillSearch.aspx_1=Select bill detail^</value>
+  </data>
+  <data name="Billing\CollectDueAmount.aspx" xml:space="preserve">
+    <value>Billing\\CollectDueAmount.aspx.cs_6=Collect Due payment not done^
+Billing\\CollectDueAmount.aspx_1=Amount provided is greater than net amount^
+Billing\\CollectDueAmount.aspx_2=Please Collect Whole Due Amount.^
+Billing\\CollectDueAmount.aspx_3=Discount Cannot be Greater than Gross Amount^
+Billing\\CollectDueAmount.aspx_4=Discount Amount is greater than Gross value^
+Billing\\CollectDueAmount.aspx_5=Discount cannot be greater than amount^</value>
+  </data>
+  <data name="Billing\CollectDuePayment.aspx" xml:space="preserve">
+    <value>Billing\\CollectDuePayment.aspx.cs_10=Due amount written-off successfully^
+Billing\\CollectDuePayment.aspx_7=Provide received amount^
+Billing\\CollectDuePayment.aspx_8=Check received amount^
+Billing\\CollectDuePayment.aspx_9=Amount provided is greater than net amount^Billing\\CollectDuePayment.aspx.cs_1=Due amount written-off successfully^</value>
+  </data>
+  <data name="Billing\DepositRefund.aspx" xml:space="preserve">
+    <value>Billing\\DepositRefund.aspx_1=Select a Deposit Receipt to Print^
+Billing\\DepositRefund.aspx_2=Refund Amount should be less than or equal to Refundable Amount^
+Billing\\DepositRefund.aspx_3=Amount cannot be zero^</value>
+  </data>
+  <data name="Billing\GenerateBill.aspx" xml:space="preserve">
+    <value>Billing\\GenerateBill.aspx_1=Select Any One Visit Type^
+Billing\\GenerateBill.aspx_10=You should Collect Rs.^
+Billing\\GenerateBill.aspx_11=Collect Advance or Make Payment^
+Billing\\GenerateBill.aspx_12=Discount is not allowed if the bill is added to due. Please use "Final settlement" page to provide discount. You can provide discount only for "Make payment" option.^
+Billing\\GenerateBill.aspx_13=You should select from the list^
+Billing\\GenerateBill.aspx_14=Free text not allowed for investigations^
+Billing\\GenerateBill.aspx_15=Provide description for the selected fee type^
+Billing\\GenerateBill.aspx_16=Provide the quantity^
+Billing\\GenerateBill.aspx_17=Select the fee type^
+Billing\\GenerateBill.aspx_18=Amount provided is greater than net amount^
+Billing\\GenerateBill.aspx_19=There are no items in the queue to be billed^
+Billing\GenerateBill.aspx_2=Please select new sittings or exisiting sitings^
+Billing\GenerateBill.aspx_20=Enter Reason for Discount^
+Billing\GenerateBill.aspx_21=Please Enter Cheque or Card Number^
+Billing\GenerateBill.aspx_22=Please Enter Bank Name or Card Type^
+Billing\GenerateBill.aspx_23=Discount amount is greater than gross value^
+Billing\GenerateBill.aspx_24=Discount cannot be greater than gross amount^
+Billing\GenerateBill.aspx_25=There is no due in this invoice^
+Billing\GenerateBill.aspx_26=Collect The Advance^
+Billing\GenerateBill.aspx_27=Select the patient^
+Billing\GenerateBill.aspx_28=Client/Corporate (or) TPA/Insurance has been selected, but it is not a credit bill.\n Do you want to continue?^
+Billing\GenerateBill.aspx_29=This BillAmount will be added to due.\n Do you want to continue^
+Billing\GenerateBill.aspx_3=Please Enter Patient Name^
+Billing\GenerateBill.aspx_30=Do you want to clear the Billed items?^
+Billing\GenerateBill.aspx_31=There was a problem in Save Billing Details^
+Billing\GenerateBill.aspx_32=Patient already registered with the given details^
+Billing\GenerateBill.aspx_4=Please Enter Date of birth OR Age^Billing\\GenerateBill.aspx_40=Amount should be greater than zero^
+Billing\GenerateBill.aspx_5=Please Enter Address^
+Billing\GenerateBill.aspx_6=Please Enter City^
+Billing\GenerateBill.aspx_7=Please Enter Mobile or Phone Number^
+Billing\GenerateBill.aspx_8=Please Enter the Refering Physician^
+Billing\GenerateBill.aspx_9=Please Enter The Amount^Billing\\GenerateBill.aspx_50=Please Enter or Current a Ambulance No^Billing\\GenerateBill.aspx_51=Please Enter or Current a Driver Name^Billing\\GenerateBill.aspx_52=Please Enter or Current a Location Name^Billing\\GenerateBill.aspx_53=Please Enter a Distancee^Billing\\GenerateBill.aspx_54=Please Select a Start Date^Billing\\GenerateBill.aspx_55=Please Select a To Date^Billing\\GenerateBill.aspx_56=Please Enter a Duration Hours^</value>
+  </data>
+  <data name="Billing\HospitalBillSearch.aspx" xml:space="preserve">
+    <value>Billing\\HospitalBillSearch.aspx_5=This bill has been cancelled^
+Billing\\HospitalBillSearch.aspx_6=Please ensure all the pending tasks have been deleted for this patient. Do you wish to continue?^
+Billing\\HospitalBillSearch.aspx_7=Due Collection Bill Cannot be Refunded^
+Billing\\HospitalBillSearch.aspx_8=Amount already Refunded to this Bill^
+Billing\\HospitalBillSearch.aspx_9=Cannot Refund to Selected Bill^Billing\\HospitalBillSearch.aspx_2=selected Patient is not credit^Billing\\HospitalBillSearch.aspx_3=Selected Patient not discharged^Billing\HospitalBillSearch.aspx_4=Select bill number^Billing\\HospitalBillSearch.aspx.cs_10=URL Not Found^Billing\\HospitalBillSearch.aspx.cs_11=This action cannot be performed for inpatients^Billing\\HospitalBillSearch.aspx_12=Already  Task Assigned^Billing\\HospitalBillSearch.aspx_13=Already Refund this bill...^Billing\\ospitalBillSearch.aspx_14=Already Task Rejected^Billing\\ospitalBillSearch.aspx_15=Already Refund this bill..Not able to Cancel Bill...^Billing\\ospitalBillSearch.aspx_16=Already Cancelled this bill^Billing\\HospitalBillSearch.aspx_17=Please ensure all the pending tasks have been deleted for this patient. Do you wish to continue?^</value>
+  </data>
+  <data name="Billing\InterimSearch.aspx" xml:space="preserve">
+    <value>Billing\\InterimSearch.aspx_1=Provide value for at least one of the fields^
+Billing\\InterimSearch.aspx_2=Name must have atleast three characters^
+Billing\\InterimSearch.aspx_3=Select a bill number^
+Billing\\InterimSearch.aspx_4=There is No Pending List so select Other Bill No^Billing\\InterimSearch.aspx_5=URL Not Found^</value>
+  </data>
+  <data name="Billing\PatientDueDetails.aspx" xml:space="preserve">
+    <value>Billing\\PatientDueDetails.aspx.cs_2=No Matching Records Found^
+Billing\\PatientDueDetails.aspx_1=Select patient^Billing\\PatientDueDetails.aspx_3=No Matching Records Found^Billing\\PatientDueDetails.aspx_4=Due amount cannot be collected for Existing In Patient^</value>
+  </data>
+  <data name="Billing\PerformRefund.aspx" xml:space="preserve">
+    <value>Billing\\PerformRefund.aspx.cs_3=succes^
+Billing\\PerformRefund.aspx_1=Enter the Reason for Reject^
+Billing\\PerformRefund.aspx_2=Do you wish to take Print?^</value>
+  </data>
+  <data name="Lab\PendingSampleCollection.aspx" xml:space="preserve">
+    <value>Lab\\PendingSampleCollection.aspx_1=Select From date^Lab\\PendingSampleCollection.aspx_2=Select To date^Lab\\PendingSampleCollection.aspx_3=Select Aberrant Sample Status^
+Lab\\PendingSampleCollection.aspx_4=Select a Sample for Aliquot^Lab\\PendingSampleCollection.aspx_5=This Action is only Performed for Outsourcing Sample.So Please Choose Outsourcing Sample for Capture OutSourcing Details^
+Lab\\PendingSampleCollection.aspx_6=This Action is not Suitable For Outsourcing Sample.^Lab\\PendingSampleCollection.aspx_7=Select Reason^Lab\\PendingSampleCollection.aspx_8=Select a Sample^Lab\\PendingSampleCollection.aspx_9=Select Action^
+Lab\\PendingSampleCollection.aspx_10=Aliquot Value not Equal to Zero^Lab\\PendingSampleCollection.aspx_11=Enter Aliquot Value^</value>
+  </data>
+  <data name="Reception\LabPatientRegistration.aspx" xml:space="preserve">
+    <value>Reception\\LabPatientRegistration.aspx_9=Provide city^
+Reception\\LabPatientRegistration.aspx_8=Provide the URN type^
+Reception\\LabPatientRegistration.aspx_7=Provide the URN^
+Reception\\LabPatientRegistration.aspx_6=Please Enter Street/Road Name^
+Reception\\LabPatientRegistration.aspx_5=Provide ward No^
+Reception\\LabPatientRegistration.aspx_4=Provide patient age^
+Reception\\LabPatientRegistration.aspx_37=Provide city^
+Reception\\LabPatientRegistration.aspx_36=You must provide one address^
+Reception\\LabPatientRegistration.aspx_35=Provide name^
+Reception\\LabPatientRegistration.aspx_34=Hospital already added^
+Reception\\LabPatientRegistration.aspx_33=Provide the search text to find the physician^
+Reception\\LabPatientRegistration.aspx_32=Please Enter The WardNo^
+Reception\\LabPatientRegistration.aspx_31=Select salutation^
+Reception\\LabPatientRegistration.aspx_30=Provide physician name^
+Reception\\LabPatientRegistration.aspx_3=Select sex^
+Reception\\LabPatientRegistration.aspx_29=Error has occured:^Reception\\LabPatientRegistration.aspx_39=Select Referring Organization^
+Reception\\LabPatientRegistration.aspx_28=Timeout has occured^
+Reception\\LabPatientRegistration.aspx_27=Select physician name from the list^
+Reception\\LabPatientRegistration.aspx_26=Provide a valid month^
+Reception\\LabPatientRegistration.aspx_25=Provide a valid year^
+Reception\\LabPatientRegistration.aspx_24=Provide age in (days or weeks or months or year) &amp; choose appropriate from the list^
+Reception\\LabPatientRegistration.aspx_23=Provide city^
+Reception\\LabPatientRegistration.aspx_22=Please Enter Street/Road Name^
+Reception\\LabPatientRegistration.aspx_21=Provide name^
+Reception\\LabPatientRegistration.aspx_20=Select publishing mode^
+Reception\\LabPatientRegistration.aspx_2=Provide patient name^
+Reception\\LabPatientRegistration.aspx_19=Please Select Publishing Mode^
+Reception\\LabPatientRegistration.aspx_18=Select collection centre^
+Reception\\LabPatientRegistration.aspx_17=Select client Name^
+Reception\\LabPatientRegistration.aspx_16=Select insurance^
+Reception\\LabPatientRegistration.aspx_15=Select insurance type^
+Reception\\LabPatientRegistration.aspx_14=Select payer type^
+Reception\\LabPatientRegistration.aspx_13=Select Referring clinic^Reception\\LabPatientRegistration.aspx_40=Select Rate type^
+Reception\\LabPatientRegistration.aspx_12=please Select Doctor name from list^
+Reception\\LabPatientRegistration.aspx_11=Provide name for doctor^
+Reception\\LabPatientRegistration.aspx_10=Please Select Doctor Name^
+Reception\\LabPatientRegistration.aspx_1=Please Select Salutation^
+Reception\\LabPatientRegistration.aspx.cs_38=Changes saved successfully.^Reception\\LabPatientRegistration.aspx_41=Please Enter The Referring Organization Name^</value>
+  </data>
+  <data name="ChangePassword\ChangePassword.aspx" xml:space="preserve">
+    <value>\\的ChangePassword = ChangePassword.aspx_1成功更新^的ChangePassword \\ ChangePassword.aspx_2 =提供交易密码^的ChangePassword \\ ChangePassword.aspx_3 =给定的密码已经存在^的ChangePassword \\ ChangePassword.aspx_4 =鉴于交易密码已经存在^的ChangePassword \\的ChangePassword .aspx_5 =给定的密码已经存在^</value>
+  </data>
+  <data name="Invoice\ClientMaster.aspx" xml:space="preserve">
+    <value>发票\\ ClientMaster.aspx_1 =已经添加了此税^发票\\ ClientMaster.aspx_2 =无效的电子邮件ID ^发票\\ ClientMaster.aspx_3 =客户名称已经存在。请输入新的客户名称^发票\\ ClientMaster。 aspx_4 =该服务税已不存在。请输入新的服务税号^发票\\ ClientMaster.aspx_5 =手机号码应为10位数的^发票\\ ClientMaster.aspx_6 =选择ADDRES类型^发票\\ ClientMaster.aspx_7 =输入地址^发票\\ ClientMaster.aspx_8 =寄发模式下，您选择的电子邮件。所以，请给电子邮件-ID ^发票\\ ClientMaster.aspx_9 =寄发模式下，您选择的短信。所以，请给手机号码^发票\\ ClientMaster.aspx_11 =选择客户端类型^发票\\ ClientMaster.aspx_12 =输入客户名称^发票\\ ClientMaster.aspx_13 =输入客户端代码^发票\\ ClientMaster.aspx_14 = Clientcode已经exists.Enter一个新的代码已加入^发票\\客户Master.aspx_15 =通用客户端^发票\\ ClientMaster.aspx_16 =选择客户类型^发票\\ ClientMaster.aspx_17 =请seletect的作用，ASIGN发票审批任务^发票\\ ClientMaster.aspx_18 =请给出理由^发票\\ ClientMaster.aspx_19 =输入父客户端^发票\\ ClientMaster.aspx_20 =请选择resaon ^发票\\ ClientMaster.aspx_21 =请选择授权人^发票\ \ ClientMaster.aspx_22 =请选择日期块^发票\\ ClientMaster.aspx_23 =请选择块迄今为止^发票\\ ClientMaster.aspx_24 =请选择有效的年份^发票\\ ClientMaster.aspx_25 =请选择有效的月份^发票\ \ ClientMaster.aspx_26 =请选择有效日^发票\\ ClientMaster.aspx_27 =输入配送信息^发票\\ ClientMaster.aspx_28 =得到一次地址^发票\\ ClientMaster.aspx_29 =输入客户端属性^发票\\ ClientMaster .aspx_30 =输入CLIEN属性的值^发票\\ ClientMaster.aspx_31 =提供属性值^ = ^发票\\ ClientMaster.aspx_33 =已经添加属性^发票\\ ClientMaster.aspx_34 =已经给通讯地址^发票\\ ClientMaster。 aspx_35 =请输入接触式^发票\\ ClientMaster.aspx_36 =请输入人名^发票\\ ClientMaster.aspx_37 =人与此接触式^发票\\ ClientMaster.aspx_38关联=已经添加了此人^发票\\ ClientMaster .aspx_39 =已主要联系人选择^发票\\ ClientMaster.aspx_42 =这一行动将阻止所有相关的客户端。你确定要继续？^发票\\ ClientMaster.aspx_43 =您已选择只显示映射items.You可以映射在服务客户端映射的项目。单击OK，去服务客户端映射^发票\\ ClientMaster.aspx_44 =确认删除！^</value>
+  </data>
+  <data name="Reception\SaveLabRefOrgDetails.aspx" xml:space="preserve">
+    <value>Reception\\SaveLabRefOrgDetails.aspx_4=Provide correct land line number^
+Reception\\SaveLabRefOrgDetails.aspx_3=Please Select The Type ^
+Reception\\SaveLabRefOrgDetails.aspx_2=Please Enter The Code  ^
+Reception\\SaveLabRefOrgDetails.aspx_1=Please Enter The  Hospital/Clinic/Lab Name ^</value>
+  </data>
+  <data name="CommonControls\DynamicUserControl.ascx.cs" xml:space="preserve">
+    <value>CommonControls \\ DynamicUserControl.ascx.cs_1 =历史保存成功。^</value>
+  </data>
+  <data name="CommonControls\EmployerRegDetail.ascx.cs" xml:space="preserve">
+    <value>CommonControls \\ EmployerRegDetail.ascx.cs_1 =请检查员工人数^</value>
+  </data>
+  <data name="Inventory\InventoryDueClearance.aspx" xml:space="preserve">
+    <value>库存\\ InventoryDueClearance.aspx_1 =收集提前量^库存\\ InventoryDueClearance.aspx_2 =请输入全额^ InventoryDueClearance.aspx_3 =没有因该患者成功添加^ InventoryDueClearance.aspx_4 =病人因^</value>
+  </data>
+  <data name="Inventory\InvoiceMapping.aspx1" xml:space="preserve">
+    <value>库存\\ InvoiceMapping.aspx_1 =从日期^库存\\ InvoiceMapping.aspx_2 =为迄今为止^库存提供/选择值\ InvoiceMapping.aspx.cs_3 =无匹配找到记录提供/选择值！^库存\ InvoiceMapping.aspx。 cs_4 =供应商/发票/ DCNO更新Suceefully！^库存\ InvoiceMapping.aspx.cs_5 =失败选择更新^</value>
+  </data>
+  <data name="CommonControls\INVAttributeUsage.ascx" xml:space="preserve">
+    <value>CommonControls \\ INVAttributeUsage.ascx.cs_1 =产品数量已超过^ CommonControls \ INVAttributeUsage.ascx.cs_2 =不能添加多次^ CommonControls \ INVAttributeUsage.ascx.cs_3 =产品详细信息不存在^</value>
+  </data>
+  <data name="Inventory\Products" xml:space="preserve">
+    <value>库存\\ Products.aspx_1 =提供的产品名称^库存\\ Products.aspx_2 =选择类型^库存\\ Products.aspx_3 =选择类别名称^库存\\ Products.aspx_4 =提供的订货点水平^库存\\ Products.aspx_5 =提供的使用计数^库存\\ Products.aspx_6 =提供的产品属性^库存\\ Products.aspx_7 =提供的产品属性^库存\\ Products.aspx_8 =选择最小单位可售库存^ \\产品。 aspx_9 =无法删除产品^库存\\ Products.aspx_10 =输入属性的细节^</value>
+  </data>
+  <data name="Inventory\ProductUpdate.aspx" xml:space="preserve">
+    <value>库存\\ ProductUpdate.aspx.cs_1 =已成功保存更改。^库存\\ ProductUpdate.aspx.cs_2 =现在有一个问题，同时节省数据^库存\\ ProductUpdate.aspx.cs_3 = ^库存\\ ProductUpdate.aspx.cs_4 = ^</value>
+  </data>
+  <data name="Inventory\PurchaseOrder.aspx" xml:space="preserve">
+    <value>库存\\ PurchaseOrder.aspx_1 =选择采购订单日期^库存\\ PurchaseOrder.aspx_2 =选择的供应商库存^ \\ PurchaseOrder.aspx_3 =选择产品^库存\\ PurchaseOrder.aspx_4 =产品已经添加^库存\\ PurchaseOrder.aspx_7 =提供的产品名称^库存\\ PurchaseOrder.aspx_8 =选择类型^库存\\ PurchaseOrder.aspx_9 =选择类别名称^库存\\ PurchaseOrder.aspx_10 =提供的订货点水平^库存\\ PurchaseOrder.aspx_15 =选择LSUnit ^库存\\ Products.aspx_5 =提供的使用计数^库存\\ Products.aspx_13 =产品成功地增加了^</value>
+  </data>
+  <data name="Inventory\ReceiptSearch.aspx" xml:space="preserve">
+    <value>库存\\ ReceiptSearch.aspx_3 =选择一个收据号码^库存\\ ReceiptSearch.aspx_5 =提前量是不退还^库存\\ ReceiptSearch.aspx.cs_1 =找不到网址^</value>
+  </data>
+  <data name="Admin\AddBankName.aspx" xml:space="preserve">
+    <value>Admin\\AddBankName.aspx.cs_6=Updated^Admin\\AddBankName.aspx_1=Cannot be blank^Admin\\AddBankName.aspx_2=Bank Already Exists^Admin\\AddBankName.aspx_3=Bank already Added^Admin\\AddBankName.aspx_4=Please Enter Bank Name^Admin\\AddBankName.aspx_5=Entered Bank Already Exists^
+Admin\\AddBankName.aspx_5=Entered Bank Already Exists^Admin\\AddBankName.aspx.cs_6=Updated^</value>
+  </data>
+  <data name="Admin\AddCorpClient.aspx" xml:space="preserve">
+    <value>联系\\ AddCorpClient.aspx.cs_15 =未保存的数据将丢失！^管理员\\ AddCorpClient.aspx.cs_12 =客户名称是已经存在^管理员\\ AddCorpClient.aspx.cs_13 =保险或TPA名称已经存在^管理员\\ AddCorpClient.aspx.cs_14 =已成功删除^管理员\\ AddCorpClient.aspx.cs_15 =此客户端/ TPA已经与病人相关的。因此，这不能被删除^管理员\\ AddCorpClient.aspx_1 =选择项目管理员^ \\ AddCorpClient.aspx_10 =提供的属性添加^管理员\\ AddCorpClient.aspx_11 =属性已经添加^管理员\\ AddCorpClient.aspx_2 =名称“GENERAL “不能被用于客户/公司债券。使用任何其他名称^管理员\\ AddCorpClient.aspx_3 =提供属性值^管理员\\ AddCorpClient.aspx_4 =提供的属性添加^管理员\\ AddCorpClient.aspx_5 =属性已经添加^管理员\\ AddCorpClient.aspx_6 =提供的名称^联系\\ AddCorpClient.aspx_7 =选择汇率类型^管理员\\ AddCorpClient.aspx_8 =选择率^管理员\\ AddCorpClient.aspx_9 =提供的属性加^</value>
+  </data>
+  <data name="Admin\AddOrChangeNumberPatterns.aspx" xml:space="preserve">
+    <value>联系\\ AddOrChangeNumberPatterns.aspx.cs_1 =数据保存成功与^管理员\\ AddOrChangeNumberPatterns.aspx_2 =请选择一个类别^管理员\\ AddOrChangeNumberPatterns.aspx_3 =请选择一个项目添加^管理员\\ AddOrChangeNumberPatterns.aspx_4 =类型医院名称中所提供的文本框中添加^管理员\\ AddOrChangeNumberPatterns.aspx_5 =输入有效的名称^管理员\\ AddOrChangeNumberPatterns.aspx_6 =在提供添加一个文本框分隔符^管理员\\ AddOrChangeNumberPatterns.aspx_7 =输入有效的分离器^管理员\\ AddOrChangeNumberPatterns。 aspx_8 =中提供补充^管理员\\ AddOrChangeNumberPatterns.aspx_9 =输入有效的模式文本框中键入自己的模式^管理员\\ AddOrChangeNumberPatterns.aspx_10 =请选择一个项目，除去^管理员\\ AddOrChangeNumberPatterns.aspx_11 =无法删除编号^联系\\ AddOrChangeNumberPatterns.aspx_12 =请选择一个项目交换^管理员\\ AddOrChangeNumberPatterns.aspx_13 =请选择一个项目交换^管理员\\ AddOrChangeNumberPatterns.aspx_14 =选择一个类别^管理员\\ AddOrChangeNumberPatterns.aspx_15 =请输入复位值^联系\\ AddOrChangeNumberPatterns.aspx_16 =复位就为这个类别^管理员\\ AddOrChangeNumberPatterns.aspx_17 =这些模式将适用于新产生numbers.Are你确定要保存这些数据？^</value>
+  </data>
+  <data name="Admin\CashFlow.aspx1" xml:space="preserve">
+    <value>Admin\\CashFlow.aspx.cs_11=There is no Payment for Consultation on Selected Date^
+Admin\\CashFlow.aspx_1=Select doctor name^Admin\\CashFlow.aspx_10=Provide payable amount less than or equal to total amount^Admin\\CashFlow.aspx_2=Provide / select value for To date^Admin\\CashFlow.aspx_3=Select doctor name^Admin\\CashFlow.aspx_4=Provide / select value for To date^Admin\\CashFlow.aspx_5=Click on view details. The total payable amount will be of zero or lessthan zero^Admin\CashFlow.aspx_6=Provide description^Admin\\CashFlow.aspx_7=Provide remarks^Admin\\CashFlow.aspx_8=Select the suppliers^Admin\\CashFlow.aspx_9=Amount cannot be zero^Admin\\CashFlow.aspx.cs_12=There is no Payment for Consultation on Selected Date^</value>
+  </data>
+  <data name="Admin\CustomizeClientFeeTypeRate.aspx" xml:space="preserve">
+    <value>联系\\ CustomizeClientFeeTypeRate.aspx.cs_1 =成功保存。^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_2 =有一个问题，同时节省了详细资料，请与系统管理员联系。^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_3 =有问题同时节省的细节，请与系统管理员联系。^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_4 =有一个问题，同时节省了详细资料，请与系统管理员联系。^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_5 =选择公司及房型^联系\\ CustomizeClientFeeTypeRate.aspx.cs_6 =选择保险/ TPA与房型^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_7 =成功删除^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_8 =选择客户端类型和房型^管理员\\ CustomizeClientFeeTypeRate。 aspx.cs_9 =选择企业管理^ \\ CustomizeClientFeeTypeRate.aspx.cs_10 =选择房间类型^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_11 =选择保险/ TPA ^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_12 =输入折扣/增强（％）及折扣/增强型^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_13 =折扣/增强（％）应为0.1〜100 ^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_14 =选择客户端类型^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_15 =变化未保存，是否要继续？^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_16 =您确定要删除这些信息？^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_17 =已经是客户与房间类型存在，是否要修改现在呢？^管理员\\ CustomizeClientFeeTypeRate.aspx.cs_18 =改变未保存，是否要继续？^</value>
+  </data>
+  <data name="CommonControls\Tasks.ascx" xml:space="preserve">
+    <value>CommonControls \ Tasks.ascx.cs_1 =这个方子已过期，该任务将被删除！^ CommonControls \ Tasks.ascx.cs_2 =该任务已经被其他用户挑！^ CommonControls \ Tasks.ascx.cs_3 =该任务已经被采摘^</value>
+  </data>
+  <data name="Corporate\PrescriptionSearch.aspx" xml:space="preserve">
+    <value>企业\\ PrescriptionSearch.aspx.cs_1 =找不到网址^</value>
+  </data>
+  <data name="Delete_Message" xml:space="preserve">
+    <value>成功删除。</value>
+  </data>
+  <data name="Save_Message" xml:space="preserve">
+    <value>保存成功。</value>
+  </data>
+  <data name="Update_Message" xml:space="preserve">
+    <value>更改已成功更新。</value>
+  </data>
+  <data name="Errormessage_Delete" xml:space="preserve">
+    <value>删除失败</value>
+  </data>
+  <data name="Errormessage_Update" xml:space="preserve">
+    <value>更新失败</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Removal_Message" xml:space="preserve">
+    <value>成功地删除！</value>
+  </data>
+  <data name="ErrrorMessage_Save" xml:space="preserve">
+    <value>上有保存或添加数据问题</value>
+  </data>
+  <data name="Inventory\RaiseIntend.aspx" xml:space="preserve">
+    <value>库存\\ RaiseIntend.aspx_3 =产品已经存在^库存\\ RaiseIntend.aspx_5 =提供的产品数量^库存\\ RaiseIntend.aspx.cs_13 =选择组织名称^库存\\ RaiseIntend.aspx.cs_14 =选择地点名称^库存\\ RaiseIntend.aspx.cs_15 =选择On代表^库存\\ RaiseIntend.aspx.cs_16 =提高缩进具有相同的位置^库存\\ RaiseIntend.aspx.cs_17 =输入协议名称^库存\\ RaiseIntend.aspx.cs_18 =选择加薪缩进和在BehalfO ^库存\\ RaiseIntend.aspx.cs_19 =产品名称不存在^库存\\ RaiseIntend.aspx.cs_20 =选择提高缩进组织^库存\\ RaiseIntend.aspx.cs_21 =不同的位置名称选择提高缩进来存储^库存\\ RaiseIntend.aspx.cs_22 =募集代表选择缩进组织^库存\\ RaiseIntend.aspx.cs_23 =选择缩进调高代网站^库存\\ RaiseIntend.aspx.cs_24 =选择不同部位的抬起并代表^库存\\ RaiseIntend.aspx.cs_25 =提供协议名称^库存\\ RaiseIntend.aspx.cs_26 =产品名称已经存在^库存\\ RaiseIntend.aspx.cs_27 =提供的产品不存在^联系\\ InventoryProductMapping.aspx_2 =输入产品名称^库存\\ PurchaseOrderRequest.aspx_9 =输入的数量必须大于零^库存\\ RaiseIntend.aspx.cs_28 =筹得超过所需数量^库存\ RaiseIntend.aspx.cs_30 =至少选择一个产品^</value>
+  </data>
+  <data name="Inventory\Suppliers.aspx" xml:space="preserve">
+    <value>库存\\ Suppliers.aspx_1 =提供供应商名称^库存\\ Suppliers.aspx_2 =提供锡数量^库存\\ Suppliers.aspx_3 =提供联系人^库存\\ Suppliers.aspx_4 =提供的地址^ CommonMessages_7 =提供联系电话^库存\\ Suppliers.aspx_6 =无效的电子邮件ID ^库存\\ Suppliers.aspx_13 =提供一个有效的10位手机号码^库存\\ Suppliers.aspx_14 =提供有效的手机号码^库存\\ Suppliers.aspx_15 =提供有效的土地行号^库存\\ Suppliers.aspx_16 =供应商名称正在使用;不能删除^库存\\ Suppliers.aspx.cs_20 =无匹配记录找到^</value>
+  </data>
+  <data name="Inventory\UpdateStockInHand.aspx" xml:space="preserve">
+    <value>库存\\ UpdateStockInHand.aspx_1 =提供的产品名称^库存\\ UpdateStockInHand.aspx_2 =提供最少两个字符^库存\\ UpdateStockInHand.aspx.cs_23 =请输入股票^</value>
+  </data>
+  <data name="Errormessage_Add" xml:space="preserve">
+    <value>添加失败</value>
+  </data>
+  <data name="Failed_Message" xml:space="preserve">
+    <value>有上保存数据的问题</value>
+  </data>
+  <data name="CommonControls\OrderSurgeryPkgItems.ascx" xml:space="preserve">
+    <value>CommonControls \\ OrderSurgeryPkgItems.ascx.cs_2 =值必须大于零^ CommonControls \\ OrderSurgeryPkgItems.ascx.cs_1 =输入从和迄今为止^ CommonControls \\ OrderSurgeryPkgItems.ascx.cs_3 =输入要更新的数量^ CommonControls \ \ OrderSurgeryPkgItems.ascx.cs_4 =值大于包装数量较大的^ CommonControls \\ OrderSurgeryPkgItems.ascx.cs_5 =输入数量将减少^ CommonControls \\ OrderSurgeryPkgItems.ascx.cs_6 =提供数量比用于数量^ CommonControls更大的\\ OrderSurgeryPkgItems.ascx.cs_7 =这个包一天是{0}。往返日期输入正确的^</value>
+  </data>
+  <data name="CommonControls\Profile.ascx" xml:space="preserve">
+    <value>CommonControls \\ Profile.ascx.cs_1 =选择的调查已经选择。请选择一个不同的^</value>
+  </data>
+  <data name="Corporate\PrescriptionSearch_ascx" xml:space="preserve">
+    <value>企业\\ PrescriptionSearch_ascx_1 =选择患者姓名^企业\\ PrescriptionSearch_ascx_2 =有这个病人没有比尔。选择另一个患者姓名^</value>
+  </data>
+  <data name="DischargeSummary\DischargeSummaryDynamic.aspx" xml:space="preserve">
+    <value>DischargeSummary \\ DischargeSummaryDynamic.aspx_1 =选择观看出院小结^</value>
+  </data>
+  <data name="Home_aspx_cs_1" xml:space="preserve">
+    <value>已经存在会话。请从以前的会话注销。</value>
+  </data>
+  <data name="Home_aspx_cs_2" xml:space="preserve">
+    <value>与user.Please联系系统管理员没有关联的角色。</value>
+  </data>
+  <data name="Home_aspx_cs_3" xml:space="preserve">
+    <value>更多的登录尝试仍...</value>
+  </data>
+  <data name="Home_aspx_cs_4" xml:space="preserve">
+    <value>你试图登录到帐户，已被锁定，由于过度的登录尝试失败。请与管理员联系..</value>
+  </data>
+  <data name="Home_aspx_cs_5" xml:space="preserve">
+    <value>无效的用户名或密码</value>
+  </data>
+  <data name="Home_aspx_cs_6" xml:space="preserve">
+    <value>用户名已被锁定。请与管理员联系..</value>
+  </data>
+  <data name="Home_aspx_cs_Message" xml:space="preserve">
+    <value>您的登录是expired.please联系管理员</value>
+  </data>
+  <data name="Home_aspx_cs_Message2" xml:space="preserve">
+    <value>您的登录是expired.please联系管理员</value>
+  </data>
+  <data name="Admin\MRDView.aspx" xml:space="preserve">
+    <value>联系\\ MRDView.aspx_1 =请选择任何一个选项^管理员\\ MRDView.aspx_2 =请选择一个名称^管理员\\ MRDView.aspx_3 =成功更新^</value>
+  </data>
+  <data name="Report\OPIPNewAndRevisit.aspx" xml:space="preserve">
+    <value>从日期^报告\\ \\报告= OPIPNewAndRevisit.aspx_1提供/选择值OPIPNewAndRevisit.aspx_2 =为迄今为止提供/选择值^</value>
+  </data>
+  <data name="Patientacess\PatientDetails.aspx" xml:space="preserve">
+    <value>Patientacess \\ PatientDetails.aspx_1 =提供一个有效的电子邮件ID ^ Patientacess \\ PatientDetails.aspx_2 =提供婚姻状况^ Patientacess \\ PatientDetails.aspx_3 =提供色情^ Patientacess \\ PatientDetails.aspx_4 =提供街道/公路命名永久地址^ Patientacess \\ PatientDetails.aspx_5 =提供永久地址城市^ Patientacess \\ PatientDetails.aspx_6 =提供至少一个联系号码^ Patientacess \\ PatientDetails.aspx_7 =在当前地址提供街道/公路的名字^ Patientacess \\ PatientDetails.aspx_8 =在当前地址提供城市^</value>
+  </data>
+  <data name="Admin\BillSettlement.aspx" xml:space="preserve">
+    <value>联系\\ BillSettlement.aspx_3 =提供结算金额^管理​​员\\ BillSettlement.aspx_4 =结算金额不能超过成交余额^管理员\\ BillSettlement.aspx_5 =结算金额不能超过净额的大于^</value>
+  </data>
+  <data name="Admin\ClientRateMapping.aspx" xml:space="preserve">
+    <value>联系\\ ClientRateMapping.aspx_1 = ValidTo必须大于或Equalto ValidFrom日期^管理员\\ ClientRateMapping.aspx_2 =请选择客户端名称，然后再继续^管理员\\ ClientRateMapping.aspx_3 =价目表已经映射到该客户端管理员^ \\ ClientRateMapping.aspx_4 =请选择客户端类型，然后再继续^管理员\\ ClientRateMapping.aspx_5 =请选择价目表，然后再继续^管理员\\ ClientRateMapping.aspx_6 =选择客户端类型^管理员\\ ClientRateMapping.aspx_7 =选择组织管理员^ \ \ ClientRateMapping.aspx_8 =提供价目表^管理员\\ ClientRateMapping.aspx_9 =提供姓名^管理员\\ ClientRateMapping.aspx_10 =请选择至少一个客户端进行^</value>
+  </data>
+  <data name="Physician\DischargeSummaryCaseSheet.aspx" xml:space="preserve">
+    <value>医师\\ DischargeSummaryCaseSheet.aspx_1 =选择出院小结，查看^</value>
+  </data>
+  <data name="Physician\PatientDiagnose.aspx" xml:space="preserve">
+    <value>医师\\ PatientDiagnose.aspx_1 =你确定要删除？此操作将删除所有推荐/医疗字母。^</value>
+  </data>
+  <data name="Followup_mesge" xml:space="preserve">
+    <value>没有跟进找到所选日期</value>
+  </data>
+  <data name="Patient\PatientsCurrDateVist.aspx" xml:space="preserve">
+    <value>Patient\\PatientsCurrDateVist.aspx_2=Are you sure you wish to admit?^
+Patient\\PatientsCurrDateVist.aspx_1=Select visit detail^
+Patient\\PatientsCurrDateVist.aspx.cs_6=File Uploaded Successfully^
+Patient\\PatientsCurrDateVist.aspx.cs_5=URL Not Found^
+Patient\\PatientsCurrDateVist.aspx.cs_4=This action cannot be performed^
+Patient\\PatientsCurrDateVist.aspx.cs_3=This action Cannot be Performed as Patient belongs to another Organization^Patient\\PatientsCurrDateVist.aspx.cs_7=Image Path Not Found^</value>
+  </data>
+  <data name="Reports\CenterAndSpecialitywiseReport.aspx" xml:space="preserve">
+    <value>报告\\ CenterAndSpecialitywiseReport.aspx.cs_1 =请点击复选框^</value>
+  </data>
+  <data name="Reports\TPACORPDisallowedReport.aspx" xml:space="preserve">
+    <value>报告\\ TPACORPDisallowedReport.aspx.cs_1 =没有找到DATAS ^</value>
+  </data>
+  <data name="InPatient\IPViewBill.aspx" xml:space="preserve">
+    <value>住院\\ IPViewBill.aspx.cs_1 =无收据该患者^</value>
+  </data>
+  <data name="Admin\DesignationRelationship.aspx" xml:space="preserve">
+    <value>联系\\ DesignationRelationship.aspx_1 =选择职业类型^管理员\\ DesignationRelationship.aspx_2 =输入员工编号^管理员\\ DesignationRelationship.aspx_3 =输入员工姓名^管理员\\ DesignationRelationship.aspx_4 =选择雇主姓名^管理员\\ DesignationRelationship.aspx_5 =选择员工位置^管理员\\ DesignationRelationship.aspx_6 =输入指定名称^管理员\\ DesignationRelationship.aspx_7 =名称已经存在^管理员\\ DesignationRelationship.aspx_8 =输入关系名称^管理员\\ DesignationRelationship.aspx_9 =输入员工类型名称^联系\\ DesignationRelationship.aspx_10 =输入员工的部门名称^管理员\\ DesignationRelationship.aspx_11 =输入代码^管理员\\ DesignationRelationship.aspx_12 =输入患者的类型名称^管理员\\ DesignationRelationship.aspx_13 =输入地点名称^管理员\\ DesignationRelationship .aspx_14 =无效的电子邮件ID ^管理员\\ DesignationRelationship.aspx_15 =输入等级名称^</value>
+  </data>
+  <data name="Admin\DiscountMaster.aspx" xml:space="preserve">
+    <value>联系\\ DiscountMaster.aspx_1 =输入折扣名称^管理员\\ DiscountMaster.aspx_2 =输入折扣值^管理员\\ DiscountMaster.aspx_3 =输入DiscountPercentage ^管理员\\ DiscountMaster.aspx_4 =名称已经存在^管理员\\ DiscountMaster.aspx_5 =选择一个记录^管理员\\ DiscountMaster.aspx_6 =空TOD策略亘古不添加^管理员\\ DiscountMaster.aspx_7 =输入优惠码^管理员\\ DiscountMaster.aspx_8 =请输入策略名称^管理员\\ DiscountMaster.aspx_9 =请选择费键入^管理员\\ DiscountMaster.aspx_10 =请输入折扣值^管理员\\ DiscountMaster.aspx_11 =请选择类型^管理员\\ DiscountMaster.aspx_12 =输入优惠券代码^管理员\\ DiscountMaster.aspx_13 =输入优惠券名称^管理员\ \ DiscountMaster.aspx_14 =输入开始逃号^管理员\\ DiscountMaster.aspx_15 =输入批号^管理员\\ DiscountMaster.aspx_16 =输入有序单位^管理员\\ DiscountMaster.aspx_17 =输入优惠券价值^管理员\\ DiscountMaster。 aspx_18 =输入/选择到期日^管理员\\ DiscountMaster.aspx_19 =提供税名^管理员\\ DiscountMaster.aspx_20 =提供税法^管理员\\ DiscountMaster.aspx_21 =提供税务％的^管理员\\ DiscountMaster.aspx_22 =请seletect在基准类型^管理员\\ DiscountMaster.aspx_23 =选择类型^管理员\\ DiscountMaster.aspx_29 =此范围内不Valid.Please给予有效范围^管理员\\ DiscountMaster.aspx_28 =给定范围内无效！^管理员\\ DiscountMaster。 aspx_27 =提供百分比^管理员\\ DiscountMaster.aspx_30 =确认删除！^管理员\\ DiscountMaster.aspx_26 =提供有效范围^管理员\\ DiscountMaster.aspx_25 =提供代码^管理员\\ DiscountMaster.aspx_24 =选择调查^</value>
+  </data>
+  <data name="Patient\EmergencyPatient.aspx" xml:space="preserve">
+    <value>Patient\\EmergencyPatient_1=Please Enter a Ambulance No ^
+Patient\\EmergencyPatient_2=Please Enter a Driver Name  ^Patient\\EmergencyPatient_3=Please Enter a Location Name  ^Patient\\EmergencyPatient_4=Please Enter a Distance  ^Patient\\EmergencyPatient_5=Please Enter a Duration  ^Patient\\EmergencyPatient_6=Please Select a Start Date  ^Patient\\EmergencyPatient_7=Please Select a To Date  ^</value>
+  </data>
+  <data name="CommonControls\Qualification.ascx" xml:space="preserve">
+    <value>CommonControls \\ Qualification.ascx_1 =错误^</value>
+  </data>
+  <data name="CommonControls\Products.ascx" xml:space="preserve">
+    <value>CommonControls \\ Products.ascx_1 =提供的产品名称^ CommonControls \\ Products.ascx_2 =选择类型^ CommonControls \\ Products.ascx_3 =选择类别名称^ CommonControls \\ Products.ascx_5 =提供的使用计数^ CommonControls \\ Products.ascx_8 =选择最低可供出售单位^ CommonControls \\ Products.ascx_10 =输入属性的细节^ CommonControls \\ Products.ascx_6 =提供产品属性^</value>
+  </data>
+  <data name="CommonControls\FoodSession.ascx" xml:space="preserve">
+    <value>CommonControls \\ FoodSession.ascx_1 =提供会话名称^ CommonControls \\ FoodSession.ascx_3 =会话不存在^ CommonControls \\ FoodSession.ascx_5 =会话标签对产品不能被删除^ CommonControls \\ FoodSession.ascx_6 =选择会话删除^ CommonControls \\ FoodSession.ascx_7 =会话不存在^</value>
+  </data>
+  <data name="CommonControls\FoodMenu.ascx" xml:space="preserve">
+    <value>CommonControls \\ FoodMenu.ascx_1 =提供的菜单名称^ CommonControls \\ FoodMenu.ascx_3 =菜单不存在^ CommonControls \\ FoodMenu.ascx_5 =菜单标签对产品不能被删除^ CommonControls \\ FoodMenu.ascx_6 =选择菜单删除^ CommonControls \\ FoodMenu.ascx_7 =菜单不存在^</value>
+  </data>
+  <data name="Sucess_Message" xml:space="preserve">
+    <value>成功地加入</value>
+  </data>
+  <data name="CommonControls\NutritionFoodCategory.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionFoodCategory.ascx_1 =提供FoodCategory名^ CommonControls \\ NutritionFoodCategory.ascx_2 =提供说明name ^</value>
+  </data>
+  <data name="CommonControls\NutritionFoodList.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionFoodList.ascx_1 =提供FoodList名称^ CommonControls \\ NutritionFoodList.ascx_2 =提供FoodList描述name ^</value>
+  </data>
+  <data name="CommonControls\NutritionIngredients.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionIngredients.ascx_2 =提供说明name ^ CommonControls \\ NutritionIngredients.ascx_1 =提供成份名称^</value>
+  </data>
+  <data name="CommonControls\FoodMenuWardmapping.ascx" xml:space="preserve">
+    <value>CommonControls \\ FoodMenuWardmapping.ascx_1 =选择建筑物名称^ CommonControls \\ FoodMenuWardmapping.ascx_2 =选择沃德名称^ CommonControls \\ FoodMenuWardmapping.ascx_3 =选择RoomType名称^ CommonControls \\ FoodMenuWardmapping.ascx_4 =选择Foodmenu名称^</value>
+  </data>
+  <data name="CommonControls\NutritionFoodIngredientsMapping.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionFoodIngredientsMapping.ascx_1 =提供食物菜单名称^ CommonControls \\ NutritionFoodIngredientsMapping.ascx_2 =提供食品配料名称^ CommonControls \\ NutritionFoodIngredientsMapping.ascx_3 =提供食物数量^ CommonControls \\ NutritionFoodIngredientsMapping.ascx_4 =请选择食品UOM ^</value>
+  </data>
+  <data name="CommonControls\NutritionMenuDeatails.ascx" xml:space="preserve">
+    <value>CommonControls \\ NutritionMenuDeatails.ascx_1 =提供食物菜单名称^ CommonControls \\ NutritionMenuDeatails.ascx_2 =提供食物名称^ CommonControls \\ NutritionMenuDeatails.ascx_4 =提供食物数量^ CommonControls \\ NutritionMenuDeatails.ascx_5 =请选择食品计量单位^ CommonControls \\ NutritionMenuDeatails.ascx_3 =提供食物会话菜单名称^</value>
+  </data>
+  <data name="Inventory\InvOpBilling.aspx" xml:space="preserve">
+    <value>库存\\ InvOpBilling.aspx_1 =在IP已经注册该病人。^库存\ InvOpBilling.aspx_2 =任务（RESX）重新分配成功。^库存\ InvOpBilling.aspx_3 =错误，同时节省结算项目。^</value>
+  </data>
+  <data name="Admin_ReasonMaster_succ" xml:space="preserve">
+    <value>成功地原因映射为这个组织。</value>
+  </data>
+  <data name="CommonControls\NutritionFoodList.ascx_" xml:space="preserve">
+    <value>CommonControls \\ NutritionFoodList.ascx_1 =食品名单已成功beenUpdated ^ CommonControls \\ NutritionFoodList.ascx_2 =食品列表已经成功^ CommonControls \\ NutritionFoodList.ascx_3 =食品项目已经存在加！^</value>
+  </data>
+  <data name="CommonControls\ProductSearch.ascx" xml:space="preserve">
+    <value>CommonControls \\ ProductSearch.ascx.cs_1 =给定的产品不可用（RESX）^</value>
+  </data>
+  <data name="Reports\PurchaseOrderReport.aspx" xml:space="preserve">
+    <value>报告\\ PurchaseOrderReport.aspx_1 =选择日期！^报告\\ PurchaseOrderReport.aspx_2 =选择最新消息！^报告\\ PurchaseOrderReport.aspx_3 =不匹配日电流之间及结束日期^报告\\ PurchaseOrderReport.aspx_4 =不匹配日间从＆至今^报告\\ PurchaseOrderReport.aspx_5 =不匹配当前月间和日期^报告\\ PurchaseOrderReport.aspx_6 =不匹配月间从与结束日期^报告\\ PurchaseOrderReport.aspx_7 =不匹配新年电流之间及结束日期^报告\\ PurchaseOrderReport.aspx_8 =不匹配年期间从与结束日期^</value>
+  </data>
+  <data name="Admin\DaywiseCollection.aspx" xml:space="preserve">
+    <value>联系\\ DaywiseCollection.aspx_1 =为迄今为止提供/选择值^</value>
+  </data>
+  <data name="Reports\PhysicianWiseReport.aspx" xml:space="preserve">
+    <value>报告\\ PhysicianWiseReport.aspx_1 =起始和结束日期选择^</value>
+  </data>
+  <data name="Inventory\SalesReport.aspx" xml:space="preserve">
+    <value>库存\\ SalesReport.aspx.cs_1 =药房总退款金额：^库存\\ SalesReport.aspx.cs_2 =药剂产品编号退款价值：^</value>
+  </data>
+</root>

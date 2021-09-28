@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Invoice_ClientMaster_aspx_01" xml:space="preserve">
+    <value>已加入此税</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_02" xml:space="preserve">
+    <value>进入ClientCode</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_03" xml:space="preserve">
+    <value>选择CLIENTNAME从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_04" xml:space="preserve">
+    <value>无效的电子邮件ID</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_05" xml:space="preserve">
+    <value>客户名称已经存在。请输入新的客户名称</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_06" xml:space="preserve">
+    <value>在服务税已不存在。请输入新的服务税号</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_07" xml:space="preserve">
+    <value>手机号码应为10位数</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_08" xml:space="preserve">
+    <value>选择ADDRES类型</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_09" xml:space="preserve">
+    <value>输入地址</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_10" xml:space="preserve">
+    <value>寄发模式下，您选择的电子邮件。所以，请给电子邮件-ID</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_11" xml:space="preserve">
+    <value>寄发模式下，您选择的短信。所以，请把手机号码</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_12" xml:space="preserve">
+    <value>请输入日期从报告打印</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_13" xml:space="preserve">
+    <value>选择客户端类型</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_14" xml:space="preserve">
+    <value>输入客户名称</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_15" xml:space="preserve">
+    <value>输入客户端代码</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_16" xml:space="preserve">
+    <value>客户端的代码已经exists.Enter一个新的代码</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_17" xml:space="preserve">
+    <value>一般客户端已加入</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_18" xml:space="preserve">
+    <value>请提供理由</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_19" xml:space="preserve">
+    <value>选择业务类型</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_20" xml:space="preserve">
+    <value>请seletect的作用，ASIGN发票审批任务</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_21" xml:space="preserve">
+    <value>请给出理由</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_22" xml:space="preserve">
+    <value>输入父客户端</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_23" xml:space="preserve">
+    <value>请选择resaon</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_24" xml:space="preserve">
+    <value>请选择授权人</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_25" xml:space="preserve">
+    <value>请选择日期块</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_26" xml:space="preserve">
+    <value>请选择有效的年份</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_27" xml:space="preserve">
+    <value>请选择有效的月份</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_28" xml:space="preserve">
+    <value>请选择有效日</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_29" xml:space="preserve">
+    <value>输入配送信息</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_30" xml:space="preserve">
+    <value>举一个主地址</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_31" xml:space="preserve">
+    <value>这一行动将阻止所有相关的客户端。你确定要继续？</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_32" xml:space="preserve">
+    <value>你会</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_33" xml:space="preserve">
+    <value>此客户端。这是一个关键的操作。你确定要继续？</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_34" xml:space="preserve">
+    <value>进入客户端属性</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_35" xml:space="preserve">
+    <value>输入CLIEN属性的值</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_36" xml:space="preserve">
+    <value>提供属性值</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_37" xml:space="preserve">
+    <value>属性已经添加</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_38" xml:space="preserve">
+    <value>您已选择只显示映射items.You可以映射在服务客户端映射的项目。单击OK，去服务客户端映射</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_39" xml:space="preserve">
+    <value>你可以只输入100以下</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_40" xml:space="preserve">
+    <value>选择一个TaxDetails。</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_41" xml:space="preserve">
+    <value>输入序列号。</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_42" xml:space="preserve">
+    <value>仅输入号码。</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_43" xml:space="preserve">
+    <value>已经给通信地址</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_44" xml:space="preserve">
+    <value>选择客户端名称</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_45" xml:space="preserve">
+    <value>请输入接触式</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_46" xml:space="preserve">
+    <value>请输入人名</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_47" xml:space="preserve">
+    <value>人没有与此联系人类型相关联</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_48" xml:space="preserve">
+    <value>已经添加了此人</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_49" xml:space="preserve">
+    <value>已经主要联络人入选</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_50" xml:space="preserve">
+    <value>选择地点名称从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_51" xml:space="preserve">
+    <value>选择集线器名称从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_52" xml:space="preserve">
+    <value>选择区域名称从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_53" xml:space="preserve">
+    <value>选择路由名称从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_54" xml:space="preserve">
+    <value>选择税收名称从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_55" xml:space="preserve">
+    <value>选择策略从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_56" xml:space="preserve">
+    <value>选择体积的折扣从列表</value>
+  </data>
+  <data name="Invoice_ClientMaster_aspx_57" xml:space="preserve">
+    <value>选择翻身的折让由李氏</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_01" xml:space="preserve">
+    <value>折扣金额不能超过总金额大</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_02" xml:space="preserve">
+    <value>税收金额不能超过总金额大</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_03" xml:space="preserve">
+    <value>提供理由</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_04" xml:space="preserve">
+    <value>总金额应大于零</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_05" xml:space="preserve">
+    <value>提供折扣原因</value>
+  </data>
+  <data name="Invoice_GenerateInvoice_aspx_06" xml:space="preserve">
+    <value>选择发票类型</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_01" xml:space="preserve">
+    <value>提供理由</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_02" xml:space="preserve">
+    <value>提供接收量</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_03" xml:space="preserve">
+    <value>收入的金额不应超过总款额</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_04" xml:space="preserve">
+    <value>提供银行名称</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_05" xml:space="preserve">
+    <value>提供支票或卡号</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_06" xml:space="preserve">
+    <value>状态不能等待！</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_07" xml:space="preserve">
+    <value>有一个问题</value>
+  </data>
+  <data name="Invoice_InvoiceCapture_aspx_08" xml:space="preserve">
+    <value>该发票反倒没有了以前付款</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_01" xml:space="preserve">
+    <value>选择集线器名称从列表</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_02" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_03" xml:space="preserve">
+    <value>选择区域名称从列表</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_04" xml:space="preserve">
+    <value>短信发送成功！</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_05" xml:space="preserve">
+    <value>选择支付ATLEAST一个项目</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_06" xml:space="preserve">
+    <value>没有到期金额支付</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_07" xml:space="preserve">
+    <value>至少选择一个项目来查看发票报表！</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_08" xml:space="preserve">
+    <value>查看多个发票报表是不允许的！</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_09" xml:space="preserve">
+    <value>至少选择一个项目发送短信！</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_10" xml:space="preserve">
+    <value>选择一个选项进行！</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_11" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_12" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="Invoice_InvoiceTracker_aspx_13" xml:space="preserve">
+    <value>请提供一个有效的电子邮件地址</value>
+  </data>
+</root>

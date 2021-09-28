@@ -1,0 +1,2766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOrgADDResource1.Text" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="btnOrgADDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlGrowthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOrganismNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlstatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkAddResource1.Text" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="hlnkAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClinicalDiagnosisResource1.Text" xml:space="preserve">
+    <value>临床病史</value>
+  </data>
+  <data name="lblClinicalDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCultureReportResource1.Text" xml:space="preserve">
+    <value>培养结果</value>
+  </data>
+  <data name="lblCultureReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGrowthResource1.Text" xml:space="preserve">
+    <value>发展</value>
+  </data>
+  <data name="lblGrowthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMicroscopyResource1.Text" xml:space="preserve">
+    <value>AFB涂片</value>
+  </data>
+  <data name="lblMicroscopyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoofOrgansResource1.Text" xml:space="preserve">
+    <value>生物</value>
+  </data>
+  <data name="lblNoofOrgansResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrawResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrawResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportStatusResource1.Text" xml:space="preserve">
+    <value>报告状态</value>
+  </data>
+  <data name="lblReportStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSourceResource1.Text" xml:space="preserve">
+    <value>标本</value>
+  </data>
+  <data name="lblSourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource100.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource100.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource101.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource101.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource102.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource102.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource103.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource103.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource104.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource104.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource105.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource105.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource106.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource106.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource107.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource107.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource108.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource108.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource109.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource109.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource110.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource110.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource111.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource111.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource112.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource112.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource113.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource113.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource114.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource114.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource115.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource115.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource116.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource116.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource117.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource117.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource118.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource118.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource119.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource119.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource120.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource120.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource121.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource121.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource122.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource122.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource123.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource123.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource124.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource124.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource125.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource125.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource126.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource126.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource127.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource127.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource128.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource128.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource129.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource129.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource130.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource130.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource131.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource131.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource132.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource132.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource133.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource133.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource134.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource134.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource135.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource135.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource136.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource136.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource137.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource137.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource138.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource138.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource139.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource139.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource140.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource140.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource141.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource141.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource142.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource142.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource143.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource143.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource144.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource144.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource145.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource145.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource146.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource146.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource147.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource147.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource148.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource148.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource149.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource149.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource150.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource150.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource151.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource151.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource152.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource152.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource153.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource153.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource154.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource154.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource155.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource155.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource156.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource156.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource157.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource157.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource158.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource158.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource159.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource159.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource160.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource160.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource161.Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="ListItemResource161.Value" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource31.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource31.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource32.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource32.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource33.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource33.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource34.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource34.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource35.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource35.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource36.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource36.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource37.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource37.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource38.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource38.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource39.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource39.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource40.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource40.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource41.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource41.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource42.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource42.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource43.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource43.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource44.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource44.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource45.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource45.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource46.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource46.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource47.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource47.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource48.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource48.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource49.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource49.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource50.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource50.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource51.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource51.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource52.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource52.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource53.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource53.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource54.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource54.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource55.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource55.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource56.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource56.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource57.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource57.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource58.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource58.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource59.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource59.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource60.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource60.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource61.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource61.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource62.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource62.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource63.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource63.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource64.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource64.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource65.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource65.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource66.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource66.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource67.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource67.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource68.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource68.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource69.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource69.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource70.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource70.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource71.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource71.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource72.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource72.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource73.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource73.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource74.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource74.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource75.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource75.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource76.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource76.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource77.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource77.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource78.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource78.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource79.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource79.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource80.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource80.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource81.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource81.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource82.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource82.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource83.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource83.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource84.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource84.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource85.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource85.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource86.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource86.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource87.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource87.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource88.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource88.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource89.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource89.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource90.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource90.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource91.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource91.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource92.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource92.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource93.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource93.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource94.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource94.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource95.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource95.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource96.Text" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource96.Value" xml:space="preserve">
+    <value>抗性</value>
+  </data>
+  <data name="ListItemResource97.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource97.Value" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource98.Text" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource98.Value" xml:space="preserve">
+    <value>敏感</value>
+  </data>
+  <data name="ListItemResource99.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="ListItemResource99.Value" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="lnkEditResource1.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="lnkEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlenabledResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlenabledResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnltabResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnltabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismFirstLineResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismFirstLineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismForthLineResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismForthLineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismSecondLineResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismSecondLineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismThirdLineResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblOrganismThirdLineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirst_LineddlSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName0Resource1.Text" xml:space="preserve">
+    <value>第一行</value>
+  </data>
+  <data name="tcFirstLineDrugName0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone0Resource1.Text" xml:space="preserve">
+    <value>断点的MIC</value>
+  </data>
+  <data name="tcFirstLineZone0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcFirstLineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForth_LineddlSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName0Resource1.Text" xml:space="preserve">
+    <value>四线</value>
+  </data>
+  <data name="tcForthLineDrugName0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity0Resource1.Text" xml:space="preserve">
+    <value>灵敏度</value>
+  </data>
+  <data name="tcForthLineSensitivity0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone0Resource1.Text" xml:space="preserve">
+    <value>断点的MIC</value>
+  </data>
+  <data name="tcForthLineZone0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcForthLineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecond_LineddlSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineddlSensitivity2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineddlSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName0Resource1.Text" xml:space="preserve">
+    <value>二线</value>
+  </data>
+  <data name="tcSecondLineDrugName0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity0Resource1.Text" xml:space="preserve">
+    <value>灵敏度</value>
+  </data>
+  <data name="tcSecondLineSensitivity0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone0Resource1.Text" xml:space="preserve">
+    <value>断点的MIC</value>
+  </data>
+  <data name="tcSecondLineZone0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSecondLineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcSensitivity0Resource1.Text" xml:space="preserve">
+    <value>灵敏度</value>
+  </data>
+  <data name="tcSensitivity0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThird_LineddlSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName0Resource1.Text" xml:space="preserve">
+    <value>三线</value>
+  </data>
+  <data name="tcThirdLineDrugName0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity0Resource1.Text" xml:space="preserve">
+    <value>灵敏度</value>
+  </data>
+  <data name="tcThirdLineSensitivity0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineSensitivity9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone0Resource1.Text" xml:space="preserve">
+    <value>断点的MIC</value>
+  </data>
+  <data name="tcThirdLineZone0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tcThirdLineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trFirstLine9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trForthLine9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trSecondLine9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trThirdLine9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClinicalDiagnosisResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClinicalDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCultureReportResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCultureReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirst_LineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtForth_LineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMedRemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMedRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMicroscopyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMicroscopyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecond_LineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSourceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineDrugName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtThird_LineZone9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

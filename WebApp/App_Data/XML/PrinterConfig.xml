@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PrinterConfig>
+	<OrgID id="1">
+		<Department Name="Rawat Jalan">
+			<printerName for="Existing Patient" PrintNo="1">\\POLI-RM-004\EPSON TM-U220 Receipt</printerName>
+			<printerName for="Visit Barcode" PrintNo="6">\\PARIKO-PC10154\Argox CP-2140 PPLB</printerName>
+			<printerName for="ID Card" PrintNo="1">\\PARIKO-PC10151\Zebra P330i Card Printer USB</printerName>
+			<printerName for="MRD Barcode" PrintNo="2">\\PARIKO-PC10161\Argox CP-2140 PPLB</printerName>
+		</Department>
+		<Department Name="Paviliun Amerta">
+		  <printerName for="Existing Patient" PrintNo="1">\\PARIKO-PC10003\EPSON TM-U220 ReceiptE4</printerName>
+		  <printerName for="Visit Barcode" PrintNo="12">\\PARIKO-PC10036.rsupsanglah.local\Argox CP-2140 PPLB</printerName>
+		  <printerName for="ID Card" PrintNo="1">\\PARIKO-PC10036.rsupsanglah.local\Zebra P330i Card Printer USB</printerName>
+		  <printerName for="MRD Barcode" PrintNo="2">\\POLI-RM-004\Zebra P330i Card Printer USB</printerName>
+		</Department>
+		<Department Name="Rawat Darurat">
+			<printerName for="Existing Patient" PrintNo="1">\\PARIKO-PC10287\EPSON TM-U220 Receipt</printerName>
+			<printerName for="Visit Barcode" PrintNo="15">\\PARIKO-PC10288\Argox CP-2140 PPLB</printerName>
+			<printerName for="ID Card" PrintNo="1">\\PARIKO-PC10288\Zebra P330i Card Printer USB</printerName>
+			<printerName for="MRD Barcode" PrintNo="1">\\PARIKO-PC10287\Zebra P330i Card Printer USB</printerName>
+		</Department>
+		<Department Name="Paviliun Amerta IP">
+			<printerName for="Existing Patient" PrintNo="1">\\PARIKO-PC10028\EPSON TM-U220 ReceiptE4</printerName>
+			<printerName for="Visit Barcode" PrintNo="15">\\PARIKO-PC10028\Argox CP-2140 PPLB</printerName>
+			<printerName for="ID Card" PrintNo="1">\\PARIKO-PC10036\Zebra P330i Card Printer USB</printerName>
+			<printerName for="MRD Barcode" PrintNo="2">\\PARIKO-PC10028\Zebra P330i Card Printer USB</printerName>
+		</Department>
+	</OrgID>
+</PrinterConfig>

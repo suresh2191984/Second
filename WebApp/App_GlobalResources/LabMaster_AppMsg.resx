@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>Select department name</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>Provide department name</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>Provide department Code</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>Please Select The Role</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value>Please select the department</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_06" xml:space="preserve">
+    <value>Select the department</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_07" xml:space="preserve">
+    <value>Changes saved successfully.</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_08" xml:space="preserve">
+    <value>Content Moved UP !!</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_09" xml:space="preserve">
+    <value>Content Moved DOWN !!</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_10" xml:space="preserve">
+    <value>Content Moved !!</value>
+  </data>
+  <data name="LabMaster_Controls_SequenceArrangement_ascx_11" xml:space="preserve">
+    <value>Changes updated successfully.</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_01" xml:space="preserve">
+    <value>Select Remarks Type</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_02" xml:space="preserve">
+    <value>Unable to save test master details!</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_03" xml:space="preserve">
+    <value>Selected Test already exists</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_04" xml:space="preserve">
+    <value>Select a Test</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_05" xml:space="preserve">
+    <value>Selected remarks already exists</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_06" xml:space="preserve">
+    <value>Select a remarks</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_07" xml:space="preserve">
+    <value>Enter display text</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_08" xml:space="preserve">
+    <value>Select range type</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_09" xml:space="preserve">
+    <value>Range already Exist</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_10" xml:space="preserve">
+    <value>Select RoleName First</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_11" xml:space="preserve">
+    <value>Select Doctor</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_12" xml:space="preserve">
+    <value>Unable to delete</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_13" xml:space="preserve">
+    <value>Test code can't be mapped without device</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_14" xml:space="preserve">
+    <value>Atleast one value required</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_15" xml:space="preserve">
+    <value>Only one primary record is possible</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_16" xml:space="preserve">
+    <value>Reason is required while changing the details</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_17" xml:space="preserve">
+    <value>Test master details loaded successfully!</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_18" xml:space="preserve">
+    <value>Unable to load test master details!</value>
+  </data>
+  <data name="LabMaster_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="LabMaster_PatternMappingForInvestigation_aspx_01" xml:space="preserve">
+    <value>Select the PatternName</value>
+  </data>
+  <data name="LabMaster_PatternMappingForInvestigation_aspx_02" xml:space="preserve">
+    <value>Changes saved successfully.</value>
+  </data>
+  <data name="LabMaster_PatternMappingForInvestigation_aspx_03" xml:space="preserve">
+    <value>Please select a record and then Save</value>
+  </data>
+  <data name="LabMaster_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LabMaster_ManageInvMethod_aspx_01" xml:space="preserve">
+    <value>Provide method name</value>
+  </data>
+  <data name="LabMaster_ManageInvMethod_aspx_02" xml:space="preserve">
+    <value>Provide the search text to find the method</value>
+  </data>
+  <data name="LabMaster_ManageInvKit_aspx_01" xml:space="preserve">
+    <value>Provide kit name</value>
+  </data>
+  <data name="LabMaster_ManageInvKit_aspx_02" xml:space="preserve">
+    <value>Provide the search text to find the kit</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_01" xml:space="preserve">
+    <value>Enter the Package Name</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_02" xml:space="preserve">
+    <value>Select the Status</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_03" xml:space="preserve">
+    <value>Consultation Already Added!</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_04" xml:space="preserve">
+    <value>Health Checkup Already Added!</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_05" xml:space="preserve">
+    <value>Select the items in group master</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_06" xml:space="preserve">
+    <value>Package Added Successfully!</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_07" xml:space="preserve">
+    <value>PackageName or CodeName AlreadyExists!!!</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_08" xml:space="preserve">
+    <value>Changes Saved Successfully!</value>
+  </data>
+  <data name="LabMaster_ManagePackages_aspx_09" xml:space="preserve">
+    <value>PackageName or Code Already Exists!!!</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_01" xml:space="preserve">
+    <value>Primary investigation not available in selected pattern</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_02" xml:space="preserve">
+    <value>Invalid Pattern: " </value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_03" xml:space="preserve">
+    <value>Select primary investigation to add.</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_04" xml:space="preserve">
+    <value>Select an operator to add.</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_05" xml:space="preserve">
+    <value>Enter value in number textbox</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_06" xml:space="preserve">
+    <value>This action cannot be performed</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_07" xml:space="preserve">
+    <value>Select an item to remove.</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_08" xml:space="preserve">
+    <value>Select an option to move.</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_09" xml:space="preserve">
+    <value>Select Dependent investigation</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_10" xml:space="preserve">
+    <value>There is no pattern to assign</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_11" xml:space="preserve">
+    <value>Invalid Pattern</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_12" xml:space="preserve">
+    <value>Selected dependent investigation is already exist</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_13" xml:space="preserve">
+    <value>No record(s) found</value>
+  </data>
+  <data name="LabMaster_ManageInvComputation_aspx_14" xml:space="preserve">
+    <value>Changes Saved Successfully</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_01" xml:space="preserve">
+    <value>Already you choose this Template for Edit Purpose</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_02" xml:space="preserve">
+    <value>Select Template Type and Name</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_03" xml:space="preserve">
+    <value>Select Template Name</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_04" xml:space="preserve">
+    <value>Provide Template Name</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_05" xml:space="preserve">
+    <value>Provide Template Values</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_06" xml:space="preserve">
+    <value>There was a problem saving {0} Template contact system Administrator</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_07" xml:space="preserve">
+    <value>Are you sure want to choose Edit Template {0} Your Add New Template values Reset ?</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_08" xml:space="preserve">
+    <value>Are you sure want to choose Add New Template {0} Your Edit Template values Reset ?</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_09" xml:space="preserve">
+    <value>{0} Template Type Already Exists. {1} Provide Different Template Type</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_10" xml:space="preserve">
+    <value>{0} Template Name Already Exists. {1} Provide Different Template Name</value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_11" xml:space="preserve">
+    <value>{0} Template Save Successfully </value>
+  </data>
+  <data name="LabMaster_InvResultTemplate_aspx_12" xml:space="preserve">
+    <value>{0} Template Updated Successfully </value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_01" xml:space="preserve">
+    <value>Please Enter Search Inveatigation?</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_02" xml:space="preserve">
+    <value>Enter the InvestigationName</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_03" xml:space="preserve">
+    <value>CodingSchemeName Already Exist</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_04" xml:space="preserve">
+    <value>Primary CodingScheme Already Selected</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_05" xml:space="preserve">
+    <value>Provide the CodingScheme Name</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_06" xml:space="preserve">
+    <value>Sorry CodingSchemeName Already exist</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_07" xml:space="preserve">
+    <value>Error in GetCodingSchemeMaster</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_08" xml:space="preserve">
+    <value>InvestigationName saved successfully.</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_09" xml:space="preserve">
+    <value>InvestigationName or Code Already Exists</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_10" xml:space="preserve">
+    <value>InvestigationName Updated successfully</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_11" xml:space="preserve">
+    <value>No Match Roecord Found?</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_12" xml:space="preserve">
+    <value>NO DATA</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_13" xml:space="preserve">
+    <value>Changes Saved Successfully</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_14" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="LabMaster_AddInvestigation_aspx_15" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="LabMaster_SaveLabRefOrgDetails_aspx_01" xml:space="preserve">
+    <value> Please Enter The Hospital/Clinic/Lab Name</value>
+  </data>
+  <data name="LabMaster_SaveLabRefOrgDetails_aspx_02" xml:space="preserve">
+    <value> Please Enter The Code </value>
+  </data>
+  <data name="LabMaster_SaveLabRefOrgDetails_aspx_03" xml:space="preserve">
+    <value> Please select the type </value>
+  </data>
+  <data name="LabMaster_SaveLabRefOrgDetails_aspx_04" xml:space="preserve">
+    <value>Code already exists.Please give any other code</value>
+  </data>
+  <data name="LabMaster_Controls_TestMaster_ascx_19" xml:space="preserve">
+    <value>saved successfully</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_01" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_02" xml:space="preserve">
+    <value>Select the department</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_03" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="LabMaster_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>Sucessfully removed!</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>No Matching Records found</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_04" xml:space="preserve">
+    <value>Select an item to add</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_05" xml:space="preserve">
+    <value>Select an item to remove</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_06" xml:space="preserve">
+    <value>One of the selected investigations are ordered, hence they cannot be removed</value>
+  </data>
+  <data name="LabMaster_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_04" xml:space="preserve">
+    <value>select the row you want to move</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_05" xml:space="preserve">
+    <value>Select both Department and Header</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_06" xml:space="preserve">
+    <value>Changes not saved.Do you want to continue without saving?</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_07" xml:space="preserve">
+    <value>Changes saved successfully</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_08" xml:space="preserve">
+    <value>Failed to save details</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_09" xml:space="preserve">
+    <value>Failed to load Departments</value>
+  </data>
+  <data name="LabMaster_TestInvestigation_aspx_10" xml:space="preserve">
+    <value>Failed to load names</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_01" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_02" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_03" xml:space="preserve">
+    <value>Record saved successfully</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_04" xml:space="preserve">
+    <value>No Such Records found</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_05" xml:space="preserve">
+    <value>Select a group to add</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_06" xml:space="preserve">
+    <value>Select a group to remove</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_07" xml:space="preserve">
+    <value>Group Name or CodeName already exists.</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_08" xml:space="preserve">
+    <value>Group Added Successfully.</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_09" xml:space="preserve">
+    <value>GroupName or CodeName Already Exists.</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_10" xml:space="preserve">
+    <value>Provide the group name</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_11" xml:space="preserve">
+    <value>Enter group name</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_12" xml:space="preserve">
+    <value>Enter Processing Time Value</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_13" xml:space="preserve">
+    <value>Enter display text</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_14" xml:space="preserve">
+    <value>Selected remarks already exists</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_15" xml:space="preserve">
+    <value>Select a remark</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_16" xml:space="preserve">
+    <value>Select remarks type</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_17" xml:space="preserve">
+    <value>Provide the group name</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_18" xml:space="preserve">
+    <value>Select the items in group master</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_19" xml:space="preserve">
+    <value>listControl</value>
+  </data>
+  <data name="LabMaster_TestGroup_aspx_20" xml:space="preserve">
+    <value>Select the items in group mapping master</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_07" xml:space="preserve">
+    <value>Enter minimum 2 letters</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_08" xml:space="preserve">
+    <value>Select the items in investigation master</value>
+  </data>
+  <data name="LabMaster_Controls_ManageInvestigation_ascx_09" xml:space="preserve">
+    <value>Select the items in group mapping</value>
+  </data>
+</root>

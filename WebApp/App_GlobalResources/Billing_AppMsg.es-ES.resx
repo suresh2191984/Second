@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Billing_Header_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_ascx_01" xml:space="preserve">
+    <value>seleccione una factura que sea reflejo</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_ascx_02" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_ascx_03" xml:space="preserve">
+    <value>por favor introduzca número de página correcta</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_ascx_04" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_ascx_05" xml:space="preserve">
+    <value>por favor seleccione de la lista</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_01" xml:space="preserve">
+    <value>por favor seleccione una factura</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_02" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_03" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_04" xml:space="preserve">
+    <value>esta acción no se puede realizar en los pacientes hospitalizados </value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_05" xml:space="preserve">
+    <value>recaudación adeudada no puede ser reembolsada</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_06" xml:space="preserve">
+    <value>monto ya reembolsado a esta factura</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_07" xml:space="preserve">
+    <value>no se puede reembolsar la factura seleccionada</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_08" xml:space="preserve">
+    <value>selected Patient is not credit</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_09" xml:space="preserve">
+    <value>paciente seleccionado no dado de alta</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_10" xml:space="preserve">
+    <value>seleccione el número de factura</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_11" xml:space="preserve">
+    <value>esta factura ha sido cancelado</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_12" xml:space="preserve">
+    <value>monto ya reembolsado a esta factura</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_13" xml:space="preserve">
+    <value>Selected Patient is not credit Patient</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_14" xml:space="preserve">
+    <value>el paciente seleccionado es paciente de copago</value>
+  </data>
+  <data name="Billing_HospitalBillSearch_aspx_15" xml:space="preserve">
+    <value>you cannot cancel the bill for Processed Test!</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_01" xml:space="preserve">
+    <value>los servicios no están asociados con el cliente</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_02" xml:space="preserve">
+    <value>los servicios de prueba no están asociados con el cliente</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_03" xml:space="preserve">
+    <value>por favor póngase en contacto con el administrador</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_04" xml:space="preserve">
+    <value>Please select Phlebotomist Name from the list</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_05" xml:space="preserve">
+    <value>no hay un cliente general asociado con esta organización</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_06" xml:space="preserve">
+    <value>la lista solicitada de pedidos es cero por lo que no se cobrará</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_07" xml:space="preserve">
+    <value>actualizado con éxito</value>
+  </data>
+  <data name="Billing_LabQuickBilling_aspx_08" xml:space="preserve">
+    <value>error al guardar los datos</value>
+  </data>
+  <data name="Billing_PatientDueDetails_aspx_01" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Billing_PatientDueDetails_aspx_02" xml:space="preserve">
+    <value>seleccionar paciente</value>
+  </data>
+  <data name="Billing_PatientDueDetails_aspx_03" xml:space="preserve">
+    <value>el monto a pagar no puede ser recogidos para el paciente existente</value>
+  </data>
+  <data name="Billing_PatientDueDetails_aspx_04" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_Scripts_CopaymentAndPreAuth_js_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_Scripts_CopaymentAndPreAuth_js_02" xml:space="preserve">
+    <value>Patient Due Not Allowed in Co-Payment. \r\n Enter patient net payable amount by selecting appropriate payment mode.</value>
+  </data>
+  <data name="Billing_Scripts_CopaymentAndPreAuth_js_03" xml:space="preserve">
+    <value>el monto no puede ser mayor que el monto a pagar neto de paciente</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_02" xml:space="preserve">
+    <value>agregar para hacer clic en la casilla de selección no está permitido</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_03" xml:space="preserve">
+    <value>esta prueba ya se ordenó ...! no se permite ordenar esta prueba</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_04" xml:space="preserve">
+    <value>alerta: ¡la prueba seleccionada ya se ordenó hoy ...! ¿desea continuar??</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_05" xml:space="preserve">
+    <value>no seleccione una fecha futura para recoger la muestra.</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_06" xml:space="preserve">
+    <value>el monto del copago es cero. \ r \ n ¿desea continuar??</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_07" xml:space="preserve">
+    <value>Client Name remains same, Please Change the Client Before Save</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_08" xml:space="preserve">
+    <value>Discount coupon can be used, would you like to redeem the coupon?</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_09" xml:space="preserve">
+    <value>Referring Doctor discount limit is exceeded for this period, will not be able to provide further discounts.</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_10" xml:space="preserve">
+    <value>se excede el límite de descuento para los trabajadores en este periodo, no será capaz de proporcionar más descuentos.</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_11" xml:space="preserve">
+    <value>proporcione el nombre del paciente</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_12" xml:space="preserve">
+    <value>proporcione identificación de la visita externa</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_13" xml:space="preserve">
+    <value>proporcione la edad del paciente o fecha de nacimiento</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_14" xml:space="preserve">
+    <value>seleccione sexo del paciente</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_15" xml:space="preserve">
+    <value>Provide contact mobile number</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_16" xml:space="preserve">
+    <value>por favor seleccione nombre de flebotomista</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_17" xml:space="preserve">
+    <value>Proporcionar contacto o número de teléfono móvil</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_18" xml:space="preserve">
+    <value>escribir cuenta de la muestra </value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_19" xml:space="preserve">
+    <value>Select Phlebotomist Name</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_20" xml:space="preserve">
+    <value>You selected Doctor/Clinic Delivery,  Provide Ref Dr</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_21" xml:space="preserve">
+    <value>You selected Home Delivery, Provide address</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_22" xml:space="preserve">
+    <value>Provide a valid e-mail address</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_23" xml:space="preserve">
+    <value>historial debe ser capturado para este paciente</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_24" xml:space="preserve">
+    <value>Seleccionó entrega a través de correo electrónico. Introduzca su dirección de correo</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_25" xml:space="preserve">
+    <value>Seleccionó entrega a través de mensaje de texto, proporcione su número de teléfono móvil</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_26" xml:space="preserve">
+    <value>Seleccionó despacho a través de courier, proporcione su dirección</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_27" xml:space="preserve">
+    <value>Seleccionó despacho a través de courier, proporcione el nombre de su ciudad</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_28" xml:space="preserve">
+    <value>Seleccionó despacho a través de courier, proporcione su código postal</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_29" xml:space="preserve">
+    <value>proporcione fecha de recogida de la muestra</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_30" xml:space="preserve">
+    <value>incluir elementos de facturación</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_31" xml:space="preserve">
+    <value>proporcione descuento autorizado por</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_32" xml:space="preserve">
+    <value>indique razón de descuento</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_33" xml:space="preserve">
+    <value>seleccione el tramo</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_34" xml:space="preserve">
+    <value>indique razón de descuento</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_35" xml:space="preserve">
+    <value>proporcione descuento autorizado por</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_36" xml:space="preserve">
+    <value>proporcione el valor límite</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_37" xml:space="preserve">
+    <value>indique razón de descuento</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_38" xml:space="preserve">
+    <value>proporcione descuento autorizado por</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_39" xml:space="preserve">
+    <value>sólo se agrega el ítem misceláneo. ¿desea continuar??</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_40" xml:space="preserve">
+    <value>El total de la factura se agregará al monto adeudado ¿Desea continuar?</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_41" xml:space="preserve">
+    <value>hay un cambio en la edad/género, cualquier reporte con resultados de entradas completados para esta visita tienen que ser revalidados</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_42" xml:space="preserve">
+    <value>incluir elementos de facturación</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_43" xml:space="preserve">
+    <value>proporcione edad en años</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_44" xml:space="preserve">
+    <value>proporcione edad en meses</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_45" xml:space="preserve">
+    <value>proporcione edad en semanas o meses</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_46" xml:space="preserve">
+    <value>no puede ponerlo en valor decimal</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_47" xml:space="preserve">
+    <value>Enter The Patient Name</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_48" xml:space="preserve">
+    <value>por favor compruebe,</value>
+  </data>
+  <data name="Billing_Scripts_LabQuickBilling_js_49" xml:space="preserve">
+    <value>email addresses not valid!</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_01" xml:space="preserve">
+    <value>escribir el nombre del paciente</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_02" xml:space="preserve">
+    <value>escribir fdn</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_03" xml:space="preserve">
+    <value>Provide contact mobile or telephone number</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_04" xml:space="preserve">
+    <value>agregar impresión de cotización de servicio</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_05" xml:space="preserve">
+    <value>error al guardar los datos</value>
+  </data>
+  <data name="Billing_ServiceQuotation_aspx_06" xml:space="preserve">
+    <value>no hay un cliente general asociado con esta organización</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_02" xml:space="preserve">
+    <value>proporcione fecha de inicio</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_03" xml:space="preserve">
+    <value>proporcione fecha de término</value>
+  </data>
+  <data name="Billing_ClientBilling_aspx_01" xml:space="preserve">
+    <value>Please select Phlebotomist Name from the list</value>
+  </data>
+  <data name="Billing_ClientBilling_aspx_02" xml:space="preserve">
+    <value>no hay un cliente general asociado con esta organización</value>
+  </data>
+  <data name="Billing_ClientBilling_aspx_03" xml:space="preserve">
+    <value>error al guardar los datos</value>
+  </data>
+  <data name="Billing_ClientBilling_aspx_04" xml:space="preserve">
+    <value>Cód. visita del paciente</value>
+  </data>
+  <data name="Billing_ClientBilling_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_Scripts_ChangePayMentModes_js_01" xml:space="preserve">
+    <value>monto recibido es mayor que el monto neto</value>
+  </data>
+  <data name="Billing_Scripts_ChangePayMentModes_js_02" xml:space="preserve">
+    <value>no se puede editar el modo de pago de esta factura</value>
+  </data>
+  <data name="Billing_Scripts_ChangePayMentModes_js_03" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_Alert" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_01" xml:space="preserve">
+    <value>monto no debe ser mayor que el monto adeudado</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_02" xml:space="preserve">
+    <value>Monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_03" xml:space="preserve">
+    <value>seleccione la razón descuento</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_04" xml:space="preserve">
+    <value>por favor introduzca autorizado por</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_05" xml:space="preserve">
+    <value>por favor seleccione al menos un artículo de la factura.</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_06" xml:space="preserve">
+    <value>por favor recaude el monto total a pagar.</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_07" xml:space="preserve">
+    <value>monto de descuento no puede ser mayor que el monto bruto</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_08" xml:space="preserve">
+    <value>monto de descuento es mayor que coste bruto</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_09" xml:space="preserve">
+    <value>por favor seleccione el descuento autorizado de la lista</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_10" xml:space="preserve">
+    <value>el descuento no puede ser mayor que el monto</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_11" xml:space="preserve">
+    <value>tarea asignada a </value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_12" xml:space="preserve">
+    <value>no se ha cobrado el total adeudado</value>
+  </data>
+  <data name="Billing_CollectDueAmount_aspx_13" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Billing_ModifiedLabQuickBilling_aspx_01" xml:space="preserve">
+    <value>no hay un cliente general asociado con esta organización</value>
+  </data>
+  <data name="Billing_ModifiedLabQuickBilling_aspx_02" xml:space="preserve">
+    <value>la lista solicitada de pedidos es cero por lo que no se cobrará</value>
+  </data>
+  <data name="Billing_ModifiedLabQuickBilling_aspx_03" xml:space="preserve">
+    <value>Updated Sucessfully</value>
+  </data>
+  <data name="Billing_ModifiedLabQuickBilling_aspx_04" xml:space="preserve">
+    <value>identificación de la visita externa ya está registrado con otro paciente</value>
+  </data>
+  <data name="Billing_ModifiedLabQuickBilling_aspx_05" xml:space="preserve">
+    <value>error al guardar los datos</value>
+  </data>
+</root>

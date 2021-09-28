@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PatientManagement_Controls_BackrounMedicalProblem_ascx_01" xml:space="preserve">
+    <value>No history of {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_BackrounMedicalProblem_ascx_02" xml:space="preserve">
+    <value>Stroke(CVA)</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_01" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_02" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_03" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_04" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_05" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="PatientManagement_Controls_CourseInHospital_ascx_06" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="PatientManagement_Controls_Diagnose_ascx_01" xml:space="preserve">
+    <value>DIAGNOSIS</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_01" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_02" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_03" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_04" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_05" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_06" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="PatientManagement_Controls_DischargePrescription_ascx_07" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="PatientManagement_Controls_GeneralExamination_ascx_01" xml:space="preserve">
+    <value>Swollen Lymph Nodes</value>
+  </data>
+  <data name="PatientManagement_Controls_GeneralExamination_ascx_02" xml:space="preserve">
+    <value>No signs of</value>
+  </data>
+  <data name="PatientManagement_Controls_History_ascx_01" xml:space="preserve">
+    <value>{0} {1} Man presented with history of</value>
+  </data>
+  <data name="PatientManagement_Controls_History_ascx_02" xml:space="preserve">
+    <value>{0} {1} old Boy presented with history of</value>
+  </data>
+  <data name="PatientManagement_Controls_History_ascx_03" xml:space="preserve">
+    <value>{0} {1} lady presented with history of</value>
+  </data>
+  <data name="PatientManagement_Controls_History_ascx_04" xml:space="preserve">
+    <value>{0} {1} old girl presented with history of</value>
+  </data>
+  <data name="PatientManagement_Controls_History_ascx_05" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_01" xml:space="preserve">
+    <value>1-0-0</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_02" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_03" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_04" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_05" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_06" xml:space="preserve">
+    <value>DrugName</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_07" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_08" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_09" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_10" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_11" xml:space="preserve">
+    <value>ToDate</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_12" xml:space="preserve">
+    <value>PresID</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_13" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_14" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_15" xml:space="preserve">
+    <value>Physician</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_16" xml:space="preserve">
+    <value>Operation Theatre</value>
+  </data>
+  <data name="PatientManagement_Controls_IpDrugEntry_ascx_17" xml:space="preserve">
+    <value>ADMINISTERED</value>
+  </data>
+  <data name="PatientManagement_Controls_KMHPatientDetails_ascx_01" xml:space="preserve">
+    <value>Mobile No : {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_KMHPatientDetails_ascx_02" xml:space="preserve">
+    <value>LandLine No : {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_01" xml:space="preserve">
+    <value>Open Wound:</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_02" xml:space="preserve">
+    <value>Vascular deficit present:</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_03" xml:space="preserve">
+    <value>Root Level: {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_04" xml:space="preserve">
+    <value>Plexus Level: {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_05" xml:space="preserve">
+    <value>Nerve Level: {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_06" xml:space="preserve">
+    <value>Reflexes:</value>
+  </data>
+  <data name="PatientManagement_Controls_Musculoskeletal_ascx_07" xml:space="preserve">
+    <value>Muscular Examination:</value>
+  </data>
+  <data name="PatientManagement_Controls_NutritionAdvice_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PatientManagement_Controls_NutritionAdvice_ascx_02" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PatientManagement_Controls_NutritionAdvice_ascx_03" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_02" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="PatientManagement_Controls_OrthoEMR_ascx_03" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_01" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_01" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_01" xml:space="preserve">
+    <value>Will be scheduled later</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientAddress_ascx_01" xml:space="preserve">
+    <value>Mobile No : {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientAddress_ascx_02" xml:space="preserve">
+    <value>LandLine No : {0}</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_01" xml:space="preserve">
+    <value>Capillary Blood Glucose(CBG)</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_02" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_03" xml:space="preserve">
+    <value>Enter valid value for</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_04" xml:space="preserve">
+    <value>Please enter atleast one value</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_05" xml:space="preserve">
+    <value>Negative values are invalid</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_06" xml:space="preserve">
+    <value>Capture Date</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_07" xml:space="preserve">
+    <value>mg/dl</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_08" xml:space="preserve">
+    <value>The</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_09" xml:space="preserve">
+    <value>Range from</value>
+  </data>
+  <data name="PatientManagement_Controls_PatientPoct_ascx_10" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="PatientManagement_Controls_RoomSummary_ascx_01" xml:space="preserve">
+    <value>Room Name</value>
+  </data>
+  <data name="PatientManagement_Controls_RoomSummary_ascx_02" xml:space="preserve">
+    <value>Bed Name</value>
+  </data>
+  <data name="PatientManagement_Controls_RoomSummary_ascx_03" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="PatientManagement_Controls_RoomSummary_ascx_04" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="PatientManagement_Controls_RoomSummary_ascx_05" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PatientManagement_Controls_TreatmentPlan_ascx_01" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PatientManagement_Controls_TreatmentPlan_ascx_02" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="PatientManagement_Controls_TreatmentPlan_ascx_03" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="PatientManagement_Controls_TreatmentPlan_ascx_04" xml:space="preserve">
+    <value>TreatmentPlan Date</value>
+  </data>
+  <data name="PatientManagement_Controls_TreatmentPlan_ascx_05" xml:space="preserve">
+    <value>Will Be Scheduled later</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_02" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_03" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_04" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_05" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_06" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_07" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_08" xml:space="preserve">
+    <value>Will be scheduled late</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_09" xml:space="preserve">
+    <value>Not Yet Tested</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_10" xml:space="preserve">
+    <value>Physician Name</value>
+  </data>
+  <data name="PatientManagement_DischargeSummary_aspx_11" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_01" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_02" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_03" xml:space="preserve">
+    <value>Death Summary</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_04" xml:space="preserve">
+    <value>Discharge Summary</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_05" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_06" xml:space="preserve">
+    <value>DischargeSummary</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_07" xml:space="preserve">
+    <value>src</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_08" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_09" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_10" xml:space="preserve">
+    <value>PatientNumber</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_11" xml:space="preserve">
+    <value>LabDetails</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_12" xml:space="preserve">
+    <value>PRM</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_13" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_14" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_15" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_16" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_17" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_18" xml:space="preserve">
+    <value>PatientVitals</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_19" xml:space="preserve">
+    <value>Weight :</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_20" xml:space="preserve">
+    <value>Height :</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_21" xml:space="preserve">
+    <value>ICD10P</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_22" xml:space="preserve">
+    <value>ICD10S</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_23" xml:space="preserve">
+    <value>AdmissionDate</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_24" xml:space="preserve">
+    <value>AdviceName</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_25" xml:space="preserve">
+    <value>WardName</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_26" xml:space="preserve">
+    <value>Anamnesis</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_27" xml:space="preserve">
+    <value>HospitalCourse</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_28" xml:space="preserve">
+    <value>ProcedureDesc</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_29" xml:space="preserve">
+    <value>ConditionOnDischarge</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_30" xml:space="preserve">
+    <value>DischargeDate</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_31" xml:space="preserve">
+    <value>TypeOfDischarge</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_32" xml:space="preserve">
+    <value>PatientPrescription</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_33" xml:space="preserve">
+    <value>BrandName</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_34" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_35" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_36" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_37" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_38" xml:space="preserve">
+    <value>CreatedAt</value>
+  </data>
+  <data name="PatientManagement_DischargeSummaryDynamic_aspx_39" xml:space="preserve">
+    <value>DateNow</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_02" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_03" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_04" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_05" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_06" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_07" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_08" xml:space="preserve">
+    <value>Planned</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_09" xml:space="preserve">
+    <value>Performed Surgery / Procedure</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_10" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_11" xml:space="preserve">
+    <value>Other Problem</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_12" xml:space="preserve">
+    <value>Will be scheduled later</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_13" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_14" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_15" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_16" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_17" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_18" xml:space="preserve">
+    <value>InProgress</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_19" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_20" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_01" xml:space="preserve">
+    <value>Physician</value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_02" xml:space="preserve">
+    <value>Below Drugs Administred By : </value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_03" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_04" xml:space="preserve">
+    <value>STOPED</value>
+  </data>
+  <data name="PatientManagement_NurseAdvice_aspx_05" xml:space="preserve">
+    <value>Nurse</value>
+  </data>
+  <data name="PatientManagement_OperationNotes_aspx_02" xml:space="preserve">
+    <value>No Physician Found</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_21" xml:space="preserve">
+    <value>Admission Notes</value>
+  </data>
+  <data name="PatientManagement_IPCaseRecord_aspx_22" xml:space="preserve">
+    <value>Case Sheet</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_01" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_02" xml:space="preserve">
+    <value>Edit Labour And Delivery Notes</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_03" xml:space="preserve">
+    <value>Add More Child</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_04" xml:space="preserve">
+    <value>Term</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_05" xml:space="preserve">
+    <value>Pre-Term</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_06" xml:space="preserve">
+    <value>Post-Term</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_07" xml:space="preserve">
+    <value>No Physician Found</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_08" xml:space="preserve">
+    <value>Complication</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_09" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_10" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_11" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_12" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="PatientManagement_DeliveryNotes_aspx_13" xml:space="preserve">
+    <value>cm</value>
+  </data>
+</root>

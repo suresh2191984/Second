@@ -1,0 +1,199 @@
+﻿.focus
+{
+    background-color : #F3E2A9;
+}
+.divScroll
+{
+width:825px;
+overflow: auto;
+}
+.smallbtn {
+padding:1px;
+color:#ffffff;   
+font: 10px 'Arial',helvetica,sans-serif;   
+background-color:#2c88b1;   
+border: 1px solid;   
+border-color:  #ffffff #ffffff #ffffff #ffffff;   
+margin-left:0px; 
+}
+.Txtboxverysmall
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:15px;
+	width:70px;
+	border:1px solid #999999;
+	font-size:13px;margin-left:0px;
+}
+.Txtboxsmall
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:15px;
+	width:150px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+}
+.Txtboxmedium
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:15px;
+	width:182px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+}
+.Txtboxlarge
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:15px;
+	width:250px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+}
+.Txtarea
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:15px;
+	width:200px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+}
+.ddl
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:19px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+}
+.ddlsmall
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:19px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+	width:153px;
+}
+.ddlmedium
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:19px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+	width:200px;
+}
+.ddllarge
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:19px;
+	border:1px solid #999999;
+	font-size:11px;
+	margin-left:0px;
+	width:250px;
+}
+.ddloptiontask
+{
+ font-family:Arial, Helvetica, sans-serif; 
+ width:140px;
+ height:19px;
+ margin-top:1px;
+ border:1px solid #999999;
+ font-size:11px;
+}
+.Crefrshbtn
+{
+color:#ffffff; 
+}
+span.richcombobox
+{
+    display: inline-block;
+    overflow: hidden;
+}
+.labletext
+{
+    font-family:Arial, Helvetica, sans-serif; 
+	text-align:left;
+	height:14px;
+	font-size:11px;
+}
+.chkfocus
+{
+    background-color : #95A3A3;
+}
+.AutoCompletesearchBox
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    height: 15px;
+    width: 150px;
+    border: 1px solid #999999;
+    font-size: 11px;
+    margin-left: 0px;
+    background-image: url('../Images/magnifying-glass.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.AutoCompletesearchBox11
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    height: 15px;
+    width: 150px;
+    border: 1px solid #999999;
+    font-size: 11px;
+    margin-left: 0px;
+    margin-top: 15px;
+    background-image: url('../Images/magnifying-glass.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    
+}
+
+ .popupInfo
+        {
+            display: none;
+            border-radius: 5px 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+            font-family: Calibri, Tahoma, Geneva, sans-serif;
+            font-size: 1.0em;
+            position: absolute;
+            z-index: 99;
+            width: 450px;
+            padding: 0.5em 0.8em 0.8em 2em;
+            background: #9FDAEE;
+            border: 1px solid #2BB0D7;
+            margin-left: 40px;
+        }
+        .popupInfo em
+        {
+            font-family: Candara, Tahoma, Geneva, sans-serif;
+            font-size: 1.7em;
+            font-weight: bold;
+            display: block;
+            padding: 0.2em 0 0.6em 0;
+        }
+        .popupInfo img
+        {
+            border: 0;
+            margin: -10px 0 0 -55px;
+            float: left;
+            position: absolute;
+        }

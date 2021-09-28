@@ -1,0 +1,24 @@
+﻿<div class="table-responsive">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>
+                    INVESTIGATION NAME
+                </th>
+                <th>
+                    STATUS
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="obj in lstPatientInvestigation">
+                <td>
+                    {{::obj.InvestigationName}}
+                </td>
+                <td>
+                    {{::obj.DisplayStatus}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

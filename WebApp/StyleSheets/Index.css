@@ -1,0 +1,120 @@
+
+.cssnav
+{
+position: relative;
+background: url(../Images/loginhover.png) no-repeat;
+display: block;
+width: 209px;
+height: 168px;
+margin: 0;
+padding: 0;
+}
+.cssnav a
+{
+display: block;
+width: 209px;
+height: 168px;
+display: block;
+}
+.cssnav img
+{
+width: 209px;
+height: 168px;
+border: 0
+}
+
+.cssnav a:hover img
+{
+visibility:hidden
+}
+
+/*new style for index */
+
+
+
+*{ margin: 0; padding: 0; }*
+body   
+{
+    padding-left:15px; 
+    margin: 0 0 0; 
+    width:980px; 
+    background-color:#f1f1f1;
+    font: .74em "Trebuchet MS", Arial, Sans-Serif; 
+    color: #444; 
+    }
+	
+	h1  
+	{
+	 font-size: 3em; 
+	 font-weight: normal; 
+	 float: left; 
+	}
+	
+	h1 a  
+	{
+	    text-decoration: none; 
+	 }
+	 
+	h2  
+	{
+	    font-size: 2em; 
+	    color: #FFF2B3; 
+	    font-weight: normal; 
+	    margin: 0 0 .8em; 
+	 }
+	 
+	h3  
+	{
+	    font-size: 1.5em;  
+	    margin: 0 0 .8em; 
+	    border-bottom: 1px dotted #000;
+	 }
+	 
+	p  
+	{
+	     margin: 0 0 2em 0; 
+	     line-height: 1.8em; 
+	 }
+	 
+	em { border-bottom: 1px dotted #fff; cursor: pointer; }
+	a { color: #fff; }
+	a:hover { color: #fff; text-decoration: none; }
+	img { border: 0; }
+	.red { color: #9D2900; }
+	.red1 { color: #9D2900; }
+	
+.wrap { width: 900px; margin: 0 auto; }
+ 
+#header 
+{ width: 960px; 
+  height: 60px; 
+  margin: 0 auto; 
+  float:left; 
+  padding-left:20px;  
+  /*color:#f26c17;*/ 
+ }
+	#rlogocontent  { float: right; padding: 6px 0 0 0; list-style: none; }
+		#rlogocontent li { display: inline; }
+		#rlogocontent a { display: block; float: left; margin-left: 0px; padding: 15px; text-decoration: none; font-size: 13px; color: #000000; }
+		#rlogocontent a:hover { color: #000; border-bottom: 2px solid #ccc; }
+		#rlogocontent .active a { border-bottom: 2px solid #C70012; color: #9D2900;}
+ 
+#titletxt { clear:  both; height: 300px; background: #fff url(../images/home-banner.jpg);  }
+	.box { float: left; padding: 66px 0 0; width: 480px; color: #C7E3EE; }
+	#image { float: right; width: 388px; position: relative; top: 16px; background: url(../images/logotype.jpg) no-repeat top right; height: 258px; }
+	
+#hidden { height: 8px; margin: 0 0 5px; padding: 3px 0 0 0;  }
+	.step { cursor: pointer; color: #FAFDDD; padding: 4px 0 0 11px; margin: 0 35px 0 0; font-size: 1.4em; float: left; text-align: center; background: url(../images/step.gif) no-repeat; height: 30px; }
+	.step a { color: #fff; margin: 0 10px 0 10px; }
+	
+.contentbox { float:left; width: 220px; margin: 0 20px 0 10px; }
+	.box4 { float:right; margin: 0; background-image: url(../images/loginbtn.png); height:168px; width:209px;  }
+	.box1 { border: 1px dotted #e0e0e0; background: #3ea167; padding: 2px; text-align:right; }
+	.box2 { border: 1px dotted #e0e0e0; background: #f26c17; padding: 2px; text-align:right; }
+	.box3 { border: 1px dotted #e0e0e0; background: #c8260b; padding: 2px; text-align:right; }
+
+#footer { clear: both; width: auto; margin: 0 auto; padding: 0px; border-top: 1px solid #e0e0e0; }	
+	#footer .right { float: right; margin: 0 35px 0 0; }
+	#footer a { color: #808080; font-weight: bold; }
+.Broswer { color: #FAFDDD; padding: 4px 0 0 4px; margin: 0 35px 0 0; font-size: 1.4em; float: left; text-align: center; background: url(../images/ie.gif)) no-repeat; height: 30px; }
+

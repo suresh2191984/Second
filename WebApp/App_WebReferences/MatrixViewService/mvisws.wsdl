@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://kavitha:81/webservice251082/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://kavitha:81/webservice251082/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://kavitha:81/webservice251082/">
+      <s:element name="StudyImageCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="studyid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accession_number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StudyImageCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StudyImageCountResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddReport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="studyid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accession_number" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="indication" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="procedure" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="findings" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="impression" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="report_number" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="lock_report" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddReportResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="studyid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accession_number" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="report_number" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReportResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StudyImageCountSoapIn">
+    <wsdl:part name="parameters" element="tns:StudyImageCount" />
+  </wsdl:message>
+  <wsdl:message name="StudyImageCountSoapOut">
+    <wsdl:part name="parameters" element="tns:StudyImageCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddReportSoapIn">
+    <wsdl:part name="parameters" element="tns:AddReport" />
+  </wsdl:message>
+  <wsdl:message name="AddReportSoapOut">
+    <wsdl:part name="parameters" element="tns:AddReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReportSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReport" />
+  </wsdl:message>
+  <wsdl:message name="GetReportSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="mviswsSoap">
+    <wsdl:operation name="StudyImageCount">
+      <wsdl:input message="tns:StudyImageCountSoapIn" />
+      <wsdl:output message="tns:StudyImageCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddReport">
+      <wsdl:input message="tns:AddReportSoapIn" />
+      <wsdl:output message="tns:AddReportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReport">
+      <wsdl:input message="tns:GetReportSoapIn" />
+      <wsdl:output message="tns:GetReportSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="mviswsSoap" type="tns:mviswsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StudyImageCount">
+      <soap:operation soapAction="http://kavitha:81/webservice251082/StudyImageCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddReport">
+      <soap:operation soapAction="http://kavitha:81/webservice251082/AddReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReport">
+      <soap:operation soapAction="http://kavitha:81/webservice251082/GetReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="mviswsSoap12" type="tns:mviswsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StudyImageCount">
+      <soap12:operation soapAction="http://kavitha:81/webservice251082/StudyImageCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddReport">
+      <soap12:operation soapAction="http://kavitha:81/webservice251082/AddReport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReport">
+      <soap12:operation soapAction="http://kavitha:81/webservice251082/GetReport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="mvisws">
+    <wsdl:port name="mviswsSoap" binding="tns:mviswsSoap">
+      <soap:address location="http://122.165.25.103/mvisws-attune/mvisws.asmx" />
+    </wsdl:port>
+    <wsdl:port name="mviswsSoap12" binding="tns:mviswsSoap12">
+      <soap12:address location="http://122.165.25.103/mvisws-attune/mvisws.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

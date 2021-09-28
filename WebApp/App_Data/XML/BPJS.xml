@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BPJS>
+    <Details>
+        <Row>
+            <Code>AKP</Code>
+            <Name>Akupuntur</Name>
+        </Row>
+        <Row>
+            <Code>ALG</Code>
+            <Name>Alergi</Name>
+        </Row>
+        <Row>
+            <Code>ANA</Code>
+            <Name>Poli Anak</Name>
+        </Row>
+        <Row>
+            <Code>ANU</Code>
+            <Name>Anuscopy</Name>
+        </Row>
+        <Row>
+            <Code>APT</Code>
+            <Name>APOTIK</Name>
+        </Row>
+        <Row>
+            <Code>ASM</Code>
+            <Name>ASM</Name>
+        </Row>
+        <Row>
+            <Code>BDS</Code>
+            <Name>BDS</Name>
+        </Row>
+        <Row>
+            <Code>BED</Code>
+            <Name>Poli Bedah</Name>
+        </Row>
+        <Row>
+            <Code>BSY</Code>
+            <Name>Bedah Syaraf</Name>
+        </Row>
+        <Row>
+            <Code>CAN</Code>
+            <Name>CAN</Name>
+        </Row>
+        <Row>
+            <Code>CAP</Code>
+            <Name>Unit Pelayanan CAPD</Name>
+        </Row>
+        <Row>
+            <Code>CTS</Code>
+            <Name>CT Scan</Name>
+        </Row>
+        <Row>
+            <Code>DBM</Code>
+            <Name>Diabetes Melitus</Name>
+        </Row>
+        <Row>
+            <Code>DRH</Code>
+            <Name>Darah</Name>
+        </Row>
+        <Row>
+            <Code>ECO</Code>
+            <Name>Echo</Name>
+        </Row>
+        <Row>
+            <Code>EKG</Code>
+            <Name>Rekam Jantung</Name>
+        </Row>
+        <Row>
+            <Code>ELK</Code>
+            <Name>ELK</Name>
+        </Row>
+        <Row>
+            <Code>END</Code>
+            <Name>Endokrin</Name>
+        </Row>
+        <Row>
+            <Code>ESW</Code>
+            <Name>ESWL</Name>
+        </Row>
+        <Row>
+            <Code>FIS</Code>
+            <Name>Fisioterapi</Name>
+        </Row>
+        <Row>
+            <Code>GAS</Code>
+            <Name>Gastro</Name>
+        </Row>
+        <Row>
+            <Code>GER</Code>
+            <Name>Geriatri</Name>
+        </Row>
+        <Row>
+            <Code>GIG</Code>
+            <Name>Poli Gigi</Name>
+        </Row>
+        <Row>
+            <Code>GIN</Code>
+            <Name>Ginjal</Name>
+        </Row>
+        <Row>
+            <Code>GIZ</Code>
+            <Name>Gizi</Name>
+        </Row>
+        <Row>
+            <Code>GP1</Code>
+            <Name>Gigi</Name>
+        </Row>
+        <Row>
+            <Code>GTS</Code>
+            <Name>GILA </Name>
+        </Row>
+        <Row>
+            <Code>HAM</Code>
+            <Name>HAM</Name>
+        </Row>
+        <Row>
+            <Code>HCU</Code>
+            <Name>High Care Unit</Name>
+        </Row>
+        <Row>
+            <Code>HDL</Code>
+            <Name>Hemodialisa</Name>
+        </Row>
+        <Row>
+            <Code>HEM</Code>
+            <Name>Hematologi</Name>
+        </Row>
+        <Row>
+            <Code>HEP</Code>
+            <Name>Hepatologi</Name>
+        </Row>
+        <Row>
+            <Code>ICU</Code>
+            <Name>Intensive Care Unit</Name>
+        </Row>
+        <Row>
+            <Code>IGD</Code>
+            <Name>Instalasi Gawat Darurat</Name>
+        </Row>
+        <Row>
+            <Code>IKA</Code>
+            <Name>Ilmu Kesehatan Anak</Name>
+        </Row>
+        <Row>
+            <Code>INF</Code>
+            <Name>INSTALASI FARMASI</Name>
+        </Row>
+        <Row>
+            <Code>INT</Code>
+            <Name>Poli Penyakit Dalam</Name>
+        </Row>
+        <Row>
+            <Code>IPD</Code>
+            <Name>Ilmu Penyakit Dalam</Name>
+        </Row>
+        <Row>
+            <Code>IRM</Code>
+            <Name>Installasi Rehabilitasi Medik</Name>
+        </Row>
+        <Row>
+            <Code>IVP</Code>
+            <Name>Intravena Pydografi</Name>
+        </Row>
+        <Row>
+            <Code>JAN</Code>
+            <Name>Poli Jantung</Name>
+        </Row>
+        <Row>
+            <Code>JIW</Code>
+            <Name>Poli Penyakit Jiwa</Name>
+        </Row>
+        <Row>
+            <Code>JWA</Code>
+            <Name>Jiwa Anak</Name>
+        </Row>
+        <Row>
+            <Code>JWD</Code>
+            <Name>Jiwa Dewasa</Name>
+        </Row>
+        <Row>
+            <Code>KLT</Code>
+            <Name>Poli Kulit</Name>
+        </Row>
+        <Row>
+            <Code>KOL</Code>
+            <Name>KOL</Name>
+        </Row>
+        <Row>
+            <Code>LAB</Code>
+            <Name>Laboratorium</Name>
+        </Row>
+        <Row>
+            <Code>LAI</Code>
+            <Name>Lain-Lain</Name>
+        </Row>
+        <Row>
+            <Code>MAT</Code>
+            <Name>Poli Penyakit Mata</Name>
+        </Row>
+        <Row>
+            <Code>MRI</Code>
+            <Name>MRI</Name>
+        </Row>
+        <Row>
+            <Code>NUK</Code>
+            <Name>Radioterapi/Nuklir</Name>
+        </Row>
+        <Row>
+            <Code>OBG</Code>
+            <Name>Poli Obstetri/Gyn.</Name>
+        </Row>
+        <Row>
+            <Code>OKM</Code>
+            <Name>OKM</Name>
+        </Row>
+        <Row>
+            <Code>OPT</Code>
+            <Name>OPTIK</Name>
+        </Row>
+        <Row>
+            <Code>ORT</Code>
+            <Name>ORT</Name>
+        </Row>
+        <Row>
+            <Code>OTL</Code>
+            <Name>OTL</Name>
+        </Row>
+        <Row>
+            <Code>PAR</Code>
+            <Name>Poli Paru-paru</Name>
+        </Row>
+        <Row>
+            <Code>PAT</Code>
+            <Name>PAT</Name>
+        </Row>
+        <Row>
+            <Code>PKM</Code>
+            <Name>PUSKESMAS</Name>
+        </Row>
+        <Row>
+            <Code>PMI</Code>
+            <Name>PMI</Name>
+        </Row>
+        <Row>
+            <Code>PPK</Code>
+            <Name>PPK</Name>
+        </Row>
+        <Row>
+            <Code>PSI</Code>
+            <Name>PSI</Name>
+        </Row>
+        <Row>
+            <Code>PSK</Code>
+            <Name>PSK</Name>
+        </Row>
+        <Row>
+            <Code>PUL</Code>
+            <Name>Pulmonologi</Name>
+        </Row>
+        <Row>
+            <Code>R12</Code>
+            <Name>Boneseah</Name>
+        </Row>
+        <Row>
+            <Code>RAA</Code>
+            <Name>Radiologi Anak</Name>
+        </Row>
+        <Row>
+            <Code>RAD</Code>
+            <Name>Radiologi</Name>
+        </Row>
+        <Row>
+            <Code>RAT</Code>
+            <Name>Radioterapi</Name>
+        </Row>
+        <Row>
+            <Code>REM</Code>
+            <Name>REM</Name>
+        </Row>
+        <Row>
+            <Code>RHM</Code>
+            <Name>Rheumatologi</Name>
+        </Row>
+        <Row>
+            <Code>RO2</Code>
+            <Name>RO2</Name>
+        </Row>
+        <Row>
+            <Code>SAR</Code>
+            <Name>Poli Penyakit Saraf</Name>
+        </Row>
+        <Row>
+            <Code>SPC</Code>
+            <Name>SPC</Name>
+        </Row>
+        <Row>
+            <Code>TAK</Code>
+            <Name>TAK</Name>
+        </Row>
+        <Row>
+            <Code>THT</Code>
+            <Name>Poli Telinga/Hidung/Tenggorok</Name>
+        </Row>
+        <Row>
+            <Code>TON</Code>
+            <Name>TON</Name>
+        </Row>
+        <Row>
+            <Code>TRD</Code>
+            <Name>Treadmil Test</Name>
+        </Row>
+        <Row>
+            <Code>TUM</Code>
+            <Name>TUM</Name>
+        </Row>
+        <Row>
+            <Code>UGD</Code>
+            <Name>Unit Gawat Darurat</Name>
+        </Row>
+        <Row>
+            <Code>URE</Code>
+            <Name>URE</Name>
+        </Row>
+        <Row>
+            <Code>URF</Code>
+            <Name>URF</Name>
+        </Row>
+        <Row>
+            <Code>URO</Code>
+            <Name>URO</Name>
+        </Row>
+        <Row>
+            <Code>USG</Code>
+            <Name>USG</Name>
+        </Row>
+    </Details>
+</BPJS>

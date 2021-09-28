@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_01" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_02" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_03" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_04" xml:space="preserve">
+    <value>TIN Number</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_08" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_05" xml:space="preserve">
+    <value>Approved Date :</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_06" xml:space="preserve">
+    <value>Approved By :</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_01" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_02" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_03" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_04" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_05" xml:space="preserve">
+    <value>ReOrder Level</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_06" xml:space="preserve">
+    <value>Usage Count</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_07" xml:space="preserve">
+    <value>InHand Quantity</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_08" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_09" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_10" xml:space="preserve">
+    <value>Inverse Quantity</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_11" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_12" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_13" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_14" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="StockManagement_INVBulkUpdate_aspx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="StockManagement_UpdateStockInHand_aspx_01" xml:space="preserve">
+    <value>Successfully Saved</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_01" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_02" xml:space="preserve">
+    <value>Details Uploaded sucessfully</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_03" xml:space="preserve">
+    <value>Please Correct The Duplicate Rows And Try Again</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_04" xml:space="preserve">
+    <value>Please Correct The Following Lines And Try Again</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_05" xml:space="preserve">
+    <value>Process Could Not Be Done. Because It Is Being Used By Another Process</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_06" xml:space="preserve">
+    <value>Please Rename Sheet Name As Sheet 1</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_07" xml:space="preserve">
+    <value>File Doesnot Exists</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_08" xml:space="preserve">
+    <value>File Must Be xls or xlsx Format</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_09" xml:space="preserve">
+    <value>String Was Not Recognized As a Valid DateTime</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_10" xml:space="preserve">
+    <value>Error Msg</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_11" xml:space="preserve">
+    <value>More Than One Supplier Found. Please Correct It</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_12" xml:space="preserve">
+    <value>Supplier Name Not Exist. Please Add Supplier Before Upload</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_13" xml:space="preserve">
+    <value>LSU Does Not Exist. Please Correct It Before Upload</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_14" xml:space="preserve">
+    <value>Mismatch Year Between Manufacturer &amp; Expiry Date</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_15" xml:space="preserve">
+    <value>Products Quantity Reseted to ZERO</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_16" xml:space="preserve">
+    <value>Selected Categories Quantity Reseted To ZERO</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_17" xml:space="preserve">
+    <value>Please Select Products</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_18" xml:space="preserve">
+    <value>Please Select Location</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_19" xml:space="preserve">
+    <value>Please Select File</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_20" xml:space="preserve">
+    <value>Please Select The Category List</value>
+  </data>
+  <data name="StockManagement_ExcelToProductsUpload_aspx_21" xml:space="preserve">
+    <value>Product Already Added</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_01" xml:space="preserve">
+    <value>Close Window</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_02" xml:space="preserve">
+    <value>Not Able To Perform This Task</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_03" xml:space="preserve">
+    <value>Provide InHand Quantity</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_04" xml:space="preserve">
+    <value>Provide Tax</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_05" xml:space="preserve">
+    <value>Cost Price cannot be Greater than Selling Price</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_06" xml:space="preserve">
+    <value>Product Batch Combination Already Exist</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_07" xml:space="preserve">
+    <value>Please Enter Batch No</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_08" xml:space="preserve">
+    <value>Batch numbers not entered for some of the rows. These rows will not be saved.</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_09" xml:space="preserve">
+    <value>Please Enter The Expiry Date</value>
+  </data>
+  <data name="StockManagement_PopUpProductUpdate_aspx_10" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_01" xml:space="preserve">
+    <value>Product Already Placed an Order</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_02" xml:space="preserve">
+    <value>Product Placed an Reorder Level</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_03" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_04" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_05" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_06" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_07" xml:space="preserve">
+    <value>ReOrder Level</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_08" xml:space="preserve">
+    <value>Stock in Hand</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_09" xml:space="preserve">
+    <value>Order Quantity</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_01" xml:space="preserve">
+    <value>Stock Received Details Updated Sucessfully</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_02" xml:space="preserve">
+    <value>Stock Received Details Updated Failed</value>
+  </data>
+  <data name="StockManagement_StockInHandUpdate_aspx_03" xml:space="preserve">
+    <value>There Was a Problem. Please Contact System Administrator</value>
+  </data>
+  <data name="StockManagement_Controls_ViewMultiplePurchaseOrder_ascx_07" xml:space="preserve">
+    <value>M/S</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_15" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="StockManagement_ReorderLevelPO_aspx_16" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StockManagement_Reorderlevel_aspx_10" xml:space="preserve">
+    <value>Go</value>
+  </data>
+ <data name="StockManagement_ReorderLevel_aspx_27" xml:space="preserve">
+    <value>Check to View Products Placed on Purchase Order</value>
+  </data>
+</root>

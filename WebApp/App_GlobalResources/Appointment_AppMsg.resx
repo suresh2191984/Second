@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Appointment_Appointments_aspx_01" xml:space="preserve">
+    <value>E-mail address not valid</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_02" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_03" xml:space="preserve">
+    <value>Status : Free For Booking</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_04" xml:space="preserve">
+    <value>Status : Waiting</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_05" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_06" xml:space="preserve">
+    <value>Free For Booking</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_07" xml:space="preserve">
+    <value>There was an error please contact administrator</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_08" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_09" xml:space="preserve">
+    <value>Validation Alert</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_10" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_11" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_12" xml:space="preserve">
+    <value>There is no schedule available</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_13" xml:space="preserve">
+    <value>NoSlot</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_14" xml:space="preserve">
+    <value>Start Date should not greater than End Date</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_15" xml:space="preserve">
+    <value>Blocking Successfully Saved</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_16" xml:space="preserve">
+    <value>There was a problem try with some other time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_17" xml:space="preserve">
+    <value>Booked Slot Cancelled</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_18" xml:space="preserve">
+    <value>There was a problem try with some other time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_19" xml:space="preserve">
+    <value>Are you sure to Cancel the Appointment</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_20" xml:space="preserve">
+    <value>Remarks is mandatory,please try to cancel with remarks</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_21" xml:space="preserve">
+    <value>Please Enter Physician Name</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_22" xml:space="preserve">
+    <value>Please Select Start Date &amp; Hour</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_23" xml:space="preserve">
+    <value>Please Select End Date &amp; Hour</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_24" xml:space="preserve">
+    <value>Please Enter Reason</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_30" xml:space="preserve">
+    <value>Successfully Saved</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_31" xml:space="preserve">
+    <value>Group details missing</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_32" xml:space="preserve">
+    <value>Enter the location</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_33" xml:space="preserve">
+    <value>Enter the email</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_34" xml:space="preserve">
+    <value>Enter the valid email</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_35" xml:space="preserve">
+    <value>Choose the Patient</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_36" xml:space="preserve">
+    <value>The Scheduled physician appointment timings is over</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_37" xml:space="preserve">
+    <value>Enter Patient Name</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_38" xml:space="preserve">
+    <value>Enter Mobile Number</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_39" xml:space="preserve">
+    <value>Enter Age</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_40" xml:space="preserve">
+    <value>Select Salutation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_41" xml:space="preserve">
+    <value>The selected slot has an appointment, Do you want to choose a different slot?</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_42" xml:space="preserve">
+    <value>The entered Patient already added</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_43" xml:space="preserve">
+    <value>Patient details missing</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_44" xml:space="preserve">
+    <value>Please Select Salutation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_45" xml:space="preserve">
+    <value>Please Select Gender</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_46" xml:space="preserve">
+    <value>Please Enter the patient mobile number to schedule</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_47" xml:space="preserve">
+    <value>Please Enter Age</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_48" xml:space="preserve">
+    <value>Please enter the location</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_49" xml:space="preserve">
+    <value>Select the time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_50" xml:space="preserve">
+    <value>Please select the physician for schedule</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_51" xml:space="preserve">
+    <value>Please Enter Email Address</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_52" xml:space="preserve">
+    <value>The Selected Slot Already Contains a Patient,Do You Want to Continue</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_53" xml:space="preserve">
+    <value>The Selected Slot Contains Patient already, do you want continue?_Warning_Yes_No_single</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_54" xml:space="preserve">
+    <value>Select the Resource</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_55" xml:space="preserve">
+    <value>More Than One Patient is Needed, To Schedule Group Appointment </value>
+  </data>
+  <data name="Appointment_Appointments_aspx_56" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_57" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_58" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_59" xml:space="preserve">
+    <value>group</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_60" xml:space="preserve">
+    <value>single</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_61" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Appointment_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_62" xml:space="preserve">
+    <value>The given block was conflicted with existing block</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_63" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_64" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_65" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_66" xml:space="preserve">
+    <value>E-Mail ID</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_67" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_01" xml:space="preserve">
+    <value>Are you sure you wish to delete the Schedule?</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_02" xml:space="preserve">
+    <value>Choose a valid date</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_03" xml:space="preserve">
+    <value>Schedule overlap with existing Schedule</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_04" xml:space="preserve">
+    <value>PatientVisit is available for this Schedule</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>Scheduled Successfully</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_02" xml:space="preserve">
+    <value>Already Scheduled for same Date and Time</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_03" xml:space="preserve">
+    <value>Schedule overlap with existing Schedule</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_04" xml:space="preserve">
+    <value>PatientVisit is available for this Schedule</value>
+  </data>
+  <data name="Appointment_DoctorVacation_aspx_01" xml:space="preserve">
+    <value>Given vacation period is already defined</value>
+  </data>
+  <data name="Appointment_DoctorVacation_aspx_02" xml:space="preserve">
+    <value>Select doctor</value>
+  </data>
+  <data name="Appointment_Error" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Appointment_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Appointment_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_01" xml:space="preserve">
+    <value>Are you sure you wish to delete the Schedule</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_02" xml:space="preserve">
+    <value>Enter Physician Name</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_03" xml:space="preserve">
+    <value>Enter a Duration</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_04" xml:space="preserve">
+    <value>Choose a From date</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_05" xml:space="preserve">
+    <value>Choose a To date</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_06" xml:space="preserve">
+    <value>Invalid Date Range</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_07" xml:space="preserve">
+    <value>Start time is greater or equal</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_08" xml:space="preserve">
+    <value>Please Select Repeat On</value>
+  </data>
+  <data name="Appointment_PhySchedule_aspx_09" xml:space="preserve">
+    <value>Please Select a Repeat</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_68" xml:space="preserve">
+    <value>Please Enter Start Time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_69" xml:space="preserve">
+    <value>Please Enter End Time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_70" xml:space="preserve">
+    <value>Appointment already exixts, Do you want to continue?</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_71" xml:space="preserve">
+    <value>The Slot already alloted in current group, Choose different slot.</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_72" xml:space="preserve">
+    <value>Appointment Confirmed</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_05" xml:space="preserve">
+    <value>Defined time interval not correct</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_06" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_07" xml:space="preserve">
+    <value>Please Select Repeat On</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_75" xml:space="preserve">
+    <value>Mobile Number Should be 9 digits !</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_08" xml:space="preserve">
+    <value>Invalid Date Range</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_09" xml:space="preserve">
+    <value>Choose a To date</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_10" xml:space="preserve">
+    <value>Choose a From date</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_11" xml:space="preserve">
+    <value>Please Select a Repeat</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_12" xml:space="preserve">
+    <value>Select Doctor Name</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_13" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Appointment_Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_14" xml:space="preserve">
+    <value>Delete Schedule?</value>
+  </data>
+  <data name="Appointment_Validation" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_73" xml:space="preserve">
+    <value>Choose Physician</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_73" xml:space="preserve">
+    <value>Schedule can not be Edit, appointment exsits!</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_74" xml:space="preserve">
+    <value>Schedule can not be deleted, appointment exsits!</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_75" xml:space="preserve">
+    <value>Mobile Number Should be 9 digits !</value>
+  </data>
+  <data name="Appoinment_PatientRecallList_aspx_01" xml:space="preserve">
+    <value>Please Select From Date</value>
+  </data>
+  <data name="Appoinment_PatientRecallList_aspx_02" xml:space="preserve">
+    <value>Please Select To Date</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_65" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_74" xml:space="preserve">
+    <value>Invalid Mail ID</value>
+  </data>
+</root>

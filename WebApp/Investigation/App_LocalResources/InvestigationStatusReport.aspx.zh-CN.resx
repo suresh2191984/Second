@@ -1,0 +1,1723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>病人编号</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>测试分类</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>延迟记录仪</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>入藏号</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>更新用户两个</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>患者就诊身份</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>访问号</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>登记在</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>测试名称</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>部</value>
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>采样状态</value>
+  </data>
+  <data name="BoundFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>测试状态</value>
+  </data>
+  <data name="BoundFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>赞同</value>
+  </data>
+  <data name="BoundFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>报名地点</value>
+  </data>
+  <data name="BoundFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>加工位置</value>
+  </data>
+  <data name="BoundFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>客户端类型</value>
+  </data>
+  <data name="BoundFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="BoundFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>在修改</value>
+  </data>
+  <data name="BoundFieldResource29.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource29.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource29.HeaderText" xml:space="preserve">
+    <value>延迟记录仪</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>没有参观</value>
+  </data>
+  <data name="BoundFieldResource30.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource30.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource30.HeaderText" xml:space="preserve">
+    <value>入藏号</value>
+  </data>
+  <data name="BoundFieldResource31.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource31.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource31.HeaderText" xml:space="preserve">
+    <value>更新用户两个</value>
+  </data>
+  <data name="BoundFieldResource32.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource32.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource32.HeaderText" xml:space="preserve">
+    <value>访问身份</value>
+  </data>
+  <data name="BoundFieldResource33.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource33.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource33.HeaderText" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="BoundFieldResource34.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource34.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource34.HeaderText" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="BoundFieldResource35.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource35.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource35.HeaderText" xml:space="preserve">
+    <value>没有参观</value>
+  </data>
+  <data name="BoundFieldResource36.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource36.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource36.HeaderText" xml:space="preserve">
+    <value>登记在</value>
+  </data>
+  <data name="BoundFieldResource37.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource37.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource37.HeaderText" xml:space="preserve">
+    <value>样品采集</value>
+  </data>
+  <data name="BoundFieldResource38.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource38.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource38.HeaderText" xml:space="preserve">
+    <value>结果捕获</value>
+  </data>
+  <data name="BoundFieldResource39.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource39.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource39.HeaderText" xml:space="preserve">
+    <value>赞同</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>参观</value>
+  </data>
+  <data name="BoundFieldResource40.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource40.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource40.HeaderText" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="BoundFieldResource41.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource41.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource41.HeaderText" xml:space="preserve">
+    <value>客户端类型</value>
+  </data>
+  <data name="BoundFieldResource42.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource42.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource42.HeaderText" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="BoundFieldResource43.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource43.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource43.HeaderText" xml:space="preserve">
+    <value>测试分类</value>
+  </data>
+  <data name="BoundFieldResource44.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource44.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource44.HeaderText" xml:space="preserve">
+    <value>周转时间离开</value>
+  </data>
+  <data name="BoundFieldResource45.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource45.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource45.HeaderText" xml:space="preserve">
+    <value>延迟记录仪</value>
+  </data>
+  <data name="BoundFieldResource46.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource46.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource46.HeaderText" xml:space="preserve">
+    <value>入藏号</value>
+  </data>
+  <data name="BoundFieldResource47.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource47.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource47.HeaderText" xml:space="preserve">
+    <value>更新用户两个</value>
+  </data>
+  <data name="BoundFieldResource48.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource48.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource48.HeaderText" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="BoundFieldResource49.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource49.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource49.HeaderText" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>样品采集</value>
+  </data>
+  <data name="BoundFieldResource50.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource50.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource50.HeaderText" xml:space="preserve">
+    <value>没有参观</value>
+  </data>
+  <data name="BoundFieldResource51.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource51.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource51.HeaderText" xml:space="preserve">
+    <value>登记在</value>
+  </data>
+  <data name="BoundFieldResource52.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource52.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource52.HeaderText" xml:space="preserve">
+    <value>测试名称</value>
+  </data>
+  <data name="BoundFieldResource53.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource53.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource53.HeaderText" xml:space="preserve">
+    <value>部门名称</value>
+  </data>
+  <data name="BoundFieldResource54.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource54.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource54.HeaderText" xml:space="preserve">
+    <value>样品采集</value>
+  </data>
+  <data name="BoundFieldResource55.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource55.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource55.HeaderText" xml:space="preserve">
+    <value>结果捕获</value>
+  </data>
+  <data name="BoundFieldResource56.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource56.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource56.HeaderText" xml:space="preserve">
+    <value>赞同</value>
+  </data>
+  <data name="BoundFieldResource57.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource57.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource57.HeaderText" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="BoundFieldResource58.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource58.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource58.HeaderText" xml:space="preserve">
+    <value>客户端类型</value>
+  </data>
+  <data name="BoundFieldResource59.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource59.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource59.HeaderText" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>结果捕获</value>
+  </data>
+  <data name="BoundFieldResource60.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource60.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource60.HeaderText" xml:space="preserve">
+    <value>测试分类</value>
+  </data>
+  <data name="BoundFieldResource61.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource61.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource61.HeaderText" xml:space="preserve">
+    <value>访问身份</value>
+  </data>
+  <data name="BoundFieldResource62.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource62.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource62.HeaderText" xml:space="preserve">
+    <value>延迟记录仪</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>赞同</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>客户端类型</value>
+  </data>
+  <data name="btnDummyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDummyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnNextResource1.Text" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="btnNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPnlClose1Resource1.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="btnPnlClose1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPreviousResource1.Text" xml:space="preserve">
+    <value>以前</value>
+  </data>
+  <data name="btnPreviousResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button1Resource2.Text" xml:space="preserve">
+    <value>走</value>
+  </data>
+  <data name="Button1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="check1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCheckAllResource1.Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="chkCheckAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clrstatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clrstatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clrstatustxtResource1.Text" xml:space="preserve">
+    <value>演出在其他中心调查</value>
+  </data>
+  <data name="clrstatustxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlInvClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlInvestigationStatus1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlInvTestcategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOrganizationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOrgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSampleStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSTATStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTestCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlVisitTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdLabTestStatReportResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdLabTestStatReportResource1.EmptyDataText" xml:space="preserve">
+    <value>详细信息不可用</value>
+  </data>
+  <data name="grdLabTestStatReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate1Resource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate2Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate2Resource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDuplicate2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvStatusReportResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvStatusReportResource1.EmptyDataText" xml:space="preserve">
+    <value>收集详细信息不可用</value>
+  </data>
+  <data name="gvStatusReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvTestStatusReportResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvTestStatusReportResource1.EmptyDataText" xml:space="preserve">
+    <value>收集详细信息不可用</value>
+  </data>
+  <data name="gvTestStatusReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="img1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>测试状态：</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>样品状态：</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>进入页面去：</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>统计状态：</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAbnormalTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalTestingResource1.Text" xml:space="preserve">
+    <value>进一步的测试</value>
+  </data>
+  <data name="lblAdditionalTestingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientResource1.Text" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="lblClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClientTypeResource1.Text" xml:space="preserve">
+    <value>客户类型：</value>
+  </data>
+  <data name="lblClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCriticalCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCriticalTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCriticalTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCriticalTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDilutionTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDilutionTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDilutionTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromDateResource1.Text" xml:space="preserve">
+    <value>来源：</value>
+  </data>
+  <data name="lblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromResource1.Text" xml:space="preserve">
+    <value>来源：</value>
+  </data>
+  <data name="lblFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGrandRowTotalResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblGrandRowTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGrandRowTotResource1.Text" xml:space="preserve">
+    <value>累计</value>
+  </data>
+  <data name="lblGrandRowTotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterfacedTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterfacedTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblInterfacedTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvClientNameResource1.Text" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="lblInvClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvClientTypeResource1.Text" xml:space="preserve">
+    <value>客户类型：</value>
+  </data>
+  <data name="lblInvClientTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvTestcategoryResource1.Text" xml:space="preserve">
+    <value>测试类别：</value>
+  </data>
+  <data name="lblInvTestcategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocationResource1.Text" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="lblLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocResource1.Text" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="lblLocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManualProcessedTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManualTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManualTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblManualTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNormalTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrgDropDownResource1.Text" xml:space="preserve">
+    <value>组织：</value>
+  </data>
+  <data name="lblOrgDropDownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrgResource1.Text" xml:space="preserve">
+    <value>组织：</value>
+  </data>
+  <data name="lblOrgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNoResource1.Text" xml:space="preserve">
+    <value>访问编号：</value>
+  </data>
+  <data name="lblPatientNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQCTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQCTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblQCTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferingOrgResource1.Text" xml:space="preserve">
+    <value>参考医院：</value>
+  </data>
+  <data name="lblReferingOrgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferringPhysicianResource1.Text" xml:space="preserve">
+    <value>谈到医生的建议：</value>
+  </data>
+  <data name="lblReferringPhysicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefHospitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReflectTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReflexTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReflexTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblReflexTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefPhysicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportTypeResource1.Text" xml:space="preserve">
+    <value>报告类型 ：</value>
+  </data>
+  <data name="lblReportTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultValueTypeResource1.Text" xml:space="preserve">
+    <value>结果值类型</value>
+  </data>
+  <data name="lblResultValueTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRetestCountResources1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblReTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRowTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatTestNameResource1.Text" xml:space="preserve">
+    <value>测试名称：</value>
+  </data>
+  <data name="lblStatTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTATclosingTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTATclosingTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTATclosingTimeResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestCategoryResource1.Text" xml:space="preserve">
+    <value>测试类别：</value>
+  </data>
+  <data name="lblTestCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestingProcessResource1.Text" xml:space="preserve">
+    <value>测试过程</value>
+  </data>
+  <data name="lblTestingProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestNameResource1.Text" xml:space="preserve">
+    <value>测试名称：</value>
+  </data>
+  <data name="lblTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToDateResource1.Text" xml:space="preserve">
+    <value>至 ：</value>
+  </data>
+  <data name="lblToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToResource1.Text" xml:space="preserve">
+    <value>至 ：</value>
+  </data>
+  <data name="lblToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnspecifiedCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnSpecifiedTestCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnSpecifiedTestResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblUnSpecifiedTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisitTypeResource1.Text" xml:space="preserve">
+    <value>访问类型：</value>
+  </data>
+  <data name="lblVisitTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>都</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value> -  -  - 选择 -  -  - </value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkBackResource1.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="lnkBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkshowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>调查状况报告</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value>部门：</value>
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelGroupResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDeptsResource1.GroupingText" xml:space="preserve">
+    <value>部门：</value>
+  </data>
+  <data name="pnlDeptsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSummaryResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoDetailResource1.Text" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="rdoDetailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoSummaryResource1.Text" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="rdoSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_GroupItemResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_GroupItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDateTimeResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblEventsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblEventsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblINVResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblINVResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblUserResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>测试名称</value>
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>部</value>
+  </data>
+  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="TemplateFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.HeaderText" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="TemplateFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.HeaderText" xml:space="preserve">
+    <value>参考医院</value>
+  </data>
+  <data name="TemplateFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.HeaderText" xml:space="preserve">
+    <value>参考医师</value>
+  </data>
+  <data name="TemplateFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.HeaderText" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="TemplateFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.HeaderText" xml:space="preserve">
+    <value>不正常</value>
+  </data>
+  <data name="TemplateFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.HeaderText" xml:space="preserve">
+    <value>危急</value>
+  </data>
+  <data name="TemplateFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.HeaderText" xml:space="preserve">
+    <value>未指定</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="TemplateFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.HeaderText" xml:space="preserve">
+    <value>复试</value>
+  </data>
+  <data name="TemplateFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.HeaderText" xml:space="preserve">
+    <value>反射</value>
+  </data>
+  <data name="TemplateFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.HeaderText" xml:space="preserve">
+    <value>稀释</value>
+  </data>
+  <data name="TemplateFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="TemplateFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.HeaderText" xml:space="preserve">
+    <value>手册</value>
+  </data>
+  <data name="TemplateFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.HeaderText" xml:space="preserve">
+    <value>接口</value>
+  </data>
+  <data name="TemplateFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.HeaderText" xml:space="preserve">
+    <value>总</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>周转时间关闭时间</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>周转时间关闭时间</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>周转时间关闭时间</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="txtClientResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtInvClientNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtInvClientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpageNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpageNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPatientNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferringHospitalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferringHospitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferringPhysicianResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferringPhysicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestStatNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestStatNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>延迟日志记录器</value>
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>登录号</value>
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>耐心参观ID</value>
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>Reg地点</value>
+  </data>
+  <data name="BoundFieldResource29.HeaderText" xml:space="preserve">
+    <value>延迟日志记录器</value>
+  </data>
+  <data name="BoundFieldResource30.HeaderText" xml:space="preserve">
+    <value>登录号</value>
+  </data>
+  <data name="BoundFieldResource32.HeaderText" xml:space="preserve">
+    <value>参观ID</value>
+  </data>
+  <data name="BoundFieldResource45.HeaderText" xml:space="preserve">
+    <value>延迟日志记录器</value>
+  </data>
+  <data name="BoundFieldResource46.HeaderText" xml:space="preserve">
+    <value>登录号</value>
+  </data>
+  <data name="BoundFieldResource61.HeaderText" xml:space="preserve">
+    <value>参观ID</value>
+  </data>
+  <data name="BoundFieldResource62.HeaderText" xml:space="preserve">
+    <value>延迟日志记录器</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>门诊病人</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>住院病人</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>STAT</value>
+  </data>
+  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
+    <value>QC</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>耐心名字</value>
+  </data>
+  <data name="dvtestStatusResource1.GroupingText" xml:space="preserve">
+    <value>报告状态：</value>
+  </data>
+  <data name="pnlSerachTypeResource1.GroupingText" xml:space="preserve">
+    <value>搜索类型：</value>
+  </data>
+  <data name="RS_AllReportResource1.Text" xml:space="preserve">
+    <value>所有报告</value>
+  </data>
+  <data name="RS_PendingReportResource1.Text" xml:space="preserve">
+    <value>待报告</value>
+  </data>
+  <data name="RS_PSResource1.Text" xml:space="preserve">
+    <value>访问状态</value>
+  </data>
+  <data name="RS_SSResource1.Text" xml:space="preserve">
+    <value>采样状态</value>
+  </data>
+  <data name="RS_TSResource1.Text" xml:space="preserve">
+    <value>测试状态</value>
+  </data>
+  <data name="InvestigationStatusReportTabResource1.HeaderText" xml:space="preserve">
+    <value>调查状况报告</value>
+  </data>
+  <data name="testStatisticReportTabResource1.HeaderText" xml:space="preserve">
+    <value>测试统计报告</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>导出到
+高强</value>
+  </data>
+  <data name="lblAbnorTResource1.Text" xml:space="preserve">
+    <value>测试与异常结果：</value>
+  </data>
+  <data name="lblCriCountTResource1.Text" xml:space="preserve">
+    <value>测试危重结果：</value>
+  </data>
+  <data name="lblDilutionTestCount1Resource1.Text" xml:space="preserve">
+    <value>稀释试验次数：</value>
+  </data>
+  <data name="lblInterfacedTest1Resource1.Text" xml:space="preserve">
+    <value>接口测试：</value>
+  </data>
+  <data name="lblManualProcessedTest1Resource1.Text" xml:space="preserve">
+    <value>手动加工测试：</value>
+  </data>
+  <data name="lblNormTResource1.Text" xml:space="preserve">
+    <value>测试与正常/韩元结果：</value>
+  </data>
+  <data name="lblQCTestCount1Resource1.Text" xml:space="preserve">
+    <value>曲测试计数：</value>
+  </data>
+  <data name="lblReflectTestCount1Resource1.Text" xml:space="preserve">
+    <value>反射试验次数：</value>
+  </data>
+  <data name="lblRetestCount1Resource1.Text" xml:space="preserve">
+    <value>复测次数：</value>
+  </data>
+  <data name="lblTestUnTResource1.Text" xml:space="preserve">
+    <value>测试包含不明结果：</value>
+  </data>
+  <data name="lbltotalTResource1.Text" xml:space="preserve">
+    <value>总测试计数：</value>
+  </data>
+  <data name="chkSelAllResource1.Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+</root>

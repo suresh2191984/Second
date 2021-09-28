@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="alertResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BillingPanel1Resource1.GroupingText" xml:space="preserve">
+    <value>结算明细</value>
+  </data>
+  <data name="BillingPanel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckSelectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCreditResource1.Text" xml:space="preserve">
+    <value>信用</value>
+  </data>
+  <data name="chkCreditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRedeemResource1.Text" xml:space="preserve">
+    <value>赎回</value>
+  </data>
+  <data name="chkRedeemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvMultiDisTypesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvMultiDisTypesResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvMultiDisTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>非医疗金额</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>实际共付额</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>索赔金额</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>开单金额</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>差异索赔与医疗之间的金额</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_GroupNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_GroupNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActualCopaymenttxtResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblActualCopaymenttxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardNoResource1.Text" xml:space="preserve">
+    <value>健康卡无</value>
+  </data>
+  <data name="lblCardNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardNumberResource1.Text" xml:space="preserve">
+    <value>点击这里使用信用卡号码</value>
+  </data>
+  <data name="lblCardNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClaminAmountResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblClaminAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreditPointsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreditPointsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreditValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreditValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDifferenceAmountResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblDifferenceAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountPercentageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGrossResource1.Text" xml:space="preserve">
+    <value>毛</value>
+  </data>
+  <data name="lblGrossResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblgrpcolorResource1.Text" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="lblgrpcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblinvcolorResource1.Text" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="lblinvcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMedicalResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblMedicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMobileNoResource1.Text" xml:space="preserve">
+    <value>手机号码</value>
+  </data>
+  <data name="lblMobileNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMobileNumberResource1.Text" xml:space="preserve">
+    <value>点击这里使用手机号码</value>
+  </data>
+  <data name="lblMobileNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonMedicalResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblNonMedicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtpResource1.Text" xml:space="preserve">
+    <value>输入您的OTP：</value>
+  </data>
+  <data name="lblOtpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtpStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtpStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOutSourceTestColorResource1.Text" xml:space="preserve">
+    <value>输出源</value>
+  </data>
+  <data name="lblOutSourceTestColorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpkgcolorResource1.Text" xml:space="preserve">
+    <value>包</value>
+  </data>
+  <data name="lblpkgcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPointsResource1.Text" xml:space="preserve">
+    <value>您目前的积分是：</value>
+  </data>
+  <data name="lblPointsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreAuthAmtResource1.Text" xml:space="preserve">
+    <value>病人净应付额</value>
+  </data>
+  <data name="lblPreAuthAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreviousDueResource1.Text" xml:space="preserve">
+    <value>上一个截止日期：</value>
+  </data>
+  <data name="lblPreviousDueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreviousDueTextResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblPreviousDueTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRedeemResource1.Text" xml:space="preserve">
+    <value>赎回</value>
+  </data>
+  <data name="lblRedeemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRollingBalAmtResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRollingBalAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatTestColorResource1.Text" xml:space="preserve">
+    <value>状态测试</value>
+  </data>
+  <data name="lblStatTestColorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestNameResource1.Text" xml:space="preserve">
+    <value>测试名称</value>
+  </data>
+  <data name="lblTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValueResource1.Text" xml:space="preserve">
+    <value>您目前的积分卢比：</value>
+  </data>
+  <data name="lblValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LnkAttributesResource1.Text" xml:space="preserve">
+    <value>添加属性</value>
+  </data>
+  <data name="LnkAttributesResource1.ToolTip" xml:space="preserve">
+    <value>点击此处添加属性</value>
+  </data>
+  <data name="LnkHistoryResource1.Text" xml:space="preserve">
+    <value>捕获历史</value>
+  </data>
+  <data name="LnkHistoryResource1.ToolTip" xml:space="preserve">
+    <value>点击这里捕捉历史</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelAttributesResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelAttributesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelGroupResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelHistoryResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRedeemResource1.GroupingText" xml:space="preserve">
+    <value>赎回</value>
+  </data>
+  <data name="pnlRedeemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbExistingCardResource1.Text" xml:space="preserve">
+    <value>现有的卡</value>
+  </data>
+  <data name="rbExistingCardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblFeeTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNewCardResource1.Text" xml:space="preserve">
+    <value>新卡</value>
+  </data>
+  <data name="rbNewCardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_GroupItemResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_GroupItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCardNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCardNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGrossResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="txtGrossResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtgrpcolorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtgrpcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtinvcolorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtinvcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOutsourceTestResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOutsourceTestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpkgcolorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpkgcolorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRedeemResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="txtRedeemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStatColorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStatColorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTestNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVariableRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVariableRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

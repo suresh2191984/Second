@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblReportHeaderResource1.Text" xml:space="preserve">
+    <value>Laporan Pemakaian Obat Per Pasien</value>
+  </data>
+  <data name="lblReportHeaderResource1.ToolTip" xml:space="preserve">
+    <value>Laporan Pemakaian Obat Per Pasien</value>
+  </data>
+  <data name="lblSelResource1.Text" xml:space="preserve">
+    <value>SELURUH GUDANG</value>
+  </data>
+  <data name="lblSelResource1.ToolTip" xml:space="preserve">
+    <value>SELURUH GUDANG</value>
+  </data>
+  <data name="lblSelu1Resource1.Text" xml:space="preserve">
+    <value>SELURUH JENIS TRANSSAKSI</value>
+  </data>
+  <data name="lblSelu1Resource1.ToolTip" xml:space="preserve">
+    <value>SELURUH JENIS TRANSSAKSI</value>
+  </data>
+  <data name="Rs_FromDateResource1.Text" xml:space="preserve">
+    <value>Select Month</value>
+  </data>
+  <data name="Rs_FromDateResource1.ToolTip" xml:space="preserve">
+    <value>Select Month</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblPatientNumberResource1.Text" xml:space="preserve">
+    <value>UHID</value>
+  </data>
+  <data name="lblPatientNumberResource1.ToolTip" xml:space="preserve">
+    <value>UHID</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="btnGoResource1.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="btnGoResource1.ToolTip" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="lnkBackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="lnkBackResource1.ToolTip" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="gvIPReport_templatefieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPReport_templatefieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPReport_templatefieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateTextResource1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblDateTextResource1.ToolTip" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Visit Date</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value>Visit Date</value>
+  </data>
+  <data name="lblMrdNoResource1.Text" xml:space="preserve">
+    <value>UHID</value>
+  </data>
+  <data name="lblMrdNoResource1.ToolTip" xml:space="preserve">
+    <value>UHID</value>
+  </data>
+  <data name="Rs_PatientNameResource1.Text" xml:space="preserve">
+    <value>NAME</value>
+  </data>
+  <data name="Rs_PatientNameResource1.ToolTip" xml:space="preserve">
+    <value>NAME</value>
+  </data>
+  <data name="lblLunasResource1.Text" xml:space="preserve">
+    <value>Sts Lunas Pembayaran Medis</value>
+  </data>
+  <data name="lblLunasResource1.ToolTip" xml:space="preserve">
+    <value>Sts Lunas Pembayaran Medis</value>
+  </data>
+  <data name="lblLuansResource1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblLuansResource1.ToolTip" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblRegistrasiResource1.Text" xml:space="preserve">
+    <value>Registration Number</value>
+  </data>
+  <data name="lblRegistrasiResource1.ToolTip" xml:space="preserve">
+    <value>Registration Number</value>
+  </data>
+  <data name="lblRoomtextResource1.Text" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="lblRoomtextResource1.ToolTip" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="lblDockerTextResource1.Text" xml:space="preserve">
+    <value>Doctor Name</value>
+  </data>
+  <data name="lblDockerTextResource1.ToolTip" xml:space="preserve">
+    <value>Doctor Name</value>
+  </data>
+  <data name="lblClienttextResource1.Text" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="lblClienttextResource1.ToolTip" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="lblPesertaTextResource1.Text" xml:space="preserve">
+    <value>No.Peserta</value>
+  </data>
+  <data name="lblPesertaTextResource1.ToolTip" xml:space="preserve">
+    <value>No.Peserta</value>
+  </data>
+  <data name="lblPesertaResource1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblPesertaResource1.ToolTip" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblNoSipResource1.Text" xml:space="preserve">
+    <value>SIP No</value>
+  </data>
+  <data name="lblNoSipResource1.ToolTip" xml:space="preserve">
+    <value>SIP No</value>
+  </data>
+  <data name="lblSIPNoResource1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblSIPNoResource1.ToolTip" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lblMonthtextResource1.Text" xml:space="preserve">
+    <value>Month-Year</value>
+  </data>
+  <data name="lblMonthtextResource1.ToolTip" xml:space="preserve">
+    <value>Month-Year</value>
+  </data>
+  <data name="gvIPCreditMain_templatefieldResource2.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="gvIPCreditMain_templatefieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_templatefieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource4.HeaderText" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource6.HeaderText" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource8.HeaderText" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource10.HeaderText" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource12.HeaderText" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource14.HeaderText" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource16.HeaderText" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource18.HeaderText" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource20.HeaderText" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource22.HeaderText" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource24.HeaderText" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource26.HeaderText" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource28.HeaderText" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource30.HeaderText" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource30.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource30.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource32.HeaderText" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource32.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource32.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource34.HeaderText" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource34.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource34.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource36.HeaderText" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource36.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource36.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource38.HeaderText" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource38.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource38.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource40.HeaderText" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource40.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource40.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource42.HeaderText" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource42.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource42.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource44.HeaderText" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource44.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource44.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource46.HeaderText" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource46.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource46.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource48.HeaderText" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource48.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource48.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource50.HeaderText" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource50.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource50.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource52.HeaderText" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource52.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource52.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource54.HeaderText" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource54.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource54.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource56.HeaderText" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource56.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource56.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource58.HeaderText" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource58.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource58.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource60.HeaderText" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource60.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource60.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource62.HeaderText" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource62.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource62.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource64.HeaderText" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource64.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource64.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource66.HeaderText" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource66.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource66.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource68.HeaderText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource68.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvIPCreditMain_boundfieldResource68.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+</root>

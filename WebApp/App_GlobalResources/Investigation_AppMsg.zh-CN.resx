@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Investigation_AddInvestigation_aspx_01" xml:space="preserve">
+    <value>进入调查名称</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_02" xml:space="preserve">
+    <value>请输入事务代码</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_03" xml:space="preserve">
+    <value>编码方案的名字
+已经存在</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_04" xml:space="preserve">
+    <value>主要编码方案已选定</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_05" xml:space="preserve">
+    <value>提供编码方案名称</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_06" xml:space="preserve">
+    <value>"对不起编码方案名称
+已经存在"</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_07" xml:space="preserve">
+    <value>错误获取编码方案硕士</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_08" xml:space="preserve">
+    <value>页面无效</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_09" xml:space="preserve">
+    <value>已成功删除！</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_10" xml:space="preserve">
+    <value>已成功保存更改！</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_11" xml:space="preserve">
+    <value>成功保存！</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_12" xml:space="preserve">
+    <value>调查名称保存成功</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_13" xml:space="preserve">
+    <value>调查名称或代码已经存在!!!</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_14" xml:space="preserve">
+    <value>调查名称成功更新</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_15" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_01" xml:space="preserve">
+    <value>您是否需要继续</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_02" xml:space="preserve">
+    <value>未发现设备的价值</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_03" xml:space="preserve">
+    <value>图表或图像尚未上传了一段访问（S）的。你想继续吗？</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_04" xml:space="preserve">
+    <value>输入WorklistID或分析器或部门或页眉/条或协议组，或访问号码或测试名称或SampleId</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_05" xml:space="preserve">
+    <value>\ n错误代码：</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_06" xml:space="preserve">
+    <value>\ n错误描述：</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_01" xml:space="preserve">
+    <value>请选择工作列表类型</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_02" xml:space="preserve">
+    <value>请选择调查的名字从自动搜索</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_03" xml:space="preserve">
+    <value>没有关联，这WorkListFormat类型</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_04" xml:space="preserve">
+    <value>请选择WorkListID从自动搜索</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_05" xml:space="preserve">
+    <value>没有关联，这WorkListFormat类型</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_06" xml:space="preserve">
+    <value>请选择组名称从自动搜索</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_07" xml:space="preserve">
+    <value>请从访问输入否对于自动搜索</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_08" xml:space="preserve">
+    <value>请输入要Vistt否对于自动搜索</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_09" xml:space="preserve">
+    <value>没有关联，这WorkListFormat类型</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_10" xml:space="preserve">
+    <value>请输入开始日期</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_11" xml:space="preserve">
+    <value>请选择待定天</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_12" xml:space="preserve">
+    <value>请选择测试状态</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_13" xml:space="preserve">
+    <value>请选择等待天或进入待天</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_14" xml:space="preserve">
+    <value>请输入要日期</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_15" xml:space="preserve">
+    <value>请选择至少一个复选框</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_16" xml:space="preserve">
+    <value>没有调查发现生成新的工作表</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_17" xml:space="preserve">
+    <value>没有工作列表找到相应的搜索</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_01" xml:space="preserve">
+    <value>提供样品名称</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_02" xml:space="preserve">
+    <value>样品名称已经存在！</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_03" xml:space="preserve">
+    <value>代码已经存在！</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_04" xml:space="preserve">
+    <value>SampleName添加成功</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_05" xml:space="preserve">
+    <value>容器名称不能为空</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_06" xml:space="preserve">
+    <value>集装箱代码应在5最低</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_07" xml:space="preserve">
+    <value>更改成功更新。</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_08" xml:space="preserve">
+    <value>容器名称已经存在！ 。</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_09" xml:space="preserve">
+    <value>示例代码应在5最低</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_10" xml:space="preserve">
+    <value>更改成功更新。</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_11" xml:space="preserve">
+    <value>SampleName已存在!!!</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_12" xml:space="preserve">
+    <value>InvestigationSampleContainer添加成功</value>
+  </data>
+  <data name="Investigation_Header_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_01" xml:space="preserve">
+    <value>不能为你的角色在这个组织中执行此操作</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_02" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_03" xml:space="preserve">
+    <value>报告成功发送</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_04" xml:space="preserve">
+    <value>无法调度报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_05" xml:space="preserve">
+    <value>无法获取该报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_06" xml:space="preserve">
+    <value>选择的病人分派调查报告</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_07" xml:space="preserve">
+    <value>您可以选择发货方式为电子邮件，提供E-mail地址</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_08" xml:space="preserve">
+    <value>您可以选择发货方式为手机短信，提供手机号码</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_09" xml:space="preserve">
+    <value>您可以选择发货方式为快递，快递提供男孩的名字</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_10" xml:space="preserve">
+    <value>这名患者是有应付金额，你想打印？</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_11" xml:space="preserve">
+    <value>请安装Adobe Reader来执行打印功能</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_12" xml:space="preserve">
+    <value>选定的客户端病人没有健康检查的详细信息...</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_13" xml:space="preserve">
+    <value>请选中该复选框和调度</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_14" xml:space="preserve">
+    <value>至少选择一个记录</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_15" xml:space="preserve">
+    <value>选定的客户端被封</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_16" xml:space="preserve">
+    <value>该客户端暂停，您将可以看到STAT，只有关键的测试报告，你要继续吗？</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_17" xml:space="preserve">
+    <value>选择动作中的任何一个，以继续进行</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_18" xml:space="preserve">
+    <value>有余额选择的病人..</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_19" xml:space="preserve">
+    <value>选择只有一条记录</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_20" xml:space="preserve">
+    <value>提供访问日期</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_21" xml:space="preserve">
+    <value>选择一个调查显示报告</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_22" xml:space="preserve">
+    <value>选择一个调查</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_23" xml:space="preserve">
+    <value>已经生成了这次访问的重点报告</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_24" xml:space="preserve">
+    <value>这名患者有到期金额</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_25" xml:space="preserve">
+    <value>无法打印报告</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_26" xml:space="preserve">
+    <value>提供一个有效的电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_27" xml:space="preserve">
+    <value>提供一个电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_28" xml:space="preserve">
+    <value>提供页码</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_29" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_30" xml:space="preserve">
+    <value>你超过打印（S）的最大数量。你确定要继续吗？</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_31" xml:space="preserve">
+    <value>你想打印？</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_32" xml:space="preserve">
+    <value>报告还没有准备好</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_33" xml:space="preserve">
+    <value>怨恨报告成功生成</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_34" xml:space="preserve">
+    <value>报告成功发送</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_35" xml:space="preserve">
+    <value>无法调度报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_36" xml:space="preserve">
+    <value>无法获取该报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_01" xml:space="preserve">
+    <value>提供文本名称</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_02" xml:space="preserve">
+    <value>输入报告。</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_03" xml:space="preserve">
+    <value>保存成功。</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_04" xml:space="preserve">
+    <value>成功地更新。</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_05" xml:space="preserve">
+    <value>必填字段缺失。</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_01" xml:space="preserve">
+    <value>选择一个测试</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_02" xml:space="preserve">
+    <value>家长调查/组不体健反射性</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_03" xml:space="preserve">
+    <value>你确定你想添加反射？</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_04" xml:space="preserve">
+    <value>此测试已经可用于这次访问！</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_05" xml:space="preserve">
+    <value>批准的测试不允许反射</value>
+  </data>
+  <data name="Investigation_ReflexTest_ascx_06" xml:space="preserve">
+    <value>选择测试从列表</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_01" xml:space="preserve">
+    <value>提供页码</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_02" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_03" xml:space="preserve">
+    <value>这是最后审批页</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_04" xml:space="preserve">
+    <value>这是首次批准页</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_01" xml:space="preserve">
+    <value>您所选择的范围超过300访问</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_02" xml:space="preserve">
+    <value>从日期/访问号提供</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_03" xml:space="preserve">
+    <value>提供日期/访问号</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_01" xml:space="preserve">
+    <value>提供患者就诊号码进行搜索</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_02" xml:space="preserve">
+    <value>已经添加调查</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_03" xml:space="preserve">
+    <value>选择样本更改状态</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_01" xml:space="preserve">
+    <value>请选择处理方法</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_02" xml:space="preserve">
+    <value>请选择染色</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_03" xml:space="preserve">
+    <value>无效文件</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_04" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_05" xml:space="preserve">
+    <value>选择结果模板</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_01" xml:space="preserve">
+    <value>选择一个调查</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_02" xml:space="preserve">
+    <value>选择一个调查显示报告</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_03" xml:space="preserve">
+    <value>图表或图像尚未上传了一段访问（S）的。你想继续吗？</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_04" xml:space="preserve">
+    <value>部分测试被选择用于共授权但用户没有选择</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_05" xml:space="preserve">
+    <value>你想保存上述值？</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_06" xml:space="preserve">
+    <value>请输入要添加的项</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_07" xml:space="preserve">
+    <value>已经存在于当前项目的列表中。</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_01" xml:space="preserve">
+    <value>提供参观人数</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_02" xml:space="preserve">
+    <value>选择一个调查显示报告</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_03" xml:space="preserve">
+    <value>无法打印报告</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_04" xml:space="preserve">
+    <value>您调查的电子报告现已被发送到你作为一个PDF文档。请输入您的耐心号码作为密码，查看您的报告。</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_05" xml:space="preserve">
+    <value>不能进行此操作。请启用通知设置。</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_06" xml:space="preserve">
+    <value>真诚的，</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_07" xml:space="preserve">
+    <value>亲</value>
+  </data>
+  <data name="Investigation_InvReportsForDept_aspx_01" xml:space="preserve">
+    <value>提供参观人数</value>
+  </data>
+  <data name="Investigation_InvReportsForDept_aspx_02" xml:space="preserve">
+    <value>选择一个调查显示报告</value>
+  </data>
+  <data name="Investigation_InvReportsForDept_aspx_03" xml:space="preserve">
+    <value>选择一个调查</value>
+  </data>
+  <data name="Investigation_InvReportsForDept_aspx_04" xml:space="preserve">
+    <value>无法打印报告</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_01" xml:space="preserve">
+    <value>药物已经添加。请检查。</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_01" xml:space="preserve">
+    <value>选择色斑类型\ n</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_02" xml:space="preserve">
+    <value>进入染色结果\ n</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_03" xml:space="preserve">
+    <value>你确定要删除这个有机体的细节？</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_04" xml:space="preserve">
+    <value>已经添加选择的有机体细节</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_05" xml:space="preserve">
+    <value>添加染色结果</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_02" xml:space="preserve">
+    <value>进入生物体的名称，然后添加药物</value>
+  </data>
+  <data name="Investigation_ImagingWithFCKEditor_ascx_01" xml:space="preserve">
+    <value>请选择执行Physicain名称</value>
+  </data>
+  <data name="Investigation_SemenAnalysisNewPattern_ascx_01" xml:space="preserve">
+    <value>蠕动总价值不到100</value>
+  </data>
+  <data name="Investigation_SemenAnalysisNewPattern_ascx_02" xml:space="preserve">
+    <value>运动功能总价值超过100</value>
+  </data>
+  <data name="Investigation_ImageUploadpattern_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="Investigation_FishResultPattern_ascx_01" xml:space="preserve">
+    <value>您必须选择要上传的GIF，JPEG，JPG和PNG文件</value>
+  </data>
+  <data name="Investigation_FishResultPattern_ascx_02" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_ImageUploadpattern_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG）</value>
+  </data>
+  <data name="Investigation_ImageUploadpattern_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="Investigation_ImageUploadpattern_ascx_04" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_MultiAddControl_ascx_01" xml:space="preserve">
+    <value>请选择Notes</value>
+  </data>
+  <data name="Investigation_BRCAPattern_ascx_01" xml:space="preserve">
+    <value>您必须选择要上传的GIF，JPEG，JPG和PNG文件</value>
+  </data>
+  <data name="Investigation_BRCAPattern_ascx_02" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_GeneralPattern_ascx_01" xml:space="preserve">
+    <value>您必须选择要上传的GIF，JPEG，JPG和PNG文件</value>
+  </data>
+  <data name="Investigation_GeneralPattern_ascx_02" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_HBVDRUG_ascx_02" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_HEMATOLOGY_ascx_01" xml:space="preserve">
+    <value>选择标记使用\ n</value>
+  </data>
+  <data name="Investigation_HEMATOLOGY_ascx_02" xml:space="preserve">
+    <value>输入型色斑\ n</value>
+  </data>
+  <data name="Investigation_HEMATOLOGY_ascx_03" xml:space="preserve">
+    <value>添加染色结果</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_01" xml:space="preserve">
+    <value>无效文件</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_02" xml:space="preserve">
+    <value>选择结果模板</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_03" xml:space="preserve">
+    <value>请选择处理方法</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_04" xml:space="preserve">
+    <value>请选择染色</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_05" xml:space="preserve">
+    <value>请选择临床记录</value>
+  </data>
+  <data name="Investigation_HistoPathologyPatternQuantum_ascx_01" xml:space="preserve">
+    <value>请选择处理方法</value>
+  </data>
+  <data name="Investigation_HistoPathologyPatternQuantum_ascx_02" xml:space="preserve">
+    <value>请选择染色</value>
+  </data>
+  <data name="Investigation_HistoPathologyPatternQuantum_ascx_03" xml:space="preserve">
+    <value>无效文件</value>
+  </data>
+  <data name="Investigation_HistoPathologyPatternQuantum_ascx_04" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_HistoPathologyPatternQuantum_ascx_05" xml:space="preserve">
+    <value>选择结果模板</value>
+  </data>
+  <data name="Investigation_ImageDescriptionpattern_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="Investigation_ImageDescriptionpattern_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG）</value>
+  </data>
+  <data name="Investigation_ImageDescriptionpattern_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="Investigation_ImageDescriptionpattern_ascx_04" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_MicroStainPattern_ascx_01" xml:space="preserve">
+    <value>输入型色斑\ n</value>
+  </data>
+  <data name="Investigation_MicroStainPattern_ascx_02" xml:space="preserve">
+    <value>进入染色结果\ n</value>
+  </data>
+  <data name="Investigation_MicroStainPattern_ascx_03" xml:space="preserve">
+    <value>添加染色结果</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_01" xml:space="preserve">
+    <value>已成功删除..</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_02" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_03" xml:space="preserve">
+    <value>文件保存成功</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_04" xml:space="preserve">
+    <value>未保存的文件再试一次..</value>
+  </data>
+  <data name="Investigation_OrganismDrugPattern_ascx_01" xml:space="preserve">
+    <value>你确定要删除这个有机体的细节？</value>
+  </data>
+  <data name="Investigation_OrganismDrugPattern_ascx_02" xml:space="preserve">
+    <value>你确定要删除这个药的细节？</value>
+  </data>
+  <data name="Investigation_OrganismDrugPattern_ascx_03" xml:space="preserve">
+    <value>选择任意一个生物体添加</value>
+  </data>
+  <data name="Investigation_OrganismDrugPattern_ascx_04" xml:space="preserve">
+    <value>已经添加选择的有机体细节</value>
+  </data>
+  <data name="Investigation_PDFUploadpattern_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="Investigation_PDFUploadpattern_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式（PDF）</value>
+  </data>
+  <data name="Investigation_PDFUploadpattern_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="Investigation_PDFUploadpattern_ascx_04" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_01" xml:space="preserve">
+    <value>请输入要添加的项</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_02" xml:space="preserve">
+    <value>已经存在于当前项目的列表中。</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_03" xml:space="preserve">
+    <value>选择色斑类型\ n</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_04" xml:space="preserve">
+    <value>进入染色结果\ n</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_05" xml:space="preserve">
+    <value>添加染色结果</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_01" xml:space="preserve">
+    <value>不能为你的角色在这个组织中执行此操作</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_02" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_03" xml:space="preserve">
+    <value>报告成功发送</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_04" xml:space="preserve">
+    <value>无法调度报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_05" xml:space="preserve">
+    <value>无法获取该报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_06" xml:space="preserve">
+    <value>选择的病人分派调查报告</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_07" xml:space="preserve">
+    <value>您可以选择发货方式为电子邮件，提供E-mail地址</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_08" xml:space="preserve">
+    <value>您可以选择发货方式为手机短信，提供手机号码</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_09" xml:space="preserve">
+    <value>您可以选择发货方式为快递，快递提供男孩的名字</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_10" xml:space="preserve">
+    <value>这名患者是有应付金额，你想打印？</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_11" xml:space="preserve">
+    <value>选定的客户端病人没有健康检查的详细信息...</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_12" xml:space="preserve">
+    <value>请选中该复选框和调度</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_13" xml:space="preserve">
+    <value>至少选择一个记录</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_14" xml:space="preserve">
+    <value>选择只有一条记录</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_15" xml:space="preserve">
+    <value>选定的客户端被封</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_16" xml:space="preserve">
+    <value>该客户端暂停，您将可以看到STAT，只有关键的测试报告，你要继续吗？</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_17" xml:space="preserve">
+    <value>选择动作中的任何一个，以继续进行</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_18" xml:space="preserve">
+    <value>有余额选择的病人..</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_19" xml:space="preserve">
+    <value>至少选择一个记录</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_20" xml:space="preserve">
+    <value>选择只有一条记录</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_21" xml:space="preserve">
+    <value>请选择至少一个记录</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_22" xml:space="preserve">
+    <value>请选择打印机位置</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_23" xml:space="preserve">
+    <value>提供访问日期</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_24" xml:space="preserve">
+    <value>选择一个调查显示报告</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_25" xml:space="preserve">
+    <value>选择一个调查</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_26" xml:space="preserve">
+    <value>已经生成了这次访问的重点报告</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_27" xml:space="preserve">
+    <value>这名患者有到期金额</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_28" xml:space="preserve">
+    <value>无法打印报告</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_29" xml:space="preserve">
+    <value>提供一个有效的电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_30" xml:space="preserve">
+    <value>提供一个电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_31" xml:space="preserve">
+    <value>提供一个有效的电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_32" xml:space="preserve">
+    <value>提供一个电子邮件地址。</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_33" xml:space="preserve">
+    <value>提供页码</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_34" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_35" xml:space="preserve">
+    <value>你超过打印（S）的最大数量。你确定要继续吗？</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_36" xml:space="preserve">
+    <value>怨恨报告成功生成</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_37" xml:space="preserve">
+    <value>调查报告成功发送</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_38" xml:space="preserve">
+    <value>优先的报告成功生成</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_39" xml:space="preserve">
+    <value>打印通知队列发送</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_40" xml:space="preserve">
+    <value>报告成功发送</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_41" xml:space="preserve">
+    <value>无法调度报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_42" xml:space="preserve">
+    <value>无法获取该报告。请与系统管理员联系</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_01" xml:space="preserve">
+    <value>没有匹配符合条件的记录</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_hdr" xml:space="preserve">
+    <value>间歇工作列表</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_hdr" xml:space="preserve">
+    <value>报告调度</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_01" xml:space="preserve">
+    <value>选择一个测试</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_02" xml:space="preserve">
+    <value>选择天气测试已经订购</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_03" xml:space="preserve">
+    <value>你确定要添加符类测试？</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_04" xml:space="preserve">
+    <value>此测试已经可用于这次访问！</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_05" xml:space="preserve">
+    <value>批准的测试不允许天气学测试</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_06" xml:space="preserve">
+    <value>选择测试从列表</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_07" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_08" xml:space="preserve">
+    <value>天气试验研究</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_09" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_10" xml:space="preserve">
+    <value>家长调查</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_11" xml:space="preserve">
+    <value>简称类型</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_12" xml:space="preserve">
+    <value>是可报告</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_13" xml:space="preserve">
+    <value>是计费</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_14" xml:space="preserve">
+    <value>入藏号</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_15" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_16" xml:space="preserve">
+    <value>家长调查/集团不允许添加</value>
+  </data>
+  <data name="Investigation_SynopticTest_ascx_17" xml:space="preserve">
+    <value>同样的试验不能符类为选定的测试！</value>
+  </data>
+    <data name="Investigation_AddInvestigation_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_16" xml:space="preserve">
+    <value>调查中，我</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_17" xml:space="preserve">
+    <value>代码名称</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_18" xml:space="preserve">
+    <value>调查名称</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_02" xml:space="preserve">
+    <value>- 选择 -</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_03" xml:space="preserve">
+    <value>- 所有 -</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_04" xml:space="preserve">
+    <value>没有匹配符合条件的记录</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_05" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_06" xml:space="preserve">
+    <value>检验统计报告摘要</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_07" xml:space="preserve">
+    <value>测试统计报表详细</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_08" xml:space="preserve">
+    <value>测试状态</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_09" xml:space="preserve">
+    <value>采样状态</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_10" xml:space="preserve">
+    <value>患者就诊状态</value>
+  </data>
+  <data name="Investigation_ContainerMaster_ascx_001" xml:space="preserve">
+    <value>样品名称添加成功</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_filter" xml:space="preserve">
+    <value>微生物特殊过滤</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_pendingdays" xml:space="preserve">
+    <value>待天数：</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_status" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+</root>

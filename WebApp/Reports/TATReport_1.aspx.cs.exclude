@@ -1,0 +1,258 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Text;
+using Attune.Podium.BusinessEntities;
+using Attune.Solution.BusinessComponent;
+using System.Data;
+using Attune.Podium.Common;
+using Attune.Podium.BillingEngine;
+using Attune.Podium.ExcelExportManager;
+using System.IO;
+//using ReportBusinessLogic;
+
+public partial class Reports_TATReport_1 : BasePage
+{
+
+    List<LabTestTATReport> lstTATReport = new List<LabTestTATReport>();
+    long returnCode = -1;
+    long LocationID = -1;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        try
+        {
+           if (!IsPostBack)
+            {
+
+                txtFDate.Attributes.Add("onchange", "ExcedDate('" + txtFDate.ClientID.ToString() + "','',0,0);");
+                txtTDate.Attributes.Add("onchange", "ExcedDate('" + txtTDate.ClientID.ToString() + "','',0,0); ExcedDate('" + txtTDate.ClientID.ToString() + "','txtFDate',1,1);");
+                LoadLocations(LID);
+            }
+        }
+        catch (Exception ex)
+        {
+           // ErrorDisplay1.ShowError = true;
+           // ErrorDisplay1.Status = ex.Message;
+           // CLogger.LogError("Error in Page Load: ", ex);
+        }
+    }
+    public string GetConfigValues(string strConfigKey, int OrgID)
+    {
+        string strConfigValue = string.Empty;
+        try
+        {
+            long returncode = -1;
+            GateWay objGateway = new GateWay(base.ContextInfo);
+            List<Config> lstConfig = new List<Config>();
+            returncode = objGateway.GetConfigDetails(strConfigKey, OrgID, out lstConfig);
+            if (lstConfig.Count >= 0)
+                strConfigValue = lstConfig[0].ConfigValue;
+            else
+                CLogger.LogWarning("InValid " + strConfigKey);
+        }
+        catch (Exception ex)
+        {
+            CLogger.LogError("Error in GetConfigValues" + strConfigKey, ex);
+        }
+        return strConfigValue;
+    }
+    public DataTable loaddata(List<LabTestTATReport> lstTATReport)
+    {
+        DataTable dt = new DataTable();
+
+        DataColumn dcol1 = new DataColumn("PatientNumber");
+        DataColumn dcol2 = new DataColumn("PatientName");
+        DataColumn dcol3 = new DataColumn("InvestigationName");
+        DataColumn dcol4 = new DataColumn("OrderedTime");
+        DataColumn dcol5 = new DataColumn("SampleTime");
+        DataColumn dcol6 = new DataColumn("ValuesEnterTime");
+        DataColumn dcol7 = new DataColumn("ValuesModifiedTime");
+        DataColumn dcol8 = new DataColumn("CompletedTime");
+        DataColumn dcol9 = new DataColumn("ApprovedDateAndTime");
+        DataColumn dcol10 = new DataColumn("Status");
+        DataColumn dcol11 = new DataColumn("Location");
+        DataColumn dcol12 = new DataColumn("DeptName");
+        DataColumn dcol13 = new DataColumn("VisitID");
+        DataColumn dcol14 = new DataColumn("InvestigationID");
+        DataColumn dcol15 = new DataColumn("RecSampleTime");
+        DataColumn dcol16 = new DataColumn("ProcessingLocation");
+        DataColumn dcol17 = new DataColumn("OrgID");
+        DataColumn dcol18 = new DataColumn("ElapsedTime");
+        
+        dt.Columns.Add(dcol1);
+        dt.Columns.Add(dcol2);
+        dt.Columns.Add(dcol3);
+        dt.Columns.Add(dcol4);
+        dt.Columns.Add(dcol5);
+        dt.Columns.Add(dcol6);
+        dt.Columns.Add(dcol7);
+        dt.Columns.Add(dcol8);
+        dt.Columns.Add(dcol9);
+        dt.Columns.Add(dcol10);
+        dt.Columns.Add(dcol11);
+        dt.Columns.Add(dcol12);
+        dt.Columns.Add(dcol13);
+        dt.Columns.Add(dcol14);
+        dt.Columns.Add(dcol15);
+        dt.Columns.Add(dcol16);
+        dt.Columns.Add(dcol17);
+        dt.Columns.Add(dcol18);
+
+        foreach (LabTestTATReport item in lstTATReport)
+        {
+            DataRow dr = dt.NewRow();
+
+            dr["PatientNumber"] = item.PatientNumber;
+            dr["PatientName"] = item.PatientName;
+            dr["InvestigationName"] = item.InvestigationName;
+            dr["OrderedTime"] = item.OrderedTime.ToString("dd/MMM/yy hh:mm tt"); ;
+            dr["SampleTime"] = item.SampleTime.ToString("dd/MMM/yy hh:mm tt");
+            dr["ValuesEnterTime"] = item.ValuesEnterTime.ToString("dd/MMM/yy hh:mm tt");
+            dr["ValuesModifiedTime"] = item.ValuesModifiedTime.ToString("dd/MMM/yy hh:mm tt");
+            dr["CompletedTime"] = item.CompletedTime.ToString("dd/MMM/yy hh:mm tt"); 
+            dr["ApprovedDateAndTime"] = item.ApprovedDateAndTime.ToString("dd/MMM/yy hh:mm tt"); 
+            dr["Status"] = item.Status;
+            dr["Location"] = item.Location;
+            dr["DeptName"] = item.DeptName;
+            dr["VisitID"] = item.VisitID;
+            dr["InvestigationID"] = item.InvestigationID;
+            dr["RecSampleTime"] = item.RecSampleTime.ToString("dd/MMM/yy hh:mm tt"); 
+            dr["ProcessingLocation"] = item.ProcessingLocation;
+            dr["OrgID"] = item.OrgID;
+            dr["ElapsedTime"] = item.ElapsedTime;
+
+            dt.Rows.Add(dr);
+        }
+        return dt;
+    }
+
+
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+      
+        DateTime fDate, tDate;
+        fDate=Convert.ToDateTime(txtFDate.Text);
+        tDate=Convert.ToDateTime(txtTDate.Text);
+        LocationID = Int32.Parse(ddlLocation.SelectedValue);
+        returnCode = new Report_BL(base.ContextInfo).GetTATReport(fDate, tDate, OrgID, LocationID, out lstTATReport);
+        if (lstTATReport.Count > 0)
+        {
+            grdResult.DataSource = lstTATReport;
+            grdResult.DataBind();
+        }
+        else
+        {
+            grdResult.DataSource = null;
+            grdResult.DataBind();
+            ScriptManager.RegisterStartupScript(Page, this.GetType(), "ALt", "javascript:alert('No Matching Record Found!');", true);
+           
+        }
+    }
+    protected void LoadLocations(long uroleID)
+    {
+
+        PatientVisit_BL patientBL = new PatientVisit_BL(base.ContextInfo);
+        List<OrganizationAddress> lstLocation = new List<OrganizationAddress>();
+        returnCode = patientBL.GetLocation(OrgID, LID, uroleID,out lstLocation);
+        ddlLocation.DataSource = lstLocation;
+
+        ddlLocation.DataTextField ="Location";
+        ddlLocation.DataValueField ="AddressID";
+        ddlLocation.DataBind();
+
+        if (lstLocation.Count == 1)
+        {
+
+            //ddlLocation.Items.Insert(0,"------SELECT------");
+            ddlLocation.Items.Insert(0,"--ALL--");
+            ddlLocation.Items[0].Selected =true;
+            ddlLocation.Items[0].Value = "-1";
+   
+        }
+
+        else if (lstLocation.Count == 0 || lstLocation.Count > 1)
+        {
+            //ddlLocation.Items.Insert(0,"------SELECT------");
+            ddlLocation.Items.Insert(0,"--ALL--");
+            ddlLocation.Items[0].Selected =true;
+            ddlLocation.Items[0].Value = "-1";
+        }
+    }
+    protected void grdResult_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        try
+        {
+            if (e.NewPageIndex != -1)
+            {
+                grdResult.PageIndex = e.NewPageIndex;
+                btnSubmit_Click(sender, e);
+            }
+                     
+        }
+        catch (Exception ex)
+        {
+            CLogger.LogError("Error while Save Group", ex);
+        }
+    }
+    public override void VerifyRenderingInServerForm(Control control)
+    {
+    }
+    protected void lnkExportXL_Click(object sender, EventArgs e)
+    {
+        try
+        {               
+            grdResult.AllowPaging = false;
+            btnSubmit_Click(sender, e);
+            string prefix = string.Empty;
+            prefix = "TATReport_";
+            string rptDate = prefix + Convert.ToDateTime(new BasePage().OrgDateTimeZone).ToShortDateString();
+            string attachment = "attachment; filename=" + rptDate + ".xls";
+            Response.ClearContent();
+            Response.AddHeader("content-disposition", attachment);
+            Response.ContentType = "application/ms-excel";
+            Response.Charset = "";
+            this.EnableViewState = false;
+
+            //HttpContext.Current.Response.Write(getReportHeader(rdostock.SelectedItem.Text == "NilStock", gvIPReport.Columns.Count));
+            System.IO.StringWriter oStringWriter = new System.IO.StringWriter();
+            System.Web.UI.HtmlTextWriter oHtmlTextWriter = new System.Web.UI.HtmlTextWriter(oStringWriter);
+         //oHtmlTextWriter(Convert.ToDateTime(new BasePage().OrgDateTimeZone).ToString("yyyy-mm-dd hh:mm:ss"));
+
+            grdResult.RenderControl(oHtmlTextWriter);
+            Response.Write(oStringWriter.ToString());
+            grdResult.AllowPaging = true;
+            grdResult.DataSource = lstTATReport;
+            grdResult.DataBind();
+            Response.End();
+                     
+        }
+        catch (Exception ex)
+        {
+            
+        }
+    }
+       protected void grdResult_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+       if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            if (((LabTestTATReport)e.Row.DataItem).ApprovedDateAndTime.ToString() == "01/01/0001 00:00:00")
+            {
+                e.Row.Cells[9].Text = "";
+             }
+        }
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            if (((LabTestTATReport)e.Row.DataItem).RecSampleTime.ToString() == "01/01/0001 00:00:00")
+            {
+                e.Row.Cells[14].Text = "";
+          }
+        }
+    }
+   protected void txtTDate_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+}

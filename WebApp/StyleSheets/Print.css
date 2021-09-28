@@ -1,0 +1,16 @@
+﻿  table
+        {
+                
+                  border-collapse: collapse;
+                  table-layout:fixed;
+        }
+        table td{
+        border: 1px solid #8babbf !important;
+        border-collapse:collapse !important;
+        padding: 2px !important;
+        }
+th {
+    padding: 4px 2px;
+    background-color: #446d87 !important;
+    color: #fff;
+}

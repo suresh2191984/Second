@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ANC_ANCPatientDignose_aspx_01" xml:space="preserve">
+    <value>(Click to View ANC Snap Shot View...)</value>
+  </data>
+  <data name="ANC_ANCPatientDignose_aspx_02" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="ANC_ANCPatientDignose_aspx_03" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="ANC_ANC_aspx_01" xml:space="preserve">
+    <value>Expected Date of Delivery (EDD)</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_03" xml:space="preserve">
+    <value>Caesarean</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_04" xml:space="preserve">
+    <value>ForcepsDelivery</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_05" xml:space="preserve">
+    <value>VaccumExtraction</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_06" xml:space="preserve">
+    <value>NormalVaginalDelivery</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_07" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_08" xml:space="preserve">
+    <value>anormal </value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_09" xml:space="preserve">
+    <value>FullTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_10" xml:space="preserve">
+    <value>PreTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_11" xml:space="preserve">
+    <value>PostTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_12" xml:space="preserve">
+    <value>enero</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_13" xml:space="preserve">
+    <value>Febrauary</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_14" xml:space="preserve">
+    <value>marzo</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_15" xml:space="preserve">
+    <value>abril</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_16" xml:space="preserve">
+    <value>mayo</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_17" xml:space="preserve">
+    <value>junio</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_18" xml:space="preserve">
+    <value>julio</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_19" xml:space="preserve">
+    <value>agosto</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_20" xml:space="preserve">
+    <value>septiembre</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_21" xml:space="preserve">
+    <value>octubre</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_22" xml:space="preserve">
+    <value>noviembre</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_23" xml:space="preserve">
+    <value>diciembre</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_24" xml:space="preserve">
+    <value>no.</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_25" xml:space="preserve">
+    <value>sí</value>
+  </data>
+  <data name="ANC_BaseLineHistoryFollowup_aspx_26" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_03" xml:space="preserve">
+    <value>Caesarean</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_04" xml:space="preserve">
+    <value>ForcepsDelivery</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_05" xml:space="preserve">
+    <value>VaccumExtraction</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_06" xml:space="preserve">
+    <value>NormalVaginalDelivery</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_07" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_08" xml:space="preserve">
+    <value>anormal </value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_09" xml:space="preserve">
+    <value>FullTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_10" xml:space="preserve">
+    <value>PreTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_11" xml:space="preserve">
+    <value>PostTerm</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_12" xml:space="preserve">
+    <value>enero</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_13" xml:space="preserve">
+    <value>Febrauary</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_14" xml:space="preserve">
+    <value>marzo</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_15" xml:space="preserve">
+    <value>abril</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_16" xml:space="preserve">
+    <value>mayo</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_17" xml:space="preserve">
+    <value>junio</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_18" xml:space="preserve">
+    <value>julio</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_19" xml:space="preserve">
+    <value>agosto</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_20" xml:space="preserve">
+    <value>septiembre</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_21" xml:space="preserve">
+    <value>noviembre</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_22" xml:space="preserve">
+    <value>diciembre</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_23" xml:space="preserve">
+    <value>octubre</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_24" xml:space="preserve">
+    <value>no.</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_25" xml:space="preserve">
+    <value>sí</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_26" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_27" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_28" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="ANC_BaseLineHistory_aspx_29" xml:space="preserve">
+    <value>(Already Ordered)</value>
+  </data>
+  <data name="ANC_BaselineScreeningHistory_aspx_01" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="ANC_BaselineScreeningHistory_aspx_02" xml:space="preserve">
+    <value>anormal </value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_01" xml:space="preserve">
+    <value>Consultation by Dr.</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_02" xml:space="preserve">
+    <value>en (fechado</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_03" xml:space="preserve">
+    <value>visitar</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_04" xml:space="preserve">
+    <value>ANC</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_05" xml:space="preserve">
+    <value>el paciente es de</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_06" xml:space="preserve">
+    <value>primípara y mala historia obstétrica</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_07" xml:space="preserve">
+    <value>primípara</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_08" xml:space="preserve">
+    <value>mala historia obstétrica</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_09" xml:space="preserve">
+    <value>ecografía del embarazo</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_10" xml:space="preserve">
+    <value>no aplica</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_11" xml:space="preserve">
+    <value>paciente no.:</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_12" xml:space="preserve">
+    <value>envejecido</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_13" xml:space="preserve">
+    <value>masculino,</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_14" xml:space="preserve">
+    <value>femenino,</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_15" xml:space="preserve">
+    <value>niño,</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_16" xml:space="preserve">
+    <value>viable foetus</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_17" xml:space="preserve">
+    <value>aún falta confirmar un embarazo.</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_18" xml:space="preserve">
+    <value>semanas de gestación</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_19" xml:space="preserve">
+    <value>with</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_20" xml:space="preserve">
+    <value>con historial de</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_21" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_22" xml:space="preserve">
+    <value>con historial, presentó un estado asintomático</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_23" xml:space="preserve">
+    <value>en la prueba, ella</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_24" xml:space="preserve">
+    <value>se encontró que tiene</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_25" xml:space="preserve">
+    <value>él</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_26" xml:space="preserve">
+    <value>ella</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_27" xml:space="preserve">
+    <value>en la prueba, se encontró que ella es</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_28" xml:space="preserve">
+    <value>clínicamente normales para su edad gestacional</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_29" xml:space="preserve">
+    <value>clínicamente normal</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_30" xml:space="preserve">
+    <value>ella se ha diagnosticado para tener</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_31" xml:space="preserve">
+    <value>The foetus</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_32" xml:space="preserve">
+    <value>presentación</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_33" xml:space="preserve">
+    <value>posición</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_34" xml:space="preserve">
+    <value>ruidos cardíacos fetales</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_35" xml:space="preserve">
+    <value>y los movimientos fetales</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_36" xml:space="preserve">
+    <value>movimientos fetales</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_37" xml:space="preserve">
+    <value>The foetus displayed</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_38" xml:space="preserve">
+    <value>desplegado</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_39" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_40" xml:space="preserve">
+    <value>No History Found</value>
+  </data>
+  <data name="ANC_Controls_ANCCaseSheet_ascx_41" xml:space="preserve">
+    <value>no hay plantillas de casos disponibles para la visita seleccionada</value>
+  </data>
+  <data name="ANC_Controls_ANCFollowUp2_ascx_01" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="ANC_Controls_ANCFollowUp2_ascx_02" xml:space="preserve">
+    <value>Obstretric</value>
+  </data>
+  <data name="ANC_Controls_ANCFollowUp2_ascx_03" xml:space="preserve">
+    <value>No Fetals Available</value>
+  </data>
+  <data name="ANC_Controls_ANCFollowUp2_ascx_04" xml:space="preserve">
+    <value>Complication</value>
+  </data>
+  <data name="ANC_Controls_ANCVisitSummary_ascx_01" xml:space="preserve">
+    <value>Vital Summary</value>
+  </data>
+  <data name="ANC_Controls_ANCVisitSummary_ascx_02" xml:space="preserve">
+    <value>semanas</value>
+  </data>
+  <data name="ANC_Controls_VitalsSnapShotview_ascx_01" xml:space="preserve">
+    <value>fecha de visita</value>
+  </data>
+  <data name="ANC_Controls_VitalsSnapShotview_ascx_02" xml:space="preserve">
+    <value>bp (mmhg)</value>
+  </data>
+</root>

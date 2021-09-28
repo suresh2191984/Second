@@ -1,0 +1,1257 @@
+@charset "utf-8";
+/* CSS Document */
+*.{ margin:0px; padding:0px;}
+
+body{margin:0px; padding:0px; color:#999999; font-family:Arial, Helvetica, sans-serif; background:#FFF;}
+a{text-decoration:none; outline:none;}
+ul{margin:0px; padding:0px;}
+li{margin:0px; padding:0px; list-style-type:none;}
+img{border:none; outline:none; margin:0px; padding:0px;}
+p{margin:0px; padding:0px;}
+.ClearClass{clear:both;}
+
+.wrapper{margin:0px auto; width:1024px; overflow:auto; border-right:1px solid #CCC; border-left:1px solid #CCC;}
+
+.headerTop{margin:0px auto; width:450px; float:right;}
+
+.headerTop ul{ margin-top:5px; margin-left:18px;}
+.headerTop ul li{ display:inline-block; float:left; font-size:10px; font-weight:bold; padding-top:8px;}
+.headerTop ul li a{font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; color:#666666; margin-right:12px; margin-left:12px;}
+
+.headerTop ul li a:hover{ text-decoration:underline;}
+
+/*
+
+.LoginLabelPane{ display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; color:#666666; padding-right:13px; padding-left:14px; line-height:25px;}
+
+.LoginLabelPane:hover{ text-decoration:underline;}
+
+*/
+
+.info{background:url(../images/info.png) no-repeat left 12px; height:22px; line-height:14px; padding-left:25px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#cccccc; display:inline-block; float:left; margin-left:10px;}
+
+.contact{ background:url(../images/contact.png) no-repeat left 11px; height:21px; line-height:18px; padding-left:20px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#cccccc; display:inline-block; margin-left:15px;}
+
+
+
+
+
+
+
+
+.HeaderLogo{width:1024px; margin:0px auto;}
+
+.Logo{ width:253px; float:left;}
+
+.Logo img{ position:absolute; width:253px; margin-top:-19px; float:left; margin-left:25px;} 
+
+.Search{float:right; width:235px; margin-top:24px; margin-right:20px;}
+
+.Searchinput{border:1px solid #cccccc; width:180px; height:27px; line-height:25px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#999999;}
+.Searchbtn{ width:31px; height:31px; border:none; outline:none; float:left; margin-left:-20px;}
+
+.SlideBG{width:1024px; margin:0px auto;}
+
+.MySliderPane{ width:1024px; margin:0px auto; height:365px;}
+
+.MySliderCont{ position:absolute; width:1024px; z-index:-999999; margin-top:-68px;}
+
+
+.Header{ width:1024px; margin:0px auto;}
+
+
+.SlideBG ul{padding:0px; margin-top:5px; border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; overflow:auto; padding-left:25px;}
+
+.SlideBG ul li{ display:inline-block; float:left; }
+
+.SlideBG ul li a{ display:inline-block; float:left; line-height:57px; padding-left:16px; padding-right:16px;border-right:1px solid #CCC;; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#999999;}
+
+.SlideBG ul li a:hover{background:#ff3333; color:#FFF;}
+
+.SlideBG .ActiveNav{background:#ff3333; color:#FFF; display:inline-block; float:left;} 
+
+
+
+.SliderPane{ width:1024px; margin:0px auto;}
+
+
+.URLPathPane{ width:977px; margin:0px auto;}
+
+.URLPathPane ul{}
+
+.URLPathPane ul li{ display:inline-block; float:left; color:#333333; font-family:Verdana, Geneva, sans-serif; font-size:12px; margin-bottom:5px;}
+
+.URLPathPane ul li a{ font-family:Calibri; font-size:12px; line-height:25px; color:#333333; margin-right:5px; margin-left:5px;}
+
+.URLPathPane ul li a:hover{ text-decoration:underline;}
+
+
+.SecondNavPane{ width:1024px; margin:0px auto; overflow:auto;}
+
+.SecondNav{ background:url(../images/SecondNav-bg.png) no-repeat left top; height:51px; margin:auto;}
+
+
+.SecondNav ul{ margin-left:25px;}
+
+.SecondNav ul li{ display:inline-block; float:left; width:143px; }
+
+.SecondNav ul li a{ display:inline-block; float:left; width:143px; text-align:center;  line-height:45px; font-family:Calibri; font-size:16px; color:#333333; border-right:1px solid #FFF;}
+
+.SecondNav ul li:hover{ display:inline-block; float:left; width:143px; height:45px; background:#FFF;
+
+    
+
+    -moz-box-shadow: 1px -2px 5px #000000;
+    -webkit-box-shadow: 1px -2px 5px #000000;
+    box-shadow: 1px -2px 5px #000000;
+
+
+
+}
+
+
+.Actaive{ background:#ffffff; display:inline-block; float:left; 
+
+    
+
+    -moz-box-shadow: 1px -2px 5px #000000;
+    -webkit-box-shadow: 1px -2px 5px #000000;
+    box-shadow: 1px -2px 5px #000000;
+
+
+
+}
+
+.SignUpFormPane{ width:1024px; margin:0px auto; overflow:auto;}
+.SignUpFormCont{ width:976px; margin:0px auto; overflow:auto; margin-top:15px;}
+
+.SignUpFormContLeft{float:left;width:325px;}
+
+.SignUpFormContRightPane{width:610px; float:right; font-family:Verdana, Geneva, sans-serif; font-size:14px; line-height:12px; color:#333333;}
+
+.SignUpFormContRight{ width:610px; float:right; background-color:#FDFDFD; border-top:2px solid #DBDBDB; height:auto; margin-top:20px;}
+
+
+
+
+
+
+
+
+.Pane01{ width:117px; float:left; margin-top:10px;}
+.Pane01 label{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; line-height:35px;}
+
+.Pane02{ width:125px; float:left; margin-top:15px;}
+
+/* .InputSignUP{ width:130px; height:26px; margin-top:15px;} */
+
+
+
+.CheckBoxPane{ float:left; }
+
+.Male-Femal{ float:left; margin-top:5px; margin-right:10px; font-size:14px; color:#000;}
+
+/*  comment on 20-06-13*********
+
+.Pane03{ width:161px; float:left; margin-top:15px;}
+
+.Pane03 label{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;  float:right; line-height:30px;}
+
+.Pane03, input{color:#333; font-family:Verdana, Geneva, sans-serif; font-size:10px; height:20px; margin-bottom:10px; width:125px; margin-right:20px;}
+
+
+.Pane04{ width:149px; float:left; margin-top:15px;}
+
+.Pane04, input{color:#333; font-family:Verdana, Geneva, sans-serif; font-size:10px; height:20px; margin-bottom:10px;}
+
+.Pane06{width:100px; float:left; text-align:left;}
+.Pane07{width:100px; float:left; text-align:left;}
+.Pane08{width:100px; float:left; text-align:left;}
+
+
+.Pane06 input[type="checkbox"]{color:#999999; width:50px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:10px; height:20px; margin-bottom:10px;}
+
+.Pane07 input[type="checkbox"]{color:#999999; width:50px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:10px; height:20px; margin-bottom:10px;}
+
+.Pane08 input[type="checkbox"]{color:#999999; width:50px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:10px; height:20px; margin-bottom:10px;}
+
+
+*/
+
+.checkaboutusPane{ float:right; width:318px; margin-top:-20px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+.checkaboutusCont01{ width:318px; float:left; display:inline;}
+.checkaboutusCont02{ width:118px; float:left;}
+
+
+
+.HedarBottomPane{width:1000px; margin:0px auto; margin-left:24px;}
+
+.headerheading{font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:13px; color:#333333; padding-top:7px;}
+.headerheading02{font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:13px; color:#999999; padding-top:4px;}
+
+.HeaderBtmBucket1{width:240px; float:left; border-bottom:2px solid #f3f3f3; padding:4px;}
+
+.HeaderBtmBucket2{width:240px; float:left; background:#f3f3f3; padding:5px;}
+
+.HeaderBtmBucket3{width:240px; float:left;  background:#f3f3f3; padding:5px;}
+
+.HeaderBtmBucket4{width:242px; float:left; background:#f3f3f3; padding:5px;}
+
+.ContentPane{width:1024px; margin:0px auto; margin-top:15px;}
+
+h1{font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#333333; line-height:16px; font-weight:normal; margin-top:60px;}
+
+.ContentPaneLeft{width:725px; float:left; margin-top:20px;}
+
+
+.ContentPaneLeftBucket1{ background:url(../images/img05.png) no-repeat center top; width:200px; float:left; text-align:center; margin-left:40px; margin-bottom:30px;}
+
+.ContentPaneLeftBucket1:hover{ background:url(../images/img05-hover.png) no-repeat center top; cursor:pointer; }
+
+.ContentPaneLeftBucket2{ background:url(../images/img06.png) no-repeat center top; width:200px; float:left; text-align:center; margin-left:40px;}
+
+.ContentPaneLeftBucket2:hover{ background:url(../images/img06-hover.png) no-repeat center top; cursor:pointer;}
+
+.ContentPaneLeftBucket3{ background:url(../images/img07.png) no-repeat center top; width:200px; float:left; text-align:center; margin-left:40px;}
+
+.ContentPaneLeftBucket3:hover{ background:url(../images/img07-hover.png) no-repeat center 0px; cursor:pointer;}
+
+
+
+.ContentPaneLeftBucket4{ background:url(../images/img08bg.png) no-repeat center top; width:200px; float:left; text-align:center; margin-bottom:30px; padding-left:15px;}
+
+.ContentPaneLeftBucket4:hover{ background:url(../images/img08.png) no-repeat center top; cursor:pointer;}
+
+.ContentPaneLeftBucket5{ background:url(../images/img09bg.png) no-repeat center top; width:200px; float:left; text-align:center; margin-bottom:30px;}
+
+.ContentPaneLeftBucket5:hover{ background:url(../images/img09.png) no-repeat center 0px; cursor:pointer;}
+
+.ContentPaneLeftBucket6{ background:url(../images/img10bg.png) no-repeat center top; width:200px; float:left; text-align:center; margin-left:40px;}
+
+.ContentPaneLeftBucket6:hover{ background:url(../images/img10.png) no-repeat center top; cursor:pointer;}
+
+
+.ContentPaneLeftBucket7{ background:url(../images/img11.png) no-repeat center top; width:200px; float:left; text-align:center; margin-bottom:30px;}
+
+.ContentPaneLeftBucket7:hover{ background:url(../images/img11-hover.png) no-repeat center 0px; cursor:pointer;}
+
+
+.ContentPaneLeftBucket8{ background:url(../images/img12.png) no-repeat center top; width:200px; float:left; text-align:center; margin-bottom:30px;}
+
+.ContentPaneLeftBucket8:hover{ background:url(../images/img12-hover.png) no-repeat center 0px; cursor:pointer;}
+
+
+.ContentPaneLeftBucket9{ background:url(../images/img13.png) no-repeat center top; width:200px; float:left; text-align:center; margin-bottom:30px;}
+
+.ContentPaneLeftBucket9:hover{ background:url(../images/img13-hover.png) no-repeat center 0px; cursor:pointer;}
+
+
+
+
+
+
+
+
+.ContentPaneLeftBucket4{ width:200px; float:left; text-align:center; margin-left:15px;}
+
+.ContentPaneLeftBucket5{ width:200px; float:left; text-align:center; margin-left:50px;}
+
+
+
+
+.ContentPaneLeftBucket7{ width:200px; float:left; text-align:center; margin-left:15px;}
+
+.ContentPaneLeftBucket8{ width:200px; float:left; text-align:center; margin-left:50px;}
+
+.ContentPaneLeftBucket9{ width:200px; float:left; text-align:center; margin-left:40px;}
+
+.ContentPaneRight{ width:298px; float:right;}
+
+.ContentPaneRightBG01{ background:url(../images/contentrightbg01.png) no-repeat left top; height:255px;}
+
+.ContentPaneRightBG01 ul{ margin-left:25px; padding-top:7px;}
+.ContentPaneRightBG01 ul li{ background:url(../images/arrow01.png) no-repeat left 7px; height:15px; padding-left:20px; margin-bottom:12px;}
+.ContentPaneRightBG01 ul li a{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#999999; line-height:10px; font-weight:bold;}
+.ContentPaneRightBG01 ul li a:hover{ text-decoration:underline;}
+
+
+.ContentPaneRightBG02{ background:url(../images/contentrightbg02.png) no-repeat left top; height:296px; margin-top:25px;}
+
+.ContentPaneRightBG03{ background:url(../images/contentrightbg03.png) no-repeat left 10px;; height:255px;}
+
+.ContentPaneRightBG04{ background:url(../images/contentrightbg04.png) no-repeat left 10px;; height:176px;}
+
+.ContentPaneRightBG05{ background:url(../images/contentrightbg01.png) no-repeat left 35px;; height:290px;}
+
+
+.ContentPaneLeftNatural{ text-align:center; background:url(../images/img17.png) no-repeat center 30px; height:163px;}
+
+.ContentLeftSecondary{ margin-left:25px;}
+
+h3{ font-family:Verdana, Geneva, sans-serif; font-size:17px; color:#333333; line-height:20px;}
+
+.ContentLeftSecondaryBucket1{ background:url(../images/img18.png) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.SendoryHover{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#999999; line-height:160px;}
+
+.ContentLeftSecondaryBucket1:hover{ background:url(../images/img18-hover.png) no-repeat left top; cursor:pointer;}
+
+
+.ContentLeftSecondaryBucket2{ background:url(../images/img19.png) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket2:hover{ background:url(../images/img19-hover.png) no-repeat left top; cursor:pointer;}
+
+
+.ContentLeftSecondaryBucket3{ background:url(../images/img20.png) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket3:hover{ background:url(../images/img20-hover.png) no-repeat left top; cursor:pointer;}
+
+
+.ContentLeftSecondaryBucket4{ background:url(../images/img21.png) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket4:hover{ background:url(../images/img21-hover.png) no-repeat left top; cursor:pointer;}
+
+.ContentLeftSecondaryBucket5{ background:url(../images/img22.jpg) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket5:hover{ background:url(../images/img22-hover.jpg) no-repeat left top; cursor:pointer;}
+
+
+.ContentLeftSecondaryBucket6{ background:url(../images/img23.jpg) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket6:hover{ background:url(../images/img23-hover.jpg) no-repeat left top; cursor:pointer;}
+
+.ContentLeftSecondaryBucket7{ background:url(../images/img24.jpg) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket7:hover{ background:url(../images/img24-hover.jpg) no-repeat left top; cursor:pointer;}
+
+.ContentLeftSecondaryBucket8{ background:url(../images/img25.jpg) no-repeat left top; width:169px; float:left; height:119px; text-align:center;}
+
+.ContentLeftSecondaryBucket8:hover{ background:url(../images/img25-hover.jpg) no-repeat left top; cursor:pointer;}
+
+
+.LeftEmployeeBucket1{ background:url(../images/contentrightbucketlastbg01.png) no-repeat left top; width:215px; height:282px; float:left;}
+
+.LeftEmployeeBucket2{ background:url(../images/contentrightbucketlastbg01.png) no-repeat 13px; top; width:228px; height:282px; float:left;}
+
+.LeftEmployeeBucket3{ background:url(../images/contentrightbucketlastbg01.png) no-repeat 13px; top; width:228px; height:282px; float:left;}
+
+.Link02{ background:url(../images/list2bg.png) no-repeat left 3px; padding-left:20px; width:165px; margin:auto; margin-top:10px;}
+
+.Link02 a{font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999999;}
+
+.Link02:hover{ text-decoration:underline; background:url(../images/list2bg-hover.png) no-repeat left 3px;}
+
+.infobutton{text-align:center; padding-right:15px; margin-top:25px;}
+
+.linetpfter{ margin-left:25px; margin-top:50px; background:url(../images/linetopftr.png) no-repeat left top; width:681px; height:1px; padding-top:20px; padding-bottom:30px;}
+
+.heading06{ font-family:Verdana, Geneva, sans-serif; font-size:18px; line-height:18px; color:#333333;}
+
+.PostImg{ width:68px; float:left; margin-top:20px; margin-right:20px;}
+
+.Postimglist1{ background:url(../images/comment.png) no-repeat left 2px; margin-top:10px;  padding-left:20px; height:23px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999;}
+
+.Postimglist2{ background:url(../images/diet.png) no-repeat left 2px; margin-top:10px; margin-left:15px;  padding-left:20px; height:23px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999;}
+
+.FooterTop{ width:997px; margin:0px auto; margin-top:40px;}
+.imgspace{ margin-left:8px;}
+.FooterPane{ background:url(../images/fotterbg.png) no-repeat left top; height:376px; width:1024px; margin:0px auto;}
+
+.FooterContenttop{ margin-left:95px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999999;}
+
+.FooterContentPane{ width:900px; margin:0px auto; margin-top:65px;}
+
+.AddressCont{ width:150px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:25px; color:#999999;}
+
+.Number{width:150px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:25px; color:#999999;}
+
+.Popular{width:170px; float:left; margin-left:80px;}
+
+.PopularList{ background:url(../images/arrow02.png) no-repeat left 8px; padding-left:20px; padding-bottom:12px;}
+
+.PopularList a{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#999999;}
+
+.PopularList a:hover{ text-decoration:underline;}
+
+.FooterCopyPane{ width:1024px; margin: 0px auto; background:url(../images/footer-copy.png) no-repeat left top; height:40px;border-right:1px solid #CCC; border-left:1px solid #CCC;}
+
+.FooterLeftPane{ width:450px; float:left; padding-left:20px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999999; padding-top:15px;}
+
+.FooterRightPane{ width:240px; float:right;  padding-top:15px;}
+
+.FooterRightPane ul{ margin:0px; padding:0px;}
+
+.FooterRightPane ul li{ display:inline-block; float:left; padding-left:8px; padding-right:8px;}
+
+.FooterRightPane ul li a{ display:inline-block; float:left; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#999999; text-decoration:none;}
+
+.FooterRightPane ul li a:hover{ text-decoration:underline;}
+
+.ChoosePackagePane{ width:977px; margin:0px auto;}
+
+.choosepackepane01{ background:url(../images/choosepackepane01.png) no-repeat left top; width:361px; height:938px; float:left;}
+
+.choosepackepane02{ background:url(../images/choosepackepane02.png) no-repeat left top; width:154px; height:855px; float:left;}
+
+.choosepackepane03{ background:url(../images/choosepackepane03.png) no-repeat left top; width:154px; height:855px; float:left;}
+
+.choosepackepane04{ background:url(../images/choosepackepane04.png) no-repeat left top; width:154px; height:855px; float:left;}
+
+.choosepackepane05{ background:url(../images/choosepackepane05.png) no-repeat left top; width:154px; height:855px; float:left;}
+
+.choosepackepane02Cont{ width:130px; margin:0px auto; margin-top:38px;}
+
+.choosepackepane02:hover{width:154px; opacity:0.8;
+filter:alpha(opacity=40); height:855px;}
+
+.choosepackepane03:hover{width:154px; opacity:0.8;
+filter:alpha(opacity=40); height:855px;}
+
+.choosepackepane04:hover{width:154px; opacity:0.8;
+filter:alpha(opacity=40); height:855px;}
+
+.choosepackepane05:hover{width:154px; opacity:0.8;
+filter:alpha(opacity=40); height:855px;}
+
+
+.choosepackepane01Conte{ width:320px; margin:0px auto; margin-top:65px;}
+
+.choosepackepane01Conte ul{ margin:0px; padding:0px;}
+.choosepackepane01Conte ul li{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333;}
+
+.inputBGChooseyourpackage{ float:right; width:616px; background:#fdfdfd; z-index:999999; height:83px;}
+
+.DescriptionPane{ width:977px; margin:0px auto; background:url(../images/order-summarytitle-bg.png) no-repeat left top; height:42px;}
+
+.DescriptionCont{ width:935px; margin:0px auto;}
+
+.DescriptionCont01{ width:154px; float:left;}
+
+.RsBg{ background:url(../images/rs-bg.png) no-repeat left 9px; height:20px; padding-left:14px;}
+
+.TotalwRsBg{ background:url(../images/TotalwRsBg.png) no-repeat left 13px; height:24px; padding-left:14px;}
+
+.DescriptionCont02{ width:60px; float:right;}
+
+.OrdersummaryTotalePane{ width:977px; margin:0px auto; margin-top:8px; background:url(../images/ordersummarytotale-bg.png) no-repeat left top; height:37px;}
+
+.OrdersummaryTotaleCont{ width:935px; margin:0px auto;}
+
+.GrandTotalPane{ width:977px; height:40px; margin:0px auto; margin-top:7px; border-bottom:2px solid #e1e1e1;}
+
+.GrandTotalRs{ background:url(../images/rs-bg.png) no-repeat left 22px; height:33px; padding-left:14px;}
+
+.MakePamentPane{ width:935px; margin:0px auto; margin-top:15px;}
+
+.PementNextandBackBTN{ float:right; width:238px; margin-top:50px;}
+
+.ConfirmationPane{ width:977px; margin:0px auto; border-top:4px solid #dbdbdb;}
+
+.ConfiGenrrateborder{ width:977px; margin:0px auto; border-top:2px solid #dbdbdb;}
+
+
+/* Here is dashboard CSS */
+
+.dashboard-header-bg-pane{ width:1024px; margin:0px auto; overflow:auto; background:url(../images/dashboard-header-bg.png) no-repeat left top; height:103px;}
+
+.dashboardLogo{ width:253px; float:left; margin-top:16px; padding-left:25px;}
+
+.dashboardRighttop{ width:400px; float:right; margin-top:33px;}
+
+.dashboardRighttopNav01 ul{ margin:0px; padding:0px;}
+
+.dashboardRighttopNav01 ul li{ display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;}
+
+.dashboardRighttopNav01 ul li a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; padding-left:6px; padding-right:6px;}
+
+.dashboardRighttopNav01 ul li a:hover{ text-decoration:underline;}
+
+.Notification{position:absolute; margin-top:-21px; margin-left:81px; background:url(../images/notitication-img.png) no-repeat left top; width:28px; height:23px;}
+
+.Notification a{ font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666666;margin-left:4px; line-height:16px; width:15px; text-align:center;}
+
+.Notification a:hover{ text-decoration:underline;}
+
+
+
+.DashboardSettingPane ul{ margin-top:10px; margin-left:170px;}
+.DashboardSettingPane ul li{ display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666666;}
+.DashboardSettingPane ul li a{ font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666666; line-height:12px; margin-left:15px; margin-right:15px;}
+
+
+
+
+
+/********************** Navigation ************************/
+/*.DashboardSettingPane nav{ position:absolute; }*/
+
+
+nav {
+	/*border:1px solid #dcdcdc;
+	padding:11px 0;*/
+	position:absolute;
+}
+
+.sf-menu{
+	min-height:27px;
+	padding:0;
+	margin:0;
+	font-size:0;
+	line-height:0;
+	position:relative;
+	z-index:99;
+	margin-left:80px;
+	margin-top:15px;
+}
+.sf-menu ul{
+	position:absolute;
+	top:-999em;
+	width:160px;
+	left:0;
+	display:none;
+	background:#fff;
+	box-shadow:0 0 2px #ccc;
+	
+	
+}
+
+.sf-menu ul ul{ position:absolute; margin-top:15px;}
+
+.sf-menu > li{
+	position:relative;
+	display:inline-block;
+	z-index:99;
+	border-left:1px solid #dcdcdc;
+	margin-right:10px;
+	margin-left:10px;
+}
+	.sf-menu > li:first-child {border:none;}
+.sf-menu > li > a {
+	text-decoration:none;
+	display:block;
+	font-family:Verdana, Geneva, sans-serif;
+	/*font-weight:600;*/
+	font-size:12px;
+	/*line-height:19px;*/
+	text-transform:lowercase;
+	text-decoration:none;
+	color:#2b2b2b;
+	padding:7px 3px 10px 15px;
+	text-shadow:1px 1px #fbfbfb;
+	position:relative;
+	z-index:99;
+}
+#page1 .sf-menu > li > a {
+	background:#fff;	
+}
+
+	.sf-menu > li.current > a, .sf-menu > li:hover > a, .sf-menu > li.sfHover > a {
+		color:#c7c5c5;
+		text-decoration:none;
+	}
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul{top:42px; left:0; z-index:999;}
+.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
+.sf-menu li.current,.sf-menu li:hover,.sf-menu li.sfHover{
+	text-decoration:none;
+}
+.sf-menu li li a{
+	display:block;
+	margin:0;
+	position:relative;
+	text-decoration:none;
+	font-size:14px;
+	line-height:18px;
+	color:#c7c5c5;
+	overflow:hidden;
+	padding:8px 5px 8px 15px;
+	text-transform:lowercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.sf-menu li li > a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current > a{
+	color:#2b2b2b;
+}
+.sf-menu li li li a {
+	background:url(../images/header-bg.png);
+}
+.sf-menu li li{
+	float:none;
+	position:relative;
+	margin:0 0 1px 0;
+}
+
+.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul{left:163px;top:-10px;}
+
+
+
+
+
+
+/*******  Start  Drop Down Menu        ***************************/
+
+
+
+
+
+/*******  End  Drop Down Menu          ***************************/
+
+
+.dashboredhomelink{ background:url(../images/dashboardhomebg.png) no-repeat left -1px; height:14px; padding-left:20px;}
+
+
+.Setting-List-bg{ background:url(../images/setting-bg.png) no-repeat left top; padding-left:5px;}
+
+.Security-Answer-bg{ background:url(../images/Security-Answer-bg.png) no-repeat 13px 2px; padding-left:20px;}
+
+/*.DashboardSettingPane ul li a:hover{ text-decoration:underline;}*/
+
+.WlcomeDashboarPane{ width:1024px; margin:0px auto; background:#FFF; overflow:auto;}
+
+.WlcomeDashboarCont{ width:977px; margin:0px auto; margin-top:25px;}
+
+.WlcomeDashboarBuck01Pane{ float:left; background:url(../images/welcome-dashbord-member-bg.png) no-repeat left top; width:426px; height:200px;}
+
+.WlcomeDashboarBuck01Cont{width:227px; float:left;}
+
+.WlcomeDashboarBuck02Cont{width:90px; float:left;}
+.WlcomeDashboarBuck02Cont ul{}
+.WlcomeDashboarBuck02Cont ul li{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:32px;}
+
+.WlcomeDashboarBuck03Cont{width:75px; float:left;}
+.WlcomeDashboarBuck03Cont ul{}
+.WlcomeDashboarBuck03Cont ul li{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:32px;}
+
+.WlcomeDashboarBuck02Pane{ width:400px; float:left; margin-left:87px; margin-top:18px;}
+
+.QuickToolsLeft{float:left; width:190px; border-right:1px solid #dbdbdb; line-height:18px; margin-top:15px;}
+
+
+.QuickToolsRight{ float:left; width:150px; padding-left:45px; margin-top:15px;}
+
+.QuickToolsLeft01{ background:url(../images/uploadimg.png) no-repeat left 5px;}
+.QuickToolsLeft01 a{ padding-left:35px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:40px;}
+
+.QuickToolsLeft02{ background:url(../images/print-health-card.png) no-repeat left 8px;}
+.QuickToolsLeft02 a{ padding-left:35px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:40px;}
+
+.QuickToolsLeft03{ background:url(../images/add-family-member-img.png) no-repeat left 5px;}
+.QuickToolsLeft03 a{ padding-left:35px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:40px;}
+
+
+.QuickToolsLeft01 a:hover, .QuickToolsLeft02 a:hover, .QuickToolsLeft03 a:hover, .QuickToolsRight01:hover, .QuickToolsRight02:hover, .QuickToolsRight03:hover{ text-decoration:underline; cursor:pointer;}
+
+
+
+.QuickToolsRight01{ background:url(../images/refer-to-friend-img.png) no-repeat left 5px;}
+.QuickToolsRight02{ background:url(../images/my-planner-img.png) no-repeat left 10px;}
+.QuickToolsRight03{ background:url(../images/archives-img.png) no-repeat left 11px;}
+
+.QuickToolsRight01 a, .QuickToolsRight02 a, .QuickToolsRight03 a{ padding-left:35px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:40px;}
+
+
+.MyServecesMainPane{ width:1024px; margin:0px auto; }
+
+.MyServecesPane{ width:977px; margin:0px auto; background:url(../images/my-serveces-bg.png) repeat-x left top; height:608px; margin-top:35px; padding-left:6px; padding-right:6px;}
+
+
+.MyServiceBucketHoverBGPane{ width:964px; margin:0px auto; overflow:auto; border:1px solid #c6c6c6; }
+
+.MyServiceBucketHoverBG1{ background:url(../images/MyServiceBucketHoverBMain.png) no-repeat left top; height:238px; width:241px; float:left; text-align:center;}
+
+.MyServiceBucketContet1{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#333333; padding-top:40px;}
+
+.MyServiceBucketContet2{ font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#999999;}
+
+
+
+
+
+
+.Seconn-Opinion-BG{ width:975px; margin:0px auto; background:url(../images/seconn-opinion-BG.png) repeat-x left top; height:655px; margin-top:60px; padding-left:7px; padding-right:7px;}
+
+
+
+
+.MySecondOpinionBGCont{ width:950px; margin:0px auto;}
+
+.MySecondOpinionBGContLeft{ width:470px; float:left;}
+
+.MySecondOpinionBGContLeft ul{}
+.MySecondOpinionBGContLeft li{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; list-style-type:disc; margin-left:17px; line-height:30px;}
+
+.MySecondOpinionBGContRight{ width:447px; float:right; margin-top:-40px;}
+
+.MySecondOpinionBGContRightList{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; list-style-type:disc; margin-left:17px; line-height:30px;}
+
+.MySecondOpinionBGContRightList02{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; margin-left:17px; line-height:30px; padding-left:30px;}
+
+.MySecondOpinionBGContRightList03{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; margin-left:55px; line-height:25px; padding-left:30px;}
+
+
+.WlcomeDashboarSecondOpinionPane{background:url(../images/WlcomeDashboarSecondOpinionPane.png) no-repeat left top; z-index:-999999; width:977px; height:140px; margin:0px auto;}
+
+.WlcomeDashboarSecondOpinionBucket01{ width:430px; float:left; margin-left:22px;}
+
+.WlcomeDashboarSecondOpinionBucket02{ width:475px; float:left; margin-left:50px;}
+
+
+
+.WlcomeDashboarSecondOpinionList{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:20px;}
+
+.WlcomeDashboarSecondOpinionList01{ background:url(../images/WlcomeDashboarSecondOpinionList01.png) no-repeat left 2px;  padding-left:30px;}
+.WlcomeDashboarSecondOpinionList02{ background:url(../images/WlcomeDashboarSecondOpinionList02.png) no-repeat left 2px;  padding-left:30px;}
+.WlcomeDashboarSecondOpinionList03{ background:url(../images/WlcomeDashboarSecondOpinionList03.png) no-repeat left 2px;  padding-left:30px;}
+.WlcomeDashboarSecondOpinionList04{ background:url(../images/WlcomeDashboarSecondOpinionList04.png) no-repeat left 2px;  padding-left:30px;}
+.WlcomeDashboarSecondOpinionList05{ background:url(../images/WlcomeDashboarSecondOpinionList05.png) no-repeat left 2px;  padding-left:30px;}
+.WlcomeDashboarSecondOpinionList06{ background:url(../images/WlcomeDashboarSecondOpinionList06.png) no-repeat left 2px;  padding-left:30px;}
+
+
+.WlcomeDashboarSecondOpinionList01 a, .WlcomeDashboarSecondOpinionList02 a, .WlcomeDashboarSecondOpinionList03 a, .WlcomeDashboarSecondOpinionList04 a, .WlcomeDashboarSecondOpinionList05 a, .WlcomeDashboarSecondOpinionList06 a{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; line-height:20px;}
+
+
+
+.WlcomeDashboarSecondOpinionList01 a:hover, .WlcomeDashboarSecondOpinionList02 a:hover, .WlcomeDashboarSecondOpinionList03 a:hover, .WlcomeDashboarSecondOpinionList04 a:hover, .WlcomeDashboarSecondOpinionList05 a:hover, .WlcomeDashboarSecondOpinionList06 a:hover, .SecondOptionNav ul li a:hover, .CleckHere a:hover, .CategoryList01 a:hover, .CategoryList02 a:hover{ text-decoration:underline;}
+
+
+.SecondOptionNav {width:990px; margin:0px auto;}
+
+.SecondOptionNav ul{ margin:0px;} 
+.SecondOptionNav ul li{ display:inline-block; float:left; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333333; line-height:16px;}
+.SecondOptionNav ul li a{font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333333; line-height:16px; padding:0px 7px 0px 7px;}
+
+
+.place-a-new-query-Pane{ width:977px; margin:0px auto; border-top:3px solid #dfdfdf; margin-top:5px; padding-left:7px; padding-right:7px;}
+
+.place-a-new-query-BG{ width:950px; margin:0px auto;}
+
+
+.PlaceANewQueryBucket01{width:110px; float:left;}
+.PlaceANewQueryBucket02{width:277px; float:left; margin-left:20px;}
+.PlaceANewQueryBucket03{width:116px; float:left; margin-left:70px; border-left:2px solid #d6d6d6; padding-left:70px;}
+.PlaceANewQueryBucket04{width:285px; float:left; margin-top:25px;}
+
+.PlaceLabelFormat{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; line-height:28px;}
+
+.PlaceLabelFormatLabel{ width:110px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; line-height:40px;}
+
+.PlaceLabelFormatComboBox{ width:275px; line-height:26px; height:26px; margin-top:10px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+.PlaceLabelFormatOption{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.PlaceLabelFormatInput{width:268px; line-height:26px; height:22px; margin-top:10px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.PlaceLabelFormatTextArea{ width:268px; height:60px; margin-top:15px; resize:none;}
+
+.UploadNewReportPane{ width:470px; margin-top:30px; float:left; overflow:auto;}
+
+.UploadnewreportRight{ width:400px; margin-top:37px; float:right;}
+
+
+
+
+.UploadNewReportContnerPane{width:470px; float:left; margin:auto;}
+
+.UploadNewReportContner{width:470px; background:url(../images/catorgy-bg.png) left top; height:39px; margin-top:10px;}
+
+.CleckHere a{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333; margin-top:8px;}
+
+.CategoryList01{ background:url(../images/catorgybg01.png) no-repeat left top; height:38px; padding-left:13px; line-height:36px; width:156px; float:left;}
+
+.CategoryList02{ background:url(../images/catorgybg02.png) no-repeat left top; height:38px; line-height:36px; width:157px; float:left;}
+
+.CategoryList03{ background:url(../images/catorgybg03.png) no-repeat left top; height:33px; width:144px; padding-top:5px; float:left; text-align:center;}
+
+.CategoryList03 a img{ padding:0px; margin:0px; border:none;}
+
+.CategoryList01 a, .CategoryList02 a, .CategoryList03 a{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333;}
+
+
+.place-a-new-query-popupPane{ width:975px; margin:0px auto; overflow:auto; background:#FFF; margin-bottom:37px; margin-top:15px;}
+
+.palce-quary-popup-header-bg{ background:url(../images/palce-quary-popup-header-bg.png) no-repeat left top; height:135px; margin-top:10px;}
+
+.palce-quary-popup-btn{ position:absolute; float:right; margin-top:-15px; margin-left:960px;}
+
+.palce-quary-popup-header02-bg{ background:url(../images/palce-quary-popup-header02-bg.png) no-repeat left top; width:906px; height:38px; margin:0px auto;}
+
+
+.ScroolOverPane{ width:1024px; margin:0px auto;}
+
+.ScrollOverPaneOuter{ width:960px; margin:0px auto; height:60px;} /* scrool bar*/
+
+/*  Changed By Vedant  */
+.ScroolOverMainCont{ width:930px;  height:340px;}
+
+/*  End edant  */
+.ScroolOverangioplasty-bg{ background:url(../images/angioplasty-bg.png) no-repeat left top; width:906px; min-height:39px;}
+
+.angioplastList01-BG{ background:url(../images/angioplastList01-BG.png) no-repeat left top; width:501px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:38px; text-indent:8px; height:38px; float:left;}
+
+.angioplastList02-BG{ background:url(../images/angioplastList02-BG.png) no-repeat left top; width:292px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:38px; height:38px; float:left;}
+
+.angioplastList03-BG{ background:#f9f9f9; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:37px; margin-right:7px; border-right:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+
+
+.angioplastList03Checkbox{margin:0px; width:100px; margin-top:10px; padding-right:60px; float:right;}
+
+
+.DiptheriaScroolOver{background:url(../images/diptheria.png) no-repeat left top; width:906px; min-height:39px;}
+
+.Anemia-BGScroolOver{background:url(../images/Anemia-BG.png) no-repeat left top; width:906px; min-height:39px;}
+
+
+
+
+
+
+
+
+
+
+
+/* Login Form */
+
+
+.wrapper2{width:812px; margin:0px auto; overflow:auto; background:url(../images/body.png) no-repeat center 10px; height:400px;}
+
+.FormLabel{ margin-top:70px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333; line-height:10px; padding-bottom:10px; text-indent:6px;}
+
+.FormLabelLeft{ width:350px; float:left; margin-left:60px; margin-top:15px;}
+
+.FormLabelRight{ width:325px; float:right;}
+
+
+.LabelClass{ width:93px; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:30px; color:#333333;}
+
+*:focus {outline: none; }
+
+
+.LoginInputBox{background:url(../images/input-bg.png) no-repeat left top; height:44px; line-height:30px; width:325px; border:none; padding-left:15px; border:none; padding-right:150px;}
+
+.Logincheckbox{ margin:0px; padding:0px; float:left; width:10px;}
+
+
+
+.ListError1{ background:url(../images/error1.png) no-repeat left top; height:20px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333; padding-left:30px; margin-top:20px; margin-bottom:5px;}
+.ListError2{ background:url(../images/error2.png) no-repeat left top; height:20px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333; padding-left:30px;  margin-bottom:5px;}
+.ListError3{ background:url(../images/error3.png) no-repeat left top; height:20px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333; padding-left:30px;}
+
+
+.RightHeading{ font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:20px; color:#333333; text-align:left; text-indent:5px;}
+
+.CloseBtnPane{ width:820px; margin:0px auto;}
+.closeBtn{ float:right; position:absolute; margin-top:-70px; margin-left:785px;}
+
+/************************* */
+
+.plceaquary-thanks-title{ background:url(../images/plceaquary-thanks-title-bg.png) no-repeat left top; width:906px; height:266px; margin:0px auto;}
+
+
+.queries-status-title-bg{ margin-top:45px; background:url(../images/queries-status-title-bg.png) no-repeat left top; width:972px; height:39px;}
+
+.queries-status-list01-BG{ background:url(../images/queries-status-list01-BG.png) no-repeat left top; width:972px; height:39px;}
+
+.queries-status-list01-BG ul li{display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:39px;}
+
+.queries-status-list01-BG ul li a{ display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:39px;}
+
+.querieslist01{ width:59px; text-align:center;}
+.querieslist02{ width:132px; text-align:center;}
+.querieslist03{ width:197px; text-align:center;}
+.querieslist04{ width:184px; text-align:center;}
+.querieslist05{ width:125px; text-align:center;}
+.querieslist06 a{ width:142px; text-align:center; padding-top:10px;}
+.querieslist07 a{ width:132px; text-align:center; padding-top:10px;}
+
+.queries-status-list02-BG{ background:url(../images/queries-status-list02-BG.png) no-repeat left top; width:972px; height:38px;}
+
+.queries-status-list02-BG ul li{display:inline-block; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:38px; }
+.queries-status-list02-BG ul li a{ display:inline-block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; line-height:38px;}
+
+
+
+/*  Sign Up & Create your Account Change on 21-06-13    */
+
+.SignUpFormRightContetent{ width:604px; margin:0px auto; padding-top:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.LablesignUP{ margin:0px; padding-left:10px;  font-family:Verdana, Geneva, sans-serif; font-size:12px;  color:#666666;}
+.LablesignUPChkText{ margin:0px; padding-left:0px;  font-family:Verdana, Geneva, sans-serif; font-size:12px;  color:#666666;}
+.LablesignUP02{  float:right; text-align:right; margin:0px; padding:0px;  font-family:Verdana, Geneva, sans-serif; font-size:12px;  color:#666666;  }
+
+.InputSignUP{ margin:0px; padding:0px; margin-right:10px; margin-left:10px; width:120px;  margin-top:6px; font-size:12px; color:#666666;  height:25px;}
+.InputSignUPAddress{ margin:0px; padding:0px; margin-right:10px; margin-left:10px; width:500px;  margin-top:6px; font-size:12px; color:#666666;  height:25px;}
+
+ 
+.SelectOptionSignUp{ margin:0px; padding:0px; width:120px;   margin-right:10px; margin-left:10px; font-size:12px; color:#666666; height:25px;}
+.LablesignUPError{ margin:0px; padding-left:10px;  font-family:Verdana, Geneva, sans-serif; font-size:12px;  color:Red;}
+.modalBackground
+{
+	background-color: Black;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.CheckBoxListSignUp input {float:left; margin:0px; padding:0px; width:20px; margin-left:10px;}
+.CheckBoxListSignUp label{margin:0px; padding:0px; float:left;  line-height:18px; margin-right:20px; font-size:12px; color:#666666;}
+
+
+
+/* End Sign Up & Create your Account Change    */
+
+
+.AskAnExpertBGTitleBG{width:977px; font-family:Verdana, Geneva, sans-serif; font-size:14px; line-height:12px; color:#333333;}
+
+.AskAnExpertBGTitleBGCont{ width:950px; margin:0px auto; background:url(../images/signright-bg.png) repeat-x left top; padding:20px; height:681px; margin-top:10px;}
+
+.AskAnExperttMainContetent{ width:977px; margin:0px auto; padding-top:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+
+.AskAnExperttLable{ width:200px; float:left; margin:0px; padding:0px; margin-right:5px; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:35px; color:#666666;}
+
+.AskAnExperttLable02{ width:120px; float:right; text-align:right; margin:0px; padding:0px; margin-right:40px; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:35px; color:#666666; padding-top:5px;}
+
+.AskAnExperttInput{ margin:0px; padding:0px; margin-right:10px; margin-left:10px; width:200px; height:25px; margin-top:6px;}
+
+.AskAnExperttSelectOption{ margin:0px; padding:0px; width:120px; height:25px; margin-right:10px; margin-left:10px;}
+
+
+
+
+.AskAnExpertt-BG{ width:975px; margin:0px auto; background:url(../images/askanexpert_BG.png) repeat-x left top; height:384px; margin-top:60px; padding-left:7px; padding-right:7px;}
+
+.AskAnExpertt_Pane_BG{ width:975px; background:#f8f8f8; margin:0px auto; overflow:auto; border-top:4px solid #dfdfdf;  margin-top:60px; padding-bottom:20px;}
+
+
+/*  Diey plan form    */
+
+
+.DieyPlanLabel01{ width:160px; padding-left:15px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabel02{ width:160px; padding-left:30px; padding-right:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabel07{ width:200px; padding-left:15px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabel05{ width:150px; padding-left:15px; line-height:20px; padding-top:8px; padding-bottom:5px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabel06{ width:25px; float:left; padding-left:15px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#666666;}
+
+
+.DieyPlanLabelInput1{width:260px; line-height:26px; height:20px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.DieyPlanOptionRight{ margin:0px; padding:0px; width:265px; height:25px; line-height:26px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.DieyPlanOptionLeft{ margin:0px; padding:0px; width:265px; height:25px; line-height:26px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666; margin-bottom:2px; margin-top:2px;}
+
+.DieyPlanBorder{ width:40px; border-right:2px solid #cccccc;}
+
+.DieyPlanBorderButtom{ width:100%; border-right:2px solid #cccccc;}
+
+
+.DieyPlanBorderTop{ width:977px; margin:0px auto; padding-bottom:20px; border-top:3px solid #dfdfdf; margin-top:5px; padding-left:7px; padding-right:7px;}
+
+.DieyPlanBorderbuttomFull{ width:100%; margin:0px auto; border-top:2px solid #dfdfdf; height:10px; padding-bottom:5px; margin-top:20px;}
+
+
+.DieyPlancheckBox{margin:0px; padding:0px; float:left; height:26px; width:15px; margin-right:5px;}
+
+.DieyPlanOptionLeft02{ margin:0px; padding:0px; width:245px; height:25px; line-height:26px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666; margin-bottom:2px; margin-top:2px;}
+
+.DieyPlanLabelInput3{width:30px; text-align:center; margin:0px; padding:0px; line-height:24px; height:22px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333333;}
+
+.DieyPlanLabelInput4{width:30px; text-align:center; margin:0px; padding:0px;  line-height:24px; height:22px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333333;}
+
+.DieyPlanLabelInput5{width:189px; margin-left:5px; line-height:26px; height:20px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+
+.PlaceANewQueryInput6{width:30px; margin:0px; padding:0px; line-height:22px; height:22px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; text-align:center; font-size:11px; color:#666666;}
+
+
+.PlaceANewQueryInput7{width:220px; float:left; margin-left:5px; line-height:26px; height:20px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.PlaceANewQueryTextArea textarea{width:262px; height:50px; margin:0px; padding:0px; resize:none;}
+
+.PlaceANewQueryClickHere label a{ padding-left:15px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#000;}
+
+
+.PlaceANewQuerySelectFileInput input{ margin:0px; margin-right:20px; padding:0px; width:150px; height:20px;}
+
+
+
+.PlaceANewQueryUploadnewreport label a{ width:160px; padding-left:30px; padding-right:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#000;}
+
+.PlaceANewQueryClickHere label a:hover{ text-decoration:underline;}
+.PlaceANewQueryUploadnewreport label a:hover{text-decoration:underline;}
+
+.DieyPlanLabel03{ width:120px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabel04{ width:120px; margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.DieyPlanLabelInput2{width:240px; line-height:26px; height:20px; margin-bottom:2px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666666;}
+
+.DieyPlanOptionLeft03 label{padding-left:85px; margin:0px; line-height:35px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; }
+
+
+.DieyPlanOptionLeft04 label{ display:inline-block; float:left; width:225px; text-align:center; border:1px solid #000;  margin:0px; margin-bottom:10px; height:25px; line-height:25px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; }
+
+.DieyPlanOptionLeft03 input{ width:225px; height:20px;  margin:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; text-align:center; margin-top:5px;}
+
+
+.DieyPlanImage input{width:22px; height:21px; float:right; margin-top:10px; margin-right:10px;}
+
+.DieyPlanTextArea textarea{ width:95%; margin:0px auto; margin-left:15px; resize:none;}
+
+.DieyPlanTextArea2 p{ width:95%; padding:10px; border:1px solid #000; margin-left:15px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; line-height:16px;}
+
+
+.GridPane{ margin-top:30px;}
+
+
+.MemberCheckBox{ margin:0px; padding:0px; padding-left:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:30px; color:#666666;}
+
+
+/* For JS */
+
+.qitem {
+	width:241px;
+	height:238px;
+	background:none;
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	
+	/* display div in line */
+	float:left;
+	cursor:default;
+}
+
+	.qitem img {
+	border: 0;
+	/* allow javascript moves the img position*/
+	position: absolute;
+	z-index: 200;
+	left: -2px;
+	}
+	
+	
+
+	.qitem .caption {
+		position:absolute;
+		z-index:0;	
+		color:#ccc;
+		display:block;
+	}
+	
+.CaptionHeading01{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#333333; padding-top:10px; float:left; width:150px;}
+
+.CaptionHeading02{ font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#999999; float:left;  width:160px; text-indent:11px;}	
+
+
+.CaptionHeadingIMG01{ background:url(../images/img01S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG02{ background:url(../images/img02S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG03{ background:url(../images/img03S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG04{ background:url(../images/img04S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG05{ background:url(../images/img05S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG06{ background:url(../images/img06S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG07{ background:url(../images/img07S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+.CaptionHeadingIMG08{ background:url(../images/img08S.png) no-repeat right top; width:50px; height:35px; position:absolute; margin-right:20px;}
+
+
+
+
+		.qitem .caption .Bucket01 a{
+			background:url(../images/start-now-btn.png) no-repeat 80px top; height:29px; width:154px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#cc0000; line-height:24px; display:block; cursor:pointer;			
+		}
+	
+/* Setting for corners */
+
+.topLeft, .topRight, .bottomLeft, .bottomRight {
+	position:absolute;
+	background-repeat: no-repeat; 
+	float:left;
+}
+
+.topLeft {
+	background-position: top left; 	
+} 
+
+.topRight {
+	background-position: top right; 
+} 
+
+.bottomLeft {
+	background-position: bottom left; 
+} 
+
+.bottomRight {
+	background-position: bottom right; 
+}
+
+.clear {
+	clear:both;	
+}
+
+/*  Start   mra_personal_family_info page CSS    */
+
+
+
+.mra_personal_family_info_Pane{ width:977px; margin-top:30px; margin:0px auto;}
+
+.mra_personal_family_info_NAV{ margin:0px;  padding:0px; height:53px;}
+
+.mra_personal_family_info_NAV ul{ margin:0px; padding:0px; position:absolute; margin-top:10px; background:url(../images/button_bg.png) no-repeat left top; height:53px; margin-left:-5px; width:988px; padding-left:7px;  overflow:hidden;}
+
+.mra_personal_family_info_NAV ul li{ display:inline-block; float:left; cursor:pointer; height:32px; border-right:1px solid #b2b2b2; line-height:30px; margin-top:10px;}
+
+/*  Defalut Active for Every Munu in Personal and Family Info*/ 
+.mra_personal_family_info_NAV .Actaive02 {background:#f3f3f3; color:#000; display:block; float:left;
+    -moz-box-shadow: 1px -2px 3px #000000;
+    -webkit-box-shadow: 1px -2px 3px #000000;
+    box-shadow: 1px -2px 3px #000000;
+}
+
+
+/*  Custom width for My Risk Assessment Munu in personal and Family Info*/ 
+.mra_personal_family_info_NAV .Actaive03 { width:150px; text-align:center; background:#ff3333; color:#FFF; display:block; float:left;
+    -moz-box-shadow: 1px -2px 3px #000000;
+    -webkit-box-shadow: 1px -2px 3px #000000;
+    box-shadow: 1px -2px 3px #000000;
+}
+
+
+.mra_personal_family_info_NAV ul li a{display:inline-block; float:left; padding-left:12px; height:32px; padding-right:12px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333333;}
+
+.mra_personal_family_info_NAV ul li a:hover{display:inline-block; float:left; background:#f3f3f3; color:#000;  -moz-box-shadow: 1px -2px 3px #000000;
+    -webkit-box-shadow: 1px -2px 3px #000000;
+    box-shadow: 1px -2px 3px #000000;}
+
+
+/*  Start Table section  mra_personal_family_info page CSS    */
+
+.mra_personal_Pane{ width:977px; margin:0px auto; border-top:3px solid #dfdfdf; padding-top:15px; overflow:auto;}
+
+
+.mra_personal__Pane_Left{ width:232px; margin-right:15px; float:left;}
+
+.mra_personal__Pane_Right{float:left; width:730px; overflow:auto; overflow-y:hidden; overflow-x:hidden;}
+
+.mra_personalLabel{width:160px;  line-height:20px; margin:0px; padding:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.mra_personalRadioLBL{ width:90px; font-family:Verdana, Geneva, sans-serif; font-size:12px;color:#666666; } 
+
+.mra_personalRadio input{float:left; margin:0px; padding:0px; margin-right:5px; width:15px; font-family:Verdana, Geneva, sans-serif; font-size:12px; text-indent:5px;}
+
+.mra_personalComboBox1{ margin:0px; padding:0px; width:140px; height:25px; line-height:26px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666; margin-right:10px; margin-left:10px; margin-bottom:2px; margin-top:2px;}
+
+.mra_personalBorderFull{ width:100%; margin:0px auto; border-top:2px solid #dfdfdf; height:10px;}
+
+.mra_personalmmofHg{ width:150px; height:22px; line-height:25px; margin:0px; padding:0px; margin-bottom:5px;  font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+
+.mra_personalmmofHg2{width:95px; font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:26px; color:#666666;}
+
+.mra_personalmmofHg3{width:100px; margin-left:60px; font-family:Verdana, Geneva, sans-serif; line-height:26px; font-size:12px; color:#666666;}
+
+.mra_personalmmofHg4{ width:115px; height:22px; margin:0px; padding:0px; margin-right:2px; margin-left:20px; line-height:25px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666666;}
+
+.mra_personalmmofHgIMG input{ float:right; width:20px; float:right; height:22px; margin:0px; padding:0px;}
+
+
+.mra_personalmmofHgIMGBGCSS{ float:right; width:20px; float:right; height:22px; margin:0px; padding:0px; background:url(../images/calendar-icon_new.png) no-repeat left 2px; height:15px; font-family:Verdana, Geneva, sans-serif; font-size:10px; padding-top:10px; text-align:center;}
+
+
+
+.mra_personalTextArea01 textarea{width:100%; resize:none;}
+
+.MRA_RadioBTN input{ width:30px; height:20px; float:left; margin:0px; padding:0px;}
+
+.MRA_RadioBTN {margin:0px; padding:0px; font-family:Verdana, Geneva, sans-serif; font-size:13px; line-height:18px; color:#333333}
+
+
+.MRA_Multi_CheckBox01{width:70px; text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#333333;}
+
+.MRA_textarea02 textarea{ margin:0px; padding:0px; resize:none;}
+
+
+/*  End   mra_personal_family_info page CSS    */
+
+
+/*  Start   my_health_card page CSS    */
+
+.my_health_cardLeftBorder{ width:977px; margin:0px auto; padding-bottom:20px; border-top:4px solid #dfdfdf; margin-top:5px;}
+
+.my_health_cardLeft{ width:525px; float:left;}
+
+.my_health_cardLeftBucket{background:#f8f8f8; margin-bottom:2px; padding:15px; overflow:auto;} 
+
+.my_health_cardLeftBucket ul{ margin:0px; padding:0px; margin-left:30px;}
+.my_health_cardLeftBucket ul li { list-style-type:disc; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:30px; color:#666666;}
+
+.my_health_cardRight{ width:420px; float:right;}
+
+
+.my_health_cardRight_Pane{background:url(../images/haoma_IMG_01.png) no-repeat left top; height:258px; width:395px; margin-top:40px;}
+
+.my_health_cardRight_Table_Pane{ width:350px; margin:0px auto; padding-top:20px;}
+
+.my_health_cardRightNameLBL{ font-family:Arial, Helvetica, sans-serif; font-size:13px; padding-top:5px; font-weight:bold; color:#333333; }
+
+
+.my_health_cardRightNameLBL3{ font-family:Arial, Helvetica, sans-serif; font-size:10px; padding-top:15px; font-weight:bold; color:#333333; }
+
+.my_health_cardRightNameLBL4{ font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#333333; }
+
+.my_health_cardRightNameLBL5{ font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; color:#333333; }
+
+.my_health_cardRightNameLBL2{ text-indent:5px;font-family:Arial, Helvetica, sans-serif; font-size:13px;  padding-top:5px; color:#333333;}
+
+/*  End   my_health_card page CSS    */
+
+
+
+/***************  Start   Select Photo CSS    */
+
+
+.PhotoUploadWrapper{ width:658px; margin:0px auto; padding-top:10px; padding-bottom:10px; background:#fcfcfc;}
+
+.PhotoUploadContent{ width:646px; margin:0px auto; background:#f9f9f9; overflow:auto; border:2px  solid #eeeeee;}
+
+.PhotoUpoloadHeader{ background:url(../images/photoupload_header.png) no-repeat left top; height:47px; width:646px; font-family:Verdana, Geneva, sans-serif; font-size:18px; line-height:36px; text-indent:18px; color:#333333;}
+
+.PhotoUpoloadLeft{ width:323px; float:left;}
+
+.PhotoUpoloadLeftHeader{ background:#ff3333; height:40px;}
+
+.PhotoUpoloadLeftMainCont{ width:323px; border-right:2px solid #bcbcbc; overflow:hidden;}
+
+
+.PhotoUpoloadRight{ width:323px; float:right;}
+
+.PhotoUpoloadRightHeader{ background:#666666; height:40px;}
+
+.PhotoUpoloadCoseBtn{ margin-left:630px; margin-top:-10px; position:absolute;}
+
+
+
+.photo_selected_BG{ background:url(../images/photo_selected_BG123.png) no-repeat left top; width:320px; height:240px; margin:0px auto;}
+
+
+
+
+/*  End   Select Photo CSS    ******************************/
+
+
+
+
+
+
+
+

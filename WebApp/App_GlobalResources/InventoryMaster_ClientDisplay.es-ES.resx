@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Action" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Add" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_AttributeName" xml:space="preserve">
+    <value>AttributeName</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_AttributeStatus" xml:space="preserve">
+    <value>AttributeStatus</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_ControlType" xml:space="preserve">
+    <value>Control Type</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_DataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_IsMandatory" xml:space="preserve">
+    <value>IsMandatory</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_IsPredefined" xml:space="preserve">
+    <value>IsPredefined</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Status" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Update" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_LocationUpdateFail" xml:space="preserve">
+    <value>Failed to Updating Location</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_LocationUpdateMsg" xml:space="preserve">
+    <value>Location Updated Successfully</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_Save" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_Update" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_BufferedQty" xml:space="preserve">
+    <value>Buffer Qty</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_BUnits" xml:space="preserve">
+    <value>B-Units</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Device" xml:space="preserve">
+    <value>dispositivo</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_EstQuantity" xml:space="preserve">
+    <value>Estimated Qty</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Eunits" xml:space="preserve">
+    <value>E-Units</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Investigation" xml:space="preserve">
+    <value>nombre de la investigación</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_ProductName" xml:space="preserve">
+    <value>nombre del producto</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Select" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Sno" xml:space="preserve">
+    <value>S.No.</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Update" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Delete" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_InputTax" xml:space="preserve">
+    <value>Input Tax</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_InputTaxtype" xml:space="preserve">
+    <value>Input Tax type</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_OutputTax" xml:space="preserve">
+    <value>Output Tax</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_OutputTaxtype" xml:space="preserve">
+    <value>Output Tax type</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Save" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Update" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Save" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Delete" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_Edit" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Delete" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_InvestigationProductMapping_aspx_Edit" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Attributes" xml:space="preserve">
+    <value>atributos</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_Ismandatory" xml:space="preserve">
+    <value>IsMandatory</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_01" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_02" xml:space="preserve">
+    <value>nombre generico</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_03" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_01" xml:space="preserve">
+    <value>Manufacturer name</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_02" xml:space="preserve">
+    <value>correo electrónico</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_03" xml:space="preserve">
+    <value>teléfono</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_04" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_05" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_06" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_07" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_01" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_02" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_03" xml:space="preserve">
+    <value>S.No.</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_04" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_05" xml:space="preserve">
+    <value>nombre del lugar</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_06" xml:space="preserve">
+    <value>Re-Order Level Quantity</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_07" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_08" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_09" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_10" xml:space="preserve">
+    <value>Product Updated Successfully</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_11" xml:space="preserve">
+    <value>Product Created Successfully</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_12" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_13" xml:space="preserve">
+    <value>Product Updated Failed</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_14" xml:space="preserve">
+    <value>Product Already Exist</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_15" xml:space="preserve">
+    <value>Error while Saving Products</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_16" xml:space="preserve">
+    <value>-Select-</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_17" xml:space="preserve">
+    <value>Inactivate Supplier</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_18" xml:space="preserve">
+    <value>Supplier Deleted Successfully</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_19" xml:space="preserve">
+    <value>Supplier Updated Successfully</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_20" xml:space="preserve">
+    <value>Supplier Added Successfully</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_21" xml:space="preserve">
+    <value>Supplier Deleted Failed</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_22" xml:space="preserve">
+    <value>Supplier Updated Failed</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_23" xml:space="preserve">
+    <value>Supplier Added Failed</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_01" xml:space="preserve">
+    <value>Location Saved sucessfully</value>
+  </data>
+  <data name="InventoryMaster_InventoryLocation_aspx_02" xml:space="preserve">
+    <value>Failed to Saving Location</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_03" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_04" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_05" xml:space="preserve">
+    <value>S.No.</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_06" xml:space="preserve">
+    <value>Customer Location</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_07" xml:space="preserve">
+    <value>Customer Address</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_08" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_09" xml:space="preserve">
+    <value>LocationID</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_10" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Inventorymaster_Customers_aspx_11" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_12" xml:space="preserve">
+    <value>Customer Updated sucessfully</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_13" xml:space="preserve">
+    <value>Customer Added sucessfully</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_14" xml:space="preserve">
+    <value>Customer Updated Failed</value>
+  </data>
+  <data name="InventoryMaster_Customers_aspx_15" xml:space="preserve">
+    <value>Customer Added Failed</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_01" xml:space="preserve">
+    <value>nuevo</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_02" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="InventoryMaster_EquipmentMaintenanceMaster_aspx_03" xml:space="preserve">
+    <value>Edit Maintenance</value>
+  </data>
+  <data name="InventoryMster_EquipmentMaintenanceMaster_aspx_03" xml:space="preserve">
+    <value>Edit Maintenance</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_01" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_24" xml:space="preserve">
+    <value>Maximum Quantity</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_08" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_04" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_05" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_06" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_09" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_02" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_03" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="InventoryMaster_Controls_AddManufacturer_ascx_10" xml:space="preserve">
+    <value>código </value>
+  </data>
+  <data name="InventoryMaster_CustomAttributesMaster_aspx_01" xml:space="preserve">
+    <value>Pre definded attributes</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_25" xml:space="preserve">
+    <value>iva</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_01" xml:space="preserve">
+    <value>categoría actualizada exitosamente</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_02" xml:space="preserve">
+    <value>categoría agregada exitosamente</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_03" xml:space="preserve">
+    <value>actualizar categoría ha fallado</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_04" xml:space="preserve">
+    <value>agregar categoría ha fallado</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_05" xml:space="preserve">
+    <value>categoría eliminada exitosamente</value>
+  </data>
+  <data name="InventoryMaster_ProductCategories_aspx_06" xml:space="preserve">
+    <value>eliminar categoría ha fallado</value>
+  </data>
+  <data name="InventoryMaster_Suppliers_aspx_04" xml:space="preserve">
+    <value>-Select-</value>
+  </data>
+  <data name="InventoryMaster_Controls_AddGenericName_ascx_07" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="InventoryMaster_Products_aspx_26" xml:space="preserve">
+    <value>Maximum Quantity</value>
+  </data>
+</root>

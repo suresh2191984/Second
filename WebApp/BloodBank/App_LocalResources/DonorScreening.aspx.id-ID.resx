@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="btnExamExcludeResource1.Text" xml:space="preserve">
+    <value>Tidak Termasuk</value>
+  </data>
+  <data name="btnExamResource1.ToolTip" xml:space="preserve">
+    <value>Kembali ke Pemeriksaan</value>
+  </data>
+  <data name="btnExclusionResource1.Text" xml:space="preserve">
+    <value>Tidak termasuk donasi darah</value>
+  </data>
+  <data name="btnHistory1Resource1.ToolTip" xml:space="preserve">
+    <value>Kembali Ke Riwayat</value>
+  </data>
+  <data name="btnHistoryResource1.ToolTip" xml:space="preserve">
+    <value>Lanjut Ke Pemeriksaan</value>
+  </data>
+  <data name="btnOrderInvResource1.ToolTip" xml:space="preserve">
+    <value>Lanjut Ke Pemeriksaan</value>
+  </data>
+  <data name="btnProceedResource1.Text" xml:space="preserve">
+    <value>Proceed to Phase-II screeing</value>
+  </data>
+  <data name="btnProceedto1Resource1.Text" xml:space="preserve">
+    <value>Kembali ke Phase-I screeing</value>
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="btnTemporaryExclusionResource1.Text" xml:space="preserve">
+    <value>Sementara Tidak Termasuk Dari Donasi Darah</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Riwayat Perawatan</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Hari Ini</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Hari Ini</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Riwayat Medis</value>
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Riwayat Medis</value>
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Past 1 to 3 days</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Past 1 to 3 days</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Past 6 weeks</value>
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>Past 6 weeks</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>Past 8 weeks</value>
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>Past 8 weeks</value>
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>Past 3 months</value>
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>Past 3 months</value>
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>Past 6 months to 1 year</value>
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>Past 6 months to 1 year</value>
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>Past 1 year</value>
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>Past 1 year</value>
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>Past 3 years</value>
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>Past 3 years</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Riwayat Perawatan</value>
+  </data>
+  <data name="lblAbdominalResource1.Text" xml:space="preserve">
+    <value>Abdominal System</value>
+  </data>
+  <data name="lblCardio_vascularResource1.Text" xml:space="preserve">
+    <value>CardioVascular System</value>
+  </data>
+  <data name="lblEligibilityResource1.Text" xml:space="preserve">
+    <value>Eligibility status ::</value>
+  </data>
+  <data name="lblEligibilityResultResource1.Text" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="lblExaminationResource1.Text" xml:space="preserve">
+    <value>Pemeriksaan</value>
+  </data>
+  <data name="lblExaminationStatusResource1.Text" xml:space="preserve">
+    <value>Status Kelayakan :: </value>
+  </data>
+  <data name="lblExaminationStatusResultResource1.Text" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="lblExamStatusResource1.Text" xml:space="preserve">
+    <value>Tertunda</value>
+  </data>
+  <data name="lblHistoryResource1.Text" xml:space="preserve">
+    <value>Riwayat</value>
+  </data>
+  <data name="lblHistoryStatusResource1.Text" xml:space="preserve">
+    <value>Tertunda</value>
+  </data>
+  <data name="lblInvestigationResource1.Text" xml:space="preserve">
+    <value>Perintah Pemeriksaan</value>
+  </data>
+  <data name="lblInvestigationStatusResource1.Text" xml:space="preserve">
+    <value>Tertunda</value>
+  </data>
+  <data name="lblNeurologicalResource1.Text" xml:space="preserve">
+    <value>Neurological System</value>
+  </data>
+  <data name="lblOtherFindingsResource1.Text" xml:space="preserve">
+    <value>Hasil Lainnya</value>
+  </data>
+  <data name="lblRespiratoryResource1.Text" xml:space="preserve">
+    <value>Respiratory System</value>
+  </data>
+  <data name="lblTemporaryStatusResource1.Text" xml:space="preserve">
+    <value>Status Kelayakan ::</value>
+  </data>
+  <data name="lblTemporaryStatusResultResource1.Text" xml:space="preserve">
+    <value>PASS</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Donor Screening</value>
+  </data>
+  <data name="rdoNo_AbdominalResource1.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="rdoNo_NeurologicalResource1.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="rdoNo_RespiratoryResource1.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="rdoNo_vascularResource1.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="rdoYes_AbdominalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="rdoYes_NeurologicalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="rdoYes_RespiratoryResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="rdoYes_vascularResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExamExcludeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExamResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExclusionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHistory1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHistoryResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOrderInvResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnProceedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnProceedto1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTemporaryExclusionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drawNewHistoryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drawNewHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbdominalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCardio_vascularResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEligibilityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEligibilityResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExaminationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExaminationStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExaminationStatusResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExamStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHistoryStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestigationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestigationStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeurologicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherFindingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRespiratoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemporaryStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemporaryStatusResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDisplayResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDisplayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlHisResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlHisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoNo_AbdominalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoNo_NeurologicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoNo_RespiratoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoNo_vascularResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoYes_AbdominalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoYes_NeurologicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoYes_RespiratoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoYes_vascularResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblMedicalHistoryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblMedicalHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast1to3daysResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast1to3daysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast1yearResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast1yearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast3monthsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast3monthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast3yearsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast3yearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast6mnthsto1yearResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast6mnthsto1yearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast6weeksResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast6weeksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast8weeksResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblPast8weeksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblTodayResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblTodayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblTreatmentHistoryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblTreatmentHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_AbdominalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_AbdominalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_NeurologicalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_NeurologicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_RespiratoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_RespiratoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_vascularResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoNo_vascularResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_AbdominalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_AbdominalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_NeurologicalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_NeurologicalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_OtherResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_OtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_RespiratoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_RespiratoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_vascularResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtrdoYes_vascularResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlatFormControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_02" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_03" xml:space="preserve">
+    <value>được</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_04" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="PlatFormControls_Attune_Footer_ascx_05" xml:space="preserve">
+    <value>Chỉ cho phép nhân vật</value>
+  </data>
+  <data name="PlatFormControls_Cancel" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="PlatFormControls_Error" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_01" xml:space="preserve">
+    <value>Vui lòng chọn danh mục</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_02" xml:space="preserve">
+    <value>Vui lòng nhập chi tiết</value>
+  </data>
+  <data name="PlatFormControls_Informtion" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="PlatFormControls_Ok" xml:space="preserve">
+    <value>được</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_01" xml:space="preserve">
+    <value>Cung cấp địa chỉ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_02" xml:space="preserve">
+    <value>Chọn tiểu bang</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_03" xml:space="preserve">
+    <value>Lựa chọn thành phố</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_04" xml:space="preserve">
+    <value>Cung cấp bất kỳ số liên lạc nào</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_01" xml:space="preserve">
+    <value>Cung cấp địa chỉ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_02" xml:space="preserve">
+    <value>Lựa chọn thành phố</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_03" xml:space="preserve">
+    <value>Cung cấp bất kỳ số liên lạc nào</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_04" xml:space="preserve">
+    <value>Cung cấp tên đường / đường trong địa chỉ hiện tại</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_01" xml:space="preserve">
+    <value>Cung cấp địa chỉ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_02" xml:space="preserve">
+    <value>Chọn tiểu bang</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_03" xml:space="preserve">
+    <value>Chọn Quận</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_04" xml:space="preserve">
+    <value>Cung cấp bất kỳ số liên lạc nào</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_05" xml:space="preserve">
+    <value>Lựa chọn thành phố</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_06" xml:space="preserve">
+    <value>Nhập số điện thoại di động hợp lệ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_07" xml:space="preserve">
+    <value>Chọn quốc gia</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_08" xml:space="preserve">
+    <value>Cung cấp mã bưu chính</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_01" xml:space="preserve">
+    <value>Cung cấp địa chỉ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_02" xml:space="preserve">
+    <value>Chọn tiểu bang</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_03" xml:space="preserve">
+    <value>Chọn Quận</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_04" xml:space="preserve">
+    <value>Cung cấp bất kỳ số liên lạc nào</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_05" xml:space="preserve">
+    <value>Lựa chọn thành phố</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_06" xml:space="preserve">
+    <value>Nhập số điện thoại di động hợp lệ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_07" xml:space="preserve">
+    <value>Chọn quốc gia</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_08" xml:space="preserve">
+    <value>Cung cấp mã bưu chính</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_01" xml:space="preserve">
+    <value>Tác vụ này sẽ bị xóa. Tiếp tục?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_02" xml:space="preserve">
+    <value>SMS gửi đến bệnh nhân thành công</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_03" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_04" xml:space="preserve">
+    <value>Đã xảy ra sự cố khi gửi SMS</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_05" xml:space="preserve">
+    <value>Cung cấp số trang</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_06" xml:space="preserve">
+    <value>Cung cấp số trang chính xác</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_07" xml:space="preserve">
+    <value>Tác vụ này đã được người dùng khác chọn</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_08" xml:space="preserve">
+    <value>Bạn có muốn bỏ qua Bước Xử lý Thuốc không? Hành động này không thể được hoàn tác</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_09" xml:space="preserve">
+    <value>Bạn có muốn bỏ qua bước xử lý Tư vấn không? Hành động này không thể được hoàn tác</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_10" xml:space="preserve">
+    <value>Bạn có muốn bỏ qua Bước xử lý thanh toán không? Hành động này không thể được hoàn tác</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_11" xml:space="preserve">
+    <value>Đơn thuốc này đã hết hạn, nhiệm vụ sẽ bị xóa</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_12" xml:space="preserve">
+    <value>Tác vụ này đã được người dùng khác chọn</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_13" xml:space="preserve">
+    <value>Không tìm thấy kết quả</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_14" xml:space="preserve">
+    <value>Tuy nhiên, để thực hiện ScreenLine Screening. Tiếp tục?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_15" xml:space="preserve">
+    <value>Điều tra Lab vẫn chưa được hoàn thành. Tiếp tục?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_16" xml:space="preserve">
+    <value>Tuy nhiên, để thực hiện công việc. Tiếp tục?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_17" xml:space="preserve">
+    <value>Thực hiện công việc vẫn chưa được hoàn thành</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_18" xml:space="preserve">
+    <value>Quá trình tệp MRD chưa hoàn tất</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_19" xml:space="preserve">
+    <value>Bạn có muốn tiến hành đặt chỗ giới thiệu không?</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_20" xml:space="preserve">
+    <value>Nhập lý do hủy</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_21" xml:space="preserve">
+    <value>Vui lòng thừa nhận bệnh nhân từ tìm kiếm bệnh nhân</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_01" xml:space="preserve">
+    <value>Nhập vấn đề y tế</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_02" xml:space="preserve">
+    <value>Nhập chi tiết ICD</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_03" xml:space="preserve">
+    <value>Vui lòng chọn tên bác sĩ</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_04" xml:space="preserve">
+    <value>Đã thêm đơn khiếu nại</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_05" xml:space="preserve">
+    <value>Cung cấp mã ICD</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_06" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_07" xml:space="preserve">
+    <value>được</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_08" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_09" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_10" xml:space="preserve">
+    <value>Bạn có chắc chắn thay đổi với Chẩn đoán hiện tại không?</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_11" xml:space="preserve">
+    <value>Không có mã ICD 10 phù hợp. Bạn có chắc chắn tiếp tục với mã ICD hiện tại?</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCode_ascx_12" xml:space="preserve">
+    <value>Bạn có chắc chắn tiếp tục với Chẩn đoán hiện tại không</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_22" xml:space="preserve">
+    <value>MRD chưa kiểm tra tệp!</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_23" xml:space="preserve">
+    <value>Thư ký bác sĩ chưa nhận được hồ sơ!</value>
+  </data>
+</root>

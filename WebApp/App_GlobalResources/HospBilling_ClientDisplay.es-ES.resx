@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HospBilling_AdvanceBillPrint_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs. {0} Only</value>
+  </data>
+  <data name="HospBilling_HospitalBillSearch_aspx_01" xml:space="preserve">
+    <value>por favor seleccione una factura</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_01" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_01" xml:space="preserve">
+    <value>paciente externo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_02" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_01" xml:space="preserve">
+    <value>(0)</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_02" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_03" xml:space="preserve">
+    <value>nombre del tratamiento</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_04" xml:space="preserve">
+    <value>Performed By</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_05" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_06" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_07" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>recibo de pago</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>recibo de depósito</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>recibo de anticipo</value>
+  </data>
+  <data name="HospBilling_Controls_ReceiptSearch_ascx_06" xml:space="preserve">
+    <value>Co Payment Receipt</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_01" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="HospBilling_Controls_HospitalBillSearch_ascx_02" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_01" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs. {0} Only</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_02" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_03" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_04" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_05" xml:space="preserve">
+    <value>médico de referencia</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_06" xml:space="preserve">
+    <value>centro de referencia</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_07" xml:space="preserve">
+    <value>nro. de visita</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_08" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_09" xml:space="preserve">
+    <value>emergencia</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_10" xml:space="preserve">
+    <value>persona muy importante</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_11" xml:space="preserve">
+    <value>*This amount is subject to</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_12" xml:space="preserve">
+    <value>solamente</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_13" xml:space="preserve">
+    <value>sólo cero</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_14" xml:space="preserve">
+    <value>BILL</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_15" xml:space="preserve">
+    <value>factura de adeudo</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_16" xml:space="preserve">
+    <value>factura pagada</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_17" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_18" xml:space="preserve">
+    <value>moneda de pago:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_19" xml:space="preserve">
+    <value>monto recibido en palabras:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_20" xml:space="preserve">
+    <value>Due Amount in Words:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_21" xml:space="preserve">
+    <value>monto del depósito restante :</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_22" xml:space="preserve">
+    <value>Please have your report collected at :</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_23" xml:space="preserve">
+    <value>Billed By:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_24" xml:space="preserve">
+    <value>You can view your reports in following link, {0}. Your username is {1} and Password is abc@123</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_25" xml:space="preserve">
+    <value>cliente / proveedor de seguros:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_26" xml:space="preserve">
+    <value>Ref. Physician Name:</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_27" xml:space="preserve">
+    <value>( Duplicate Copy )</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_28" xml:space="preserve">
+    <value>monto (rs)</value>
+  </data>
+  <data name="HospBilling_Controls_AdvanceBillPrint_ascx_29" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospBilling_Controls_MasterControl_ascx_01" xml:space="preserve">
+    <value>agregar nueva urgencia</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_08" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_09" xml:space="preserve">
+    <value>Add Dues</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_10" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="HospBilling_Controls_SurgeryBillingPOPUP_ascx_11" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_04" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_05" xml:space="preserve">
+    <value>número de paciente / número de ip</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_06" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_07" xml:space="preserve">
+    <value>típo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_08" xml:space="preserve">
+    <value>sexo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_09" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_10" xml:space="preserve">
+    <value>telefono no.</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_11" xml:space="preserve">
+    <value>detalles de deuda</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_12" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_13" xml:space="preserve">
+    <value>fecha de la factura</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_14" xml:space="preserve">
+    <value>valor neto</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_15" xml:space="preserve">
+    <value>número de recibo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_16" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_17" xml:space="preserve">
+    <value>fecha de pago</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_18" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_19" xml:space="preserve">
+    <value>ip número</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_20" xml:space="preserve">
+    <value>número de urn</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_21" xml:space="preserve">
+    <value>fdn</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_22" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_23" xml:space="preserve">
+    <value>motivo de visita</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_24" xml:space="preserve">
+    <value>adeudo</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_25" xml:space="preserve">
+    <value>no. de móvil</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_26" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_27" xml:space="preserve">
+    <value>paciente enterno</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_28" xml:space="preserve">
+    <value>guarderías</value>
+  </data>
+  <data name="HospBilling_Controls_QuickPatientReg_ascx_03" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_01" xml:space="preserve">
+    <value>identificación de tasa</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_02" xml:space="preserve">
+    <value>otra identificación</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_03" xml:space="preserve">
+    <value>descripción</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_04" xml:space="preserve">
+    <value>nombre de perphy</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_05" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_06" xml:space="preserve">
+    <value>cantidad </value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_07" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_08" xml:space="preserve">
+    <value>Item Discount</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_09" xml:space="preserve">
+    <value>motivo de descuento</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_10" xml:space="preserve">
+    <value>Item Discount Percentage</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_11" xml:space="preserve">
+    <value>típo de tarifa </value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_12" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_13" xml:space="preserve">
+    <value>es reembolsable</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_14" xml:space="preserve">
+    <value>disorenh porcentaje</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_15" xml:space="preserve">
+    <value>disorenh tipo</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_16" xml:space="preserve">
+    <value>observaciones</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_17" xml:space="preserve">
+    <value>monto reembolsable</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_18" xml:space="preserve">
+    <value>monto </value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_19" xml:space="preserve">
+    <value>código amb</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_20" xml:space="preserve">
+    <value>identificación tarifaria</value>
+  </data>
+  <data name="HospBilling_Controls_DisplayAllDataTemp_ascx_21" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_01" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_02" xml:space="preserve">
+    <value>limpiar</value>
+  </data>
+  <data name="HospBilling_ServiceQuotationForHMS_aspx_03" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_01" xml:space="preserve">
+    <value>Bill is yet to be generated</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_02" xml:space="preserve">
+    <value>Task Assigned to this Bill. So You cannot Refund</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_03" xml:space="preserve">
+    <value>This Bill has Cheque Payment of Rs. {0} /-. Please ensure before refunding</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_04" xml:space="preserve">
+    <value>devolver</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_05" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_06" xml:space="preserve">
+    <value>cheque</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_07" xml:space="preserve">
+    <value>Refundable amount should be less than received amount</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_08" xml:space="preserve">
+    <value>Entered amount should be greater than zero</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_09" xml:space="preserve">
+    <value>Reason for refund is mandatory</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_10" xml:space="preserve">
+    <value>Amount Has Been Successfully Refunded</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_11" xml:space="preserve">
+    <value>Task Assigned</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_12" xml:space="preserve">
+    <value>Amount Has Not Been Refunded</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_13" xml:space="preserve">
+    <value>Please Select atleast one Bill Item</value>
+  </data>
+  <data name="HospBilling_ReceiptRefundtoPatient_aspx_14" xml:space="preserve">
+    <value>Refund Amount Should Not be Higher than Received Amount</value>
+  </data>
+  <data name="HospBilling_GenerateBill_aspx_01" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_03" xml:space="preserve">
+    <value>sí</value>
+  </data>
+  <data name="HospBilling_Scripts_GenerateBill_js_04" xml:space="preserve">
+    <value>no.</value>
+  </data>
+</root>

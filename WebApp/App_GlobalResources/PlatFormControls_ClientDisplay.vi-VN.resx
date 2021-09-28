@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlatFormControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>hoàn thành</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_01" xml:space="preserve">
+    <value>Phiên của bạn sẽ hết hạn</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_02" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_03" xml:space="preserve">
+    <value>Giây</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_04" xml:space="preserve">
+    <value>Phiên của bạn đã hết hạn</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_cs_01" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_cs_02" xml:space="preserve">
+    <value>Chọn bộ phận</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_cs_03" xml:space="preserve">
+    <value>Tên địa phương</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_cs_04" xml:space="preserve">
+    <value>Tên bộ phận nhân viên</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_cs_05" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_ChangeLocation_ascx_01" xml:space="preserve">
+    <value>Thay đổi địa điểm</value>
+  </data>
+  <data name="PlatFormControls_DayCareMenu_ascx_01" xml:space="preserve">
+    <value>DayCare</value>
+  </data>
+  <data name="PlatFormControls_Department_ascx_01" xml:space="preserve">
+    <value>Chọn bộ phận</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_01" xml:space="preserve">
+    <value>FeedBack đã đăng thành công</value>
+  </data>
+  <data name="PlatFormControls_FeedbackControl_ascx_02" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_LeftMenuHelp_ascx_01" xml:space="preserve">
+    <value>Cứu giúp</value>
+  </data>
+  <data name="PlatFormControls_LeftMenuInventory_ascx_01" xml:space="preserve">
+    <value>Hàng tồn kho</value>
+  </data>
+  <data name="PlatFormControls_LeftMenuIP_ascx_01" xml:space="preserve">
+    <value>Nhiệm vụ nội trú</value>
+  </data>
+  <data name="PlatFormControls_LeftMenuMDM_ascx_01" xml:space="preserve">
+    <value>Thạc sĩ dữ liệu</value>
+  </data>
+  <data name="PlatFormControls_LeftMenuMRD_ascx_01" xml:space="preserve">
+    <value>MRD</value>
+  </data>
+  <data name="PlatFormControls_LeftMenu_ascx_01" xml:space="preserve">
+    <value>Nhiệm vụ chung</value>
+  </data>
+  <data name="PlatFormControls_ManageSchedules_ascx_01" xml:space="preserve">
+    <value>Quản lý lịch biểu</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_01" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_cs_01" xml:space="preserve">
+    <value>KHÁC</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AR_ascx_cs_02" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_cs_01" xml:space="preserve">
+    <value>KHÁC</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_01" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_cs_01" xml:space="preserve">
+    <value>KHÁC</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_01" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_cs_01" xml:space="preserve">
+    <value>KHÁC</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_01" xml:space="preserve">
+    <value>Nam giới</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_02" xml:space="preserve">
+    <value>Giống cái</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_03" xml:space="preserve">
+    <value>Độc thân</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_04" xml:space="preserve">
+    <value>Cưới nhau</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_05" xml:space="preserve">
+    <value>Ly dị</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_06" xml:space="preserve">
+    <value>Người đàn bà góa</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_07" xml:space="preserve">
+    <value>Loại dị ứng</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_cs_08" xml:space="preserve">
+    <value>Tên dị ứng</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_01" xml:space="preserve">
+    <value>Thuốc theo toa bệnh nhân</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_02" xml:space="preserve">
+    <value>CaptureSymptom</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_03" xml:space="preserve">
+    <value>Thực hiện chẩn đoán</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_04" xml:space="preserve">
+    <value>X quang thanh toán</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_05" xml:space="preserve">
+    <value>Thanh toán điều tra</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_06" xml:space="preserve">
+    <value>Thu tiền</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_07" xml:space="preserve">
+    <value>Thu thập điều tra</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_08" xml:space="preserve">
+    <value>X quang thu thập thanh toán</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_09" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_10" xml:space="preserve">
+    <value>Bác sĩ</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_11" xml:space="preserve">
+    <value>Hàng tồn kho</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_12" xml:space="preserve">
+    <value>Vật lý trị liệu</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_13" xml:space="preserve">
+    <value>Xóa tác vụ này</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_14" xml:space="preserve">
+    <value>Thực hiện chẩn đoán nhanh</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_15" xml:space="preserve">
+    <value>Bệnh nhân này được chỉ định cụ thể cho bạn</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_16" xml:space="preserve">
+    <value>Tuy nhiên, để thực hiện ScreenLine Screening</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_17" xml:space="preserve">
+    <value>Tuy nhiên, để thực hiện điều tra phòng thí nghiệm</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_18" xml:space="preserve">
+    <value>Tuy nhiên, để thực hiện Workup</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_19" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_20" xml:space="preserve">
+    <value>Tham tán</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_21" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_22" xml:space="preserve">
+    <value>Chẩn đoán nhanh</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_23" xml:space="preserve">
+    <value>Kiểm tra sức khỏe</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_24" xml:space="preserve">
+    <value>Gửi tin nhắn</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_25" xml:space="preserve">
+    <value>Y tá</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_26" xml:space="preserve">
+    <value>Phlebotomist</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_27" xml:space="preserve">
+    <value>TẤT CẢ CÁC</value>
+  </data>
+  <data name="PlatFormControls_Theme_ascx_01" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="PlatFormControls_UserHeader_ascx_01" xml:space="preserve">
+    <value>Đã đăng nhập</value>
+  </data>
+  <data name="PlatFormControls_UserRoleChange_ascx_01" xml:space="preserve">
+    <value>đi</value>
+  </data>
+  <data name="RsSetting" xml:space="preserve">
+    <value>Chọn tổ chức</value>
+  </data>
+  <data name="RS_Cancel" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="Rs_Department" xml:space="preserve">
+    <value>Chọn bộ phận</value>
+  </data>
+  <data name="Rs_EXPIREDResource1" xml:space="preserve">
+    <value>Phiên của bạn đã hết hạn</value>
+  </data>
+  <data name="Rs_InventoryLocation" xml:space="preserve">
+    <value>Chọn vị trí khoảng không quảng cáo</value>
+  </data>
+  <data name="Rs_Language" xml:space="preserve">
+    <value>Chọn ngôn ngữ</value>
+  </data>
+  <data name="Rs_LocationResource1" xml:space="preserve">
+    <value>Chọn địa điểm</value>
+  </data>
+  <data name="Rs_RUlogoutResource1" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn đăng xuất không?</value>
+  </data>
+  <data name="Rs_SelectOrganisationResource1" xml:space="preserve">
+    <value>Chọn tổ chức</value>
+  </data>
+  <data name="Rs_SelectRoleResource1" xml:space="preserve">
+    <value>Chọn vai trò</value>
+  </data>
+  <data name="Rs_TaskNotification" xml:space="preserve">
+    <value>Thông báo tác vụ</value>
+  </data>
+  <data name="Rs_Theme" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="Rs_OK" xml:space="preserve">
+    <value>được</value>
+  </data>
+  <data name="Rs_CopyRights" xml:space="preserve">
+    <value>Bản quyền © 2015. Tất cả các quyền.</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_28" xml:space="preserve">
+    <value>Bấm vào đây để</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_29" xml:space="preserve">
+    <value>Danh sách thành phần</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_30" xml:space="preserve">
+    <value>Danh sách điều tra</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_31" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_32" xml:space="preserve">
+    <value>Số đơn vị</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_01" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_02" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_03" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_04" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_05" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_06" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_07" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_ID_ascx_01" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_Booking" xml:space="preserve">
+    <value>Đặt ngày</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_02" xml:space="preserve">
+    <value>Điện thoại di động</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_03" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_04" xml:space="preserve">
+    <value>Quốc gia</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_IN_ascx_05" xml:space="preserve">
+    <value>OState:</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_02" xml:space="preserve">
+    <value>Điện thoại di động</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_03" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_04" xml:space="preserve">
+    <value>Quốc gia</value>
+  </data>
+  <data name="PlatFormControls_PatientAddress_AE_ascx_05" xml:space="preserve">
+    <value>OState:</value>
+  </data>
+  <data name="PlatFormControls_Tasks_ascx_33" xml:space="preserve">
+    <value>Thừa nhận bệnh nhân</value>
+  </data>
+  <data name="PlatFormControls_Attune_OrgHeader_ascx_PTDemographic" xml:space="preserve">
+    <value>Chi tiết bệnh nhân</value>
+  </data>
+  <data name="PlatFormControls_PatientHeader_ascx_08" xml:space="preserve">
+    <value>Dị ứng</value>
+  </data>
+  <data name="RS_Reset" xml:space="preserve">
+    <value>Cài lại</value>
+  </data>
+</root>

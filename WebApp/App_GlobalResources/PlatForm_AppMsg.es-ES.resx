@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_01" xml:space="preserve">
+    <value>por favor introduzca nombre del médico</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_02" xml:space="preserve">
+    <value>por favor seleccione saludo</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_03" xml:space="preserve">
+    <value>hospital ya se ha agregado!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddingRefPhysician_ascx_04" xml:space="preserve">
+    <value>nuevo médico de referencia agregado exitosamente!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddNewInvestigation_ascx_01" xml:space="preserve">
+    <value>por favor introduzca nombre de grupo</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddNewInvestigation_ascx_02" xml:space="preserve">
+    <value>por favor introduzca nombre de investigación</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddNewInvestigation_ascx_03" xml:space="preserve">
+    <value>investigación guardada exitosamente...!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddNewInvestigation_ascx_04" xml:space="preserve">
+    <value>error al guardar la investigación nueva...!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddNewInvestigation_ascx_05" xml:space="preserve">
+    <value>grupo de investigación guardado exitosamente...!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AdvanceReceipt_ascx_01" xml:space="preserve">
+    <value>Deposit Amount Used -</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_01" xml:space="preserve">
+    <value>esta receta ha caducado, la tarea se eliminará!!!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_02" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario!!!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_03" xml:space="preserve">
+    <value>esta tarea ya ha sido seleccionada por</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_04" xml:space="preserve">
+    <value>se eliminará esta tarea. continuar?</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_05" xml:space="preserve">
+    <value>SMS Send to the Patient Successfully ..!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_06" xml:space="preserve">
+    <value>There was problem in Sending SMS .. !</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_07" xml:space="preserve">
+    <value>proporcione el número de página</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_08" xml:space="preserve">
+    <value>proporcione un número de página correcto</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_09" xml:space="preserve">
+    <value>Do you wish to skip the Drug processing step? This action cannot be undone</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_10" xml:space="preserve">
+    <value>Do you wish to skip the payment processing step? This action cannot be undone</value>
+  </data>
+  <data name="PlatForm_CommonControls_TransactionStatus_ascx_01" xml:space="preserve">
+    <value>su última transacción se ha realizado correctamente</value>
+  </data>
+  <data name="PlatForm_CommonControls_URNControl_ascx_01" xml:space="preserve">
+    <value>escribir número de solicitud de actualización (urna)</value>
+  </data>
+  <data name="PlatForm_CommonControls_URNControl_ascx_02" xml:space="preserve">
+    <value>escribir número urna válido</value>
+  </data>
+  <data name="PlatForm_CommonControls_URNControl_ascx_03" xml:space="preserve">
+    <value>urn seleccionada no está asociada con el paciente existente. los datos introducidos serán borrados ¿desea continuar??</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_01" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_02" xml:space="preserve">
+    <value>opción</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_03" xml:space="preserve">
+    <value>seleccione uno</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_02" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_03" xml:space="preserve">
+    <value>opción</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_04" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_02" xml:space="preserve">
+    <value>escribir la fecha diferido</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_05" xml:space="preserve">
+    <value>compruebe si la tarjeta ha sido expedida al paciente</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_02" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_03" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_04" xml:space="preserve">
+    <value>no hay artículos de cirugía para este paciente, agregar artículos de cirugía.</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_05" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_06" xml:space="preserve">
+    <value>por favor seleccione el artículo de la cirugía </value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_07" xml:space="preserve">
+    <value>tipo de pago y monto requerido</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_08" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_09" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_10" xml:space="preserve">
+    <value>por favor introduzca el nombre de la sucursal</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_11" xml:space="preserve">
+    <value>por favor introduzca número del cheque / tarjeta / letra de cambio</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_12" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_13" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_14" xml:space="preserve">
+    <value>Amont should be greater than zero</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_15" xml:space="preserve">
+    <value>el nombre de pago ya existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_16" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_17" xml:space="preserve">
+    <value>no hay artículos de cirugía para este paciente, agregar artículos de cirugía.</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_18" xml:space="preserve">
+    <value>lo sentimos el número de cheque o tarjeta ya existen</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_19" xml:space="preserve">
+    <value>Cheque no should be{0}numbers</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_20" xml:space="preserve">
+    <value>Card no should be last {0} numbers</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_21" xml:space="preserve">
+    <value>cheque</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_05" xml:space="preserve">
+    <value>Are You Sure To Delete? This Action Will Delete The Task Also</value>
+  </data>
+  <data name="PlatForm_CommonControls_Advice_ascx_01" xml:space="preserve">
+    <value>nombre del medicamento ya existe!</value>
+  </data>
+  <data name="PlatForm_CommonControls_AmountApprovalDetails_ascx_01" xml:space="preserve">
+    <value>por favor introduzca los comentarios</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>código de icd inválido. ¿desea continuar??</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCodeBP_ascx_02" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCodeBP_ascx_03" xml:space="preserve">
+    <value>código de icd inválido. ¿desea continuar?</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCodeBP_ascx_04" xml:space="preserve">
+    <value>Enter medical problem"</value>
+  </data>
+  <data name="PlatForm_CommonControls_ComplaintICDCodeBP_ascx_05" xml:space="preserve">
+    <value>ya se ha agregado queja!</value>
+  </data>
+  <data name="PlatForm_CommonControls_DepositUsage_ascx_01" xml:space="preserve">
+    <value>por favor compruebe el valor neto, monto recibido y reingrese la cantidad utilizada.</value>
+  </data>
+  <data name="PlatForm_CommonControls_DepositUsage_ascx_02" xml:space="preserve">
+    <value>por favor compruebe el valor neto, monto recibido y reingrese la cantidad utilizada.</value>
+  </data>
+  <data name="PlatForm_CommonControls_DepositUsage_ascx_03" xml:space="preserve">
+    <value>por favor verifique con el saldo de depósito</value>
+  </data>
+  <data name="PlatForm_CommonControls_DOBAndAge_ascx_01" xml:space="preserve">
+    <value>fecha invalida</value>
+  </data>
+  <data name="PlatForm_CommonControls_EmergencyDashBord_ascx_01" xml:space="preserve">
+    <value>Update Successfully</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_01" xml:space="preserve">
+    <value>por favor introduzca descripción de la tarifa </value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_02" xml:space="preserve">
+    <value>por favor elija el tipo de monto</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_03" xml:space="preserve">
+    <value>por favor seleccione el médico para etiquetar</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_04" xml:space="preserve">
+    <value>escrito nombre del médico no existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_FeesEntry_ascx_05" xml:space="preserve">
+    <value>por favor introduzca el monto de tarifa </value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_01" xml:space="preserve">
+    <value>por favor seleccione nombre del médico</value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_02" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_CommonControls_GeneralAdvice_ascx_03" xml:space="preserve">
+    <value>recomendación ya existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_01" xml:space="preserve">
+    <value>por favor compruebe el número de póliza y intente de nuevo</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_02" xml:space="preserve">
+    <value>por favor compruebe el número de póliza y intente de nuevo</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_03" xml:space="preserve">
+    <value>problema de red o número de póliza no válida. por favor contáctese con administrador del bpjs</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_04" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_05" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_06" xml:space="preserve">
+    <value>el número de póliza ha sido validado exitosamente</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_07" xml:space="preserve">
+    <value>Please Enter a BPJS Dept Code</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_08" xml:space="preserve">
+    <value>por favor introduzca un nombre de departamento</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_09" xml:space="preserve">
+    <value>por favor introduzca un número de referencia</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_10" xml:space="preserve">
+    <value>por favor introduzca un código de referencia</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_11" xml:space="preserve">
+    <value>introduzca el nombre de referencia</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_12" xml:space="preserve">
+    <value>introduzca la fecha de remisión</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_13" xml:space="preserve">
+    <value>por favor introduzca una fecha de sep</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_14" xml:space="preserve">
+    <value>introduzca un código cie 10</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_15" xml:space="preserve">
+    <value>por favor introduzca un número de queja</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_16" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_17" xml:space="preserve">
+    <value>hubo un problema en la validación del número de póliza al generar sep del servidor bpjs. \ n por eso se ha generado una desconección sep</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_18" xml:space="preserve">
+    <value>número de sep ya fue generado</value>
+  </data>
+  <data name="PlatForm_CommonControls_GenerateSEPNo_ascx_19" xml:space="preserve">
+    <value>no hay número de póliza</value>
+  </data>
+  <data name="PlatForm_CommonControls_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_01" xml:space="preserve">
+    <value>por favor introduzca cualquier categoría de búsqueda</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_02" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="PlatForm_CommonControls_InPatientSearch_ascx_03" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>por favor introduzca el número de póliza. no puede estar vacío</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_02" xml:space="preserve">
+    <value>el porcentaje de copago deber ser entre 0 y 100</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_03" xml:space="preserve">
+    <value>registre los detalles de paciente interno..</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_04" xml:space="preserve">
+    <value>por favor seleccione el nombre del cliente elegible...</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_05" xml:space="preserve">
+    <value>por favor seleccione nombre de la tarifa válida ...</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_06" xml:space="preserve">
+    <value>por favor seleccione el nombre del cliente</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_07" xml:space="preserve">
+    <value>por favor seleccione nombre de la tarjeta de tarifas</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_08" xml:space="preserve">
+    <value>seleccione lógica de co-pago </value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_09" xml:space="preserve">
+    <value>seleccionar co-pago a deducir de</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_10" xml:space="preserve">
+    <value>seleccione tarjeta de tarifa elegible</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_11" xml:space="preserve">
+    <value>seleccione cliente</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_12" xml:space="preserve">
+    <value>¿desea cambiar el cliente??</value>
+  </data>
+  <data name="PlatForm_CommonControls_IPClientTpaInsurance_ascx_13" xml:space="preserve">
+    <value>seleccione el nombre del cliente elegible</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_05" xml:space="preserve">
+    <value>producto seleccionado está marcado como prohibido ¿todavía desea utilizarlo??</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_06" xml:space="preserve">
+    <value>el medicamento ya está prescrito. ¿desea continuar??</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_07" xml:space="preserve">
+    <value>nombre del medicamento y dosis ya existe!</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_08" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationControl_ascx_01" xml:space="preserve">
+    <value>investigación ya se ha agregado!</value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationControl_ascx_02" xml:space="preserve">
+    <value>You Cannot delfete the item which is already billed</value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationControl_ascx_03" xml:space="preserve">
+    <value>escribir el nombre de investigación</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_05" xml:space="preserve">
+    <value>por favor seleccione un tipo de tarjeta de la lista</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_06" xml:space="preserve">
+    <value>por favor seleccione una fecha válida</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_07" xml:space="preserve">
+    <value>sólo los caracteres alfanuméricos y los espacios son válidos en esta casilla</value>
+  </data>
+  <data name="PlatForm_CommonControls_MembershipCard_ascx_08" xml:space="preserve">
+    <value>ya existe en este número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_05" xml:space="preserve">
+    <value>consulta ya agregada!</value>
+  </data>
+  <data name="PlatForm_CommonControls_PackageProfileControl_ascx_06" xml:space="preserve">
+    <value>revisión de salud ya agregada!</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_05" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_06" xml:space="preserve">
+    <value>seleccione estado</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_07" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_08" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_AR_ascx_09" xml:space="preserve">
+    <value>proporcione número de móvil válido</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_05" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_06" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_07" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_ID_ascx_08" xml:space="preserve">
+    <value>proporcione el nombre de la calle / carretera en dirección actual</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_05" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_06" xml:space="preserve">
+    <value>seleccione estado</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_07" xml:space="preserve">
+    <value>seleccione los distritos</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_08" xml:space="preserve">
+    <value>seleccione ciudad</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientAddress_IN_ascx_09" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_02" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_05" xml:space="preserve">
+    <value>por favor seleccione el detalle de visita</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_06" xml:space="preserve">
+    <value>por favor proceda a través del enlace anterior del paciente</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_07" xml:space="preserve">
+    <value>esta acción no se puede realizar en los recién nacidos</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_08" xml:space="preserve">
+    <value>Please Enter Page No</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_09" xml:space="preserve">
+    <value>por favor introduzca número de página correcta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_10" xml:space="preserve">
+    <value>por favor seleccione el detalle de visita</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_11" xml:space="preserve">
+    <value>la factura de esta visita ya se ha fusionado</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_02" xml:space="preserve">
+    <value>escribir fecha válida.</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_03" xml:space="preserve">
+    <value>el {0} rango entre {1} y fahrenheit {2} fahrenheit</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_04" xml:space="preserve">
+    <value>el {0} rango entre {1} y {2}</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_05" xml:space="preserve">
+    <value>los valores {0} no pueden estar vacíos</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_06" xml:space="preserve">
+    <value>introduzca una fecha</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_07" xml:space="preserve">
+    <value>por favor introduzca un valor</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_08" xml:space="preserve">
+    <value>Already Exists</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>por favor introduzca número del cheque / tarjeta / letra de cambio</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_03" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_04" xml:space="preserve">
+    <value>por favor introduzca las unidades de cupón</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_05" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_06" xml:space="preserve">
+    <value>pago en efectivo ya agregado</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_07" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_08" xml:space="preserve">
+    <value>sólo se permite un modo de pago para el reembolso</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_09" xml:space="preserve">
+    <value>por favor ingrese monto mayor que 0</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_10" xml:space="preserve">
+    <value>tipo de pago y monto requerido</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_11" xml:space="preserve">
+    <value>seleccione típo moneda </value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_12" xml:space="preserve">
+    <value>por favor introduzca valor de los intereses para cuotas mensuales</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_13" xml:space="preserve">
+    <value>por favor introduzca el tenor de interés</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_14" xml:space="preserve">
+    <value>por favor introduzca el nombre de la sucursal</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_15" xml:space="preserve">
+    <value>la identificación de la transacción no debería estar vacía</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_16" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_17" xml:space="preserve">
+    <value>por favor introduzca la fecha válida de letra de cambio</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_18" xml:space="preserve">
+    <value>tarjeta / cheque / número dd ya existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_19" xml:space="preserve">
+    <value>Amont should be greater than zero</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_20" xml:space="preserve">
+    <value>Amuont should be greater than zero</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_21" xml:space="preserve">
+    <value>el nombre de pago ya existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_22" xml:space="preserve">
+    <value>por favor ingrese monto mayor que 0</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_23" xml:space="preserve">
+    <value>tipo de pago y monto requerido</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_24" xml:space="preserve">
+    <value>seleccione típo moneda </value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_25" xml:space="preserve">
+    <value>por favor introduzca fecha válida del cheque</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_26" xml:space="preserve">
+    <value>número de cheque / tarjeta ya existen</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_27" xml:space="preserve">
+    <value>la identificación de la transacción no debería estar vacía</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_28" xml:space="preserve">
+    <value>por favor introduzca valor de los intereses para cuotas mensuales</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_29" xml:space="preserve">
+    <value>Cash Payment mode already exists, Kindly edit then add amount</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_30" xml:space="preserve">
+    <value>monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="PlatForm_CommonControls_PaymentTypeDetails_ascx_cs_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_011" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_021" xml:space="preserve">
+    <value>opción</value>
+  </data>
+  <data name="PlatForm_CommonControls_QuickBillReferedPhysician_ascx_031" xml:space="preserve">
+    <value>seleccione uno</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_021" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_031" xml:space="preserve">
+    <value>opción</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferedPhysician_ascx_041" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReminderDisplay_ascx_021" xml:space="preserve">
+    <value>escribir la fecha diferido</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_021" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_031" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_041" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_051" xml:space="preserve">
+    <value>compruebe si la tarjeta ha sido expedida al paciente</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_021" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_031" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_041" xml:space="preserve">
+    <value>no hay artículos de cirugía para este paciente, agregar artículos de cirugía.</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_051" xml:space="preserve">
+    <value>monto debe ser mayor que cero</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_061" xml:space="preserve">
+    <value>por favor seleccione el artículo de la cirugía </value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_071" xml:space="preserve">
+    <value>tipo de pago y monto requerido</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_081" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_091" xml:space="preserve">
+    <value>por favor introduzca nombre del banco / tipo de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_101" xml:space="preserve">
+    <value>por favor introduzca el nombre de la sucursal</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_111" xml:space="preserve">
+    <value>por favor introduzca número del cheque / tarjeta / letra de cambio</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_121" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_131" xml:space="preserve">
+    <value>Please enter the Valid cheque Date</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_141" xml:space="preserve">
+    <value>Amont should be greater than zero</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_151" xml:space="preserve">
+    <value>el nombre de pago ya existe</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_161" xml:space="preserve">
+    <value>por favor introduzca cheque / número de tarjeta</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_171" xml:space="preserve">
+    <value>no hay artículos de cirugía para este paciente, agregar artículos de cirugía.</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_181" xml:space="preserve">
+    <value>lo sentimos el número de cheque o tarjeta ya existen</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_191" xml:space="preserve">
+    <value>Cheque no should be{0}numbers</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_201" xml:space="preserve">
+    <value>Card no should be last {0} numbers</value>
+  </data>
+  <data name="PlatForm_CommonControls_SurgeryAdvanceQuickBill_ascx_211" xml:space="preserve">
+    <value>cheque</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_011" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_021" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_031" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_041" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_TaskEscalation_ascx_051" xml:space="preserve">
+    <value>Are You Sure To Delete? This Action Will Delete The Task Also</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_01" xml:space="preserve">
+    <value>por favor introduzca nombre de grupo</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_02" xml:space="preserve">
+    <value>por favor introduzca nombre de investigación</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_03" xml:space="preserve">
+    <value>investigación guardada exitosamente...!</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_04" xml:space="preserve">
+    <value>error al guardar la investigación nueva...!</value>
+  </data>
+  <data name="PlatForm_CommonControls_UserHeader_ascx_05" xml:space="preserve">
+    <value>grupo de investigación guardado exitosamente...!</value>
+  </data>
+  <data name="PlatForm_Scripts_bid_js_01" xml:space="preserve">
+    <value>aaaaven</value>
+  </data>
+  <data name="PlatForm_CommonControls_URNControl_ascx_04" xml:space="preserve">
+    <value>escribir número de pasaporte</value>
+  </data>
+  <data name="PlatForm_CommonControls_URNControl_ascx_05" xml:space="preserve">
+    <value>escribir número de licencia</value>
+  </data>
+  <data name="PlatForm_CommonControls_DOBAndAge_ascx_02" xml:space="preserve">
+    <value>la edad no es exacta</value>
+  </data>
+  <data name="PlatForm_CommonControls_DOBAndAge_ascx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_DOBAndAge_ascx_04" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_CommonControls_DOBAndAge_ascx_05" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_16" xml:space="preserve">
+    <value>esta receta ha caducado, la tarea se eliminará!!!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_17" xml:space="preserve">
+    <value>esta tarea ya ha sido  seleccionada por otro usuario!!!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_18" xml:space="preserve">
+    <value>SMS Send to the Patient Successfully ..!</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_19" xml:space="preserve">
+    <value>There was problem in Sending SMS .. !</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_20" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_AlertMsg" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_InfoMsg" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_30" xml:space="preserve">
+    <value>Proceed via Today/'s Patient Link</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientSearch_ascx_31" xml:space="preserve">
+    <value>esto no se puede hacer en los recién nacidos</value>
+  </data>
+  <data name="PlatForm_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_IpDrugEntry_ascx_01" xml:space="preserve">
+    <value>nombre del medicamento ya existe</value>
+  </data>
+  <data name="PlatForm_Controls_ReferDoctor_ascx_01" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_Controls_ProcedureICD9_ascx_01" xml:space="preserve">
+    <value>seleccionar nombre del producto</value>
+  </data>
+  <data name="PlatForm_Controls_ProcedureICD9_ascx_02" xml:space="preserve">
+    <value>artículo ya agregado!</value>
+  </data>
+  <data name="PlatForm_CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="PlatForm_CommonControls_DateSelection_ascx_02" xml:space="preserve">
+    <value>proporcione fecha de inicio</value>
+  </data>
+  <data name="PlatForm_CommonControls_DateSelection_ascx_03" xml:space="preserve">
+    <value>proporcione fecha de término</value>
+  </data>
+  <data name="PlatForm_CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>Discount Amount Greater than 100%.</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_04" xml:space="preserve">
+    <value>no hay antecedentes de este examen.</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddMasterItem_ascx_01" xml:space="preserve">
+    <value>already exits...</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddMasterItem_ascx_02" xml:space="preserve">
+    <value>introduzca un nombre de artículo...</value>
+  </data>
+  <data name="PlatForm_CommonControls_AddMasterItem_ascx_03" xml:space="preserve">
+    <value>seleccione el tipo de procedimiento...</value>
+  </data>
+  <data name="PlatForm_CommonControls_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationSearchControl_ascx_01" xml:space="preserve">
+    <value>investigación ya se ha agregado!</value>
+  </data>
+  <data name="PlatForm_CommonControls_InvestigationSearchControl_ascx_02" xml:space="preserve">
+    <value>por favor seleccione investigación</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_01" xml:space="preserve">
+    <value>escribir descripción de procedimiento</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_02" xml:space="preserve">
+    <value>su cadena tiene caracteres no permitidos</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_03" xml:space="preserve">
+    <value>artículo ya existente</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_04" xml:space="preserve">
+    <value>detalles procedimiento guardados exitosamente</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_05" xml:space="preserve">
+    <value>detalles de procedimiento actualizados exitosamente</value>
+  </data>
+  <data name="PlatForm_CommonControls_ProcedureMaster_ascx_06" xml:space="preserve">
+    <value>guardado exitosamente.</value>
+  </data>
+  <data name="PlatForm_CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>por favor compruebe el descuento</value>
+  </data>
+  <data name="PlatForm_CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>por favor compruebe la monto recibido</value>
+  </data>
+  <data name="PlatForm_CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>para facturas de crédito, por favor seleccione el hospital</value>
+  </data>
+  <data name="PlatForm_CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>el total es incorrecto</value>
+  </data>
+  <data name="PlatForm_CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>monto introducido es mayor que el monto neto</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_13" xml:space="preserve">
+    <value>no hay historial para este paciente</value>
+  </data>
+  <data name="PlatForm_CommonControls_His_ascx_05" xml:space="preserve">
+    <value>por favor introduzca los detalles del historia</value>
+  </data>
+  <data name="PlatForm_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_21" xml:space="preserve">
+    <value>aún no se realiza un examen básico. continúe?</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_22" xml:space="preserve">
+    <value>las investigaciones de laboratorio aún no se han completado. continuar?</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_23" xml:space="preserve">
+    <value>aún no se realiza un chequeo. continuar?</value>
+  </data>
+  <data name="PlatForm_CommonControls_Tasks_ascx_24" xml:space="preserve">
+    <value>evaluación de desempeño aún no completada. continuar?</value>
+  </data>
+  <data name="PlatForm_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="PlatForm_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="PlatForm_CommonControls_SmartCard_ascx_52" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="PlatForm_CommonControls_UpdateVisitPerformer_ascx_01" xml:space="preserve">
+    <value>artículo ya agregado!</value>
+  </data>
+  <data name="PlatForm_CommonControls_UpdateVisitPerformer_ascx_02" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="PlatForm_Scripts_Un_DhebAdder_js_01" xml:space="preserve">
+    <value>proporcione un valor</value>
+  </data>
+  <data name="PlatForm_Scripts_Un_DhebAdder_js_02" xml:space="preserve">
+    <value>ya existe</value>
+  </data>
+  <data name="PlatForm_Scripts_Un_DhebAdder_js_03" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="PlatForm_CommonControls_ReferDoctor_ascx_01" xml:space="preserve">
+    <value>médico no encontrado</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_01" xml:space="preserve">
+    <value>detalles guardados exitosamente</value>
+  </data>
+  <data name="PlatForm_CommonControls_FinalGlassPrescription_ascx_02" xml:space="preserve">
+    <value>error en la actualización de detalles del examen</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_01" xml:space="preserve">
+    <value>no hay ningún pendiente para esta factura</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_02" xml:space="preserve">
+    <value>proporcione fecha válida</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_03" xml:space="preserve">
+    <value>la fecha no está en un formato válido</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_04" xml:space="preserve">
+    <value>fecha invalida. proporcione solamente una fecha futura</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_05" xml:space="preserve">
+    <value>las fecha de inicio y término no coinciden</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_06" xml:space="preserve">
+    <value>fecha invalida</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_07" xml:space="preserve">
+    <value>nombre de usuario de correo inválido</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_08" xml:space="preserve">
+    <value>la fecha de término debe ser mayor que o igual a la fecha de inicio</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_09" xml:space="preserve">
+    <value>el tiempo programado no es válido</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_10" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_100" xml:space="preserve">
+    <value>proporcione el número de teléfono fijo correcto</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_101" xml:space="preserve">
+    <value>el descuento no puede ser mayor que el monto</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_102" xml:space="preserve">
+    <value>proporcione la cantidad</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_103" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_104" xml:space="preserve">
+    <value>Please enter the round qty.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_105" xml:space="preserve">
+    <value>proporcione cantidad</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_106" xml:space="preserve">
+    <value>la parte de la receta no puede ser alterada ya que la tarea fue recogida en farmacia.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_107" xml:space="preserve">
+    <value>proporcione tipo de frecuencia</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_108" xml:space="preserve">
+    <value>proporcione la frecuencia</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_109" xml:space="preserve">
+    <value>proporcione la instrucción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_11" xml:space="preserve">
+    <value>mensual en</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_110" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_111" xml:space="preserve">
+    <value>proporcione instrucción para otros</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_112" xml:space="preserve">
+    <value>nombre del medicamento y dosis ya existe!</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_113" xml:space="preserve">
+    <value>por favor introduzca una instrucción!</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_114" xml:space="preserve">
+    <value>por favor seleccione nombre del médico</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_115" xml:space="preserve">
+    <value>Provide User name</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_116" xml:space="preserve">
+    <value>proporcione contraseña</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_117" xml:space="preserve">
+    <value>por favor actualice su navegador a la última versión de internet explorer</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_118" xml:space="preserve">
+    <value>proporcione el nombre del producto</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_119" xml:space="preserve">
+    <value>Provide the Formulation</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_12" xml:space="preserve">
+    <value>meses en el</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_120" xml:space="preserve">
+    <value>proporcione la frecuencia</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_121" xml:space="preserve">
+    <value>ya existe en este tipo urn</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_122" xml:space="preserve">
+    <value>ningún valor especificado. por favor compruebe el estado de la investigación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_123" xml:space="preserve">
+    <value>dirección de correo inválida.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_124" xml:space="preserve">
+    <value>el texto sobrepasa el límite permitido</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_125" xml:space="preserve">
+    <value>no permitido!</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_126" xml:space="preserve">
+    <value>no se permiten los caracteres especiales!</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_127" xml:space="preserve">
+    <value>Provide the Investigation</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_128" xml:space="preserve">
+    <value>Duplicate contact no. Do you want to continue ?  \n</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_129" xml:space="preserve">
+    <value>Are you sure You want to LogOut Now. Continue?</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_13" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_130" xml:space="preserve">
+    <value>Amount Received is Zero. Do you want to continue?</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_131" xml:space="preserve">
+    <value>¡nombre del medicamento genérico ya existe! ¿desea continuar?</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_14" xml:space="preserve">
+    <value>proporcione nombre del medicamento</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_15" xml:space="preserve">
+    <value>proporcione la formulación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_16" xml:space="preserve">
+    <value>proporcione frecuencia</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_17" xml:space="preserve">
+    <value>proporcione otra instrucción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_18" xml:space="preserve">
+    <value>proporcione dosis</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_19" xml:space="preserve">
+    <value>proporcione fecha</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_20" xml:space="preserve">
+    <value>ya existe</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_21" xml:space="preserve">
+    <value>escribir el</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_22" xml:space="preserve">
+    <value>ya existe el paciente con el mismo nombre y detalles de contacto. ingrese cambios y vuelva a intentarlo</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_23" xml:space="preserve">
+    <value>seleccionar el tipo de paciente</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_24" xml:space="preserve">
+    <value>seleccione tipo de empleado</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_25" xml:space="preserve">
+    <value>proporcione número de empleado</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_26" xml:space="preserve">
+    <value>seleccione nombre del empleador</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_27" xml:space="preserve">
+    <value>seleccione relación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_28" xml:space="preserve">
+    <value>proporcione el número de empleador</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_29" xml:space="preserve">
+    <value>seleccione tipo de extendido</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_30" xml:space="preserve">
+    <value>seleccionar tratamiento</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_31" xml:space="preserve">
+    <value>proporcione nombre</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_32" xml:space="preserve">
+    <value>proporcione aprobado por</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_33" xml:space="preserve">
+    <value>proporcione fecha de nacimiento o edad</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_34" xml:space="preserve">
+    <value>seleccione el estado civil</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_35" xml:space="preserve">
+    <value>Select sex</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_36" xml:space="preserve">
+    <value>proporcione dirección</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_37" xml:space="preserve">
+    <value>proporcione la ciudad</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_38" xml:space="preserve">
+    <value>Provide contact number</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_39" xml:space="preserve">
+    <value>seleccione el nombre de país</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_40" xml:space="preserve">
+    <value>seleccione el nombre del estado</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_41" xml:space="preserve">
+    <value>proporcione el número de urn</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_42" xml:space="preserve">
+    <value>seleccione el tipo urn</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_43" xml:space="preserve">
+    <value>seleccione el tipo de relación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_44" xml:space="preserve">
+    <value>seleccione el nombre de relación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_45" xml:space="preserve">
+    <value>proporcione cualquier número de contacto</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_46" xml:space="preserve">
+    <value>proporcione el nombre de la calle / carretera en dirección actual</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_47" xml:space="preserve">
+    <value>escribir la ciudad actual</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_48" xml:space="preserve">
+    <value>proporcione la dirección de correo electrónico</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_49" xml:space="preserve">
+    <value>Select a reason for Re-Issue of Smart Card</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_50" xml:space="preserve">
+    <value>buscar un fichero a cargar.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_51" xml:space="preserve">
+    <value>The file must have an extension of (.jpg, .png, .gif, .jpeg, .bmp)</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_52" xml:space="preserve">
+    <value>el tamaño máximo del fichero es de solamente 4 mb.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_53" xml:space="preserve">
+    <value>por favor seleccione un tipo de tarjeta de la lista</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_54" xml:space="preserve">
+    <value>introduzca un número de tarjeta</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_55" xml:space="preserve">
+    <value>por favor seleccione una fecha válida</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_56" xml:space="preserve">
+    <value>proporcione al menos un criterio de filtro</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_57" xml:space="preserve">
+    <value>seleccione el nombre del paciente</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_58" xml:space="preserve">
+    <value>esta acción no se puede realizar para el paciente cliente </value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_59" xml:space="preserve">
+    <value>proporcione la contraseña antigua</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_60" xml:space="preserve">
+    <value>proporcione nueva contraseña</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_61" xml:space="preserve">
+    <value>proporcione confirmación de contraseña</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_62" xml:space="preserve">
+    <value>longitud de la contraseña debe ser de un mínimo de 6 caracteres.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_63" xml:space="preserve">
+    <value>longitud máxima alcanzada. por favor compruebe la sugerencia de contraseña.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_64" xml:space="preserve">
+    <value>hay una discrepancia en la contraseña</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_65" xml:space="preserve">
+    <value>la nueva y la antigua contraseña no pueden ser la misma</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_66" xml:space="preserve">
+    <value>las reglas para contraseñas no coinciden. por favor revise las instrucciones para la contraseña.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_67" xml:space="preserve">
+    <value>la contraseña debe contener al menos un carácter especial, una letra y un número</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_68" xml:space="preserve">
+    <value>proporcione antigua contraseña de transacción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_69" xml:space="preserve">
+    <value>proporcione la nueva contraseña de transacción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_70" xml:space="preserve">
+    <value>proporcione confirmación de contraseña de transacción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_71" xml:space="preserve">
+    <value>la longitud de la contraseña de la transacción deberá tener como mínimo 6 caracteres.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_72" xml:space="preserve">
+    <value>longitud máxima alcanzada. por favor revise las instrucciones para la contraseña de transacción.</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_73" xml:space="preserve">
+    <value>la nueva y la antigua contraseña de transacción no pueden ser la misma</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_74" xml:space="preserve">
+    <value>la contraseña nueva y la contraseña de transacción no pueden ser la misma</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_75" xml:space="preserve">
+    <value>hay una discrepancia en la contraseña de transacción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_76" xml:space="preserve">
+    <value>directiva de contraseñas de transacciones no coincidente. por favor revise las instrucciones para la contraseña de transacción</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_77" xml:space="preserve">
+    <value>la contraseña de la transacción debe contener al menos un carácter especial, una letra y un número</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_78" xml:space="preserve">
+    <value>proporcione el valor para el paciente</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_79" xml:space="preserve">
+    <value>proporcione el valor para el control</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_80" xml:space="preserve">
+    <value>proporcione el nombre del paciente</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_81" xml:space="preserve">
+    <value>proporcione edad de los pacientes</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_82" xml:space="preserve">
+    <value>proporcione el tipo de urn</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_83" xml:space="preserve">
+    <value>seleccione el nombre médico</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_84" xml:space="preserve">
+    <value>proporcione el nombre del doctor</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_85" xml:space="preserve">
+    <value>seleccione hospital / sucursal </value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_86" xml:space="preserve">
+    <value>seleccione seguros</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_87" xml:space="preserve">
+    <value>seleccione cliente</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_88" xml:space="preserve">
+    <value>seleccione centro de recolección</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_89" xml:space="preserve">
+    <value>seleccione el modo de publicación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_90" xml:space="preserve">
+    <value>proporcione nombre</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_91" xml:space="preserve">
+    <value>proporcione la ciudad</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_92" xml:space="preserve">
+    <value>seleccione una factura</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_93" xml:space="preserve">
+    <value>proporcione la fecha de lmp</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_94" xml:space="preserve">
+    <value>proporcione recomendación</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_95" xml:space="preserve">
+    <value>seleccione la muestra</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_96" xml:space="preserve">
+    <value>seleccione atributos de muestra</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_97" xml:space="preserve">
+    <value>proporcione los valores de la muestra o comentario</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_98" xml:space="preserve">
+    <value>entrar</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_99" xml:space="preserve">
+    <value>escribir número de móvil válido</value>
+  </data>
+  <data name="PlatForm_CommonControls_Ambulance_ascx_01" xml:space="preserve">
+    <value>no se permite texto libre</value>
+  </data>
+  <data name="PlatForm_CommonControls_Ambulance_ascx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="PlatForm_CommonControls_InventoryAdvice_ascx_09" xml:space="preserve">
+    <value>la medicina seleccionada ya disponible en la receta previa</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_01" xml:space="preserve">
+    <value>Enter medical problem"</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_02" xml:space="preserve">
+    <value>escribir los detalles de clasificación internacional de enfermedades [cie]</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_03" xml:space="preserve">
+    <value>por favor seleccione nombre del médico</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_04" xml:space="preserve">
+    <value>ya se ha agregado queja!</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_05" xml:space="preserve">
+    <value>proporcione el código del cie</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_10" xml:space="preserve">
+    <value>¿está seguro de cambiar el diagnóstico existente??</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_11" xml:space="preserve">
+    <value>código cie 10 no encontrado ¿está seguro de continuar con el código icd existente??</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_12" xml:space="preserve">
+    <value>¿está seguro de continuar con el diagnóstico existente?</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_09" xml:space="preserve">
+    <value>The {0} Range Between {1} {2} and {3} {2}</value>
+  </data>
+  <data name="PlatForm_CommonControls_PatientVitals_ascx_10" xml:space="preserve">
+    <value>los valores {0} no pueden estar vacíos</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_06" xml:space="preserve">
+    <value>Is Newly diagnosed</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_07" xml:space="preserve">
+    <value>Primary Diagnosis</value>
+  </data>
+  <data name="Platform_CommonControls_ComplaintICDCode_ascx_08" xml:space="preserve">
+    <value>Secondary Diagnosis</value>
+  </data>
+  <data name="PlatForm_Scripts_Common_js_141" xml:space="preserve">
+    <value>This action cannot be performed due to no visit details</value>
+  </data>
+  <data name="PlatForm_Scripts_Refraction_js_01" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+  <data name="PlatForm_Scripts_Refraction_js_02" xml:space="preserve">
+    <value>error en la actualización de detalles del examen</value>
+  </data>
+  <data name="PlatForm_Scripts_Refraction_js_03" xml:space="preserve">
+    <value>error </value>
+  </data>
+  <data name="PlatForm_Scripts_Refraction_js_04" xml:space="preserve">
+    <value>Method Already Exists</value>
+  </data>
+  <data name="PlatForm_Scripts_Refraction_js_05" xml:space="preserve">
+    <value>Please Select All values in IOP</value>
+  </data>
+</root>

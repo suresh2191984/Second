@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_PhotoUpload_ascx_01" xml:space="preserve">
+    <value>subir</value>
+  </data>
+  <data name="CommonControls_PhotoUpload_ascx_02" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_02" xml:space="preserve">
+    <value>limpiar</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_03" xml:space="preserve">
+    <value>subir trf imagen</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_01" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_01" xml:space="preserve">
+    <value>número de paciente n / número de visita:</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_02" xml:space="preserve">
+    <value>paciente externo</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_03" xml:space="preserve">
+    <value>paciente enterno</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_04" xml:space="preserve">
+    <value>el paciente</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_05" xml:space="preserve">
+    <value>aún no es diagnosticado</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_06" xml:space="preserve">
+    <value>fecha hora</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_07" xml:space="preserve">
+    <value>ubicación de registro</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_08" xml:space="preserve">
+    <value>usuario impreso</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_09" xml:space="preserve">
+    <value>el número total de pacientes</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_10" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_11" xml:space="preserve">
+    <value>número de visita</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_12" xml:space="preserve">
+    <value>edad / género</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_13" xml:space="preserve">
+    <value>Visit DateTime</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_14" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_15" xml:space="preserve">
+    <value>Ref.Dr</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_16" xml:space="preserve">
+    <value>zona</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_17" xml:space="preserve">
+    <value>nombre usuario registrado</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_18" xml:space="preserve">
+    <value>descripción de la prueba</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_19" xml:space="preserve">
+    <value>no hay datos para exportar</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_20" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_21" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_22" xml:space="preserve">
+    <value>ambos</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_23" xml:space="preserve">
+    <value>ningún dato encontrado </value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_01" xml:space="preserve">
+    <value>ver registros</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_02" xml:space="preserve">
+    <value>historia de auditoría</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_03" xml:space="preserve">
+    <value>detalles de la lista de trabajo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_04" xml:space="preserve">
+    <value>trf</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_05" xml:space="preserve">
+    <value>foto</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_06" xml:space="preserve">
+    <value>Detalles de las notificaciones</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_07" xml:space="preserve">
+    <value>ver historial del paciente</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_08" xml:space="preserve">
+    <value>valor del dispositivo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_09" xml:space="preserve">
+    <value>detalles de las muestras</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_10" xml:space="preserve">
+    <value>detalles de registro</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_11" xml:space="preserve">
+    <value>historia y comentarios</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_12" xml:space="preserve">
+    <value>detalles de facturación </value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_13" xml:space="preserve">
+    <value>detalles de muestra y contenedores </value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_14" xml:space="preserve">
+    <value>detalles de reporte</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_15" xml:space="preserve">
+    <value>investigación solicitada para la visita del paciente</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_16" xml:space="preserve">
+    <value>nombre de la investigación</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_17" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_18" xml:space="preserve">
+    <value>detalles de la lista de trabajo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_19" xml:space="preserve">
+    <value>detalles de la notificación por mensaje de texto</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_20" xml:space="preserve">
+    <value>detalles de la notificación de Identificación de correo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_21" xml:space="preserve">
+    <value>fecha hora</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_22" xml:space="preserve">
+    <value>nombre de usuario</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_23" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_24" xml:space="preserve">
+    <value>actividad</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_25" xml:space="preserve">
+    <value>valor de prueba</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_26" xml:space="preserve">
+    <value>valor antiguo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_27" xml:space="preserve">
+    <value>valor actual</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_28" xml:space="preserve">
+    <value>detalles de comunicación</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_29" xml:space="preserve">
+    <value>revisar</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_30" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_31" xml:space="preserve">
+    <value>reprobar</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_32" xml:space="preserve">
+    <value>rc</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_33" xml:space="preserve">
+    <value>prueba de reflejo</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_34" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_35" xml:space="preserve">
+    <value>cerrado</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_36" xml:space="preserve">
+    <value>anulado</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_37" xml:space="preserve">
+    <value>cliente</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_38" xml:space="preserve">
+    <value>01-01-0001 12:00 AM</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_39" xml:space="preserve">
+    <value>recolección</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_40" xml:space="preserve">
+    <value>reflejos con la misma muestra</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_41" xml:space="preserve">
+    <value>visor de informes</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_01" xml:space="preserve">
+    <value>tiempo recibido de:</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_02" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_03" xml:space="preserve">
+    <value>tiempo reembolsado desde:</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_04" xml:space="preserve">
+    <value>ninguna cantidad recibida por el paciente de</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_05" xml:space="preserve">
+    <value>ninguna cantidad recibida</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_06" xml:space="preserve">
+    <value>no se efectuaron reembolsos</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_07" xml:space="preserve">
+    <value>pagos no realizados</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_08" xml:space="preserve">
+    <value>recibido por:</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_09" xml:space="preserve">
+    <value>esta factura ha sido cancelado</value>
+  </data>
+  <data name="Reception_BillSettlementIndividual_aspx_10" xml:space="preserve">
+    <value>esta factura ha sido reembolsada</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_01" xml:space="preserve">
+    <value>identificación del usuario:</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_02" xml:space="preserve">
+    <value>contraseña:</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_001" xml:space="preserve">
+    <value>buscar paciente</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_002" xml:space="preserve">
+    <value>cargando...</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_003" xml:space="preserve">
+    <value>por favor seleccionar un paciente</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_004" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_001" xml:space="preserve">
+    <value>formulario para combinar </value>
+  </data>
+  <data name="Reception_MergeForm_aspx_002" xml:space="preserve">
+    <value>unir</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_003" xml:space="preserve">
+    <value>desunir</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_01" xml:space="preserve">
+    <value>por favor seleccionar un paciente</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_01" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_03" xml:space="preserve">
+    <value>-----seleccionar-----</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_04" xml:space="preserve">
+    <value>escribir los detalles de la clínica nueva </value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_05" xml:space="preserve">
+    <value>seleccione una clínica para editar los detalles o haga clic en agregar a la nueva clínica.</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_01" xml:space="preserve">
+    <value>----seleccionar-----</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_02" xml:space="preserve">
+    <value>buscar detalles de médico existente o haga clic sobre añadir médico nuevo.</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_03" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_04" xml:space="preserve">
+    <value>escribir los detalles del médico nuevo </value>
+  </data>
+  <data name="Reception_Collections_aspx_01" xml:space="preserve">
+    <value>cliente</value>
+  </data>
+  <data name="Reception_Collections_aspx_02" xml:space="preserve">
+    <value>depósitos</value>
+  </data>
+  <data name="Reception_Collections_aspx_03" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_01" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_01" xml:space="preserve">
+    <value>esta cantidad está sujeta a</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_02" xml:space="preserve">
+    <value>% GST</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_03" xml:space="preserve">
+    <value>&lt;b&gt;Authorised Signature(for</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_04" xml:space="preserve">
+    <value>)&lt;/b&gt;</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_05" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Reception_PrintBill_aspx_06" xml:space="preserve">
+    <value>factura cancelada</value>
+  </data>
+  <data name="Reception_Reception_LabPatientRegistration_aspx_24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Reception_ViewBill_aspx_01" xml:space="preserve">
+    <value>paciente no.:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_02" xml:space="preserve">
+    <value>nombre del paciente:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_03" xml:space="preserve">
+    <value>género:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_04" xml:space="preserve">
+    <value>edad:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_05" xml:space="preserve">
+    <value>nro. de visita:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_06" xml:space="preserve">
+    <value>texto</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_07" xml:space="preserve">
+    <value>html</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_08" xml:space="preserve">
+    <value>&lt;u&gt;Item&lt;/u&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_09" xml:space="preserve">
+    <value>&lt;u&gt;Quantity&lt;/u&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_10" xml:space="preserve">
+    <value>&lt;u&gt;Rate&lt;/u&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_11" xml:space="preserve">
+    <value>&lt;u&gt;Amount&lt;/u&gt;</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_12" xml:space="preserve">
+    <value>razón de la cancelación</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_13" xml:space="preserve">
+    <value>imprimir la factura actual</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_14" xml:space="preserve">
+    <value>imprimir la factura antecedente</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_15" xml:space="preserve">
+    <value>esta cantidad está sujeta a</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_16" xml:space="preserve">
+    <value>% Impuesto sobre los bienes y servicios</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_17" xml:space="preserve">
+    <value>factura cancelada</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_18" xml:space="preserve">
+    <value>prioridad:</value>
+  </data>
+  <data name="Reception_ViewBill_aspx_19" xml:space="preserve">
+    <value>nota  de crédito</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_10" xml:space="preserve">
+    <value>---seleccionar Uno---</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_01" xml:space="preserve">
+    <value>url no encontrada</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Reception_BillSearch_aspx_03" xml:space="preserve">
+    <value>por favor seleccione una factura</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_05" xml:space="preserve">
+    <value>Agregar nuevo consultando clínica</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_13" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_06" xml:space="preserve">
+    <value>Hospital/Clínica/Laboratorio</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_06" xml:space="preserve">
+    <value>escribir nombre del médico</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_24" xml:space="preserve">
+    <value>Lista de comprobación de registro</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_25" xml:space="preserve">
+    <value>paciente  Número </value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_26" xml:space="preserve">
+    <value>no.  de contacto </value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_27" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_28" xml:space="preserve">
+    <value>Fecha de visita</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_29" xml:space="preserve">
+    <value>motivo de visita</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_30" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_31" xml:space="preserve">
+    <value>Está creada la factura</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_32" xml:space="preserve">
+    <value>estatus de visita</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_33" xml:space="preserve">
+    <value>típo de visita</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_34" xml:space="preserve">
+    <value>Número de URN</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_35" xml:space="preserve">
+    <value>Dirección  del cliente</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_36" xml:space="preserve">
+    <value>Detalles de la investigación</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_37" xml:space="preserve">
+    <value>Ver detalles</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_38" xml:space="preserve">
+    <value>fecha de la Primera colección</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_0067" xml:space="preserve">
+    <value>visita Buscar</value>
+  </data>
+</root>

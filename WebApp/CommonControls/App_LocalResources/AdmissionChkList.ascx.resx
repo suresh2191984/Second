@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckBox2Resource1.Text" xml:space="preserve">
+    <value>USG REPORT</value>
+  </data>
+  <data name="CheckBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox3Resource1.Text" xml:space="preserve">
+    <value>DISCHARGE SUMMARY</value>
+  </data>
+  <data name="CheckBox3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox4Resource1.Text" xml:space="preserve">
+    <value>ECG</value>
+  </data>
+  <data name="CheckBox4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox5Resource1.Text" xml:space="preserve">
+    <value>X-RAY FILM WITH REPORT</value>
+  </data>
+  <data name="CheckBox5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox6Resource1.Text" xml:space="preserve">
+    <value>IF OTHER PLEASE SPECIFY</value>
+  </data>
+  <data name="CheckBox6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Checkbox7Resource1.Text" xml:space="preserve">
+    <value>Blood Investigation</value>
+  </data>
+  <data name="Checkbox7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk1Resource1.Text" xml:space="preserve">
+    <value>ECHO</value>
+  </data>
+  <data name="chk1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAMAResource1.Text" xml:space="preserve">
+    <value>AMA</value>
+  </data>
+  <data name="lblAMAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAtRequestResource1.Text" xml:space="preserve">
+    <value>AtRequest</value>
+  </data>
+  <data name="lblAtRequestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCorporateResource1.Text" xml:space="preserve">
+    <value>Corporate</value>
+  </data>
+  <data name="lblCorporateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCuredResource1.Text" xml:space="preserve">
+    <value>Cured</value>
+  </data>
+  <data name="lblCuredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDischargeDateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDischargeDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDischargedByDMOResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDischargedByDMOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblECResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblECResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpiredResource1.Text" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="lblExpiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinalDiagnosisResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinalDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImprovedResource1.Text" xml:space="preserve">
+    <value>Improved</value>
+  </data>
+  <data name="lblImprovedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIndividualResource1.Text" xml:space="preserve">
+    <value>Individual</value>
+  </data>
+  <data name="lblIndividualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInsuranceResource1.Text" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="lblInsuranceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLLNResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLLNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMedicalDutyOfficerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMedicalDutyOfficerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMLCNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMLCNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameofWardNuRseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameofWardNuRseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperativeProceduresResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperativeProceduresResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrgAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrgAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrganizationNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrganizationNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtheRsResource1.Text" xml:space="preserve">
+    <value>If OtheRs(Please Specify)</value>
+  </data>
+  <data name="lblOtheRsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferringDrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferringDrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefPhysicianResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefPhysicianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRelationNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRelationNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResource1.Text" xml:space="preserve">
+    <value>Referred</value>
+  </data>
+  <data name="lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoomNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoomNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSexResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignDMOResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignDMOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignofWardNuRseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignofWardNuRseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnChangedResource1.Text" xml:space="preserve">
+    <value>UnChanged</value>
+  </data>
+  <data name="lblUnChangedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWardResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lblYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AdmissionDatetimeResource1.Text" xml:space="preserve">
+    <value>Admission Date &amp; time</value>
+  </data>
+  <data name="Rs_AdmissionDatetimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ADMISSIONSTATUSResource1.Text" xml:space="preserve">
+    <value>ADMISSION STATUS</value>
+  </data>
+  <data name="Rs_ADMISSIONSTATUSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AdmittingDoctorResource1.Text" xml:space="preserve">
+    <value>Admitting Doctor</value>
+  </data>
+  <data name="Rs_AdmittingDoctorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AgeSexResource1.Text" xml:space="preserve">
+    <value>Age / Sex</value>
+  </data>
+  <data name="Rs_AgeSexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ConsultantNameResource1.Text" xml:space="preserve">
+    <value>Consultant Name</value>
+  </data>
+  <data name="Rs_ConsultantNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ContactNoMobileResource1.Text" xml:space="preserve">
+    <value>Contact No (Mobile)</value>
+  </data>
+  <data name="Rs_ContactNoMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DateTimeResource1.Text" xml:space="preserve">
+    <value>Date&amp;Time :</value>
+  </data>
+  <data name="Rs_DateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DISCHARGEDATAResource1.Text" xml:space="preserve">
+    <value>DISCHARGE DATA</value>
+  </data>
+  <data name="Rs_DISCHARGEDATAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DischargeDatetimeResource1.Text" xml:space="preserve">
+    <value>Discharge Date &amp; time</value>
+  </data>
+  <data name="Rs_DischargeDatetimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DischargedByDMOResource1.Text" xml:space="preserve">
+    <value>Discharged By (DMO)</value>
+  </data>
+  <data name="Rs_DischargedByDMOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DISCHARGESTATUSResource1.Text" xml:space="preserve">
+    <value>DISCHARGE STATUS</value>
+  </data>
+  <data name="Rs_DISCHARGESTATUSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FatherHusbandGuardianResource1.Text" xml:space="preserve">
+    <value>Father / Husband / Guardian</value>
+  </data>
+  <data name="Rs_FatherHusbandGuardianResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_FinalDiagnosisResource1.Text" xml:space="preserve">
+    <value>Final Diagnosis</value>
+  </data>
+  <data name="Rs_FinalDiagnosisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ICDCodeResource1.Text" xml:space="preserve">
+    <value>ICD Code</value>
+  </data>
+  <data name="Rs_ICDCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ICPCodeResource1.Text" xml:space="preserve">
+    <value>ICP Code</value>
+  </data>
+  <data name="Rs_ICPCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_InCaseofEmergencyContactResource1.Text" xml:space="preserve">
+    <value>In Case of Emergency Contact</value>
+  </data>
+  <data name="Rs_InCaseofEmergencyContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_INPATIENTADMISSIONResource1.Text" xml:space="preserve">
+    <value>INPATIENT ADMISSION</value>
+  </data>
+  <data name="Rs_INPATIENTADMISSIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_IPNoResource1.Text" xml:space="preserve">
+    <value>IP No</value>
+  </data>
+  <data name="Rs_IPNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_LandLineNoResource1.Text" xml:space="preserve">
+    <value>Land Line No</value>
+  </data>
+  <data name="Rs_LandLineNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MLCNoResource1.Text" xml:space="preserve">
+    <value>MLC No</value>
+  </data>
+  <data name="Rs_MLCNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MLCResource1.Text" xml:space="preserve">
+    <value>MLC</value>
+  </data>
+  <data name="Rs_MLCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ModeofPaymentResource1.Text" xml:space="preserve">
+    <value>Mode of Payment</value>
+  </data>
+  <data name="Rs_ModeofPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NameInCapital1Resource1.Text" xml:space="preserve">
+    <value>(NAME IN CAPITAL)</value>
+  </data>
+  <data name="Rs_NameInCapital1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NAMEINCAPITAL2Resource1.Text" xml:space="preserve">
+    <value>(NAME IN CAPITAL)</value>
+  </data>
+  <data name="Rs_NAMEINCAPITAL2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NameofDutyWardNuRseResource1.Text" xml:space="preserve">
+    <value>Name of Duty Ward NuRse</value>
+  </data>
+  <data name="Rs_NameofDutyWardNuRseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NameofthePatientResource1.Text" xml:space="preserve">
+    <value>Name of the Patient</value>
+  </data>
+  <data name="Rs_NameofthePatientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OperativeProceduresResource1.Text" xml:space="preserve">
+    <value>Operative Procedures</value>
+  </data>
+  <data name="Rs_OperativeProceduresResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientIDResource1.Text" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="Rs_PatientIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientStatusattheResource1.Text" xml:space="preserve">
+    <value>Patient Status at the</value>
+  </data>
+  <data name="Rs_PatientStatusattheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PermanentAddressResource1.Text" xml:space="preserve">
+    <value>Permanent Address</value>
+  </data>
+  <data name="Rs_PermanentAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReferredDoctorResource1.Text" xml:space="preserve">
+    <value>Referred Doctor</value>
+  </data>
+  <data name="Rs_ReferredDoctorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_RelationshiptoPatientResource1.Text" xml:space="preserve">
+    <value>Relationship to Patient :</value>
+  </data>
+  <data name="Rs_RelationshiptoPatientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReportsIssuedByResource1.Text" xml:space="preserve">
+    <value>Reports Issued By :</value>
+  </data>
+  <data name="Rs_ReportsIssuedByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_REPORTSISSUEDResource1.Text" xml:space="preserve">
+    <value>REPORTS ISSUED</value>
+  </data>
+  <data name="Rs_REPORTSISSUEDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReportsReceivedByResource1.Text" xml:space="preserve">
+    <value>Reports Received By :</value>
+  </data>
+  <data name="Rs_ReportsReceivedByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_RoomNoResource1.Text" xml:space="preserve">
+    <value>Room No</value>
+  </data>
+  <data name="Rs_RoomNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SignatureofDMOResource1.Text" xml:space="preserve">
+    <value>Signature of DMO</value>
+  </data>
+  <data name="Rs_SignatureofDMOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SignatureofDutyWardNuRseResource1.Text" xml:space="preserve">
+    <value>Signature of Duty Ward NuRse</value>
+  </data>
+  <data name="Rs_SignatureofDutyWardNuRseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TemporaryAddressResource1.Text" xml:space="preserve">
+    <value>Temporary Address</value>
+  </data>
+  <data name="Rs_TemporaryAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_TimeofDischargeResource1.Text" xml:space="preserve">
+    <value>Time of Discharge</value>
+  </data>
+  <data name="Rs_TimeofDischargeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_WardResource1.Text" xml:space="preserve">
+    <value>Ward</value>
+  </data>
+  <data name="Rs_WardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

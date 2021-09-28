@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BaselineHistory1Resource1.Text" xml:space="preserve">
+    <value>Garis Dasar Riwayat</value>
+  </data>
+  <data name="btnAddResource1.Text" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnPatientDiagnoseResource1.Text" xml:space="preserve">
+    <value>Diagnosa Pasien</value>
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="chkBoosterResource1.Text" xml:space="preserve">
+    <value>Apakah Itu Sebuah Booster?</value>
+  </data>
+  <data name="chkIsBadResource1.Text" xml:space="preserve">
+    <value>Riwayat Buruk Kebidanan</value>
+  </data>
+  <data name="chkIsPrimiparaResource1.Text" xml:space="preserve">
+    <value>Primipara</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Minggu</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Tanggal Ultrasound</value>
+  </data>
+  <data name="lblAbortUsResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lblCalculatedEDDResource1.Text" xml:space="preserve">
+    <value>Hitung EDD</value>
+  </data>
+  <data name="lbldaysResource1.Text" xml:space="preserve">
+    <value>Hari</value>
+  </data>
+  <data name="lblDosesResource1.Text" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="lblDrugDoseResource1.Text" xml:space="preserve">
+    <value>Dosis Obat</value>
+  </data>
+  <data name="lblDrugNameResource1.Text" xml:space="preserve">
+    <value>Nama Obat</value>
+  </data>
+  <data name="lblEnterDateofLMPResource1.Text" xml:space="preserve">
+    <value>Tanggal LMP</value>
+  </data>
+  <data name="lblFrequencyResource1.Text" xml:space="preserve">
+    <value>Frekuensi</value>
+  </data>
+  <data name="LblGestResource1.Text" xml:space="preserve">
+    <value>Usia Gestational </value>
+  </data>
+  <data name="lblGravidaResource1.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="lblLiveResource1.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="lblmonthsyearsResource1.Text" xml:space="preserve">
+    <value>Bulan/Tahun</value>
+  </data>
+  <data name="lblmonthyears1Resource1.Text" xml:space="preserve">
+    <value>Bulan/Tahun</value>
+  </data>
+  <data name="lblMultiGestResource1.Text" xml:space="preserve">
+    <value>Beberapa Kehamilan</value>
+  </data>
+  <data name="lblOtherResource1.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="lblParaResource1.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="lblPlacentalResource1.Text" xml:space="preserve">
+    <value>Posisi Janin</value>
+  </data>
+  <data name="lblPregnancyResource1.Text" xml:space="preserve">
+    <value>Kehamilan</value>
+  </data>
+  <data name="lblTakingSinceResource1.Text" xml:space="preserve">
+    <value>Dimulai Sejak</value>
+  </data>
+  <data name="lblVaccResource1.Text" xml:space="preserve">
+    <value>Vaksinasi</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Diterima</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Untuk Mengkonfirmasi Ulang</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Konfirmasi Selanjutnya</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MaskedEditValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator1</value>
+  </data>
+  <data name="MaskedEditValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>MaskedEditValidator5</value>
+  </data>
+  <data name="MResource1.ErrorMessage" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Rs_AgeResource1.Text" xml:space="preserve">
+    <value>Usia</value>
+  </data>
+  <data name="Rs_AssociatedDiseases1Resource1.Text" xml:space="preserve">
+    <value>Penyakit Terkait</value>
+  </data>
+  <data name="Rs_AssociatedDiseasesResource1.Text" xml:space="preserve">
+    <value>Penyakit Terkait</value>
+  </data>
+  <data name="Rs_BaselineHistoryResource1.Text" xml:space="preserve">
+    <value>Garis Dasar Riwayat</value>
+  </data>
+  <data name="Rs_BirthMaturityResource1.Text" xml:space="preserve">
+    <value>Kedewasaan Lahir</value>
+  </data>
+  <data name="Rs_BirthWeightResource1.Text" xml:space="preserve">
+    <value>Berat Lahir</value>
+  </data>
+  <data name="Rs_BMIDResource1.Text" xml:space="preserve">
+    <value>BMID</value>
+  </data>
+  <data name="Rs_Booster1Resource1.Text" xml:space="preserve">
+    <value>Penggerak</value>
+  </data>
+  <data name="Rs_BoosterResource1.Text" xml:space="preserve">
+    <value>Penggerak</value>
+  </data>
+  <data name="Rs_ComplaintName1Resource1.Text" xml:space="preserve">
+    <value>Gambaran</value>
+  </data>
+  <data name="Rs_ComplaintNameResource1.Text" xml:space="preserve">
+    <value>Nama Pengaduan</value>
+  </data>
+  <data name="Rs_ComplicationNameResource1.Text" xml:space="preserve">
+    <value>Nama Komplikasi</value>
+  </data>
+  <data name="Rs_Doses1Resource1.Text" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="Rs_DosesResource1.Text" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="Rs_GrowthNormalResource1.Text" xml:space="preserve">
+    <value>Pertumbuhan Normal</value>
+  </data>
+  <data name="Rs_GrowthRateResource1.Text" xml:space="preserve">
+    <value>Rata - Rata Pertumbuhan</value>
+  </data>
+  <data name="Rs_Investigation1Resource1.Text" xml:space="preserve">
+    <value>Pemeriksaan </value>
+  </data>
+  <data name="Rs_InvestigationResource1.Text" xml:space="preserve">
+    <value>Pemeriksaan </value>
+  </data>
+  <data name="Rs_MODIDResource1.Text" xml:space="preserve">
+    <value>MODID</value>
+  </data>
+  <data name="Rs_MODResource1.Text" xml:space="preserve">
+    <value>M O D</value>
+  </data>
+  <data name="Rs_MonthResource1.Text" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="Rs_OrderMoreInvestigationsResource1.Text" xml:space="preserve">
+    <value>Perintahkan Pemeriksaan Lain</value>
+  </data>
+  <data name="Rs_PastVaccinations1Resource1.Text" xml:space="preserve">
+    <value>Vaksinasi Terdahulu</value>
+  </data>
+  <data name="Rs_PastVaccinationsResource1.Text" xml:space="preserve">
+    <value>Vaksinasi Terdahulu</value>
+  </data>
+  <data name="Rs_PatientVaccinationsResource1.Text" xml:space="preserve">
+    <value>Vaksinasi Pasien</value>
+  </data>
+  <data name="Rs_PatientVitals1Resource1.Text" xml:space="preserve">
+    <value> Data Vital Pasien </value>
+  </data>
+  <data name="Rs_PatientVitalsResource1.Text" xml:space="preserve">
+    <value> Data Vital Pasien </value>
+  </data>
+  <data name="Rs_PregnancyDetails1Resource1.Text" xml:space="preserve">
+    <value>Rincian Kehamilan</value>
+  </data>
+  <data name="Rs_PregnancyDetailsResource1.Text" xml:space="preserve">
+    <value>Rincian Kehamilan</value>
+  </data>
+  <data name="Rs_PreviousComplicatedPregnancies1Resource1.Text" xml:space="preserve">
+    <value>Komplikasi Sebelum Kehamilan</value>
+  </data>
+  <data name="Rs_PreviousComplicatedPregnanciesResource1.Text" xml:space="preserve">
+    <value>Komplikasi Sebelum Kehamilan</value>
+  </data>
+  <data name="Rs_SexofChildResource1.Text" xml:space="preserve">
+    <value>Jenis Kelamin Anak</value>
+  </data>
+  <data name="Rs_Ultrasonography1Resource1.Text" xml:space="preserve">
+    <value>Ultrasonograpi</value>
+  </data>
+  <data name="Rs_UltrasonographyResource1.Text" xml:space="preserve">
+    <value>Ultrasonograpi</value>
+  </data>
+  <data name="Rs_Vaccination1Resource1.Text" xml:space="preserve">
+    <value>Vaksinasi</value>
+  </data>
+  <data name="Rs_VaccinationID1Resource1.Text" xml:space="preserve">
+    <value>ID Vaksinasi</value>
+  </data>
+  <data name="Rs_VaccinationIDResource1.Text" xml:space="preserve">
+    <value>	ID vaksinasi	</value>
+  </data>
+  <data name="Rs_VaccinationResource1.Text" xml:space="preserve">
+    <value>	vaksinasi	</value>
+  </data>
+  <data name="Rs_YearResource1.Text" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="BaselineHistory1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatientDiagnoseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBoosterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInvestigationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIsBadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIsPrimiparaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpMultiGestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPlacentalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPregnancyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpVaccinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpweeksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalc1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalc1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcDtResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcDtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgBntCalcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbortUsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalculatedEDDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDosesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDrugDoseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDrugNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterDateofLMPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFrequencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblGestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGravidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmonthsyearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmonthyears1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMultiGestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlacentalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPregnancyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTakingSinceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVaccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaskedEditValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AssociatedDiseases1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AssociatedDiseasesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BaselineHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BirthMaturityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BirthWeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BMIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Booster1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BoosterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ComplaintName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ComplaintNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ComplicationNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Doses1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DosesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_GrowthNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_GrowthRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Investigation1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_InvestigationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MODIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MODResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_OrderMoreInvestigationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PastVaccinations1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PastVaccinationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientVaccinationsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientVitals1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientVitalsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PregnancyDetails1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PregnancyDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PreviousComplicatedPregnancies1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PreviousComplicatedPregnanciesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SexofChildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Ultrasonography1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_UltrasonographyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_Vaccination1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_VaccinationID1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_VaccinationIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_VaccinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_YearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tLMPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tLMPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbortUsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAbortUsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalculatedEDDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalculatedEDDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDateOfUltraSoundResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDateOfUltraSoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDosesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDosesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugDose1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugDose1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugDoseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugDoseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDrugNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFrequency1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFrequency1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFrequencyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFrequencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGravidaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGravidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLiveResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOther1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOther1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtParaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtParaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTakingSince1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTakingSince1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTakingSinceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTakingSinceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

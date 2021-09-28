@@ -1,0 +1,25 @@
+﻿<div class="table-responsive marginB6" ng-show="billContents.length>0">
+    <table class="table table-condensed table-bordered lab-test-table Noborder-imp">
+        <thead class="custbdrThead">
+            <tr>
+                <th class="a-center">S.No</th>
+                <th class="a-left">Service Name</th>
+                <th class="a-left">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in billContents track by $index">
+                <td class="a-center">{{$index + 1}} </td>
+                <td class="a-left">
+                    {{item.InvestigationName}}
+                </td>
+                <td class="a-left">
+                    {{item.Status}}
+                </td>
+            </tr>
+            <tr ng-show="(billdata.length==0)">
+                <td colspan="7">No Data</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

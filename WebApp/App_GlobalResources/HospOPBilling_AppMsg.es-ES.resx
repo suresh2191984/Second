@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HospOPBilling_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospOPBilling_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="HospOPBilling_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospOPBilling_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospOPBilling_InvestigationPayment_aspx_01" xml:space="preserve">
+    <value>seleccionar paciente</value>
+  </data>
+  <data name="HospOPBilling_InvestigationPayment_aspx_02" xml:space="preserve">
+    <value>el monto a pagar no puede ser recogidos para el paciente existente</value>
+  </data>
+  <data name="HospOPBilling_InvestigationPayment_aspx_03" xml:space="preserve">
+    <value>registro no encontrado</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_01" xml:space="preserve">
+    <value>Amount Can not be greater than Requested Amount</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_02" xml:space="preserve">
+    <value>Add the refund amount!</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_03" xml:space="preserve">
+    <value>Enter amount is cannot less than refundable amount!</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_04" xml:space="preserve">
+    <value>¿Desea Imprimir?</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_05" xml:space="preserve">
+    <value>Amount provided is greater than the net amount</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_06" xml:space="preserve">
+    <value>Task Rejected by {0}</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_07" xml:space="preserve">
+    <value>Error in Updation!</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_08" xml:space="preserve">
+    <value>Task Successfully Assigned to {0}</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_09" xml:space="preserve">
+    <value>Task Rejected Successfully</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_10" xml:space="preserve">
+    <value>Error in Task Creation</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_11" xml:space="preserve">
+    <value>Amount Successfully Refunded to  {0}</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_12" xml:space="preserve">
+    <value>Services canceled successfully</value>
+  </data>
+  <data name="HospOPBilling_PerformRefund_aspx_13" xml:space="preserve">
+    <value>Error in Approve Process</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_01" xml:space="preserve">
+    <value>monto no puede ser mayor que monto facturado</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_02" xml:space="preserve">
+    <value>Provide the Authorised person name</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_03" xml:space="preserve">
+    <value>Select atleast one Bill Item</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_04" xml:space="preserve">
+    <value>Enter the selected items amount</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_05" xml:space="preserve">
+    <value>Select the amount enter items</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_06" xml:space="preserve">
+    <value>Add the refund amount!</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_07" xml:space="preserve">
+    <value>Enter amount is cannot less than refundable amount!</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_08" xml:space="preserve">
+    <value>Amount Cannot be greater than cash in hand</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_09" xml:space="preserve">
+    <value>Amount provided is greater than the net amount</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_10" xml:space="preserve">
+    <value>Task Assigned to {0}</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_11" xml:space="preserve">
+    <value>Error while refund</value>
+  </data>
+  <data name="HospOPBilling_RefundtoPatient_aspx_12" xml:space="preserve">
+    <value>Refund will be Assigned. Do you wish to continue?</value>
+  </data>
+  <data name="HospOPBilling_Controls_DateSelection_ascx_01" xml:space="preserve">
+    <value>elija un rango de fechas</value>
+  </data>
+  <data name="HospOPBilling_Controls_DateSelection_ascx_02" xml:space="preserve">
+    <value>proporcione fecha de inicio</value>
+  </data>
+  <data name="HospOPBilling_Controls_DateSelection_ascx_03" xml:space="preserve">
+    <value>proporcione fecha de término</value>
+  </data>
+  <data name="HospOPBilling_Controls_ReferralsINV_ascx_01" xml:space="preserve">
+    <value>por favor introduzca descripción de la tarifa </value>
+  </data>
+  <data name="HospOPBilling_Controls_ReferralsINV_ascx_02" xml:space="preserve">
+    <value>por favor elija el tipo de monto</value>
+  </data>
+  <data name="HospOPBilling_Controls_ReferralsINV_ascx_03" xml:space="preserve">
+    <value>por favor seleccione el médico para etiquetar</value>
+  </data>
+  <data name="HospOPBilling_Controls_ReferralsINV_ascx_04" xml:space="preserve">
+    <value>escrito nombre del médico no existe</value>
+  </data>
+  <data name="HospOPBilling_Controls_ReferralsINV_ascx_05" xml:space="preserve">
+    <value>por favor introduzca el monto de tarifa </value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_01" xml:space="preserve">
+    <value>confirmar</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_02" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_03" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_04" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_05" xml:space="preserve">
+    <value>el descuento no puede ser mayor que el monto</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_06" xml:space="preserve">
+    <value>monto de descuento es mayor que coste bruto</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_07" xml:space="preserve">
+    <value>Provide description for miscellaneous</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_08" xml:space="preserve">
+    <value>Provide miscellaneous amount</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_09" xml:space="preserve">
+    <value>monto prestados es mayor que el monto neto</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_10" xml:space="preserve">
+    <value>por favor introduzca descripción de la tarifa </value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_11" xml:space="preserve">
+    <value>por favor elija el tipo de monto</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_12" xml:space="preserve">
+    <value>Select the Service from the available list;If Need to add non-existing service,\n Order the same under Miscellaneous Type</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_13" xml:space="preserve">
+    <value>hubo un problema en la validación del número de póliza al generar sep del servidor bpjs. \ n por eso se ha generado una desconección sep</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_14" xml:space="preserve">
+    <value>SISTEM ERROR \n Deskripsi: Signature tidak valid \n Tindakan lanjut: Sila hubungi pihak administrator BPJS</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_15" xml:space="preserve">
+    <value>SISTEM ERROR \n Deskripsi: Data tidak bisa di proses \n Tindakan lanjut: Sila coba beberapa saat lagi</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_16" xml:space="preserve">
+    <value>SISTEM ERROR \n Deskripsi: Data tidak bisa di proses \n Tindakan lanjut:  Sila hubungi pihak administrator BPJS</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_17" xml:space="preserve">
+    <value>SISTEM ERROR \n Deskripsi: Data tidak di temukan \n Tindakan lanjut:  Sila periksa kembali entria</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_18" xml:space="preserve">
+    <value>SISTEM ERROR  \n Tindakan lanjut:  Sila periksa kembali entrian</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_19" xml:space="preserve">
+    <value>SISTEM ERROR \n Tindakan lanjut: Sila hubungi pihak administrator BPJS</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_20" xml:space="preserve">
+    <value>Please Select a RateCard</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_21" xml:space="preserve">
+    <value>monto de descuento no puede ser mayor que el monto bruto</value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_01" xml:space="preserve">
+    <value>por favor introduzca descripción de la tarifa </value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_02" xml:space="preserve">
+    <value>Please Enter Date</value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_03" xml:space="preserve">
+    <value>por favor elija el tipo de monto</value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_04" xml:space="preserve">
+    <value>Select the Service from the available list;If Need to add non-existing service,\n Order the same under Miscellaneous Type</value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_05" xml:space="preserve">
+    <value>No Items</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_01" xml:space="preserve">
+    <value>el descuento no puede ser mayor que el monto</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_02" xml:space="preserve">
+    <value>monto no debe ser mayor que el monto adeudado</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_03" xml:space="preserve">
+    <value>Amount provided is greater than the net amount</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_04" xml:space="preserve">
+    <value>seleccione la razón descuento</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_05" xml:space="preserve">
+    <value>Plase Enter Discount reason</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_06" xml:space="preserve">
+    <value>Select the bill item</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_07" xml:space="preserve">
+    <value>Enter the Payable amount</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_08" xml:space="preserve">
+    <value>Enter the Payment amount</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_09" xml:space="preserve">
+    <value>monto de descuento no puede ser mayor que el monto bruto</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_10" xml:space="preserve">
+    <value>monto de descuento es mayor que coste bruto</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_11" xml:space="preserve">
+    <value>por favor seleccione el descuento autorizado de la lista</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_12" xml:space="preserve">
+    <value>por favor introduzca autorizado por</value>
+  </data>
+  <data name="HospOPBilling_CollectDueAmount_aspx_13" xml:space="preserve">
+    <value>no se ha cobrado el total adeudado</value>
+  </data>
+  <data name="HospOPBilling_Controls_RefundReceiptSearch_ascx_01" xml:space="preserve">
+    <value>Provide value for one of the fields</value>
+  </data>
+  <data name="HospOPBilling_Controls_RefundReceiptSearch_ascx_02" xml:space="preserve">
+    <value>Name must have atleast three characters</value>
+  </data>
+  <data name="HospOPBilling_Controls_RefundReceiptSearch_ascx_03" xml:space="preserve">
+    <value>¿Desea Imprimir?</value>
+  </data>
+  <data name="HospOPBilling_CheckPayment_aspx_06" xml:space="preserve">
+    <value>Failure while saving the transaction. Please try again.</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_22" xml:space="preserve">
+    <value>Failure while saving the transaction. Please try again</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_23" xml:space="preserve">
+    <value>Selet Discount Type</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_24" xml:space="preserve">
+    <value>Discount Type already selected</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_25" xml:space="preserve">
+    <value>Enter the discount amount</value>
+  </data>
+  <data name="HospOPBilling_Billing_aspx_26" xml:space="preserve">
+    <value>Enter Amount greater than Total Item Amount</value>
+  </data>
+</root>

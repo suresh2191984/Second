@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkAsinocytesisResource1.Text" xml:space="preserve">
+    <value>Anisocytosis</value>
+  </data>
+  <data name="chkpoikilocytesisResource1.Text" xml:space="preserve">
+    <value>Poikilocytosis</value>
+  </data>
+  <data name="chkPolychromasiaResource1.Text" xml:space="preserve">
+    <value>Polychromasia</value>
+  </data>
+  <data name="lblCaptionResource1.Text" xml:space="preserve">
+    <value>Differential Count</value>
+  </data>
+  <data name="lblImmCellsResource1.Text" xml:space="preserve">
+    <value>WBC Immature Cells</value>
+  </data>
+  <data name="lblMalignantscellResource1.Text" xml:space="preserve">
+    <value>WBC Malignant cells</value>
+  </data>
+  <data name="lblmorphologyResource1.Text" xml:space="preserve">
+    <value>Morphology</value>
+  </data>
+  <data name="lblName1Resource1.Text" xml:space="preserve">
+    <value>Lymphocytes</value>
+  </data>
+  <data name="lblName2Resource1.Text" xml:space="preserve">
+    <value>Monocytes</value>
+  </data>
+  <data name="lblName3Resource1.Text" xml:space="preserve">
+    <value>Neutrophils</value>
+  </data>
+  <data name="lblName4Resource1.Text" xml:space="preserve">
+    <value>Eosinophils</value>
+  </data>
+  <data name="lblName5Resource1.Text" xml:space="preserve">
+    <value>Basophils</value>
+  </data>
+  <data name="lblName6Resource1.Text" xml:space="preserve">
+    <value>Bands</value>
+  </data>
+  <data name="lblName7Resource1.Text" xml:space="preserve">
+    <value>Metamyelocytes</value>
+  </data>
+  <data name="lblName8Resource1.Text" xml:space="preserve">
+    <value>PDW</value>
+  </data>
+  <data name="lblName9Resource1.Text" xml:space="preserve">
+    <value>RDW</value>
+  </data>
+  <data name="lblparasitesResource1.Text" xml:space="preserve">
+    <value>Parasites</value>
+  </data>
+  <data name="lblPlateletsResource1.Text" xml:space="preserve">
+    <value>Platelets</value>
+  </data>
+  <data name="lblpltDistributionResource1.Text" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="lblpltMorphologyResource1.Text" xml:space="preserve">
+    <value>Morphology</value>
+  </data>
+  <data name="lblRbcDistributionResource1.Text" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="lblRedcellsResource1.Text" xml:space="preserve">
+    <value>RedCells</value>
+  </data>
+  <data name="lblSpecificpatternsResource1.Text" xml:space="preserve">
+    <value>Specific Patterns</value>
+  </data>
+  <data name="lblTotalCountResource1.Text" xml:space="preserve">
+    <value>Total Count</value>
+  </data>
+  <data name="lblWbcCountResource1.Text" xml:space="preserve">
+    <value>WBC Count</value>
+  </data>
+  <data name="lblwbcDistributionResource1.Text" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="lblWBCResource1.Text" xml:space="preserve">
+    <value>WBC</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Malarial</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>Malarial</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>Filarial</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>Filarial</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>AbNormal</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="lnkEditResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Rs_CommentsResource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Rs_ReferenceRange1Resource1.Text" xml:space="preserve">
+    <value>Reference Range</value>
+  </data>
+  <data name="Rs_ReferenceRangeResource1.Text" xml:space="preserve">
+    <value>Reference Range</value>
+  </data>
+  <data name="Rs_StatusResource1.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="chkAsinocytesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkpoikilocytesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPolychromasiaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddldistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlNormalRedcellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlParasitesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlredcellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWbcCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImmCellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMalignantscellResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblName9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblparasitesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlateletsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpltDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpltMorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRbcDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRedcellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpecificpatternsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUom9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWbcCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwbcDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWBCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlImmatureCellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlMalignantscellResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlparasitesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlpltDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlpltmorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlRbcDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlrbcMorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdlwbcDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_CommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReferenceRange1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReferenceRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAsinoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAsinoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImmatureCellsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImmatureCellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMalignantcellsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMalignantcellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOthersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpltDistributionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpltDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpltmorphologyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpltmorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpoikilocytesisResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtpoikilocytesisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPolychromasiaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPolychromasiaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefRangeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtspepcificpatternsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtspepcificpatternsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwbcDistributionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwbcDistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

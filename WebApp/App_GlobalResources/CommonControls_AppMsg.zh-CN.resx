@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_AuditHistory_ascx_06" xml:space="preserve">
+    <value>登录详细信息</value>
+  </data>
+  <data name="CommonControls_AuditHistory_ascx_07" xml:space="preserve">
+    <value>用户详细信息</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>折扣金额大于100％。</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>超过转介医生贴现额度此期间，将无法提供进一步的折扣。</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value>超过员工折扣限制此期间，将无法提供进一步的折扣。</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>请输入手机号码</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>请输入卡号</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_01" xml:space="preserve">
+    <value>请选择寄件者</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_02" xml:space="preserve">
+    <value>请选择TODATE</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_03" xml:space="preserve">
+    <value>选定的日期必须大于或的currentdate大的currentdate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_04" xml:space="preserve">
+    <value>选定的日期必须大于或的currentdate较少的currentdate</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_05" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_06" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_07" xml:space="preserve">
+    <value>发票如期成功</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_08" xml:space="preserve">
+    <value>没有票据添加到该客户端</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_09" xml:space="preserve">
+    <value>其只对手工发票</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>无效ICD码。你想继续吗？</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_02" xml:space="preserve">
+    <value>进入医学问题</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_03" xml:space="preserve">
+    <value>投诉已经添加过！</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_01" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_02" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_03" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_04" xml:space="preserve">
+    <value>请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）</value>
+  </data>
+  <data name="CommonControls_FileUpload_ascx_05" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="CommonControls_Header_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_01" xml:space="preserve">
+    <value>调查已经添加！</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_02" xml:space="preserve">
+    <value>请选择调查</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_03" xml:space="preserve">
+    <value>你不能delfete这是已经结算的项目</value>
+  </data>
+  <data name="CommonControls_InvestigationControl_ascx_04" xml:space="preserve">
+    <value>输入姓名调查</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>请选择客户端名称</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_02" xml:space="preserve">
+    <value>请选择价目表名称</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_03" xml:space="preserve">
+    <value>选择共同支付逻辑</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_04" xml:space="preserve">
+    <value>选择共同支付从被扣除</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_05" xml:space="preserve">
+    <value>选择客户端</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_06" xml:space="preserve">
+    <value>单击“是”将改变这种访问新的关税以前所有的账单;单击“否”将导致随后的法案有新的关税。点击“取消”，如果你不想改变什么</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_07" xml:space="preserve">
+    <value>0到100之间的共付比例绝</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_08" xml:space="preserve">
+    <value>请注册住院部详细..</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_09" xml:space="preserve">
+    <value>请选择符合条件的客户端名称...</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_10" xml:space="preserve">
+    <value>请选择认可房价名称...</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_11" xml:space="preserve">
+    <value>请选择客户端名称</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_12" xml:space="preserve">
+    <value>请选择价目表名称</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_13" xml:space="preserve">
+    <value>选择共同支付逻辑</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_14" xml:space="preserve">
+    <value>选择共同支付从被扣除</value>
+  </data>
+  <data name="CommonControls_OrgHeader_aspx_01" xml:space="preserve">
+    <value>你确定要注销？</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>成功保存！</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>请输入备注保存</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>请输入喜好添加</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>请输入支票/卡号</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>请输入银行名称/卡类型</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_03" xml:space="preserve">
+    <value>请输入优惠券单位</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_04" xml:space="preserve">
+    <value>量应当大于零</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_05" xml:space="preserve">
+    <value>请输入金额大于0</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_06" xml:space="preserve">
+    <value>付款方式和所需金额</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_07" xml:space="preserve">
+    <value>请输入基准利率的EMI</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_08" xml:space="preserve">
+    <value>请输入利息的男高音</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_09" xml:space="preserve">
+    <value>支票号码应该是最后一次</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_10" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_11" xml:space="preserve">
+    <value>无卡应该是最后一次</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_12" xml:space="preserve">
+    <value>请输入有效的检查日期</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_13" xml:space="preserve">
+    <value>请输入有效入住日期</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_14" xml:space="preserve">
+    <value>现金支付模式已经存在，请修改，然后添加量</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_15" xml:space="preserve">
+    <value>付款名称已经存在</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>提前量不能退款</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>共支付金额不能退款</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_03" xml:space="preserve">
+    <value>出院病人收据不能退款</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_04" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_05" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_06" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>样品已经存在</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>选择部门名称！</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>提供部门名称！</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>提供部门代码！</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>请选择角色</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value>请选择部门</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_06" xml:space="preserve">
+    <value>选择部门</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_07" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_08" xml:space="preserve">
+    <value>内容上移！</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_09" xml:space="preserve">
+    <value>内容感动！</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_10" xml:space="preserve">
+    <value>内容下移！</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_01" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_02" xml:space="preserve">
+    <value>你确定要注销？</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_03" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_04" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="CommonControls_Footer_ascx_01" xml:space="preserve">
+    <value>只要</value>
+  </data>
+  <data name="CommonControls_Footer_ascx_02" xml:space="preserve">
+    <value>允许的字符。</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_01" xml:space="preserve">
+    <value>选定的日期必须大于或的currentdate大的currentdate</value>
+  </data>
+  <data name="CommonControls_LocationUserMap_ascx_02" xml:space="preserve">
+    <value>选择角色</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>选择要移除的项目</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>选择一个项目增加</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_04" xml:space="preserve">
+    <value>最小输入2个字母</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_05" xml:space="preserve">
+    <value>最小输入3个字母</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_06" xml:space="preserve">
+    <value>选择调查主项</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_07" xml:space="preserve">
+    <value>选择组映射项目</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_08" xml:space="preserve">
+    <value>创建新套餐</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_09" xml:space="preserve">
+    <value>添加内容打包</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_10" xml:space="preserve">
+    <value>输入包名称</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_11" xml:space="preserve">
+    <value>咨询已经添加过！</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_12" xml:space="preserve">
+    <value>健康检查已经添加过！</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_01" xml:space="preserve">
+    <value>请选择访问细节</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_02" xml:space="preserve">
+    <value>请通过今天的病人继续进行链接</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_03" xml:space="preserve">
+    <value>不能对新生婴儿进行此操作</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_04" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_05" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_06" xml:space="preserve">
+    <value>请选择参观详细</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_07" xml:space="preserve">
+    <value>这次访问是比尔已经合并</value>
+  </data>
+  <data name="CommonControls_ReminderDisplay_ascx_01" xml:space="preserve">
+    <value>进入推迟日期</value>
+  </data>
+  <data name="CommonControls_TaskEscalation_ascx_01" xml:space="preserve">
+    <value>您确定要删除？此操作将删除该任务也</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_01" xml:space="preserve">
+    <value>无法保存测试细节高手！</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_02" xml:space="preserve">
+    <value>选择备注型，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_03" xml:space="preserve">
+    <value>选择此言一出，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_04" xml:space="preserve">
+    <value>选定的测试是不可订购，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_05" xml:space="preserve">
+    <value>选定的测试已经存在，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_06" xml:space="preserve">
+    <value>选择一个测试，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_07" xml:space="preserve">
+    <value>无法删除，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_08" xml:space="preserve">
+    <value>所选的言论已经存在，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_09" xml:space="preserve">
+    <value>请提供理由，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_10" xml:space="preserve">
+    <value>进入处理时间价值，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_11" xml:space="preserve">
+    <value>输入显示文字，</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_12" xml:space="preserve">
+    <value>输入备注代码</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_13" xml:space="preserve">
+    <value>输入新备注</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_14" xml:space="preserve">
+    <value>添加成功</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_15" xml:space="preserve">
+    <value>代码已经存在</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_16" xml:space="preserve">
+    <value>错误！未插入</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_17" xml:space="preserve">
+    <value>已成功更新</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_18" xml:space="preserve">
+    <value>已经存在</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_19" xml:space="preserve">
+    <value>哎呀！出错</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_20" xml:space="preserve">
+    <value>选择范围类型</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_21" xml:space="preserve">
+    <value>范围内已经存在</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_22" xml:space="preserve">
+    <value>只能有一个主记录是可能的</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_23" xml:space="preserve">
+    <value>选择ROLENAME第一</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_24" xml:space="preserve">
+    <value>选择医生</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_25" xml:space="preserve">
+    <value>测试代码离不开设备映射</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_26" xml:space="preserve">
+    <value>需要ATLEAST一个值</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_27" xml:space="preserve">
+    <value>同时改变的细节原因需要</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_28" xml:space="preserve">
+    <value>选择注册地点</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_29" xml:space="preserve">
+    <value>选择加工位置值</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_30" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_31" xml:space="preserve">
+    <value>注册地点已存在</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_001" xml:space="preserve">
+    <value>请检查您提供的确认 - 我读这条消息。</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_002" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_003" xml:space="preserve">
+    <value>请输入正确的访问号码</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_004" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_005" xml:space="preserve">
+    <value>访问数：</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>检查智能卡是否发放给病人</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_01" xml:space="preserve">
+    <value>请检查员工人数</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_02" xml:space="preserve">
+    <value>请输入员工号</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_03" xml:space="preserve">
+    <value>对外提供病人ID号</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_04" xml:space="preserve">
+    <value>提供家属号</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_05" xml:space="preserve">
+    <value>提供关系型</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_06" xml:space="preserve">
+    <value>外部外部不加</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_07" xml:space="preserve">
+    <value>请关联外部病人家属</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_08" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_09" xml:space="preserve">
+    <value>更新Faild。</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_10" xml:space="preserve">
+    <value>外部和家属患者姓名相同“</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_11" xml:space="preserve">
+    <value>员工人数已经存在。请重新输入</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_12" xml:space="preserve">
+    <value>选择个人已注册为病人。请继续做访问</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>请检查折扣</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>请检查收到的金额</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>如果信用比尔，请选择医院</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>总容量不正确</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>款额，比净额较大</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_32" xml:space="preserve">
+    <value>输入显示文本</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_02" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_03" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_04" xml:space="preserve">
+    <value>没有医生发现</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_05" xml:space="preserve">
+    <value>请从列表中选择</value>
+  </data>
+  <data name="CommonControls_PackageProfileControl1_ascx_sel" xml:space="preserve">
+    <value>选择类型</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_05" xml:space="preserve">
+    <value>按关闭</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_06" xml:space="preserve">
+    <value>您正在使用测试网址！</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_07" xml:space="preserve">
+    <value>没有参观为这名病人</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_08" xml:space="preserve">
+    <value>客房详情</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_09" xml:space="preserve">
+    <value>访问目的</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_10" xml:space="preserve">
+    <value>访问类型</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_11" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_12" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_13" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_14" xml:space="preserve">
+    <value>P.NO</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_15" xml:space="preserve">
+    <value>患者姓名</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_16" xml:space="preserve">
+    <value>患者无</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_17" xml:space="preserve">
+    <value>按关闭</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_18" xml:space="preserve">
+    <value>帮助视频</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_19" xml:space="preserve">
+    <value>患者搜索</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_01" xml:space="preserve">
+    <value>请选择用于至少一个搜索条件。</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_02" xml:space="preserve">
+    <value>请输入搜索文本找到医生</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_03" xml:space="preserve">
+    <value>请输入医师姓名“</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_04" xml:space="preserve">
+    <value>款额，比账单金额较大</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_06" xml:space="preserve">
+    <value>Paymentmode成功更新</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_001" xml:space="preserve">
+    <value>不要添加相同的测试作为反射试验！</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_34" xml:space="preserve">
+    <value>已成功更新</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_35" xml:space="preserve">
+    <value>已经存在</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_36" xml:space="preserve">
+    <value>哎呀！出错</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_16" xml:space="preserve">
+    <value>付款细节已经存在，请更换卡的详细信息</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_17" xml:space="preserve">
+    <value>AmtReceivedID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_18" xml:space="preserve">
+    <value>AmountReceivedID</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_19" xml:space="preserve">
+    <value>选择货币型</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_20" xml:space="preserve">
+    <value>对不起，由于银行/持卡人姓名与卡片/签号码已经存在。\ n请尝试不同的卡/支票号码。</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_37" xml:space="preserve">
+    <value>测试主细节加载成功！</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_38" xml:space="preserve">
+    <value>无法加载测试高手细节！</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_39" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_40" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_20" xml:space="preserve">
+    <value>你真的要注销？</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_21" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_22" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_ascx_23" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_11" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_13" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_14" xml:space="preserve">
+    <value>文件外包</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_15" xml:space="preserve">
+    <value>查看病历</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_16" xml:space="preserve">
+    <value>设备的价值</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value>选择日期范围</value>
+  </data>
+   <data name="CommonControls_ViewTRFImage_ascx_12" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+</root>

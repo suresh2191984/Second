@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PurchaseOrder_Cancel" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="PurchaseOrder_Error" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="PurchaseOrder_Information" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="PurchaseOrder_Ok" xml:space="preserve">
+    <value>được</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrderQuantity_aspx_01" xml:space="preserve">
+    <value>Chọn các đơn vị</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrderQuantity_aspx_02" xml:space="preserve">
+    <value>Kiểm tra xem các mục được thêm vào hay số lượng được cung cấp đúng cách</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrderQuantity_aspx_03" xml:space="preserve">
+    <value>Số lượng đặt hàng không thể là 0</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_01" xml:space="preserve">
+    <value>Đã thêm sản phẩm thành công</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_02" xml:space="preserve">
+    <value>Chọn ngày mua hàng</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_03" xml:space="preserve">
+    <value>Chọn nhà cung cấp</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_04" xml:space="preserve">
+    <value>Cung cấp tên tổ chức</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_05" xml:space="preserve">
+    <value>Cung cấp tên vị trí</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_06" xml:space="preserve">
+    <value>Cung cấp số lượng cấp đơn đặt hàng lại</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_07" xml:space="preserve">
+    <value>Đơn đặt hàng cho sản phẩm này đã được đặt trong Đơn đặt hàng. Bạn vẫn muốn tiếp tục?</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_08" xml:space="preserve">
+    <value>Sản phẩm đã được thêm</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_09" xml:space="preserve">
+    <value>Vị trí này đã tồn tại</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_10" xml:space="preserve">
+    <value>Cung cấp tên sản phẩm</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_11" xml:space="preserve">
+    <value>Chọn loại</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_12" xml:space="preserve">
+    <value>Chọn tên danh mục</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_13" xml:space="preserve">
+    <value>Cung cấp số lượng sử dụng</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_14" xml:space="preserve">
+    <value>Chọn đơn vị LS</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_15" xml:space="preserve">
+    <value>phần trăm Phải nằm trong khoảng từ 0 đến 100</value>
+  </data>
+  <data name="PurchaseOrder_PurchaseOrder_aspx_16" xml:space="preserve">
+    <value>Không có sản phẩm nào được chọn trong danh sách</value>
+  </data>
+</root>

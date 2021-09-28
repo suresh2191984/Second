@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_ClientSchedule_ascx_01" xml:space="preserve">
+    <value>Không tìm thấy hồ sơ phù hợp</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_02" xml:space="preserve">
+    <value>--Tất cả--</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_01" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_02" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>Chẩn đoán</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_01" xml:space="preserve">
+    <value>S.Không</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_02" xml:space="preserve">
+    <value>Tên dịch vụ</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_03" xml:space="preserve">
+    <value>loại dịch vụ</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_04" xml:space="preserve">
+    <value>HÓA</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_05" xml:space="preserve">
+    <value>Đã thanh toán</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_06" xml:space="preserve">
+    <value>Mẫu</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_07" xml:space="preserve">
+    <value>Thi lại</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_08" xml:space="preserve">
+    <value>Kiểm tra lại</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_09" xml:space="preserve">
+    <value>Phản xạ</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_10" xml:space="preserve">
+    <value>Nguồn ngoài</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_11" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_12" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_13" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_14" xml:space="preserve">
+    <value>Nguồn ngoài</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>Số phòng thí nghiệm:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>Nhận xét:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>Tên khách hàng:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_04" xml:space="preserve">
+    <value>Tham chiếu Bệnh viện:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_05" xml:space="preserve">
+    <value>Tham chiếu Bác sĩ:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_06" xml:space="preserve">
+    <value>Lịch sử bệnh nhân:</value>
+  </data>
+  <data name="CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>Bill Guantor của bệnh nhân này theo khách hàng</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>-- Lựa chọn --</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>Không tìm thấy kết quả!</value>
+  </data>
+  <data name="CommonControls_SampleCollectedVisit_ascx_01" xml:space="preserve">
+    <value>Nguồn ngoài</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_01" xml:space="preserve">
+    <value>Nhận xét:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_02" xml:space="preserve">
+    <value>Số tiền được hoàn lại cho bệnh nhân: R.</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_03" xml:space="preserve">
+    <value>Chỉ có</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_04" xml:space="preserve">
+    <value>Nam giới</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_05" xml:space="preserve">
+    <value>Giống cái</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_06" xml:space="preserve">
+    <value>Không có di động</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_07" xml:space="preserve">
+    <value>Đất không</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_08" xml:space="preserve">
+    <value>Bác sĩ giới thiệu</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_09" xml:space="preserve">
+    <value>Trung tâm giới thiệu</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_10" xml:space="preserve">
+    <value>Ghé thăm</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_11" xml:space="preserve">
+    <value>Số tiền này tùy thuộc vào</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_12" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_13" xml:space="preserve">
+    <value>Không chỉ</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_14" xml:space="preserve">
+    <value>Số tiền gửi còn lại:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_15" xml:space="preserve">
+    <value>Hóa đơn bởi:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_16" xml:space="preserve">
+    <value>Nhà cung cấp khách hàng / bảo hiểm:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_17" xml:space="preserve">
+    <value>Tham chiếu Tên bác sĩ:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_18" xml:space="preserve">
+    <value>( Bản sao)</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_19" xml:space="preserve">
+    <value>S.NO</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_20" xml:space="preserve">
+    <value>Sự miêu tả</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_21" xml:space="preserve">
+    <value>Các đơn vị</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_22" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_23" xml:space="preserve">
+    <value>Định lượng</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_24" xml:space="preserve">
+    <value>Hóa đơn bởi: (</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_25" xml:space="preserve">
+    <value>Số tiền (R)</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_26" xml:space="preserve">
+    <value>Số truy cập</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_27" xml:space="preserve">
+    <value>Số Kunjungan</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_01" xml:space="preserve">
+    <value>Nhận được lời cảm ơn từ {Tên}, (Số {Số}), tổng số {Amtemme} [{AmtNo}] đối với {khiếu nại} điều trị</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_02" xml:space="preserve">
+    <value>{Tên}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_03" xml:space="preserve">
+    <value>{Amtemme}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_04" xml:space="preserve">
+    <value>{Không có}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_05" xml:space="preserve">
+    <value>{lời phàn nàn}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_06" xml:space="preserve">
+    <value>{Con số}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_07" xml:space="preserve">
+    <value>chỉ paise</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_08" xml:space="preserve">
+    <value>Lõi</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_09" xml:space="preserve">
+    <value>Lakh</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_10" xml:space="preserve">
+    <value>Ngàn</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_11" xml:space="preserve">
+    <value>Hàng trăm</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_12" xml:space="preserve">
+    <value>rupee và</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_13" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_01" xml:space="preserve">
+    <value>Hiển thị bộ phương pháp</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_02" xml:space="preserve">
+    <value>Ẩn bộ phương pháp</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_03" xml:space="preserve">
+    <value>-----Lựa chọn-----</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>Xem / Chọn mẫu được sử dụng để điều tra tương ứng</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_02" xml:space="preserve">
+    <value>Xem / Thêm thuộc tính mẫu</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_03" xml:space="preserve">
+    <value>Mẫu</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_04" xml:space="preserve">
+    <value>Thuộc tính</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_05" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_06" xml:space="preserve">
+    <value>Sự miêu tả</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_07" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>Số thứ tự nhóm</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>Trình tự gói</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>Số thứ tự bộ</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>Bản đồ bộ phận vai trò</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value>---Lựa chọn---</value>
+  </data>
+  <data name="CommonControls_ChangeLocation_ascx_001" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="CommonControls_DaycareMenu_aspx_001" xml:space="preserve">
+    <value>Chăm sóc ban ngày</value>
+  </data>
+  <data name="CommonControls_InventoryAdmin_ascx_001" xml:space="preserve">
+    <value>Hàng tồn khoAdmin</value>
+  </data>
+  <data name="CommonControls_LabSummaryReport_ascx_001" xml:space="preserve">
+    <value>Phòng thí nghiệm</value>
+  </data>
+  <data name="CommonControls_LeftMenuHelp_ascx_001" xml:space="preserve">
+    <value>Cứu giúp</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventorySales_ascx_001" xml:space="preserve">
+    <value>Hàng tồn kho</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventory_ascx_001" xml:space="preserve">
+    <value>Hàng tồn kho</value>
+  </data>
+  <data name="CommonControls_LeftMenuIP_ascx_001" xml:space="preserve">
+    <value>Nhiệm vụ của bệnh nhân</value>
+  </data>
+  <data name="CommonControls_LeftMenuMDM_ascx_001" xml:space="preserve">
+    <value>Thạc sĩ</value>
+  </data>
+  <data name="CommonControls_LeftMenuMRD_ascx_001" xml:space="preserve">
+    <value>Phòng khám bệnh</value>
+  </data>
+  <data name="CommonControls_LeftMenu_ascx_001" xml:space="preserve">
+    <value>Tác vụ thường gặp</value>
+  </data>
+  <data name="CommonControls_LeftReferrals_ascx_001" xml:space="preserve">
+    <value>Quản lý giới thiệu</value>
+  </data>
+  <data name="CommonControls_ManageSchedules_ascx_001" xml:space="preserve">
+    <value>Lịch trình</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_001" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="CommonControls_UserRoleChange_ascx_001" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_02" xml:space="preserve">
+    <value>Phiên của bạn sẽ hết hạn trong</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_03" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_04" xml:space="preserve">
+    <value>Phiên của bạn đã hết hạn</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_05" xml:space="preserve">
+    <value>giây</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_1" xml:space="preserve">
+    <value>Vị trí :</value>
+  </data>
+  <data name="CommonControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>Phiên bản:</value>
+  </data>
+  <data name="CommonControls_Attune_Footer_ascx_02" xml:space="preserve">
+    <value>Thông báo nhiệm vụ</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_001" xml:space="preserve">
+    <value>Tên tài khoản:</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_002" xml:space="preserve">
+    <value>ShowAlert</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_003" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_001" xml:space="preserve">
+    <value>Không tìm thấy kết quả</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_002" xml:space="preserve">
+    <value>Vui lòng chọn chi tiết truy cập</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_003" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_004" xml:space="preserve">
+    <value>Vui lòng tiếp tục qua Todays Link bệnh nhân</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_005" xml:space="preserve">
+    <value>Hành động này không thể được thực hiện cho em bé mới sinh</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_006" xml:space="preserve">
+    <value>Hành động này không thể thực hiện cho Chuyến thăm của bệnh nhân này</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_007" xml:space="preserve">
+    <value>Bệnh nhân</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_008" xml:space="preserve">
+    <value>'vẫn chưa được chẩn đoán</value>
+  </data>
+  <data name="CommonControls_PendingVitals_ascx_01" xml:space="preserve">
+    <value>Không có Vitals chờ xử lý để bị bắt !!!</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_01" xml:space="preserve">
+    <value>lnkWeek1</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_02" xml:space="preserve">
+    <value>lnkWeek2</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_03" xml:space="preserve">
+    <value>lnkWeek3</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_04" xml:space="preserve">
+    <value>lnkWeek4</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_05" xml:space="preserve">
+    <value>lnkWeek5</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_06" xml:space="preserve">
+    <value>lnkWeek6</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_01" xml:space="preserve">
+    <value>Tên:</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_02" xml:space="preserve">
+    <value>Đăng nhập như</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_001" xml:space="preserve">
+    <value>Chọn loại phạm vi \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_002" xml:space="preserve">
+    <value>Chọn giới tính \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_003" xml:space="preserve">
+    <value>Chọn loại tuổi \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_004" xml:space="preserve">
+    <value>Chọn toán tử giá trị \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_005" xml:space="preserve">
+    <value>Phạm vi kết thúc giá trị không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_006" xml:space="preserve">
+    <value>Chọn toán tử tuổi \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_007" xml:space="preserve">
+    <value>Phạm vi kết thúc tuổi không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_008" xml:space="preserve">
+    <value>Độ tuổi không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_009" xml:space="preserve">
+    <value>Phạm vi giá trị không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_010" xml:space="preserve">
+    <value>Chọn văn bản giải thích \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_011" xml:space="preserve">
+    <value>Phạm vi tham chiếu</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_012" xml:space="preserve">
+    <value>Phạm vi quan trọng</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_013" xml:space="preserve">
+    <value>Phạm vi ủy quyền tự động</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_014" xml:space="preserve">
+    <value>Phạm vi tên miền</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_015" xml:space="preserve">
+    <value>Phạm vi có thể in</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_016" xml:space="preserve">
+    <value>Phạm vi kết quả nhạy cảm</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_017" xml:space="preserve">
+    <value>Phạm vi giải thích kết quả</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_018" xml:space="preserve">
+    <value>Chọn kết quả hiển thị từ \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_019" xml:space="preserve">
+    <value>Chọn danh mục \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_020" xml:space="preserve">
+    <value>Chọn toán tử giá trị \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_021" xml:space="preserve">
+    <value>Giá trị không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_022" xml:space="preserve">
+    <value>Phạm vi kết thúc giá trị tuổi không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_023" xml:space="preserve">
+    <value>Phạm vi giá trị tuổi không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_024" xml:space="preserve">
+    <value>Giá trị tuổi không thể để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_025" xml:space="preserve">
+    <value>Tên tham chiếu không được để trống \ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_026" xml:space="preserve">
+    <value>Kết quả quan trọng</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_027" xml:space="preserve">
+    <value>Bố cục 1</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_028" xml:space="preserve">
+    <value>Bố cục 2</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_029" xml:space="preserve">
+    <value>Bố cục 3</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_030" xml:space="preserve">
+    <value>Bố cục 4</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_031" xml:space="preserve">
+    <value>Layout 5</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_032" xml:space="preserve">
+    <value>Bố cục 6</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_033" xml:space="preserve">
+    <value>Bố cục 7</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_034" xml:space="preserve">
+    <value>Bố cục 8</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_035" xml:space="preserve">
+    <value>Đồng ủy quyền</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_036" xml:space="preserve">
+    <value>Tự động ủy quyền</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_037" xml:space="preserve">
+    <value>Xử lý ánh xạ vị trí</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_038" xml:space="preserve">
+    <value>KIỂU</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_039" xml:space="preserve">
+    <value>ĐĂNG KÝ VỊ TRÍ</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_040" xml:space="preserve">
+    <value>CHẾ BIẾN</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_041" xml:space="preserve">
+    <value>VỊ TRÍ CHẾ BIẾN</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_042" xml:space="preserve">
+    <value>BÀI TẬP</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_043" xml:space="preserve">
+    <value>Thêm nhận xét</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_044" xml:space="preserve">
+    <value>Chỉnh sửa nhận xét</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_045" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa vĩnh viễn hồ sơ này</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_0011" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="CommonControls_UserRoleChange_ascx_0011" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_01" xml:space="preserve">
+    <value>&amp; nbsp; Lưu ý &amp; nbsp;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_02" xml:space="preserve">
+    <value>&amp; nbsp; C &amp; nbsp;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_03" xml:space="preserve">
+    <value>Từ:</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_04" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy HH: mm</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_01" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_02" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_03" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_04" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_05" xml:space="preserve">
+    <value>ảnh</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_06" xml:space="preserve">
+    <value>Tài liệu bên ngoài</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_07" xml:space="preserve">
+    <value>Xem lịch sử bệnh nhân</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_08" xml:space="preserve">
+    <value>Giá trị thiết bị</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_09" xml:space="preserve">
+    <value>Không tìm thấy kết quả</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_10" xml:space="preserve">
+    <value>đăng nhập</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>Chi tiết báo giá dịch vụ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>Bộ sưu tập nhà</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>Chọn Giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>Giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_06" xml:space="preserve">
+    <value>Loại giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_07" xml:space="preserve">
+    <value>Chọn giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_08" xml:space="preserve">
+    <value>Tấm giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_09" xml:space="preserve">
+    <value>Giá trị chiết khấu</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_10" xml:space="preserve">
+    <value>Lý do giảm giá</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_11" xml:space="preserve">
+    <value>Ủy quyền bởi</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_12" xml:space="preserve">
+    <value>Chọn thuế</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_13" xml:space="preserve">
+    <value>Lịch sử :</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_14" xml:space="preserve">
+    <value>Nhận xét</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_15" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_16" xml:space="preserve">
+    <value>Mua lại</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_17" xml:space="preserve">
+    <value>Phi dịch vụ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_18" xml:space="preserve">
+    <value>Thuế</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_19" xml:space="preserve">
+    <value>ED Cess (2%)</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_20" xml:space="preserve">
+    <value>CHIA SẺ (1%)</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_21" xml:space="preserve">
+    <value>Làm tròn số</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_22" xml:space="preserve">
+    <value>Số lượng tịnh</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_23" xml:space="preserve">
+    <value>Nhận được</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_24" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>DOB:</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_02" xml:space="preserve">
+    <value>Ban hành ngày:</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_03" xml:space="preserve">
+    <value>Khu vực:</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>Đã lưu thành công.</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>Thành công loại bỏ!</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>Không tìm thấy kết quả</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_25" xml:space="preserve">
+    <value>Thêm các mục</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_26" xml:space="preserve">
+    <value>Số dư còn lại trong tài khoản Cán trước:</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_27" xml:space="preserve">
+    <value>Số dư còn lại trong tài khoản Cán trước:</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_28" xml:space="preserve">
+    <value>Không có thẻ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_29" xml:space="preserve">
+    <value>Số lượng thẻ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_30" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_31" xml:space="preserve">
+    <value>R.</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_32" xml:space="preserve">
+    <value>Lịch sử chụp</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_33" xml:space="preserve">
+    <value>Thêm thuộc tính</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_34" xml:space="preserve">
+    <value>S.Không</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_35" xml:space="preserve">
+    <value>Tên dịch vụ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_36" xml:space="preserve">
+    <value>loại dịch vụ</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_37" xml:space="preserve">
+    <value>Địa điểm xử lý</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_38" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_39" xml:space="preserve">
+    <value>Tỷ lệ phần trăm</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_40" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_41" xml:space="preserve">
+    <value>Giảm giá nhiều</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>Mục</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>Định lượng</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>Bổ sung thêm..</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_06" xml:space="preserve">
+    <value>Tổng tiền</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_07" xml:space="preserve">
+    <value>Giảm giá %</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_08" xml:space="preserve">
+    <value>Giảm giá</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_09" xml:space="preserve">
+    <value>Thuế %</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_10" xml:space="preserve">
+    <value>Do trước</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_11" xml:space="preserve">
+    <value>Phi dịch vụ</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_12" xml:space="preserve">
+    <value>Số lượng tịnh</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_13" xml:space="preserve">
+    <value>Số tiền nhận được</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_14" xml:space="preserve">
+    <value>Số tiền đến hạn</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_15" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_001" xml:space="preserve">
+    <value>Điều tra đã cứu thành công ...!</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_002" xml:space="preserve">
+    <value>Lỗi trong khi lưu Điều tra mới ...!</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_003" xml:space="preserve">
+    <value>Điều tra nhóm đã cứu thành công ...!</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_01" xml:space="preserve">
+    <value>---Chọn một---</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_01" xml:space="preserve">
+    <value>Không tìm thấy kết quả!</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_07" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_02" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_01" xml:space="preserve">
+    <value>Liên hệ với No</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_02" xml:space="preserve">
+    <value>Bác sĩ giới thiệu</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_03" xml:space="preserve">
+    <value>Trung tâm giới thiệu</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_04" xml:space="preserve">
+    <value>Ghé thăm</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_05" xml:space="preserve">
+    <value>Nhà cung cấp khách hàng / bảo hiểm:</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_06" xml:space="preserve">
+    <value>Tham chiếu Tên bác sĩ:</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_07" xml:space="preserve">
+    <value>Số tiền được hoàn lại cho bệnh nhân: R.</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_08" xml:space="preserve">
+    <value>Chỉ có</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_09" xml:space="preserve">
+    <value>HÓA ĐƠN</value>
+  </data>
+  <data name="Commoncontrols_Tasks_ascx_001" xml:space="preserve">
+    <value>--Lựa chọn--</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_10" xml:space="preserve">
+    <value>số tiền nhận được bằng lời</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_11" xml:space="preserve">
+    <value>Số tiền đến hạn bằng từ:</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_11" xml:space="preserve">
+    <value>Lượt xem</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_12" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_13" xml:space="preserve">
+    <value>ảnh</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_14" xml:space="preserve">
+    <value>Tài liệu bên ngoài</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_15" xml:space="preserve">
+    <value>Xem lịch sử bệnh nhân</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_16" xml:space="preserve">
+    <value>Giá trị thiết bị</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_047" xml:space="preserve">
+    <value>Phạm vi tham chiếu</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_048" xml:space="preserve">
+    <value>Phạm vi hoảng loạn</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_049" xml:space="preserve">
+    <value>Phạm vi quan trọng</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_050" xml:space="preserve">
+    <value>Phạm vi ủy quyền tự động</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_051" xml:space="preserve">
+    <value>Phạm vi tên miền</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_052" xml:space="preserve">
+    <value>Phạm vi có thể in</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_053" xml:space="preserve">
+    <value>Phạm vi kết quả nhạy cảm</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_054" xml:space="preserve">
+    <value>Tuổi tác</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_055" xml:space="preserve">
+    <value>Chung</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_056" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_057" xml:space="preserve">
+    <value>Phạm vi giải thích kết quả</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_046" xml:space="preserve">
+    <value>AddUOM</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04.title" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03.title" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_058" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_059" xml:space="preserve">
+    <value>Giống cái</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_060" xml:space="preserve">
+    <value>Nam giới</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_061" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_062" xml:space="preserve">
+    <value>Tháng)</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_063" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_064" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_065" xml:space="preserve">
+    <value>Đúng</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_066" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_067" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_068" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_069" xml:space="preserve">
+    <value>Phạm vi hoảng loạn</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_070" xml:space="preserve">
+    <value>Thú y</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_071" xml:space="preserve">
+    <value>Quốc hội</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_072" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_073" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_074" xml:space="preserve">
+    <value>Bác sĩ thú y</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_075" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_076" xml:space="preserve">
+    <value>Bạn</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_15" xml:space="preserve">
+    <value>LÀ</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_16" xml:space="preserve">
+    <value>BUỔI CHIỀU</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_077" xml:space="preserve">
+    <value>Thêm vào</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_078" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_12" xml:space="preserve">
+    <value>Bộ sưu tập do</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_13" xml:space="preserve">
+    <value>Tổng số tiền đến hạn:</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_079" xml:space="preserve">
+    <value>Giữa</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_080" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_081" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_082" xml:space="preserve">
+    <value>Người lớn</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_083" xml:space="preserve">
+    <value>Trẻ sơ sinh</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_084" xml:space="preserve">
+    <value>Đứa trẻ</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_085" xml:space="preserve">
+    <value>Trẻ sơ sinh</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_086" xml:space="preserve">
+    <value>Không xác định</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_17" xml:space="preserve">
+    <value>Giảm giá (-) :</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_06" xml:space="preserve">
+    <value>Bản đồ bộ phận vai trò</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_07" xml:space="preserve">
+    <value>Quản lý tiêu đề</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_002" xml:space="preserve">
+    <value>Số thứ tự bộ</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_003" xml:space="preserve">
+    <value>Chọn khoa</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_18" xml:space="preserve">
+    <value>HÓA ĐƠN NHẬN</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_42" xml:space="preserve">
+    <value>Số dư còn lại trong Tài khoản tín dụng:</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_17" xml:space="preserve">
+    <value>Nhận xét kiểm tra nhạy cảm</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_18" xml:space="preserve">
+    <value>Xem lịch sử lâm sàng</value>
+  </data>
+</root>

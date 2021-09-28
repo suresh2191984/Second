@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="CommonControls_Attune_Footer_ascx_02" xml:space="preserve">
+    <value>Task Notification</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_001" xml:space="preserve">
+    <value>UserName:</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_002" xml:space="preserve">
+    <value>ShowAlert</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_003" xml:space="preserve">
+    <value>Showed</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>服务报价详情</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>设为首页加入收藏</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value>- 选择 -</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>选择折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_06" xml:space="preserve">
+    <value>量贩式</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_07" xml:space="preserve">
+    <value>选择折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_08" xml:space="preserve">
+    <value>折扣板</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_09" xml:space="preserve">
+    <value>超值优惠</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_10" xml:space="preserve">
+    <value>折扣原因</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_11" xml:space="preserve">
+    <value>是否授权在</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_12" xml:space="preserve">
+    <value>选择税</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_13" xml:space="preserve">
+    <value>历史：</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_14" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_15" xml:space="preserve">
+    <value>毛</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_16" xml:space="preserve">
+    <value>赎回</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_17" xml:space="preserve">
+    <value>服务费</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_18" xml:space="preserve">
+    <value>税</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_19" xml:space="preserve">
+    <value>埃德附加税（ 2 ％ ）</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_20" xml:space="preserve">
+    <value>塞斯棚（1％）</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_21" xml:space="preserve">
+    <value>四舍五入</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_22" xml:space="preserve">
+    <value>净额</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_23" xml:space="preserve">
+    <value>收到的金额</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_24" xml:space="preserve">
+    <value>应有</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_25" xml:space="preserve">
+    <value>Add Items</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_26" xml:space="preserve">
+    <value>Balance amount Left in Rolling Advance account:</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_27" xml:space="preserve">
+    <value>Balance amount Left in Rolling Advance account:</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_28" xml:space="preserve">
+    <value>Card No</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_29" xml:space="preserve">
+    <value>Card Amount</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_30" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_31" xml:space="preserve">
+    <value>Rs.</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_32" xml:space="preserve">
+    <value>Capture History</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_33" xml:space="preserve">
+    <value>Add Attributes</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_34" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_35" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_36" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_37" xml:space="preserve">
+    <value>Processing Location</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_38" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_39" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_40" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_41" xml:space="preserve">
+    <value>Multiple Discount</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_01" xml:space="preserve">
+    <value>Remarks :</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_02" xml:space="preserve">
+    <value>Amount Refunded to the patient: Rs.</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_03" xml:space="preserve">
+    <value>Only</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_04" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_05" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_06" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_07" xml:space="preserve">
+    <value>LandLine No</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_08" xml:space="preserve">
+    <value>Ref Doctor</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_09" xml:space="preserve">
+    <value>Ref Centre</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_10" xml:space="preserve">
+    <value>Visit No</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_11" xml:space="preserve">
+    <value>This amount is subject to </value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_12" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_13" xml:space="preserve">
+    <value>Zero Only</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_14" xml:space="preserve">
+    <value>Remaining Deposit Amount :</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_15" xml:space="preserve">
+    <value>Billed By:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_16" xml:space="preserve">
+    <value>Client / Insurance Provider:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_17" xml:space="preserve">
+    <value>Ref. Physician Name:</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_18" xml:space="preserve">
+    <value>( Duplicate Copy)</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_19" xml:space="preserve">
+    <value>S.NO</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_20" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_21" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_22" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_23" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_24" xml:space="preserve">
+    <value>Billed By: (</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_25" xml:space="preserve">
+    <value>Amount(Rs)</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_26" xml:space="preserve">
+    <value>Visit Number</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_27" xml:space="preserve">
+    <value>No. Kunjungan</value>
+  </data>
+  <data name="CommonControls_ChangeLocation_ascx_001" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_01" xml:space="preserve">
+    <value>No Matching Record Found</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_02" xml:space="preserve">
+    <value>--All--</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_01" xml:space="preserve">
+    <value>Additional Samples Attributes</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_02" xml:space="preserve">
+    <value>- 选择 -</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="CommonControls_DaycareMenu_aspx_001" xml:space="preserve">
+    <value>Day Care</value>
+  </data>
+  <data name="CommonControls_InventoryAdmin_ascx_001" xml:space="preserve">
+    <value>InventoryAdmin</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="CommonControls_LabSummaryReport_ascx_001" xml:space="preserve">
+    <value>LabSummaryReport</value>
+  </data>
+  <data name="CommonControls_LeftMenuHelp_ascx_001" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventorySales_ascx_001" xml:space="preserve">
+    <value>InventorySales</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventory_ascx_001" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="CommonControls_LeftMenuIP_ascx_001" xml:space="preserve">
+    <value>InPatient Tasks</value>
+  </data>
+  <data name="CommonControls_LeftMenuMDM_ascx_001" xml:space="preserve">
+    <value>Masters</value>
+  </data>
+  <data name="CommonControls_LeftMenuMRD_ascx_001" xml:space="preserve">
+    <value>Medical Record Dept.</value>
+  </data>
+  <data name="CommonControls_LeftMenu_ascx_001" xml:space="preserve">
+    <value>Common Tasks</value>
+  </data>
+  <data name="CommonControls_LeftReferrals_ascx_001" xml:space="preserve">
+    <value>Manage Referral</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>Saved Successfully.</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>Sucessfully removed!</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>No Matching Records found</value>
+  </data>
+  <data name="CommonControls_ManageSchedules_ascx_001" xml:space="preserve">
+    <value>Schedules</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_01" xml:space="preserve">
+    <value>Show Method Kit</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_02" xml:space="preserve">
+    <value>Hide Method Kit</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_03" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_01" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_02" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_03" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_04" xml:space="preserve">
+    <value>INV</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_05" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_06" xml:space="preserve">
+    <value>SampleCollected</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_07" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_08" xml:space="preserve">
+    <value>Recheck</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_09" xml:space="preserve">
+    <value>ReflexTest</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_10" xml:space="preserve">
+    <value>OutSource</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_11" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_12" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_13" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_14" xml:space="preserve">
+    <value>OutSource</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_02" xml:space="preserve">
+    <value>Your session will expire in</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_03" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_04" xml:space="preserve">
+    <value>Your Session Has EXPIRED</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_05" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_1" xml:space="preserve">
+    <value>Location :</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>Lab Number:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>Remarks:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>Client Name:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_04" xml:space="preserve">
+    <value>Ref. Hospital:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_05" xml:space="preserve">
+    <value>Ref. Doctor:</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_06" xml:space="preserve">
+    <value>Patient History:</value>
+  </data>
+  <data name="CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_001" xml:space="preserve">
+    <value>No matching records found</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_002" xml:space="preserve">
+    <value>Please select visit detail</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_003" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_004" xml:space="preserve">
+    <value>Please Proceed via Todays Patient Link</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_005" xml:space="preserve">
+    <value>This action cannot be performed for New born baby</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_006" xml:space="preserve">
+    <value>This action can not performed for this Patient Visit</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_007" xml:space="preserve">
+    <value>The Patient</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_008" xml:space="preserve">
+    <value>' is yet to be Diagnosed</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>This Patient's Bill Guantor by Client</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="CommonControls_PendingVitals_ascx_01" xml:space="preserve">
+    <value>No Vitals pending to be captured!!!</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_01" xml:space="preserve">
+    <value>lnkWeek1</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_02" xml:space="preserve">
+    <value>lnkWeek2</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_03" xml:space="preserve">
+    <value>lnkWeek3</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_04" xml:space="preserve">
+    <value>lnkWeek4</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_05" xml:space="preserve">
+    <value>lnkWeek5</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_06" xml:space="preserve">
+    <value>lnkWeek6</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_01" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_02" xml:space="preserve">
+    <value>Logged in as</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>No Matching Records Found!</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_01" xml:space="preserve">
+    <value>Received with thanks from {Name}, (Number {Number}), a sum of {AmtWords}[{AmtNo}] towards {complaint} treatment</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_02" xml:space="preserve">
+    <value>{Name}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_03" xml:space="preserve">
+    <value>{AmtWords}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_04" xml:space="preserve">
+    <value>{AmtNo}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_05" xml:space="preserve">
+    <value>{complaint}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_06" xml:space="preserve">
+    <value>{Number}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_07" xml:space="preserve">
+    <value>paise only</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_08" xml:space="preserve">
+    <value>Crore</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_09" xml:space="preserve">
+    <value>Lakh</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_10" xml:space="preserve">
+    <value>Thousand</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_11" xml:space="preserve">
+    <value>Hundred</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_12" xml:space="preserve">
+    <value>rupees and</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_13" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>Add More..</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_06" xml:space="preserve">
+    <value>Gross Amount</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_07" xml:space="preserve">
+    <value>Discount %</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_08" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_09" xml:space="preserve">
+    <value>Tax %</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_10" xml:space="preserve">
+    <value>Previous Due</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_11" xml:space="preserve">
+    <value>Service Charge</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_12" xml:space="preserve">
+    <value>Net Amount</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_13" xml:space="preserve">
+    <value>Amount Received</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_14" xml:space="preserve">
+    <value>Amount Due</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_15" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CommonControls_SampleCollectedVisit_ascx_01" xml:space="preserve">
+    <value>OutSource</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>View / Select Sample Used For Corresponding Investigation</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_02" xml:space="preserve">
+    <value>View / Add Sample Attributes</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_03" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_04" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_05" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_06" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_07" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>Group Sequence Number</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>Package Sequence</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>Department Sequence Number</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>Role Department Mapping</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value>---Select---</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>DOB:</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_02" xml:space="preserve">
+    <value>Issued on:</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_03" xml:space="preserve">
+    <value>Area:</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_001" xml:space="preserve">
+    <value>Select range type\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_002" xml:space="preserve">
+    <value>Select gender\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_003" xml:space="preserve">
+    <value>Select age type\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_004" xml:space="preserve">
+    <value>Select value operator\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_005" xml:space="preserve">
+    <value>Value end range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_006" xml:space="preserve">
+    <value>Select age operator\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_007" xml:space="preserve">
+    <value>Age end range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_008" xml:space="preserve">
+    <value>Age range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_009" xml:space="preserve">
+    <value>Value range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_010" xml:space="preserve">
+    <value>Select interpretation text\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_011" xml:space="preserve">
+    <value>Reference Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_012" xml:space="preserve">
+    <value>Critical Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_013" xml:space="preserve">
+    <value>Auto Authorization Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_014" xml:space="preserve">
+    <value>Domain Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_015" xml:space="preserve">
+    <value>Printable Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_016" xml:space="preserve">
+    <value>Sensitive Result Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_017" xml:space="preserve">
+    <value>Results Interpretation Range</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_018" xml:space="preserve">
+    <value>Select show result from\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_019" xml:space="preserve">
+    <value>Select category\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_020" xml:space="preserve">
+    <value>Select value operator\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_021" xml:space="preserve">
+    <value>Value cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_022" xml:space="preserve">
+    <value>Age value end range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_023" xml:space="preserve">
+    <value>Age value range cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_024" xml:space="preserve">
+    <value>Age value cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_025" xml:space="preserve">
+    <value>Reference name cannot be blank\n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_026" xml:space="preserve">
+    <value>Critical Results Call-Out</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_027" xml:space="preserve">
+    <value>Layout 1</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_028" xml:space="preserve">
+    <value>Layout 2</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_029" xml:space="preserve">
+    <value>Layout 3</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_030" xml:space="preserve">
+    <value>Layout 4</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_031" xml:space="preserve">
+    <value>Layout 5</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_032" xml:space="preserve">
+    <value>Layout 6</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_033" xml:space="preserve">
+    <value>Layout 7</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_034" xml:space="preserve">
+    <value>Layout 8</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_035" xml:space="preserve">
+    <value>Co-Authorization</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_036" xml:space="preserve">
+    <value>Auto-Authorization</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_037" xml:space="preserve">
+    <value>Processing Location Mapping</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_038" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_039" xml:space="preserve">
+    <value>REGISTER LOCATION</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_040" xml:space="preserve">
+    <value>PROCESSING ORG</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_041" xml:space="preserve">
+    <value>PROCESSING LOCATION</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_042" xml:space="preserve">
+    <value>TASK</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_043" xml:space="preserve">
+    <value>Add Remarks</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_044" xml:space="preserve">
+    <value>Edit Remarks</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_045" xml:space="preserve">
+    <value>Are you sure you wish to delete this record Permanently</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_001" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_0011" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="CommonControls_UserRoleChange_ascx_001" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_01" xml:space="preserve">
+    <value>&amp;nbsp; NB &amp;nbsp;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_02" xml:space="preserve">
+    <value>&amp;nbsp; C &amp;nbsp;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_03" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_04" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy HH:mm</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_01" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_02" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_03" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_04" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_05" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_06" xml:space="preserve">
+    <value>OutSource Doc</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_07" xml:space="preserve">
+    <value>View Patient History</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_08" xml:space="preserve">
+    <value>Device Value</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_09" xml:space="preserve">
+    <value>No Matching Records Found</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_10" xml:space="preserve">
+    <value>login</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_11" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_12" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_13" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_14" xml:space="preserve">
+    <value>OutSource Doc</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_15" xml:space="preserve">
+    <value>View Patient History</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_16" xml:space="preserve">
+    <value>Device Value</value>
+  </data>
+</root>

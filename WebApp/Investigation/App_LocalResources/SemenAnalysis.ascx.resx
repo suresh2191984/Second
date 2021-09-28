@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnADDResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnADDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlOpinionUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlsAgglutinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlsMotalityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlsReactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStatusReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlstatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbnormalMorphologyResource1.Text" xml:space="preserve">
+    <value>Sperm Morphology</value>
+  </data>
+  <data name="lblAbnormalMorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActiveSpermsResource1.Text" xml:space="preserve">
+    <value>Grade III (Active) Sperms</value>
+  </data>
+  <data name="lblActiveSpermsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblactiveSuomResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblactiveSuomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExResource1.Text" xml:space="preserve">
+    <value>Extent of agglination</value>
+  </data>
+  <data name="lblExResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHypermotileResource1.Text" xml:space="preserve">
+    <value>Grade IV (Hypermotile) Sperms</value>
+  </data>
+  <data name="lblHypermotileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblhypermotileUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblhypermotileUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImmotileSpermsResource1.Text" xml:space="preserve">
+    <value>Grade 0 (Immotile) Sperms</value>
+  </data>
+  <data name="lblImmotileSpermsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImmotileSpermUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblImmotileSpermUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLignefactonUOMResource1.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="lblLignefactonUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMedRemarksResource1.Text" xml:space="preserve">
+    <value>Medical Remarks</value>
+  </data>
+  <data name="lblMedRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMorphologyUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblMorphologyUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOpinionUserResource1.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblOpinionUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverallMotilityResource1.Text" xml:space="preserve">
+    <value>Sperm Overall Motaility</value>
+  </data>
+  <data name="lblOverallMotilityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPuscellsResource1.Text" xml:space="preserve">
+    <value>Semen PusCells</value>
+  </data>
+  <data name="lblPuscellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpuscellsUOMResource1.Text" xml:space="preserve">
+    <value>/ml</value>
+  </data>
+  <data name="lblpuscellsUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQualificationResource1.Text" xml:space="preserve">
+    <value>Quantification</value>
+  </data>
+  <data name="lblQualificationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblQUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRBCsResource1.Text" xml:space="preserve">
+    <value>Semen RBCs</value>
+  </data>
+  <data name="lblRBCsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRBCsUOMResource1.Text" xml:space="preserve">
+    <value>/ml</value>
+  </data>
+  <data name="lblRBCsUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReasonResource1.Text" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="lblReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsAggulinationResource1.Text" xml:space="preserve">
+    <value>Sperm Agglutination</value>
+  </data>
+  <data name="lblsAggulinationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsemenLignefactionResource1.Text" xml:space="preserve">
+    <value>Semen Liquefaction time</value>
+  </data>
+  <data name="lblsemenLignefactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsemenpHResource1.Text" xml:space="preserve">
+    <value>Semen pH</value>
+  </data>
+  <data name="lblsemenpHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSemenreactionResource1.Text" xml:space="preserve">
+    <value>Semen Reaction</value>
+  </data>
+  <data name="lblSemenreactionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSleukocytesResource1.Text" xml:space="preserve">
+    <value>Semen Leukocytes(WBCs)</value>
+  </data>
+  <data name="lblSleukocytesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSluggishSpermResource1.Text" xml:space="preserve">
+    <value>Grade II (Sluggish) Sperms</value>
+  </data>
+  <data name="lblSluggishSpermResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSluggishSpermUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblSluggishSpermUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpermCountResource1.Text" xml:space="preserve">
+    <value>Sperm Count</value>
+  </data>
+  <data name="lblSpermCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpermMorphologyResource1.Text" xml:space="preserve">
+    <value>Sperms with Normal Morphology </value>
+  </data>
+  <data name="lblSpermMorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpermVitalityResource1.Text" xml:space="preserve">
+    <value>Sperm Vitality</value>
+  </data>
+  <data name="lblSpermVitalityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsVitalityUOMResource1.Text" xml:space="preserve">
+    <value>%live Sperms</value>
+  </data>
+  <data name="lblsVitalityUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblvSluggisResource1.Text" xml:space="preserve">
+    <value>Grade I (Very sluggish) Sperms</value>
+  </data>
+  <data name="lblvSluggisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblvsugUOMResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblvsugUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWBCsUOMResource1.Text" xml:space="preserve">
+    <value>/ml</value>
+  </data>
+  <data name="lblWBCsUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>gradeIII</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>gradeIII-active</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>gradeII</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>gradeII-Sluggish</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>grade0</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>grade0-Immotile</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>gradeIV</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>gradeIV-Hyper Motile</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>gradeI</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>gradeI-Very Sluggish</value>
+  </data>
+  <data name="lnkEditResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lnkEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OpinionUserListItemResource1.Text" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="OpinionUserListItemResource1.Value" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="pnlEnabledResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlEnabledResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_CommentsResource1.Text" xml:space="preserve">
+    <value>Technical Remarks</value>
+  </data>
+  <data name="Rs_CommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MacroscopyAnalysisResource1.Text" xml:space="preserve">
+    <value>Macroscopy Analysis</value>
+  </data>
+  <data name="Rs_MacroscopyAnalysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_MicroscopyAnalysisResource1.Text" xml:space="preserve">
+    <value>Microscopy Analysis</value>
+  </data>
+  <data name="Rs_MicroscopyAnalysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReferenceRangeResource1.Text" xml:space="preserve">
+    <value>Reference Range</value>
+  </data>
+  <data name="Rs_ReferenceRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="spermCountUOMResource1.Text" xml:space="preserve">
+    <value>x10 ^ 6 Per ml per ejaculate</value>
+  </data>
+  <data name="spermCountUOMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtactiveSpermsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtactiveSpermsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtaMorpholoyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtaMorpholoyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExAgglinatonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExAgglinatonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txthypermotileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txthypermotileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImmotileSpermResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtImmotileSpermResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeucocytesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeucocytesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtlignfactonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtlignfactonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMedRemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMedRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPuscellsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPuscellsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQualifcationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQualifcationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRBCsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRBCsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefRangeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSemenphResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSemenphResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSluggishSpermResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSluggishSpermResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpermCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpermCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpermMorphologyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpermMorphologyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsVitalityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsVitalityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtvSluggishResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtvSluggishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

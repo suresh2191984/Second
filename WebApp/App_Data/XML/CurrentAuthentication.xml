@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PageRoleAccessMapping>
+  <PageName>
+    <Inpatient>
+      <IPBillSettlement>
+        <Orgid id="1">
+          
+          <RoleName role="Verificator">
+            <section code="C">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+            <section code="A">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName> 
+          
+          <RoleName role="Receptionist">
+            <section code="D">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+            <section code="A">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+          <RoleName role="ALL">
+            <section code="E">
+              <Activity>
+                <visible>1</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+
+          <RoleName role="Cashier">
+            <section code="D">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+            <section code="C">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+
+        </Orgid>
+      </IPBillSettlement>
+    </Inpatient>
+
+    <Billing>
+      <GenerateBill>
+        <Orgid id="1">
+          <RoleName role="ALL">
+            <section code="D">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+            <section code="PC">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+            <section code="Menu">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+          <RoleName role="LabReception">
+            <section code="Print">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+          
+          
+        </Orgid>
+      </GenerateBill>
+
+      <Billing>
+        <Orgid id="1">
+          <RoleName role="Verificator">
+            <section code="A">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>           
+          </RoleName>
+		<RoleName role="Cashier">
+            <section code="B">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>           
+          </RoleName>		  
+         <RoleName role="ALL">
+            <section code="C">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+
+        </Orgid>
+      </Billing>
+      
+    </Billing>
+
+    <Reception>
+      <InPatientRegistration>
+
+        <Orgid id="1">
+          <RoleName role="ALL">
+            <section code="K">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+
+      </InPatientRegistration>
+    </Reception>
+
+    <Inventory>
+      <InvIpBilling>
+        <Orgid id="1">
+          <RoleName role="ALL">
+            <section code="PC">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+      </InvIpBilling>
+    </Inventory>
+
+	  <CommonControls>
+		  <InPatientSearch>
+			  <Orgid id="1">
+
+				  <RoleName role="Cashier">
+					  <section code="HC">
+						  <Activity>
+							  <visible>1</visible>
+							  <enable>1</enable>
+						  </Activity>
+					  </section>
+				  </RoleName>
+
+				  <RoleName role="ALL">
+					  <section code="HC">
+						  <Activity>
+							  <visible>0</visible>
+							  <enable>0</enable>
+						  </Activity>
+					  </section>
+				  </RoleName>
+
+			  </Orgid>
+		  </InPatientSearch>
+	  </CommonControls>
+    
+	<Admin>
+		  <MRDView>
+			  <Orgid id="1">
+				  <RoleName role="MRD">
+					  <section code="A">
+						  <Activity>
+							  <visible>0</visible>
+							  <enable>0</enable>
+						  </Activity>
+					  </section>
+				  </RoleName>
+
+				  <RoleName role="ALL">
+					  <section code="A">
+						  <Activity>
+							  <visible>1</visible>
+							  <enable>1</enable>
+						  </Activity>
+					  </section>
+				  </RoleName>
+
+			  </Orgid>
+		  </MRDView>
+    
+    <UserMaster>
+      <Orgid id="1">
+        <RoleName role="SuperAdmin">
+          <section code="Menu">
+            <Activity>
+              <visible>1</visible>
+              <enable>1</enable>
+            </Activity>
+          </section>
+        </RoleName>
+        <RoleName role="ALL">
+          <section code="Menu">
+            <Activity>
+              <visible>0</visible>
+              <enable>0</enable>
+            </Activity>
+          </section>
+        </RoleName>
+      </Orgid>
+    </UserMaster>
+       
+	  </Admin>
+
+    <Patient>
+      <PatientsCurrDateVist>
+        <Orgid id="1">
+          <RoleName role="Receptionist">
+            <section code="HC">
+              <Activity>
+                <visible>1</visible>
+                <enable>1</enable>
+              </Activity>
+            </section>
+          </RoleName>
+          <RoleName role="ALL">
+            <section code="HC">
+              <Activity>
+                <visible>0</visible>
+                <enable>0</enable>
+              </Activity>
+            </section>
+          </RoleName>
+        </Orgid>
+      </PatientsCurrDateVist>
+    </Patient> 
+  </PageName>
+</PageRoleAccessMapping>

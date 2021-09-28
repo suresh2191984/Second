@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="QMS_Dashboard_aspx_AuditAgency" xml:space="preserve">
+    <value>AuditAgency</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_AuditDateAndTime" xml:space="preserve">
+    <value>AuditDate &amp; Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_AuditNo" xml:space="preserve">
+    <value>Audit No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Auditor" xml:space="preserve">
+    <value>Auditor</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Auditors" xml:space="preserve">
+    <value>Auditors</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CallibrationDoneDate" xml:space="preserve">
+    <value>Callibration Done Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CallibrationDueDate" xml:space="preserve">
+    <value>Callibration Due Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ChildTestName" xml:space="preserve">
+    <value>Child Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Classification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ContainerName" xml:space="preserve">
+    <value>Container Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_FrequencyDate" xml:space="preserve">
+    <value>Frequency Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_FrequencyTime" xml:space="preserve">
+    <value>Frequency Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_InstrumentName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_InvestigationName" xml:space="preserve">
+    <value>Analyte</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_LotName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_LotNo" xml:space="preserve">
+    <value>Lot No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_NCNO" xml:space="preserve">
+    <value>NC No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_NewSample" xml:space="preserve">
+    <value>New Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_OldSample" xml:space="preserve">
+    <value>Old Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_OutsourcedLocation" xml:space="preserve">
+    <value>Outsourced Location</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ParentTestName" xml:space="preserve">
+    <value>Parent Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PatientName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PatientNumber" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_PNCNO" xml:space="preserve">
+    <value>PNC No</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProductCode" xml:space="preserve">
+    <value>Device Code</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProposedCompletionDate" xml:space="preserve">
+    <value>Proposed Completion Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ProposedDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForReject" xml:space="preserve">
+    <value>Reason for Reject</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Sample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_SampleName" xml:space="preserve">
+    <value>Sample Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TATDateTime" xml:space="preserve">
+    <value>TATDate&amp;Time</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestCode" xml:space="preserve">
+    <value>Assay Code</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestName" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_TestValue" xml:space="preserve">
+    <value>Test Value</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Venue" xml:space="preserve">
+    <value>Venue</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_VisitNumber" xml:space="preserve">
+    <value>Visit ID</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_VendorName" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ResponsiblePerson" xml:space="preserve">
+    <value>ResponsiblePerson</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_MaintenanceDoneDate" xml:space="preserve">
+    <value>Maintenance Done Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_MaintenanceDueDate" xml:space="preserve">
+    <value>Maintenance Due Date</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReferenceRange" xml:space="preserve">
+    <value>ReferenceRange</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DelayedHours" xml:space="preserve">
+    <value>Delayed Hours</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_DeviceValue" xml:space="preserve">
+    <value>Device Value</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForRerun" xml:space="preserve">
+    <value>Reason for Rerun</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_ReasonForRecollect" xml:space="preserve">
+    <value>Reason for Recollect</value>
+  </data>
+  <data name="QMS_ddl_select" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_01" xml:space="preserve">
+    <value>Tablero</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_02" xml:space="preserve">
+    <value>--Seleccionar--</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_03" xml:space="preserve">
+    <value>Regla maestra</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_04" xml:space="preserve">
+    <value>Ver la gráfica</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_05" xml:space="preserve">
+    <value>Capturar valores</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_06" xml:space="preserve">
+    <value>Gestión de lotes</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_07" xml:space="preserve">
+    <value>Plan de garantía de Calidad Externa</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_08" xml:space="preserve">
+    <value>Comparación interna de Laboratorio</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_09" xml:space="preserve">
+    <value>No conformidad del proceso</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_10" xml:space="preserve">
+    <value>Maestro Analito</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_11" xml:space="preserve">
+    <value>Asignar analizador</value>
+  </data>
+  <data name="QMS_Dashboard_aspx_12" xml:space="preserve">
+    <value>Maestro analizador</value>
+  </data>
+</root>

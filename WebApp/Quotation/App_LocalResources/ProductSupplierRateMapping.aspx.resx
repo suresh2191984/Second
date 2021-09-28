@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseResource1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDummyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDummyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRejectResource1.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="btnRejectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkActiveResource1.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="chkActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIsDefaultResource1.Text" xml:space="preserve">
+    <value>Default Product</value>
+  </data>
+  <data name="chkIsDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CloseResource1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlsearchsupplierResource1.ToolTip" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="DropSupplierNameResource1.ToolTip" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="drpUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdQuotationResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdQuotationResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdQuotationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiscountResource1.Text" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="lblDiscountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterResource1.Text" xml:space="preserve">
+    <value>Provide Rate</value>
+  </data>
+  <data name="lblEnterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastDayQtyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastDayQtyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastMonthQtyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastMonthQtyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastQuaterQtyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllastQuaterQtyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLdqResource1.Text" xml:space="preserve">
+    <value>Last Day Quantity</value>
+  </data>
+  <data name="lblLdqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLmqResource1.Text" xml:space="preserve">
+    <value>Last Month Quantity</value>
+  </data>
+  <data name="lblLmqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLqqResource1.Text" xml:space="preserve">
+    <value>Last Quarter Quantity</value>
+  </data>
+  <data name="lblLqqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMRPResource1.Text" xml:space="preserve">
+    <value>MRP</value>
+  </data>
+  <data name="lblMRPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProductNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProductNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuotationIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuotationNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsearchQuotationResource1.Text" xml:space="preserve">
+    <value>Quotation Number</value>
+  </data>
+  <data name="lblsearchQuotationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchSupplierResource1.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="lblSearchSupplierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSellingPriceResource1.Text" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="lblSellingPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSnoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSupplierIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaxResource1.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="lblTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValidFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValidToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="likQuotationViewResource1.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="likQuotationViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlProductSalesResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlProductSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_InverseQuantityResource1.Text" xml:space="preserve">
+    <value>Conversion  Qty</value>
+  </data>
+  <data name="Rs_InverseQuantityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PleasewaitResource1.Text" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="Rs_PleasewaitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ProductNameResource1.Text" xml:space="preserve">
+    <value>Search Product</value>
+  </data>
+  <data name="Rs_ProductNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ProductRateResource1.Text" xml:space="preserve">
+    <value>Cost Price</value>
+  </data>
+  <data name="Rs_ProductRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SupplierNameResource1.Text" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="Rs_SupplierNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_UnitResource1.Text" xml:space="preserve">
+    <value>Ordered Unit</value>
+  </data>
+  <data name="Rs_UnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblCommentsResource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="tblCommentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblQuotationIDResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblQuotationIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblQuotationNoResource1.Text" xml:space="preserve">
+    <value>Quotation Number</value>
+  </data>
+  <data name="tblQuotationNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblValidFromResource1.Text" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="tblValidFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tblValidToResource1.Text" xml:space="preserve">
+    <value>Valid To</value>
+  </data>
+  <data name="tblValidToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Quotation ID</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Quotation Number</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Valid  To</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="txtDiscountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDiscountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtInverseQuantityResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtInverseQuantityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMRPResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtMRPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProductNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProductNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQuotationNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtQuotationNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRateResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="txtRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsearchquotationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtsearchquotationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSellingPriceResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSellingPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTaxResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValidFromResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValidFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValidToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValidToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProductResource1.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="lblProductResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+</root>

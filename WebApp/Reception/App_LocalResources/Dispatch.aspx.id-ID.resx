@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Departemen</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value>Klik Disini Untuk Membatalkan, Lihat Halaman Awal</value>
+  </data>
+  <data name="btnFinishResource1.Text" xml:space="preserve">
+    <value>Pengiriman Hasil</value>
+  </data>
+  <data name="btnFinishResource1.ToolTip" xml:space="preserve">
+    <value>Klik Disini Untuk Pengiriman Hasil</value>
+  </data>
+  <data name="ColDrNameResource1.Text" xml:space="preserve">
+    <value>Nama Dokter:</value>
+  </data>
+  <data name="lblInvStatusResource1.Text" xml:space="preserve">
+    <value>Tidak Ada Pemeriksaan Diminta Pada Kunjungan Saat Ini</value>
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value>Tidak Ditemukan Rekaman Yang Cocok</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>Rumah Sakit/Cabang:</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>Pusat Pengumpulan:</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Pengiriman Hasil</value>
+  </data>
+  <data name="Rs_AgeResource1.Text" xml:space="preserve">
+    <value>Usia:</value>
+  </data>
+  <data name="Rs_BarcodeResource1.Text" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="Rs_CollectedTimeResource1.Text" xml:space="preserve">
+    <value>Waktu Yang Dikumpulkan</value>
+  </data>
+  <data name="Rs_DepartmentNameResource1.Text" xml:space="preserve">
+    <value>Nama Departemen</value>
+  </data>
+  <data name="Rs_GenderResource1.Text" xml:space="preserve">
+    <value>Jenis Kelamin:</value>
+  </data>
+  <data name="Rs_InvestigationsOrderedForCurrentVisit1Resource1.Text" xml:space="preserve">
+    <value>Pemeriksaan Yang Dipesan Untuk Kunjungan Saat Ini</value>
+  </data>
+  <data name="Rs_InvestigationsOrderedForCurrentVisitResource1.Text" xml:space="preserve">
+    <value>Pemeriksaan Yang Dipesan Untuk Kunjungan Saat Ini</value>
+  </data>
+  <data name="Rs_LabResultStatusResource1.Text" xml:space="preserve">
+    <value>Status Hasil Lab</value>
+  </data>
+  <data name="Rs_NoPendingDepartmentsResource1.Text" xml:space="preserve">
+    <value>( Tidak Ada Depatemen Yang Tertunda! )</value>
+  </data>
+  <data name="Rs_NoSamplescollectedforCurrentVisitResource1.Text" xml:space="preserve">
+    <value>( Tidak Ada Sampel Terkumpul Untuk Kunjungan Saat Ini )</value>
+  </data>
+  <data name="Rs_PatientDetailsResource1.Text" xml:space="preserve">
+    <value>Rincian Pasien</value>
+  </data>
+  <data name="Rs_PatientNameResource1.Text" xml:space="preserve">
+    <value>Nama Pasien:</value>
+  </data>
+  <data name="Rs_PatientNoResource1.Text" xml:space="preserve">
+    <value>No. Pasien:</value>
+  </data>
+  <data name="Rs_SampleNameResource1.Text" xml:space="preserve">
+    <value>Nama Sampel</value>
+  </data>
+  <data name="Rs_SamplesCollectedForCurrentVisit1Resource1.Text" xml:space="preserve">
+    <value>Sample Yang Dikumpulkan Untuk Kunjungan Saat Ini</value>
+  </data>
+  <data name="Rs_SamplesCollectedForCurrentVisitResource1.Text" xml:space="preserve">
+    <value>Sample Yang Dikumpulkan Untuk Kunjungan Saat Ini</value>
+  </data>
+  <data name="Rs_StatusResource1.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Rs_VisitNoResource1.Text" xml:space="preserve">
+    <value>No. Kunjungan:</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CollectionCentreResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dispTabResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dispTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlInvNameResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlInvNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DrNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtSampleResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtSampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HospitalNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGenderResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatientNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisitNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisitNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkNextResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkPrevResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkPrevResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlptDetailsResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlptDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSampleListlblResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSampleListlblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSampleListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSampleListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSerchResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSerchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BarcodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_CollectedTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_DepartmentNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_GenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_InvestigationsOrderedForCurrentVisit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_InvestigationsOrderedForCurrentVisitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_LabResultStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NoPendingDepartmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_NoSamplescollectedforCurrentVisitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_PatientNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SampleNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SamplesCollectedForCurrentVisit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SamplesCollectedForCurrentVisitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_StatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_VisitNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableHeaderCellResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableRow1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableRowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableRowResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trCCResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trCCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

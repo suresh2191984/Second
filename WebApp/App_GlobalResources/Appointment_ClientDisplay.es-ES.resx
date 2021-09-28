@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Appointment_Appointments_aspx_01" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_02" xml:space="preserve">
+    <value>Trash</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_03" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_04" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_05" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_06" xml:space="preserve">
+    <value>limpiar</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_07" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_08" xml:space="preserve">
+    <value>Create Event</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_09" xml:space="preserve">
+    <value>Enter Patient Name / Mobile Number For Cancellation</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_01" xml:space="preserve">
+    <value>ChangeDocSchedule</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_02" xml:space="preserve">
+    <value>ver programación</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_Close" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Appointment_ChangeDocSchedule_aspx_OK" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="Appointment_Controls_ascx_01" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Appointment_Controls_ascx_02" xml:space="preserve">
+    <value>ChangeFrom</value>
+  </data>
+  <data name="Appointment_Controls_ascx_03" xml:space="preserve">
+    <value>DeleteFrom</value>
+  </data>
+  <data name="Appointment_Controls_PhyAllSchedules_ascx_01" xml:space="preserve">
+    <value>cambio</value>
+  </data>
+  <data name="Appointment_Controls_PhyAllSchedules_ascx_02" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>DoctorSchedule_Doctor Schedule</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_02" xml:space="preserve">
+    <value>organización</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_03" xml:space="preserve">
+    <value>meses</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_04" xml:space="preserve">
+    <value>duración</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_05" xml:space="preserve">
+    <value>sucursal / localización</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_06" xml:space="preserve">
+    <value>el nombre del doctor</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_10" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_07" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_11" xml:space="preserve">
+    <value>mes</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_12" xml:space="preserve">
+    <value>semana</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_13" xml:space="preserve">
+    <value>día</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_14" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_15" xml:space="preserve">
+    <value>el sol</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_16" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_17" xml:space="preserve">
+    <value>mar</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_18" xml:space="preserve">
+    <value>mie</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_19" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_20" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_21" xml:space="preserve">
+    <value>sab</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_22" xml:space="preserve">
+    <value>Book Slot</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_23" xml:space="preserve">
+    <value>all-day</value>
+  </data>
+  <data name="Appointment_PatientRecallList_aspx_01" xml:space="preserve">
+    <value>booked on</value>
+  </data>
+  <data name="Appointment_PatientRecallList_aspx_02" xml:space="preserve">
+    <value>waiting on</value>
+  </data>
+  <data name="Appointment_PatientRecallList_aspx_03" xml:space="preserve">
+    <value>Do you want to book appointment?</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_01" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_02" xml:space="preserve">
+    <value>Trash</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_03" xml:space="preserve">
+    <value>consulta</value>
+  </data>
+  <data name="Appoinment_Appointments_aspx_04" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="Appoinment_ChangeDocSchedule_aspx_01" xml:space="preserve">
+    <value>ChangeDocSchedule</value>
+  </data>
+  <data name="Appoinment_ChangeDocSchedule_aspx_02" xml:space="preserve">
+    <value>ver programación</value>
+  </data>
+  <data name="Appoinment_ChangeDocSchedule_aspx_Close" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Appoinment_ChangeDocSchedule_aspx_OK" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="Appoinment_Controls_ascx_01" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Appoinment_Controls_ascx_02" xml:space="preserve">
+    <value>ChangeFrom</value>
+  </data>
+  <data name="Appoinment_Controls_ascx_03" xml:space="preserve">
+    <value>DeleteFrom</value>
+  </data>
+  <data name="Appoinment_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>DoctorSchedule_Doctor Schedule</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_24" xml:space="preserve">
+    <value>Enter Speciality/Practice</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_25" xml:space="preserve">
+    <value>escribir el nombre del paciente</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_26" xml:space="preserve">
+    <value>escribir el nombre del paciente</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_27" xml:space="preserve">
+    <value>Enter Mobile No</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_28" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_29" xml:space="preserve">
+    <value>Enter Address</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_30" xml:space="preserve">
+    <value>Enter Location</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_31" xml:space="preserve">
+    <value>Enter Email-ID</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_32" xml:space="preserve">
+    <value>Enter Doctor Name</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_33" xml:space="preserve">
+    <value>Patient Name / Mobile Number</value>
+  </data>
+  <data name="Appointment_Scripts_DataTable_dataTables_js_01" xml:space="preserve">
+    <value>No data available in table</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_34" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_35" xml:space="preserve">
+    <value>no.  de contacto .</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_36" xml:space="preserve">
+    <value>Appointment Date</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_37" xml:space="preserve">
+    <value>Appointment Time</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_38" xml:space="preserve">
+    <value>número de urn.</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_39" xml:space="preserve">
+    <value>Patient Address</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_40" xml:space="preserve">
+    <value>identificación de pacientes</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_41" xml:space="preserve">
+    <value>acción</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_42" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_43" xml:space="preserve">
+    <value>Cancel Reason</value>
+  </data>
+  <data name="Appointment_DoctorSchedule_aspx_08" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_44" xml:space="preserve">
+    <value>Click for Confirmation</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_45" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_46" xml:space="preserve">
+    <value>Patient Contact Details</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_47" xml:space="preserve">
+    <value>Book Appointment</value>
+  </data>
+  <data name="Appointment_Appointments_aspx_48" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+</root>

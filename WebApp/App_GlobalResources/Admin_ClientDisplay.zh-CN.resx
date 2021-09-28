@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_AddOrChangeGroup_aspx_01" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_02" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_AddOrChangeGroup_aspx_03" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Admin_AddOrChangeNumberPatterns_aspx_14" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_01" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_Analyzer_aspx_02" xml:space="preserve">
+    <value>点击这里编辑的详细信息！</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_01" xml:space="preserve">
+    <value>管理员主页</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_02" xml:space="preserve">
+    <value>印刷日期时间：</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_03" xml:space="preserve">
+    <value>收稿时间为：</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_04" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_05" xml:space="preserve">
+    <value>从时间退款：</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_06" xml:space="preserve">
+    <value>没有收到的金额从患者的</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_07" xml:space="preserve">
+    <value>未收到金额</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_08" xml:space="preserve">
+    <value>没有退款制造</value>
+  </data>
+  <data name="Admin_BillSettlement_aspx_09" xml:space="preserve">
+    <value>没有补偿的人们</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_001" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_002" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_01" xml:space="preserve">
+    <value>现金支付</value>
+  </data>
+  <data name="Admin_CashFlow_aspx_02" xml:space="preserve">
+    <value>OtherCurrencyDisplay1</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_02" xml:space="preserve">
+    <value>---选择---组织</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_03" xml:space="preserve">
+    <value> -  -  -  - -选择 -  -  -  - -</value>
+  </data>
+  <data name="Admin_ClientRateMapping_aspx_04" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_01" xml:space="preserve">
+    <value>Save_Message</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_02" xml:space="preserve">
+    <value>新策略成功保存..！</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_03" xml:space="preserve">
+    <value>政策更新成功..！</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_01" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Admin_DoctorSchedule_aspx_02" xml:space="preserve">
+    <value>分公司/地点</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_01" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Admin_DoctorsVacation_aspx_011" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_001" xml:space="preserve">
+    <value>GeneralBillingItems硕士</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_002" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Admin_GeneralBillingItemsMaster_aspx_003" xml:space="preserve">
+    <value>保存成功。</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_01" xml:space="preserve">
+    <value>调查药品品牌</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_02" xml:space="preserve">
+    <value>DrugBrand成功添加</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_03" xml:space="preserve">
+    <value>DrugBrand成功更新</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_04" xml:space="preserve">
+    <value>码</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_05" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="Admin_InvestigationDrugBrand_aspx_06" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_01" xml:space="preserve">
+    <value>结果类型：</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_02" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_03" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_04" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_05" xml:space="preserve">
+    <value>进入ReferenceRange</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_06" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_07" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_08" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_09" xml:space="preserve">
+    <value>输入显示文本</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_10" xml:space="preserve">
+    <value>包</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_11" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_12" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_13" xml:space="preserve">
+    <value>参考范围</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_14" xml:space="preserve">
+    <value>样品</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_15" xml:space="preserve">
+    <value>添加剂</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_16" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_17" xml:space="preserve">
+    <value>原理</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_18" xml:space="preserve">
+    <value>套件</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_19" xml:space="preserve">
+    <value>仪器</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_20" xml:space="preserve">
+    <value>QC数据</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_21" xml:space="preserve">
+    <value>口译/注意事项</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_22" xml:space="preserve">
+    <value>自动授权</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_23" xml:space="preserve">
+    <value>默认处理中心</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_24" xml:space="preserve">
+    <value>恐慌范围</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_25" xml:space="preserve">
+    <value>AutoAuthorizeID</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_26" xml:space="preserve">
+    <value>单击此处更改单位计量数据</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_27" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_28" xml:space="preserve">
+    <value>进入ReferenceRange</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_29" xml:space="preserve">
+    <value>添加/更新新的恐慌范围</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_30" xml:space="preserve">
+    <value>（形成XML）</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_31" xml:space="preserve">
+    <value>进入PanicRange</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_32" xml:space="preserve">
+    <value>选择测试样品</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_33" xml:space="preserve">
+    <value>选择测试样品添加剂</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_34" xml:space="preserve">
+    <value>选择测试方法</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_35" xml:space="preserve">
+    <value>选择测试套件</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_36" xml:space="preserve">
+    <value>选择测试仪</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_37" xml:space="preserve">
+    <value>检查质量控制数据</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_38" xml:space="preserve">
+    <value>进入AutoAuthorize为LoginID</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_39" xml:space="preserve">
+    <value>AutoAuthorize名称</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_40" xml:space="preserve">
+    <value>检查授权</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_41" xml:space="preserve">
+    <value>添加/更新新的处理中心</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_42" xml:space="preserve">
+    <value>添加/更新一个新的参考范围</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_43" xml:space="preserve">
+    <value>选择测试原理</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_44" xml:space="preserve">
+    <value>收集中心</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_45" xml:space="preserve">
+    <value>处理中心</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_46" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_47" xml:space="preserve">
+    <value>映射中心</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_48" xml:space="preserve">
+    <value>保存/关闭</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_49" xml:space="preserve">
+    <value>调查相关的详细信息更新成功地..！</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_50" xml:space="preserve">
+    <value>Excel中上传成功......！</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_51" xml:space="preserve">
+    <value>请确保您上传一个excel文件</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_52" xml:space="preserve">
+    <value>错误而载入参考范围和相关细节</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_01" xml:space="preserve">
+    <value>输入新仪器的详细资料</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_02" xml:space="preserve">
+    <value>新仪器添加成功！</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_03" xml:space="preserve">
+    <value>搜索现有的仪器详情，或点击添加新仪器。</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_04" xml:space="preserve">
+    <value>仪器已成功保存更改！</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_05" xml:space="preserve">
+    <value>仪器成功删除！</value>
+  </data>
+  <data name="Admin_ManageInvInstrument_aspx_06" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_01" xml:space="preserve">
+    <value>进入新方法的细节</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_02" xml:space="preserve">
+    <value>搜索现有方法的详细信息，或单击添加新方法。</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_03" xml:space="preserve">
+    <value>新方法添加成功</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_04" xml:space="preserve">
+    <value>方法更改保存成功！</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_05" xml:space="preserve">
+    <value>方法成功删除！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_01" xml:space="preserve">
+    <value>输入新原理的细节</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_02" xml:space="preserve">
+    <value>新添加的原理成功！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_03" xml:space="preserve">
+    <value>主体名称已经存在！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_04" xml:space="preserve">
+    <value>搜索现有的原理的详细信息，或者点击添加新原则。</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_05" xml:space="preserve">
+    <value>原理成功删除！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_06" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_07" xml:space="preserve">
+    <value>原则上已成功保存更改！</value>
+  </data>
+  <data name="Admin_ManageInvPrinciple_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_01" xml:space="preserve">
+    <value>----选择角色----</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_02" xml:space="preserve">
+    <value> - 选择一个Organization--</value>
+  </data>
+  <data name="Admin_MenuMapper_aspx_03" xml:space="preserve">
+    <value>----默认页面----</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_01" xml:space="preserve">
+    <value>选择机构：</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_02" xml:space="preserve">
+    <value>在活性</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_03" xml:space="preserve">
+    <value>活性</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_04" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_05" xml:space="preserve">
+    <value>您所选择的模式是</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_06" xml:space="preserve">
+    <value>你想继续吗 ？</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_001" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_002" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_003" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_004" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_005" xml:space="preserve">
+    <value>CRO</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_006" xml:space="preserve">
+    <value>研究</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_007" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_01" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_02" xml:space="preserve">
+    <value>PasswordLength</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_03" xml:space="preserve">
+    <value>SplcharLength</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_04" xml:space="preserve">
+    <value>NumcharLength</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_05" xml:space="preserve">
+    <value>ValidityPeriodType</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_06" xml:space="preserve">
+    <value>有效期</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_07" xml:space="preserve">
+    <value>PreviousPwdcount</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_08" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_09" xml:space="preserve">
+    <value>确认删除！</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_11" xml:space="preserve">
+    <value>最大365天</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_12" xml:space="preserve">
+    <value>最大52周</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_13" xml:space="preserve">
+    <value>最高1年</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_14" xml:space="preserve">
+    <value>最多12个月</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_15" xml:space="preserve">
+    <value>最大长度12</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_16" xml:space="preserve">
+    <value>最小长度6</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_17" xml:space="preserve">
+    <value>记录删除成功</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_18" xml:space="preserve">
+    <value>无法删除</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_19" xml:space="preserve">
+    <value>记录保存成功</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_20" xml:space="preserve">
+    <value>无法保存</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_02" xml:space="preserve">
+    <value> - 选择Organisation--</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_03" xml:space="preserve">
+    <value>错误文件上传</value>
+  </data>
+  <data name="Admin_RatesUpdation_aspx_04" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_01" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_02" xml:space="preserve">
+    <value>子类型</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_03" xml:space="preserve">
+    <value>---选择---组织</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_04" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_05" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_RateTypeMaster_aspx_06" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_01" xml:space="preserve">
+    <value>选择所有任务</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_02" xml:space="preserve">
+    <value>没有匹配找到记录</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_03" xml:space="preserve">
+    <value>任务已经成功地重新分配</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_04" xml:space="preserve">
+    <value>联合国选择所有任务</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_05" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Admin_TaskReassisn_aspx_06" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_TestGroup_aspx_01" xml:space="preserve">
+    <value>布局1</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_02" xml:space="preserve">
+    <value>布局2</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_03" xml:space="preserve">
+    <value>布局3</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_04" xml:space="preserve">
+    <value>布局4</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_05" xml:space="preserve">
+    <value>布局5</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_06" xml:space="preserve">
+    <value>布局6</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_07" xml:space="preserve">
+    <value>7布局</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_08" xml:space="preserve">
+    <value>布局8</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_09" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_10" xml:space="preserve">
+    <value>寄存器位置</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_11" xml:space="preserve">
+    <value>处理ORG</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_12" xml:space="preserve">
+    <value>操作所处的位置</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_13" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_14" xml:space="preserve">
+    <value>EN-GB</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_15" xml:space="preserve">
+    <value>记录保存成功</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_16" xml:space="preserve">
+    <value>没有找到这样的记录</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_17" xml:space="preserve">
+    <value>选择一个组增加</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_18" xml:space="preserve">
+    <value>成功删除。</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_19" xml:space="preserve">
+    <value>选择一个组删除</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_20" xml:space="preserve">
+    <value>组名称或代号已经存在！</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_21" xml:space="preserve">
+    <value>集团成功添加！</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_22" xml:space="preserve">
+    <value>更改已成功更新。</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_23" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_01" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_02" xml:space="preserve">
+    <value>已成功保存更改。</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_01" xml:space="preserve">
+    <value>用户主</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_02" xml:space="preserve">
+    <value>首选用户名</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_03" xml:space="preserve">
+    <value>更改已成功更新。</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_04" xml:space="preserve">
+    <value>首选用户名已经存在</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_05" xml:space="preserve">
+    <value>登录名 ：</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_06" xml:space="preserve">
+    <value>＆NBSP;密码：</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_07" xml:space="preserve">
+    <value>交易密码：“</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_08" xml:space="preserve">
+    <value>成功地更新位置</value>
+  </data>
+  <data name="Admin_UserMaster_aspx_09" xml:space="preserve">
+    <value>位置失败的选择更新</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_01" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Admin_ReportTemplate_aspx_02" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_05" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_06" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_07" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_SpecialRardCard_aspx_08" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_01" xml:space="preserve">
+    <value>特价卡</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_02" xml:space="preserve">
+    <value>服务客户端映射</value>
+  </data>
+  <data name="Admin_SpecialRateCard_aspx_03" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_01" xml:space="preserve">
+    <value>编辑现有模板</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_02" xml:space="preserve">
+    <value>创建新模板</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_03" xml:space="preserve">
+    <value>输入模板名称：</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_04" xml:space="preserve">
+    <value>没有符合条件的记录。</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_05" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Admin_TemplateMaker_aspx_06" xml:space="preserve">
+    <value>模板已成功删除...</value>
+  </data>
+  <data name="Admin_ManageInvMethod_aspx_06" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_01" xml:space="preserve">
+    <value>输入新套件的细节</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_02" xml:space="preserve">
+    <value>新套件添加成功！</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_03" xml:space="preserve">
+    <value>搜索现有套件的详细信息，或者点击添加新工具包。</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_04" xml:space="preserve">
+    <value>试剂盒已成功保存更改！</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_05" xml:space="preserve">
+    <value>搜索现有套件的详细信息，或者点击添加新工具包。</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_06" xml:space="preserve">
+    <value>包成功删除！</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_07" xml:space="preserve">
+    <value>搜索现有套件详情，或点击添加新工具</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_08" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_ManageInvKit_aspx_09" xml:space="preserve">
+    <value>搜索现有套件的详细信息，或者点击添加新工具包。</value>
+  </data>
+  <data name="Admin_TestGroup_aspx_24" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_TestInvestigation_aspx_03" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_01" xml:space="preserve">
+    <value> -  - 选择 -  - -</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_02" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_03" xml:space="preserve">
+    <value>医生姓名：</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_04" xml:space="preserve">
+    <value>医院名称：</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_05" xml:space="preserve">
+    <value>客户名称 ：</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_06" xml:space="preserve">
+    <value>博士</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_07" xml:space="preserve">
+    <value>部门名称 ：</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_08" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_09" xml:space="preserve">
+    <value>集合摘要 - </value>
+  </data>
+  <data name="Admin_LabAdminSummaryReports_aspx_10" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_01" xml:space="preserve">
+    <value>收到：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_02" xml:space="preserve">
+    <value>名称 ：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_03" xml:space="preserve">
+    <value>报告日期：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_04" xml:space="preserve">
+    <value> -  - -所有 -  - -</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_05" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_06" xml:space="preserve">
+    <value>日期：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_07" xml:space="preserve">
+    <value>本报讯：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_08" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_09" xml:space="preserve">
+    <value>未收到金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_10" xml:space="preserve">
+    <value>来源：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_11" xml:space="preserve">
+    <value>至 ：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_12" xml:space="preserve">
+    <value>选择货币：</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_13" xml:space="preserve">
+    <value>背部</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_14" xml:space="preserve">
+    <value>收集金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_15" xml:space="preserve">
+    <value>退款金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_16" xml:space="preserve">
+    <value>取消比尔金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_17" xml:space="preserve">
+    <value>其他金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_18" xml:space="preserve">
+    <value>期末余额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_19" xml:space="preserve">
+    <value>总金额收集</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_20" xml:space="preserve">
+    <value>总收入金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_21" xml:space="preserve">
+    <value>总退款金额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_22" xml:space="preserve">
+    <value>总金额待定</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_23" xml:space="preserve">
+    <value>取消总金额比尔</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_24" xml:space="preserve">
+    <value>支付总金额杂</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_25" xml:space="preserve">
+    <value>期末余额</value>
+  </data>
+  <data name="Admin_DaywiseCollection_aspx_26" xml:space="preserve">
+    <value>导出到XL</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_02" xml:space="preserve">
+    <value>选择一个或多个</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_03" xml:space="preserve">
+    <value>研究（S）</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_04" xml:space="preserve">
+    <value>累计：</value>
+  </data>
+  <data name="Admin_InvestigationCollectionReport_aspx_05" xml:space="preserve">
+    <value>调查合计：</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_01" xml:space="preserve">
+    <value>建筑物已存在！</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_02" xml:space="preserve">
+    <value>楼已存在！“</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_03" xml:space="preserve">
+    <value>存储区域已经存在！“</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_04" xml:space="preserve">
+    <value>成功保存</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_05" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="Admin_SampleArchivalMaster_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Admin_ManagePackages_aspx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_21" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_err" xml:space="preserve">
+    <value>在出错时保存数据！</value>
+  </data>
+  <data name="Admin_OrganisationLocation_aspx_07" xml:space="preserve">
+    <value>管理位置</value>
+  </data>
+  <data name="Admin_InvRefRanges_aspx_25" xml:space="preserve">
+    <value>汽车批准ID</value>
+  </data>
+  <data name="Admin_OrgCreateUser_aspx_005" xml:space="preserve">
+    <value>阴级射线示波器</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_02" xml:space="preserve">
+    <value>密码长度</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_03" xml:space="preserve">
+    <value>特别炭灰长度</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_04" xml:space="preserve">
+    <value>数字炭灰长度</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_05" xml:space="preserve">
+    <value>有效性期间类型</value>
+  </data>
+  <data name="Admin_PasswordPolicy_aspx_07" xml:space="preserve">
+    <value>早先密码计数</value>
+  </data>
+  <data name="Admin_DiscountMaster_aspx_002" xml:space="preserve">
+    <value>重新设置</value>
+  </data>
+<data name="Admin_DaywiseCollection_aspx_27" xml:space="preserve">
+    <value>用户明智收集报告_</value>
+  </data>
+</root>

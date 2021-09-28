@@ -1,0 +1,261 @@
+﻿#tabmenu
+{
+    float: left;
+    width: 100%;
+    background: #efefef;
+    font-size: 93%;
+    line-height: normal;
+    border-bottom: 1px solid #666;
+}
+
+#tabmenu ul
+{
+    margin: 0;
+    padding: 10px 10px 0 50px;
+    list-style: none;
+}
+#tabmenu li
+{
+    display: inline;
+
+}
+#tabmenu a
+{
+    float: left;
+    background: url('../Images/tableftF.gif') no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+}
+#tabmenu a span
+{
+    float: left;
+    display: block;
+    background: url('../Images/tabrightF.gif') no-repeat right top;
+    padding: 5px 15px 4px 6px;
+    color: #666;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac */
+#tabmenu a span
+{
+    float: none;
+}
+/* End IE5-Mac hack */
+
+#tabmenu .active a span, #tabmenu a:hover span
+{
+    color: #FFFFFF;
+}
+
+#tabmenu .active a, #tabmenu a:hover
+{
+    background-position: 0 -42px;
+}
+
+#tabmenu .active a span, #tabmenu a:hover span
+{
+    background-position: 100% -42px;
+}
+
+#TabsMenu
+{
+    float: left;
+    width: 100%;
+     line-height: normal;
+     font: bold 7.5pt Verdana;
+    border-bottom: 1px solid #24618E;
+
+}
+
+#TabsMenu1
+{
+    float: left;
+    width: 100%;
+     line-height: normal;
+     font: bold 7.5pt Verdana;
+    border-bottom: 1px solid #24618E;
+
+}
+
+
+#TabsMenu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#TabsMenu1 ul
+{
+    margin: 0;
+    padding: 10px 10px 0 5px;
+    list-style: none;
+
+}
+
+#TabsMenu li
+{
+    display: inline;
+    
+}
+
+
+#TabsMenu1 li
+{
+    display: inline;
+    
+}
+
+#TabsMenu a
+{
+    float: left;
+    background: url(../Images/tableftJ.gif) no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+
+}
+
+#TabsMenu1 a
+{
+    float: left;
+    background: url(../Images/tableftJ.gif) no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+
+}
+
+#TabsMenu a span 
+{
+    float: left;
+    display: block;
+    background: url(../Images/tabrightJ.png) no-repeat right top;
+    padding: 7px 15px 6px 6px;
+    color: #24618E;
+    
+}
+
+#TabsMenu1 a span span
+{
+    float: left;
+    display: block;
+    background: url(../Images/tabrightJ.png) no-repeat right top;
+    padding: 7px 15px 6px 6px;
+    color: #24618E;
+    
+}
+
+
+
+#TabsMenu a span
+{
+    float: none;
+
+}
+
+#TabsMenu1 a span
+{
+    float: none;
+
+}
+
+
+#TabsMenu .active a span, #TabsMenu a:hover span
+{
+    color: #FFF;
+}
+
+#TabsMenu1 .active a span, #TabsMenu1 a:hover span
+{
+    color: #FFF;
+}
+
+#TabsMenu .active a, #TabsMenu a:hover
+{
+    background-position: 0% -42px;
+
+}
+
+#TabsMenu1 .active a, #TabsMenu1 a:hover
+{
+    background-position: 0% -42px;
+
+}
+
+#TabsMenu .active a span, #TabsMenu a:hover span
+{
+    background-position: 100% -42px;
+
+}
+
+#TabsMenu1 .active a span, #TabsMenu1 a:hover span
+{
+    background-position: 100% -42px;
+
+}
+
+/*Nutrition*/
+#TabsMenus
+{
+    float: left;
+    width: 100%;
+
+     line-height: normal;
+     font: bold 7pt Verdana;
+    border-bottom: 1px solid #24618E;
+
+}
+#TabsMenus ul
+{
+    margin: 0;
+        display: inline;
+    padding: 10px 10px 0 5px;
+    list-style: none;
+
+}
+#TabsMenus li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#TabsMenus a
+{
+    float: left;
+    background: url(../Images/tableftJ.gif) no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+
+}
+#TabsMenus a span span
+{
+    float: left;
+    display: block;
+    background: url(../Images/tabrightJ.png) no-repeat right top;
+    padding: 7px 6px 7px 7px;
+    color: #24618E;
+    
+}
+#TabsMenus a span
+{
+    float: none;
+
+}
+#TabsMenus .active a span, #TabsMenus a:hover span
+{
+    color: #FFF;
+}
+#TabsMenus .active a, #TabsMenus a:hover
+{
+    background-position: 0% -42px;
+
+}
+#TabsMenus .active a span, #TabsMenus a:hover span
+{
+    background-position: 100% -42px;
+
+}

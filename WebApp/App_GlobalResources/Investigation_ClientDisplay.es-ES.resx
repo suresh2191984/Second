@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Investigation_BatchWiseEnterresult_aspx_01" xml:space="preserve">
+    <value>establecer valores </value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_02" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_03" xml:space="preserve">
+    <value> ---seleccionar---</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_04" xml:space="preserve">
+    <value>validar resultado por lotes</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_05" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_06" xml:space="preserve">
+    <value>número de la visita (sid)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_07" xml:space="preserve">
+    <value>edad / sexo</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_08" xml:space="preserve">
+    <value>nombre de la investigación</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_09" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_02" xml:space="preserve">
+    <value>formato portable</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_03" xml:space="preserve">
+    <value>identificación de lista de trabajos:</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_04" xml:space="preserve">
+    <value>contenido del grupo en la columna</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_05" xml:space="preserve">
+    <value>3 Column Group Contents</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_06" xml:space="preserve">
+    <value>de serie</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_07" xml:space="preserve">
+    <value>identificación de lista de trabajos</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_08" xml:space="preserve">
+    <value>Registered.on</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_09" xml:space="preserve">
+    <value>número de visita</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_10" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_11" xml:space="preserve">
+    <value>no. de código de barras </value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_12" xml:space="preserve">
+    <value>código </value>
+  </data>
+  <data name="Investigation_BatchWiseWorkList_aspx_13" xml:space="preserve">
+    <value>detalles del paciente</value>
+  </data>
+  <data name="Investigation_ContainerMaster_aspx_01" xml:space="preserve">
+    <value>limpiar</value>
+  </data>
+  <data name="Investigation_ContainerMaster_aspx_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Investigation_ContainerMaster_aspx_03" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_02" xml:space="preserve">
+    <value>aprobado</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_03" xml:space="preserve">
+    <value>impreso</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_04" xml:space="preserve">
+    <value>impreso parcialmente</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_05" xml:space="preserve">
+    <value>número de laboratorio</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_06" xml:space="preserve">
+    <value>número de visita</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_07" xml:space="preserve">
+    <value>ver la imagen</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_08" xml:space="preserve">
+    <value>gráfico de citometría de flujo</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_09" xml:space="preserve">
+    <value>externalizar</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_10" xml:space="preserve">
+    <value>fecha de reporte de externalización</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_11" xml:space="preserve">
+    <value>fecha de recibido</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_12" xml:space="preserve">
+    <value>listo para enviar</value>
+  </data>
+  <data name="Investigation_InvestigationReport_aspx_13" xml:space="preserve">
+    <value>el cliente tiene una cuenta pendiente de:</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_01" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_02" xml:space="preserve">
+    <value>actualización</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_03" xml:space="preserve">
+    <value>-----Seleccionar-----</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_04" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_ascx_05" xml:space="preserve">
+    <value>nombre del resultado</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_01" xml:space="preserve">
+    <value>Investigación solicitada</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_02" xml:space="preserve">
+    <value>ESTADO</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_03" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_04" xml:space="preserve">
+    <value>Rc</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_05" xml:space="preserve">
+    <value>(ALL)</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_01" xml:space="preserve">
+    <value>desde la visita no</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_02" xml:space="preserve">
+    <value>To Visit No</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_03" xml:space="preserve">
+    <value>típo de visita</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_04" xml:space="preserve">
+    <value>desde</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_05" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_06" xml:space="preserve">
+    <value>modo</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_07" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_08" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_09" xml:space="preserve">
+    <value>nombre de prueba</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_10" xml:space="preserve">
+    <value>número  de la sala</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_11" xml:space="preserve">
+    <value>prioridad</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_12" xml:space="preserve">
+    <value>departamento</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_13" xml:space="preserve">
+    <value>imprimir lista de trabajo</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_14" xml:space="preserve">
+    <value>identificación de visita</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_15" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_16" xml:space="preserve">
+    <value>detalles</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_17" xml:space="preserve">
+    <value>Rec.Date</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_18" xml:space="preserve">
+    <value>Ref.By</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_19" xml:space="preserve">
+    <value>-----Seleccionar-----</value>
+  </data>
+  <data name="Investigation_WorkListFromVisitToVisit_aspx_20" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Investigation_BioChemistryDisplay_aspx_01" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Investigation_BioChemistryDisplay_aspx_02" xml:space="preserve">
+    <value>glicemia</value>
+  </data>
+  <data name="Investigation_BioChemistryDisplay_aspx_03" xml:space="preserve">
+    <value>azúcar en la orina</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_01" xml:space="preserve">
+    <value>celulas</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_02" xml:space="preserve">
+    <value>conteo  diferencial</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_03" xml:space="preserve">
+    <value>inmunológica</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_04" xml:space="preserve">
+    <value>citología</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_05" xml:space="preserve">
+    <value>baar</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_06" xml:space="preserve">
+    <value>widal</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_07" xml:space="preserve">
+    <value>colágeno vascular</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_08" xml:space="preserve">
+    <value>anticuerpos anticitoplasma de neutrófilos</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_09" xml:space="preserve">
+    <value>examinación microscópica</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_10" xml:space="preserve">
+    <value>dilución</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_11" xml:space="preserve">
+    <value>resultado</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_12" xml:space="preserve">
+    <value>Typhi 'H'</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_13" xml:space="preserve">
+    <value>Typhi 'O'</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_14" xml:space="preserve">
+    <value>paratyphi 'h'</value>
+  </data>
+  <data name="Investigation_ClinicalDisplay_aspx_15" xml:space="preserve">
+    <value>Paratyphis 'O'</value>
+  </data>
+  <data name="Investigation_HemotologyDisplay_aspx_01" xml:space="preserve">
+    <value>controlar</value>
+  </data>
+  <data name="Investigation_HemotologyDisplay_aspx_02" xml:space="preserve">
+    <value>paciente</value>
+  </data>
+  <data name="Investigation_HemotologyDisplay_aspx_03" xml:space="preserve">
+    <value>inr</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_01" xml:space="preserve">
+    <value>Select one or more Investigation(s), then click Generate Pattern</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_02" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_03" xml:space="preserve">
+    <value>rc</value>
+  </data>
+  <data name="Investigation_InvestigationCapture_aspx_04" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="Investigation_InvestigationDisplay_aspx_01" xml:space="preserve">
+    <value>aprobar</value>
+  </data>
+  <data name="Investigation_InvestigationDisplay_aspx_02" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="Investigation_MicroPattern_ascx_01" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Investigation_MicroPattern_ascx_02" xml:space="preserve">
+    <value>-----Seleccionar-----</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_01" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_02" xml:space="preserve">
+    <value>establecer valores </value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_03" xml:space="preserve">
+    <value>investigación solicitada para la visita del paciente</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_04" xml:space="preserve">
+    <value>nombre de la investigación</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_05" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_06" xml:space="preserve">
+    <value>previsualización de detalles de kit de metodo</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_07" xml:space="preserve">
+    <value>mostrar vista previa de impresión</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_08" xml:space="preserve">
+    <value>ocultar vista previa de impresión</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_09" xml:space="preserve">
+    <value>reporte</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_10" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_11" xml:space="preserve">
+    <value>si está viendo las imágenes por primera vez, por favor instalar el visor.</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_12" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_13" xml:space="preserve">
+    <value>ver los valores de investigación</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_14" xml:space="preserve">
+    <value>escribir fuente nombre para agregar:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_15" xml:space="preserve">
+    <value>artículo actual</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_16" xml:space="preserve">
+    <value>seleccione nuevo artículo</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_17" xml:space="preserve">
+    <value>comentarios:</value>
+  </data>
+  <data name="Investigation_BioPattern1_ascx_01" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Investigation_BioPattern5_ascx_01" xml:space="preserve">
+    <value>Tiempo &lt;br /&gt; (en horas)</value>
+  </data>
+  <data name="Investigation_BioPattern5_ascx_02" xml:space="preserve">
+    <value>Blood Sugar &lt;br /&gt; (in mg/dl)</value>
+  </data>
+  <data name="Investigation_BioPattern5_ascx_03" xml:space="preserve">
+    <value>Urine Sugar &lt;br /&gt; (in mg/dl)</value>
+  </data>
+  <data name="Investigation_FluidPattern_ascx_01" xml:space="preserve">
+    <value>observaciones técnicas</value>
+  </data>
+  <data name="Investigation_FluidPattern_ascx_02" xml:space="preserve">
+    <value>observaciones médicas</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_18" xml:space="preserve">
+    <value>Agregar / Cambiar los valores de la investigación</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_19" xml:space="preserve">
+    <value>fuera de rango</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_20" xml:space="preserve">
+    <value>los valores de las pruebas siguientes están fuera de rango!</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_21" xml:space="preserve">
+    <value>Desea continuar ?</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_22" xml:space="preserve">
+    <value>nombre:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_23" xml:space="preserve">
+    <value>edad:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_24" xml:space="preserve">
+    <value>paciente no.:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_25" xml:space="preserve">
+    <value>sexo:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_26" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_27" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_28" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_29" xml:space="preserve">
+    <value>rc</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_30" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_31" xml:space="preserve">
+    <value>revisar</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_32" xml:space="preserve">
+    <value>reprobar</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_33" xml:space="preserve">
+    <value>prueba de reflejo</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_34" xml:space="preserve">
+    <value>ver la imagen</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_35" xml:space="preserve">
+    <value>haga clic aquí para agregar / cambiar comentarios agrupados.</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_36" xml:space="preserve">
+    <value>razón:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_37" xml:space="preserve">
+    <value>usuario:</value>
+  </data>
+  <data name="Investigation_InvestigationApprovel_aspx_38" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_01" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="Investigation_InvReportsForApproval_aspx_02" xml:space="preserve">
+    <value>reporte</value>
+  </data>
+  <data name="Investigation_InvReportsForDept_aspx_01" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Investigation_AntibodyWithMethod_ascx_01" xml:space="preserve">
+    <value>rango de referencia</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV1_aspx_01" xml:space="preserve">
+    <value>observaciones técnicas</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV1_aspx_02" xml:space="preserve">
+    <value>observaciones médicas</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV1_aspx_03" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_02" xml:space="preserve">
+    <value>diámetro del disco</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_03" xml:space="preserve">
+    <value>sensible a</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReportV2_aspx_04" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_01" xml:space="preserve">
+    <value>nombre del organismo:</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_02" xml:space="preserve">
+    <value>sensible</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_03" xml:space="preserve">
+    <value>moderadamente sensible a</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_04" xml:space="preserve">
+    <value>resistente</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_05" xml:space="preserve">
+    <value>nombre del medicamento</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_06" xml:space="preserve">
+    <value>diámetro del disco</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_07" xml:space="preserve">
+    <value>sensible a</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_08" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Investigation_CultureandSensitivityReport_aspx_09" xml:space="preserve">
+    <value>resistente a</value>
+  </data>
+  <data name="Investigation_ImagingWithFCKEditor_ascx_01" xml:space="preserve">
+    <value>--All--</value>
+  </data>
+  <data name="Investigation_ImagingWithFCKEditor_ascx_02" xml:space="preserve">
+    <value>seleccionar el tipo de plantilla</value>
+  </data>
+  <data name="Investigation_ImagingWithFCKEditor_ascx_03" xml:space="preserve">
+    <value>org confianza de asignaciones de acceso página</value>
+  </data>
+  <data name="Investigation_FishPattern1_ascx_01" xml:space="preserve">
+    <value>comentarios</value>
+  </data>
+  <data name="Investigation_FishPattern2_ascx_02" xml:space="preserve">
+    <value>código </value>
+  </data>
+  <data name="Investigation_FishResultPattern1_ascx_01" xml:space="preserve">
+    <value>nº de células tumorales invasivas contadas</value>
+  </data>
+  <data name="Investigation_FishResultPattern1_ascx_02" xml:space="preserve">
+    <value>media de her-2 / señales de neu / núcleo (naranja)</value>
+  </data>
+  <data name="Investigation_FishResultPattern1_ascx_03" xml:space="preserve">
+    <value>promedio cep 17 señales / núcleo (verde)</value>
+  </data>
+  <data name="Investigation_FishResultPattern1_ascx_04" xml:space="preserve">
+    <value>proporción (i / ii)</value>
+  </data>
+  <data name="Investigation_HBVDRUG_ascx_01" xml:space="preserve">
+    <value>mutación</value>
+  </data>
+  <data name="Investigation_HBVDRUG_ascx_02" xml:space="preserve">
+    <value>detectado</value>
+  </data>
+  <data name="Investigation_HBVDRUG_ascx_03" xml:space="preserve">
+    <value>interpretación</value>
+  </data>
+  <data name="Investigation_HBVDRUG_ascx_04" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Investigation_HEMATOLOGY_ascx_01" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_01" xml:space="preserve">
+    <value>establecer valores </value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_02" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_03" xml:space="preserve">
+    <value>escribir nombre de investigación para cambiar:</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_04" xml:space="preserve">
+    <value>cambio</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_05" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_06" xml:space="preserve">
+    <value>escribir fuente nombre para agregar:</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_07" xml:space="preserve">
+    <value>artículo actual</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_08" xml:space="preserve">
+    <value>seleccione nuevo artículo</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_09" xml:space="preserve">
+    <value>comentarios:</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_10" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_11" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_12" xml:space="preserve">
+    <value>escribir nombre de grupo para modificar:</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_13" xml:space="preserve">
+    <value>ver los valores de investigación</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_14" xml:space="preserve">
+    <value>Agregar / Cambiar los valores de la investigación</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_15" xml:space="preserve">
+    <value>los valores de las pruebas siguientes están fuera de rango!</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_16" xml:space="preserve">
+    <value>Desea continua?</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_17" xml:space="preserve">
+    <value>fuera de rango</value>
+  </data>
+  <data name="Investigation_MicroBio1_ascx_01" xml:space="preserve">
+    <value>comentarios</value>
+  </data>
+  <data name="Investigation_MicroBio1_ascx_02" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_01" xml:space="preserve">
+    <value>cargar y descargar el documento</value>
+  </data>
+  <data name="Investigation_MultipleFileUpload_ascx_02" xml:space="preserve">
+    <value>seleccione fichero</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_02" xml:space="preserve">
+    <value>número de laboratorio</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_03" xml:space="preserve">
+    <value>número de visita</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_04" xml:space="preserve">
+    <value>ya publicado</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_05" xml:space="preserve">
+    <value>aprobado</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_06" xml:space="preserve">
+    <value>externalizar</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_07" xml:space="preserve">
+    <value>el estado no será actualizado</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_08" xml:space="preserve">
+    <value>investigación aún no publicada</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_09" xml:space="preserve">
+    <value>listo para enviar</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_10" xml:space="preserve">
+    <value>el cliente tiene una cuenta pendiente de:</value>
+  </data>
+  <data name="Investigation_InvestigationReportPrint_aspx_11" xml:space="preserve">
+    <value>impreso en</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_01" xml:space="preserve">
+    <value>informe del estádo de la investigación</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_02" xml:space="preserve">
+    <value>reporte de prueba de estadísticas</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_03" xml:space="preserve">
+    <value>estado de visita del paciente</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_04" xml:space="preserve">
+    <value>estado de la prueba</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_05" xml:space="preserve">
+    <value>el estatus de la muestra</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_06" xml:space="preserve">
+    <value>detalle del reporte de prueba de estadística </value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_07" xml:space="preserve">
+    <value>resumen del reporte de prueba de estadística </value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_08" xml:space="preserve">
+    <value>------Seleccionar------</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_09" xml:space="preserve">
+    <value>---------Seleccionar---------</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_01" xml:space="preserve">
+    <value>investigación solicitada para la visita actual</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_02" xml:space="preserve">
+    <value>identificación de la investigación </value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_03" xml:space="preserve">
+    <value>nombre de la investigación</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_04" xml:space="preserve">
+    <value>valores</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_05" xml:space="preserve">
+    <value>unidad</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_06" xml:space="preserve">
+    <value>rango de referencia</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_07" xml:space="preserve">
+    <value>observaciones técnicas</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_08" xml:space="preserve">
+    <value>observaciones médicas</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_09" xml:space="preserve">
+    <value>valores delta</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_10" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_11" xml:space="preserve">
+    <value>fuera de rango</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_12" xml:space="preserve">
+    <value>los valores de las pruebas siguientes están fuera de rango!</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_13" xml:space="preserve">
+    <value>Do you wish to Continue ?</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_14" xml:space="preserve">
+    <value>comentarios:</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_15" xml:space="preserve">
+    <value>actualizar el valor</value>
+  </data>
+  <data name="Investigation_InvApproval_aspx_16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Investigation_PDFUploadpattern_aspx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_FluidAnalysisCytologyPattern_ascx" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_HistoImageDescriptionPattern_ascx_01" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_HistoPathologyPattern_ascx_10" xml:space="preserve">
+    <value> --seleccionar--</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_01" xml:space="preserve">
+    <value>añadir investigación </value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_02" xml:space="preserve">
+    <value>esquema de codificación</value>
+  </data>
+  <data name="Investigation_AddInvestigation_aspx_03" xml:space="preserve">
+    <value>guardar</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_10" xml:space="preserve">
+    <value>imprimir reporte</value>
+  </data>
+  <data name="Investigation_InvestigationReport_ascx_20" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Investigation_InvestigationReport_ascx_21" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="Investigation_InvestigationReport_ascx_22" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_004" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="Investigation_ReportDispatch_aspx_01" xml:space="preserve">
+    <value>--Seleccionar--</value>
+  </data>
+  <data name="Investigation_ReportDispatch_aspx_02" xml:space="preserve">
+    <value>Dirección  registrada</value>
+  </data>
+  <data name="Investigation_ReportDispatch_aspx_03" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="Investigation_ReportDispatch_aspx_04" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_12" xml:space="preserve">
+    <value>Nombre del paciente</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_13" xml:space="preserve">
+    <value>Edad/genero</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_14" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_15" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_16" xml:space="preserve">
+    <value>Ref. médico</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_17" xml:space="preserve">
+    <value>nombre del cliente</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_18" xml:space="preserve">
+    <value>Examen solicitado</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_19" xml:space="preserve">
+    <value>Monto total</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_20" xml:space="preserve">
+    <value>Recibo estado</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_21" xml:space="preserve">
+    <value>correo electrónico</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_22" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_23" xml:space="preserve">
+    <value>Impreso</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_24" xml:space="preserve">
+    <value>imprimir</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_25" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_26" xml:space="preserve">
+    <value>correo</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_27" xml:space="preserve">
+    <value>Servicios solicitados</value>
+  </data>
+  <data name="Investigation_ReportDispatch_aspx_05" xml:space="preserve">
+    <value>Cuenta total : </value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_11" xml:space="preserve">
+    <value>Nº de serie</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_30" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_31" xml:space="preserve">
+    <value>Anormales inferior/superior</value>
+  </data>
+  <data name="Investigation_InvestigationStatusReport_aspx_32" xml:space="preserve">
+    <value>Pánico</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_21" xml:space="preserve">
+    <value>Visita del paciente(s)</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_22" xml:space="preserve">
+    <value>Valore(s)</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_23" xml:space="preserve">
+    <value>Nombre de la prueba: </value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_24" xml:space="preserve">
+    <value>Rango de referencia: </value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_25" xml:space="preserve">
+    <value>Fecha de visita</value>
+  </data>
+  <data name="Investigation_InvestigationResultsCapture_aspx_26" xml:space="preserve">
+    <value>Investigación</value>
+  </data>
+  <data name="Investigation_InvestigationQuickApprovel_aspx_06" xml:space="preserve">
+    <value>NOMBRE DE INVESTIGACIÓN</value>
+  </data>
+  <data name="Investigation_InvResultTemplate_aspx_01" xml:space="preserve">
+    <value>Tipo de informe</value>
+  </data>
+<data name="Investigation_InvestigationQuickApprovel_aspx_07" xml:space="preserve">
+    <value>(todo)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_10" xml:space="preserve">
+    <value>Año(s)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_11" xml:space="preserve">
+    <value>Mese(s)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_12" xml:space="preserve">
+    <value>Semana(s)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_13" xml:space="preserve">
+    <value>Día(s)</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_14" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="Investigation_BatchWiseEnterresult_aspx_15" xml:space="preserve">
+    <value>Femenino</value>
+  </data>
+    <data name="Investigation_InvestigationStatusReport_aspx_35" xml:space="preserve">
+    <value>Espere por favor....</value>
+  </data>
+<data name="Investigation_PatternMappingForInvestigation_0089" xml:space="preserve">
+    <value>---Seleccionar---</value>
+  </data>
+  <data name="Investigation_PatternMappingForInvestigation_0090" xml:space="preserve">
+    <value>Seleccione la PatternName</value>
+  </data>
+  <data name="Investigation_PatternMappingForInvestigation_0091" xml:space="preserve">
+    <value>Avance</value>
+  </data>
+
+</root>

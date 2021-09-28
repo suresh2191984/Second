@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PageRoleAccessMapping>
+  <Pages>
+    <Inpatient>
+      <IPBillSettlement orgid="1">
+        <Sections>
+          <Activity Name="A">
+            <Desc>Add Misc Item</Desc>
+          </Activity>
+          <Activity Name="B">
+            <Desc>Modify Bill Items</Desc>
+          </Activity>
+          <Activity Name="C">
+            <Desc>Discharge</Desc>
+          </Activity>
+          <Activity Name="D">
+            <Desc>Button</Desc>
+          </Activity>
+          <Activity Name="E">
+            <Desc>Whole Page</Desc>
+          </Activity>
+          <Activity Name="K">
+            <Desc>Knowledge Container</Desc>
+          </Activity>
+          <Activity Name="PC">
+            <Desc>Payment Container</Desc>
+          </Activity>
+          <Activity Name="HC">
+            <Desc>Hide Column</Desc>
+          </Activity>
+        </Sections>
+      </IPBillSettlement>
+    </Inpatient>
+  </Pages>
+</PageRoleAccessMapping>
+

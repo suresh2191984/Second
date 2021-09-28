@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Master_AddBankName_aspx_01" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="Master_AddBankName_aspx_02" xml:space="preserve">
+    <value>Cannot be blank</value>
+  </data>
+  <data name="Master_AddBankName_aspx_03" xml:space="preserve">
+    <value>Bank Already Exists</value>
+  </data>
+  <data name="Master_AddBankName_aspx_04" xml:space="preserve">
+    <value>Bank already Added</value>
+  </data>
+  <data name="Master_AddBankName_aspx_05" xml:space="preserve">
+    <value>Entered Bank Already Exists</value>
+  </data>
+  <data name="Master_AddBankName_aspx_06" xml:space="preserve">
+    <value>Enter The Bank Name</value>
+  </data>
+  <data name="Master_AddBankName_aspx_07" xml:space="preserve">
+    <value>ADD The Bank</value>
+  </data>
+  <data name="Master_Cancel" xml:space="preserve">
+    <value>anular</value>
+  </data>
+  <data name="Master_CasualityMaster_aspx_01" xml:space="preserve">
+    <value>please Enter Casuality name</value>
+  </data>
+  <data name="Master_CasualityMaster_aspx_02" xml:space="preserve">
+    <value>please Enter Casuality Code</value>
+  </data>
+  <data name="Master_CasualityMaster_aspx_03" xml:space="preserve">
+    <value>please Enter rate</value>
+  </data>
+  <data name="Master_CasualityMaster_aspx_04" xml:space="preserve">
+    <value>el elemento agregado ya existe.</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_01" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_02" xml:space="preserve">
+    <value>seleccione tipo de empleado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_03" xml:space="preserve">
+    <value>escribir número del empleado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_04" xml:space="preserve">
+    <value>Enter Employee Name</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_05" xml:space="preserve">
+    <value>seleccione nombre del empleador</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_06" xml:space="preserve">
+    <value>seleccione la ubicación del empleado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_07" xml:space="preserve">
+    <value>escribir el nombre de la designación</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_08" xml:space="preserve">
+    <value>nombre ya existe</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_09" xml:space="preserve">
+    <value>escribir el nombre de relación</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_10" xml:space="preserve">
+    <value>nombre ya existe</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_11" xml:space="preserve">
+    <value>escribir el nombre del tipo empleado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_12" xml:space="preserve">
+    <value>escribir nombre del departamento del empleado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_13" xml:space="preserve">
+    <value>Enter the code</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_14" xml:space="preserve">
+    <value>escribir el nombre de tipo de paciente</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_15" xml:space="preserve">
+    <value>escribir el nombre de grado</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_16" xml:space="preserve">
+    <value>escribir el nombre del empleador</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_17" xml:space="preserve">
+    <value>escribir nombre de ubicación</value>
+  </data>
+  <data name="Master_DesignationRelationship_aspx_18" xml:space="preserve">
+    <value>nombre de usuario de correo inválido</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_01" xml:space="preserve">
+    <value>escribir válido</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_02" xml:space="preserve">
+    <value>directiva vacía de tod no agrega </value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_03" xml:space="preserve">
+    <value>escribir el código de descuento</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_04" xml:space="preserve">
+    <value>escribir el nombre de descuento</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_05" xml:space="preserve">
+    <value>Enter the  Discount</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_06" xml:space="preserve">
+    <value>Select the Discount Type</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_07" xml:space="preserve">
+    <value>This Organization already have Discount Type as Value</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_08" xml:space="preserve">
+    <value>seleccione un registro</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_09" xml:space="preserve">
+    <value>por favor introduzca nombre de la póliza</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_10" xml:space="preserve">
+    <value>Please select fee type</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_11" xml:space="preserve">
+    <value>por favor introduzca el valor de descuento</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_12" xml:space="preserve">
+    <value>por favor seleccione el tipo</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_13" xml:space="preserve">
+    <value>no se permite agregar más de 1 descuento para este tipo de tarifa y categoría</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_14" xml:space="preserve">
+    <value>escribir el código de cupón</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_15" xml:space="preserve">
+    <value>escribir nombre de cupón</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_16" xml:space="preserve">
+    <value>elija el código de cupón</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_17" xml:space="preserve">
+    <value>escribir el comienzo del número de serie.</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_18" xml:space="preserve">
+    <value>escribir número de serie final.</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_19" xml:space="preserve">
+    <value>escribir nº de lote.</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_20" xml:space="preserve">
+    <value>escribir unidades pedidas</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_21" xml:space="preserve">
+    <value>escribir el valor del cupón</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_22" xml:space="preserve">
+    <value>escribir / seleccionar fecha de caducidad</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_23" xml:space="preserve">
+    <value>Provide tax type</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_24" xml:space="preserve">
+    <value>proporcione nombre del impuesto</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_25" xml:space="preserve">
+    <value>proporcione código fiscal</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_26" xml:space="preserve">
+    <value>proporcione porcentaje del impuesto</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_27" xml:space="preserve">
+    <value>Please seletect the refernce type</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_28" xml:space="preserve">
+    <value>seleccione típo</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_29" xml:space="preserve">
+    <value>seleccione investigación</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_30" xml:space="preserve">
+    <value>proporcione código</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_31" xml:space="preserve">
+    <value>Provide The Investigation Name</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_32" xml:space="preserve">
+    <value>Provide valid range</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_33" xml:space="preserve">
+    <value>proporcione porcentaje</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_34" xml:space="preserve">
+    <value>Given range not valid !</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_35" xml:space="preserve">
+    <value>This Range in Not Valid.Please give valid Range</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_36" xml:space="preserve">
+    <value>no debe ser mayor que 100</value>
+  </data>
+  <data name="Master_DiscountMaster_aspx_37" xml:space="preserve">
+    <value>confirmar para eliminar!!</value>
+  </data>
+  <data name="Master_DiscountReason_aspx_01" xml:space="preserve">
+    <value>escribir el código de descuento</value>
+  </data>
+  <data name="Master_DiscountReason_aspx_02" xml:space="preserve">
+    <value>Enter Discount Reason</value>
+  </data>
+  <data name="Master_DiscountReason_aspx_03" xml:space="preserve">
+    <value>Reason Code already exists</value>
+  </data>
+  <data name="Master_DiscountReason_aspx_04" xml:space="preserve">
+    <value>seleccione un registro</value>
+  </data>
+  <data name="Master_Error" xml:space="preserve">
+    <value>alerta</value>
+  </data>
+  <data name="Master_GeneralBillingItemsMaster_aspx_01" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Master_GeneralBillingItemsMaster_aspx_02" xml:space="preserve">
+    <value>el elemento agregado ya existe.</value>
+  </data>
+  <data name="Master_GeneralBillingItemsMaster_aspx_03" xml:space="preserve">
+    <value>proporcione el nombre</value>
+  </data>
+  <data name="Master_GeneralBillingItemsMaster_aspx_04" xml:space="preserve">
+    <value>el elemento agregado ya existe.</value>
+  </data>
+  <data name="Master_Information" xml:space="preserve">
+    <value>información</value>
+  </data>
+  <data name="Master_Ok" xml:space="preserve">
+    <value>de acuerdo</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_01" xml:space="preserve">
+    <value>selecciona una categoría</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_02" xml:space="preserve">
+    <value>seleccione típo</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_03" xml:space="preserve">
+    <value>escribir el código</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_04" xml:space="preserve">
+    <value>introduzca razón</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_05" xml:space="preserve">
+    <value>guardado exitosamente</value>
+  </data>
+  <data name="Master_ReasonMaster_aspx_06" xml:space="preserve">
+    <value>Razón asignada exitosamente para este organización</value>
+  </data>
+</root>

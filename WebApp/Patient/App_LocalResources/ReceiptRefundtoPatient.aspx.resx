@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Fee Type</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Received By</value>
+  </data>
+  <data name="btnCancelBillResource1.Text" xml:space="preserve">
+    <value>Cancel Bill</value>
+  </data>
+  <data name="btnCancelBillResource1.ToolTip" xml:space="preserve">
+    <value>Do you want to Cancel this Bill?</value>
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRefundResource1.Text" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="btnRefundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRefundResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRefundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="currenyNameResource1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="currenyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlBaseCurrencyResource1.ToolTip" xml:space="preserve">
+    <value>Select Currency</value>
+  </data>
+  <data name="grdRefundResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdRefundResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdRefundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgProgressbarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblamtcanbetransResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblamtcanbetransResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAmtReceivedTextResource1.Text" xml:space="preserve">
+    <value>Amount Received from the Patient is </value>
+  </data>
+  <data name="lblAmtReceivedTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAmtRefundedTextResource1.Text" xml:space="preserve">
+    <value>Amount Refunded to the Patient is </value>
+  </data>
+  <data name="lblAmtRefundedTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBillDetailsIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrChangeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrChangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinalBillIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPNameResource1.Text" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="lblPNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefAmtResource1.Text" xml:space="preserve">
+    <value>Refundable Amount is </value>
+  </data>
+  <data name="lblRefAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefundableAmtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefundableAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRfdAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotAmtReceivedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotAmtReceivedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotAmtRefundedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotAmtRefundedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarningResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarningResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Refund to Patient</value>
+  </data>
+  <data name="pnlAssignResource1.GroupingText" xml:space="preserve">
+    <value>Refund Assign</value>
+  </data>
+  <data name="pnlAssignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCancelResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRefundResource1.GroupingText" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="pnlRefundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblPaymodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_AmountResource1.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Rs_AmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_BankResource1.Text" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Rs_BankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ChequeNoResource1.Text" xml:space="preserve">
+    <value>Cheque No.</value>
+  </data>
+  <data name="Rs_ChequeNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_ReasonforCancelResource1.Text" xml:space="preserve">
+    <value>Reason for Cancel :</value>
+  </data>
+  <data name="Rs_ReasonforCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_RefundableAmountisResource1.Text" xml:space="preserve">
+    <value>Refundable Amount is</value>
+  </data>
+  <data name="Rs_RefundableAmountisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_RemarksResource1.Text" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Rs_RemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SelectModeofPaymentResource1.Text" xml:space="preserve">
+    <value>Select Mode of Payment</value>
+  </data>
+  <data name="Rs_SelectModeofPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rs_SelectPayingCurrencyResource1.Text" xml:space="preserve">
+    <value>Select Paying Currency</value>
+  </data>
+  <data name="Rs_SelectPayingCurrencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>InterPayID</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Final Bill No</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Amt Received</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Amt Refunded</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Refundable Amt</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>Amt To Refund</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="txtAmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBankTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBankTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCancelReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCancelReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtRfdAmtResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="TxtRfdAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRfdReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRfdReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_01" xml:space="preserve">
+    <value>masculino</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_02" xml:space="preserve">
+    <value>femenino</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_03" xml:space="preserve">
+    <value>plantilla de identificación del paciente</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_04" xml:space="preserve">
+    <value>nro. de visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_05" xml:space="preserve">
+    <value>fecha de visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_06" xml:space="preserve">
+    <value>MedicalRecordNo</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_07" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_08" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_09" xml:space="preserve">
+    <value>fdn</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_10" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_11" xml:space="preserve">
+    <value>sexo</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_12" xml:space="preserve">
+    <value>religión</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_13" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_14" xml:space="preserve">
+    <value>RTRW</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_15" xml:space="preserve">
+    <value>kelurahan </value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_16" xml:space="preserve">
+    <value>kecamatan </value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_17" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_18" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_19" xml:space="preserve">
+    <value>TelephoneNo</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_20" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_21" xml:space="preserve">
+    <value>sin ktp</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_22" xml:space="preserve">
+    <value>calificación</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_23" xml:space="preserve">
+    <value>ocupacion</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_24" xml:space="preserve">
+    <value>estádo civil</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_25" xml:space="preserve">
+    <value>fecha de última visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_26" xml:space="preserve">
+    <value>seguro</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_27" xml:space="preserve">
+    <value>departamento</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_28" xml:space="preserve">
+    <value>sub-departamento</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_29" xml:space="preserve">
+    <value>especialidad</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_30" xml:space="preserve">
+    <value>alergia</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_31" xml:space="preserve">
+    <value>fecha actual</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_32" xml:space="preserve">
+    <value>nombre de acceso</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_33" xml:space="preserve">
+    <value>firma del oficial</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_34" xml:space="preserve">
+    <value>generar visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_35" xml:space="preserve">
+    <value>motivo de visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_36" xml:space="preserve">
+    <value>número de serie</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_37" xml:space="preserve">
+    <value>MediacalRecordNo</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_38" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_39" xml:space="preserve">
+    <value>típo de visita</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_40" xml:space="preserve">
+    <value>nuevo paciente</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_41" xml:space="preserve">
+    <value>paciente existente</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_42" xml:space="preserve">
+    <value>nombre de seguros</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_43" xml:space="preserve">
+    <value>hubo un problema al cargar la página. por favor póngase en contacto con el administrador del sistema</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_44" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_45" xml:space="preserve">
+    <value>paciente no.</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_46" xml:space="preserve">
+    <value>fdn</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_47" xml:space="preserve">
+    <value>edad</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_48" xml:space="preserve">
+    <value>sexo</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_49" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_50" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="EmergencyRegistration_EmergencyPatient_aspx_51" xml:space="preserve">
+    <value>seleccionar</value>
+  </data>
+</root>

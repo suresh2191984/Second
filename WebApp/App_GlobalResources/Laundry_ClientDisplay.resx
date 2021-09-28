@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Laundry_Indents_aspx_01" xml:space="preserve">
+    <value>RINDS</value>
+  </data>
+  <data name="Laundry_Indents_aspx_02" xml:space="preserve">
+    <value>MY INDENT</value>
+  </data>
+  <data name="Laundry_Indents_aspx_03" xml:space="preserve">
+    <value>Raised Indent</value>
+  </data>
+  <data name="Laundry_Indents_aspx_04" xml:space="preserve">
+    <value>Raised TO Site</value>
+  </data>
+  <data name="Laundry_Indents_aspx_05" xml:space="preserve">
+    <value>ISSUE INDENT</value>
+  </data>
+  <data name="Laundry_Indents_aspx_06" xml:space="preserve">
+    <value>Issued To Site</value>
+  </data>
+  <data name="Laundry_Indents_aspx_07" xml:space="preserve">
+    <value>Issued Indent</value>
+  </data>
+  <data name="Laundry_Indents_aspx_08" xml:space="preserve">
+    <value>RECEIVE INDENT</value>
+  </data>
+  <data name="Laundry_Indents_aspx_09" xml:space="preserve">
+    <value>Received From</value>
+  </data>
+  <data name="Laundry_Indents_aspx_10" xml:space="preserve">
+    <value>Received Indent</value>
+  </data>
+  <data name="Laundry_Indents_aspx_11" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Laundry_Indents_aspx_12" xml:space="preserve">
+    <value>Issue Indent</value>
+  </data>
+  <data name="Laundry_Indents_aspx_13" xml:space="preserve">
+    <value>Issued</value>
+  </data>
+  <data name="Laundry_Indents_aspx_14" xml:space="preserve">
+    <value>View Indent</value>
+  </data>
+  <data name="Laundry_Indents_aspx_15" xml:space="preserve">
+    <value>Inprogress</value>
+  </data>
+  <data name="Laundry_Indents_aspx_16" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="Laundry_Indents_aspx_17" xml:space="preserve">
+    <value>Issued Stock</value>
+  </data>
+  <data name="Laundry_Indents_aspx_18" xml:space="preserve">
+    <value>Approved Intend</value>
+  </data>
+  <data name="Laundry_Intend_aspx_01" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Laundry_Intend_aspx_02" xml:space="preserve">
+    <value>Issue_Laundry_StockIssued</value>
+  </data>
+  <data name="Laundry_Intend_aspx_03" xml:space="preserve">
+    <value>Issued</value>
+  </data>
+  <data name="Laundry_Intend_aspx_04" xml:space="preserve">
+    <value>View_Laundry</value>
+  </data>
+  <data name="Laundry_Intend_aspx_05" xml:space="preserve">
+    <value>Received Laundry</value>
+  </data>
+  <data name="Laundry_Intend_aspx_06" xml:space="preserve">
+    <value>Inprogress</value>
+  </data>
+  <data name="Laundry_Intend_aspx_07" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="Laundry_Intend_aspx_08" xml:space="preserve">
+    <value>Issue Laundry</value>
+  </data>
+  <data name="Laundry_Intend_aspx_09" xml:space="preserve">
+    <value>View Laundry</value>
+  </data>
+  <data name="Laundry_IssueStock_aspx_01" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_02" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_03" xml:space="preserve">
+    <value>S.No.</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_04" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_05" xml:space="preserve">
+    <value>Inhand Quantity</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_06" xml:space="preserve">
+    <value>Raised Quantity</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_07" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_08" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_09" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_10" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_11" xml:space="preserve">
+    <value>-----Select-----</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_12" xml:space="preserve">
+    <value>Select CT Corporate</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_13" xml:space="preserve">
+    <value>Select CRO</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_14" xml:space="preserve">
+    <value>Intend to Corporate Store</value>
+  </data>
+  <data name="Laundry_RaiseIntend_aspx_15" xml:space="preserve">
+    <value>Intend on behalf of CT Site</value>
+  </data>
+  <data name="Laundry_ReceivedIndent_aspx_01" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_01" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_02" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_03" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_04" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_05" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_06" xml:space="preserve">
+    <value>Send Qty</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_07" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_08" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_09" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_10" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_11" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_12" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_13" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_14" xml:space="preserve">
+    <value>Batch No.</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_15" xml:space="preserve">
+    <value>Exp. Date</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_16" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="Laundry_Scripts_IssueStock_Laundry_js_17" xml:space="preserve">
+    <value>Available Qty.</value>
+  </data>
+  <data name="Laundry_StockIssued_aspx_01" xml:space="preserve">
+    <value>Expired With in {0} Month(s)</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_01" xml:space="preserve">
+    <value>Sub-Store StockReturnNo :</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_02" xml:space="preserve">
+    <value>Returned By</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_03" xml:space="preserve">
+    <value>Raise From</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_04" xml:space="preserve">
+    <value>Raised To</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_05" xml:space="preserve">
+    <value>Sent To</value>
+  </data>
+  <data name="Laundry_ViewIssuedIndentdetails_aspx_06" xml:space="preserve">
+    <value>Received By</value>
+  </data>
+</root>

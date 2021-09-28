@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_ClientSchedule_ascx_01" xml:space="preserve">
+    <value>没有匹配符合条件的记录</value>
+  </data>
+  <data name="CommonControls_ClientSchedule_ascx_02" xml:space="preserve">
+    <value> - 所有 - </value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_01" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_02" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_01" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="CommonControls_IPClientTpaInsurance_ascx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_01" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_02" xml:space="preserve">
+    <value>服务名称</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_03" xml:space="preserve">
+    <value>服务类型</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_04" xml:space="preserve">
+    <value>INV</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_05" xml:space="preserve">
+    <value>付费</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_06" xml:space="preserve">
+    <value>被采集的样品</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_07" xml:space="preserve">
+    <value>复试</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_08" xml:space="preserve">
+    <value>重新检查</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_09" xml:space="preserve">
+    <value>反射测试</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_10" xml:space="preserve">
+    <value>外包</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_11" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_12" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_13" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="CommonControls_OrderedSamples_ascx_14" xml:space="preserve">
+    <value>外包</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_01" xml:space="preserve">
+    <value>实验室号码：</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_02" xml:space="preserve">
+    <value>备注：</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_03" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_04" xml:space="preserve">
+    <value>参考。医院：</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_05" xml:space="preserve">
+    <value>参考。医生：</value>
+  </data>
+  <data name="CommonControls_PatientDetails_ascx_06" xml:space="preserve">
+    <value>病史：</value>
+  </data>
+  <data name="CommonControls_PatientPreference_ascx_01" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_01" xml:space="preserve">
+    <value>这名患者的比尔Guantor由客户端</value>
+  </data>
+  <data name="CommonControls_PaymentTypeDetails_ascx_02" xml:space="preserve">
+    <value> -  选择  - </value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_ReceiptSearch_ascx_02" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="CommonControls_SampleCollectedVisit_ascx_01" xml:space="preserve">
+    <value>外包</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_01" xml:space="preserve">
+    <value>备注：</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_02" xml:space="preserve">
+    <value>金额退还给病人：卢比。</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_03" xml:space="preserve">
+    <value>只要</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_04" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_05" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_06" xml:space="preserve">
+    <value>手机号码</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_07" xml:space="preserve">
+    <value>座机号</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_08" xml:space="preserve">
+    <value>参考医生</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_09" xml:space="preserve">
+    <value>文献中心</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_10" xml:space="preserve">
+    <value>没有参观</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_11" xml:space="preserve">
+    <value>这一数额是受</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_12" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_13" xml:space="preserve">
+    <value>只有零</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_14" xml:space="preserve">
+    <value>剩余存款金额：</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_15" xml:space="preserve">
+    <value>帐单方式：</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_16" xml:space="preserve">
+    <value>客户端/保险提供商：</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_17" xml:space="preserve">
+    <value>参考。医师姓名：</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_18" xml:space="preserve">
+    <value>（复印件）</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_19" xml:space="preserve">
+    <value>S.NO</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_20" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_21" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_22" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_23" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_24" xml:space="preserve">
+    <value>结算方式​​：（</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_25" xml:space="preserve">
+    <value>金额（RS）</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_26" xml:space="preserve">
+    <value>参观人数</value>
+  </data>
+  <data name="CommonControls_BillPrint_ascx_27" xml:space="preserve">
+    <value>第Kunjungan</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_01" xml:space="preserve">
+    <value>收到来自{姓名}谢谢，（数数{}），{} AmtWords的总和[{AmtNo}] {对投诉处理}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_02" xml:space="preserve">
+    <value>{名称}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_03" xml:space="preserve">
+    <value>{} AmtWords</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_04" xml:space="preserve">
+    <value>{} AmtNo</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_05" xml:space="preserve">
+    <value>{}投诉</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_06" xml:space="preserve">
+    <value>{数}</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_07" xml:space="preserve">
+    <value>只派士</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_08" xml:space="preserve">
+    <value>亿卢比</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_09" xml:space="preserve">
+    <value>万卢比</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_10" xml:space="preserve">
+    <value>千</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_11" xml:space="preserve">
+    <value>百</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_12" xml:space="preserve">
+    <value>卢比</value>
+  </data>
+  <data name="CommonControls_Receipt_ascx_13" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_01" xml:space="preserve">
+    <value>显示方法包</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_02" xml:space="preserve">
+    <value>隐藏方法套件</value>
+  </data>
+  <data name="CommonControls_MethodKitMapping_ascx_03" xml:space="preserve">
+    <value> -  - -选择 -  - -</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_01" xml:space="preserve">
+    <value>查看/选择样品用于相应调查</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_02" xml:space="preserve">
+    <value>查看/添加样本属性</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_03" xml:space="preserve">
+    <value>样本</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_04" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_05" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_06" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="CommonControls_SampleCollection_ascx_07" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_01" xml:space="preserve">
+    <value>组序列号</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_02" xml:space="preserve">
+    <value>包序列</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_03" xml:space="preserve">
+    <value>部序列号</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_04" xml:space="preserve">
+    <value>角色映射部</value>
+  </data>
+  <data name="CommonControls_SequenceArrangement_ascx_05" xml:space="preserve">
+    <value> - -选择 - -</value>
+  </data>
+  <data name="CommonControls_ChangeLocation_ascx_001" xml:space="preserve">
+    <value>换地点</value>
+  </data>
+  <data name="CommonControls_DaycareMenu_aspx_001" xml:space="preserve">
+    <value>日间护理</value>
+  </data>
+  <data name="CommonControls_InventoryAdmin_ascx_001" xml:space="preserve">
+    <value>存货Admin</value>
+  </data>
+  <data name="CommonControls_LabSummaryReport_ascx_001" xml:space="preserve">
+    <value>实验室综合报告</value>
+  </data>
+  <data name="CommonControls_LeftMenuHelp_ascx_001" xml:space="preserve">
+    <value>帮帮我</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventorySales_ascx_001" xml:space="preserve">
+    <value>存货销售</value>
+  </data>
+  <data name="CommonControls_LeftMenuInventory_ascx_001" xml:space="preserve">
+    <value>库存</value>
+  </data>
+  <data name="CommonControls_LeftMenuIP_ascx_001" xml:space="preserve">
+    <value>住院任务</value>
+  </data>
+  <data name="CommonControls_LeftMenuMDM_ascx_001" xml:space="preserve">
+    <value>主要的数据</value>
+  </data>
+  <data name="CommonControls_LeftMenuMRD_ascx_001" xml:space="preserve">
+    <value>病历部</value>
+  </data>
+  <data name="CommonControls_LeftMenu_ascx_001" xml:space="preserve">
+    <value>常见任务</value>
+  </data>
+  <data name="CommonControls_LeftReferrals_ascx_001" xml:space="preserve">
+    <value>管理推荐</value>
+  </data>
+  <data name="CommonControls_ManageSchedules_ascx_001" xml:space="preserve">
+    <value>管理日程</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_001" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="CommonControls_UserRoleChange_ascx_001" xml:space="preserve">
+    <value>改变角色</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_02" xml:space="preserve">
+    <value>您的会话即将过期</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_03" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_04" xml:space="preserve">
+    <value>会话过期</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_05" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="CommonControls_OrgHeader_ascx_1" xml:space="preserve">
+    <value>位置 ：</value>
+  </data>
+  <data name="CommonControls_Attune_Footer_ascx_01" xml:space="preserve">
+    <value>版：</value>
+  </data>
+  <data name="CommonControls_Attune_Footer_ascx_02" xml:space="preserve">
+    <value>任务通知</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_001" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_002" xml:space="preserve">
+    <value>显示戒备</value>
+  </data>
+  <data name="CommonControls_Attune_OrgHeader_aspx_003" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_001" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_002" xml:space="preserve">
+    <value>请选择访问细节</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_003" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_004" xml:space="preserve">
+    <value>请通过今天的病人继续进行链接</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_005" xml:space="preserve">
+    <value>不能对新生婴儿进行此操作</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_006" xml:space="preserve">
+    <value>无法为这个患者就诊执行此操作</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_007" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="CommonControls_PatientSearch_ascx_008" xml:space="preserve">
+    <value>'被尚未被诊断</value>
+  </data>
+  <data name="CommonControls_PendingVitals_ascx_01" xml:space="preserve">
+    <value>无重要统计等待被抓获！</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_01" xml:space="preserve">
+    <value>lnkWeek1</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_02" xml:space="preserve">
+    <value>lnkWeek2</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_03" xml:space="preserve">
+    <value>lnkWeek3</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_04" xml:space="preserve">
+    <value>lnkWeek4</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_05" xml:space="preserve">
+    <value>lnkWeek5</value>
+  </data>
+  <data name="CommonControls_PhySchedule_ascx_06" xml:space="preserve">
+    <value>lnkWeek6</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_01" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="CommonControls_PhysicianHeader_ascx_02" xml:space="preserve">
+    <value>登录为</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_001" xml:space="preserve">
+    <value>选择范围类型\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_002" xml:space="preserve">
+    <value>选择性别\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_003" xml:space="preserve">
+    <value>选择年龄类型\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_004" xml:space="preserve">
+    <value>选择价值运营商\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_005" xml:space="preserve">
+    <value>值结束范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_006" xml:space="preserve">
+    <value>选择年龄运营商\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_007" xml:space="preserve">
+    <value>时代结束范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_008" xml:space="preserve">
+    <value>年龄范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_009" xml:space="preserve">
+    <value>值范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_010" xml:space="preserve">
+    <value>选择的解释文字\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_011" xml:space="preserve">
+    <value>参考范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_012" xml:space="preserve">
+    <value>临界范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_013" xml:space="preserve">
+    <value>汽车授权范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_014" xml:space="preserve">
+    <value>域范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_015" xml:space="preserve">
+    <value>打印范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_016" xml:space="preserve">
+    <value>敏感的结果范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_017" xml:space="preserve">
+    <value>结果判读范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_018" xml:space="preserve">
+    <value>从\ n选择显示结果</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_019" xml:space="preserve">
+    <value>选择类别\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_020" xml:space="preserve">
+    <value>选择价值运营商\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_021" xml:space="preserve">
+    <value>值不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_022" xml:space="preserve">
+    <value>年龄值结束范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_023" xml:space="preserve">
+    <value>年龄值范围不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_024" xml:space="preserve">
+    <value>年龄值不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_025" xml:space="preserve">
+    <value>参考名称不能为空\ n</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_026" xml:space="preserve">
+    <value>关键结果调出</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_027" xml:space="preserve">
+    <value>布局1</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_028" xml:space="preserve">
+    <value>布局2</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_029" xml:space="preserve">
+    <value>布局3</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_030" xml:space="preserve">
+    <value>布局4</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_031" xml:space="preserve">
+    <value>布局5</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_032" xml:space="preserve">
+    <value>布局6</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_033" xml:space="preserve">
+    <value>7布局</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_034" xml:space="preserve">
+    <value>布局8</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_035" xml:space="preserve">
+    <value>联合授权</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_036" xml:space="preserve">
+    <value>自动授权</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_037" xml:space="preserve">
+    <value>加工位置映射</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_038" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_039" xml:space="preserve">
+    <value>寄存器位置</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_040" xml:space="preserve">
+    <value>处理ORG</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_041" xml:space="preserve">
+    <value>操作所处的位置</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_042" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_043" xml:space="preserve">
+    <value>添加备注</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_044" xml:space="preserve">
+    <value>编辑备注</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_045" xml:space="preserve">
+    <value>您确定要永久删除此记录</value>
+  </data>
+  <data name="CommonControls_Theme_ascx_0011" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="CommonControls_UserRoleChange_ascx_0011" xml:space="preserve">
+    <value>改变角色</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_01" xml:space="preserve">
+    <value>＆NBSP; NB＆NBSP;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_02" xml:space="preserve">
+    <value>＆NBSP; C＆NBSP;</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_03" xml:space="preserve">
+    <value>从：</value>
+  </data>
+  <data name="CommonControls_ViewCommunicationThread_ascx_04" xml:space="preserve">
+    <value>DDDD，MMMM DD，YYYY HH：MM</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_01" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_02" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_03" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_04" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_05" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_06" xml:space="preserve">
+    <value>文件外包</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_07" xml:space="preserve">
+    <value>查看病历</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_08" xml:space="preserve">
+    <value>设备的价值</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_09" xml:space="preserve">
+    <value>没有匹配找到记录</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_10" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_01" xml:space="preserve">
+    <value>服务报价详情</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_02" xml:space="preserve">
+    <value>设为首页加入收藏</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_03" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_04" xml:space="preserve">
+    <value>选择折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_05" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_06" xml:space="preserve">
+    <value>量贩式</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_07" xml:space="preserve">
+    <value>选择折扣</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_08" xml:space="preserve">
+    <value>折扣板</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_09" xml:space="preserve">
+    <value>超值优惠</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_10" xml:space="preserve">
+    <value>折扣原因</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_11" xml:space="preserve">
+    <value>是否授权通过</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_12" xml:space="preserve">
+    <value>选择税</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_13" xml:space="preserve">
+    <value>历史：</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_14" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_15" xml:space="preserve">
+    <value>毛</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_16" xml:space="preserve">
+    <value>赎回</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_17" xml:space="preserve">
+    <value>服务费</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_18" xml:space="preserve">
+    <value>税</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_19" xml:space="preserve">
+    <value>ED附加税（2％）</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_20" xml:space="preserve">
+    <value>塞斯SHED（1％）</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_21" xml:space="preserve">
+    <value>四舍五入</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_22" xml:space="preserve">
+    <value>净额</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_23" xml:space="preserve">
+    <value>收到的金额</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_24" xml:space="preserve">
+    <value>应有</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_01" xml:space="preserve">
+    <value>出生日期：</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_02" xml:space="preserve">
+    <value>发布：</value>
+  </data>
+  <data name="CommonControls_SmartCard_ascx_03" xml:space="preserve">
+    <value>区：</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_01" xml:space="preserve">
+    <value>保存成功。</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_02" xml:space="preserve">
+    <value>成功地删除！</value>
+  </data>
+  <data name="CommonControls_ManageInvestigation_ascx_03" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_25" xml:space="preserve">
+    <value>添加项目</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_26" xml:space="preserve">
+    <value>在滚动前进左余额帐户：</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_27" xml:space="preserve">
+    <value>在滚动前进左余额帐户：</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_28" xml:space="preserve">
+    <value>卡号</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_29" xml:space="preserve">
+    <value>卡内金额</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_30" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_31" xml:space="preserve">
+    <value>卢比。</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_32" xml:space="preserve">
+    <value>捕获历史</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_33" xml:space="preserve">
+    <value>添加属性</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_34" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_35" xml:space="preserve">
+    <value>服务名称</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_36" xml:space="preserve">
+    <value>服务类型</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_37" xml:space="preserve">
+    <value>加工位置</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_38" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_39" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_40" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CommonControls_BillingPart_ascx_41" xml:space="preserve">
+    <value>多重优惠</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_01" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_02" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_03" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_04" xml:space="preserve">
+    <value>量</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_05" xml:space="preserve">
+    <value>添加更多..</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_06" xml:space="preserve">
+    <value>总金额</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_07" xml:space="preserve">
+    <value>折扣％</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_08" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_09" xml:space="preserve">
+    <value>税务％</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_10" xml:space="preserve">
+    <value>上一页由于</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_11" xml:space="preserve">
+    <value>服务费</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_12" xml:space="preserve">
+    <value>净额</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_13" xml:space="preserve">
+    <value>收到的金额</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_14" xml:space="preserve">
+    <value>到期金额</value>
+  </data>
+  <data name="CommonControls_SampleBillPrint_ascx_15" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_001" xml:space="preserve">
+    <value>调查成功地保存...！</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_002" xml:space="preserve">
+    <value>同时节省了新的调查错误...！</value>
+  </data>
+  <data name="CommonControls_AddNewInvestigation_ascx_003" xml:space="preserve">
+    <value>调查组成功地保存...！</value>
+  </data>
+  <data name="CommonControls_EmployerRegDetail_ascx_01" xml:space="preserve">
+    <value>---选择一个---</value>
+  </data>
+  <data name="CommonControls_DateSelection_ascx_01" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="CommonControls_BillSearch_aspx_01" xml:space="preserve">
+    <value>没有匹配找到记录！</value>
+  </data>
+  <data name="CommonControls_HospitalBillSearch_ascx_07" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="CommonControls_ComplaintICDCodeBP_ascx_02" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_01" xml:space="preserve">
+    <value>联系电话</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_02" xml:space="preserve">
+    <value>参考医生</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_03" xml:space="preserve">
+    <value>文献中心</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_04" xml:space="preserve">
+    <value>参观人数</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_05" xml:space="preserve">
+    <value>客户端/保险提供商：</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_06" xml:space="preserve">
+    <value>参考。医师姓名：</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_07" xml:space="preserve">
+    <value>金额退还给病人：卢比。</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_08" xml:space="preserve">
+    <value>只要</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_09" xml:space="preserve">
+    <value>宣传道</value>
+  </data>
+    <data name="Commoncontrols_Tasks_ascx_001" xml:space="preserve">
+    <value>- 选择 -</value>
+     </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_10" xml:space="preserve">
+    <value>在收到的文字量</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_11" xml:space="preserve">
+    <value>由于大写金额：</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_047" xml:space="preserve">
+    <value>参考范围</value>
+  </data>
+  
+   <data name="CommonControls_TestMaster_ascx_048" xml:space="preserve">
+    <value>恐慌范围</value>
+  </data>
+  
+   <data name="CommonControls_TestMaster_ascx_049" xml:space="preserve">
+    <value>临界范围</value>
+  </data>
+  
+  <data name="CommonControls_TestMaster_ascx_050" xml:space="preserve">
+    <value>汽车授权范围</value>
+  </data>
+  
+    <data name="CommonControls_TestMaster_ascx_051" xml:space="preserve">
+    <value>域范围</value>
+  </data>
+  
+      <data name="CommonControls_TestMaster_ascx_052" xml:space="preserve">
+    <value>打印范围</value>
+  </data>
+  
+    <data name="CommonControls_TestMaster_ascx_053" xml:space="preserve">
+    <value>打印范围</value>
+  </data>
+
+   <data name="CommonControls_TestMaster_ascx_054" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  
+  
+   <data name="CommonControls_TestMaster_ascx_055" xml:space="preserve">
+    <value>共同</value>
+  </data>
+  
+     <data name="CommonControls_TestMaster_ascx_056" xml:space="preserve">
+    <value>其他</value>
+  </data>     
+     <data name="CommonControls_TestMaster_ascx_057" xml:space="preserve">
+    <value>结果判读范围</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_11" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_13" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_14" xml:space="preserve">
+    <value>文件外包</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_15" xml:space="preserve">
+    <value>查看病历</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_16" xml:space="preserve">
+    <value>设备的价值</value>
+  </data>
+  <data name="CommonControls_ViewTRFImage_ascx_12" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03.title" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04.title" xml:space="preserve">
+    <value>更改</value>
+  </data>
+    <data name="CommonControls_TestMaster_ascx_065" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_066" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_067" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_068" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_069" xml:space="preserve">
+    <value>恐慌范围</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_070" xml:space="preserve">
+    <value>兽医</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_071" xml:space="preserve">
+    <value>娜</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_03.title" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="CommonControls_CollectSample_ascx_04.title" xml:space="preserve">
+    <value>更改</value>
+  </data>
+    <data name="CommonControls_TestMaster_ascx_058" xml:space="preserve">
+    <value>都</value>
+  </data>
+
+  <data name="CommonControls_TestMaster_ascx_059" xml:space="preserve">
+    <value>女</value>
+  </data>
+
+  <data name="CommonControls_TestMaster_ascx_060" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_061" xml:space="preserve">
+    <value>日（ 小号）</value>
+  </data>
+
+  <data name="CommonControls_TestMaster_ascx_062" xml:space="preserve">
+    <value>本月（小号）)</value>
+  </data>
+
+  <data name="CommonControls_TestMaster_ascx_063" xml:space="preserve">
+    <value>周（小号）</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_064" xml:space="preserve">
+    <value>年 (小号）</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_072" xml:space="preserve">
+    <value>中号</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_073" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_074" xml:space="preserve">
+    <value>兽医</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_075" xml:space="preserve">
+    <value>娜</value>
+  </data>
+  <data name="CommonControls_TestMaster_ascx_076" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_15" xml:space="preserve">
+    <value>上午</value>
+  </data>
+  <data name="CommonControls_AdvanceBillPrint_ascx_16" xml:space="preserve">
+    <value>下午</value>
+  </data>
+</root>

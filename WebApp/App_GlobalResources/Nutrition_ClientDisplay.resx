@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nutrition_CNDPagingStaff_js_01" xml:space="preserve">
+    <value>Food Menu Name</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_02" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_03" xml:space="preserve">
+    <value>Food Ordered Date</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_04" xml:space="preserve">
+    <value>Food Name</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_05" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_06" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_07" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Nutrition_CNDPagingStaff_js_08" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_01" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_02" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_03" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_04" xml:space="preserve">
+    <value>Ward Name</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_05" xml:space="preserve">
+    <value>Food Ordered Date</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_06" xml:space="preserve">
+    <value>Food Name</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_07" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_08" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="Nutrition_CNDPaging_js_09" xml:space="preserve">
+    <value>Total Quantity</value>
+  </data>
+  <data name="Nutrition_CND_aspx_01" xml:space="preserve">
+    <value>-Select-</value>
+  </data>
+  <data name="Nutrition_CND_aspx_02" xml:space="preserve">
+    <value>detailed</value>
+  </data>
+  <data name="Nutrition_CND_aspx_03" xml:space="preserve">
+    <value>summary</value>
+  </data>
+  <data name="Nutrition_CND_aspx_04" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Nutrition_CND_aspx_05" xml:space="preserve">
+    <value>Print Order</value>
+  </data>
+  <data name="Nutrition_CND_aspx_06" xml:space="preserve">
+    <value>Food List</value>
+  </data>
+  <data name="Nutrition_CND_aspx_07" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_02" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_03" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_04" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_05" xml:space="preserve">
+    <value>Changes have  Updated Successfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_06" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_07" xml:space="preserve">
+    <value>Menu Ward Mapping Updation Failed</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_08" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenuWardmapping_ascx_09" xml:space="preserve">
+    <value>Added Menu Ward Mapping Already Exists</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_02" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_03" xml:space="preserve">
+    <value>Menu Exists</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_04" xml:space="preserve">
+    <value>Menu Updated sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_05" xml:space="preserve">
+    <value>Session Added sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_06" xml:space="preserve">
+    <value>Session Updation Failed</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_07" xml:space="preserve">
+    <value>Session Addition Failed</value>
+  </data>
+  <data name="Nutrition_Controls_FoodMenu_ascx_08" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_02" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_03" xml:space="preserve">
+    <value>Session Exists</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_04" xml:space="preserve">
+    <value>Session Updated sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_05" xml:space="preserve">
+    <value>Session Added sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_06" xml:space="preserve">
+    <value>Session Updation Failed</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_07" xml:space="preserve">
+    <value>Session Addition Failed</value>
+  </data>
+  <data name="Nutrition_Controls_FoodSession_ascx_08" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodCategory_ascx_01" xml:space="preserve">
+    <value>Changes Saved Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodCategory_ascx_02" xml:space="preserve">
+    <value>Saved Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_01" xml:space="preserve">
+    <value>FoodIngredientsMapping Updated sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_02" xml:space="preserve">
+    <value>FoodIngredientsMapping Added sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_03" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_04" xml:space="preserve">
+    <value>Uom</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_05" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_06" xml:space="preserve">
+    <value>Menu Ward Mapping Updation Failed</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodIngredientsMapping_ascx_07" xml:space="preserve">
+    <value>Added Menu Ward Mapping Already Exists</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodList_ascx_01" xml:space="preserve">
+    <value>Updated Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodList_ascx_02" xml:space="preserve">
+    <value>Saved Successfully!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionFoodList_ascx_03" xml:space="preserve">
+    <value>Food Already Exist!</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_01" xml:space="preserve">
+    <value>FoodMenuDetails Updated sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_02" xml:space="preserve">
+    <value>FoodMenuDetails Added sucessfully</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_03" xml:space="preserve">
+    <value>FoodMenuDetails Updated Failed</value>
+  </data>
+  <data name="Nutrition_Controls_NutritionMenuDeatails_ascx_04" xml:space="preserve">
+    <value>FoodMenuDetails already exist</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_01" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_02" xml:space="preserve">
+    <value>Add Subsession Food</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_03" xml:space="preserve">
+    <value>Pagi</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_04" xml:space="preserve">
+    <value>Siang</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_05" xml:space="preserve">
+    <value>Malam</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_06" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_07" xml:space="preserve">
+    <value>Session Name</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_08" xml:space="preserve">
+    <value>Food Name</value>
+  </data>
+  <data name="Nutrition_Controls_Nutrition_ascx_09" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Nutrition_Controls_ReceiveStaffFood_ascx_01" xml:space="preserve">
+    <value>No Completed food orders list !!!</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_01" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_02" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="Nutrition_Controls_staffNutritionDepartment_ascx_03" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Nutrition_NutritionForStaff_aspx_01" xml:space="preserve">
+    <value>Apply For ALL</value>
+  </data>
+  <data name="Nutrition_Nutrition_aspx_01" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Nutrition_ReceivedInWard_aspx_01" xml:space="preserve">
+    <value>Print Order</value>
+  </data>
+  <data name="Nutrition_ReceivedInWard_aspx_02" xml:space="preserve">
+    <value>Print All</value>
+  </data>
+  <data name="Nutrition_ReceivedInWard_aspx_03" xml:space="preserve">
+    <value>No Completed food orders list !!!</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_01" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_02" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_03" xml:space="preserve">
+    <value>Patient No</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_04" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_05" xml:space="preserve">
+    <value>Room No</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_06" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Nutrition_Scripts_Nutrition_js_07" xml:space="preserve">
+    <value>Admission Date</value>
+  </data>
+  <data name="Nutrition_Scripts_ReceivedInWardStaff_paging_js_01" xml:space="preserve">
+    <value>Food Ordered Date</value>
+  </data>
+  <data name="Nutrition_Scripts_ReceivedInWardStaff_paging_js_02" xml:space="preserve">
+    <value>Diet</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutritionStaff_Paging_js_01" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutritionStaff_Paging_js_02" xml:space="preserve">
+    <value>Food Session</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutritionStaff_Paging_js_03" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_01" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_02" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_03" xml:space="preserve">
+    <value>Ward Name</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_04" xml:space="preserve">
+    <value>Food Menu Name</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_05" xml:space="preserve">
+    <value>Food Name</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_06" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_07" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_08" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_09" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Nutrition_Scripts_sendToNutrition_Paging_js_10" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_01" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_02" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_03" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_04" xml:space="preserve">
+    <value>Print Order</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_05" xml:space="preserve">
+    <value>Print All</value>
+  </data>
+  <data name="Nutrition_sendToNutrition_aspx_06" xml:space="preserve">
+    <value>Food List</value>
+  </data>
+</root>

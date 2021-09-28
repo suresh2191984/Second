@@ -1,0 +1,300 @@
+IMG
+{
+	border:none;
+}
+
+.bodytext {
+	font-size: 12px;
+	line-height: normal;
+	color: #000000;
+	font-weight: normal;
+	text-indent: 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.headline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #0158A8;
+}
+
+.footertxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	color: #999999;
+}
+
+.footertbl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	color: #999999;
+}
+
+.footertbl a {
+	color: #999999;
+	text-decoration: none;
+}
+
+.footertbl a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(/mh-images/bgheader.jpg);
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+.bannerflash {
+	background-color: #0366C1;
+	height: 461px;
+	width: 668px;
+	
+	
+}
+.sidepanelbg {
+	background-color: #FFFFFF;
+	background-image: url(/mh-images/side_news_bg.jpg);
+	background-repeat: no-repeat;
+	height: 245px;
+	width: 200px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	color: #6AAD00;
+}
+.sidelink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6DA601;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: blue;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	text-decoration: none;
+	color: blue;
+}
+a:active {
+	text-decoration: none;
+	color: blue;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.arrow {
+	font-size: 10px
+}
+.sidepanelbg1 {background-color: #FFFFFF;
+	background-image: url(/mh-images/side_news_bg.jpg);
+	background-repeat: no-repeat;
+	height: 245px;
+	width: 200px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	color: #6AAD00;
+}
+.style8 {font-size: 12px; line-height: normal; color: #000000; font-weight: bold; text-indent: 0px; text-align: left; font-family: Arial, Helvetica, sans-serif; }
+
+.side-text-head {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style3 {color: #66AB00}
+.style4 {color: #333333}
+.bodytextjust {
+	font-size: 12px;
+	line-height: normal;
+	color: #000000;
+	font-weight: normal;
+	text-indent: 0px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style5 {font-size: 14px}
+
+
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.box{
+	padding:15px;
+	border:1px solid #dddddd;
+	font-size: 12px;
+	line-height: normal;
+	color: #000000;
+	font-weight: normal;
+	text-indent: 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ADVERTISMENTS */
+.BannerAdsCaption
+{
+	color:#999999;
+	font-size:7pt;
+}
+
+.BannerAdsTable
+{
+	text-align:center;
+}
+
+
+
+/* DATE TABLE */
+.DataTableBanner
+{
+	border-bottom:1px solid #999999;
+	width:100%;
+}
+
+.DataTableButtonArea
+{
+	text-align:left;
+	width:10px;
+}
+
+.DataTableCaption
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #0158A8;
+}
+
+.DataTableCell
+{
+	border-bottom:1px solid #999999;
+}
+
+.DataTableContent
+{
+	width:100%;
+}
+
+.DataTableFooter
+{
+	text-align:right;
+	width:100%;
+}
+
+.DataTableHeader
+{
+	background:#DDDDDD;
+	font-weight:bold;
+}
+
+.DataTableOptionArea
+{
+	width:100%;
+}
+
+.DataTablePageArea
+{
+	text-align:right;
+	width:100%;
+}
+
+.DataTablePageStatus
+{
+	color:#555555;
+	font-size:9px;
+}
+
+.DataTableRow
+{
+	background:#FFFBF0;
+	height:30px;
+}
+
+.DataTableRowMouseOut
+{
+	background:#FFFBF0;
+	height:30px;
+}
+
+.DataTableRowMouseOver
+{
+	background:#E8EDE8;
+	height:30px;
+}
+
+.DataTableRowSelected
+{
+	background:#E8EDE8;
+	height:30px;
+}
+
+.FilterSelectField
+{
+	width:100%;
+}
+
+
+
+/* FILLERS */
+.FillerCell
+{
+	width:100%;
+}
+
+.FillerRow
+{
+	height:100%;
+}
+
+
+
+/* MENU */
+.MenuTable
+{
+	background:#2A5E9A;
+	color:#FFFFFF;
+	width:100%;
+}
+
+.MenuTable A
+{
+	color:#FFFFFF;
+	padding-left:5px;
+	padding-right:5px;
+	text-decoration:none;
+}
+
+.MenuTable A:HOVER
+{
+	color:#F9DB4E;
+	text-decoration:underline;
+}

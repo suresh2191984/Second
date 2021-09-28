@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonControls_PhotoUpload_ascx_01" xml:space="preserve">
+    <value>照片上传成功</value>
+  </data>
+  <data name="CommonControls_PhotoUpload_ascx_02" xml:space="preserve">
+    <value>请只上传该文件类型</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式</value>
+  </data>
+  <data name="CommonControls_TRFUpload_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_01" xml:space="preserve">
+    <value>请选择一个类型</value>
+  </data>
+  <data name="Reception_AddressBook_aspx_02" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_Header_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_LabReceptionHome_aspx_01" xml:space="preserve">
+    <value>任务创建成功</value>
+  </data>
+  <data name="Reception_LabReceptionHome_aspx_02" xml:space="preserve">
+    <value>价格成功应用</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_01" xml:space="preserve">
+    <value>患者数量已退出</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_02" xml:space="preserve">
+    <value>提供批准人</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_03" xml:space="preserve">
+    <value>捐赠者注册成功</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_04" xml:space="preserve">
+    <value>有在保存账单明细的一个问题。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_05" xml:space="preserve">
+    <value>具有相同名称和联系方式的患者信息已经存在。提供修改和重试。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_06" xml:space="preserve">
+    <value>名称的第一个字符必须是字母</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_07" xml:space="preserve">
+    <value>提供（天或数周或数月或数年）的年龄和从列表中选择适当的</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_08" xml:space="preserve">
+    <value>提供有效的一年</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_09" xml:space="preserve">
+    <value>提供有效的一个月</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_10" xml:space="preserve">
+    <value>该患者尚未解除;不能进行动作</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_11" xml:space="preserve">
+    <value>成功更新。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_12" xml:space="preserve">
+    <value>错误，同时节省病人一段时间后details.Please尝试。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_13" xml:space="preserve">
+    <value>门诊挂号全成。门诊号：</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_14" xml:space="preserve">
+    <value>有在页面加载的问题。请与系统管理员联系</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_15" xml:space="preserve">
+    <value>有照片的上传的一个问题。请与系统管理员联系。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_16" xml:space="preserve">
+    <value>新的服务访问和订购能不能做到为患者不活跃状态。</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_17" xml:space="preserve">
+    <value>请注册，然后转向过程</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_18" xml:space="preserve">
+    <value>服务不能放在为因以上的配置的限制</value>
+  </data>
+  <data name="Reception_PatientRegistration_aspx_19" xml:space="preserve">
+    <value>年份</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_01" xml:space="preserve">
+    <value>选择集线器名称从列表</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_02" xml:space="preserve">
+    <value>选择区域名称从列表</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_03" xml:space="preserve">
+    <value>请从列表中选择用户</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_04" xml:space="preserve">
+    <value>请通过今天的病人继续进行链接</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_05" xml:space="preserve">
+    <value>不能对新生婴儿进行此操作</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_06" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_07" xml:space="preserve">
+    <value>Munst检入的MRD文件</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_08" xml:space="preserve">
+    <value>参观国家已经关闭</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_09" xml:space="preserve">
+    <value>任务状态不能待定</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_10" xml:space="preserve">
+    <value>OP访问成功关闭</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_11" xml:space="preserve">
+    <value>这是不是OP患者</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_12" xml:space="preserve">
+    <value>没有CaseSheet这个病人</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_13" xml:space="preserve">
+    <value>请选择任何一个</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_14" xml:space="preserve">
+    <value>提供日期</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_15" xml:space="preserve">
+    <value>这是OP的患者。所以你不能编辑</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_16" xml:space="preserve">
+    <value>这不是一个出院/信贷病人。所以你不能编辑</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_17" xml:space="preserve">
+    <value>选择访问细节</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_18" xml:space="preserve">
+    <value>提供了从日期</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_19" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_20" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="Reception_VisitDetails_aspx_21" xml:space="preserve">
+    <value>请从列表中选择</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_01" xml:space="preserve">
+    <value>入内参观人数</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_02" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_03" xml:space="preserve">
+    <value>请输入正确的访问号码。</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_04" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_05" xml:space="preserve">
+    <value>邮件发送成功</value>
+  </data>
+  <data name="Reception_PatientTrackingDetails_aspx_06" xml:space="preserve">
+    <value>没有符合条件的记录找到了！</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_01" xml:space="preserve">
+    <value>提供任何一个搜索类别</value>
+  </data>
+  <data name="Reception_LabPatientSearch_aspx_02" xml:space="preserve">
+    <value>为他人价值选择</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_01" xml:space="preserve">
+    <value>你肯定在做医生的永久？</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_02" xml:space="preserve">
+    <value>你肯定在做医生临时??</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_03" xml:space="preserve">
+    <value>从列表选择医生</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_04" xml:space="preserve">
+    <value>已添加到列表</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_05" xml:space="preserve">
+    <value>选择父医师</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_06" xml:space="preserve">
+    <value>选择儿童医师合并</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_07" xml:space="preserve">
+    <value>没有找到匹配的记录</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_08" xml:space="preserve">
+    <value>选择医生成功合并</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_09" xml:space="preserve">
+    <value>而合并DATAS错误</value>
+  </data>
+  <data name="Reception_MergeForm_aspx_10" xml:space="preserve">
+    <value>选择医生未成功合并</value>
+  </data>
+  <data name="Reception_PatientSearch_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_01" xml:space="preserve">
+    <value>如病人属于其他组织的这个动作无法执行</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_02" xml:space="preserve">
+    <value>移动到注册和访问</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_03" xml:space="preserve">
+    <value>需要病人登记</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_04" xml:space="preserve">
+    <value>不能为这名患者执行此操作</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_05" xml:space="preserve">
+    <value>不能住院患者执行此操作</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_06" xml:space="preserve">
+    <value>所选患者没有任何由于</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_07" xml:space="preserve">
+    <value>提供任何一个搜索类别（本地）</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_08" xml:space="preserve">
+    <value>其他选择</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_09" xml:space="preserve">
+    <value>选择日期</value>
+  </data>
+  <data name="Reception_PatientSearch_aspx_10" xml:space="preserve">
+    <value>选择患者姓名</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_01" xml:space="preserve">
+    <value>请进入医院/诊所/实验室名称</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_02" xml:space="preserve">
+    <value>请输入验证码</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_03" xml:space="preserve">
+    <value>请选择类型</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_04" xml:space="preserve">
+    <value>代码已经存在。请给任何其他代码</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_05" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_06" xml:space="preserve">
+    <value>新的参考组织被成功添加！</value>
+  </data>
+  <data name="Reception_SaveLabRefOrgDetails_aspx_07" xml:space="preserve">
+    <value>成功更新！</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_01" xml:space="preserve">
+    <value>输入电话号码</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_02" xml:space="preserve">
+    <value>提供医生的名字</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_03" xml:space="preserve">
+    <value>提供医师代码</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_04" xml:space="preserve">
+    <value>选择称呼</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_05" xml:space="preserve">
+    <value>医师代码已经存在。请给任何其他代码</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_06" xml:space="preserve">
+    <value>提供搜索文本找到医生</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_07" xml:space="preserve">
+    <value>已经添加医院</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_08" xml:space="preserve">
+    <value>提供年龄（天或数周或数月或数年）从列表中选择适当的</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_09" xml:space="preserve">
+    <value>超时已发生</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_10" xml:space="preserve">
+    <value>错误已发生：</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_11" xml:space="preserve">
+    <value>提供有效的一年</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_12" xml:space="preserve">
+    <value>新的。参见医师添加成功！</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_13" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_14" xml:space="preserve">
+    <value>成功删除！</value>
+  </data>
+  <data name="Reception_Collections_aspx_01" xml:space="preserve">
+    <value>选择存款收据打印</value>
+  </data>
+  <data name="Reception_Collections_aspx_02" xml:space="preserve">
+    <value>添加地层堆积量</value>
+  </data>
+  <data name="Reception_Collections_aspx_03" xml:space="preserve">
+    <value>输入有效的客户端</value>
+  </data>
+  <data name="Reception_Collections_aspx_04" xml:space="preserve">
+    <value>选择集合类型</value>
+  </data>
+  <data name="Reception_Collections_aspx_05" xml:space="preserve">
+    <value>金额不能为零</value>
+  </data>
+  <data name="Reception_Collections_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_01" xml:space="preserve">
+    <value>请选择信用卡/借记细节</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_02" xml:space="preserve">
+    <value>添加地层堆积量</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_03" xml:space="preserve">
+    <value>提供页码</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_04" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_05" xml:space="preserve">
+    <value>提供正确的页码</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_06" xml:space="preserve">
+    <value>请选择类型名称</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_07" xml:space="preserve">
+    <value>请输入有效的名称</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_08" xml:space="preserve">
+    <value>请输入有效的授权人姓名</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_09" xml:space="preserve">
+    <value>请选择参考类型名称</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_10" xml:space="preserve">
+    <value>请输入参考号码</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_11" xml:space="preserve">
+    <value>请输入金额</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_12" xml:space="preserve">
+    <value>请输入有效ReferenceNo</value>
+  </data>
+  <data name="Reception_CreditDebitSummary_aspx_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_22" xml:space="preserve">
+    <value>提供患者姓名</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_23" xml:space="preserve">
+    <value>选择性别</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_24" xml:space="preserve">
+    <value>提供患者年龄</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_25" xml:space="preserve">
+    <value>提供无病区</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_26" xml:space="preserve">
+    <value>提供城市</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_27" xml:space="preserve">
+    <value>为医生的名字</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_28" xml:space="preserve">
+    <value>选择参照组织</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_29" xml:space="preserve">
+    <value>选择付款类型</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_30" xml:space="preserve">
+    <value>选择价格型</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_31" xml:space="preserve">
+    <value>选择TPA /保险名称</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_32" xml:space="preserve">
+    <value>选择客户端名称</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_33" xml:space="preserve">
+    <value>选择保险</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_34" xml:space="preserve">
+    <value>选择发布模式</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_35" xml:space="preserve">
+    <value>提供姓名</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_36" xml:space="preserve">
+    <value>已经添加医院</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_37" xml:space="preserve">
+    <value>提供（天或数周或数月或数年）的年龄和从列表中选择适当的</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_38" xml:space="preserve">
+    <value>请输入参照组织名称</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_39" xml:space="preserve">
+    <value>您必须提供一个地址</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_40" xml:space="preserve">
+    <value>提供有效的一年</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_41" xml:space="preserve">
+    <value>提供有效的一个月</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_42" xml:space="preserve">
+    <value>从列表中选择医生的名字</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_43" xml:space="preserve">
+    <value>超时已发生</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_44" xml:space="preserve">
+    <value>错误已发生：</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_45" xml:space="preserve">
+    <value>提供医生的名字</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_46" xml:space="preserve">
+    <value>选择称呼</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_47" xml:space="preserve">
+    <value>请输入WardNo</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_48" xml:space="preserve">
+    <value>提供搜索文本找到医生</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_49" xml:space="preserve">
+    <value>提供</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_50" xml:space="preserve">
+    <value>发送通知</value>
+  </data>
+  <data name="Reception_LabPatientRegistration_aspx_51" xml:space="preserve">
+    <value>已经存在。</value>
+  </data>
+  <data name="Reception_SaveLabRefPhysicianDetails_aspx_16" xml:space="preserve">
+    <value>更新成功</value>
+  </data>
+</root>

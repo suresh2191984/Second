@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Scripts_Header_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="Scripts_LabQuickBilling_js_01" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="Scripts_Common_js_01" xml:space="preserve">
+    <value>有没有因为此发票</value>
+  </data>
+  <data name="Scripts_Common_js_02" xml:space="preserve">
+    <value>提供有效日期</value>
+  </data>
+  <data name="Scripts_Common_js_03" xml:space="preserve">
+    <value>日期是不是一个有效的格式</value>
+  </data>
+  <data name="Scripts_Common_js_04" xml:space="preserve">
+    <value>失效日期。仅提供未来的日期</value>
+  </data>
+  <data name="Scripts_Common_js_05" xml:space="preserve">
+    <value>往返日期不匹配</value>
+  </data>
+  <data name="Scripts_Common_js_06" xml:space="preserve">
+    <value>失效日期</value>
+  </data>
+  <data name="Scripts_Common_js_07" xml:space="preserve">
+    <value>失效日期。仅提供未来的日期</value>
+  </data>
+  <data name="Scripts_Common_js_08" xml:space="preserve">
+    <value>年龄不能为零</value>
+  </data>
+  <data name="Scripts_Common_js_09" xml:space="preserve">
+    <value>年龄应该是数字</value>
+  </data>
+  <data name="Scripts_Common_js_10" xml:space="preserve">
+    <value>应该不是十进制值</value>
+  </data>
+  <data name="Scripts_Common_js_100" xml:space="preserve">
+    <value>提供用户名</value>
+  </data>
+  <data name="Scripts_Common_js_101" xml:space="preserve">
+    <value>提供密码</value>
+  </data>
+  <data name="Scripts_Common_js_102" xml:space="preserve">
+    <value>你似乎是使用了不合适的浏览器或version.Please切换到IE8，以继续</value>
+  </data>
+  <data name="Scripts_Common_js_103" xml:space="preserve">
+    <value>提供产品名称</value>
+  </data>
+  <data name="Scripts_Common_js_104" xml:space="preserve">
+    <value>已经存在于这种类型URN</value>
+  </data>
+  <data name="Scripts_Common_js_105" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Scripts_Common_js_106" xml:space="preserve">
+    <value>没有输入值，请检查状态调查</value>
+  </data>
+  <data name="Scripts_Common_js_107" xml:space="preserve">
+    <value>追忆不允许超过两次</value>
+  </data>
+  <data name="Scripts_Common_js_108" xml:space="preserve">
+    <value>顺序测试不应该是反折reflexed./Already测试shuld不会再反折。</value>
+  </data>
+  <data name="Scripts_Common_js_109" xml:space="preserve">
+    <value>新的错误</value>
+  </data>
+  <data name="Scripts_Common_js_11" xml:space="preserve">
+    <value>每月应不大于12</value>
+  </data>
+  <data name="Scripts_Common_js_110" xml:space="preserve">
+    <value>恳请不要选择厅级反射</value>
+  </data>
+  <data name="Scripts_Common_js_12" xml:space="preserve">
+    <value>无效的电子邮件ID</value>
+  </data>
+  <data name="Scripts_Common_js_13" xml:space="preserve">
+    <value>迄今为止必须大于或等于起始日期</value>
+  </data>
+  <data name="Scripts_Common_js_14" xml:space="preserve">
+    <value>计划何时无效</value>
+  </data>
+  <data name="Scripts_Common_js_15" xml:space="preserve">
+    <value>选择日期</value>
+  </data>
+  <data name="Scripts_Common_js_16" xml:space="preserve">
+    <value>提供搜索文本</value>
+  </data>
+  <data name="Scripts_Common_js_17" xml:space="preserve">
+    <value>分类计数之和应该等于100</value>
+  </data>
+  <data name="Scripts_Common_js_18" xml:space="preserve">
+    <value>值不能超过100 /值不能为空</value>
+  </data>
+  <data name="Scripts_Common_js_19" xml:space="preserve">
+    <value>提供药品名称</value>
+  </data>
+  <data name="Scripts_Common_js_20" xml:space="preserve">
+    <value>提供配方</value>
+  </data>
+  <data name="Scripts_Common_js_21" xml:space="preserve">
+    <value>提供频率</value>
+  </data>
+  <data name="Scripts_Common_js_22" xml:space="preserve">
+    <value>提供其它指令</value>
+  </data>
+  <data name="Scripts_Common_js_23" xml:space="preserve">
+    <value>提供剂量</value>
+  </data>
+  <data name="Scripts_Common_js_24" xml:space="preserve">
+    <value>提供日期</value>
+  </data>
+  <data name="Scripts_Common_js_25" xml:space="preserve">
+    <value>已经存在</value>
+  </data>
+  <data name="Scripts_Common_js_26" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="Scripts_Common_js_27" xml:space="preserve">
+    <value>选择病人类型</value>
+  </data>
+  <data name="Scripts_Common_js_28" xml:space="preserve">
+    <value>选择员工类型</value>
+  </data>
+  <data name="Scripts_Common_js_29" xml:space="preserve">
+    <value>提供员工编号</value>
+  </data>
+  <data name="Scripts_Common_js_30" xml:space="preserve">
+    <value>选择雇主的名字</value>
+  </data>
+  <data name="Scripts_Common_js_31" xml:space="preserve">
+    <value>选择关系</value>
+  </data>
+  <data name="Scripts_Common_js_32" xml:space="preserve">
+    <value>选择扩展类型</value>
+  </data>
+  <data name="Scripts_Common_js_33" xml:space="preserve">
+    <value>提供姓名</value>
+  </data>
+  <data name="Scripts_Common_js_34" xml:space="preserve">
+    <value>提供出生日期或年龄</value>
+  </data>
+  <data name="Scripts_Common_js_35" xml:space="preserve">
+    <value>选择婚姻状况</value>
+  </data>
+  <data name="Scripts_Common_js_36" xml:space="preserve">
+    <value>选择性别</value>
+  </data>
+  <data name="Scripts_Common_js_37" xml:space="preserve">
+    <value>提供地址</value>
+  </data>
+  <data name="Scripts_Common_js_38" xml:space="preserve">
+    <value>提供城市</value>
+  </data>
+  <data name="Scripts_Common_js_39" xml:space="preserve">
+    <value>提供联络号码</value>
+  </data>
+  <data name="Scripts_Common_js_40" xml:space="preserve">
+    <value>选择国家名称</value>
+  </data>
+  <data name="Scripts_Common_js_41" xml:space="preserve">
+    <value>选择国家名称</value>
+  </data>
+  <data name="Scripts_Common_js_42" xml:space="preserve">
+    <value>提供URN号</value>
+  </data>
+  <data name="Scripts_Common_js_43" xml:space="preserve">
+    <value>选择URN类型</value>
+  </data>
+  <data name="Scripts_Common_js_44" xml:space="preserve">
+    <value>提供任何一个联系号码</value>
+  </data>
+  <data name="Scripts_Common_js_45" xml:space="preserve">
+    <value>提供当前地址街道/公路名称</value>
+  </data>
+  <data name="Scripts_Common_js_46" xml:space="preserve">
+    <value>选择智能卡的再发行的理由</value>
+  </data>
+  <data name="Scripts_Common_js_47" xml:space="preserve">
+    <value>浏览要上传的文件。</value>
+  </data>
+  <data name="Scripts_Common_js_48" xml:space="preserve">
+    <value>该文件必须具有的扩展（为.jpg，.png，.GIF，.JPEG，.BMP）</value>
+  </data>
+  <data name="Scripts_Common_js_49" xml:space="preserve">
+    <value>该文件的最大尺寸仅为4 MB。</value>
+  </data>
+  <data name="Scripts_Common_js_50" xml:space="preserve">
+    <value>提供至少一个过滤标准</value>
+  </data>
+  <data name="Scripts_Common_js_51" xml:space="preserve">
+    <value>选择患者姓名</value>
+  </data>
+  <data name="Scripts_Common_js_52" xml:space="preserve">
+    <value>不能为客户端病人执行此操作</value>
+  </data>
+  <data name="Scripts_Common_js_53" xml:space="preserve">
+    <value>提供旧密码</value>
+  </data>
+  <data name="Scripts_Common_js_54" xml:space="preserve">
+    <value>提供新密码</value>
+  </data>
+  <data name="Scripts_Common_js_55" xml:space="preserve">
+    <value>提供确认密码</value>
+  </data>
+  <data name="Scripts_Common_js_56" xml:space="preserve">
+    <value>密码长度应该至少有6个字符。</value>
+  </data>
+  <data name="Scripts_Common_js_57" xml:space="preserve">
+    <value>最大长度到达，请检查密码提示。</value>
+  </data>
+  <data name="Scripts_Common_js_58" xml:space="preserve">
+    <value>有一个密码不符</value>
+  </data>
+  <data name="Scripts_Common_js_59" xml:space="preserve">
+    <value>新密码和旧密码不能相同</value>
+  </data>
+  <data name="Scripts_Common_js_60" xml:space="preserve">
+    <value>密码策略不匹配请检查密码提示</value>
+  </data>
+  <data name="Scripts_Common_js_61" xml:space="preserve">
+    <value>密码至少含有一个特殊字符，字母和一个数字</value>
+  </data>
+  <data name="Scripts_Common_js_62" xml:space="preserve">
+    <value>提供旧交易密码</value>
+  </data>
+  <data name="Scripts_Common_js_63" xml:space="preserve">
+    <value>提供了新的交易密码</value>
+  </data>
+  <data name="Scripts_Common_js_64" xml:space="preserve">
+    <value>提供确认交易密码</value>
+  </data>
+  <data name="Scripts_Common_js_65" xml:space="preserve">
+    <value>交易密码长度应该至少6个字符。</value>
+  </data>
+  <data name="Scripts_Common_js_66" xml:space="preserve">
+    <value>最大长度到达，请检查交易密码提示。</value>
+  </data>
+  <data name="Scripts_Common_js_67" xml:space="preserve">
+    <value>新的交易密码和旧交易密码不能相同</value>
+  </data>
+  <data name="Scripts_Common_js_68" xml:space="preserve">
+    <value>新密码和交易密码不能相同</value>
+  </data>
+  <data name="Scripts_Common_js_69" xml:space="preserve">
+    <value>还有一个交易密码不匹配</value>
+  </data>
+  <data name="Scripts_Common_js_70" xml:space="preserve">
+    <value>交易密码策略不匹配请检查交易密码提示</value>
+  </data>
+  <data name="Scripts_Common_js_71" xml:space="preserve">
+    <value>交易密码至少含有一个特殊字符，字母和一个数字</value>
+  </data>
+  <data name="Scripts_Common_js_72" xml:space="preserve">
+    <value>提供病人的价值</value>
+  </data>
+  <data name="Scripts_Common_js_73" xml:space="preserve">
+    <value>为控制值</value>
+  </data>
+  <data name="Scripts_Common_js_74" xml:space="preserve">
+    <value>提供患者姓名</value>
+  </data>
+  <data name="Scripts_Common_js_75" xml:space="preserve">
+    <value>提供患者年龄</value>
+  </data>
+  <data name="Scripts_Common_js_76" xml:space="preserve">
+    <value>提供URN类型</value>
+  </data>
+  <data name="Scripts_Common_js_77" xml:space="preserve">
+    <value>选择医生的名字</value>
+  </data>
+  <data name="Scripts_Common_js_78" xml:space="preserve">
+    <value>提供医生的名字</value>
+  </data>
+  <data name="Scripts_Common_js_79" xml:space="preserve">
+    <value>选择医院/支</value>
+  </data>
+  <data name="Scripts_Common_js_80" xml:space="preserve">
+    <value>选择保险</value>
+  </data>
+  <data name="Scripts_Common_js_81" xml:space="preserve">
+    <value>选择客户端</value>
+  </data>
+  <data name="Scripts_Common_js_82" xml:space="preserve">
+    <value>选择收集中心</value>
+  </data>
+  <data name="Scripts_Common_js_83" xml:space="preserve">
+    <value>选择发布模式</value>
+  </data>
+  <data name="Scripts_Common_js_84" xml:space="preserve">
+    <value>提供姓名</value>
+  </data>
+  <data name="Scripts_Common_js_85" xml:space="preserve">
+    <value>提供城市</value>
+  </data>
+  <data name="Scripts_Common_js_86" xml:space="preserve">
+    <value>选择一项法案</value>
+  </data>
+  <data name="Scripts_Common_js_87" xml:space="preserve">
+    <value>提供LMP日期</value>
+  </data>
+  <data name="Scripts_Common_js_88" xml:space="preserve">
+    <value>提供的建议</value>
+  </data>
+  <data name="Scripts_Common_js_89" xml:space="preserve">
+    <value>选择Sample</value>
+  </data>
+  <data name="Scripts_Common_js_90" xml:space="preserve">
+    <value>选择样本属性</value>
+  </data>
+  <data name="Scripts_Common_js_91" xml:space="preserve">
+    <value>提供样本值或意见</value>
+  </data>
+  <data name="Scripts_Common_js_92" xml:space="preserve">
+    <value>提供正确的陆行号</value>
+  </data>
+  <data name="Scripts_Common_js_93" xml:space="preserve">
+    <value>折扣不能超过量大</value>
+  </data>
+  <data name="Scripts_Common_js_94" xml:space="preserve">
+    <value>提供数量</value>
+  </data>
+  <data name="Scripts_Common_js_95" xml:space="preserve">
+    <value>请输入轮数量。</value>
+  </data>
+  <data name="Scripts_Common_js_96" xml:space="preserve">
+    <value>提供数量</value>
+  </data>
+  <data name="Scripts_Common_js_97" xml:space="preserve">
+    <value>在药店的任务已经选择了部分处方不能改变。</value>
+  </data>
+  <data name="Scripts_Common_js_98" xml:space="preserve">
+    <value>提供频率类型</value>
+  </data>
+  <data name="Scripts_Common_js_99" xml:space="preserve">
+    <value>为别人提供指导</value>
+  </data>
+  <data name="Scripts_datetimepicker_js_01" xml:space="preserve">
+    <value>TimeMode只能是12或24个</value>
+  </data>
+  <data name="Scripts_datetimepicker_js_02" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_01" xml:space="preserve">
+    <value>你确定要清除？</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_02" xml:space="preserve">
+    <value>超过250个字符不允许</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_03" xml:space="preserve">
+    <value>删除订购的商品那么只有你可以改变的。\ n您要删除的项目，按OK否则取消</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_04" xml:space="preserve">
+    <value> - 选择 - </value>
+  </data>
+  <data name="Scripts_CommonBiling_js_05" xml:space="preserve">
+    <value>客户存款余额数目是零</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_06" xml:space="preserve">
+    <value>此客户端已被暂停。从暂停</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_07" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_08" xml:space="preserve">
+    <value>警告：信贷限额已经超出了这个客户端..！</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_09" xml:space="preserve">
+    <value>提供年龄（天或数周或数月或数年）从列表中选择适当的</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_10" xml:space="preserve">
+    <value>选择CLIENTNAME从列表</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_11" xml:space="preserve">
+    <value>该测试已下令...！不允许添加这个测试</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_12" xml:space="preserve">
+    <value>警告：选定的测试今天已经订购...！你想继续吗？</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_13" xml:space="preserve">
+    <value>患者具有相同名称，年龄，用同样的测试客户端已经进入你想继续​​吗？</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_14" xml:space="preserve">
+    <value>选择共同支付类型</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_15" xml:space="preserve">
+    <value>进入共同支付的价值</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_16" xml:space="preserve">
+    <value>提供患者姓名</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_17" xml:space="preserve">
+    <value>提供外部VisitID</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_18" xml:space="preserve">
+    <value>请从列表中选择放学医师姓名</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_19" xml:space="preserve">
+    <value>请选择放学医师姓名</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_20" xml:space="preserve">
+    <value>提供出生患者年龄或日期</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_21" xml:space="preserve">
+    <value>选择患者性别</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_22" xml:space="preserve">
+    <value>选择Phlebetomist名称</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_23" xml:space="preserve">
+    <value>提供客户名称</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_24" xml:space="preserve">
+    <value>搜索测试名</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_25" xml:space="preserve">
+    <value>已经添加项目</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_26" xml:space="preserve">
+    <value>收入的金额超过净金额较大</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_27" xml:space="preserve">
+    <value>该服务将不会为这个客户端（或）这将是一个基于性别测试可用。</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_28" xml:space="preserve">
+    <value>提供有效的一年</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_29" xml:space="preserve">
+    <value>年龄不应该大于105</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_30" xml:space="preserve">
+    <value>年龄大于95你想继续</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_31" xml:space="preserve">
+    <value>该试验的样品和容器不符合以前项目匹配</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_32" xml:space="preserve">
+    <value>项目金额为zero.Kindly地图率的项目...</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_33" xml:space="preserve">
+    <value>项目金额为零。\ n是否要添加此项目</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_34" xml:space="preserve">
+    <value>选定的测试已经可用作为有序试验的一部分。你不能再订货</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_35" xml:space="preserve">
+    <value>选定的测试已经可以作为要继续有序test.Do的一部分吗？</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_36" xml:space="preserve">
+    <value>你不能为这个项目增添历史</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_37" xml:space="preserve">
+    <value>请选择LMP日期！</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_38" xml:space="preserve">
+    <value>请输入不同卡号</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_39" xml:space="preserve">
+    <value>此优惠券已兑现对</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_40" xml:space="preserve">
+    <value>对于没有VID</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_41" xml:space="preserve">
+    <value>健康券没有无效。</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_42" xml:space="preserve">
+    <value>您的卡未激活</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_43" xml:space="preserve">
+    <value>您的信用卡已激活</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_44" xml:space="preserve">
+    <value>没有找到数据</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_45" xml:space="preserve">
+    <value>健康券卡内金额为零。</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_46" xml:space="preserve">
+    <value>请提供卡号</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_47" xml:space="preserve">
+    <value>您的OTP验证，您可以继续开票</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_48" xml:space="preserve">
+    <value>您的OTP无效</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_49" xml:space="preserve">
+    <value>你没有资格积分兑换</value>
+  </data>
+  <data name="Scripts_CommonBiling_js_Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+</root>

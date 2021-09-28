@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_01" xml:space="preserve">
+    <value>如病人属于其他组织的这个动作无法执行</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_02" xml:space="preserve">
+    <value>不能进行此操作</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_03" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_04" xml:space="preserve">
+    <value>文件上传成功</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_05" xml:space="preserve">
+    <value>图片未找到路径</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_06" xml:space="preserve">
+    <value>选择访问细节</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_07" xml:space="preserve">
+    <value>页码不能为空</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_08" xml:space="preserve">
+    <value>请输入有效的页码</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_09" xml:space="preserve">
+    <value>定页面号码不能超过页的总数量大于</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_10" xml:space="preserve">
+    <value>保存...</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_11" xml:space="preserve">
+    <value>请选择至少一个结果列</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_12" xml:space="preserve">
+    <value>请选择一个原因</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_13" xml:space="preserve">
+    <value>你确定你要承认？</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_14" xml:space="preserve">
+    <value>没有医生发现</value>
+  </data>
+  <data name="VisitInfo_PatientsCurrDateVist_aspx_15" xml:space="preserve">
+    <value>CasheSheet不适用于此病人</value>
+  </data>
+  <data name="VisitInfo_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="VisitInfo_Controls_PhotoUpload_ascx_01" xml:space="preserve">
+    <value>照片上传成功</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="VisitInfo_Controls_TRFUpload_ascx_04" xml:space="preserve">
+    <value>#VALUE!</value>
+  </data>
+  <data name="VisitInfo_Error" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="VisitInfo_GenereateSPENo_aspx_01" xml:space="preserve">
+    <value>你确定要继续，请点击确定按钮</value>
+  </data>
+  <data name="VisitInfo_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="VisitInfo_Ok" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_01" xml:space="preserve">
+    <value>SISTEM错误。\ n Deskripsi：签名tidak有效\ n Tindakan lanjut：撕拉hubungi pihak管理员SIMRS</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_02" xml:space="preserve">
+    <value>SISTEM错误。\ n Deskripsi：数据tidak BISA迪散文\ n Tindakan lanjut：撕拉科巴beberapa最后一点钟报LAGI</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_03" xml:space="preserve">
+    <value>SISTEM错误。\ n Deskripsi：数据tidak BISA迪散文\ n Tindakan lanjut：撕拉hubungi pihak管理员SIMRS</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_04" xml:space="preserve">
+    <value>SISTEM错误。\ n Deskripsi：数据tidak迪temukan \ n</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_05" xml:space="preserve">
+    <value>SISTEM错误。\ n Deskripsi：'+的messge）</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_06" xml:space="preserve">
+    <value>SISTEM错误。\ n Tindakan lanjut：撕拉hubungi pihak管理员SIMRS</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_07" xml:space="preserve">
+    <value>请新增诊断做关闭前参观</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_08" xml:space="preserve">
+    <value>请生成SEP数做关闭前参观</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_09" xml:space="preserve">
+    <value>请通过今天的病人继续进行链接</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_10" xml:space="preserve">
+    <value>不能对新生婴儿进行此操作</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_11" xml:space="preserve">
+    <value>找不到网址</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_12" xml:space="preserve">
+    <value>必须签入的MRD文件</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_13" xml:space="preserve">
+    <value>参观国家已经关闭</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_14" xml:space="preserve">
+    <value>任务状态不能待定</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_15" xml:space="preserve">
+    <value>访问成功关闭</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_16" xml:space="preserve">
+    <value>这是不是OP患者</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_17" xml:space="preserve">
+    <value>没有在该法案项目</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_18" xml:space="preserve">
+    <value>已取消访问</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_19" xml:space="preserve">
+    <value>已经访问关闭</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_20" xml:space="preserve">
+    <value>这是OP的患者。所以你不能编辑</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_21" xml:space="preserve">
+    <value>这不是一个出院/信贷病人。所以你不能编辑</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_22" xml:space="preserve">
+    <value>选择访问细节</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_23" xml:space="preserve">
+    <value>提供访问日期</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_24" xml:space="preserve">
+    <value>请选择任何一个</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_25" xml:space="preserve">
+    <value>请进入预授权金额低于索赔金额或者大于或等于零</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_26" xml:space="preserve">
+    <value>请输入页码</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_27" xml:space="preserve">
+    <value>请输入正确的页码</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_28" xml:space="preserve">
+    <value>没有发现帐单项目进行更新</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_29" xml:space="preserve">
+    <value>不能编辑为患者是OP患者</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_01" xml:space="preserve">
+    <value>请点击任何一个动作</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_02" xml:space="preserve">
+    <value>请选择任何一个选项</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_03" xml:space="preserve">
+    <value>请选择一个名称</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_04" xml:space="preserve">
+    <value>请选择一个部门</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_05" xml:space="preserve">
+    <value>这名患者在IP已经承认</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_06" xml:space="preserve">
+    <value>请转移到另一个聚</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_07" xml:space="preserve">
+    <value>请在前台考上然后将文件从OP传输到IP</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_08" xml:space="preserve">
+    <value>成功更新</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_09" xml:space="preserve">
+    <value>页码不能为空</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_10" xml:space="preserve">
+    <value>定页面号码不能超过页的总数量大于</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_11" xml:space="preserve">
+    <value>已经访问关闭</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_12" xml:space="preserve">
+    <value>你确定你要取消访问？</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_13" xml:space="preserve">
+    <value>您确定要签这个文件？</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_14" xml:space="preserve">
+    <value>这个任务转院到另一台聚，你要继续吗？</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_15" xml:space="preserve">
+    <value>是否要将此文件传输到另一台聚？如果是的话请按确定或取消</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_16" xml:space="preserve">
+    <value>你想入住此文件自动？如果是的话请按确定或取消</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_17" xml:space="preserve">
+    <value>任务是Pending.Are你一定要办理文件？</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_18" xml:space="preserve">
+    <value>你肯定要办理的文件吗？</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_19" xml:space="preserve">
+    <value>访问是已经越过1日，请办理入住手续，并创造新的访问</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_20" xml:space="preserve">
+    <value>请从以前的保利支付金额待定</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_21" xml:space="preserve">
+    <value>新任务将被创建</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_22" xml:space="preserve">
+    <value>成功更新</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_25" xml:space="preserve">
+    <value>你想取消转移？如果是的话请按确定或取消</value>
+  </data>
+  <data name="VisitInfo_MRDView_aspx_26" xml:space="preserve">
+    <value>传输已取消</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_01" xml:space="preserve">
+    <value>请选择要添加的文件。</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_02" xml:space="preserve">
+    <value>请选择有效的文件格式（GIF / JPG / PNG / BMP / JPEG / PDF）</value>
+  </data>
+  <data name="VisitInfo_Controls_PatientFileUploader_ascx_03" xml:space="preserve">
+    <value>请浏览至少一个文件上传。</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_30" xml:space="preserve">
+    <value>无法更新客户端Umum</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_31" xml:space="preserve">
+    <value>更新开单金额的客户端和价目表Successfully.Not。</value>
+  </data>
+  <data name="VisitInfo_VisitDetails_aspx_32" xml:space="preserve">
+    <value>更改客户端名称</value>
+  </data>
+</root>

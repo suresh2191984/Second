@@ -1,0 +1,140 @@
+﻿.list2
+    {
+        width: 110px;
+        border: 1px solid DarkGray;
+        list-style-type: none;
+        margin: 0px;
+        background-color: #fff;
+        text-align: left;
+        font-size: small;
+        vertical-align: middle;
+        color: Gray;
+        font-family: Verdana;
+        font-size: 11px;
+    }
+    ul.list2 li
+    {
+        padding: 0px 0px;
+    }
+    .listitem2
+    {
+        color: Gray;
+    }
+    .hoverlistitem2
+    {
+        background-color: #fff;
+    }
+    .listMain
+    {
+        margin : 0px 0px 0px 0px!important;
+        background-color: #fff;
+        width: 113px;
+        max-height: 150px;
+        min-height: 100px;
+        text-align: left;
+        list-style-type: none;
+        margin-top: -1px;
+        font-family: Verdana;
+        font-size: 11px;
+        overflow: auto;
+        padding-left: 1px;
+        scrollbar-base-color: #cfd0d1;
+        scrollbar-arrow-color: #000000;
+        scrollbar-3dlight-color: #e9eef0;
+        scrollbar-darkshadow-color: #909699;
+        scrollbar-face-color: #cfd0d1;
+        scrollbar-highlight-color: #909699;
+        scrollbar-shadow-color: #cfd0d1;
+        scrollbar-track-color: #cfd0d1;
+    }
+    .wordWheel .itemsMain
+    {
+        padding : 1px;
+        background: none;
+        width: 110px;
+        border-collapse: collapse;
+        color: #383838;
+        white-space: nowrap;
+        text-align: left;
+    }
+    .wordWheel .itemsSelected
+    {
+        width: 110px;
+        color: #ffffff;
+        background: #2c88b1;
+    }
+    .box
+    {
+        width: 206px;
+        height: 168px;
+    }
+    .style1
+    {
+        width: 100px;
+    }
+    
+    /* Inv Drugs */
+    
+     .listMainOne
+    {
+        margin : 0px 0px 0px 0px!important;
+        background-color: #fff;
+        width: 350px;
+        max-height: 150px;
+        min-height: 100px;
+        text-align: left;
+        list-style-type: none;
+        margin-top: -1px;
+        font-family: Verdana;
+        font-size: 11px;
+        overflow: auto;
+        padding-left: 1px;
+        scrollbar-base-color: #cfd0d1;
+        scrollbar-arrow-color: #000000;
+        scrollbar-3dlight-color: #e9eef0;
+        scrollbar-darkshadow-color: #909699;
+        scrollbar-face-color: #cfd0d1;
+        scrollbar-highlight-color: #909699;
+        scrollbar-shadow-color: #cfd0d1;
+        scrollbar-track-color: #cfd0d1;
+    }
+    .wordWheelOne .itemsMainOne
+    {
+        padding : 1px;
+        background: none;
+        width: 350px;
+        border-collapse: collapse;
+        color: #383838;
+        white-space: nowrap;
+        text-align: left;
+    }
+    .wordWheelOne .itemsSelectedOne
+    {
+        width: 350px;
+        color: #ffffff;
+        background: #2c88b1;
+    }
+    .boxOne
+    {
+        width: 350px;
+        height: 168px;
+    }
+
+    #divwidth
+    {
+        width: 350px !important;    
+    }
+    #divwidth div
+    {
+        width: 350px !important;   
+    }
+
+
+
+ /* Complait Control */
+
+
+    
+   
+    
+   

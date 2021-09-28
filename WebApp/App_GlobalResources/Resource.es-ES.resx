@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="~/Admin/AddBankName.aspx" xml:space="preserve">
+    <value>Añadir / modificar los Bancos</value>
+  </data>
+  <data name="~/Admin/AddCorpClient.aspx" xml:space="preserve">
+    <value>Añadir corporativa y el cliente</value>
+  </data>
+  <data name="~/Admin/AddInvandGroups.aspx" xml:space="preserve">
+    <value>Manejo de Investigación y Grupo</value>
+  </data>
+  <data name="~/Admin/AddInvGroups.aspx" xml:space="preserve">
+    <value>Manejo de Investigación y Grupo</value>
+  </data>
+  <data name="~/Admin/AddInvtoGrp.aspx" xml:space="preserve">
+    <value>Manejo de Investigación y Grupo</value>
+  </data>
+  <data name="~/Admin/AddNewRefPhyPopup.aspx" xml:space="preserve">
+    <value>Añadir / modificar Refiriéndose Médico</value>
+  </data>
+  <data name="~/Admin/AddOrChangeGroup.aspx" xml:space="preserve">
+    <value>Maestro meta</value>
+  </data>
+  <data name="~/Admin/AddOrChangeNumberPatterns.aspx" xml:space="preserve">
+    <value>Añadir / modificar patrón de número de secuencia</value>
+  </data>
+  <data name="~/Admin/AdminReports.aspx" xml:space="preserve">
+    <value>administrador informes</value>
+  </data>
+  <data name="~/Admin/BillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/Admin/BillSettlement.aspx" xml:space="preserve">
+    <value>Cierre de Caja de administración</value>
+  </data>
+  <data name="~/Admin/CashFlow.aspx" xml:space="preserve">
+    <value>Pagos en efectivo</value>
+  </data>
+  <data name="~/Admin/CasualityMaster.aspx" xml:space="preserve">
+    <value>maestro Casuality</value>
+  </data>
+  <data name="~/Admin/ChangeDocSchedule.aspx" xml:space="preserve">
+    <value>Ver programa</value>
+  </data>
+  <data name="~/Admin/ChangeUOM.aspx" xml:space="preserve">
+    <value>Manejo de Unidades de Investigación</value>
+  </data>
+  <data name="~/Admin/CheckSecPage.aspx" xml:space="preserve">
+    <value>Manejo de Secuencia</value>
+  </data>
+  <data name="~/Admin/ClientRateMapping.aspx" xml:space="preserve">
+    <value>Mapeo velocidad de cliente</value>
+  </data>
+  <data name="~/Admin/ConfigManager.aspx" xml:space="preserve">
+    <value>Administrador de configuraciones</value>
+  </data>
+  <data name="~/Admin/CustomizedBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Admin/DailyBillPrint.aspx" xml:space="preserve">
+    <value>admin informes</value>
+  </data>
+  <data name="~/Admin/DailyBillReport.aspx" xml:space="preserve">
+    <value>Usuario del informe sabia colección</value>
+  </data>
+  <data name="~/Admin/DashBoard.aspx" xml:space="preserve">
+    <value>ver informes de</value>
+  </data>
+  <data name="~/Admin/DaywiseCollection.aspx" xml:space="preserve">
+    <value>Colección de informes de usuario Wise</value>
+  </data>
+  <data name="~/Admin/DiscountMaster.aspx" xml:space="preserve">
+    <value>Administrar maestro descuento</value>
+  </data>
+  <data name="~/Admin/DiscountReason.aspx" xml:space="preserve">
+    <value>Manejo de descuento razón principal</value>
+  </data>
+  <data name="~/Admin/DoctorSchedule.aspx" xml:space="preserve">
+    <value>Programar</value>
+  </data>
+  <data name="~/Admin/DoctorsVacation.aspx" xml:space="preserve">
+    <value>Plan de vacaciones Doctors '</value>
+  </data>
+  <data name="~/Admin/DueReportPrint.aspx" xml:space="preserve">
+    <value>admin informes</value>
+  </data>
+  <data name="~/Admin/DueSearch.aspx" xml:space="preserve">
+    <value>debido Informes</value>
+  </data>
+  <data name="~/Admin/GeneralBillingItemsMaster.aspx" xml:space="preserve">
+    <value>Los productos de facturación maestro general</value>
+  </data>
+  <data name="~/Admin/Home.aspx" xml:space="preserve">
+    <value>La página de inicio de administración</value>
+  </data>
+  <data name="~/Admin/InvestigationCollectionReport.aspx" xml:space="preserve">
+    <value>Informe de Investigación Colección</value>
+  </data>
+  <data name="~/Admin/InvestigationSamplesReport.aspx" xml:space="preserve">
+    <value>Informe de Investigación de recogida de muestras</value>
+  </data>
+  <data name="~/Admin/InvRefRanges.aspx" xml:space="preserve">
+    <value>Administrador rango de referencia</value>
+  </data>
+  <data name="~/Admin/LabAdminReports.aspx" xml:space="preserve">
+    <value>Administrador informes de laboratorio</value>
+  </data>
+  <data name="~/Admin/LabAdminReportsPrint.aspx" xml:space="preserve">
+    <value>Administrador informes de laboratorio</value>
+  </data>
+  <data name="~/Admin/LabAdminSummaryReports.aspx" xml:space="preserve">
+    <value>Resumen del informe de laboratorio</value>
+  </data>
+  <data name="~/Admin/LabAdminSummaryReportsPrint.aspx" xml:space="preserve">
+    <value>informes de administración</value>
+  </data>
+  <data name="~/Admin/LabMaster.aspx" xml:space="preserve">
+    <value>Gestor de Exámenes</value>
+  </data>
+  <data name="~/Admin/ManageCurrency.aspx" xml:space="preserve">
+    <value>Manejo de la moneda</value>
+  </data>
+  <data name="~/Admin/ManageCustomPrice.aspx" xml:space="preserve">
+    <value>Administrar precio personalizado</value>
+  </data>
+  <data name="~/Admin/ManageInvComputation.aspx" xml:space="preserve">
+    <value>Fórmula Maestro</value>
+  </data>
+  <data name="~/Admin/ManageInvInstrument.aspx" xml:space="preserve">
+    <value>Manejo de instrumentos de investigación</value>
+  </data>
+  <data name="~/Admin/ManageInvKit.aspx" xml:space="preserve">
+    <value>Manejo de equipo de investigación</value>
+  </data>
+  <data name="~/Admin/ManageInvMethod.aspx" xml:space="preserve">
+    <value>Administrar el método de investigación</value>
+  </data>
+  <data name="~/Admin/ManageInvPrinciple.aspx" xml:space="preserve">
+    <value>Administrar principio investigación</value>
+  </data>
+  <data name="~/Admin/ManagePackage.aspx" xml:space="preserve">
+    <value>Manejo de paquete</value>
+  </data>
+  <data name="~/Admin/ManageSequenceINV.aspx" xml:space="preserve">
+    <value>Manejo de Secuencia</value>
+  </data>
+  <data name="~/Admin/MappingInvtoGrp.aspx" xml:space="preserve">
+    <value>Mapping inv al grupo</value>
+  </data>
+  <data name="~/Admin/MasterBulkdata.aspx" xml:space="preserve">
+    <value>La carga masiva de datos maestros</value>
+  </data>
+  <data name="~/Admin/MenuMapper.aspx" xml:space="preserve">
+    <value>Mapa del menú principal</value>
+  </data>
+  <data name="~/Admin/ModalitySchedule.aspx" xml:space="preserve">
+    <value>Programar</value>
+  </data>
+  <data name="~/Admin/NonReimbursableMaster.aspx" xml:space="preserve">
+    <value>Añadir elementos no reembolsables</value>
+  </data>
+  <data name="~/Admin/OrganisationLocation.aspx" xml:space="preserve">
+    <value>Map location a la organización</value>
+  </data>
+  <data name="~/Admin/OrgCreateUser.aspx" xml:space="preserve">
+    <value>Administrar los usuarios de Organización</value>
+  </data>
+  <data name="~/Admin/PasswordPolicy.aspx" xml:space="preserve">
+    <value>política Maestro</value>
+  </data>
+  <data name="~/Admin/PhysicianwiseCollectionDetailReport.aspx" xml:space="preserve">
+    <value>Detalle médico Wise Colección</value>
+  </data>
+  <data name="~/Admin/PhysicianwiseCollectionReport.aspx" xml:space="preserve">
+    <value>Wise médico Colección de informes</value>
+  </data>
+  <data name="~/Admin/PrintBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Admin/PrintVoucherPage.aspx" xml:space="preserve">
+    <value>la recepción de vales</value>
+  </data>
+  <data name="~/Admin/ProcedureMaster.aspx" xml:space="preserve">
+    <value>Administrar maestro Procedimiento</value>
+  </data>
+  <data name="~/Admin/RatesUpdation.aspx" xml:space="preserve">
+    <value>Precios updation</value>
+  </data>
+  <data name="~/Admin/Reports.aspx" xml:space="preserve">
+    <value>Reportar nombre</value>
+  </data>
+  <data name="~/Admin/RoomMaster.aspx" xml:space="preserve">
+    <value>maestra de habitación</value>
+  </data>
+  <data name="~/Admin/RoomMasterDetails.aspx" xml:space="preserve">
+    <value>maestra de habitación</value>
+  </data>
+  <data name="~/Admin/Speciality.aspx" xml:space="preserve">
+    <value>Administrar maestro Especialidad</value>
+  </data>
+  <data name="~/Admin/SpecialRateCard.aspx" xml:space="preserve">
+    <value>Mapeo de servicios del cliente</value>
+  </data>
+  <data name="~/Admin/SurgeryMaster.aspx" xml:space="preserve">
+    <value>Administrar maestro Cirugía</value>
+  </data>
+  <data name="~/Admin/SurgeryPackage.aspx" xml:space="preserve">
+    <value>Añadir paquete de la cirugía</value>
+  </data>
+  <data name="~/Admin/SurgeryTeamWiseReport.aspx" xml:space="preserve">
+    <value>La cirugía y la intervención Estadísticas</value>
+  </data>
+  <data name="~/Admin/TaskActionMapping.aspx" xml:space="preserve">
+    <value>Administrar y mapa de acciones de tareas</value>
+  </data>
+  <data name="~/Admin/TaskReAssign.aspx" xml:space="preserve">
+    <value>Tarea de re-asignar</value>
+  </data>
+  <data name="~/Admin/TemplateMaker.aspx" xml:space="preserve">
+    <value>plantilla maestra Radiología</value>
+  </data>
+  <data name="~/Admin/TestGroup.aspx" xml:space="preserve">
+    <value>Administrar grupos de investigación</value>
+  </data>
+  <data name="~/Admin/TestInvestigation.aspx" xml:space="preserve">
+    <value>Manejo de Investigaciones</value>
+  </data>
+  <data name="~/Admin/UOMMaster.aspx" xml:space="preserve">
+    <value>Manejo de la UOM maestro</value>
+  </data>
+  <data name="~/Admin/UserMaster.aspx" xml:space="preserve">
+    <value>Gestor de Usuarios</value>
+  </data>
+  <data name="~/Admin/ViewBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Admin/ViewSamples.aspx" xml:space="preserve">
+    <value>Informe de Investigación de recogida de muestras</value>
+  </data>
+  <data name="~/Admin/VisitType.aspx" xml:space="preserve">
+    <value>Administrar tipo de visita</value>
+  </data>
+  <data name="~/Admin/WaitingTime.aspx" xml:space="preserve">
+    <value>Tiempo de espera del paciente</value>
+  </data>
+  <data name="~/ANC/ANCCaseSheet.aspx" xml:space="preserve">
+    <value>Hoja caso ANC</value>
+  </data>
+  <data name="~/ANC/ANCPatientDignose.aspx" xml:space="preserve">
+    <value>diagnóstico del paciente ANC</value>
+  </data>
+  <data name="~/ANC/BaseLineHistory.aspx" xml:space="preserve">
+    <value>la historia de revisión inicial</value>
+  </data>
+  <data name="~/ANC/BaseLineHistoryFollowup.aspx" xml:space="preserve">
+    <value>seguimiento historia de la línea de base</value>
+  </data>
+  <data name="~/ANC/BaselineScreeningHistory.aspx" xml:space="preserve">
+    <value>la historia de revisión inicial</value>
+  </data>
+  <data name="~/ANC/ViewCaseSheet.aspx" xml:space="preserve">
+    <value>Ver hoja de caso</value>
+  </data>
+  <data name="~/App_Themes/Billing/AddBillItems.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/App_Themes/Billing/Billing.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/App_Themes/Billing/BillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/App_Themes/Billing/CollectDuePayment.aspx" xml:space="preserve">
+    <value>Debido detalle de una colección</value>
+  </data>
+  <data name="~/App_Themes/Billing/HospitalBillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/Billing/AddBillItems.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/Billing/Billing.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/Billing/BillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/Billing/CollectDueAmount.aspx" xml:space="preserve">
+    <value>Recoger Debido Monto</value>
+  </data>
+  <data name="~/Billing/CollectDuePayment.aspx" xml:space="preserve">
+    <value>Debido detalle de una colección</value>
+  </data>
+  <data name="~/Billing/GenerateBill.aspx" xml:space="preserve">
+    <value>facturación rápida paciente</value>
+  </data>
+  <data name="~/Billing/HospitalBillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/Billing/LabQuickBilling.aspx" xml:space="preserve">
+    <value>Laboratorio de facturación rápida</value>
+  </data>
+  <data name="~/Billing/PerformRefund.aspx" xml:space="preserve">
+    <value>realizar restitución</value>
+  </data>
+  <data name="~/Billing/QuickBill.aspx" xml:space="preserve">
+    <value>factura rápida</value>
+  </data>
+  <data name="~/Billing/ReceiptSearch.aspx" xml:space="preserve">
+    <value>recibo de búsqueda</value>
+  </data>
+  <data name="~/Billing/RefundReceiptSearch.aspx" xml:space="preserve">
+    <value>Búsqueda restitución</value>
+  </data>
+  <data name="~/Billing/RefundVoucher.aspx" xml:space="preserve">
+    <value>la recepción de vales</value>
+  </data>
+  <data name="~/Billing/VoucherSearch.aspx" xml:space="preserve">
+    <value>Búsqueda bono</value>
+  </data>
+  <data name="~/CaseSheet/CaseSheet.aspx" xml:space="preserve">
+    <value>hoja caso</value>
+  </data>
+  <data name="~/CaseSheet/ViewCaseSheet.aspx" xml:space="preserve">
+    <value>Ver hoja de caso</value>
+  </data>
+  <data name="~/ChangePassword/ChangePassword.aspx" xml:space="preserve">
+    <value>Cambia la contraseña</value>
+  </data>
+  <data name="~/ConfigSetting/ConfigMaster.aspx" xml:space="preserve">
+    <value>maestro de configuración</value>
+  </data>
+  <data name="~/Corporate/Assistantphysician.aspx" xml:space="preserve">
+    <value>Transcriptor Home Page</value>
+  </data>
+  <data name="~/Corporate/CancelledServices.aspx" xml:space="preserve">
+    <value>Cancelar los servicios solicitados</value>
+  </data>
+  <data name="~/Corporate/CorpInvBilling.aspx" xml:space="preserve">
+    <value>facturación de farmacia corporativa</value>
+  </data>
+  <data name="~/Corporate/CorpInvSearch.aspx" xml:space="preserve">
+    <value>Búsqueda farmacia corporativa</value>
+  </data>
+  <data name="~/Corporate/CorporateBilling.aspx" xml:space="preserve">
+    <value>facturación corporativa</value>
+  </data>
+  <data name="~/Corporate/CorporatePatientSearch.aspx" xml:space="preserve">
+    <value>Buscar corporativa Emp</value>
+  </data>
+  <data name="~/Corporate/CorporateQuickBilling.aspx" xml:space="preserve">
+    <value>Entrada de pedidos paciente</value>
+  </data>
+  <data name="~/Corporate/CorporateService.aspx" xml:space="preserve">
+    <value>servicio de Búsqueda</value>
+  </data>
+  <data name="~/Corporate/DiseaseburdenReport.aspx" xml:space="preserve">
+    <value>informe de la carga de morbilidad</value>
+  </data>
+  <data name="~/Corporate/PrescriptionSearch.aspx" xml:space="preserve">
+    <value>recetas de búsqueda</value>
+  </data>
+  <data name="~/Corporate/ServiceRenderedReport.aspx" xml:space="preserve">
+    <value>Servicio de informe representado</value>
+  </data>
+  <data name="~/Corporate/ViewPrescription.aspx" xml:space="preserve">
+    <value>Ver recetas</value>
+  </data>
+  <data name="~/Deployability/ClientServiceMapping.aspx" xml:space="preserve">
+    <value>Mapeo de Servicio al Cliente</value>
+  </data>
+  <data name="~/Deployability/CopyingMaster.aspx" xml:space="preserve">
+    <value>copiado Maestro</value>
+  </data>
+  <data name="~/Deployability/Interdependency.aspx" xml:space="preserve">
+    <value>interdependencia</value>
+  </data>
+  <data name="~/Deployability/InvCreateUpdate.aspx" xml:space="preserve">
+    <value>Carga de datos masivos Maestro</value>
+  </data>
+  <data name="~/Deployability/ManagePrinter.aspx" xml:space="preserve">
+    <value>Manejo de la impresora</value>
+  </data>
+  <data name="~/Deployability/ServiceExclusivity.aspx" xml:space="preserve">
+    <value>La exclusividad del servicio</value>
+  </data>
+  <data name="~/Dialysis/DialysisAdvice.aspx" xml:space="preserve">
+    <value>consejos de diálisis</value>
+  </data>
+  <data name="~/Dialysis/DialysisCaseSheet.aspx" xml:space="preserve">
+    <value>Hoja caso de diálisis</value>
+  </data>
+  <data name="~/Dialysis/DialysisOnFlow.aspx" xml:space="preserve">
+    <value>La diálisis Onflow monitoreo</value>
+  </data>
+  <data name="~/Dialysis/DialysisRecord.aspx" xml:space="preserve">
+    <value>registro de diálisis</value>
+  </data>
+  <data name="~/Dialysis/FirstDialysis.aspx" xml:space="preserve">
+    <value>La diálisis primera visita</value>
+  </data>
+  <data name="~/Dialysis/Home.aspx" xml:space="preserve">
+    <value>Portada del fisioterapeuta</value>
+  </data>
+  <data name="~/Dialysis/PendingPhysioSearch.aspx" xml:space="preserve">
+    <value>A la espera de la fisioterapia</value>
+  </data>
+  <data name="~/DischargeSummary/DischargeSummaryDynamic.aspx" xml:space="preserve">
+    <value>Resumen de descarga de hojas caso</value>
+  </data>
+  <data name="~/Error.aspx" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="~/FileHandlers/ShowOldNoteImages.aspx" xml:space="preserve">
+    <value>Página sin título</value>
+  </data>
+  <data name="~/Home.aspx" xml:space="preserve">
+    <value>Cuidado de la salud</value>
+  </data>
+  <data name="~/InPatient/Advance.aspx" xml:space="preserve">
+    <value>Pagos anticipados</value>
+  </data>
+  <data name="~/InPatient/AdvancePaidDetails.aspx" xml:space="preserve">
+    <value>Añadir los pagos</value>
+  </data>
+  <data name="~/InPatient/BillCollect.aspx" xml:space="preserve">
+    <value>cobrar los pagos</value>
+  </data>
+  <data name="~/InPatient/DeathCaseSheet.aspx" xml:space="preserve">
+    <value>resumen de la muerte</value>
+  </data>
+  <data name="~/InPatient/DeathRegistration.aspx" xml:space="preserve">
+    <value>registro de defunciones</value>
+  </data>
+  <data name="~/InPatient/DeliveryNotes.aspx" xml:space="preserve">
+    <value>notas del parto</value>
+  </data>
+  <data name="~/InPatient/DischargeChkList.aspx" xml:space="preserve">
+    <value>Lista de retención de descarga</value>
+  </data>
+  <data name="~/InPatient/EditTPAPayment.aspx" xml:space="preserve">
+    <value>Editar los detalles del pago TPA</value>
+  </data>
+  <data name="~/InPatient/InPatientBilling.aspx" xml:space="preserve">
+    <value>facturación para pacientes hospitalizados</value>
+  </data>
+  <data name="~/InPatient/IPBillSettlement.aspx" xml:space="preserve">
+    <value>En pacientes liquidación final</value>
+  </data>
+  <data name="~/InPatient/IPCashReceipt.aspx" xml:space="preserve">
+    <value>recibo de caja para pacientes hospitalizados</value>
+  </data>
+  <data name="~/InPatient/IPItemizedBill.aspx" xml:space="preserve">
+    <value>proyecto de ley para pacientes hospitalizados Detallado</value>
+  </data>
+  <data name="~/InPatient/IpOutstandingDues.aspx" xml:space="preserve">
+    <value>cobrar los pagos</value>
+  </data>
+  <data name="~/InPatient/IPSummaryBill.aspx" xml:space="preserve">
+    <value>Resumen de factura para pacientes hospitalizados</value>
+  </data>
+  <data name="~/InPatient/IPViewBill.aspx" xml:space="preserve">
+    <value>vista para pacientes hospitalizados factura</value>
+  </data>
+  <data name="~/InPatient/IPViewBillTemp.aspx" xml:space="preserve">
+    <value>factura IPView</value>
+  </data>
+  <data name="~/InPatient/KDRDischargeSummary.aspx" xml:space="preserve">
+    <value>Resumen de descarga de hojas caso</value>
+  </data>
+  <data name="~/InPatient/NeonatalCaseSheet.aspx" xml:space="preserve">
+    <value>resumen neonatal</value>
+  </data>
+  <data name="~/InPatient/NeonatalNotes.aspx" xml:space="preserve">
+    <value>notas neonatales</value>
+  </data>
+  <data name="~/InPatient/PatientICDSearch.aspx" xml:space="preserve">
+    <value>Búsqueda estado de la CIE</value>
+  </data>
+  <data name="~/InPatient/PendingICDDetails.aspx" xml:space="preserve">
+    <value>A la espera de datos del CIE</value>
+  </data>
+  <data name="~/InPatient/PhysiotherapyNotes.aspx" xml:space="preserve">
+    <value>notas de fisioterapia</value>
+  </data>
+  <data name="~/InPatient/PrintCashReceiptPage.aspx" xml:space="preserve">
+    <value>la recepción por adelantado</value>
+  </data>
+  <data name="~/InPatient/PrintDischargeChkList.aspx" xml:space="preserve">
+    <value>Lista de retención de descarga</value>
+  </data>
+  <data name="~/InPatient/PrintIPAdmissionData.aspx" xml:space="preserve">
+    <value>detalles de admisión de pacientes hospitalizados</value>
+  </data>
+  <data name="~/InPatient/PrintRaksithDischarge.aspx" xml:space="preserve">
+    <value>Resumen de descarga de hojas caso</value>
+  </data>
+  <data name="~/InPatient/PrintReceiptPage.aspx" xml:space="preserve">
+    <value>Recibo de pago</value>
+  </data>
+  <data name="~/InPatient/RakshithDischargeSummary.aspx" xml:space="preserve">
+    <value>Resumen de descarga de hojas caso</value>
+  </data>
+  <data name="~/InPatient/RoomBooking.aspx" xml:space="preserve">
+    <value>Reserva de habitacion</value>
+  </data>
+  <data name="~/InPatient/SurgeryAdvance.aspx" xml:space="preserve">
+    <value>Pagos anticipados</value>
+  </data>
+  <data name="~/InPatient/SurgeryBilling.aspx" xml:space="preserve">
+    <value>Cirugía de facturación</value>
+  </data>
+  <data name="~/InPatient/TPAPayment.aspx" xml:space="preserve">
+    <value>TPA datos del paciente</value>
+  </data>
+  <data name="~/InPatient/TpaPaymentCollection.aspx" xml:space="preserve">
+    <value>cobro TPA</value>
+  </data>
+  <data name="~/Inventory/AddConsumable.aspx" xml:space="preserve">
+    <value>Añadir Consumibles</value>
+  </data>
+  <data name="~/Inventory/AdminStockReport.aspx" xml:space="preserve">
+    <value>Valores informe</value>
+  </data>
+  <data name="~/Inventory/AdminXLStockReport.aspx" xml:space="preserve">
+    <value>Valores informe</value>
+  </data>
+  <data name="~/Inventory/BillingPopUp.aspx" xml:space="preserve">
+    <value>Consumible</value>
+  </data>
+  <data name="~/Inventory/BillSearch.aspx" xml:space="preserve">
+    <value>Cuenta búsqueda</value>
+  </data>
+  <data name="~/Inventory/CentralPurchaseOrder.aspx" xml:space="preserve">
+    <value>Central de orden de compra</value>
+  </data>
+  <data name="~/Inventory/ConsumableQuantity.aspx" xml:space="preserve">
+    <value>cantidad consumible</value>
+  </data>
+  <data name="~/Inventory/DispensingReport.aspx" xml:space="preserve">
+    <value>De la dispensación Informe</value>
+  </data>
+  <data name="~/Inventory/Expirydatedetails.aspx" xml:space="preserve">
+    <value>Fecha de caducidad de la Reportar</value>
+  </data>
+  <data name="~/Inventory/Home.aspx" xml:space="preserve">
+    <value>Portada del inventario</value>
+  </data>
+  <data name="~/Inventory/InPatientSearch.aspx" xml:space="preserve">
+    <value>búsqueda como paciente interno</value>
+  </data>
+  <data name="~/Inventory/Intend.aspx" xml:space="preserve">
+    <value>La intención vista detallada</value>
+  </data>
+  <data name="~/Inventory/INVBulkLoad.aspx" xml:space="preserve">
+    <value>La carga masiva de inventario</value>
+  </data>
+  <data name="~/Inventory/INVBulkUpdate.aspx" xml:space="preserve">
+    <value>actualización de inventario a granel</value>
+  </data>
+  <data name="~/Inventory/InventoryLocation.aspx" xml:space="preserve">
+    <value>Situación de inventario</value>
+  </data>
+  <data name="~/Inventory/InventorySearch.aspx" xml:space="preserve">
+    <value>búsqueda de inventario</value>
+  </data>
+  <data name="~/Inventory/InvIpBilling.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/Inventory/INVKitMaster.aspx" xml:space="preserve">
+    <value>kit Definición</value>
+  </data>
+  <data name="~/Inventory/InvOpBilling.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/Inventory/INVRefundvoucher.aspx" xml:space="preserve">
+    <value>Inventario bono de reembolso</value>
+  </data>
+  <data name="~/Inventory/IssueStock.aspx" xml:space="preserve">
+    <value>de la cuestión</value>
+  </data>
+  <data name="~/Inventory/MedicineWiseReport.aspx" xml:space="preserve">
+    <value>Producto Wise Informe</value>
+  </data>
+  <data name="~/Inventory/NilStockReport.aspx" xml:space="preserve">
+    <value>Nil informe de existencias</value>
+  </data>
+  <data name="~/Inventory/NonMovingProductsReport.aspx" xml:space="preserve">
+    <value>Que no se mueve informe de productos</value>
+  </data>
+  <data name="~/Inventory/PatientList.aspx" xml:space="preserve">
+    <value>Lista de pacientes</value>
+  </data>
+  <data name="~/Inventory/PopUpProductUpdate.aspx" xml:space="preserve">
+    <value>Lista de productos</value>
+  </data>
+  <data name="~/Inventory/PrintAdminStockReport.aspx" xml:space="preserve">
+    <value>Informe de la</value>
+  </data>
+  <data name="~/Inventory/PrintBill.aspx" xml:space="preserve">
+    <value>Cuenta Imprimir</value>
+  </data>
+  <data name="~/Inventory/PrintDispensingReport.aspx" xml:space="preserve">
+    <value>registros de dispensación</value>
+  </data>
+  <data name="~/Inventory/PrintExpirydatedetails.aspx" xml:space="preserve">
+    <value>detalles para vencimiento</value>
+  </data>
+  <data name="~/Inventory/PrintPurchaseOrderReport.aspx" xml:space="preserve">
+    <value>informe de la orden de compra</value>
+  </data>
+  <data name="~/Inventory/PrintSalesReport.aspx" xml:space="preserve">
+    <value>Reporte de ventas</value>
+  </data>
+  <data name="~/Inventory/PrintSalesTaxReport.aspx" xml:space="preserve">
+    <value>informe de impuesto sobre las ventas</value>
+  </data>
+  <data name="~/Inventory/PrintStockReport.aspx" xml:space="preserve">
+    <value>valores informe</value>
+  </data>
+  <data name="~/Inventory/ProductBulkLoad.aspx" xml:space="preserve">
+    <value>carga a granel del producto</value>
+  </data>
+  <data name="~/Inventory/ProductCategories.aspx" xml:space="preserve">
+    <value>Categorías de Producto</value>
+  </data>
+  <data name="~/Inventory/ProductLegend.aspx" xml:space="preserve">
+    <value>La leyenda del producto</value>
+  </data>
+  <data name="~/Inventory/ProductLegendDetail.aspx" xml:space="preserve">
+    <value>Stock informe</value>
+  </data>
+  <data name="~/Inventory/Products.aspx" xml:space="preserve">
+    <value>productos</value>
+  </data>
+  <data name="~/Inventory/ProductsList.aspx" xml:space="preserve">
+    <value>Lista de productos</value>
+  </data>
+  <data name="~/Inventory/ProductSupplierRateMapping.aspx" xml:space="preserve">
+    <value>cita Maestro</value>
+  </data>
+  <data name="~/Inventory/ProductType.aspx" xml:space="preserve">
+    <value>Manejo de tipos de producto</value>
+  </data>
+  <data name="~/Inventory/ProductUpdate.aspx" xml:space="preserve">
+    <value>Actualización del producto</value>
+  </data>
+  <data name="~/Inventory/ProjectionList.aspx" xml:space="preserve">
+    <value>lista de proyección</value>
+  </data>
+  <data name="~/Inventory/ProjectionListViewDetail.aspx" xml:space="preserve">
+    <value>Projectionlist vista detallada</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrder.aspx" xml:space="preserve">
+    <value>Orden de compra</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrderReport.aspx" xml:space="preserve">
+    <value>compra de Informe</value>
+  </data>
+  <data name="~/Inventory/PurchaseOrderRequest.aspx" xml:space="preserve">
+    <value>Solicitud PO</value>
+  </data>
+  <data name="~/Inventory/PurchaseTaxReports.aspx" xml:space="preserve">
+    <value>compra de Informe</value>
+  </data>
+  <data name="~/Inventory/QuickBilling.aspx" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="~/Inventory/QuickStockReceived.aspx" xml:space="preserve">
+    <value>valores rápida recibir</value>
+  </data>
+  <data name="~/Inventory/RaiseIntend.aspx" xml:space="preserve">
+    <value>elevar sangría</value>
+  </data>
+  <data name="~/Inventory/ReceiptSearch.aspx" xml:space="preserve">
+    <value>Los recibos de búsqueda</value>
+  </data>
+  <data name="~/Inventory/ReceiveStock.aspx" xml:space="preserve">
+    <value>recibir acciones</value>
+  </data>
+  <data name="~/Inventory/RefundSearch.aspx" xml:space="preserve">
+    <value>Búsqueda restitución</value>
+  </data>
+  <data name="~/Inventory/Reorderlevel.aspx" xml:space="preserve">
+    <value>Reordenar nivel de informe</value>
+  </data>
+  <data name="~/Inventory/SalesReport.aspx" xml:space="preserve">
+    <value>Reporte de ventas</value>
+  </data>
+  <data name="~/Inventory/SalesTaxReport.aspx" xml:space="preserve">
+    <value>informe de impuesto sobre las ventas</value>
+  </data>
+  <data name="~/Inventory/scheduleDrugReport.aspx" xml:space="preserve">
+    <value>Planificación de informe de Drogas</value>
+  </data>
+  <data name="~/Inventory/StockDamage.aspx" xml:space="preserve">
+    <value>valores daños</value>
+  </data>
+  <data name="~/Inventory/StockDetails.aspx" xml:space="preserve">
+    <value>información del archivo</value>
+  </data>
+  <data name="~/Inventory/StockExpired.aspx" xml:space="preserve">
+    <value>Stock caducado</value>
+  </data>
+  <data name="~/Inventory/StockInHandUpdate.aspx" xml:space="preserve">
+    <value>Reordenar nivel</value>
+  </data>
+  <data name="~/Inventory/StockIssued.aspx" xml:space="preserve">
+    <value>tema de la</value>
+  </data>
+  <data name="~/Inventory/StockIssuedReport.aspx" xml:space="preserve">
+    <value>Informe de la Emisión</value>
+  </data>
+  <data name="~/Inventory/StockReport.aspx" xml:space="preserve">
+    <value>valores informe</value>
+  </data>
+  <data name="~/Inventory/StockReturn.aspx" xml:space="preserve">
+    <value>Las acciones de retorno</value>
+  </data>
+  <data name="~/Inventory/StockSummary.aspx" xml:space="preserve">
+    <value>Resumen de la</value>
+  </data>
+  <data name="~/Inventory/StockUsage.aspx" xml:space="preserve">
+    <value>valores uso</value>
+  </data>
+  <data name="~/Inventory/SupplierAnalysisReport.aspx" xml:space="preserve">
+    <value>Informe de análisis de proveedores</value>
+  </data>
+  <data name="~/Inventory/SupplierAnalysisReportDetail.aspx" xml:space="preserve">
+    <value>análisis de productos del proveedor</value>
+  </data>
+  <data name="~/Inventory/SupplierList.aspx" xml:space="preserve">
+    <value>Lista de productos</value>
+  </data>
+  <data name="~/Inventory/Suppliers.aspx" xml:space="preserve">
+    <value>proveedores Maestro</value>
+  </data>
+  <data name="~/Inventory/UpdateStockInHand.aspx" xml:space="preserve">
+    <value>actualización de la</value>
+  </data>
+  <data name="~/Inventory/UpdateStockReceived.aspx" xml:space="preserve">
+    <value>valores recibido la actualización</value>
+  </data>
+  <data name="~/Inventory/UserStockReturn.aspx" xml:space="preserve">
+    <value>Devolución de stock</value>
+  </data>
+  <data name="~/Inventory/ViewBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Inventory/ViewIntendDetail.aspx" xml:space="preserve">
+    <value>Guión - Vista detallada</value>
+  </data>
+  <data name="~/Inventory/ViewInvReceipt.aspx" xml:space="preserve">
+    <value>Ver los recibos</value>
+  </data>
+  <data name="~/Inventory/ViewIssuedIntend.aspx" xml:space="preserve">
+    <value>acciones emitidas</value>
+  </data>
+  <data name="~/Inventory/ViewPurchaseOrder.aspx" xml:space="preserve">
+    <value>Orden de compra</value>
+  </data>
+  <data name="~/Inventory/ViewStockDamage.aspx" xml:space="preserve">
+    <value>Stock daños</value>
+  </data>
+  <data name="~/Inventory/ViewStockExpired.aspx" xml:space="preserve">
+    <value>valores caducado</value>
+  </data>
+  <data name="~/Inventory/ViewStockIssued.aspx" xml:space="preserve">
+    <value>acciones emitidas</value>
+  </data>
+  <data name="~/Inventory/ViewStockNonUsage.aspx" xml:space="preserve">
+    <value>valores uso</value>
+  </data>
+  <data name="~/Inventory/ViewStockReceived.aspx" xml:space="preserve">
+    <value>valores recibido</value>
+  </data>
+  <data name="~/Inventory/ViewStockReturn.aspx" xml:space="preserve">
+    <value>Devolución de stock</value>
+  </data>
+  <data name="~/Inventory/ViewStockUsage.aspx" xml:space="preserve">
+    <value>valores uso</value>
+  </data>
+  <data name="~/Investigation/ImageAccess.aspx" xml:space="preserve">
+    <value>acceso imagen</value>
+  </data>
+  <data name="~/Investigation/Investigation.aspx" xml:space="preserve">
+    <value>Investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationApprovel.aspx" xml:space="preserve">
+    <value>Captura de investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationCapture.aspx" xml:space="preserve">
+    <value>Captura de investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationDisplay.aspx" xml:space="preserve">
+    <value>Patologia clinica</value>
+  </data>
+  <data name="~/Investigation/InvestigationProfile.aspx" xml:space="preserve">
+    <value>orden investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationReport.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationResultsCapture.aspx" xml:space="preserve">
+    <value>Resultados de investigación de captura</value>
+  </data>
+  <data name="~/Investigation/InvReports.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Investigation/InvReportsForApproval.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Investigation/InvReportsForDept.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Investigation/MethodKitCapture.aspx" xml:space="preserve">
+    <value>Método, y kit de captura de instrumento</value>
+  </data>
+  <data name="~/Investigation/PopupReport.aspx" xml:space="preserve">
+    <value>administrador informes</value>
+  </data>
+  <data name="~/Investigation/PrintLabWorkList.aspx" xml:space="preserve">
+    <value>Imprimir la lista de trabajo de laboratorio</value>
+  </data>
+  <data name="~/Investigation/PrintWorkListFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Imprimir lista de trabajo de visita a visita</value>
+  </data>
+  <data name="~/Investigation/RadiologyReport.aspx" xml:space="preserve">
+    <value>informe radiológico</value>
+  </data>
+  <data name="~/Investigation/ViewInvestigationReport.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Investigation/WorkListFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Lista de trabajar a partir de una visita a otra</value>
+  </data>
+  <data name="~/Invoice/InvoiceMaster.aspx" xml:space="preserve">
+    <value>Maestro Client</value>
+  </data>
+  <data name="~/Lab/DeptSamplesCollection.aspx" xml:space="preserve">
+    <value>Recibe Muestra</value>
+  </data>
+  <data name="~/Lab/EditInvestigation.aspx" xml:space="preserve">
+    <value>Resultados de investigación de captura</value>
+  </data>
+  <data name="~/Lab/Home.aspx" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="~/Lab/homecollection.aspx" xml:space="preserve">
+    <value>Citas / reservas</value>
+  </data>
+  <data name="~/Lab/InvestigationSample.aspx" xml:space="preserve">
+    <value>recogida de muestras de Investigación</value>
+  </data>
+  <data name="~/Lab/InvestigationSampleCollection.aspx" xml:space="preserve">
+    <value>recogida de muestras de Investigación</value>
+  </data>
+  <data name="~/Lab/IPInvSampleCollection.aspx" xml:space="preserve">
+    <value>Recogida de muestras de Investigación</value>
+  </data>
+  <data name="~/Lab/ipPerformInvestigation.aspx" xml:space="preserve">
+    <value>Resultados de investigación de captura</value>
+  </data>
+  <data name="~/Lab/LabRole.aspx" xml:space="preserve">
+    <value>página de inicio Técnico</value>
+  </data>
+  <data name="~/Lab/PatientSearch.aspx" xml:space="preserve">
+    <value>de búsqueda de pacientes</value>
+  </data>
+  <data name="~/Lab/PendingSampleCollection.aspx" xml:space="preserve">
+    <value>Ejemplo de búsqueda</value>
+  </data>
+  <data name="~/Lab/Printworkorder.aspx" xml:space="preserve">
+    <value>Impresión de órdenes de trabajo</value>
+  </data>
+  <data name="~/Lab/PrintWorkOrderFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Impresión de órdenes de trabajo de visita a visita</value>
+  </data>
+  <data name="~/Lab/RadiologyHome.aspx" xml:space="preserve">
+    <value>Home Page técnico de la radiología</value>
+  </data>
+  <data name="~/Lab/TransferSampleCollection.aspx" xml:space="preserve">
+    <value>Recogida de muestras de Transferencia</value>
+  </data>
+  <data name="~/Lab/WorkOrder.aspx" xml:space="preserve">
+    <value>Orden de trabajo</value>
+  </data>
+  <data name="~/Lab/WorkOrderFromVisitToVisit.aspx" xml:space="preserve">
+    <value>Para trabajar de visita a visita</value>
+  </data>
+  <data name="~/Nurse/Home.aspx" xml:space="preserve">
+    <value>página principal de la enfermera</value>
+  </data>
+  <data name="~/Nurse/Immunization.aspx" xml:space="preserve">
+    <value>Inmunización</value>
+  </data>
+  <data name="~/Nurse/NurseAdvice.aspx" xml:space="preserve">
+    <value>fármacos administrados</value>
+  </data>
+  <data name="~/Nurse/PatientBMI.aspx" xml:space="preserve">
+    <value>índice de masa corporal del paciente</value>
+  </data>
+  <data name="~/Nurse/PatientSearch.aspx" xml:space="preserve">
+    <value>de búsqueda de pacientes</value>
+  </data>
+  <data name="~/Nurse/PatientVitals.aspx" xml:space="preserve">
+    <value>los signos vitales del paciente</value>
+  </data>
+  <data name="~/Nurse/PrintPatientBMI.aspx" xml:space="preserve">
+    <value>Imprimir índice de masa corporal del paciente</value>
+  </data>
+  <data name="~/Patient/Patient.aspx" xml:space="preserve">
+    <value>* + * + Attune paciente a casa</value>
+  </data>
+  <data name="~/Patient/PatientDetails.aspx" xml:space="preserve">
+    <value>detalles del paciente</value>
+  </data>
+  <data name="~/Patient/PatientdetailsUpload.aspx" xml:space="preserve">
+    <value>Detalles del paciente Suba</value>
+  </data>
+  <data name="~/Patient/PatientEMRPackage.aspx" xml:space="preserve">
+    <value>EMR paciente</value>
+  </data>
+  <data name="~/Patient/PatientExaminationPackage.aspx" xml:space="preserve">
+    <value>paquete Exmination</value>
+  </data>
+  <data name="~/Patient/PatientHistoryPackage.aspx" xml:space="preserve">
+    <value>paquete de la historia</value>
+  </data>
+  <data name="~/Patient/PatientRecommendation.aspx" xml:space="preserve">
+    <value>recomendación del paciente</value>
+  </data>
+  <data name="~/Patient/PatientsCurrDateVist.aspx" xml:space="preserve">
+    <value>visitas de pacientes de hoy</value>
+  </data>
+  <data name="~/Patient/PendingRecommendation.aspx" xml:space="preserve">
+    <value>A la espera de la recomendación</value>
+  </data>
+  <data name="~/Patient/PrintEMRPackages.aspx" xml:space="preserve">
+    <value>los detalles del paquete de pacientes</value>
+  </data>
+  <data name="~/Patient/PrintExamination.aspx" xml:space="preserve">
+    <value>Detalles del examen del paciente</value>
+  </data>
+  <data name="~/Patient/PrintHistory.aspx" xml:space="preserve">
+    <value>detalles del historial del paciente</value>
+  </data>
+  <data name="~/Patient/PrintRecommendation.aspx" xml:space="preserve">
+    <value>recomendación Imprimir</value>
+  </data>
+  <data name="~/Patient/ReceiptRefundtoPatient.aspx" xml:space="preserve">
+    <value>El reembolso de los pacientes</value>
+  </data>
+  <data name="~/Patient/RefundtoPatient.aspx" xml:space="preserve">
+    <value>El reembolso o Cancelar</value>
+  </data>
+  <data name="~/PatientAccess/Home.aspx" xml:space="preserve">
+    <value>página de inicio</value>
+  </data>
+  <data name="~/PatientAccess/PatientAccountInfo.aspx" xml:space="preserve">
+    <value>Información de la cuenta</value>
+  </data>
+  <data name="~/PatientAccess/PatientDetails.aspx" xml:space="preserve">
+    <value>detalles del paciente</value>
+  </data>
+  <data name="~/PatientAccountInfo.aspx" xml:space="preserve">
+    <value>Información de la cuenta</value>
+  </data>
+  <data name="~/Phlebotomist/Home.aspx" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="~/Physician/AddDrugs.aspx" xml:space="preserve">
+    <value>Añadir drogas a paciente</value>
+  </data>
+  <data name="~/Physician/CaseSheet.aspx" xml:space="preserve">
+    <value>hoja caso</value>
+  </data>
+  <data name="~/Physician/CaseSheetPrintView.aspx" xml:space="preserve">
+    <value>Imprimir la Hoja de caso</value>
+  </data>
+  <data name="~/Physician/Diagnose.aspx" xml:space="preserve">
+    <value>la casa del médico</value>
+  </data>
+  <data name="~/Physician/DischargeSummary.aspx" xml:space="preserve">
+    <value>Resumen de alta</value>
+  </data>
+  <data name="~/Physician/DischargeSummaryCaseSheet.aspx" xml:space="preserve">
+    <value>Resumen de descarga de hojas caso</value>
+  </data>
+  <data name="~/Physician/DisplayPatientComplaint.aspx" xml:space="preserve">
+    <value>Seleccione queja</value>
+  </data>
+  <data name="~/Physician/Home.aspx" xml:space="preserve">
+    <value>Página de inicio médico</value>
+  </data>
+  <data name="~/Physician/InvestigationReport.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Physician/IPCaseRecord.aspx" xml:space="preserve">
+    <value>Hoja caso</value>
+  </data>
+  <data name="~/Physician/IPCaseRecordSheet.aspx" xml:space="preserve">
+    <value>Hoja caso</value>
+  </data>
+  <data name="~/Physician/IPInvestigationProfile.aspx" xml:space="preserve">
+    <value>orden investigación</value>
+  </data>
+  <data name="~/Physician/OperationNotes.aspx" xml:space="preserve">
+    <value>notas de la operación</value>
+  </data>
+  <data name="~/Physician/OperationNotesCaseSheet.aspx" xml:space="preserve">
+    <value>Notas de la operación de hoja de caso</value>
+  </data>
+  <data name="~/Physician/PatientDetails.aspx" xml:space="preserve">
+    <value>la casa del médico</value>
+  </data>
+  <data name="~/Physician/PatientDiagnose.aspx" xml:space="preserve">
+    <value>el diagnóstico del paciente</value>
+  </data>
+  <data name="~/Physician/PhysicianSchedule.aspx" xml:space="preserve">
+    <value>el horario del médico</value>
+  </data>
+  <data name="~/Physician/QuickDiagnosis.aspx" xml:space="preserve">
+    <value>Diagnosticar</value>
+  </data>
+  <data name="~/Physician/UnfoundDiagnosis.aspx" xml:space="preserve">
+    <value>Diagnóstico</value>
+  </data>
+  <data name="~/Printing/ConsolidateReport.aspx" xml:space="preserve">
+    <value>cuenta Imprimir</value>
+  </data>
+  <data name="~/Printing/DialysisCaseSheetPrint.aspx" xml:space="preserve">
+    <value>Hoja caso de diálisis</value>
+  </data>
+  <data name="~/Printing/PrescriptionPrinting.aspx" xml:space="preserve">
+    <value>Detalles de la visita del paciente</value>
+  </data>
+  <data name="~/Printing/SSRSPrinting.aspx" xml:space="preserve">
+    <value>Imprimir etiqueta</value>
+  </data>
+  <data name="~/Psychologist/Counselling.aspx" xml:space="preserve">
+    <value>El asesoramiento casesheet</value>
+  </data>
+  <data name="~/Psychologist/Home.aspx" xml:space="preserve">
+    <value>la página de inicio de asesoramiento</value>
+  </data>
+  <data name="~/Psychologist/Psychiatry.aspx" xml:space="preserve">
+    <value>casesheet psiquiatría</value>
+  </data>
+  <data name="~/Psychologist/ViewCounsellingDetails.aspx" xml:space="preserve">
+    <value>Ver detalles de asesoramiento</value>
+  </data>
+  <data name="~/Reception/Adddiagonosis.aspx" xml:space="preserve">
+    <value>Recepción</value>
+  </data>
+  <data name="~/Reception/AdditionalInformation.aspx" xml:space="preserve">
+    <value>Información Adicional</value>
+  </data>
+  <data name="~/Reception/AddressBook.aspx" xml:space="preserve">
+    <value>Directorio</value>
+  </data>
+  <data name="~/Reception/BillGeneration.aspx" xml:space="preserve">
+    <value>cuenta impresión</value>
+  </data>
+  <data name="~/Reception/BillSearch.aspx" xml:space="preserve">
+    <value>cuenta búsqueda</value>
+  </data>
+  <data name="~/Reception/BillSettlementIndividual.aspx" xml:space="preserve">
+    <value>Cierre de caja de recepción</value>
+  </data>
+  <data name="~/Reception/ChangePriority.aspx" xml:space="preserve">
+    <value>Cambiar prioridad</value>
+  </data>
+  <data name="~/Reception/CollectDeposit.aspx" xml:space="preserve">
+    <value>recoger depósito</value>
+  </data>
+  <data name="~/Reception/CommunicablediseasesMaster.aspx" xml:space="preserve">
+    <value>Enfermedades contagiosas</value>
+  </data>
+  <data name="~/Reception/CustomizedBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Reception/Dispatch.aspx" xml:space="preserve">
+    <value>datos de expedición</value>
+  </data>
+  <data name="~/Reception/DueCollection.aspx" xml:space="preserve">
+    <value>debido colección</value>
+  </data>
+  <data name="~/Reception/HISAdmission.aspx" xml:space="preserve">
+    <value>Recepción</value>
+  </data>
+  <data name="~/Reception/Home.aspx" xml:space="preserve">
+    <value>Página de inicio recepcionista</value>
+  </data>
+  <data name="~/Reception/InPatientRegistration.aspx" xml:space="preserve">
+    <value>Detalles de admisión de pacientes hospitalizados</value>
+  </data>
+  <data name="~/Reception/InPatientSearch.aspx" xml:space="preserve">
+    <value>Búsqueda de pacientes hospitalizados</value>
+  </data>
+  <data name="~/Reception/InvestigationReport.aspx" xml:space="preserve">
+    <value>Reporte de investigación</value>
+  </data>
+  <data name="~/Reception/InvestigationSearch.aspx" xml:space="preserve">
+    <value>Búsqueda investigación</value>
+  </data>
+  <data name="~/Reception/LabPatientRegistration.aspx" xml:space="preserve">
+    <value>registro de Pacientes</value>
+  </data>
+  <data name="~/Reception/LabPatientSearch.aspx" xml:space="preserve">
+    <value>de búsqueda de pacientes</value>
+  </data>
+  <data name="~/Reception/LabReceptionHome.aspx" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="~/Reception/MergeForm.aspx" xml:space="preserve">
+    <value>combinar Forma</value>
+  </data>
+  <data name="~/Reception/MsgForm.aspx" xml:space="preserve">
+    <value>Cuidado de la salud</value>
+  </data>
+  <data name="~/Reception/PatientBilling.aspx" xml:space="preserve">
+    <value>pagos de los pacientes a cabo</value>
+  </data>
+  <data name="~/Reception/PatientOldNotes.aspx" xml:space="preserve">
+    <value>las notas más antiguas del paciente</value>
+  </data>
+  <data name="~/Reception/PatientRegistration.aspx" xml:space="preserve">
+    <value>registro de Pacientes</value>
+  </data>
+  <data name="~/Reception/PatientSampleRegistration.aspx" xml:space="preserve">
+    <value>registro de muestras</value>
+  </data>
+  <data name="~/Reception/PatientSearch.aspx" xml:space="preserve">
+    <value>de búsqueda de pacientes</value>
+  </data>
+  <data name="~/Reception/PatientTrackingDetails.aspx" xml:space="preserve">
+    <value>Seguimiento de pacientes detalles</value>
+  </data>
+  <data name="~/Reception/PatientVisit.aspx" xml:space="preserve">
+    <value>visita del paciente</value>
+  </data>
+  <data name="~/Reception/PrintBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Reception/PrintPage.aspx" xml:space="preserve">
+    <value>Detalles de la visita del paciente</value>
+  </data>
+  <data name="~/Reception/PrintPatientRegistration.aspx" xml:space="preserve">
+    <value>Imprimir los datos de registro de pacientes</value>
+  </data>
+  <data name="~/Reception/RefedInvestigation.aspx" xml:space="preserve">
+    <value>investigaciones</value>
+  </data>
+  <data name="~/Reception/RefPhyHome.aspx" xml:space="preserve">
+    <value>página de inicio</value>
+  </data>
+  <data name="~/Reception/RefPhyPatientSearch.aspx" xml:space="preserve">
+    <value>de búsqueda de pacientes</value>
+  </data>
+  <data name="~/Reception/RelativeSchedules.aspx" xml:space="preserve">
+    <value>Programar</value>
+  </data>
+  <data name="~/Reception/ReportsDisplay.aspx" xml:space="preserve">
+    <value>Informes de visualización</value>
+  </data>
+  <data name="~/Reception/SampleBillPrint.aspx" xml:space="preserve">
+    <value>Cuenta impresión</value>
+  </data>
+  <data name="~/Reception/SaveLabRefOrgDetails.aspx" xml:space="preserve">
+    <value>Administrar detalles de la organización de referencia</value>
+  </data>
+  <data name="~/Reception/SaveLabRefPhysicianDetails.aspx" xml:space="preserve">
+    <value>Refiriéndose gestionar datos médicos</value>
+  </data>
+  <data name="~/Reception/Schedule.aspx" xml:space="preserve">
+    <value>Programar</value>
+  </data>
+  <data name="~/Reception/ShowPatientRecommendation.aspx" xml:space="preserve">
+    <value>recomendación del paciente</value>
+  </data>
+  <data name="~/Reception/TrustedSchedules.aspx" xml:space="preserve">
+    <value>horarios de confianza</value>
+  </data>
+  <data name="~/Reception/UpdatePatientDetails.aspx" xml:space="preserve">
+    <value>detalles del paciente</value>
+  </data>
+  <data name="~/Reception/ViewBill.aspx" xml:space="preserve">
+    <value>proyecto de ley de impresión</value>
+  </data>
+  <data name="~/Reception/ViewPrintPage.aspx" xml:space="preserve">
+    <value>Detalles de la visita del paciente</value>
+  </data>
+  <data name="~/Reception/ViewRecommendation.aspx" xml:space="preserve">
+    <value>recomendación del paciente</value>
+  </data>
+  <data name="~/Reception/VisitDetails.aspx" xml:space="preserve">
+    <value>Detalles de la visita del paciente</value>
+  </data>
+  <data name="~/Referrals/EditReferrals.aspx" xml:space="preserve">
+    <value>investigación referida</value>
+  </data>
+  <data name="~/Referrals/InBoundReferral.aspx" xml:space="preserve">
+    <value>En referencia cota</value>
+  </data>
+  <data name="~/Referrals/OutBoundReferral.aspx" xml:space="preserve">
+    <value>Fuera de referencia límite</value>
+  </data>
+  <data name="~/Referrals/ReferedInvestigation.aspx" xml:space="preserve">
+    <value>investigación referida</value>
+  </data>
+  <data name="~/Referrals/ReferralAndMedicalCertificate.aspx" xml:space="preserve">
+    <value>Remisión y certificado médico</value>
+  </data>
+  <data name="~/Referrals/ReferralLetter.aspx" xml:space="preserve">
+    <value>Carta de referencia</value>
+  </data>
+  <data name="~/Referrals/RejectReferral.aspx" xml:space="preserve">
+    <value>Rechazar la investigación de referencia</value>
+  </data>
+  <data name="~/Reminder/ReminderDisplay.aspx" xml:space="preserve">
+    <value>Recordatorio</value>
+  </data>
+  <data name="~/Reminder/ReminderPage.aspx" xml:space="preserve">
+    <value>Recordatorio</value>
+  </data>
+  <data name="~/Reports/AdmCancelledReport.aspx" xml:space="preserve">
+    <value>Admisión Informe Cancelado</value>
+  </data>
+  <data name="~/Reports/AdvanceClientPatientDetails.aspx" xml:space="preserve">
+    <value>Avance Detalles del Cliente</value>
+  </data>
+  <data name="~/Reports/AdvanceCollectionRefundDetails.aspx" xml:space="preserve">
+    <value>Detalles avance Colección</value>
+  </data>
+  <data name="~/Reports/BillWiseDeptCollectionReport.aspx" xml:space="preserve">
+    <value>Paciente sabia Bill Wise Colección de informes</value>
+  </data>
+  <data name="~/Reports/BillWiseDeptWiseCollectionSummary.aspx" xml:space="preserve">
+    <value>Billwise Colección de informes Deptwise</value>
+  </data>
+  <data name="~/Reports/BillWiseReportOPIP.aspx" xml:space="preserve">
+    <value>Bill Wise Colección de informes: OP / IP</value>
+  </data>
+  <data name="~/Reports/BirthStatisticsReport.aspx" xml:space="preserve">
+    <value>Informe estadístico de nacimiento</value>
+  </data>
+  <data name="~/Reports/CCStmt.aspx" xml:space="preserve">
+    <value>Informe modo de pago</value>
+  </data>
+  <data name="~/Reports/CollectionReportLIMS.aspx" xml:space="preserve">
+    <value>colección de informes</value>
+  </data>
+  <data name="~/Reports/CollectionReportOPIP.aspx" xml:space="preserve">
+    <value>Día Wise Colección de informes: OP / IP</value>
+  </data>
+  <data name="~/Reports/CollectionReportOPIPWithFilter.aspx" xml:space="preserve">
+    <value>Colección Informe OPIP Con Filtro</value>
+  </data>
+  <data name="~/Reports/CollectionRptDptWiseOPIP.aspx" xml:space="preserve">
+    <value>Dept Wise Colección de informes: OP / IP</value>
+  </data>
+  <data name="~/Reports/CollectionRptDptWiseOPIPDetails.aspx" xml:space="preserve">
+    <value>Colección Informe Dpto Wise detalles OPIP</value>
+  </data>
+  <data name="~/Reports/CommunicableDiseaseReport.aspx" xml:space="preserve">
+    <value>Enfermedades transmisibles de informe</value>
+  </data>
+  <data name="~/Reports/DayWiseAdmissionDischargeRpt.aspx" xml:space="preserve">
+    <value>Día Wise Informe Admisión de descarga</value>
+  </data>
+  <data name="~/Reports/DayWiseBillReport.aspx" xml:space="preserve">
+    <value>Día Cuenta Informe Wise</value>
+  </data>
+  <data name="~/Reports/DayWiseDischargeIPReport.aspx" xml:space="preserve">
+    <value>Día Wise Informe de Alta IP</value>
+  </data>
+  <data name="~/Reports/DeathStatisticsReport.aspx" xml:space="preserve">
+    <value>Informe de Estadísticas de la muerte</value>
+  </data>
+  <data name="~/Reports/DepartmentWiseCollectionReport.aspx" xml:space="preserve">
+    <value>Informe del Departamento de Colección Wise</value>
+  </data>
+  <data name="~/Reports/DischargeAnalysisReport.aspx" xml:space="preserve">
+    <value>Informe de Análisis de la descarga</value>
+  </data>
+  <data name="~/Reports/DiscountReport.aspx" xml:space="preserve">
+    <value>Informe de descuento</value>
+  </data>
+  <data name="~/Reports/DoctorsStatisticsReport.aspx" xml:space="preserve">
+    <value>Los médicos Estadísticas de informe</value>
+  </data>
+  <data name="~/Reports/DuePaidDetailSReport.aspx" xml:space="preserve">
+    <value>Debido A cargo detalles Notificar</value>
+  </data>
+  <data name="~/Reports/DueReport.aspx" xml:space="preserve">
+    <value>Debido y debido Informe de pago</value>
+  </data>
+  <data name="~/Reports/ExpensesReport.aspx" xml:space="preserve">
+    <value>Informe de gastos</value>
+  </data>
+  <data name="~/Reports/GetRoomCollectionIPReport.aspx" xml:space="preserve">
+    <value>Sala de Colección Informe</value>
+  </data>
+  <data name="~/Reports/ICDReports.aspx" xml:space="preserve">
+    <value>informes ICD</value>
+  </data>
+  <data name="~/Reports/ImgStatisticsReport.aspx" xml:space="preserve">
+    <value>Informe estadístico de la imagen</value>
+  </data>
+  <data name="~/Reports/InPatientDueReport.aspx" xml:space="preserve">
+    <value>Informe como paciente interno Debido</value>
+  </data>
+  <data name="~/Reports/InsuranceCorpReport.aspx" xml:space="preserve">
+    <value>Seguros / Memoria Social</value>
+  </data>
+  <data name="~/Reports/IPBilledVsActualReport.aspx" xml:space="preserve">
+    <value>IP facturado vs informe real</value>
+  </data>
+  <data name="~/Reports/IPDischargeAdmissionReport.aspx" xml:space="preserve">
+    <value>Admisión IP y Descarga</value>
+  </data>
+  <data name="~/Reports/LabTestStatisticsReport.aspx" xml:space="preserve">
+    <value>Estadísticas de laboratorio</value>
+  </data>
+  <data name="~/Reports/ListofPatientsReport.aspx" xml:space="preserve">
+    <value>Los pacientes informe de lista</value>
+  </data>
+  <data name="~/Reports/midnitesensexreport.aspx" xml:space="preserve">
+    <value>Informe de la medianoche Sensex</value>
+  </data>
+  <data name="~/Reports/MonthWiseDischargeReport.aspx" xml:space="preserve">
+    <value>MonthWise Informe de Alta</value>
+  </data>
+  <data name="~/Reports/OPIPNewAndRevisit.aspx" xml:space="preserve">
+    <value>OPIP nuevo y volver a visitar</value>
+  </data>
+  <data name="~/Reports/PatientLedgerReport.aspx" xml:space="preserve">
+    <value>Paciente Informe Ledger</value>
+  </data>
+  <data name="~/Reports/PhysicianWiseReport.aspx" xml:space="preserve">
+    <value>Informe médico Wise</value>
+  </data>
+  <data name="~/Reports/PhysicianwiseWardVisitReport.aspx" xml:space="preserve">
+    <value>Médico Wise Ward, el informe de visitas</value>
+  </data>
+  <data name="~/Reports/PhysioReport.aspx" xml:space="preserve">
+    <value>informe de la fisioterapia</value>
+  </data>
+  <data name="~/Reports/ProcedureStatisticsReport.aspx" xml:space="preserve">
+    <value>Informe de Estadísticas Procedimiento</value>
+  </data>
+  <data name="~/Reports/ReportDisplay.aspx" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="~/Reports/TPACORPDisallowedReport.aspx" xml:space="preserve">
+    <value>Reporte de crédito</value>
+  </data>
+  <data name="~/Reports/TPACORPOutstandingReport.aspx" xml:space="preserve">
+    <value>TPA / Informe excepcional CORP</value>
+  </data>
+  <data name="~/Reports/VacantRoomList.aspx" xml:space="preserve">
+    <value>Lista de habitaciones vacantes</value>
+  </data>
+  <data name="~/Reports/ViewReportList.aspx" xml:space="preserve">
+    <value>Informes de visualización</value>
+  </data>
+  <data name="~/Reports/wardoccupancyreport.aspx" xml:space="preserve">
+    <value>Ward, Informe de ocupación</value>
+  </data>
+  <data name="~/ReportsLims/BillWiseDeptCollectionReportLims.aspx" xml:space="preserve">
+    <value>Paciente sabia informe colección Bill sabia</value>
+  </data>
+  <data name="~/ReportsLims/DueReportLims.aspx" xml:space="preserve">
+    <value>Informe de la lista debido</value>
+  </data>
+  <data name="~/SelectRole.aspx" xml:space="preserve">
+    <value>Seleccionar funciones</value>
+  </data>
+  <data name="~/SeniorLab/Home.aspx" xml:space="preserve">
+    <value>página de inicio del técnico de laboratorio de alto nivel</value>
+  </data>
+  <data name="~/Admin/ReportTemplate.aspx" xml:space="preserve">
+    <value>Resultado Plantilla</value>
+  </data>
+  <data name="~/Investigation/InvResultTemplate.aspx" xml:space="preserve">
+    <value>Plantilla Resultado</value>
+  </data>
+  <data name="~/Admin/ReasonMaster.aspx" xml:space="preserve">
+    <value>Razón Master</value>
+  </data>
+  <data name="~/Reception/CreditDebitSummary.aspx" xml:space="preserve">
+    <value>Resumen de débito del crédito</value>
+  </data>
+  <data name="~/Invoice/InvoiceTracker.aspx" xml:space="preserve">
+    <value>Rastreador de factura</value>
+  </data>
+  <data name="~/Lab/InvestigationQueue.aspx" xml:space="preserve">
+    <value>investigación de cola</value>
+  </data>
+  <data name="~/Billing/PatientDueDetails.aspx" xml:space="preserve">
+    <value>Paciente Debido detalles</value>
+  </data>
+  <data name="~/Lab/ReceiveBatch.aspx" xml:space="preserve">
+    <value>Recibe por lotes</value>
+  </data>
+  <data name="~/Billing/ServiceQuotation.aspx" xml:space="preserve">
+    <value>Cotización servicio</value>
+  </data>
+  <data name="~/Admin/RateTypeMaster.aspx" xml:space="preserve">
+    <value>Tipo de cambio Master</value>
+  </data>
+  <data name="~/Investigation/ReportDispatch.aspx" xml:space="preserve">
+    <value>Envío de informe</value>
+  </data>
+  <data name="~/Investigation/InvestigationStatusReport.aspx" xml:space="preserve">
+    <value>Informe de estado de investigación</value>
+  </data>
+  <data name="~/Investigation/AddInvestigation.aspx" xml:space="preserve">
+    <value>Agregar Investigación</value>
+  </data>
+  <data name="~/Investigation/MethodKitPreview.aspx" xml:space="preserve">
+    <value>Vista previa del Kit de método</value>
+  </data>
+  <data name="~/Reports/CancelledBillReport.aspx" xml:space="preserve">
+    <value>Informe factura cancelada</value>
+  </data>
+  <data name="~/Investigation/PatternMappingForInvestigation.aspx" xml:space="preserve">
+    <value>Mapeo de patrón para la Investigación</value>
+  </data>
+  <data name="~/Investigation/InvestigationQuickApprovel.aspx" xml:space="preserve">
+    <value>Investigación rápida aprobación</value>
+  </data>
+  <data name="~/Admin/AddOrChangeBarcodePatterns.aspx" xml:space="preserve">
+    <value>Añadir o cambiar los patrones de código de barras</value>
+  </data>
+  <data name="~/ReportsLims/RefPhysicianSearch.aspx" xml:space="preserve">
+    <value>Refiriéndose Médico Buscar</value>
+  </data>
+  <data name="~/Admin/Analyzer.aspx" xml:space="preserve">
+    <value>Analizador</value>
+  </data>
+  <data name="~/Admin/DeviceIntegrationMapping.aspx" xml:space="preserve">
+    <value>Asignación de integración del dispositivo</value>
+  </data>
+  <data name="~/NewInstanceCreation/NewInstanceCreation.aspx" xml:space="preserve">
+    <value>Nueva creación de instancias</value>
+  </data>
+  <data name="~/Reports/DispatchReportLIMS.aspx" xml:space="preserve">
+    <value>Informe de envío</value>
+  </data>
+  <data name="~/Lab/Pendinglist.aspx" xml:space="preserve">
+    <value>Lista de pendientes</value>
+  </data>
+  <data name="~/Investigation/SequenceArrangement.aspx" xml:space="preserve">
+    <value>disposición de la secuencia</value>
+  </data>
+  <data name="~/Investigation/BatchwiseEnterresult.aspx" xml:space="preserve">
+    <value>Discontinua Validar Resultado</value>
+  </data>
+  <data name="~/Investigation/BatchwiseEnterresult.aspx?Action=Validate" xml:space="preserve">
+    <value>Discontinua Validar Resultado</value>
+  </data>
+  <data name="~/Reports/TestStatisticsReport.aspx" xml:space="preserve">
+    <value>Informe estadístico de prueba</value>
+  </data>
+  <data name="~/ReportsLims/DiscountReportLims.aspx" xml:space="preserve">
+    <value>Informe de descuento Lims</value>
+  </data>
+  <data name="~/Reports/TestWiseReportForLIMS.aspx" xml:space="preserve">
+    <value>Informe de TestWise para LIMS</value>
+  </data>
+  <data name="~/Reports/TATReport.aspx" xml:space="preserve">
+    <value>Informe de tiempo de vuelta</value>
+  </data>
+  <data name="~/Reports/TATAnalysisReport.aspx" xml:space="preserve">
+    <value>Informe de Análisis de tiempo de vuelta</value>
+  </data>
+  <data name="~/Reports/LabStatisticsReportLims.aspx" xml:space="preserve">
+    <value>Informe de estadísticas de laboratorio</value>
+  </data>
+  <data name="~/Reports/LabTestStatisticsReportLims.aspx" xml:space="preserve">
+    <value>Informe de estadísticas de la prueba de laboratorio</value>
+  </data>
+  <data name="~/ReportsLims/LabStatisticsReportLims.aspx" xml:space="preserve">
+    <value>reporte de estadísticas de laboratorio lims</value>
+  </data>
+  <data name="~/Billing/WortixLabQuickBilling.aspx" xml:space="preserve">
+    <value>Wortix laboratorio facturación rápida</value>
+  </data>
+  <data name="~/Investigation/BatchWiseWorkList.aspx" xml:space="preserve">
+    <value>Wise Lista de trabajos por lotes</value>
+  </data>
+  <data name="~/Billing/ClientBilling.aspx" xml:space="preserve">
+    <value>Facturación de cliente</value>
+  </data>
+  <data name="~/Admin/ManagePackages.aspx" xml:space="preserve">
+    <value>Administrar paquetes</value>
+  </data>
+  <data name="~/Invoice/GenerateInvoice.aspx" xml:space="preserve">
+    <value>Generar factura</value>
+  </data>
+  <data name="~/Lab/BatchSheet.aspx" xml:space="preserve">
+    <value>Hoja de lotes</value>
+  </data>
+   <data name="~/ReportsLims/LabTestStatisticsReportLims.aspx" xml:space="preserve">
+    <value>Informe de estadísticas de la prueba de laboratorio lims</value>
+  </data>
+  <data name="~/Reports/InvestigationValuesReport.aspx" xml:space="preserve">
+    <value>Investigación Informe de valores</value>
+  </data>
+</root>

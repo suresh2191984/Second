@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Corporate_Assistantphysician_aspx_01" xml:space="preserve">
+    <value>There are</value>
+  </data>
+  <data name="Corporate_Assistantphysician_aspx_02" xml:space="preserve">
+    <value>Health Packages remaining</value>
+  </data>
+  <data name="Corporate_ComplaintDes_ascx_01" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Corporate_Controls_CorporatePatientSearch_ascx_01" xml:space="preserve">
+    <value>No Record Found</value>
+  </data>
+  <data name="Corporate_Controls_CorporatePatientSearch_InvestigationList" xml:space="preserve">
+    <value>Investigation List</value>
+  </data>
+  <data name="Corporate_Controls_CorporatePatientSearch_ReportingRadiologist" xml:space="preserve">
+    <value>Reporting Radiologist</value>
+  </data>
+  <data name="Corporate_Controls_CorporatePatientSearch_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblname" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblnumber" xml:space="preserve">
+    <value>Employee Number</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblpatientname" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblpatientnumber" xml:space="preserve">
+    <value>Patient Number</value>
+  </data>
+  <data name="Corporate_PrescriptionSearch_ascx_cs_lblresult" xml:space="preserve">
+    <value>No matching records found</value>
+  </data>
+  <data name="Corporate_DisplayPatientComplaint_aspx_01" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Corporate_DisplayPatientComplaint_aspx_02" xml:space="preserve">
+    <value>Previous complaint cannot be deleted</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_07" xml:space="preserve">
+    <value>Drug Name</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_08" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_09" xml:space="preserve">
+    <value>Formulation</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_10" xml:space="preserve">
+    <value>ROA</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_11" xml:space="preserve">
+    <value>DrugFrequency</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_12" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_16" xml:space="preserve">
+    <value>No history of</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_18" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="Corporate_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Corporate_PatientHistoryPackage_aspx_01" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Corporate_PatientHistoryPackage_aspx_02" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Corporate_PatientHistoryPackage_aspx_03" xml:space="preserve">
+    <value>Changes saved successfully.</value>
+  </data>
+  <data name="Corporate_PatientRecommendation_aspx_cs_02" xml:space="preserve">
+    <value>Enter the Value</value>
+  </data>
+  <data name="Corporate_PatientRecommendation_aspx_cs_03" xml:space="preserve">
+    <value>Sucessfully Save</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_01" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_02" xml:space="preserve">
+    <value>BloodGroup:</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_03" xml:space="preserve">
+    <value>Mr.</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_04" xml:space="preserve">
+    <value>Ms.</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_05" xml:space="preserve">
+    <value>Date &amp; Time of Admission</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_06" xml:space="preserve">
+    <value>BACKROUND MEDICAL PROBLEMS</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_12" xml:space="preserve">
+    <value>VISIT DATE</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_13" xml:space="preserve">
+    <value>Deatils History</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_14" xml:space="preserve">
+    <value>ADMISSION VITALS</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_15" xml:space="preserve">
+    <value>GENERAL EXAMINATION</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_16" xml:space="preserve">
+    <value>SYSTEMIC EXAMINATION</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_17" xml:space="preserve">
+    <value>INVESTIGATION ORDERED</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_18" xml:space="preserve">
+    <value>PROVISIONAL DIAGNOSIS</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_19" xml:space="preserve">
+    <value>TREATMENT PLAN</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_20" xml:space="preserve">
+    <value>PRESCRIPTION</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_21" xml:space="preserve">
+    <value>ADVICE</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_22" xml:space="preserve">
+    <value>REVIEW</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_23" xml:space="preserve">
+    <value>No Review Date for this Visit</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_24" xml:space="preserve">
+    <value>Next Review (On/After) :</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_17" xml:space="preserve">
+    <value>No signs of</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_19" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_20" xml:space="preserve">
+    <value>Treatment Name</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_21" xml:space="preserve">
+    <value>Prosthesis</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_22" xml:space="preserve">
+    <value>TreatmentPlan Date</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_24" xml:space="preserve">
+    <value>Man presented with history of</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_25" xml:space="preserve">
+    <value>old Boy presented with history of</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_26" xml:space="preserve">
+    <value>lady presented with history of</value>
+  </data>
+  <data name="Corporate_DischargeCaseSheet_ascx_27" xml:space="preserve">
+    <value>old girl presented with history of</value>
+  </data>
+  <data name="Corporate_IPCaseRecordSheet_aspx_10" xml:space="preserve">
+    <value>Procedure Name</value>
+  </data>
+  <data name="Corporate_IPCaseRecordSheet_aspx_11" xml:space="preserve">
+    <value>No. Of Sitting</value>
+  </data>
+  <data name="Corporate_IPCaseRecordSheet_aspx_12" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_ascx_07" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_01" xml:space="preserve">
+    <value>Event Location</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_02" xml:space="preserve">
+    <value>Event Date</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_03" xml:space="preserve">
+    <value>FIR No</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_04" xml:space="preserve">
+    <value>FIR Date</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_05" xml:space="preserve">
+    <value>Police Station</value>
+  </data>
+  <data name="Corporate_ViewIPCaseSheet_aspx_06" xml:space="preserve">
+    <value>Police Contact</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblGenFemale" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblGenMale" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_lblNumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Particulars" xml:space="preserve">
+    <value>Particulars</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_sno" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="Corporate_ViewPrescriptionSearch_ascx_cs_Totalqty" xml:space="preserve">
+    <value>Total Qty</value>
+  </data>
+  <data name="Corporate_diabetesEMR_aspx_01" xml:space="preserve">
+    <value>There was a problem in page load. Please contact system administrator</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_07" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_08" xml:space="preserve">
+    <value>Man presented with following history. The History's are:</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_09" xml:space="preserve">
+    <value>old Boy presented with following history's are</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_10" xml:space="preserve">
+    <value>lady presented with following history's are</value>
+  </data>
+  <data name="Corporate_ViewConsolidateCaseSheet_aspx_11" xml:space="preserve">
+    <value>old girl presented with following history's are</value>
+  </data>
+    <data name="Corporate_Control_EmployerRegDetail_ascx_01" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_02" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_03" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_04" xml:space="preserve">
+    <value>ExternalName</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_05" xml:space="preserve">
+    <value>ExternalNumber</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_06" xml:space="preserve">
+    <value>DependentsName</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_07" xml:space="preserve">
+    <value>DependentsNumber</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_08" xml:space="preserve">
+    <value>RelationType</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_09" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_10" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_11" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_12" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_13" xml:space="preserve">
+    <value>MakeVisit</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_14" xml:space="preserve">
+    <value>Select_1</value>
+  </data>
+  <data name="Corporate_Control_EmployerRegDetail_ascx_15" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+</root>

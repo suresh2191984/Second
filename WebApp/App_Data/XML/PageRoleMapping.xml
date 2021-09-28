@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PageRoleAccessMapping>
+	<Pages>
+		<Sections>
+			<Activity Name="A">
+				<Desc>Add Misc Item</Desc>
+			</Activity>
+			<Activity Name="B">
+				<Desc>Modify Bill Items</Desc>
+			</Activity>
+			<Activity Name="C">
+				<Desc>Discharge</Desc>
+			</Activity>
+			<Activity Name="D">
+				<Desc>Button</Desc>
+			</Activity>
+			<Activity Name="E">
+				<Desc>Whole Page</Desc>
+			</Activity>
+			<Activity Name="K">
+				<Desc>Knowledge Container</Desc>
+			</Activity>
+			<Activity Name="PC">
+				<Desc>Payment Container</Desc>
+			</Activity>
+			<Activity Name="HC">
+				<Desc>Hide Column</Desc>
+			</Activity>
+			<Activity Name="cntrl">
+				<Desc>Hide control</Desc>
+			</Activity>
+			<Activity Name="ctrl">
+				<Desc>show control</Desc>
+			</Activity>
+			<Activity Name="ItemReason">
+				<Desc>Hide control</Desc>
+			</Activity>
+			<Activity Name="LoadDefaultRegFees">
+				<Desc>show RegFees</Desc>
+			</Activity>
+			<Activity Name="FreeText">
+				<Desc>Not AllowFreeText</Desc>
+			</Activity>
+			<Activity Name="HideSTVaT">
+				<Desc>Hide control</Desc>
+			</Activity>
+			<Activity Name="VATCALC">
+				<Desc>Hide control</Desc>
+			</Activity>
+			<Activity Name="HandeIPFormat">
+				<Desc>Hide control</Desc>
+			</Activity>
+			<Activity Name="Admitchkbox">
+				<Desc>Hide IPcheckBox</Desc>
+			</Activity>
+			<Activity Name="Blooddonorchkbox">
+				<Desc>Hide BloodDonorchkbox</Desc>
+			</Activity>
+			<Activity Name="Daycarechkbox">
+				<Desc>Hide DaycareChkbox</Desc>
+			</Activity>
+			<Activity Name="SPCCcasesheetTemplate">
+				<Desc>SPCC Casesheet Template</Desc>
+			</Activity>
+		</Sections>
+	</Pages>
+</PageRoleAccessMapping>
+

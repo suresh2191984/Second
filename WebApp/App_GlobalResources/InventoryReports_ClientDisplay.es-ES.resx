@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InventoryReports_AdminXLStockReport_aspx_01" xml:space="preserve">
+    <value>Stock Report For</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_02" xml:space="preserve">
+    <value>desde</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_03" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_04" xml:space="preserve">
+    <value>reporte de existencias </value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_05" xml:space="preserve">
+    <value>producto</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_06" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_07" xml:space="preserve">
+    <value>Opening Balance</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_08" xml:space="preserve">
+    <value>existencias recibidas</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_09" xml:space="preserve">
+    <value>existencias emitidas</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_10" xml:space="preserve">
+    <value>daños de existencias</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_11" xml:space="preserve">
+    <value>devolución de las existencias</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_12" xml:space="preserve">
+    <value>balance final</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_13" xml:space="preserve">
+    <value>Current SellingPrice</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_14" xml:space="preserve">
+    <value>abrir valor de existencias</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_15" xml:space="preserve">
+    <value>cierre valor de stock</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_16" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_17" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_01" xml:space="preserve">
+    <value>paciente externo</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_02" xml:space="preserve">
+    <value>paciente enterno</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_03" xml:space="preserve">
+    <value>Walkin</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_04" xml:space="preserve">
+    <value>nombre de reporte</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_05" xml:space="preserve">
+    <value>para redondear total</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_06" xml:space="preserve">
+    <value>DispensingReport_</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_07" xml:space="preserve">
+    <value>reportes de dispensación</value>
+  </data>
+  <data name="InventoryReports_IndentStatusReport_aspx_01" xml:space="preserve">
+    <value>Inventory Summary and Detail Report</value>
+  </data>
+  <data name="InventoryReports_InventoryDueAmountDetailsReport_aspx_01" xml:space="preserve">
+    <value>paciente enterno</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_01" xml:space="preserve">
+    <value>monto total del reembolso de farmacia</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_02" xml:space="preserve">
+    <value>Pharmacy Total Product Item Refund</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_03" xml:space="preserve">
+    <value>Pharmacy Total Sales value</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_04" xml:space="preserve">
+    <value>nombre de reporte</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_05" xml:space="preserve">
+    <value>para redondear total</value>
+  </data>
+  <data name="InventoryReports_NonMovingProductsReport_aspx_01" xml:space="preserve">
+    <value>Click Here To Print the  {0} Stock Report</value>
+  </data>
+  <data name="InventoryReports_PatientDepositDetailsWithServiceReport_aspx_01" xml:space="preserve">
+    <value>registro no encontrado para las fechas seleccionadas</value>
+  </data>
+  <data name="InventoryReports_PatientDepositDetailsWithServiceReport_aspx_02" xml:space="preserve">
+    <value>Click the get report</value>
+  </data>
+  <data name="InventoryReports_PatientDepositDetailsWithServiceReport_aspx_03" xml:space="preserve">
+    <value>paciente enterno</value>
+  </data>
+  <data name="InventoryReports_PatientDepositDetailsWithServiceReport_aspx_04" xml:space="preserve">
+    <value>PDC Report</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_01" xml:space="preserve">
+    <value>Stock Report For</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_02" xml:space="preserve">
+    <value>desde</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_03" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_04" xml:space="preserve">
+    <value>reporte de existencias </value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_05" xml:space="preserve">
+    <value>Stock Report From</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_06" xml:space="preserve">
+    <value>producto</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_07" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_08" xml:space="preserve">
+    <value>Opening Balance</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_09" xml:space="preserve">
+    <value>existencias recibidas</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_10" xml:space="preserve">
+    <value>existencias emitidas</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_11" xml:space="preserve">
+    <value>daños de existencias</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_12" xml:space="preserve">
+    <value>devolución de las existencias</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_13" xml:space="preserve">
+    <value>balance final</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_14" xml:space="preserve">
+    <value>Current SellingPrice</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_15" xml:space="preserve">
+    <value>abrir valor de existencias</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_16" xml:space="preserve">
+    <value>cierre valor de stock</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_17" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_18" xml:space="preserve">
+    <value>registro no encontrado!</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_01" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_02" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_03" xml:space="preserve">
+    <value>nombre</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_04" xml:space="preserve">
+    <value>edad / sexo</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_05" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="InventoryReports_PrintDispensingReport_aspx_06" xml:space="preserve">
+    <value>detalles</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_01" xml:space="preserve">
+    <value>Expiry date Report From</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_02" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_03" xml:space="preserve">
+    <value>EXPIRY DATE REPORT</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_04" xml:space="preserve">
+    <value>producto</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_05" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_06" xml:space="preserve">
+    <value>lote nº</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_07" xml:space="preserve">
+    <value>existencias recibidas</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_08" xml:space="preserve">
+    <value>StockInhand</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_09" xml:space="preserve">
+    <value>precio de venta</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_10" xml:space="preserve">
+    <value>reordenar nivel</value>
+  </data>
+  <data name="InventoryReports_PrintExpirydatedetails_aspx_11" xml:space="preserve">
+    <value>unidades</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_01" xml:space="preserve">
+    <value>Purchase Order Report From</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_02" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_03" xml:space="preserve">
+    <value>reporte de la orden de compra</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_04" xml:space="preserve">
+    <value>nombre del proveedor</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_05" xml:space="preserve">
+    <value>Purchase Date</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_06" xml:space="preserve">
+    <value>Invoice/DC No</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_07" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin)</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_08" xml:space="preserve">
+    <value>Gross Total</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_09" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="InventoryReports_PrintPurchaseOrderReport_aspx_10" xml:space="preserve">
+    <value>iva</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_01" xml:space="preserve">
+    <value>Sales Report From</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_02" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_03" xml:space="preserve">
+    <value>reporte de ventas</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_04" xml:space="preserve">
+    <value>fecha de la factura</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_05" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_06" xml:space="preserve">
+    <value>total neto</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_07" xml:space="preserve">
+    <value>Gross Total</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_08" xml:space="preserve">
+    <value>VAT0</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_09" xml:space="preserve">
+    <value>VAT4</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_10" xml:space="preserve">
+    <value>VAT5</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_11" xml:space="preserve">
+    <value>VAT12.5</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_12" xml:space="preserve">
+    <value>VAT13.5</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_13" xml:space="preserve">
+    <value>Other Tax%</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_14" xml:space="preserve">
+    <value>total de la factura</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_15" xml:space="preserve">
+    <value>descuento</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_16" xml:space="preserve">
+    <value>importe neto</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_17" xml:space="preserve">
+    <value>Received Amount</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_18" xml:space="preserve">
+    <value>adeudo</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_19" xml:space="preserve">
+    <value>en efectivo</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_20" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_21" xml:space="preserve">
+    <value>cheque</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_22" xml:space="preserve">
+    <value>DD</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_23" xml:space="preserve">
+    <value>devolver</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_24" xml:space="preserve">
+    <value>depósito usado</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_25" xml:space="preserve">
+    <value>balance final</value>
+  </data>
+  <data name="InventoryReports_PrintSalesReport_aspx_26" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_01" xml:space="preserve">
+    <value>Sales Tax Report From</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_02" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_03" xml:space="preserve">
+    <value>reporte de impuesto sobre las ventas</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_04" xml:space="preserve">
+    <value>fecha de la factura</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_05" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_06" xml:space="preserve">
+    <value>Gross Total</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_07" xml:space="preserve">
+    <value>total neto</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_08" xml:space="preserve">
+    <value>4% Taxable</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_09" xml:space="preserve">
+    <value>Vat (4%)</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_10" xml:space="preserve">
+    <value>12.5% Taxable</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_11" xml:space="preserve">
+    <value>Vat (12.5%)</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_12" xml:space="preserve">
+    <value>0% Taxable</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_13" xml:space="preserve">
+    <value>Vat (0%)</value>
+  </data>
+  <data name="InventoryReports_PrintSalesTaxReport_aspx_14" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="InventoryReports_PrintStockReport_aspx_01" xml:space="preserve">
+    <value>Stock Report For</value>
+  </data>
+  <data name="InventoryReports_PrintStockReport_aspx_02" xml:space="preserve">
+    <value>desde</value>
+  </data>
+  <data name="InventoryReports_PrintStockReport_aspx_03" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_01" xml:space="preserve">
+    <value>Product Legend For</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_02" xml:space="preserve">
+    <value>desde</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_03" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_04" xml:space="preserve">
+    <value>la leyenda del producto</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_05" xml:space="preserve">
+    <value>producto</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_06" xml:space="preserve">
+    <value>fecha</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_07" xml:space="preserve">
+    <value>Opening Balance</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_08" xml:space="preserve">
+    <value>TRANSACTIONS</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_09" xml:space="preserve">
+    <value>existencias recibidas</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_10" xml:space="preserve">
+    <value>existencias emitidas</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_11" xml:space="preserve">
+    <value>daños de existencias</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_12" xml:space="preserve">
+    <value>devolución de las existencias</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_13" xml:space="preserve">
+    <value>SRD No</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_14" xml:space="preserve">
+    <value>recibido de</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_15" xml:space="preserve">
+    <value>emitidos a</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_16" xml:space="preserve">
+    <value>identificación de factura</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_17" xml:space="preserve">
+    <value>número de factura</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_18" xml:space="preserve">
+    <value>nombre del paciente</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_19" xml:space="preserve">
+    <value>Issue Location</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_20" xml:space="preserve">
+    <value>Receive Location</value>
+  </data>
+  <data name="InventoryReports_ProductLegendDetail_aspx_21" xml:space="preserve">
+    <value>balance final</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_01" xml:space="preserve">
+    <value>Click Here To Print the {0} Product Legend Report</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_02" xml:space="preserve">
+    <value>nombre de reporte</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_03" xml:space="preserve">
+    <value>para redondear total</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_04" xml:space="preserve">
+    <value>dirección</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_05" xml:space="preserve">
+    <value>ciudad</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_06" xml:space="preserve">
+    <value>telefono no.</value>
+  </data>
+  <data name="InventoryReports_ProductLegend_aspx_07" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_01" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_02" xml:space="preserve">
+    <value>Purchase Order Reports_</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_03" xml:space="preserve">
+    <value>fecha de dispositivos de corto alcance (srd)</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_04" xml:space="preserve">
+    <value>SRD No</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_05" xml:space="preserve">
+    <value>nombre del proveedor</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_06" xml:space="preserve">
+    <value>número de identificación del contribuyente (tin).</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_07" xml:space="preserve">
+    <value>factura no..</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_08" xml:space="preserve">
+    <value>valor neto</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_09" xml:space="preserve">
+    <value>monto total</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_10" xml:space="preserve">
+    <value>Vat (4%)</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_11" xml:space="preserve">
+    <value>Vat (12.5%)</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_12" xml:space="preserve">
+    <value>Vat (0%)</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_13" xml:space="preserve">
+    <value>otros</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_14" xml:space="preserve">
+    <value>Paid Amt</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_15" xml:space="preserve">
+    <value>base imponible</value>
+  </data>
+  <data name="InventoryReports_PurchaseOrderReport_aspx_16" xml:space="preserve">
+    <value>impuesto </value>
+  </data>
+  <data name="HospIPBilling_Controls_ReceiptSearch_ascx_Display_02" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="HospIPBilling_IPFinalSettlement_aspx_Display_04" xml:space="preserve">
+    <value>añadir </value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_16" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="HospIPBilling_Controls_SurgeryBilling_ascx_Display_17" xml:space="preserve">
+    <value>borrar </value>
+  </data>
+  <data name="HospIPBilling_IPViewBill_aspx_Display_27" xml:space="preserve">
+    <value>ip ver factura</value>
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_01" xml:space="preserve">
+    <value>monto total del reembolso de farmacia</value>
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_02" xml:space="preserve">
+    <value>valor de reembolso del producto de farmacia</value>
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_03" xml:space="preserve">
+    <value>reporte de ventas</value>
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_05" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InventoryReports_SalesTaxReport_aspx_01" xml:space="preserve">
+    <value>reporte de ventas</value>
+  </data>
+  <data name="InventoryReports_SalesTaxReport_aspx_02" xml:space="preserve">
+    <value>nombre de reporte</value>
+  </data>
+  <data name="InventoryReports_SalesTaxReport_aspx_03" xml:space="preserve">
+    <value>para redondear total</value>
+  </data>
+  <data name="InventoryReports_SalesTaxReport_aspx_04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InventoryReports_StockIssuedReport_aspx_01" xml:space="preserve">
+    <value>reporte de las existencias emitidas</value>
+  </data>
+  <data name="InventoryReports_StockIssuedReport_aspx_02" xml:space="preserve">
+    <value>informe de acciones emitidas</value>
+  </data>
+  <data name="InventoryReports_StockIssuedReport_aspx_03" xml:space="preserve">
+    <value>cp total</value>
+  </data>
+  <data name="InventoryReports_StockIssuedReport_aspx_04" xml:space="preserve">
+    <value>sp total</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_Location" xml:space="preserve">
+    <value>localización</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_Organisation" xml:space="preserve">
+    <value>organización</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_PhoneNo" xml:space="preserve">
+    <value>telefono no.</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_prefix" xml:space="preserve">
+    <value>Reports_</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_ProductCategory" xml:space="preserve">
+    <value>categoria de producto</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_ProductType" xml:space="preserve">
+    <value>tipo de producto</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_ReportDate" xml:space="preserve">
+    <value>para redondear total</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_ReportName" xml:space="preserve">
+    <value>nombre de reporte</value>
+  </data>
+  <data name="InventoryReports_SupplierAnalysisReport_aspx_supplierAnalysisreport" xml:space="preserve">
+    <value>reporte de análisis de proveedores</value>
+  </data>
+  <data name="InventoryReports_SalesReport_aspx_06" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InventoryReports_StockUsageReport_aspx_01" xml:space="preserve">
+    <value>Stock_Usage_Report_</value>
+  </data>
+  <data name="InventoryReports_StockUsageReport_aspx_02" xml:space="preserve">
+    <value>Stock Usage Report</value>
+  </data>
+  <data name="InventoryReports_StockUsageReport_aspx_03" xml:space="preserve">
+    <value>cp total</value>
+  </data>
+  <data name="InventoryReports_StockUsageReport_aspx_04" xml:space="preserve">
+    <value>sp total</value>
+  </data>
+  <data name="InventoryReports_AdminStockReport_aspx_01" xml:space="preserve">
+    <value>--ALL--</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_18" xml:space="preserve">
+    <value>Stock_Report_</value>
+  </data>
+  <data name="InventoryReports_AdminXLStockReport_aspx_19" xml:space="preserve">
+    <value>Nil_Stock_Report_</value>
+  </data>
+  <data name="InventoryReports_DispensingReport_aspx_08" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="InventoryReports_MedicineWiseReport_aspx_06" xml:space="preserve">
+    <value>MedicineWiseReport_</value>
+  </data>
+  <data name="InventoryReports_NonMovingProductsReport_aspx_02" xml:space="preserve">
+    <value>--ALL--</value>
+  </data>
+  <data name="InventoryReports_IndentStatusReport_aspx_02" xml:space="preserve">
+    <value>regresar</value>
+  </data>
+  <data name="InventoryReports_InventoryDueAmountDetailsReport_aspx_02" xml:space="preserve">
+    <value>Inventory Summary and Detail Report</value>
+  </data>
+  <data name="InventoryReports_PurchaseTaxReports_aspx_01" xml:space="preserve">
+    <value>Purchase Tax Reports_</value>
+  </data>
+  <data name="InventoryReports_PurchaseTaxReports_aspx_02" xml:space="preserve">
+    <value>Purchase Tax Reports</value>
+  </data>
+  <data name="InventoryReports_PrintAdminStockReport_aspx_19" xml:space="preserve">
+    <value>localización</value>
+  </data>
+</root>
