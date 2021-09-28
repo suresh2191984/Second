@@ -1,0 +1,148 @@
+<div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="panel panel-default marginT10">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                <span>CLIENT / REFERENCE</span>
+                <span ng-show="clientData.Client.ClientAttributes.length>0"
+                      pop-dyncss="clinicAttr-tablist custWidth" pop-template="clientAttributes"
+                      popover-title="Client Attributes" custom-popover ng-click="showPopover();"
+                      type="button" class="btn btn-xs btn-default" popover-placement="left" popover-class="popoverwidth" popover-is-open="isOpen">Client Attributes</span>
+            </a>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="input-group input-group-xs">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                    <input type="text" autocomplete="off" class="form-control input-xs"
+                                           placeholder="Client Name" ng-model="clientData.TPA" ng-blur="setDefaultClient(clientData.TPA)"
+                                           typeahead-editable="false"
+                                           uib-typeahead="grp as grp.ClientName for grp in getClient($viewValue)" typeahead-on-select="clientData.Client=clientData.TPA; billingClear();" />
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="input-group input-group-xs">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                    <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Refering Hospital"
+                                           ng-model="clientData.Client.ReferringHospital"
+                                           uib-typeahead="grp as grp.ReferringHospitalName for grp in getReferringHosp($viewValue)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="input-group input-group-xs">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                    <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Physician"
+                                           ng-model="clientData.Client.ReferringPhysician"
+                                           uib-typeahead="grp as grp.ReferringPhysicianName for grp in getreferingphysician($viewValue)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Extrenal Patient No"
+                                       ng-model="clientData.ExtrenalPatientNo">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <select class="form-control input-xs" ng-model="clientData.VisiTypeCode"
+                                        ng-options="grp.Code as grp.DisplayText for grp in ::clientData.VisiType">
+                                    <option value="" selected disabled> Visit Type</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" autocomplete="off" class="form-control input-xs" ng-model="clientData.Client.WardNo" placeholder="Ward No">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="input-group input-group-xs">
+                                    <!-- <span class="input-group-btn">
+                                         <button class="btn" type="button" ng-click="openCalender()">
+                                             <i class="fa fa-calendar" aria-hidden="true"></i>
+                                         </button>
+                                     </span>
+                                     <input type="text" class="form-control input-xs" placeholder="Sample Pick Up Date"
+                                            uib-datepicker-popup="{{format}}" ng-model="clientData.SamplePickupDate"
+                                            is-open="dateOptions.opened" calender-format datepicker-options="dateOptions.formatYear"
+                                            ng-focus="openCalender()" ng-required="true" close-text="Close">-->
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                        <input type="text" autocomplete="off" class="form-control input-xs ng-pristine ng-untouched ng-valid ng-empty" ng-required="true" name="SampleDateTime"
+                                               placeholder="Collection Time" ng-model="clientData.SamplePickupDate" datetime-picker date-format="MM/dd/yyyy HH:mm" />
+                                        <span class="input-group-addon"><input type="checkbox" ng-model="checked" ng-disabled="clientData.SamplePickupDate==undefined" /></span>
+                                    </div>
+
+                                   
+                                    <!--<date-time-picker ng-model="clientData.SamplePickupDate" class="w-110p" ng-required="true" name="SampleDateTime" placeholder="dd/MM/yyyy" />-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="input-group input-group-xs">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                    <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Phlebotomist/Logistics"
+                                           ng-model="clientData.Phlebotomist"
+                                           uib-typeahead="grp as grp.EmpDeptName for grp in getPhlebotomist($viewValue)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Round No" ng-model="clientData.Client.RoundNo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                                <select class="form-control input-xs" ng-model="clientData.KnowledgeOfServiceID" ng-change="knowledge()"
+                                        ng-options="grp.Code as grp.DisplayText for grp in ::clientData.KnowledgeOfService">
+                                    <option value="" disabled> Knowledge Of Service</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

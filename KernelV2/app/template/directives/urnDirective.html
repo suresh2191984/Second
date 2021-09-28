@@ -1,0 +1,42 @@
+<div class="col-xs-12 col-sm-12 col-md-12 padding0">
+    <div class="panel panel-default marginT10">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                <span>URN - UNIQUE REFERENCE NO</span>
+            </a>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <select class="form-control input-xs" ng-model="urn.URNTypeId" ng-change="setGroupInvStatus(grp);urn.URNofId=undefined;urn.URN=undefined;"
+                                        ng-options="grp.URNTypeId as grp.Displaytext for grp in ::objurn.lstURNTypes">
+                                    <option value="">URN Type</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <select class="form-control input-xs" ng-model="urn.URNofId" ng-disabled="(urn.URNTypeId==undefined)" ng-change="setGroupInvStatus(grp);urn.URN=undefined;"
+                                        ng-options="grp.URNOfId as grp.URNOf for grp in ::objurn.lstURNof">
+                                    <option value=""> URN off</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" autocomplete="off" ng-model="urn.URN" ng-disabled="((urn.URNTypeId==undefined) || (urn.URNofId==undefined))" capitalize class="form-control input-xs" placeholder="URN Number" ng-blur="checkurn(urn.URNTypeId,urn.URN)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

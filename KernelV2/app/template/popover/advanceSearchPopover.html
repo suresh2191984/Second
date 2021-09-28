@@ -1,0 +1,81 @@
+﻿<div class="">
+    <table class="w-100p lh40">
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+                <input type="text" autocomplete="off" ng-model="Firstname" placeholder="Firstname **" class="form-control input-xs w-150" ng-init="'none'" value=" " name="">
+            </td>
+            <td>
+                Middle Name:
+            </td>
+            <td>
+                <input type="text" autocomplete="off" ng-model="Middlename" placeholder="Middlename **" class="form-control input-xs w-150" value=" " name="">
+            </td>
+            <td>
+                Last Name:
+            </td>
+            <td><input type="text" autocomplete="off" ng-model="Lastname" placeholder="Lastname **" class="form-control input-xs w-150" name="" value=" "></td>
+        </tr>
+        <tr>
+            <td>
+                Patient Number:
+            </td>
+            <td><input type="text" autocomplete="off" class="form-control input-xs w-150" ng-model="PatientNumber" placeholder="PatientNumber" name="" value=" "></td>
+            <td>
+                Mobile/Phone:
+            </td>
+            <td><input type="Number" autocomplete="off" ng-model="Mobile" class="form-control input-xs w-150" placeholder="Mobile No" name="" value=" "></td>
+            <td>
+                Booking Number:
+            </td>
+            <td><input type="text" autocomplete="off" readonly="true" class="form-control input-xs w-150" ng-model="Booking" placeholder="Booking No" name="" value=" "></td>
+        </tr>
+        <tr>
+            <td>
+                Client Name:
+            </td>
+            <td><input type="text" autocomplete="off" readonly="true" class="form-control input-xs w-150" ng-model="ClientName" placeholder="ClientName" name="" value=" "></td>
+            <td>
+                Client Code:
+            </td>
+            <td><input type="text" autocomplete="off" readonly="true" class="form-control input-xs w-150" ng-model="ClientCode" placeholder="ClientCode" name="" value=" "></td>
+            <td>
+                <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3 text-right">
+                    <button type="button" class="btn btn-xs btn-primary" placeholder="search"
+                            ng-click="AdvanceSearch(Firstname,Middlename,Lastname,PatientNumber,Mobile,Booking,ClientName,ClientCode)">
+                        <i class="fa fa-search"></i> Search
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="table-responsive marginB6" ng-if="advSearch">
+        <table class="table table-condensed table-bordered lab-test-table marginT10">
+            <tbody>
+                <tr>
+                    <th> S.No </th>
+                    <th> Patient Name </th>
+                    <th> First Name <br /> Middle Name <br />Last Name </th>
+                    <th>Gender / Age</th>
+                    <th> Mobile / Phone No </th>
+                    <th> Patient Number </th>
+                    <th> Select </th>
+                </tr>
+                <tr ng-repeat="item in advSearch track by $index">
+                    <td> {{$index + 1 }} </td>
+                    <td>{{item.PatientName}}</td>
+                    <td> {{item.FirstName}} <br /> {{item.MiddleName}} <br /> {{item.LastName}} </td>
+                    <td> {{item.Gender.DisplayText}} / {{item.Age}} </td>
+                    <td>{{item.LandLineNumber}}</td>
+                    <td> {{item.PatientNumber}}</td>
+                    <td> <input type="radio" name="patientname"  ng-model="PID" ng-click="GetBillingItemsDetails(item.PatientID)" value="item.PatientID"></td>
+                </tr>
+                <tr ng-show="advSearch.length==0"><td colspan="15">No Data</td></tr>
+            </tbody>
+        </table> <br>
+    </div>
+    <p class="text-center"><button type="button" class="btn btn-danger btn-xs" placeholder="Close" ng-click="hidePopover()"> Close </button> </p>
+   
+</div>

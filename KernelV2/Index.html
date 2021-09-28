@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KernelV2</title>
+    <!-- Font -->
+    <link type="text/css" rel="stylesheet" href="css/sourcesanspro.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/helpers.css">
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
+    <link type="text/css" rel="stylesheet" href="css/loading-bar.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/angular-ui-notification.min.css">
+    <link type="text/css" rel="stylesheet" href="css/angularjs-datetime-picker.css" />
+    
+</head>
+<body>
+    <nav disable-right-click class="navbar navbar-default navbar-fixed-top bs2" ng-controller="attHeaderController"
+         ng-include="'app/template/attHeader.html'" id="AttHeader"></nav>
+    <div class="content">
+        <div disable-right-click ui-view class="container-fluid">
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+    <div ng-controller="attFooterController" disable-right-click ng-include="'app/template/attFooter.html'">
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap-dropdownhover.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-ui-router.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-linq.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-local-storage.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-sanitize.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/ng-file-upload-shim.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/ng-file-upload.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/loading-bar.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angularjs-datetime-picker.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-messages.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-animate.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/ocLazyLoad.min.js"></script>
+
+    <script type="text/javascript" src="js/moment.min.js"></script>
+
+    <script type="text/javascript" src="js/ui-bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/ui-bootstrap-tpls.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-strap.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-strap.tpl.min.js"></script>
+
+    <script type="text/javascript" src="js/angular/angular-ui-notification.min.js"></script>
+
+    <script type="text/javascript" src="js/fixed-table-header.js"></script>
+
+    <script type="text/javascript" src="js/datetime-picker.js"></script>
+    <!-- /.content-wrapper -->
+    <!--Services-->
+
+    <script type="text/javascript" src="app/appjs/ng/services.js"></script>
+
+    <script type="text/javascript" src="app/appjs/services/headerService.js"></script>
+
+    <!--Services-->
+    <!--Directives-->
+
+    <script type="text/javascript" src="app/appjs/ng/directives.js"></script>
+
+    <!--Directives-->
+    <!--Controllers-->
+
+    <script type="text/javascript" src="app/appjs/ng/controller.js"></script>
+
+    <!--Controllers-->
+    <!--PlatForm-->
+
+    <script type="text/javascript" src="app/appjs/ng/constant.js"></script>
+
+    <script type="text/javascript" src="app/appjs/ng/gateWayService.js"></script>
+
+    <script type="text/javascript" src="app/appjs/ng/filters.js"></script>
+
+    <script type="text/javascript" src="app/appjs/ng/providers.js"></script>
+
+    <script type="text/javascript" src="app/appjs/ng/app.js"></script>
+    <!--PlatForm-->
+</body>
+</html>

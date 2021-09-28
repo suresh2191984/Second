@@ -1,0 +1,205 @@
+﻿<div class="panel panel-default pat-details">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-xs-6 col-md-8 col-lg-8">
+                <span>Patient Details</span>
+            </div>
+            <div class="col-xs-6 col-md-4 col-lg-4">
+                <div class="dropdown pull-right" id="view-dropdown">
+                    <button id="dLabel" class="btn btn-xs btn-black" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        View <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="">TRF</a></li>
+                        <li><a href="">Photo</a></li>
+                        <li><a href="">OutSource Doc</a></li>
+                        <!--<li><a href="">Patient History</a></li>-->
+                        <li><a href="">Device Value</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <patient-details-directive visitid="visitId" guid="gUID" objpatient="objPatient"></patient-details-directive>
+</div>
+<div class="panel-group" id="Documentaccordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <a role="button" data-toggle="collapse" class="collapsed" data-parent="#Documentaccordion"
+               href="#collapseOne" aria-controls="collapseOne">
+                <span>Document Upload & Download</span>
+            </a>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-sm-2 col-md-1 col-lg-1 text-right">
+                        Select File
+                    </label>
+                    <div class="col-sm-10 col-md-11 col-lg-11">
+                        <input type="file">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel-group" id="Investigationaccordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <a role="button" data-toggle="collapse" class="collapsed" data-parent="#Investigationaccordion"
+               href="#collapseTwo" aria-controls="collapseTwo">
+                <span>Ordered Investigation For PatientVisit</span>
+            </a>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <ordered-i-n-v-directive visitid="visitId" guid="gUID"></ordered-i-n-v-directive>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btn-row text-center">
+    <button type="submit" class="btn btn-xs btn-action btn-ok" ng-click="saveResultCapture();">
+        Save And Home
+    </button>
+    <button type="submit" class="btn btn-xs btn-action btn-cancel">
+        <a href="../Lab/Home.aspx">Cancel</a>
+    </button>
+</div>
+<div class="range m-b-10">
+    <div class="row">
+        <div class="col-sm-8 col-md-9 col-lg-9">
+            <ul>
+                <li>
+                    <label>
+                        <span class="range-auto"></span>Auto Authorization Range
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span class="range-panic"></span>Panic Range
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span class="range-normal"></span>Normal Range
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span class="range-loabn"></span>Lower Abnormal Range
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span class="range-hiabn"></span>Higher Abnormal Range
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <span class="range-error"></span>Device Error
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 text-right hide">
+            <a href="#" class="m-h-5">View Method Kit</a> | <a href="#" class="m-h-5">View Report</a>
+        </div>
+    </div>
+</div>
+<div class="panel-group" id="panel-dept-accordion" role="tablist" aria-multiselectable="true"
+     ng-repeat="obj in lstResultsCapture.InvDept">
+    <div class="panel panel-default" id="panel-dept">
+        <div class="panel-heading" role="tab" id="deptH1">
+            <a role="button" data-toggle="collapse" data-parent="#panel-dept-accordion" href="#{{obj.DeptID}}{{obj.DeptName}}"
+               aria-controls="{{obj.DeptID}}{{obj.DeptName}}">
+                <span>{{::obj.DeptName}}</span>
+            </a>
+
+            <select class="pull-right" ng-model="obj.objDepInvStatus" ng-init="setDeptInvStatus(obj)" ng-change="setDeptInvStatus(obj)"
+                    ng-options="dept.DisplayText as dept.DisplayText for dept in ::obj.InvStatus">
+                <option value="" disabled>Select</option>
+            </select>
+        </div>
+        <div id="{{obj.DeptID}}{{obj.DeptName}}" class="panel-collapse collapse in" role="tabpanel"
+             aria-labelledby="{{obj.DeptID}}{{obj.DeptName}}">
+            <div class="panel-body" ng-repeat="grp in obj.lstUI_Group">
+                <div class="panel-group" id="group{{grp.GroupindexID}}" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-info">
+                        <div class="panel-heading" role="tab" id="{{grp.GroupindexID}}" ng-if="(grp.GroupName!='')">
+                            <div class="w-30p dinlineblock">
+                                <a role="button" data-toggle="collapse" data-parent="#group{{grp.GroupindexID}}"
+                                   href="#child{{grp.GroupindexID}}">
+                                    <span class="pointer">{{::grp.GroupName}}</span>
+                                </a>
+                            </div>
+                            <div class="dinlineflex">
+                                <p>Comments</p>
+                                <textarea ng-model="grp.Comment" rows="1"></textarea>
+                                <p class="marginL10">Remarks</p>
+                                <textarea ng-model="grp.Remarks" rows="1"></textarea>
+                            </div>
+                            <div class="w-15p">
+                                <select class="pull-right" ng-model="grp.objInvStatus" ng-change="setGroupInvStatus(grp)"
+                                        ng-options="grp.DisplayText as grp.DisplayText for grp in ::grp.InvStatus">
+                                    <option value="" disabled>Select</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="child{{grp.GroupindexID}}" class="panel-collapse collapse in" role="tabpanel">
+                        <div ng-repeat="inv in grp.lstUI_PatientInvestigation">
+                            <div ng-if="(inv.PatternName=='bioPattern1')">
+                                <bio-pattern1-directive objinvestigations="inv" lstreasons="lstResultsCapture.InvReasons"></bio-pattern1-directive>
+                            </div>
+                            <div ng-if="(inv.PatternName=='bioPattern2')">
+                                <bio-pattern2-directive objinvestigations="inv" lstreasons="lstResultsCapture.InvReasons"></bio-pattern2-directive>
+                            </div>
+                            <div ng-if="(inv.PatternName=='bioPattern3')">
+                                <bio-pattern3-directive objinvestigations="inv" lstqualitativeresult="lstResultsCapture.InvQualitativeResult" lstreasons="lstResultsCapture.InvReasons"></bio-pattern3-directive>
+                            </div>
+                            <div ng-if="(inv.PatternName=='bioPattern4')">
+                                <bio-pattern4-directive objinvestigations="inv"></bio-pattern4-directive>
+                            </div>
+                            <div ng-if="(inv.PatternName=='bioPattern5')">
+                                <bio-pattern5-directive objinvestigations="inv"></bio-pattern5-directive>
+                            </div>
+                            <div ng-if="(inv.PatternName!='bioPattern1' && inv.PatternName!='bioPattern2' && inv.PatternName!='bioPattern3' && inv.PatternName!='bioPattern4' && inv.PatternName!='bioPattern5')" ng-init="alert(inv,'Pattern');"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ng-repeat="inv in obj.lstUI_PatientInvestigation">
+            <div ng-if="(inv.PatternName=='bioPattern1')">
+                <bio-pattern1-directive objinvestigations="inv" lstreasons="lstResultsCapture.InvReasons"></bio-pattern1-directive>
+            </div>
+            <div ng-if="(inv.PatternName=='bioPattern2')">
+                <bio-pattern2-directive objinvestigations="inv" lstreasons="lstResultsCapture.InvReasons"></bio-pattern2-directive>
+            </div>
+            <div ng-if="(inv.PatternName=='bioPattern3')">
+                <bio-pattern3-directive objinvestigations="inv" lstqualitativeresult="lstResultsCapture.InvQualitativeResult" lstreasons="lstResultsCapture.InvReasons"></bio-pattern3-directive>
+            </div>            
+            <div ng-if="(inv.PatternName=='bioPattern4')">
+                <bio-pattern4-directive objinvestigations="inv"></bio-pattern4-directive>
+            </div>
+            <div ng-if="(inv.PatternName=='bioPattern5')">
+                <bio-pattern5-directive objinvestigations="inv"></bio-pattern5-directive>
+            </div>
+            <div ng-if="(inv.PatternName!='bioPattern1' && inv.PatternName!='bioPattern2' && inv.PatternName!='bioPattern3' && inv.PatternName!='bioPattern4' && inv.PatternName!='bioPattern5')" ng-init="alert(inv,'Pattern');"></div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="btn-row text-center">
+    <button type="submit" class="btn btn-xs btn-action btn-ok" ng-click="saveResultCapture();">
+        Save And Home
+    </button>
+    <button type="submit" class="btn btn-xs btn-action btn-cancel">
+        <a href="../Lab/Home.aspx">Cancel</a>
+    </button>
+</div>

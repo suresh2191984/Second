@@ -1,0 +1,77 @@
+﻿<div class="table-responsive">
+    <table class="table table-condensed table-valign table-pattern">
+        <tr>
+            <td class="w-15p" ng-init="editINV=false;">
+                <span ng-click="editINV=true; autofocus=true;" ng-show="!editINV">{{::objInvestigations.InvestigationName}}</span>
+                <input type="text" autocomplete="off" ng-show="editINV" focus-me="autofocus" class="range-normal" ng-model="objInvestigations.InvestigationName"
+                       ng-blur="editINV=false;">
+                <br />
+                <select tabindex="{{objInvestigations.RowNumber}}" ng-disabled="objInvestigations.IsNonEditable"
+                        class="range-normal" id="{{ControlId}}" ng-change="changeInvValues()" ng-model="objInvestigations.Values"
+                        ng-options="invs.Value as invs.Value for invs in objInvestigations.InvestigationValues">
+                    <option value="" selected disabled>Select</option>
+                </select>
+                <select tabindex="{{objInvestigations.RowNumber}}" ng-disabled="objInvestigations.IsNonEditable"
+                        class="range-normal marginL5" id="{{ControlId}}" ng-change="changeInvValues()" ng-model="objInvestigations.Values"
+                        ng-options="invs.Value as invs.Value for invs in objInvestigations.InvestigationValues">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+            <td class="w-15p">
+
+                <input tabindex="{{objInvestigations.RowNumber}}" type="text"
+                       ng-disabled="objInvestigations.IsNonEditable" class="range-normal" id="{{ControlId}}"
+                       ng-model="objInvestigations.Value" ng-change="changeInvValues()">
+                <br />
+                <select tabindex="{{objInvestigations.RowNumber}}" ng-disabled="objInvestigations.IsNonEditable"
+                        class="range-normal marginT5 w-70p" id="{{ControlId}}" ng-change="changeInvValues()" ng-model="objInvestigations.Values"
+                        ng-options="invs.Value as invs.Value for invs in objInvestigations.InvestigationValues">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Reference Range
+                </p>
+                <div ng-bind-html="objInvestigations.ReferenceRange">
+                </div>
+            </td>
+            <td class="w-5p">
+                <div class="range">
+                    <p class="small">
+                        Abnormal
+                    </p>
+                    <span class="range-normal" ng-class="ValColor" ng-click="changeINVStatusColor();"></span>
+                </div>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Technical Remarks
+                </p>
+                <textarea rows="1"></textarea>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Medical Remarks
+                </p>
+                <textarea rows="1"></textarea>
+            </td>
+            <td class="w-15p">
+                <p class="small">
+                    Status
+                </p>
+                <select class="w-100p" ng-model="objInvestigations.Status" ng-options="invs.DisplayText as invs.DisplayText for invs in ::objInvestigations.InvStatus">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+            <td class="w-15p" ng-init="objInvestigations.Status==''?alert(objInvestigations,'Status'):'';">
+                <p class="small">
+                    Reason
+                </p>
+                <select class="w-100p" ng-model="objInvestigations.Reason" ng-options="rea.Reason as rea.Reason for rea in ::lstReasons">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</div>

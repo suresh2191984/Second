@@ -1,0 +1,72 @@
+﻿<div class="table-responsive">
+    <table class="table table-condensed table-valign table-pattern">
+        <tr>
+            <td class="w-15p" ng-init="editINV=false;">
+                <span ng-click="editINV=true; autofocus=true;" ng-show="!editINV">{{::objInvestigations.InvestigationName}}</span>
+                <input type="text" autocomplete="off" ng-show="editINV" focus-me="autofocus" class="range-normal" ng-model="objInvestigations.InvestigationName"
+                       ng-blur="editINV=false;">
+            </td>
+            <td class="w-15p">
+                <div class="range" ng-init="objInvestigations.Notes=false;">
+                    <input tabindex="{{objInvestigations.RowNumber}}" type="text" ng-class="ValColor"
+                           ng-disabled="objInvestigations.IsNonEditable" class="range-normal" id="{{ControlId}}"
+                           ng-model="objInvestigations.Value" ng-change="changeInvValues()">
+
+                    <i ng-show="((objInvestigations.IsNonEditable) || (objInvestigations.Notes))"
+                       ng-model="objInvestigations.Notes"
+                       ng-click="(objInvestigations.IsNonEditable==true ? (objInvestigations.IsNonEditable=false): objInvestigations.IsNonEditable=true);(objInvestigations.Notes==false?objInvestigations.Notes=true:objInvestigations.Notes=false);"
+                       class="fa fa-sticky-note-o pointer" aria-hidden="true"></i>
+                    <br />
+                    <span class="small">{{::objInvestigations.UOMCode}}</span>
+                </div>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Reference Range
+                </p>
+                <div ng-bind-html="objInvestigations.ReferenceRange">
+                </div>
+            </td>
+            <td class="w-5p">
+                <div class="range">
+                    <p class="small">
+                        Abnormal
+                    </p>
+                    <span class="range-normal" ng-class="ValColor" ng-click="changeINVStatusColor();">
+                    </span>
+                </div>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Technical Remarks
+                </p>
+                <textarea rows="1"></textarea>
+            </td>
+            <td class="w-10p">
+                <p class="small">
+                    Medical Remarks
+                </p>
+                <textarea rows="1"></textarea>
+            </td>
+            <td class="w-15p">
+                <p class="small">
+                    Status
+                </p>
+                <select class="w-100p" ng-model="objInvestigations.Status" ng-options="sta.DisplayText as sta.DisplayText for sta in ::objInvestigations.InvStatus">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+            <td class="w-15p">
+                <p class="small">
+                    Reason
+                </p>
+                <select class="w-100p" ng-model="objInvestigations.Reason" ng-options="rea.Reason as rea.Reason for rea in ::lstReasons">
+                    <option value="" selected disabled>Select</option>
+                </select>
+            </td>
+            <td class="hide">
+                <a href="#"><u>Δ</u></a>
+            </td>
+        </tr>
+    </table>
+</div>

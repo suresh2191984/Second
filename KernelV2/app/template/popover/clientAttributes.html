@@ -1,0 +1,30 @@
+﻿<div class="table-responsive marginB6" ng-show="clientData.Client.ClientAttributes.length>0">
+    <table class="table table-condensed table-bordered lab-test-table Noborder-imp">
+        <thead class="custbdrThead">
+            <tr>
+                <th class="a-center">#</th>
+                <th class="a-left">Client Attributes</th>
+                <th class="a-left">Client Fields</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="obj in clientData.Client.ClientAttributes">
+                <td class="a-center">{{$index + 1}} </td>
+                <td>
+                    {{obj.LabelName}}
+                </td>
+                <td ng-switch="obj.ControlType">
+                    <div ng-switch-when="Textbox">
+                       <input type="text" autocomplete="off" ng-model="obj.Valuedata" placeholder="{{obj.LabelName}}" class="form-control input-xs" ng-init="'none'">
+                    </div>
+                    <div ng-switch-when="DateTime" class="input-group input-group-xs">
+                    {{obj.Valuedata}}    <date-time-picker ng-model="obj.Valuedata" name="{{obj.Valuedata}}" format="dd/MM/yyyy" placeholder="dd/MM/yyyy" />
+                    </div>
+                </td>
+            </tr>
+            <tr ng-show="(clientData.Client.ClientAttributes.length==0)">
+                <td colspan="3">No Data</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

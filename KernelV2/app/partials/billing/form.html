@@ -1,0 +1,719 @@
+﻿<div class="content">
+    <div class="container-fluid padding0">
+        <div class="panel-group" role="tablist" aria-multiselectable="true">
+            <form name="billingSearchFrom" novalidate>
+                <div class="panel panel-default marginB15">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="row form-group">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                        <input type="text" class="form-control input-xs" ng-model="visitnumber" placeholder="Lab / Visit Number" autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="row form-group">
+                                    <div class="col-xs-9 col-sm-4 col-md-9 col-lg-9" ng-class="{'has-error':(billingSearchFrom.searchPatient.$invalid && billingSearchFrom.searchPatient.$touched) || (billingSearchFrom.$submitted && billingSearchFrom.searchPatient.$invalid) }">
+                                        <input typeahead-editable="false" type="text" autocomplete="off" class="form-control input-xs" name="searchPatient" ng-model="searchPatient" required placeholder="Patient Search "
+                                               uib-typeahead="obj as obj.PatientName + '/ ' + obj.Age + '/ ' +  obj.Gender + ' / '
+                                            + obj.PatientNumber for obj in patientbilling($viewValue)"
+                                               typeahead-on-select="patientSearchSelect($item)" ng-minlength="2" ng-maxlength="255" ng-required="true">
+                                        <div ng-messages="billingSearchFrom.searchPatient.$error"
+                                             ng-show="(billingSearchFrom.searchPatient.$invalid && billingSearchFrom.searchPatient.$touched) || (billingSearchFrom.$submitted && billingSearchFrom.searchPatient.$invalid)"
+                                             class="help-block col-xs-12 col-sm-reset inline">
+                                            <span ng-message="required">Provide patient name</span>
+                                            <span ng-message="minlength"> Provide minimum of 2 and maximum of 255 characters</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3 text-right hide">
+                                        <button type="submit" class="btn btn-xs btn-primary" placeholder="search" ng-click="billingSearchFrom.$valid &&  GetBillingItemsDetails()">
+                                            <i class="fa fa-search"></i> Search
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <div class="row form-group">
+                                    <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3 text-right ">
+                                        <button pop-dyncss="clinicAttr-tablist custWidth" pop-template="advanceSearchPopover"
+                                                popover-title="Advanced Search" custom-popover ng-click="showPopover();"
+                                                type="button" class="btn btn-xs btn-primary" pop-placement="bottom" popover-class="popoverwidth" popover-is-open="isOpen">
+                                            Advanced Search
+                                        </button>
+                                    </div>
+                                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                        <span class="bold">
+                                            <button custom-popover ng-show="PreviousVisitopen" pop-template="PreviousVisitPopover"
+                                                    popover-title="Previous Visit Details" ng-click="showPopover();"
+                                                    type="button" class="btn btn-xs btn-primary " pop-placement="left" popover-class="popoverwidth"
+                                                    popover-is-open="isOpen">
+                                                Previous Visit Details
+                                            </button>
+                                            <button type="button" class="btn btn-xs btn-warning " placeholder="Clear" ng-click="reset();">
+                                                Reset
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form name="billingFrom" novalidate ng-submit="GenerateBill()">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 padding0" style="padding: 0px 0px 0px 15px;">
+                        <div class="panel panel-default marginT10">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseOne">
+                                    <span>PATIENT DETAILS</span>
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <div class="input-group  input-group-xs">
+                                                        <span class="input-group-btn">
+                                                            <select class="btn no-outline h-26-imp" name="salutation" ng-model="billingData.Patient.Salutation"
+                                                                    ng-change=salutation(billingData.Patient.Salutation);
+                                                                    ng-options="grp as grp.TitleName for grp in ::billingData.Titles">
+                                                                <option value="" selected disabled>Title</option>
+                                                            </select>
+                                                        </span>
+
+                                                        <div ng-class="{'has-error':(billingFrom.firstName.$invalid && billingFrom.firstName.$touched) || (billingFrom.$submitted && billingFrom.firstName.$invalid) }">
+                                                            <input type="text" autocomplete="off" class="form-control input-xs" name="firstName" ng-model="billingData.Patient.FirstName" capitalize placeholder="First Name  *"
+                                                                   ng-minlength="2" ng-maxlength="255" ng-required="true">
+                                                        </div>
+                                                    </div>
+                                                    <div ng-messages="billingFrom.firstName.$error"
+                                                         ng-show="(billingFrom.firstName.$invalid && billingFrom.firstName.$touched) || (billingFrom.$submitted && billingFrom.firstName.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Provide patient name</span>
+                                                        <span ng-message="minlength"> Provide minimum of 2 and maximum of 255 characters</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input type="text" autocomplete="off" class="form-control input-xs" ng-model="billingData.Patient.MiddleName" capitalize placeholder="Middle Name">
+                                                    <div ng-messages="billingFrom.firstName.$error"
+                                                         ng-show="(billingFrom.firstName.$invalid && billingFrom.firstName.$touched) || (billingFrom.$submitted && billingFrom.firstName.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input type="text" autocomplete="off" class="form-control input-xs" ng-model="billingData.Patient.LastName" capitalize placeholder="Last Name">
+                                                    <div ng-messages="billingFrom.firstName.$error"
+                                                         ng-show="(billingFrom.firstName.$invalid && billingFrom.firstName.$touched) || (billingFrom.$submitted && billingFrom.firstName.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " ng-class="{'has-error':(billingFrom.gender.$invalid && billingFrom.gender.$touched) || (billingFrom.$submitted && billingFrom.gender.$invalid) }">
+                                                    <select class="form-control input-xs" ng-model="billingData.Patient.Gender" name="gender"
+                                                            ng-change="billingDetailsClear();"
+                                                            ng-options="grp as grp.DisplayText for grp in ::billingData.Gender" ng-required="true" ng-disabled="disableGender">
+                                                        <option value="" selected disabled> Gender  *</option>
+                                                    </select>
+                                                    <div ng-messages="billingFrom.gender.$error"
+                                                         ng-show="(billingFrom.gender.$invalid && billingFrom.gender.$touched) || (billingFrom.$submitted && billingFrom.gender.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Select Gender</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="input-group input-group-xs" ng-class="{'has-error':(billingFrom.Age.$invalid && billingFrom.Age.$touched) || (billingFrom.$submitted && billingFrom.Age.$invalid) }">
+                                                        <!--<span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button" ng-click="openCalender()">
+                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" id="tDOB" class="form-control input-xs" placeholder="DOB" ng-focus="openCalender()"
+                                                               uib-datepicker-popup="{{format}}" ng-model="billingData.Patient.DOB" is-open="dateOptions.opened"
+                                                               datepicker-options="dateOptions.formatYear" calender-format ng-required="true" close-text="Close"
+                                                               ng-change="selectDate(billingData.Patient.DOB)">-->
+                                                        <date-time-picker ng-model="billingData.Patient.DOB" ng-required="true" name="Age" format="dd/MM/yyyy" placeholder="dd/MM/yyyy  **" />
+
+                                                        <span class="input-group-btn w-25p">
+                                                            <input type="text" autocomplete="off" ng-model="billingData.Patient.Age" numeric-only  class="form-control min-w-40 input-xs"
+                                                                   placeholder="Age  **" ng-change=calDob(billingData.Patient.Age)>
+                                                        </span>
+                                                        <select class="form-control input-xs w-100p" ng-model="billingData.Patient.AgeTypeCode"
+                                                                ng-options="grp.Code as grp.DisplayText for grp in ::billingData.AgeType" ng-change="calDob(billingData.Patient.Age)"></select>
+
+                                                        <!--  <input type="text" disabled="true" ng-model="AgeType" class="form-control min-w-40 input-xs"
+                                                        placeholder="Age Type"> -->
+                                                    </div>
+                                                    <div ng-messages="billingFrom.Age.$error"
+                                                         ng-show="(billingFrom.Age.$invalid && billingFrom.Age.$touched) || (billingFrom.$submitted && billingFrom.Age.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Provide Patient Date of Birth or Age</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <select class="form-control input-xs" ng-model="billingData.Patient.MartialStatus"
+                                                            ng-options="grp.Code as grp.DisplayText for grp in ::billingData.MaritalStatus">
+                                                        <option value="" selected disabled> Marital Status</option>
+                                                    </select>
+                                                    <div ng-messages="billingFrom.Age.$error"
+                                                         ng-show="((billingFrom.gender.$invalid && billingFrom.gender.$touched) || (billingFrom.$submitted && billingFrom.gender.$invalid) || (billingFrom.Age.$invalid && billingFrom.Age.$touched) || (billingFrom.$submitted && billingFrom.Age.$invalid))"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" ng-class="{'has-error':(billingFrom.mobilenumber.$invalid && billingFrom.mobilenumber.$touched) || (billingFrom.$submitted && billingFrom.mobilenumber.$invalid)}">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <div class="input-group  input-group-xs">
+                                                        <span class="input-group-btn">
+                                                            <div class="btn no-outline h-26-imp" disabled>
+                                                                <option ng-if="billingData.Country.ISDCode">+{{billingData.Country.ISDCode}}</option>
+                                                            </div>
+                                                        </span>
+                                                        <input type="text" autocomplete="off" class="form-control input-xs" numeric-only placeholder="Mobile Number  **" ng-model="billingData.Patient.MobileNumber"
+                                                               ng-required="!(billingData.Patient.MobileNumber.length)" length="(billingData.Patient.MobileNumber.length!=billingData.Country.PhoneNo_Length)" ng-maxlength="{{billingData.Country.PhoneNo_Length}}" name="mobilenumber" maxlength="{{billingData.Country.PhoneNo_Length}}"
+                                                               ng-blur="setValue('Sms',billingData.Patient.MobileNumber)">
+                                                    </div>
+                                                    <div ng-messages="(billingFrom.mobilenumber.$error)"
+                                                         ng-show="((billingFrom.mobilenumber.$invalid && billingFrom.mobilenumber.$touched) || (billingFrom.$submitted && billingFrom.mobilenumber.$invalid) || (billingFrom.landline.$invalid && billingFrom.landline.$touched) || (billingFrom.$submitted && billingFrom.landline.$invalid))"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Provide Mobile No or Landline No</span>
+                                                        <span ng-message="length"> Provide minimum of 2 and maximum of 255 characters</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" ng-class="{'has-error':(billingFrom.landline.$invalid && billingFrom.landline.$touched) || (billingFrom.$submitted && billingFrom.landline.$invalid)}">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input type="text" autocomplete="off" numeric-only class="form-control input-xs" ng-model="billingData.Patient.LandLineNumber" placeholder="Telephone/Landline  **"
+                                                           ng-required="!(billingData.Patient.MobileNumber.length)" name="landline">
+                                                </div>
+                                                <div ng-messages="(billingFrom.mobilenumber.$error)"
+                                                     ng-show="((billingFrom.mobilenumber.$invalid && billingFrom.mobilenumber.$touched) || (billingFrom.$submitted && billingFrom.mobilenumber.$invalid) || (billingFrom.landline.$invalid && billingFrom.landline.$touched) || (billingFrom.$submitted && billingFrom.landline.$invalid))"
+                                                     class="help-block col-xs-12 col-sm-reset inline">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-class="{'has-error':(billingFrom.emailId.$invalid && billingFrom.emailId.$touched) || (billingFrom.$submitted && billingFrom.emailId.$invalid)}">
+                                                    <input type="email" ng-model="billingData.Patient.EMail" name="emailId" class="form-control input-xs" placeholder="E-Mail"
+                                                           ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" ng-blur="setValue('Email',billingData.Patient.EMail)">
+                                                </div>
+                                                <div ng-messages="billingFrom.mobilenumber.$error"
+                                                     ng-show="((billingFrom.mobilenumber.$invalid && billingFrom.mobilenumber.$touched) || (billingFrom.$submitted && billingFrom.mobilenumber.$invalid) || (billingFrom.landline.$invalid && billingFrom.landline.$touched) || (billingFrom.$submitted && billingFrom.landline.$invalid))"
+                                                     class="help-block col-xs-12 col-sm-reset inline">
+                                                </div>
+                                                <div ng-messages="billingFrom.emailId.$error"
+                                                     ng-show="((billingFrom.emailId.$invalid && billingFrom.emailId.$touched) || (billingFrom.$submitted && billingFrom.emailId.$invalid))"
+                                                     class="help-block col-xs-12 col-sm-reset inline">
+                                                    <span ng-message="pattern">Provide Valid Email ID</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <div class="input-group input-group-xs">
+                                                        <div class="input-group-addon">
+                                                            <i class="fa fa-search" ng-click="datam=billingFrom.mobilenumber;" aria-hidden="true"></i>
+                                                        </div>
+                                                         
+
+                                                        <input type="text" autocomplete="off" ng-model="Pincode" A placeholder="Pincode"
+                                                               typeahead-editable="false"
+                                                               uib-typeahead="address as address.Pincode  for address in getPinCode($viewValue)"
+                                                               typeahead-template-url="PincodeAddress.html" class="form-control input-xs" typeahead-show-hint="true"
+                                                               typeahead-min-length="3" typeahead-on-select="setPincode(Pincode)">
+
+
+
+                                                    </div>
+                                                    <div ng-messages="billingfrom.address.$error"
+                                                         ng-show="(billingFrom.address.$invalid && billingFrom.address.$touched) || (billingFrom.$submitted && billingFrom.address.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-8 col-lg-8">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <textarea rows="1" ng-model="billingData.Patient.Add1" name="address" ng-blur="setValue('DispatchType',billingData.Patient.Add1)" capitalize
+                                                              class="form-control input-xs h-26-imp" placeholder="Address" ng-minlength="2" ng-maxlength="500"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <div class="input-group input-group-xs" ng-class="{'has-error':(billingFrom.Country.$invalid && billingFrom.Country.$touched) || (billingFrom.$submitted && billingFrom.Country.$invalid) }">
+                                                        <div class="input-group-addon">
+                                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                                        </div>
+                                                        <input typeahead-editable="false" type="text" autocomplete="off" class="form-control input-xs" placeholder="Country *" ng-model="billingData.Country"
+                                                               uib-typeahead="country as country.CountryName for country in getcountry($viewValue)" name="Country"
+                                                               typeahead-show-hint="true" ng-minlength="2" ng-maxlength="255" ng-required="true">
+                                                    </div>
+                                                    <div ng-messages="billingFrom.Country.$error"
+                                                         ng-show="(billingFrom.Country.$invalid && billingFrom.Country.$touched)|| (billingFrom.$submitted && billingFrom.Country.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Provide Country</span>
+                                                        <span ng-message="minlength"> Provide minimum of 2 and maximum of 255 characters</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <div class="input-group input-group-xs" ng-class="{'has-error':(billingFrom.State.$invalid && billingFrom.State.$touched) || (billingFrom.$submitted && billingFrom.State.$invalid) }">
+                                                        <div class="input-group-addon">
+                                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                                        </div>
+                                                        <input typeahead-editable="false" type="text" autocomplete="off" class="form-control input-xs" placeholder="State *" ng-model="billingData.State"
+                                                               uib-typeahead="state as state.StateName for state in getstate($viewValue)" name="State" typeahead-show-hint="true" ng-minlength="2" ng-maxlength="255" ng-required="true">
+                                                    </div>
+                                                    <div ng-messages="billingFrom.State.$error"
+                                                         ng-show="(billingFrom.State.$invalid && billingFrom.State.$touched)|| (billingFrom.$submitted && billingFrom.State.$invalid)"
+                                                         class="help-block col-xs-12 col-sm-reset inline">
+                                                        <span ng-message="required">Provide State</span>
+                                                        <span ng-message="minlength"> Provide minimum of 2 and maximum of 255 characters</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                                    <input type="text" autocomplete="off" class="form-control input-xs" name="city" capitalize placeholder="City" ng-model="billingData.Patient.City.CityName"
+                                                           ng-minlength="2" ng-maxlength="255">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <select class="form-control input-xs" ng-model="billingData.Patient.PatientStatus"
+                                                            ng-options="grp.Code as grp.DisplayText for grp in ::billingData.PatientStatus" >
+                                                        <option value="" selected disabled> Patient Category</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <select class="form-control input-xs" ng-model="billingData.Patient.ReportDeliveryMode"
+                                                            ng-options="grp.Code as grp.DisplayText for grp in ::billingData.ReportDeliveryMode">
+                                                        <option value="" selected disabled> Report Delivery Mode</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                    <input type="text" autocomplete="off" numeric-only ng-model="billingData.AdditionalDetails.SpeciesID"
+                                                           placeholder="Specimen count" class="form-control input-xs">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <urn-directive urn=billingData.URN> </urn-directive>
+                        <div class="col-xs-12 col-sm-12 col-md-12 padding0">
+                            <div class="panel panel-default marginT10">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                                        <span>TEST DETAILS <span>({{(billdata.length)}})</span></span>
+                                        <span>
+                                            <div class="range dinlineblock float-right">
+                                                <ul>
+                                                    <li>
+                                                        <label class="lh16">
+                                                            <span class="range-stat"></span> STAT
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="lh16">
+                                                            <span class="range-outsource"></span> Out Source
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="lh16">
+                                                            <span class="range-inv"></span> Investigation
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="lh16">
+                                                            <span class="range-group"></span> Group
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="lh16">
+                                                            <span class="range-package"></span> Package
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </a>
+                                </div>
+                                <form name="billingItemForm" novalidate>
+                                    <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
+                                        <div class="panel-body min-h-240">
+                                            <div class="row" ng-form="billingItemForm">
+                                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                                                    <div class="row form-group">
+                                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                            <div class="input-group input-group-xs" ng-class="{'has-error':(billingItemForm.testName.$invalid && billingItemForm.testName.$touched)  }">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                                                </div>
+                                                               
+                                                                <input typeahead-editable="false" type="text" autocomplete="off" ng-model="billingitem" name="testName" placeholder="Test name"
+                                                                       uib-typeahead="grp as  grp.TestCode + ' : ' + grp.Descrip for grp in billingitems($viewValue,billingData.Patient.Gender,clientData)"
+                                                                       typeahead-template-url="customTemplate.html" class="form-control input-xs" typeahead-show-hint="true" ng-minlength="2" ng-maxlength="255"
+                                                                       ng-class="{'Investigation': billingitem.FeeType == 'INV','Group':billingitem.FeeType == 'GRP', 'Package' : billingitem.FeeType == 'PKG','GeneralBillingItems': billingitem.FeeType == 'GEN'}"
+                                                                       typeahead-min-length="2" typeahead-on-select="billingitemSelect($item,clientData.Client)"
+                                                                       ng-required="true">
+                                                            </div>
+                                                            <div ng-messages="billingItemForm.testName.$error"
+                                                                 ng-show="(billingItemForm.testName.$invalid && billingItemForm.testName.$touched) || (billingItemForm.$submitted && billingItemForm.testName.$invalid) "
+                                                                 class="help-block col-xs-12 col-sm-reset inline">
+                                                                <span ng-message="required">Provide product name</span>
+                                                                <span ng-message="minlength"> Provide minimum of 2 and maximum of 255 characters</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-4">
+                                                   
+                                                    <div class="input-group  input-group-xs">
+                                                        <span class="input-group-btn">
+                                                         
+                                                            <select class="btn no-outline w-100 h-26-imp" ng-disabled="!billingItemForm.testName.$valid ||   clientData.Client.IsCashClient !='Y'"
+                                                                    ng-model="ItemLevelDiscount">
+                                                                <option value="" selected> Discount</option>
+                                                                <optgroup label='Discount Percentage'>
+                                                                    <option ng-repeat="obj in billingData.Discount" value="{{obj}}">{{obj.DiscountName}}</option>
+                                                                </optgroup>
+                                                                <optgroup label='Discount Value'>
+                                                                    <option>Value</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </span>
+                                                        <input type="text" autocomplete="off" numeric-only ng-disabled="(ItemLevelDiscount!='Value') ||   clientData.Client.IsCashClient !='Y'"
+                                                               class="form-control input-xs"
+                                                               ng-model="ItemDiscount"
+                                                               placeholder="Discount Value" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                                    <div class="form-group">
+                                                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                                            <button type="button" class="btn btn-sm btn-primary" ng-disabled="!billingItemForm.testName.$valid" 
+                                                                    ng-click="addBillingitem();">
+                                                                Add
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-responsive marginB6">
+                                                <table class="table table-condensed table-bordered lab-test-table Noborder-imp">
+                                                    <thead class="custbdrThead">
+                                                        <tr>
+                                                            <th class="a-center">#</th>
+                                                            <th class="a-left">Test Code</th>
+                                                            <th class="a-left">Test Description</th>
+                                                            <th class="a-left">Is Stat</th>
+                                                            <th class="a-left">MRP</th>
+                                                            <th class="a-left">Discount</th>
+                                                            <th class="a-left" ng-if="0">Coupon</th>
+                                                            <th class="a-left">History</th>
+                                                            <th class="a-left">Total</th>
+                                                            <!--<th class="a-center">Action</th>-->
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr ng-repeat="item in billdata track by $index">
+                                                            <td class="a-center" ng-class="GettdColor(item)">{{$index + 1}} </td>
+                                                            <td class="a-center" ng-class="GettdColor(item)">{{item.TestCode}} </td>
+                                                            <td class="a-left" ng-class="GettdColor(item)">
+                                                                <a pop-dyncss="clinicAttr-tablist" pop-template="billingContents"
+                                                                   popover-title="Contents" custom-popover ng-click="(item.FeeType == 'GRP' || item.FeeType == 'PKG')  ? (viewContent(item)):''; (item.FeeType == 'GRP' || item.FeeType == 'PKG') ? showPopover():'';"
+                                                                   pop-placement="right" popover-class="popoverwidth" popover-is-open="isOpen"
+                                                                   ng-class="GetautoColor(item)">{{item.Descrip}}</a>
+                                                            </td>
+                                                            <td class="a-left" ng-class="GettdColor(item)">
+                                                                <input type="checkbox" ng-disabled="(billingData.Patient.PatientStatus=='ST')" ng-model="item.IsStat" ng-true-value="'Y'" ng-false-value="'N'" />
+                                                            </td>
+                                                            <td class="a-right" ng-class="GettdColor(item)">{{item.Amount|number:2}}</td>
+                                                            <td class="a-right" ng-class="GettdColor(item)">{{item.DiscountAmount|number:2}} <span ng-if="item.DiscountPercentage">({{item.DiscountPercentage}}%)</span> </td>
+                                                            <td class="a-left" ng-if="0" ng-class="GettdColor(item)">-</td>
+                                                            <td class="a-center" ng-class="GettdColor(item)">
+                                                                <span pop-dyncss="clinicAttr-tablist custWidth"  style="cursor:pointer;" pop-template="billingHistory"
+                                                                      popover-title="History" custom-popover ng-click="showPopover();"
+                                                                      pop-placement="top" pop-class="popoverwidth" pop-is-open="isOpen"><i class="fa fa-history font20"></i></span>
+                                                                 
+                                                            </td>
+                                                            <td class="a-right" ng-class="GettdColor(item)">
+                                                                {{item.NetAmount|number:2}}
+                                                                <span ng-if="item.ItemDiscount.DiscountType=='PERCENTAGE'"> %  </span>
+                                                            </td>
+                                                            <!--<td> <button type="button" class="btn btn-xs btn-default pull-right" ng-click="removeBillingitem($index)">Remove</button></td>-->
+                                                            <td class="Noborder-imp">
+                                                                <svg class="pointer" ng-click="removeBillingitem($index)" width="16" height="16" viewBox="0 0 16 16">
+                                                                    <g fill="none" fill-rule="evenodd">
+                                                                        <path fill="#FFF" d="M5.308 5.348l5.384 5.304"></path>
+                                                                        <path stroke="#FF4949" stroke-linecap="round" d="M5.308 5.348l5.384 5.304"></path>
+                                                                        <path fill="#FFF" d="M10.692 5.348l-5.384 5.304"></path>
+                                                                        <path stroke="#FF4949" stroke-linecap="round" d="M10.692 5.348l-5.384 5.304M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"></path>
+                                                                    </g>
+                                                                </svg>
+                                                            </td>
+                                                        </tr>
+                                                        <tr ng-show="(billdata.length==0)">
+                                                            <td colspan="15">No Data</td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <tfoot ng-if="billdata.length>0">
+                                                        <tr>
+                                                            <td colspan="4" class="a-right bold">Total Bill Value</td>
+                                                            <td class="a-right">{{GrossBillValue|number:2}}</td>
+                                                            <td class="a-right">{{TotalItemDiscount|number:2}}</td>
+                                                            <td class="a-right"></td>
+                                                            <td class="a-right">{{TotalAmount|number:2}}</td>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 padding0">
+                        <clientreference-directive clientdata="clientData">  </clientreference-directive>
+                        <div class="col-xs-12 col-sm-12 col-md-12 visible-md visible-lg">
+                            <div class="panel panel-default marginT10">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                                        <span>ADDITIONAL INFO</span>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <!--<input type="text" class="form-control input-xs" placeholder="History">-->
+                                                        <textarea class="form-control input-xs" rows="2" placeholder="History" ng-model="billingData.AdditionalDetails.PatientHistory"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <!--<input type="text" class="form-control input-xs" placeholder="Remarks">-->
+                                                        <textarea class="form-control input-xs" rows="2" placeholder="Remarks" ng-model="billingData.AdditionalDetails.RegistrationRemarks"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <span class="bold">
+                                                            <a herf="#" pop-dyncss="clinicAttr-tablist custWidthtrf" pop-template="fileUpload"
+                                                               popover-title="File Upload" custom-popover ng-click="showPopover();"
+                                                               pop-placement="left">TRF UPLOAD</a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+                                                <div class="form-inline">
+                                                    <label class="checkbox-inline">
+                                                        <input type="checkbox" name="inlinecheckboxOptions" id="inlinecheckbox1" value="option1">
+                                                        EXCLUDE AUTHORIZATION
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                                                <div class="form-inline">
+                                                    <label class="m-r-10">DISPATCH TYPE {{obj.IsChecked}}</label>
+                                                    <label class="checkbox-inline" ng-repeat="obj in billingData.DispatchType">
+                                                        <input type="checkbox" ng-model="obj.IsChecked" name="obj.MetaDataID"
+                                                               ng-change="checkValue('DispatchType',obj)"> {{::obj.DisplayText}}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">
+                                                <div class="form-inline">
+                                                    <label class="m-r-10">DISPATCH MODE {{obj.IsChecked}}</label>
+                                                    <label class="checkbox-inline" ng-repeat="obj in billingData.DispatchMode">
+                                                        <input type="checkbox" ng-model="obj.IsChecked" name="obj.ActionTypeID"
+                                                               value="obj.ActionType" ng-change="checkValue('DispatchMode',obj)"> {{::obj.ActionType}}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 marginT10 float-right">
+                            <div class="panel panel-default marginB15">
+                                <div class="panel-heading" role="tab" id="headingSeven">
+                                    <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                                        <span>BILLING DETAILS</span>
+                                    </a>
+                                </div>
+                                <div id="collapseSeven" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSeven">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                                                <div class="input-group  input-group-xs">
+                                                    <span class="input-group-btn">
+                                                        <select class="btn no-outline h-26-imp w-100" ng-disabled="billdata.length==0 ||   clientData.Client.IsCashClient !='Y'"
+                                                                ng-model="BillDiscount" ng-change="calcBillLevelDiscount(); paymentDetailsClear(); ">
+                                                            <option value="" selected> Discount</option>
+                                                            <optgroup label='Discount Percentage'>
+                                                                <option ng-repeat="obj in billingData.Discount" value="{{obj}}">{{obj.DiscountName}}</option>
+                                                            </optgroup>
+                                                            <optgroup label='Discount Value'>
+                                                                <option>Value</option>
+                                                            </optgroup>
+                                                        </select>
+                                                    </span>
+                                                    <input type="text" autocomplete="off" numeric-only ng-disabled="(BillDiscount!='Value')  ||   clientData.Client.IsCashClient !='Y'" class="form-control input-xs"
+                                                           ng-model="BillLevelDiscount"
+                                                           placeholder="Discount"
+                                                           ng-blur="calcBillLevelDiscount()">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <select class="form-control input-xs" ng-model="BillLevelDiscountReason" ng-disabled="(BillLevelDiscount==undefined || BillLevelDiscount=='')"
+                                                                ng-options="grp.ReasonID as grp.Reason for grp in ::billingData.DiscountReason">
+                                                            <option value="" selected> Discount Reason</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+                                                <div class="input-group  input-group-xs">
+                                                    <span class="input-group-btn">
+                                                        <select class="btn no-outline h-26-imp w-80" ng-model="tax" ng-disabled="billdata.length==0"
+                                                                ng-options="grp as grp.TaxName +('  '+ grp.TaxPercent +'%') for grp in ::billingData.Tax"
+                                                                ng-change="calcBillLevelDiscount(); paymentDetailsClear();">
+                                                            <option value="" selected>Tax</option>
+                                                        </select>
+                                                    </span>
+                                                    <input type="text" autocomplete="off" class="form-control input-xs" value="{{(TaxAmount)|number:2}}" ng-disabled="1" placeholder="Tax">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <div class="input-group input-group-xs">
+                                                            <div class="input-group-addon">
+                                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                                            </div>
+                                                            
+                                                            <input type="text" autocomplete="off" class="form-control input-xs" placeholder="Authorized By"
+                                                                   ng-model="DisCountAuthorized" ng-disabled="(BillLevelDiscount==undefined || BillLevelDiscount=='')"
+                                                                   uib-typeahead="grp as grp.Name for grp in checkAuthBy($viewValue)">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 bold">
+                                                Round Off Amount
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <input type="text" autocomplete="off" ng-disabled="1" class="form-control input-xs"
+                                                               placeholder="Round Off Amount"
+                                                               value="{{(RoundOffAmount)|number:2}}">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 bold">
+                                                Net Amount
+                                                <div class="row form-group">
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                        <input type="text" autocomplete="off" ng-disabled="1" class="form-control input-xs"
+                                                               placeholder="Net Amount"
+                                                               value="{{(NetAmount)|number:2}}">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <payment-directive options="dirOptions" billdetails="billingData" clientdata="clientData.Client" netamount="NetAmount"> </payment-directive>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 marginT10">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 a-right">
+                            <button type="submit" class="btn btn-success" ng-disabled="(billdata.length==0)">Generate Bill</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 a-left">
+                            <button type="button" class="btn btn-default" ng-click="reset()">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/ng-template" id="customTemplate.html">
+    <a>
+        <span ng-init="(match.model.FeeType == 'GRP'? match.model.Color='Group':'')" ng-class="{'Investigation': match.model.FeeType == 'INV','Group':match.model.FeeType == 'GRP', 'Package' : match.model.FeeType == 'PKG','GeneralBillingItems': match.model.FeeType == 'GEN'}"
+              ng-bind-html="match.label | uibTypeaheadHighlight:query"></span>
+    </a>
+</script>
+
+<script type="text/ng-template" id="PincodeAddress.html">
+    <a>
+       {{match.model.Pincode}} &nbsp;({{match.model.Locality}})
+     </a> 
+</script>

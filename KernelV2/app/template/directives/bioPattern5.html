@@ -1,0 +1,96 @@
+﻿<div class="table-responsive">
+    <table class="table table-condensed table-valign table-pattern">
+        <tr>
+            <td class="w-15p">
+                <span ng-click="editINV=true; autofocus=true;" ng-show="!editINV">{{::objInvestigations.InvestigationName}}</span>
+                <input type="text" autocomplete="off" ng-show="editINV" focus-me="autofocus" class="range-normal" ng-model="objInvestigations.InvestigationName"
+                       ng-blur="editINV=false;">
+            </td>
+        </tr>
+        <tr>
+            <td ng-init="editINV=false;">
+                No.Of Tests
+            </td>
+            <td>
+                <input tabindex="1" type="text" numeric-only ng-disabled="objInvestigations.IsNonEditable" class="range-normal" id="{{ControlId}}"
+                       ng-model="NoOfTest" ng-change="changeInvValues()">
+            </td>
+        </tr>
+        <tr>
+            <td ng-init="editINV=false;">
+                Start Time
+            </td>
+            <td>
+                <select ng-model="time" tabindex="2">
+                    <option value="" selected disabled>Select</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select ng-model="timePeriod" tabindex="3">
+                    <option value="" selected disabled>Select</option>
+                    <option>am</option>
+                    <option>pm</option>
+                </select>
+            </td>
+        </tr>
+   
+
+            <td ng-init="editINV=false;">
+                Time Interval (Min)
+            </td>
+            <td>
+                <select ng-model="timeInterval" tabindex="4">
+                    <option value="" selected disabled>Select</option>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td ng-init="editINV=false;">
+                Grams of Sugar
+            </td>
+            <td>
+                <input tabindex="5" type="text" ng-disabled="objInvestigations.IsNonEditable" class="range-normal" id="{{ControlId}}"
+                       ng-model="SugarValue" ng-change="changeInvValues()">
+            </td>
+        </tr>
+        <tr><td class="a-right"><span class="btn btn-xs btn-success" ng-click="GenerateSugarCalc();"><i class="" aria-hidden="true">Generate</i></span></td></tr>
+        <tr ng-show="(lstSugar.length>0)">
+            <td colspan="2">
+                <table class="table table-condensed table-bordered lab-test-table w-100p">
+                    <tbody>
+                        <tr>
+                            <th>
+                                Time (in Hrs)
+                            </th>
+                            <th>
+                                Blood Sugar (in mg/dl)
+                            </th>
+                            <th>
+                                Urine Sugar (in mg/dl)
+                            </th>
+                    </tbody>
+                    <tr ng-repeat="obj in lstSugar">
+                        <td>{{obj.Time}} : {{obj.TimeInterval}} {{obj.Timeperiod}}</td>
+                        <td><input type="text" /></td>
+                        <td><input type="text" /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

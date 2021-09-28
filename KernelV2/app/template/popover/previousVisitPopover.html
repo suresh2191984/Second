@@ -1,0 +1,42 @@
+﻿<div class="w-100p">
+    <div class="">
+        <li ng-repeat="val in selectedItems"></li>
+        <div class="table-responsive marginB6">
+            <table class="table table-condensed table-bordered lab-test-table">
+                <tbody>
+                    <tr>
+                        <th class="text-center" >
+                           
+                        </th>
+                        <th class="text-center">S.No</th>
+                        <th class="text-center">Code</th>
+                        <th class="text-center">Description</th>
+                        <th class="text-center">FeeType</th>
+                        <th class="text-center">Date </th>
+                    </tr>
+
+                    <tr ng-repeat="item in PreviousVisit | orderBy : '-VisitDate'  track by $index">
+                        <td class="text-center"> <input type="checkbox" ng-model="item.Checked"> </td>
+                        <td class="text-center">{{$index + 1}} </td>
+                        <td class="text-center">{{item.TestCode}}</td>
+                        <td class="text-center"><span>{{item.FeeDescription}}</span></td>
+                        <td class="text-center">{{item.FeeType}}</td>
+                        <td> {{item.VisitDate | date : "d/MM/y" }} </td>
+                    </tr>
+                    <tr ng-show="(PreviousVisit.length==0)">
+                        <td colspan="7">No Data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-6 a-center">
+                <button type="button" class="btn btn-success" ng-click="addPrevioustoBillingitem()">Add</button>
+            </div>
+            <div class="col-md-6 a-center">
+                <button type="button" class="btn btn-success" ng-click="removePreviousBillingItems()">Remove</button>
+            </div>
+
+        </div>
+    </div>
+</div>

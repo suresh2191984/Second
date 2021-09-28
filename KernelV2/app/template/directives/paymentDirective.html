@@ -1,0 +1,128 @@
+<div class="col-xs-12 col-sm-12 col-md-12">
+    <form name="paymentForm" novalidate>
+        <div class="panel panel-default marginT10">
+            <div class="panel-heading" role="tab" id="headingSix">
+                <a role="button" class="collapsed" data-parent="#accordion" aria-controls="collapseTwo">
+                    <span>PAYMENT DETAILS</span>
+                </a>
+                <div>
+                    <a class="setCurrency">Select Currency Type</a>
+                    <select class="form-control input-xs w-100" ng-model="Payment.PaidCurrencyID" ng-disabled="(Payment.AmtReceived==0 || Payment.AmtReceived==undefined)"
+                            ng-options="grp.CurrencyID as grp.CurrencyCode for grp in objpayment.Currency">
+                        <option value="" disabled> Currency Type</option>
+                    </select>
+                </div>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    
+                                    <select class="form-control input-xs" ng-model="Payment.PaymentType"  ng-disabled="clientData.IsCashClient !='Y'"
+                                            ng-options="PaymentType as PaymentType.PaymentName for PaymentType in objpayment.PaymentType">
+                                        <option value="" disabled> Payment Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 ">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <input type="text" numeric-only class="form-control input-xs" placeholder="Amount *" ng-disabled="(clientData.IsCashClient !='Y') "
+                                           ng-model="Payment.AmtReceived">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2" ng-if="Payment.PaymentType.PaymentTypeID!='1'">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="input-group input-group-xs">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                        <input type="text" class="form-control input-xs" placeholder="BankName *" ng-disabled="(Payment.AmtReceived==0 || Payment.AmtReceived==undefined)"
+                                               ng-model="Payment.BankNameorCardType" typeahead-on-select="setbank()"
+                                               uib-typeahead="grp.BankName as grp.BankName for grp in getbank($viewValue)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2" ng-if="Payment.PaymentType.PaymentTypeID!='1'">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <input type="text" class="form-control input-xs" placeholder="CHEQUE/CARD/DD NO *" ng-disabled="(Payment.AmtReceived==0 || Payment.AmtReceived==undefined)"
+                                           ng-model="Payment.ChequeorCardNumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2" ng-if="Payment.PaymentType.PaymentTypeID==2">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="input-group input-group-xs">
+                                        <date-time-picker ng-model="Payment.ChequeValidDate" dtmaxdate="yes" ng-required="true" name=ChequeValidDate placeholder="Cheque Valid Date *" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <button type="button" class="btn btn-xs btn-success" ng-disabled="(Payment.AmtReceived==0 || Payment.AmtReceived==undefined)  ||  clientData.IsCashClient !='Y'" ng-click="Payment.AmtReceived>0 && AmountReceived()">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive marginB6" ng-show="billDetails.AmountReceivedDetails.length>0">
+                        <table class="table table-condensed table-bordered lab-test-table Noborder-imp">
+                            <thead class="custbdrThead">
+                                <tr>
+                                    <th class="a-center">#</th>
+                                    <th class="a-left">Payment Type</th>
+                                    <th class="a-left">Amount Received</th>
+                                    <th class="a-left">Cheque/Card No.</th>
+                                    <th class="a-left">Bank/Card Type</th>
+                                    <th class="a-left">Cheque Date</th>
+                                    <th class="a-left">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="item in billDetails.AmountReceivedDetails track by $index">
+                                    <td class="a-center">{{$index + 1}} </td>
+                                    <td class="a-left">
+                                        {{::item.PaymentType.PaymentName}}
+                                    </td>
+                                    <td class="a-right">{{::item.AmtReceived|number:2}}</td>
+                                    <td class="a-left">{{::item.ChequeorCardNumber}}</td>
+                                    <td class="a-left">
+                                        {{::item.BankNameorCardType.BankName}}
+                                    </td>
+                                    <td class="a-left">
+                                        {{::item.ChequeValidDate | date : "dd/MM/y"  }}
+                                    </td>
+                                    <td class="center">
+                                        <span>
+                                            <a ng-click="deleteAmountRow($index)" title="delete" class="pointer hreftext"><span class="glyphicon glyphicon-trash"></span></a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot ng-if="billDetails.AmountReceivedDetails.length>0">
+                                <tr>
+                                    <td colspan="2" class="a-right bold">Total Amount Received</td>
+                                    <td class="a-right bold">{{billDetails.AmountReceived|number:2}}</td>
+                                    <td class="a-right bold">Total Cash Refund Amount</td>
+                                    <td class=" a-right bold">{{billDetails.AmountRefund|number:2}}</td>
+                                    <td class=" a-right bold">Due</td>
+                                    <td class=" a-right bold">{{billDetails.Due|number:2}}</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

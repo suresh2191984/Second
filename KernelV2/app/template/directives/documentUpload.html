@@ -1,0 +1,61 @@
+﻿<div id="dynContent" >
+    <div class="col-md-2 hide">
+        <label class="control-label marginT10">
+            File Type
+        </label>
+    </div>
+    <div class="col-md-3 hide" >
+        <div class="col-md-12">
+            <div class="input-group">
+                <input type="text" autocomplete="off" placeholder="File Type" class="form-control input-sm" ng-model="txtFileType"
+                        typeahead-min-length="1" uib-typeahead="objEval as objEval.DisplayText for objEval in getMetaData($viewValue,'FileType')"
+                       uib-typeahead-editable="true" autocomplete="off" maxlength="255">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="col-md-4">
+            <label class="control-label">
+                Documents
+            </label>
+        </div>
+        <div class="col-md-8">
+            <input type="file" class="form-control input-sm"  file-model="uploadfile">
+        </div>
+    </div>
+
+    <div class="col-md-1">
+        <input type="image" name="btnAdd" id="btnAdd" ng-click="addDocuments();" src="../PlatForm/Images/Add.png" style="border-width:0px;width: 24px;height:20px;margin-top:5px;">
+    </div>
+    <div class="col-md-1">
+        <button type="button" class="btn  btn-xs btn-success" ng-click="onAttDocumentScanner()">DocumentScanner</button>
+         
+    </div>
+</div>
+<div class="col-md-12 table-responsive" ng-if="lstDocuments.length>0">
+    <table class="table table-bordered table-hover table-striped" id='tblPerson' border="1"
+           style="border-color: #bbbbbb;">
+        <thead>
+            <tr>
+                <th class="hide">File Type</th>
+                <th>File Name</th>
+                <th>File Format</th>
+                <th>Preview</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="obj in lstDocuments">
+                <td class="hide">{{obj.FileType.DisplayText}}</td>
+                <td>{{obj.File.Name}}</td>
+                <td>{{obj.File.Type}}</td>
+                <td><img ng-src="{{obj.File.Image?obj.File.Image:obj.File.FilePath}}" style="border-width:0px;width: 50px;height:50px;margin-top:5px;" class="docPreview" /></td>
+                <td>
+                    <span class="glyphicon glyphicon-remove-circle" style="cursor:pointer;" ng-click="deleteFiles($index);"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
